@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html class="light" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Classement des Joueurs</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0077c7",
+                        "background-light": "#f5f7f8",
+                        "background-dark": "#0f1b23",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        /* Custom scrollbar hiding for cleaner look on mobile */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        /* Custom mustard yellow for Kabyle theme accents */
+        .text-mustard { color: #EAB308; }
+        .bg-mustard { background-color: #EAB308; }
+        .border-mustard { border-color: #EAB308; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display h-screen flex flex-col overflow-hidden text-[#0c161d] dark:text-white">
+<!-- Top App Bar -->
+<header class="flex items-center p-4 pb-2 justify-between shrink-0 z-20">
+<button class="flex size-12 shrink-0 items-center justify-center rounded-full hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors">
+<span class="material-symbols-outlined" style="font-size: 24px;">arrow_back</span>
+</button>
+<h2 class="text-xl font-bold leading-tight tracking-[-0.015em] flex-1 text-center">Classement</h2>
+<div class="flex size-12 items-center justify-end">
+<button class="flex size-12 shrink-0 items-center justify-center rounded-full hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors">
+<span class="material-symbols-outlined" style="font-size: 24px;">share</span>
+</button>
+</div>
+</header>
+<!-- Main Scrollable Area -->
+<main class="flex-1 overflow-y-auto no-scrollbar pb-32">
+<!-- Filter Chips -->
+<div class="flex justify-center gap-2 p-4">
+<button class="flex h-10 items-center justify-center gap-x-2 rounded-full bg-primary px-6 shadow-lg shadow-primary/20 transition-transform active:scale-95">
+<p class="text-white text-sm font-bold leading-normal">Global</p>
+</button>
+<button class="flex h-10 items-center justify-center gap-x-2 rounded-full bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 px-6 hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors">
+<p class="text-slate-600 dark:text-slate-300 text-sm font-bold leading-normal">Amis</p>
+</button>
+<button class="flex h-10 items-center justify-center gap-x-2 rounded-full bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 px-6 hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors">
+<p class="text-slate-600 dark:text-slate-300 text-sm font-bold leading-normal">Hebdo</p>
+</button>
+</div>
+<!-- Podium Section (Top 3) -->
+<div class="relative pt-8 pb-10 px-4">
+<!-- Decorative Background Pattern -->
+<div class="absolute inset-x-0 top-10 h-48 bg-gradient-to-b from-primary/5 to-transparent rounded-[2.5rem] -z-10"></div>
+<div class="flex items-end justify-center gap-2 sm:gap-6">
+<!-- 2nd Place -->
+<div class="flex flex-col items-center w-1/3">
+<div class="relative mb-3 group cursor-pointer">
+<div class="absolute -top-6 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity text-primary font-bold text-sm">#2</div>
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-20 border-4 border-slate-200 dark:border-slate-600 shadow-xl" data-alt="Portrait of a young woman with curly hair smiling" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuALI91Q-ETyIfxLAYg0r6hkfeMuJ7fwcbwaMdECIdu9f2vapQfdBYFipaEnPJ-NeWTlo6pwRIWULUQYfB-ZGCOT4KTjQGefe1u-TcQEU7rnYtvHbsra1_zzImyMlxWen1IJMoBqFlcj6uIZRd9pAGkjwXP7HIjZH4ZgEW8wibsIBsnnE9_WH45n7TBEOjDqmSVtUFBR6X-T_bgB-fuBtIbdhpdKBM5Kf_voLVbUmiWyXVTHoGQoI4XAG8F-4fodIK4effgrQklgHu8");'>
+</div>
+<div class="absolute -bottom-3 left-1/2 -translate-x-1/2 flex items-center justify-center size-7 rounded-full bg-slate-200 text-slate-700 text-xs font-bold ring-2 ring-white dark:ring-background-dark">
+                            2
+                        </div>
+</div>
+<p class="font-bold text-sm truncate w-full text-center mt-1">Lina B.</p>
+<p class="text-mustard font-bold text-xs">14 250</p>
+</div>
+<!-- 1st Place -->
+<div class="flex flex-col items-center w-1/3 -mt-10 z-10">
+<span class="material-symbols-outlined text-mustard text-5xl mb-1 drop-shadow-sm animate-bounce" style="font-variation-settings: 'FILL' 1;">crown</span>
+<div class="relative mb-3 group cursor-pointer">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-28 border-4 border-mustard shadow-2xl shadow-mustard/30" data-alt="Portrait of a confident young man wearing glasses" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBuoOi5iRD0kYfHms5xQSCN_fAd6t5UlXAj4dITdsIOpAMGUEGd-49PCA0SyO5cGkmrwKe13Do3Gx0D6dI9IHlpATS6y3AWfe2lNPKjvqfnu3qg6vjF2QohN0JzhpO1Jo9Sp5_hBVfc9t_SZ48Hzt9VWcqMu0W6Txz2luKIFRkI_tDIH6mgmtsowB8ORo3Sw4VythYs8NlOo7oFczU582rtSKw25as414Ndn3m-YLunZaVafmfI43fzgay0mIUEs_i1u67g7-BmzQg");'>
+</div>
+<div class="absolute -bottom-4 left-1/2 -translate-x-1/2 flex items-center justify-center size-8 rounded-full bg-mustard text-white text-sm font-bold ring-4 ring-white dark:ring-background-dark">
+                            1
+                        </div>
+</div>
+<p class="font-bold text-lg truncate w-full text-center mt-2">Karim Z.</p>
+<p class="text-mustard font-bold text-sm">18 900</p>
+</div>
+<!-- 3rd Place -->
+<div class="flex flex-col items-center w-1/3">
+<div class="relative mb-3 group cursor-pointer">
+<div class="absolute -top-6 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity text-orange-700 font-bold text-sm">#3</div>
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-20 border-4 border-orange-200 dark:border-orange-900 shadow-xl" data-alt="Portrait of a man with a short beard smiling" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBLi4AKkl0VP9HXkoqCA9CdxOwGBVbxQ9Ve3kzgUKdhyrQvUQUHHzvsxLGSsfLVEPB_LrZqw7JYCFYdmaJXyJutYYo4Sl3iueSTq9Zk1SHRfhNwz8FizZZ7esi0RzUh-WfNDlrZ2OIP3R4KU8J4pV_KHOxOADddusB2J2YIXJIsjUkVq0OQ4luo15o5kQpCqi9X0Xnaz5Bg0kJZCtCw6L1c-uT-kP8oj1zqe5FmJg9o4OR-QPif-M2BQmhMYNXK1963PRXbONKm8bM");'>
+</div>
+<div class="absolute -bottom-3 left-1/2 -translate-x-1/2 flex items-center justify-center size-7 rounded-full bg-orange-200 text-orange-800 text-xs font-bold ring-2 ring-white dark:ring-background-dark">
+                            3
+                        </div>
+</div>
+<p class="font-bold text-sm truncate w-full text-center mt-1">Yacine K.</p>
+<p class="text-mustard font-bold text-xs">12 400</p>
+</div>
+</div>
+</div>
+<!-- Remaining List -->
+<div class="flex flex-col gap-3 px-4">
+<!-- Item 4 -->
+<div class="group flex items-center gap-4 bg-white dark:bg-slate-800 p-3 pl-4 rounded-[20px] shadow-sm hover:shadow-md transition-shadow cursor-pointer">
+<span class="w-6 text-center text-slate-400 font-bold text-sm">4</span>
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-12 w-12" data-alt="Portrait of a woman with braided hair" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDF52iFL56GK3iyQ4w_WHjOI_JPvugXNtgXq9-CXNz6iA9wvWnhmzNPEf--ljTyTEE-pPf2HpfiH8jsnMrtmseIhthHnCRcarmjIvPFbSgjSGKyDCWTHE-KspwdC_bYYl_Ehi-LNEdk2zgV3Xr61iZdSaEIMUdEHC0vz_MV0Mh_U72jUsjiRBowxsW14SUyGaE9NclujBoFuAoVLv4o5syJmUbFAg62wcblg1hMn5KbpAQdMYDlhGTolb6ad-YvsPQpI4AfwC20lNI");'></div>
+<div class="flex-1 min-w-0">
+<p class="text-base font-bold leading-normal truncate">Samia M.</p>
+<p class="text-slate-400 text-xs">Niveau 24</p>
+</div>
+<div class="shrink-0 bg-primary/5 dark:bg-slate-700 px-3 py-1 rounded-full">
+<p class="text-mustard text-sm font-bold leading-normal">11 200 pts</p>
+</div>
+</div>
+<!-- Item 5 -->
+<div class="group flex items-center gap-4 bg-white dark:bg-slate-800 p-3 pl-4 rounded-[20px] shadow-sm hover:shadow-md transition-shadow cursor-pointer">
+<span class="w-6 text-center text-slate-400 font-bold text-sm">5</span>
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-12 w-12" data-alt="Portrait of a smiling man outdoors" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB1mHLc8Odav8znFnQIyTrIIISj6wXi0WmRLbNgdWbwfu8PhmTXYI18VhjjottWYQZsx_qODWUvqr7-AN4v23SjMPuo8WL7KKlfl8waXCoV6SI_tazzMsNUhHShdAPC9_ozZK-gez7UXVAAR8gOpVNY9BBrjahcgQXT7OCvAi-fqJ0okpd_Zvuo-Elm6N3fRAewLJc8iQ02KNiX5G-ordJimsFm4F_6zoBVcCFh4NA0LaQLml6Y_4SdyCtZXWouwMChtLG9OjXz2Xc");'></div>
+<div class="flex-1 min-w-0">
+<p class="text-base font-bold leading-normal truncate">Mehdi A.</p>
+<p class="text-slate-400 text-xs">Niveau 22</p>
+</div>
+<div class="shrink-0 bg-primary/5 dark:bg-slate-700 px-3 py-1 rounded-full">
+<p class="text-mustard text-sm font-bold leading-normal">10 850 pts</p>
+</div>
+</div>
+<!-- Item 6 -->
+<div class="group flex items-center gap-4 bg-white dark:bg-slate-800 p-3 pl-4 rounded-[20px] shadow-sm hover:shadow-md transition-shadow cursor-pointer">
+<span class="w-6 text-center text-slate-400 font-bold text-sm">6</span>
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-12 w-12" data-alt="Abstract colorful gradient avatar" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCI4VnhG1j8_hCnGZuyEhp5qVQrZSwgqWlHFEaUmynfNn6TkV3cAPvTg8Wwx6v1Pj2NBOe3vK8EHbnvId64xjeJd1YPFtQYEiSCkmCaK7qIXFzxdU2gSRbrEuzbgT5b42syiLxmqs-8aKSgUHVl_ZQRXcKI4x7GTebwHFZSxqmvvoZ7ORc4lDTL0H5NsH8Wf8Fx3u0iEZe-PP3LGXZBh7rl4w-XUu73EBPN3E6lW6Ol15bQb7CjNjGCcjl8vChqi6QkRjGtzdLYQ-4");'></div>
+<div class="flex-1 min-w-0">
+<p class="text-base font-bold leading-normal truncate">Sonia R.</p>
+<p class="text-slate-400 text-xs">Niveau 20</p>
+</div>
+<div class="shrink-0 bg-primary/5 dark:bg-slate-700 px-3 py-1 rounded-full">
+<p class="text-mustard text-sm font-bold leading-normal">9 420 pts</p>
+</div>
+</div>
+<!-- Item 7 -->
+<div class="group flex items-center gap-4 bg-white dark:bg-slate-800 p-3 pl-4 rounded-[20px] shadow-sm hover:shadow-md transition-shadow cursor-pointer">
+<span class="w-6 text-center text-slate-400 font-bold text-sm">7</span>
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-12 w-12" data-alt="Portrait of a young man with headphones" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBe5qZPDhZ-LA1cccOMlBaenXrsLTHbuMKatmh3d7AoXBZ8LkMMxjWV9qvIs8Hx02_yanKHqH5GP9jaYZuf2LY4JEm81A1y7f_YUUUoTfs_FE9u8s7JGrNLPbPtSJFj0WIeo0ZASmtU9-_u2KIDH_2GnuwxgLIdH0dA_rzjT8rCj7wZRbFJPJR3PQdPXTz7Z45rTtA-nYZINfr0CJSeq9IRReQ9jAAZ4JIwRanjeWPW_XeaaKisJV9zJQm4-zKyT54fhMiXdZlJVFU");'></div>
+<div class="flex-1 min-w-0">
+<p class="text-base font-bold leading-normal truncate">Farid T.</p>
+<p class="text-slate-400 text-xs">Niveau 19</p>
+</div>
+<div class="shrink-0 bg-primary/5 dark:bg-slate-700 px-3 py-1 rounded-full">
+<p class="text-mustard text-sm font-bold leading-normal">8 900 pts</p>
+</div>
+</div>
+</div>
+</main>
+<!-- Sticky User Rank (Footer) -->
+<footer class="absolute bottom-0 inset-x-0 z-30">
+<!-- Floating Action Button (Optional interactive element) -->
+<div class="absolute -top-6 right-6">
+<button class="flex items-center justify-center size-14 rounded-full bg-mustard text-white shadow-lg hover:bg-yellow-500 transition-colors">
+<span class="material-symbols-outlined" style="font-size: 28px;">swords</span>
+</button>
+</div>
+<!-- User Card -->
+<div class="bg-white dark:bg-slate-900 rounded-t-[32px] shadow-[0_-10px_40px_rgba(0,0,0,0.1)] p-4 pb-8 border-t border-slate-100 dark:border-slate-800">
+<div class="flex items-center gap-4 bg-primary/10 dark:bg-slate-800 p-3 pl-4 rounded-[20px] border border-primary/20 relative overflow-hidden">
+<!-- Highlight Indicator -->
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-primary"></div>
+<div class="flex flex-col items-center justify-center w-8">
+<span class="material-symbols-outlined text-primary text-sm">expand_less</span>
+<span class="text-center text-primary font-black text-lg -mt-1">42</span>
+</div>
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-12 w-12 ring-2 ring-white dark:ring-slate-700 shadow-sm" data-alt="Your profile picture, a smiling person" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCk-aGikEycNInHjb15FFuIlA37LdvCd1YHB6PKJYEOu4o-JSflP5YlZJE2eZoJ5tAlxJR2p7JiixD4to_BlJPO5FlFB4TqTB1bBlpGMdL6RkWPcvM3Xn8hhp_qBBSwHBqXevFEMJ4iYgJPWFk94rMEQuLWvDUGqmSm7XgLHb7WpuR1Ao1cDqmdHWFjvqdl9SOwsL0yUhNsePvhpoyFl5v6enqJ7mwGwhXKW34mX2c8t9w7HiKWBmfRfxsHAv429py9Ybq36WZhgx8");'></div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center gap-1">
+<p class="text-base font-bold leading-normal truncate text-slate-900 dark:text-white">Moi (Amine)</p>
+<span class="bg-primary text-white text-[10px] px-1.5 py-0.5 rounded-full font-bold">YOU</span>
+</div>
+<p class="text-slate-500 dark:text-slate-400 text-xs">Top 15%</p>
+</div>
+<div class="shrink-0 text-right pr-2">
+<p class="text-mustard text-lg font-black leading-tight">5 430</p>
+<p class="text-primary text-[10px] font-bold uppercase tracking-wider">pts</p>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

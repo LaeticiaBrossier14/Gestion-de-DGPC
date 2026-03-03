@@ -1,0 +1,293 @@
+# =============================================================
+# Template Bank — Extracted from 97 Real Emergency Calls
+# =============================================================
+# Each template uses {slot} placeholders filled by the assembler.
+# Weights approximate real-data frequency distributions.
+
+# ----------------------------------------------------------
+# 1. GREETINGS  (how callers open the call)
+# ----------------------------------------------------------
+greetings:
+  # Allo variants — 60% of real calls
+  - text: "Allo?"
+    weight: 30
+  - text: "Allo, salam alaykoum."
+    weight: 10
+  - text: "Allo l'pompiers?"
+    weight: 8
+  - text: "Allo l'ambulance?"
+    weight: 5
+  - text: "Allo l'7imaya oui?"
+    weight: 4
+  - text: "Allo, salam alaykoum, {service}?"
+    weight: 3
+
+  # Salam variants — 37% of real calls
+  - text: "Salam alaykoum."
+    weight: 8
+  - text: "Salamou 3alaykoum."
+    weight: 5
+  - text: "Assalamou 3alaykoum."
+    weight: 3
+  - text: "S-salam alaykoum."
+    weight: 2
+
+  # Azul / Time-based — rare (3%)
+  - text: "Azul fell-awen."
+    weight: 1
+  - text: "Sba7 lkhir."
+    weight: 1
+  - text: "Msa lkhir."
+    weight: 1
+
+# ----------------------------------------------------------
+# 2. SERVICE IDENTIFICATION  (who the caller wants)
+# ----------------------------------------------------------
+service_identification:
+  - text: "les pompiers n {commune}?"
+    weight: 20
+  - text: "les pompiers?"
+    weight: 16
+  - text: "l'ambulance?"
+    weight: 14
+  - text: "l'himaya oui?"
+    weight: 5
+  - text: "l'7imaya?"
+    weight: 4
+  - text: "protection civile?"
+    weight: 4
+  - text: "Hmayai oui?"
+    weight: 1
+
+# ----------------------------------------------------------
+# 3. INCIDENT DESCRIPTIONS  (core of the call)
+# ----------------------------------------------------------
+describe_incident:
+  medical:
+    - text: "nes3a {victim} dayi {location_phrase}, {medical_detail}."
+      weight: 10
+    - text: "{victim} {verb_fall} g {location_phrase}."
+      weight: 8
+    - text: "attan {victim} dayi, {medical_detail}."
+      weight: 5
+    - text: "{victim} ihlek g {location_phrase}."
+      weight: 4
+    - text: "yella yiwen l'malade dayi g {location_phrase}, {medical_detail}."
+      weight: 4
+    - text: "nes3a un malade dayi {verb_fall} g {location_phrase}."
+      weight: 3
+
+  accident:
+    - text: "thella une accident g {location_phrase}, {accident_detail}."
+      weight: 8
+    - text: "yiwen {vehicle} t-déraper g {location_phrase}."
+      weight: 5
+    - text: "nes3a un accident g {location_phrase}."
+      weight: 5
+    - text: "une accident {vehicle} g {location_phrase}, {accident_detail}."
+      weight: 4
+    - text: "{vehicle} cha3let g {location_phrase}."
+      weight: 2
+
+  fire:
+    - text: "tche3l {fire_source} g {location_phrase}."
+      weight: 5
+    - text: "che3ldayi g {fire_source}, g {location_phrase}."
+      weight: 3
+    - text: "thmes the3req g {location_phrase}."
+      weight: 2
+    - text: "ich3el l'nar g {fire_source}, {location_phrase}."
+      weight: 2
+
+  drowning:
+    - text: "yiwen {verb_drown} g {water_body}, g {location_phrase}."
+      weight: 3
+    - text: "yeghleq deg waman g {water_body}, {location_phrase}."
+      weight: 3
+    - text: "yiwen ighlibedd deg {water_body}, {location_phrase}."
+      weight: 2
+
+  assault:
+    - text: "yella yiwen yewwet-it g {location_phrase}."
+      weight: 3
+    - text: "yella l'bagarre g {location_phrase}, {assault_detail}."
+      weight: 3
+    - text: "yiwen i-wten g {location_phrase}, {assault_detail}."
+      weight: 2
+
+  structural_collapse:
+    - text: "yeghli l'{structure} g {location_phrase}."
+      weight: 3
+    - text: "nes3a un effondrement g {location_phrase}, {collapse_detail}."
+      weight: 2
+    - text: "yeghli l'7iḍ g {location_phrase}."
+      weight: 2
+
+# ----------------------------------------------------------
+# 4. VICTIM STATE DESCRIPTIONS
+# ----------------------------------------------------------
+victim_state:
+  conscious:
+    - "aqli-t i-hedder"           # il parle
+    - "mazal-it"                  # il est encore conscient
+    - "mazal-it i-hedder"         # il parle encore
+  unconscious:
+    - "il est inconscient"        # FR — very common
+    - "idoukh"                    # il est étourdi
+    - "theghli g lqa3a"           # elle est tombée par terre
+  breathing:
+    - "t-nuffes"                  # il/elle respire
+    - "it-respirer-ara mlih"      # il ne respire pas bien (hybride!)
+    - "il respire mal"            # FR
+  severe:
+    - "teffas s't-kuffa"          # il mousse par la bouche
+    - "ihlalek mlih"              # il est très malade
+    - "l'état-ines dégradé"       # son état s'est dégradé
+    - "urgent mlih mlih"          # très très urgent
+  bleeding:
+    - "iddem i-ttazal"            # le sang coule
+    - "yergh-as idammen"          # il saigne
+
+# ----------------------------------------------------------
+# 5. LOCATION EXPRESSIONS
+# ----------------------------------------------------------
+location_phrases:
+  urban:
+    - "g {cite} {commune}."
+    - "deg {nombre} logements, l'bloc {bloc_num}."
+    - "g {quartier}, {commune}."
+    - "athan g {cite}, {repere}."
+  road:
+    - "g {route}, {commune}."
+    - "souf l'pont n {lieu}."
+    - "f l'piste n {lieu}."
+    - "avrid n {lieu}."
+  rural:
+    - "g {village}, {commune}."
+    - "g {riviere}, {lieu}."
+    - "g l'plage n {lieu}."
+
+location_prepositions:
+  near: ["zdat", "attan g", "hedha", "qbel"]
+  inside: ["s-dakhel", "g-dakhel", "dakhel"]
+  above: ["senig", "ussawen"]
+  below: ["uksar", "souf"]
+
+# ----------------------------------------------------------
+# 6. OPERATOR QUESTIONS  (what operators ask)
+# ----------------------------------------------------------
+operator_questions:
+  location:
+    - "Anda?"
+    - "Anwa amkan?"
+    - "Anida?"
+    - "Wash-n la commune?"
+    - "Deg {commune}-nni?"
+  nature:
+    - "Dachu i-yuɣen?"
+    - "Dachu yellan?"
+    - "Achu gellan?"
+    - "Dachu i-yuwen?"
+  victim:
+    - "Sh7al i gellan?"
+    - "Amek l'état-ines?"
+    - "T-nuffes? Machi?"
+    - "Ila-as-en vie?"
+  confirm:
+    - "D'accord."
+    - "An3am."
+    - "Atura sensiwlegh."
+    - "Atura at-le7qed l'ambulance."
+    - "Aqla-gh n-teddu-d."
+  redirect:
+    - "Ak-d-fka l'numéro n {dest}."
+    - "Marquér-d le numéro n les pompiers n {dest}."
+    - "Marki ghorek: {phone}."
+
+# ----------------------------------------------------------
+# 7. CLOSINGS  (how calls end)
+# ----------------------------------------------------------
+closings:
+  - text: "Saha, saha."
+    weight: 15
+  - text: "D'accord, sahit."
+    weight: 12
+  - text: "D'accord, saha."
+    weight: 10
+  - text: "Sa7it."
+    weight: 8
+  - text: "Ya3tik sa7a."
+    weight: 5
+  - text: "Rebbi i3awn-ik."
+    weight: 3
+  - text: "BarakAllahou fik."
+    weight: 3
+  - text: "Sahit, tanmirt."
+    weight: 2
+  - text: "Bon courage, saha."
+    weight: 1
+
+# ----------------------------------------------------------
+# 8. AFFIRMATIONS / CONFIRMATIONS
+# ----------------------------------------------------------
+affirmations:
+  - text: "d'accord"
+    weight: 40   # quasi-universal
+  - text: "an3am"
+    weight: 15
+  - text: "ih"
+    weight: 12
+  - text: "oui"
+    weight: 8
+  - text: "iyeh"
+    weight: 3
+  - text: "ouais"
+    weight: 1
+
+# ----------------------------------------------------------
+# 9. TERMS OF ADDRESS
+# ----------------------------------------------------------
+address_terms:
+  polite:
+    - "a Madame"
+    - "a sidi"
+    - "a 7bib"
+  familiar:
+    - "agma"            # brother (kabyle)
+    - "khouya"          # brother (arabic)
+    - "khoya"           # brother (arabic variant)
+  pleading:
+    - "la3nayek"        # please
+    - "ma3liche"        # excuse me / please
+
+# ----------------------------------------------------------
+# 10. MEDICAL TERMS (always kept in French or code-switched)
+# ----------------------------------------------------------
+medical_vocabulary:
+  conditions:
+    - "crise n'wul"           # cardiac crisis
+    - "crise cardiaque"       # FR
+    - "l'tension sighlin"     # blood pressure dropped
+    - "crise d'asthme"        # asthma
+    - "crise d'épilepsie"     # epilepsy
+    - "l'hémorragie"          # hemorrhage
+    - "l'fracture"            # fracture
+    - "brûlures"              # burns
+    - "l'noyade"              # drowning
+  requests:
+    - "l'ambulance"           # ambulance (always FR)
+    - "l'oxygène"             # oxygen
+    - "l'brancard"            # stretcher
+    - "sbitar"                # hospital (kabylised)
+    - "les premiers secours"  # first aid
+
+# ----------------------------------------------------------
+# 11. VEHICLE TYPES  (for accident scenarios)
+# ----------------------------------------------------------
+vehicles:
+  - "tomobil"                   # car (kabylised)
+  - "l'camion"                  # truck
+  - "moto"                      # motorcycle
+  - "bus"                       # bus
+  - "fourgon"                   # van
+  - "véhicule léger"            # light vehicle

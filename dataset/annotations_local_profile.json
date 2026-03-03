@@ -1,0 +1,116 @@
+{
+  "rows_total": 356,
+  "rows_empty_transcription": 0,
+  "rows_mojibake": 0,
+  "two_speaker_like": {
+    "count": 306,
+    "ratio": 0.8596
+  },
+  "word_stats": {
+    "mean": 64.38,
+    "median": 55,
+    "min": 4,
+    "max": 242
+  },
+  "char_stats": {
+    "mean": 429.29,
+    "median": 363,
+    "min": 33,
+    "max": 1893
+  },
+  "incident_distribution": {
+    "medical_emergency": 172,
+    "accident_vehicular": 57,
+    "other": 33,
+    "fire_building": 25,
+    "unknown": 17,
+    "accident_pedestrian": 11,
+    "assault_violence": 10,
+    "fire_forest": 8,
+    "hazmat": 8,
+    "structural_collapse": 5,
+    "fire_vehicle": 4,
+    "drowning": 4,
+    "natural_disaster": 1,
+    "lost_person": 1
+  },
+  "intent_distribution": {
+    "report_incident": 216,
+    "request_help": 129,
+    "false_alarm": 5,
+    "other": 4,
+    "update_info": 2
+  },
+  "urgency_distribution": {
+    "high": 250,
+    "medium": 41,
+    "critical": 30,
+    "unknown": 20,
+    "low": 15
+  },
+  "source_distribution": {
+    "400annotations_local.csv": 356
+  },
+  "dialect_markers": {
+    "allo": {
+      "count": 193,
+      "ratio": 0.5421
+    },
+    "salam": {
+      "count": 103,
+      "ratio": 0.2893
+    },
+    "an3am": {
+      "count": 69,
+      "ratio": 0.1938
+    },
+    "ih_iyeh": {
+      "count": 76,
+      "ratio": 0.2135
+    },
+    "dayi": {
+      "count": 85,
+      "ratio": 0.2388
+    },
+    "dagi": {
+      "count": 47,
+      "ratio": 0.132
+    },
+    "tura": {
+      "count": 39,
+      "ratio": 0.1096
+    },
+    "khati": {
+      "count": 31,
+      "ratio": 0.0871
+    },
+    "machi": {
+      "count": 32,
+      "ratio": 0.0899
+    },
+    "ulach_wlach": {
+      "count": 8,
+      "ratio": 0.0225
+    },
+    "ur_ara": {
+      "count": 13,
+      "ratio": 0.0365
+    },
+    "ghli": {
+      "count": 28,
+      "ratio": 0.0787
+    },
+    "nuffes_resp": {
+      "count": 13,
+      "ratio": 0.0365
+    },
+    "l_ambulance": {
+      "count": 79,
+      "ratio": 0.2219
+    },
+    "l_pompiers": {
+      "count": 82,
+      "ratio": 0.2303
+    }
+  }
+}

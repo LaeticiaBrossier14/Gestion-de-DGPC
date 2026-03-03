@@ -1,0 +1,306 @@
+VOCABULAIRE_MEDICAL_FR = {
+
+    # États physiques
+    "blesse": ["ijreh","inter",
+        # ex: "blessé", "il est blessé", ...
+    ],
+
+    "brule": ["irgha","ihreq","ihdeq"        # ex: "brûlé", "il a été brûlé", ...
+    ],
+
+    "coince": ["ihssel","itwatef","iwhel",
+        # ex: "coincé", "il est coincé", ...
+    ],
+
+    "respire": ["respiri", "issnoufouss",
+        # ex: "il respire", "respiration normale", ...
+    ],
+
+    "respire_pas": ["i
+        # ex: "il ne respire pas", "pas de respiration", ...
+    ],
+
+    "conscient": ["idekwaled","ye3lem","yezra"
+        # ex: "il est conscient", "il parle", ...
+    ],
+
+    "inconscient": ["idoukh","coma","issmleli","issker",
+        # ex: "il est inconscient", "il ne répond pas", ...
+    ],
+
+    "mort": ["imuth","i3fou fellasse",
+        # ex: "il est mort", "décédé", ...
+    ],
+
+    "vivant": ["ider","itt3ich"
+        # ex: "il est vivant", "encore en vie", ...
+    ],
+
+    "saigne":["teddan idamen", "teddun idamen", "ijreh",
+        # ex: "il saigne", "beaucoup de sang", ...
+    ],
+
+    "casse": ["irez","irveh",
+        # ex: "bras cassé", "fracture", ...
+    ],
+
+    "tombe": ["ighli","i3ther","indeqach",
+        # ex: "il est tombé", "chute", ...
+    ],
+
+    # Détresse / urgence
+    "douleur": ["itwaqrah", "itwa3tab"
+        # ex: "il a mal", "fortes douleurs", ...
+    ],
+
+   
+
+    "etouffe": ["idaq","ichheq","irouhasse nefss", "itoufi"
+        # ex: "il s'étouffe", "il manque d'air", ...
+    ],
+
+    "crise_cardiaque": ["ihbess wouliss",
+        # ex: "crise cardiaque", "arrêt du cœur", ...
+    ],
+
+    "crise_epilepsie": ["itwassra3","tetfith la crise"
+        # ex: "crise d'épilepsie", "convulsions", ...
+    ],
+
+    "accident_route": ["accident",
+        # ex: "accident de voiture", "collision", ...
+    ],
+
+    "incendie": ["tmesst","3afia","3afif","lehriq","timessth",
+        # ex: "incendie", "feu", ...
+    ],
+
+    "explosion": ["terteq","infijar","iterteq","tebombi"
+        # ex: "explosion", "bouteille de gaz", ...
+    ],
+
+    # Victimes
+    "une_personne": ["L3ebd","bnadem","inssan","wahed","yiwen","yiweth","tichth"
+        # ex: "une seule personne", ...
+    ],
+
+    "plusieurs_personnes": ["l3ibad","Lghachi","bezzaf l3ibad" , "atass l3ibad", "khilla lghachi","bezzaf lghachi","hawla"
+        # ex: "plusieurs victimes", ...
+    ],
+
+    "enfant": ["agroud","aqrour","amechtouh","aqchcih amezayane" ,"ilemzi","abébé","weld","emi",
+        # ex: "un enfant", "bébé", ...
+    ],
+
+    "personne_agee": ["amghar","amqrane","achibane","alhadj","chikh",
+        # ex: "personne âgée", "vieillard", ...
+    ],
+
+    # Localisation (très important pour ton mémoire)
+    "a_domicile": ["sakham","gamkan"
+        # ex: "à la maison", "chez lui", ...
+    ],
+
+    "sur_route": ["gebrid","fetriq","autoroute","zeth abrid" , "ssedaw webrid"
+        # ex: "sur la route", "autoroute", ...
+    ],
+
+    "en_montagne": ["adrar","tazga", "idurar", "lghaba","dewar","tamourth", "tadarth", 
+        # ex: "montagne", "forêt", ...
+    ],
+
+    "en_mer": ["lebher" , "chet",
+        # ex: "en mer", "plage", ...
+    ],
+VOCABULAIRE_MEDICAL_FR = {
+
+    # ======================
+    # ÉTATS VITAUX
+    # ======================
+
+    "respire_difficilement": ["ichneq", "ikhneq" , "itwakhnaq", "itdiq", "sethmara iditara nehtha", "bessif itrisspiri"
+        # ex: "il respire mal", "il a du mal à respirer"
+    ],
+
+    
+   
+    "pouls_faible": ["idaqass nefess"
+        # ex: "son pouls est faible"
+    ],
+
+    "temperature_elevee": ["tawla", "timesst","ihma","tehma","harara","irgha"
+        # ex: "il a de la fièvre", "très chaud"
+    ],
+
+    "hypothermie": ["icongli", "inghath oussemit" , "oussemid","abehri","avehri","issemet"
+        # ex: "il est très froid", "il tremble beaucoup"
+    ],
+
+    # ======================
+    # BLESSURES / TRAUMAS
+    # ======================
+
+    "traumatisme_tete": ["itwath ar qourouy", "ihbess lmoukhiss", "ichoki","ikhle3",
+        # ex: "il s'est cogné la tête", "choc à la tête"
+    ],
+
+    "plaie_ouverte": [
+        # ex: "plaie ouverte", "chair visible"
+    ],
+
+    "hemorragie": ["ljerh","itazal idamen","itissiq didamen","teddoun idamen",
+        # ex: "beaucoup de sang", "le sang coule fort"
+    ],
+
+    "brulure_grave": ["ighra" ,"inter","irgha mlih", "ihreq mlih"
+        # ex: "brûlure grave", "peau arrachée"
+    ],
+
+    "fracture_ouverte": ["irez","irveh","idegdeg","iqret",
+        # ex: "os visible", "fracture ouverte"
+    ],
+
+    "ecrasement": ["itwacrazi","izdgedgith","idegdeg","icrazi","isslefghith",
+        # ex: "écrasé sous", "bloqué sous un objet"
+    ],
+
+    # ======================
+    # ACCIDENTS
+    # ======================
+
+    "accident_travail": ["accident gukhedim" , "ighli gel khedma","accident nel khedma", 
+        # ex: "accident au travail", "chantier"
+    ],
+
+    "accident_domestique": ["ighli gukham " , "ihnoucheye", "i3ther","indeqach"
+        # ex: "chute à la maison", "accident domestique"
+    ],
+
+    "accident_moto": ["accident sa moto ", "accident s vélo", 
+        # ex: "accident de moto", "chute de moto"
+    ],
+
+    "accident_voiture": ["accident tonobil", 
+        # ex: "accident de voiture", "collision"
+    ],
+
+    "accident_camion": ["accident n camion" , "accident n semi", 'accident sussumi", "accident h100"
+        # ex: "camion renversé", "accident poids lourd"
+    ],
+
+    # ======================
+    # INCENDIE / RISQUES
+    # ======================
+
+    "fumee": ["doukhan","dekhan",
+        # ex: "beaucoup de fumée", "fumée noire"
+    ],
+
+    "gaz": ["gaz","riha nel gaz", "fuite de gaz" , "
+        # ex: "fuite de gaz", "odeur de gaz"
+    ],
+
+    "electrocution": ["tewthith trissiti", "tsser3ith", "tsserghith"
+        # ex: "électrocuté", "choc électrique"
+    ],
+
+    "effondrement": ["ighlid woukham", "idrem oukham" "irab oukham ", "issakh oukham", "iherek oukham",
+        # ex: "maison effondrée", "mur tombé"
+    ],
+
+    "inondation": ["ikouli aman","amhemal n waman", "hemlend waman"
+        # ex: "inondation", "eau partout"
+    ],
+
+    "glissement_terrain": ["assikh wakal" "iherek wakal", "issakh wkal","tssakh lqa3a", "tehrek lqa3a"
+        # ex: "glissement de terrain", "terrain a bougé"
+    ],
+
+    # ======================
+    # COMPORTEMENT / ETAT PSY
+    # ======================
+
+    "panique": ["itergigi sel khel3a ", "ikhele3","ifja3","ij3er","
+        # ex: "il panique", "il crie"
+    ],
+
+    "confusion": ["ifehmara","iterouch", "ifrith le3qel" ,'amheboul","imoukhekhel"
+        # ex: "il est confus", "il ne comprend pas"
+    ],
+
+    "agressif": ["agressif", "imghoundef", "iw3er", "isset", "ihbel", "itcha dounith" , "iraji", 
+VOCABULAIRE_MEDICAL_FR_SUITE = {
+
+    # ======================
+    # EVACUATION / INTERVENTION
+    # ======================
+
+    "besoin_ambulance": ["nehwaj l'ambulance","chey3emd l'ambulance", "netnadi l'ambulance" , "nebra l'aumblance", "obliger l'ambulance" , "chey3emd l'ambulance",
+        # ex: "il faut une ambulance", "envoyez une ambulance"
+    ],
+
+    "besoin_pompiers": ["nhewaj pompier", "ilaq les pompiers" , "netnad les pompiers" , "chey3emd les pompiers ", "khoussen les pompier" , "la3ith i les pompiers " 
+        # ex: "il faut les pompiers", "feu à maîtriser"
+    ],
+
+    "besoin_police": ["la3imth i la police" , "la3id i la police ", "ssawlemth i la police " ,"ehder i la police" , "eghreth i la police" , "3eyet i la police", "nadith i la police" 
+        # ex: "appelez la police", "bagarre"
+    ],
+
+    "evacuation_urgente": ["frem ikel" , "rewlem" , "efrem" , "rouhem" , "be3dem" , "wekhrem ssina" , 
+        # ex: "il faut évacuer", "sortir tout le monde"
+    ],
+
+    "personne_bloquee": ["iwhel" , "ihssel" , "ihwaj lem3awna" , "ikwanssi" , "ibele3 fellase" , 
+        # ex: "personne bloquée", "coincée à l'intérieur"
+    ],
+
+    "sauvetage": ["sselkiyi", "3awniyi", "zegriyid ighil", "fkiyid afuss" , "afud n m3awna "
+        # ex: "sauvetage", "secours"
+    ],
+
+    # ======================
+    # METEO / CONDITIONS
+    # ======================
+
+    "pluie_forte": ["gira", "lehwa", "aghebar","agfour",
+        # ex: "forte pluie", "orage"
+    ],
+
+    "vent_fort": ["abehri", "atu", "adu", 
+        # ex: "vent violent", "tempête"
+    ],
+
+    "neige": ["hesslen gedfel","adfel", 
+        # ex: "neige", "route bloquée"
+    ],
+
+    "chaleur_extreme": [
+        # ex: "très chaud", "canicule"
+    ],
+
+    "mauvaise_visibilite": ["italayara bien" , "ouditbinara bien " , "koulech flou" , "inqess oussekoud", "twalayrara bien " , "oulach la visibilité",
+        # ex: "on ne voit rien", "brouillard"
+    ],
+
+    # ======================
+    # MER / COTE (très Béjaïa)
+    # ======================
+
+    "noyade": ["ighreq", "irghreq" , "itchath lebher" , 
+        # ex: "quelqu'un se noie", "noyade"
+    ],
+
+    "personne_emportee_mer": ["itchath lebher" , "ighder", "iwith lebher","ighreq",
+        # ex: "emporté par la mer", "vague"
+    ],
+
+    "bateau_detresse": ["babour en panne", "babour itedara", "timesst gel babour"
+        # ex: "bateau en difficulté", "moteur en panne"
+    ],
+
+    "pl
+
+        # ex: "il est agressif", "
+
+}

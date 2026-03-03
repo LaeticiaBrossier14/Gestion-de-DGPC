@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html class="light" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Profil Utilisateur Gamifié</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+            extend: {
+                colors: {
+                "primary": "#0077c7", // Azure Blue
+                "secondary": "#f0b90b", // Mustard Yellow for points/bonus
+                "background-light": "#f5f7f8", // Off-white
+                "background-dark": "#0f1b23",
+                "surface-light": "#ffffff",
+                "surface-dark": "#1a2c38",
+                },
+                fontFamily: {
+                "display": ["Plus Jakarta Sans", "sans-serif"]
+                },
+                borderRadius: {
+                    "DEFAULT": "1.25rem", // 20px as requested
+                    "lg": "2rem", 
+                    "xl": "3rem", 
+                    "full": "9999px"
+                },
+                boxShadow: {
+                    'soft': '0 4px 20px -2px rgba(0, 0, 0, 0.05)',
+                }
+            },
+            },
+        }
+    </script>
+<style>
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        /* Hide scrollbar for IE, Edge and Firefox */
+        .no-scrollbar {
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+        .kabyle-pattern {
+            background-color: #f5f7f8;
+            background-image: radial-gradient(#0077c7 0.5px, transparent 0.5px), radial-gradient(#0077c7 0.5px, #f5f7f8 0.5px);
+            background-size: 20px 20px;
+            background-position: 0 0, 10px 10px;
+            opacity: 0.1;
+        }
+        .dark .kabyle-pattern {
+            background-color: #0f1b23;
+            background-image: radial-gradient(#0077c7 0.5px, transparent 0.5px), radial-gradient(#0077c7 0.5px, #0f1b23 0.5px);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-white transition-colors duration-200">
+<div class="relative flex h-full min-h-screen w-full flex-col max-w-md mx-auto overflow-x-hidden bg-background-light dark:bg-background-dark shadow-2xl">
+<!-- Background Pattern -->
+<div class="absolute inset-0 kabyle-pattern z-0 pointer-events-none"></div>
+<!-- Top App Bar -->
+<div class="relative z-10 flex flex-col gap-2 p-4 pb-2">
+<div class="flex items-center h-12 justify-between">
+<button class="text-slate-900 dark:text-white flex size-12 shrink-0 items-center justify-center rounded-full hover:bg-black/5 dark:hover:bg-white/10 transition-colors">
+<span class="material-symbols-outlined text-[28px]">arrow_back</span>
+</button>
+<div class="flex items-center justify-end">
+<button class="text-primary hover:text-primary/80 text-base font-bold leading-normal tracking-[0.015em] shrink-0 px-4 py-2 rounded-full hover:bg-primary/10 transition-colors">
+                        Modifier
+                    </button>
+</div>
+</div>
+<h1 class="text-slate-900 dark:text-white tracking-tight text-[32px] font-extrabold leading-tight pl-2">Mon Profil</h1>
+</div>
+<!-- Profile Header -->
+<div class="relative z-10 flex px-4 pt-2 pb-6 flex-col items-center">
+<div class="relative group">
+<div class="bg-center bg-no-repeat bg-cover rounded-full h-32 w-32 border-4 border-white dark:border-surface-dark shadow-soft" data-alt="Avatar of a smiling young man with artistic colorful background" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuATqpuM16QS3rUA2fsrlNJggc-y_OAWAApU1ksaDbYfoDBfN6fSrrJxHYLrDahDXN0QVpfct0iNsF_5uSiO3R4_0Zk_lGLwPFbtrAkw9p-z_CWmhBJR5guzttEAx9Wq5kZ5Q-0ZjpCWCJq3_Z3C_inpDKLLytUlnzByZuhnLAdJi7xEKTfHpi14SCO8fPcLGhuin7Ao_73ItlxrG7CYdiGTL5GArlVErcctK8xyRWjZ-w4UHPFLxFLXimVcbKP47557bihVViVv1Po");'>
+</div>
+<button class="absolute bottom-0 right-0 bg-primary text-white p-2 rounded-full border-4 border-background-light dark:border-background-dark flex items-center justify-center shadow-lg">
+<span class="material-symbols-outlined text-[20px]">edit</span>
+</button>
+</div>
+<div class="mt-4 flex flex-col items-center">
+<h2 class="text-slate-900 dark:text-white text-2xl font-bold leading-tight tracking-tight text-center">Amayas_Dz</h2>
+<div class="flex items-center gap-2 mt-1">
+<span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-bold">Niveau 12</span>
+<span class="text-slate-500 dark:text-slate-400 text-sm font-medium">Explorateur</span>
+</div>
+<p class="text-slate-400 dark:text-slate-500 text-xs font-medium mt-2">Membre depuis 2023</p>
+</div>
+</div>
+<!-- Progress Bar -->
+<div class="relative z-10 flex flex-col gap-3 px-6 py-2">
+<div class="flex gap-6 justify-between items-end">
+<p class="text-slate-900 dark:text-white text-base font-bold leading-normal">Progression XP</p>
+<p class="text-primary text-sm font-bold leading-normal">2450 <span class="text-slate-400 font-normal">/ 3000 XP</span></p>
+</div>
+<div class="rounded-full bg-slate-200 dark:bg-slate-700 h-4 w-full overflow-hidden">
+<div class="h-full rounded-full bg-primary flex items-center justify-end pr-1" style="width: 75%;">
+<div class="h-1.5 w-1.5 bg-white/50 rounded-full mr-1"></div>
+</div>
+</div>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-medium leading-normal text-center mt-1">Plus que <span class="text-primary font-bold">550 XP</span> pour le niveau 13 !</p>
+</div>
+<!-- Stats Grid -->
+<div class="relative z-10 flex flex-wrap gap-4 p-6">
+<!-- Points Card (Mustard Yellow Highlight) -->
+<div class="flex min-w-[140px] flex-1 flex-col gap-3 rounded bg-surface-light dark:bg-surface-dark p-5 shadow-soft border border-slate-100 dark:border-slate-800">
+<div class="flex items-center gap-2">
+<div class="p-2 bg-secondary/10 rounded-full text-secondary">
+<span class="material-symbols-outlined">star</span>
+</div>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-bold uppercase tracking-wider">Points</p>
+</div>
+<p class="text-secondary tracking-tight text-3xl font-extrabold leading-tight">12,450</p>
+</div>
+<!-- Victoires Card -->
+<div class="flex min-w-[140px] flex-1 flex-col gap-3 rounded bg-surface-light dark:bg-surface-dark p-5 shadow-soft border border-slate-100 dark:border-slate-800">
+<div class="flex items-center gap-2">
+<div class="p-2 bg-primary/10 rounded-full text-primary">
+<span class="material-symbols-outlined">emoji_events</span>
+</div>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-bold uppercase tracking-wider">Victoires</p>
+</div>
+<p class="text-slate-900 dark:text-white tracking-tight text-3xl font-extrabold leading-tight">48</p>
+</div>
+<!-- Série Card -->
+<div class="flex w-full flex-col gap-3 rounded bg-surface-light dark:bg-surface-dark p-5 shadow-soft border border-slate-100 dark:border-slate-800">
+<div class="flex justify-between items-center">
+<div class="flex items-center gap-2">
+<div class="p-2 bg-orange-500/10 rounded-full text-orange-500">
+<span class="material-symbols-outlined">local_fire_department</span>
+</div>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-bold uppercase tracking-wider">Série actuelle</p>
+</div>
+<div class="text-orange-500 font-bold text-sm bg-orange-50 dark:bg-orange-500/10 px-3 py-1 rounded-full">En feu !</div>
+</div>
+<div class="flex items-baseline gap-2">
+<p class="text-slate-900 dark:text-white tracking-tight text-3xl font-extrabold leading-tight">5 jours</p>
+<p class="text-slate-400 text-sm font-medium">Record: 12 jours</p>
+</div>
+</div>
+</div>
+<!-- Badges Section -->
+<div class="relative z-10 flex flex-col gap-4 pb-4">
+<div class="flex justify-between items-center px-6">
+<h3 class="text-slate-900 dark:text-white text-xl font-bold leading-tight">Mes Badges</h3>
+<button class="text-primary text-sm font-bold">Voir tout</button>
+</div>
+<div class="flex overflow-x-auto gap-4 px-6 pb-4 no-scrollbar">
+<!-- Badge 1 -->
+<div class="flex flex-col items-center gap-2 shrink-0">
+<div class="w-20 h-20 rounded-full bg-gradient-to-br from-yellow-100 to-yellow-200 dark:from-yellow-900/40 dark:to-yellow-800/20 border-4 border-white dark:border-surface-dark shadow-md flex items-center justify-center relative overflow-hidden">
+<span class="material-symbols-outlined text-4xl text-secondary z-10">military_tech</span>
+<div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-20"></div>
+</div>
+<p class="text-slate-700 dark:text-slate-300 text-xs font-bold">Expert</p>
+</div>
+<!-- Badge 2 -->
+<div class="flex flex-col items-center gap-2 shrink-0">
+<div class="w-20 h-20 rounded-full bg-gradient-to-br from-blue-100 to-blue-200 dark:from-blue-900/40 dark:to-blue-800/20 border-4 border-white dark:border-surface-dark shadow-md flex items-center justify-center relative overflow-hidden">
+<span class="material-symbols-outlined text-4xl text-primary z-10">rocket_launch</span>
+</div>
+<p class="text-slate-700 dark:text-slate-300 text-xs font-bold">Rapide</p>
+</div>
+<!-- Badge 3 -->
+<div class="flex flex-col items-center gap-2 shrink-0">
+<div class="w-20 h-20 rounded-full bg-gradient-to-br from-purple-100 to-purple-200 dark:from-purple-900/40 dark:to-purple-800/20 border-4 border-white dark:border-surface-dark shadow-md flex items-center justify-center relative overflow-hidden">
+<span class="material-symbols-outlined text-4xl text-purple-600 z-10">school</span>
+</div>
+<p class="text-slate-700 dark:text-slate-300 text-xs font-bold">Savant</p>
+</div>
+<!-- Badge 4 (Locked) -->
+<div class="flex flex-col items-center gap-2 shrink-0 opacity-50 grayscale">
+<div class="w-20 h-20 rounded-full bg-slate-100 dark:bg-slate-800 border-4 border-slate-50 dark:border-slate-700 flex items-center justify-center">
+<span class="material-symbols-outlined text-4xl text-slate-400">lock</span>
+</div>
+<p class="text-slate-400 dark:text-slate-600 text-xs font-bold">Légende</p>
+</div>
+</div>
+</div>
+<!-- Action Buttons -->
+<div class="relative z-10 px-6 pb-8 flex flex-col gap-3 mt-auto">
+<button class="w-full bg-primary hover:bg-primary/90 text-white h-14 rounded-full font-bold text-lg shadow-lg shadow-primary/30 flex items-center justify-center gap-2 transition-transform active:scale-[0.98]">
+<span class="material-symbols-outlined">palette</span>
+                Personnaliser l'avatar
+            </button>
+<button class="w-full bg-white dark:bg-surface-dark hover:bg-slate-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-200 h-14 rounded-full font-bold text-lg border border-slate-200 dark:border-slate-700 flex items-center justify-center gap-2 transition-transform active:scale-[0.98]">
+<span class="material-symbols-outlined">settings</span>
+                Paramètres
+            </button>
+</div>
+<!-- Bottom Navigation Spacer -->
+<div class="h-6 w-full"></div>
+</div>
+</body></html>

@@ -1,0 +1,369 @@
+============================================================
+FICHIER 1: SDAD.docx (Thèmes proposés par les profs)
+============================================================
+Université A. MIRA de Béjaia
+SDAD	Faculté des Sciences Exactes
+Département de Recherche Opérationnelle
+Année Universitaire 2025/2026
+Proposition de thème de projet de n d'études
+Titre de travail
+Prédiction de la demande de transport par réseaux LSTM et optimisation des coûts : application et comparaison avec un modèle classique.
+Résumé de de la thématique
+Dans ce travail, nous étudions un problème de transport consistant à acheminer des mar- chandises depuis plusieurs fournisseurs vers plusieurs destinations, tout en minimisant le coût total. Pour améliorer la qualité des décisions, nous utilisons un modèle de prévision basé sur un réseau de neurones LSTM, capable d'anticiper les besoins futurs en transport à partir de données historiques. Les valeurs prédites sont ensuite utilisées dans un modèle classique d'optimisation du transport. En n, une comparaison est réalisée avec la méthode tradition- nelle a n de montrer l'intérêt de la prévision par LSTM. Les résultats obtenus montrent que la combinaison prévision + optimisation permet de réduire le coût et d'améliorer la plani cation.
+Mots clés
+Problème de transport, Optimisation Réseaux de neurones LSTM, Prévision de la de- mande, Coût de transport, Plani cation, Séries temporelles.
+Plan du travail
+Introduction Générale.
+Chapitre 1 : Généralités sur l'Optimisation et les Réseaux LSTM.
+Chapitre 2 :Modélisation et résolution du problème de transport. Chapitre 3 : Expé- rimentation et Résultats et Comparaison.
+Conclusion Générale.
+Bibliographie
+Références bibliographiques
+Taha, H. A. (2017). Operations Research : An Introduction. Pearson. (Référence de base pour le problème de transport et l'optimisation)
+Hochreiter, S., & Schmidhuber, J. (1997). Long Short-Term Memory. Neural Compu- tation. (Référence fondatrice des réseaux LSTM)
+Goodfellow, I., Bengio, Y.,& Courville, A. (2016). Deep Learning. MIT Press. (Réfé- rence générale sur les réseaux de neurones et le deep learning)
+Brownlee, J. (2020). Deep Learning for Time Series Forecasting. Machine Learning Mastery. (Référence pratique pour la prévision des séries temporelles par LSTM)
+Encadrant ! Mme Younsi née Abbaci Leila
+Université A. MIRA de Béjaia
+Faculté des Sciences Exacte Département de Recherche
+Année Universitaire 2025/2026
+Proposition de thème de projet de n d'études
+Etude de la mobilité dans la ville de Béjaia : synthèse des di érentes approches de plani cation de l'o re en moyens de mobilité
+Résumé de de la thématique
+Contexte et problématique : Le développement des villes en population et infra- structures engendre une croissance de la demande en moyens de transport des per- sonnes et des biens. Souvent, les capacités des infrastructures de mobilité urbaines se trouvent dépassées, ce qui engendre des congestions routières, des di cultés de déplacement, des retards avec des impacts socio-économiques.
+L'objectif de ce travail est d'estimer l'o re en di érents moyens de mobilité entre les di érents pôles urbains de la ville de Béjaia.
+Objectifs de recherche : Il existe dans la littérature di érentes approches d'élabora- tion des plans de transports dans une agglomération urbaine. Il s'agit d'établir une synthèse des di érentes méthodes, leur évolution, les logiciels existants et les éven- tuelles approches avec l'intelligence arti cielle. Les plans de développements et d'in- vestissement dans la ville de Béjaia seront pris en compte dans l'estimation des besoins en di érents moyens de mobilité.
+Ce travail servira de base de travail pour l'autorité publique pour une plani cation des solutions de déplacements, des moyens de transport et d'infrastructures dans la ville de Béjaia.
+Méthodologie : Un stage des étudiants dans les directions de la plani cation et de développement et des transports de la wilaya de Béjaia sera envisagé pour prendre connaissance des dernières enquêtes ménages et autres études en relation avec le transport et les plans de développement réalisés pour la ville de Béjaia.
+Mots clés
+Modèles et logiciels de prévision, o re, mobilité, ville de Béjaia.
+Plan du travail
+Synthèse bibliographique sur les modèles et les logiciels de prévision de l'o re en di érents moyens de mobilité
+Analyse des di érentes enquêtes ménages et leurs exploitations réalisées sur les de- mandes sur les di érents moyens de mobilité dans la ville de Béjaia.
+Etude des clustering de la ville de Béjaia en pôles de mobilité.
+Exploitation des données (si elles existent) ou simulation pour déterminer les besoins en chacun des moyens de mobilité entre les di érents pôles.
+Références bibliographiques
+  Aw T.(2008) Modèles pour le zonage et la génération des déplacements : application au cas francilien à partir du modèle de la DREIF. Support de formation, Ecole des ponts Paris Tech, université de Paris Est, 29 p.
+  Cabanne I. (2004) La modélisation des tra cs, un outil au service de la plani cation et de la prospective.Recherches et synthèses, No.10, 4 p.
+ McNally M.G. (2007) The four step model. Handbook of Transport Modeling. Uni- versity of California, Irvine, chapter 3, peragmon 2nd edition.
+  Florian M. (2008) Models and Software for Urban and Regional Transportation Plan- ning : The Contributions of the Center for Research on Transportation. INFOR, Vol. 46, No. 1, pp. 29-50.
+Encadrants : D. AISSANI, M.S. RADJEF ,
+Université A. MIRA de Béjaia
+Faculté des Sciences Exactes Département de Recherche Opérationnelle
+Année Universitaire 2025/2026
+Proposition de thème de projet de fin d’études
+Titre de travail
+Comparaison entre la régression bayésienne et les algorithmes de machine learning pour la prédiction.
+Résumé de la thématique
+Ce travail vise à réaliser une étude sur la régression bayésienne et différents algorithme classique de machine learning, tels que la régression linéaire, les forêts aléatoires, les machine à vecteurs de support (SVM) et les reseaux de neurones, dans le cadre de la modélisation prédictive. L’objectif principale est d’évaluer ses méthodes sur des jeux de données réels issus de domaines variés (santé, finance, marketing,etc) afin de mesurer leur performance prédic- tive, leur robustesse, ainsi leur capacité à gérer et quantifier l’incertitude des prédictions.
+Objectifs de recherche
+Comparer les performances prédictives de la régression bayésienne et les différents algo- rithmes de machine learning.
+Évaluer la capacité à quantifier des prédictions pour chaque méthode.
+Analyser la sensibilisation des modèles aux variations des données d’entrées et aux choix des hyperparamètres pour évaluer leur robustesse.
+Proposer des améliorations ou des hybrides combinant la régression bayésienne et des tech- niques de machine learning pour optimiser la précision.
+Mots clés
+Régression linéaire, Machine learning, Modélisation prédictive, Robustesse des modèles.
+Plan du travail
+Introduction à l’inférence bayésienne pour la régression.
+Principaux algorithmes de machine learning.
+Modélisation prédictive et incértitude
+Comparaison entre la régression bayésienne et les algorithmes machine learning sur des jeux de données réels.
+Références bibliographiques
+Bayes, T. (1763). An essay towards solving a problem in the doctrine of chances. Philosophical Transactions of the Royal Society of London, 53.
+MILA, A et MICHAILIDES, T.J. Use of Bayesian Methods to Improve Prediction of Panicle
+S. Rogers et M Girolami. A first Course in machine learning, CRC press, 2012
+C. Bishop. Pattern Recognition and Machine learning. Springer 2006.
+Sonia AMROUN !
+Université A. MIRA de Béjaia
+Faculté des Sciences Exactes Département de Recherche Opérationnelle
+Année Universitaire 2024/2025
+Proposition de thème de projet de fin d’études
+Stratégie de planification et d’optimisation des bassins de production agricole dans la wilaya de Béjaïa
+Résumé de de la thématique
+La planification et l’optimisation des bassins de production agricole visent la rationalisa- tion des ressources naturelles et contribuent à l’amélioration durable des rendements. Elles contribuent ainsi au renforcement de la sécurité alimentaire et au soutien du développement économique local.
+Contexte et problématique : La question de la sécurité alimentaire est au cœur des préoccupations du gouvernement algérien. En effet, la sécurité alimentaire constitue un pilier fondamental du développement économique, de la stabilité sociale et de la souveraineté nationale. Elle permet de garantir à chaque individu un accès durable à une alimentation suffisante, saine et nutritive. Afin d’atteindre ces objectifs en matière de sécurité alimentaire, les politiques algériennes doivent s’appuyer sur des approches scientifiques pour la planification et l’optimisation des bassins de production agricole. Ces approches sont d’autant plus nécessaires face aux bouleversements climatiques auxquels nous faisons actuellement face.
+Objectifs de recherche : Dans le cadre de ce projet, nous nous intéressons à l’étude des bassins de production agricole de la wilaya de Béjaïa. Il s’agira, dans un premier temps, d’établir un état des lieux de la situation actuelle, puis, sur la base de l’analyse des données agricoles et climatiques relatives à cette wilaya, de proposer des plans de production identifiant les types de cultures les plus adaptés à chaque bassin, dans l’objectif d’optimiser les rendements.
+Méthodologie : Afin d’atteindre l’objectif du présent projet, des modèles de prévision statistiques seront utilisés pour l’analyse des données. Le logiciel de programmation Python ainsi que le logiciel spécifique aux systèmes d’information géographique QGIS seront utilisés pour le traitement des données spatiales relatives au climat.
+Mots clés
+bassins de production agricole, planification, optimisation, modèles de prévision statis- tique.
+Plan du travail
+Recherche bibliographique autour des modèles de prévision statistiques,
+Collecte des données climatiques (disponible sur le site de la NASA)
+Collecte des données agricoles auprès de la Direction des Services Agricoles de la wialya de Béjaia,
+Analyse des données,
+simulation de différents sénarios de planification.
+Références bibliographiques
+Madkour, Jaouad. Modèles non linéaires et prévision. Diss. Université d’Orléans, 2013. Michel, BOTTY YRIE Michel BOTTY YRIE. "Applications de la modélisation pour la ges- tion durable de l’environnement." Journal de recherche multidisciplinaire 1.7 (2025).
+DEMBELE, DJENEBA. "OPTIMISER LES EFFORTS POUR L’ADAPTATION AU CHAN-
+GEMENT CLIMATIQUE AU MALI." Revue Malienne de Science et de Technologie 4.01 (2024) : 29-43.
+Dr. Lahna IDRES et Prof. Fazia Rahmoune-Aoudia
+Université A. MIRA de Béjaia
+SDAD	Faculté des Sciences Exactes
+Département de Recherche Opérationnelle
+Année Universitaire 2025/2026
+Proposition de thème de projet de n d'études
+Titre de travail
+Modélisation intelligente et intégration temps réel pour la prédiction et l'équilibrage énergétique durable dans les Smart Grids.
+Résumé de de la thématique
+Les Smart Grids représentent l'avenir de la gestion énergétique grâce à leur capacité d'adaptation, d'apprentissage et d'optimisation en temps réel. Toutefois, la grande variabi- lité des données issues des capteurs, des sources d'énergie renouvelables et des comporte- ments des consommateurs impose le développement de modèles prédictifs avancés capables de s'adapter à des environnements dynamiques et incertains.
+Ce travail de recherche s'inscrit dans cette perspective et vise à développer une approche hybride de Deep Learning combinant des modèles de séries temporelles (LSTM/GRU) et des techniques de classi cation intelligente pour la prévision de la demande électrique et l'équi- librage dynamique de la charge. L'objectif est d'assurer une intégration en temps réel des données issues de di érentes sources (capteurs, données météorologiques, IoT), d'améliorer la robustesse des prédictions face aux variations des contextes énergétiques, et de contribuer à la transition énergétique durable à travers une gestion optimisée des ressources.
+Mots clés :
+Smart Grids, Prédiction, Classi cation, LSTM/GRU, Optimisation et équilibrage de la Consommation énergitique.
+Plan du travail
+Préparation et intégration des données en continu (Data Streaming / IoT).
+Présentation des objectifs attendus et de leur contribution à la connaissance dans le domaine.
+Entraînement de modèles LSTM / GRU et conception d'un modèle hybride Deep Lear- ning + Optimisation.
+Déploiement d'un prototype connecté à une base de données temps réel (via MQTT, Spark ou Kafka).
+Simulation de scénarios Smart Grid avec ajustement automatique de la charge.
+Références bibliographiques
+  Fangzong Wang, Zuhaib Nishter, Real-Time Load Forecasting and Adaptive Control in Smart Grids Using a Hybrid Neuro-Fuzzy Approach , Energies, 2024.
+   TTatiana Gonzalez Grandon, Johannes Schwenzer, Thomas Steens, Julia Breuing,
+ Electricity Demand Forecasting with Hybrid Statistical and Machine Learning Algo- rithms : Case Study of Ukraine , arXiv, 2023.
+ Laial Alsmadi, Gang Lei, Li Li, Forecasting Day-Ahead Electricity Demand in Aus- tralia Using a CNN-LSTM Model with an Attention Mechanism , Applied Sciences, 2025.
+Dr. Asli !
+Université A. MIRA de Béjaia
+SDAD	Faculté des Sciences Exactes
+Département de Recherche Opérationnelle
+Année Universitaire 2025/2026
+Proposition de thème de projet de n d'études
+Titre de travail
+Analyse des corrélations entre les variables de décision dans un problème d'optimisation.
+Résumé de de la thématique
+L'étude des corrélations entre les variables de décision dans un problème d'optimisation représente une approche prometteuse pour réduire la complexité et la dimensionnalité des modèles. En mettant en évidence les interdépendances entre variables, elle permet d'amélio- rer l'e cacité, la stabilité et la précision des algorithmes d'optimisation.
+Cette démarche favorise la recherche de solutions optimales plus rapides et plus robustes, notamment dans des domaines tels que la logistique, l'énergie ou la nance. De plus, l'intégra- tion de ces analyses avec des techniques de machine learning ouvre de nouvelles perspectives pour identi er des relations non linéaires complexes et a ner les modèles de décision.
+Ainsi, ce sujet s'inscrit dans une approche multidisciplinaire, combinant optimisation, ap- prentissage automatique et analyse de données, avec un fort potentiel d'application pratique et d'impact scienti que.
+Mots clés :
+Optimisation, Corrélation, Réduction dimensionnelle, Machine Learning, Métaheuris- tiques, Prise de décision.
+Plan du travail
+Identi er et mesurer les corrélations entre variables de décision dans di érents types de problèmes d'optimisation.
+Étudier l'impact de la réduction de variables corrélées sur la performance des algo- rithmes (temps de calcul, précision, stabilité).
+Proposer une méthode d'intégration entre analyse de corrélation et méthodes d'opti- misation (heuristiques, métaheuristiques, ptimisation convexe, etc.).
+Explorer la combinaison de cette approche avec des techniques de machine learning pour détecter des dépendances complexes et non linéaires.
+Références bibliographiques
+  Guerra-Urzola, R., Van Deun, K., Vera, J. C., et al. (2021). A Guide for Sparse PCA : Model Comparison and Applications. Psychometrika, 86, 893-919.
+  Feizi, S., & Tse, D. (2017). Maximally Correlated Principal Component Analysis (MCPCA). arXiv preprint arXiv :1702.05471.
+  Chen, X., He, S., & others. (2016). Dimension reduction of decision variables for multireservoir operation : A spectral optimization model. Water Resources Research.
+Dr. Asli !
+Université A. MIRA de Béjaia
+Faculté des Sciences Exactes Département de Recherche Opérationnelle
+Année Universitaire 2025/2026
+Proposition de thème de projet de fin d’études
+Détection des arthroses par les CNN Résumé
+L’arthrose est une maladie très répandue dans la population. Sa détection précoce permet
+de prendre des mesures pour soulager le malade. Nous proposons dans ce travail d’exploiter les outils de l’Intelligence artificielle pour améliorer la détection sur des clichés radiologiques. On s’intéressera particulièrement à l’arthrose du cou " arthrose cervicale ".
+Mots clés
+Arthrose, ACP, CNN.
+Plan du travail
+Arthrose du cou
+Outils de l’Intelligence artificielle : ACP, CNN.
+Application de CNN pour la détection du l’arthrose du cou
+Références bibliographiques
+Bourlard, H. and Kamp, Y. (1988). Auto-association by multilayer perceptrons and singular value decomposition. Biological cybernetics, 59(4) :291-294.
+Brahim, A., Jennane, R., Riad, R., Janvier, T., Khedher, L., Toumi, H., andLespes- sailles, E. (2019). A decision support tool for early detection of knee osteoarthritis using x-ray imaging and machine learning : Data from the osteoarthritis initiative. Computerized Medical Imaging and Graphics, 73 :11-18.
+Chan, K. Y., Abu-Salih, B., Qaddoura, R., Ala’M, A.-Z., Palade, V., Pham, D.-S., Del Ser, J., and Muhammad, K. (2023). Deep neural networks in the cloud : Review, applications, challenges and research directions. Neurocomputing, 545 :1263
+Chiang, W.-L., WANG, H., YAN, L., and JIANG, S. (2019). Cluster-gcn : An efficient algorithm for training deep and large graph convolutional networks. In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery Data Mining.
+BERNINE Nassima
+Université A. MIRA de Béjaia
+Faculté des Sciences Exactes
+Département de Recherche Opérationnelle
+Année Universitaire 2025/2026
+Proposition de thème de projet de fin d’études
+Détection des neuropathie diabétique par les réseaux de neurones Résumé
+Le diabète est une maladie très fréquente dans la population mondiale. Ses complications sont très dan- gereuses comme les neuropathies, les cardiopathies, les néphropathie, les infections ,etc. Dans ce travail, on s’intéresse à la néphropathie diabétique pour la détecter précocement et sa prise en charge. L’écographie est un examen courant pour un diabétique pour vérifier l’état de ses reins.Dans ce travail, on va exploiter les outils de l’Intelligence artificielle pour augmenter la précision pour la prédiction. On essayera particulière- ment les CNN et l’ACP pour cela. On se basera sur les images de la rétine.
+Mots clés
+Neuropathie diabétique, Réseaux de neurones, ACP, CNN.
+Plan du travail
+Neuropathie diabétique.
+Outils de l’Intelligence artificielle : ACP, CNN.
+Application de CNN et l’ACP pour la détection du néphropathie diabétique.
+Références bibliographiques
+Korkmaz, H.A. ; Dogan, B. ; Devebacak, A. ; De ?irmenci, C. ; Afrashi, F. The Relationship of Serum Diabetes Antibodies With the Development of Early Diabetic Retinopathy Findings in Children With Type 1 Diabetes Mellitus. J. Pediatr. Ophthalmol. Strabismus 2024, 0, 1-8. [Google Scholar] [CrossRef] [PubMed].
+Rees, G. ; Xie, J. ; Fenwick, E.K. ; Sturrock, B.A. ; Finger, R. ; Rogers, S.L. ; Lim, L. ; Lamoureux, E.L. Association Between Diabetes-Related Eye Complications and Symptoms of Anxiety and Depression. JAMA Ophthalmol. 2016, 134, 1007-1014. [Google Scholar] [CrossRef] [PubMed].
+Al-Namaeh, M. Common causes of visual impairment in the elderly. Med. Hypothesis Discov. Innov. Ophthalmol. 2021, 10, 191-200. [Google Scholar] [CrossRef] [PubMed].
+Teo, Z.L. ; Tham, Y.C. ; Yu, M. ; Chee, M.L. ; Rim, T.H. ; Cheung, N. ; Bikbov, M.M. ; Wang, Y.X. ; Tang, Y. ; Lu, Y. ; et al. Global Prevalence of Diabetic Retinopathy and Projection of Burden through 2045 : Systematic Review and Meta-analysis. Ophthalmology 2021, 128, 1580-1591. [Google Scholar] [CrossRef].
+Cummings, D.M. ; Morrissey, S. ; Barondes, M.J. ; Rogers, L. ; Gustke, S. Screening for Diabetic Re- tinopathy in Rural Areas : The Potential of Telemedicine. J. Rural Health 2001, 17, 25-31. [Google Scholar] [CrossRef].
+BERNINE Nassima
+Université A. MIRA de Béjaia
+Faculté des Sciences Exactes Département de Recherche Opérationnelle
+Année Universitaire 2025/2026
+Proposition de thème de projet de fin d’études
+Titre de travail
+Modèles d’Analyse de Survie en Hémodyalise.
+Résumé de de la thématique
+Contexte et problématique : L’hémodialyse est le traitement de suppléance rénale le plus courant chez les patients atteints d’insuffisance rénale terminale (IRT).
+Les modèles d’analyse de survie, tels que Kaplan-Meier, Cox à risques proportionnels (Cox-PH) et Accelerated failure Time (AfT), sont utilisés pour analyser l’évolution des patients hémodialysés. Ces modèles permettent de déterminer les taux de survie et d’identifier les facteurs influençant la survie, notamment l’âge, le sexe, les comorbidités comme le diabète et l’insuffisance cardiaque, les résultats des analyses sanguines (par exemple, l’albumine, le phosphore) et les facteurs liés à la dia- lyse (par exemple, le type d’accès vasculaire, l’efficacité de la dialyse). Des modèles paramétriques comme Weibull, log-normal et log-logistique sont également utilisés pour trouver le modèle le plus adapté aux données et peuvent fournir des estimations de la forme de la distribution du temps de survie.
+Objectifs de recherche et méthodologie : L’objectif de l’étude est de comparer un certain nombre de modèles paramétriques (Weibull, exponentiel, log-normal et AfT), modèles non-paramétriques (Kaplan-Meier), modèles semi-paramétriques (Cox-PH) afin de déterminer le meilleur modèle pour analyser la survie des patients hémodialysés et d’étudier les facteurs influençant la survie de ces patients.
+Mots clés
+Hémodialyse, analyse de survie, modèles paramétriques, modèles non paramétriques, modèles semi- paramétriques, hypothèse de Temps de Défaillance Accéléré (AfT), test du log-rank.
+Plan du travail
+Introduction générale : Décrire succinctement et précisément le travail à réaliser dans le cadre de ce projet de fin d’étude.
+Chapitre 1 : Définir toutes les notions de l’analyse de survie utilisées dans le cadre de ce travail;
+Chapitre 2 : Définir l’insuffisance rénale chez les patients hémodialysés, ainsi les facteurs influen- çant la survie de ces patients;
+Chapitre 3 : Présenter les données collectées et à utiliser. Ainsi, choisir les modèles de adéquat à ces données afin de répondre à la problématique posée. On termine par une interprétation des résultats;
+Conclusion générale : Conclure le travail fait et proposer des perspectives.
+Langage de programmation préconisé : Python.
+Exigence d’un stage pratique : Oui
+Références bibliographiques
+	M. Vahedi, M. Mahmoodi, K. Mohammad, S. Ossareh, and H. Zeraati (2016). What Is the Best Parametric Survival Models for Analyzing Hemodialysis Data?. Global Journal of Health Science; Vol. 8, No. 10, 118 – 126.
+	S. Ossareh,f. farrokhi, and M. Zebarjadi (2016). Survival of Patients on Hemodialysis and Pre- dictors of Mortality. Iranian Journal of Kidney Diseases, Vol. 10, No. 5, p35y.
+	S.A. Valiabadi, S.Z. Hosseinigolafshani, M.Ranjbaran (2024). Survival Rate of Hemodialysis Pa- tients and Its Predictors : A Multicentric Retrospective Cohort Study. Jundishapur J Chronic Dis Care, Vol. 13, No. 3, e14255y.
+K. BOUCHEBBAH
+University A. MIRA of Béjaia
+Faculty of Exact Sciences Department of Operational Research
+Academic year : 2025/2026
+Topic proposal for final year project
+Working title
+Survival Analysis Models in Hemodialysis.
+Topic summing-up
+Context and problem statement : Hemodialysis is the most common renal replacement therapy in patients with end stage renal disease (ESRD).
+Survival analysis models, such as Kaplan-Meier, Cox Proportional Hazards (Cox-PH), and Acce- lerated failure Time (AfT), are used to analyse patient outcomes in hemodialysis. These models are applied to determine patient survival rates and identify factors influencing survival, including age, gender, comorbidities like diabetes and heart failure, blood test results (e.g., albumin, phos- phorus), and dialysis-related factors (e.g., type of vascular access, dialysis adequacy). Parametric models like Weibull, log-normal, and log-logistic are also used to find the best fit for the data and can provide estimates for the shape of the survival time distribution.
+Research aims and methodology : The aim of the study is to compare a number of parametric models (Weibull, exponential, log-normal, and AfT), non-parametric models (Kaplan-Meier), semi-parametric models (Cox-PH) in order to determine the best model to analyse the survival of hemodialysis patients and to study the factors influencing the survival of these patients.
+Keywords
+Hemodialysis, survival analysis, parametric models, non-parametric models, semi-parametric models, Accelerated failure Time (AfT) assumption, log-rank test.
+Work outline
+General introduction : Describing succinctly and precisely the work to be carried out within the framework of this final year project.
+Chapiter 1 : Defining all the concepts of survival analysis used in this work;
+Chapiter 2 : Defining renal failure in hemodialysis patients, and identifying the factors influencing the survival of these patients;
+Chapiter 3 : Presenting the data collected and how it will be used. This will answer the proposed issue. To conclude with an interpretation of the results.
+General conclusion : Concluding the work that is carried out and proposing future directions and perspectives.
+Advocated programming language : Python.
+Requirement for a practical internship : Yes.
+References
+	M. Vahedi, M. Mahmoodi, K. Mohammad, S. Ossareh, and H. Zeraati (2016). What Is the Best Parametric Survival Models for Analyzing Hemodialysis Data?. Global Journal of Health Science; Vol. 8, No. 10, 118 – 126.
+	S. Ossareh,f. farrokhi, and M. Zebarjadi (2016). Survival of Patients on Hemodialysis and Pre- dictors of Mortality. Iranian Journal of Kidney Diseases, Vol. 10, No. 5, p35y.
+	S.A. Valiabadi, S.Z. Hosseinigolafshani, M.Ranjbaran (2024). Survival Rate of Hemodialysis Pa- tients and Its Predictors : A Multicentric Retrospective Cohort Study. Jundishapur J Chronic Dis Care, Vol. 13, No. 3, e14255y.
+K. BOUCHEBBAH
+Université de Béjaia Faculté des Sciences Exactes
+Département de Recherche Opérationnelle
+Thème de master no 1
+Année universitaire : 25/26
+Encadrant : DJABRI Rabah
+Masters visés : MF, SDAD, MOAD
+Langue : Anglais ou français
+Thème : Résolution des équations aux dérivées partielles par la méthode des réseaux de neurones informés par la physique (PINN)
+Description et objectifs : L’objectif principal de ce thème est l’appren- tissage de la résolution des équations aux dérivées partielles (EDP) par la méthode des réseaux de neurones informés par la physique, et puis l’appli- cation de cette méthode sur des exemples d’EDP concrets. Par conséquent l’étudiant doit apprendre les notions fondamentales des réseaux de neu- rones d’une part et sur les EDP d’une autre part. L’étudiant pourra à la fin décrire la méthode sous forme d’un algorithme pouvant être implémenté sur machine.
+Mots clés : apprentissage automatique, réseau de neurone (profond), nombre de couches, fonction de perte, fonction d’activation, paramètre, PINN, EDP,
+Plan de travail :
+Description des réseaux de neurones et les différentes architectures
+Revoir les notions de base sur les EDP
+Description de la méthode de résolution des EDP par les PINN
+Description algorithmique de la méthode et son application sur des exemples concrets
+Références
+H. Baty, A hands-on introduction to Physics-Informed Neural Networks for solving partial differential with benchmark tests taken from astrophysics and plasma physics, arXiv :physics.comp-ph/2403.00599v1, 2024.
+K. Luo et al., Physics-informed neural networks for PDE problems ; a comprehensive review, Artficial Intelligence Review, 2025.
+Z. Hao et al., PINNacle : A comprehensive benchmark of physics-informed neural networks for solving PDEs, 38th Conference on Neural Information Processing Systems (NeurIPS 2024), Track on Datasets and Benchmarks, 2024.
+Université de Béjaia Faculté des Sciences Exactes
+Département de Recherche Opérationnelle
+Thème de master no 2
+Année universitaire : 24/25
+Encadrant : DJABRI Rabah
+Masters visés : MF, SDAD, MOAD.
+Langue : Anglais ou français
+Thème : La méthode d’apprentissage d’opérateurs pour la résolution les équations aux dérivées partielles
+Description et objectifs : L’objectif principal de ce thème est l’appren- tissage de la méthode d’apprentissage d’opérateurs pour la résolution des équations aux dérivées partielles (EDP), et puis l’application de cette mé- thode sur des exemples d’EDP concrets. Alors l’étudiant doit apprendre les notions fondamentales des réseaux de neurones d’une part et sur les EDP d’une autre part. L’étudiant pourra à la fin décrire la méthode sous forme d’un algorithme pouvant être implémenté sur machine.
+Mots clés : apprentissage automatique, réseau de neurone, DeepONET, FNO, nombre de couches, fonction de perte, fonction d’activation, para- mètre, PINN, EDP, opérateur
+Plan de travail :
+Description des réseaux de neurones et les différentes architectures
+Revoir les notions de base sur les EDP et leurs méthodes de résolution classiques
+Description de la méthode de résolution des EDP par l’apprentissage d’opérateurs
+Implémentation et application de la méthode sur des exemples concrets
+Références
+A. Jiao et al., One-shot learning for solution operators of partial differential equations, Nature Communications, 2025.
+N. Boullé and A. Townsend A mathematical guide to operator learning, arXiv :math.NA/231214688v1, 2023.
+Université A. MIRA de Béjaia
+Faculté des Sciences Exactes Département de Recherche Opérationnelle
+Année Universitaire 2025/2026
+Proposition de thème de projet de fin d’études
+Conception et développement d’une application de gestion des dons de sang à l’hôpital khalil Amrane de Béjaïa.
+Résumé de la thématique
+La banque de sang est une unité capitale pour tout établissement de santé. En effet, c’est un lieu où du sang peut être collecté, analysé et stocké, avant d’être distribué à des fins médicales. Ainsi, pour mener à bien sa mission, la banque de sang doit disposer de systèmes informatiques pour la gestion des dons de sang. On ne sais pas si l’hôpital khalil Amrane, Béjaïa dispose ou pas de systèmes informatiques pour la gestion des dons de sangne si il en dispose ce systme est t-il performant ou pas c’est la reponse à ces questions est l’objecif de ce projet de fin d’étude proposé.
+Si l’Unité Banque de Sang (UBS) du laboratoire de l’hôpital khalil amrane de Béjaïa ne dis- pose pas de système informatique de gestion des dons de sang, cela l’empêchera de répondre aux exigences de facilité, d’efficacité, d’efficience et de fiabilité de ses différentes activités. L’UBS utilise depuis très longtemps des registres et des fiches sous format papier pour la gestion des dons de sang. Ces documents ne répondent pas entièrement aux attentes des utilisateurs. Car, non seulement, ils renferment beaucoup de manquements, mais aussi des problèmes en terme d’usage (manque d’autonomie, de commodité et de rapidité dans le pro- cessus, difficulté de suivre le lien qui existe entre un donneur et son don). Dans ce mémoire, nous proposons ainsi la conception et le développement d’une Application de Gestion des Dons de Sang (AGDS) dans le but de répondre aux préoccupations de l’UBS dans ce do- maine. Pour ce faire, des études peuvent être menées ainsi que des séries d’entretiens avec les utilisateurs (infirmier, Assistant Social et Major). Nous avons aussi fait appel à quelques pratiques de la méthodologie 2TUP (2 track unified process, prononcez "toutiyoupi") est un processus de développement logiciel qui implémente le Processus Unifié. pour le processus de développement de notre application à poposer. Une spécification des besoins nous permetra de formaliser les données avec UML (Unified Modeling Language). En ce qui concerne la structuration et le stockage des données, les étudiants doivent utiliser le Système de Gestion de Bases de Données Relationnelles (SGBDR) MySQL. L’implémentation en PHP permettra de mettre en place une application souple, sécurisée, facile à utiliser et permettant de gérer parfaitement les dons de sang à l’UBS de hôpital khalil Amrane de Béjaïa.
+Plan provisoire du travail :
+Ce mémoire sera organisé comme suit :
+En premier lieu, il faut aborder l’ensemble des éléments qui nous permettrons d’ex- pliquer le contexte justificatif du sujet. Ainsi, nous il faut présenter l’hôpital khalil
+Amrane en général et de l’Unité Banque de Sang (UBS) en particulier. Ensuite, il faut faire l’état des lieux de la gestion des dons de sang. Puis soulever les problématiques de la gestion des dons de sang. Pour terminer faire appel à quelques pratiques de la méthodologie 2TUP pour le processus de développement d’une application.
+En deuxième lieu spécifier et analyser des besoins fonctionnels. En effet il faut en- tamer la spécification des besoins fonctionnels et l’analyse de ces derniers. Dans ce deuxième point de travail, il faut identifier également les acteurs et les fonctionnalités de notre application à définir. Un autre point de travailà réaliser est d’évoquer les diagrammes de cas d’utilisation " use case " montrant les relations entre les acteurs et les fonctionnalités du système. Enfin le dernier point à faire concernera l’analyse des besoins du système par des diagrammes de séquence qui seront élaborés pour chaque cas d’utilisation identifié.
+En troisième lieu c’est la conception du système, dans ce point de travail il faut parler de la conception générale dans laquelle sera abordée l’architecture de l’application, le diagramme de composant, le diagramme de package et le diagramme de déploiement. Ensuite, passer à la conception détaillée dans laquelle sera élaboré le diagramme de classes et le dictionnaire de données.
+Enfin, implémentation et Présentation de l’application. Dans ce point de travail il faut expliquer en premier lieu l’implémentation de la base de données, les outils utilisés : le SGBDR MySQL sous WampServer, le langage de manipulation de bases de données SQL, l’environnement utilisé, le langage PHP, etc. Et enfin il faut présenter l’applica- tion propsée à travers ces principales interfaces graphiques et un scénario d’une des différentes activités du don de sang. Terminer ce rapport de mémoire par une conclusion générale et nous donner des perspectives d’amélioration de cette application.
+Mots clés
+Mots-clés :Don de sang,transfusion sanguine, Dématérialisation de la gestion des dons de sang, Unité Banque de Sang, UML.
+Références bibliographiques
+Imane Hssini, Nadine Meskens, Fouad Riane, Optimisation du stockage des produits sanguins labiles : revue et analyse de la littérature Article · January 2019 DOI : 10.21494/ISTE.OP.2019.0421
+Lakhal Chaimaa, Khiat Amel, Conception et réalisation d’une application mobile pour la gestion de banque de sang : BLOODAPP, mémoire de fin d’étude Option : Système d’Information et de Connaissances (S.I.C),Université Abou Bakr Belkaid– Tlemcen, Année Universitaire 2022-2023.
+Mutuelle MCF. "La grande histoire du don du sang". Mutuelle MCF Blog.
+[https  ://www.mutuellemcf.fr/2022/06/02/la-grande-histoire-du-don-du-sang/].
+Hssini, Imane ; Meskens, Nadine ; Riane, Fouad. Distribution et gestion des stocks des produits sanguins : revue de littérature. Louvain School of Management Research Insti- tute Working Paper Series ; 2016/15 (2016) 16 pages http ://hdl.handle.net/2078.1/185637
+Mme Ouiza Lekadir et M. Sahli Ramzi.
+Université A. MIRA de Béjaia
+Faculté des Sciences Exactes Département de Recherche Opérationnelle
+Année Universitaire 2025/2026
+Proposition de thème de projet de fin d’étude
+Titre de travail
+Modélisation et optimisation intelligente de la gestion des stocks de produits sanguins.
+Résumé de de la thématique
+La gestion des stocks de produits sanguins, tels que les globules rouges, les plaquettes et le plasma, est essentielle pour le bon fonctionnement des hôpitaux. Ces produits sont périssables, soumis à une demande incertaine et doivent répondre à des contraintes strictes de compatibilité biologique. Les méthodes actuelles de gestion des stocks, telles que celles utilisées à la Croix-Rouge, ne sont pas toujours adaptées à la gestion dynamique et aux prévisions de demande.
+Contexte et problématique : Ce projet propose de développer un modèle hybride combinant les réseaux de Petri stochastiques généralisés (GSPN) et l’intelligence ar- tificielle (IA) pour améliorer l’efficacité et la flexibilité de cette gestion.
+Objectifs de recherche : — Concevoir un modèle GSPN représentant la chaîne logis- tique des produits sanguins dans un réseau hospitalier.
+Développer un modèle d’IA pour prédire la demande en produits sanguins.
+Intégrer les prévisions de demande dans le modèle GSPN pour optimiser la gestion des stocks et des flux de produits.
+Évaluer les performances du modèle par rapport à des politiques de gestion tra- ditionnelles et actuelles.
+Mots clés
+Gestion des stocks, produits sanguins, modélisation GSPN, intelligence artificielle, pré- vision de la demande, optimisation logistique.
+Plan du travail
+Introduction et revue de littérature
+Présentation des concepts fondamentaux et des travaux antérieurs dans le do- maine.
+Identification des lacunes dans les méthodes actuelles.
+Modélisation du système GSPN
+Construction du modèle de gestion des stocks dans un réseau hospitalier avec GSPN.
+Construction du modèle de gestion des stocks dans un réseau hospitalier avec GSPN.
+Mise en place de modèles de prévision pour la demande de produits sanguins.
+Intégration des prévisions IA dans le modèle GSPN
+Couplage des deux approches pour simuler et optimiser les décisions de gestion des stocks.
+Test et validation du modèle
+Simulation des différents scénarios et évaluation des performances du modèle.
+Analyse des résultats et conclusion
+Discussion des résultats obtenus et des recommandations pour une gestion amé- liorée.
+Encadrants Mr. SAHLI Ramzi Pr. LEKADIR Ouiza
+Bibliographie
+B. Abbasi et Z. Hosseinifard, On the issuing policies for perishable items such as red blood cells and platelets in blood service, Decision Sciences, 45(5), 995–1020, 2014.
+E. Colatrella, Gestion de stock et distribution des produits sanguins, Mémoire de master, Université Catholique de Louvain, 2024.
+M. Dehghani, B. Abbasi, et F. Oliveira, Proactive transshipment in the blood supply chain : A stochastic programming approach, Omega, 98, 102112, 2021.
+Université A. MIRA de Béjaïa
+Faculté des Sciences Exactes Département de Recherche Opérationnelle
+Année Universitaire 2025/2026
+Sujets proposés pour le projet de fin de cycle
+Sujet 1 :
+Détection d’anomalies dans les systèmes IoT par apprentissage automatique et profond
+Encadrant : Dr. Brahmi Belkacem
+Co-encadrante : Mlle Chibane Zebida
+Résumé :
+Ce sujet s’intéresse à la conception d’un système intelligent capable de détecter automatiquement les anomalies dans les réseaux d’objets connectés (IoT). Il repose sur l’exploitation d’approches de Machine Learning et de Deep Learning afin d’améliorer la précision, la robustesse et la fiabilité des détections dans des environnements dynamiques et massifs.
+Mots-clés : IoT, détection d’anomalies, Machine Learning, Deep Learning, SVM, SVDD, cybersécurité.
+Sujet 2 :
+Analyse et détection de motifs dans les réseaux temporels dynamiques à l’aide de l’apprentissage automatique et profond
+Encadrant : Dr. Brahmi Belkacem
+Co-encadrante : Mlle Chibane Zebida
+Résumé :
+Ce sujet porte sur l’étude et l’identification de motifs récurrents ou de communautés stables dans les réseaux temporels dynamiques. Il propose d’utiliser des techniques de Machine Learning et de Deep Learning afin de modéliser l’évolution des interactions et de détecter des structures pertinentes et stables dans le temps.
+Mots-clés : Réseaux temporels, graphes dynamiques, motifs, communautés stables, Machine Learning, Deep Learning.
+Université A. MIRA de Béjaia
+Faculté des Sciences Exactes Département de Recherche Opérationnelle
+Année Universitaire 2024/2025
+Proposition de thème de projet de fin d’études
+Reinforcement learning vs programmation dynamique, théorie et applications.
+Pendant des decennies, la programmation dynamique (DP)(en tant méthode, et en tant que modéle) a occupé une place importance dans la recherche opérationnelle. Mais par la suite, elle a été remplacée par l’utilisation d’une autre technique qui est le Reinforcement learning (RL), qui connait un développement fulgurant de nos jours.
+L’objectif de ce thème est de cerner et comprendre la relation entre ces deux paradigmes "programmation dynamique vs Reinforcement learning", avec l’application des deux tech- niques sur des exemples d’applications avec comparaison.
+Dans cette optique, les candidats à ce thèmes devront donc utiliser une gammes d’outils sous python pour le travail de programmation, ainsi que certains outils statistiques.
+Mots clés
+programmation dynamique, reinforcement learning, optimisation, equations de Bellman,. . .
+Plan du travail
+Qu’est ce que la programmation dynamique ? champs d’application ? les algorithmes de DP,etc...
+Qu’est ce que le reinforcement learning ? décrire sa génèse, le(s) modèle(s) de RL, quelques applications
+Comparaison des deux modèles, algorithmes, sur une applications qui sera choisie en fonction de l’avancement des candidats.
+Références bibliographiques
+R. S. Sutton and A. G. Barto, Reinforcement Learning : An Introduction, second edition,
+MIT Press, Cambridge, 2018
+D. Bertsimas, Reinforcement Learning and Optimal Control , First Edition,	Athena Scientific, 2019
+D. P. Bertsekas, Dynamic Programming and Optimal Control, Vol. 1 and 2, 4th Edition, Athena Scientific, 2012.
+Important : La rédaction devra se faire en anglais.
+Zohra AOUDIA

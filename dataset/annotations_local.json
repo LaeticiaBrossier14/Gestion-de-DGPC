@@ -1,0 +1,25 @@
+[
+  {
+    "id_audio": "CALL_0216_Appe",
+    "audio_file": "Appelle 95.wav",
+    "timestamp": "2026-02-16T23:20:57.923002",
+    "transcription": "Allo. — Salam alaykoum. — Alaykoum salam. — Li pompiers? — An3am agma, iyeh. — A d-nigh... i sra yiweth l'accident dinna la décharge n'Brib n'Lqser. — La décharge? Ighil n'Lqser? Anwa la décharge? — La décharge n'Brib n'Lqser, l'autoroute s-berid n'Lqser. — Ehen... — Tomobile t'ghli-d t'seb3et-d la moto. — Ah d'accord. Llan l'blessés? — Ah... grave, wallah ur zrigh ara. — D'accord, sa7a, sa7a.",
+    "extraction": {
+      "incident_type": "accident_vehicular",
+      "injury_severity": "severe",
+      "victims_count": null,
+      "fire_present": "no",
+      "trapped_persons": "unknown",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "intent": "report_incident",
+      "urgency_human": "high",
+      "daira": "El Kseur",
+      "commune": "El Kseur",
+      "lieu": "Brib n'Lqser",
+      "location_description": "la décharge n'Brib n'Lqser, l'autoroute s-berid n'Lqser",
+      "summary": "Signalement d'un accident grave sur l'autoroute près de la décharge de Berib (El Kseur), impliquant une voiture et une moto.",
+      "notes_cot": "L'appelant signale 'yiweth l'accident' impliquant 'tomobile' et 'la moto'. Le mot 'grave' indique la sévérité. La localisation est précise : 'la décharge n'Brib n'Lqser' sur l'axe de l'autoroute. Négation standard utilisée : 'ur zrigh ara'."
+    }
+  }
+]

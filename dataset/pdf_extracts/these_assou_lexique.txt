@@ -1,0 +1,1572 @@
+Chapitre 3 : Les variables lexicales
+Introduction
+Notre objectif dans ce chapitre est de relever la variation lexicale d‘un champ
+restreint qui est la préparation de la laine (environ 40 lexèmes) entre les 19 parlers de la
+région située à l'est de Béjaia, il s‘agit en fait de :
+- distinguer les emprunts des lexèmes de souche berbère ;
+- définir le type de variation pour les lexèmes de souche berbère, variation partielle
+(évolution phonétique ou morphologique) ou encore évolution totale (changement de
+racine).
+Nous allons aborder aussi, même si d‘une façon superficielle, les nuances et les
+extensions sémantiques de certains lexèmes.
+Contrairement à ce qui est avancé par A. Basset (1929/1936/1939) qui voit en lexique
+le niveau le moins fiable pour établir des limites géolinguistiques nettes (éparpillement en
+milliers de parlers), il est sujet aux variations et modifications de tout ordre, même si,
+géographiquement parlant, les parlers en question sont proches, la variation lexicale demeure
+toujours, c‘est ce que A. Basset (1959 : 101) dit : « deux parlers, aussi voisins soient-ils, ne se
+superposent jamais exactement ».
+Mais le niveau lexical reste, tout de même, déterminant pour tester l‘homogénéité ou
+la rupture du système linguistique, c‘est du moins l‘avis de Taifi (1994 : 127), il dit :
+« La communauté de vocabulaire est l‘un des critères les plus fiables pour
+déterminer les degrés d‘homogénéité d‘un système linguistique.
+L‘intercompréhension dépend essentiellement des mots qui constituent le
+passage obligé à l‘interprétation sémantique des énoncés et des textes. Plus les
+vocabulaires se distinguent, plus l‘intercompréhension devient aléatoire, voire
+impossible. »
+292
+---PAGE---
+Chapitre 3 : Les variables lexicales
+1. Les lexèmes de souche berbère
+Ce qui nous intéresse ici est l‘étude des lexèmes issus de la langue berbère,
+particulièrement les lexèmes variables d‘une seule thématique qui est la préparation de la
+laine pour tissage, dans les 19 parlers étudiés de la région de l‘est de Béjaia, toutes les
+variations qui affectent ce lexème seront étudiées, les variations d‘ordre phonétique, les
+variations morphologiques et les variations lexicales, c‘est en se basant sur ce principe que
+nous allons départagé ces lexèmes en deux sous-groupes :
+1.1. variation partielle
+Nous entendons par variation partielle, les lexèmes qui partagent la même racine, les
+transformations sont d‘ordre phonétiques (métathèse, rhotacisme, labiovélarisation,
+alternance vocalique et assimilation) ou morphologiques (flexion), c‘est le cas de :
+- Izḍi, tizḍit, izḍiyen, tizḍiyin «quenouille » ; où la variation est d‘ordre morphologique,
+izḍi est attesté masculin sans féminin dans le parler d‘Ait Bourman et tizḍit est
+attestée féminin sans masculin dans le parler d‘Aokas (cf annexe 5);
+- Asewwaṭ, azewwaṭ, azeggwaṭ « fouet », où la variation est d‘ordre phonétique : entre
+azewwaṭ et azeggwaṭ c‘est le phénomène de labiovélarisation, entre azewwaṭ et
+asewwaṭ c‘est le phénomène d‘assimilation par sourdité ; la dentale emphatiqu [ṭ], a
+contaminé à distance la sonore[z] en devenant sourde [s] ;
+- Iccer, accaren, icker, icekran « ongle », la variation entre ces quatre lexèmes est
+d‘ordre phonétique, il s‘agit de la phonétique combinatoire, précisément l‘assimilation
+(progressive), la consonne [c] a assimilé la consonne [k] ;
+1.2. Variation totale ou lexicale
+Nous parlons de variation totale quand les lexèmes ne partage pas la même racine,
+mais les signifiants impliqués dans la variation sont d‘origine berbère, et pour l‘étude de la
+racine nous allons nous donner la racine du lexème sans se référer à son étymologie. C‘est le
+cas de :
+293
+---PAGE---
+Chapitre 3 : Les variables lexicales
+- Azewwaṭ, taḥerbunt, tamezwayt : les trois lexèmes qui désignent une gaule, ou une
+baguette, qui sert à battre la laine lavée, synonyme tameḥbakt Dallet (1982 : 963) ;
+cette baguette est appelée tamezwit dans le parler d‘Ait Mangellat ; ces lexèmes sont
+construits à base de trois racines différentes : zwṭ pour azewwaṭ (masc. Sg), izewwaṭen
+(masc. Pl), uzewwaṭ (Sg. E. A), yizewwaṭen (pl. E.A), ces lexèmes sont attestés dans
+les parlers : Aokas, Tizi n berber, S.El.Tennine, Ait Merâi, Ijermounen et Qelaoun de
+la région de l‘est de Béjaia.
+Ce que nous tenons à éclairer ici est que, si un lexème X attesté dans un parler A est
+totalemment différent du lexème Y attesté dans le parler B, cela ne veut absolument pas dire
+que le lexème X est inconnu dans le parler B. C‘est le cas de « Amezway/tamezwayt » attesté
+dans le parler d‘Ait Bimoun pour désigner « baguette qui sert à battre la laine lavée» qui a
+comme équivalent ou variante lexicale « azewwat » dans le parler d‘Aokas. Le lexème
+« amezway » est aussi connu dans le parler d‘Aokas mais d‘un usage étendu «gaule qui sert à
+secouer, abattre ou faire tomber ».
+Cet avis est partagé par Chaker (1991 : 137), il dit à ce propos : « Lorsqu‘il y a
+divergence entre deux dialectes (A) et (B), cela ne signifie pas que le lexème (A) non usité
+dans (B) y soit réellement inconnu ; cela signifie simplement qu‘il n‘est pas d‘usage courant
+ou qu‘il n‘y a pas le même emploi. Car il y est, le plus souvent, attesté avec une signification
+légèrement différente, plus spécialisée ou en tant qu‘archaïsme » Comme c‘est le cas pour :
+- Aguliz attesté dans le parler d‘Aokas qui signifie « le reste de ce qu‘on mange », il est
+d‘usage courant et quotidien, alors qu‘il est un archaisme dans d‘autres parlers
+kabyles ;
+- Taddart attesté dans le parler d‘Aokas et qui signifie un espace dicouvert, limité par
+des murs « une cour », ce lexème est très répandu dans d‘autres parlers kabyles mais
+pour signifier « village » ;
+- Tiliset attesté dans le parler d‘Aokas qui signifie « toison », ce lexème est attesté
+abeṭṭan dans les parlers : Ijermounen, Ait Merâi, Ighil Wis, Taregragt, Ait Mbarek,
+Darguina, S.El.Tennine et Timrijt. Le lexème abeṭṭan est aussi attesté dans le parler
+d‘Aokas mais avec extention sémantique (laine + peau) qui va être traiter pour devenir
+ahidur.
+294
+---PAGE---
+Chapitre 3 : Les variables lexicales
+2. Le recours à l’emprunt
+Les approches lexicologiques traditionnelles considèrent l‘emprunt comme l‘une des
+témoignages incontestable de l‘évolution de la langue, à un moment ou à un autre de son exis-
+tence, elle est amenée à connaître ce phénomène. La dimension diachronique est présente
+dans les études de linguistes qui s‘attachent à remonter dans l‘histoire du mot, à examiner sur
+le contexte dans lequel le transfert s‘est accompli. L‘emprunt linguistique est associé à
+l‘histoire des langues concernées par le transfert, la langue d‘origine appelée aussi langue
+source et celle qui reçoit l‘emprunt dénommée langue cible.
+Ce que nous tenons à rappeler ici, c‘est l‘appellation « emprunt » elle-même, elle est,
+l‘objet de discussions. Pour certains auteurs, cette dénomination supposerait, en effet, une
+sorte de « séjour » imprévu ou temporaire ou encore de « passage linguistique » dans le pays
+d‘accueil, qui s‘achèverait par un retour au pays d‘origine. C‘est ce que suppose Haugen
+(1950 : 211), qui favorise, quant à lui, l‘appellation « adoption » ou « diffusion » parce que «
+emprunter » quelque chose suppose que cette chose sera restituée ou reconquise.
+L‘emprunt linguistique est donc un phénomène universel entre les langues en usage,
+pour Dubois (1994 : 177) « Il y a emprunt linguistique quand un parler A utilise et finit par
+intégrer une unité ou un trait linguistique qui existait précédemment dans un parler B (dit
+langue source) et que A ne possédait pas ; l‘unité ou le trait emprunté sont eux-mêmes quali-
+fiés d‘emprunts. », il peut toucher tous les niveaux de la langue, mais de manière graduelle.
+La plupart des linguistes s‘entend sur le fait que le niveau le plus exposé est celui du lexique,
+c‘est ce que nous pouvons lire dans la citation de Berkai (2009 : 97) :
+« L‘emprunt linguistique peut être défini comme étant un transfert d‘un signe
+linguistique entier ou d‘une partie de ce signe d‘une langue à une autre langue. Il
+concerne tous les niveaux de la langue et de façon plus importante le lexique,
+étant le niveau le moins structuré et partant le plus instable de celle-ci. L‘emprunt
+est un phénomène universel dont aucune langue ne peut se passer. »
+La langue berbère dans sa diversification dialecte a beaucoup emprunté aux langues
+de colonisateurs, comme le français, l‘arabe, le latin, l‘espagnol et le turc. Mais la langue qui
+a laissé le plus d‘impact dans le vocabulaire des dialectes berbères est de loin la langue arabe
+vue le contact permanent avec cette dernière qui dure jusqu‘à présent. Pour certains linguistes,
+295
+---PAGE---
+Chapitre 3 : Les variables lexicales
+à l‘instar de Chaker (1991: 227), le dialecte qui a emprunté le plus, c'est bien le dialecte
+kabyle, et à ce propos, il dit :
+« En kabyle, les contacts avec la langue arabe sont si profonds que dans certains
+domaines (vie religieuse, vie politique), il est possible de parler d‘une véritable
+invasion lexicale de l‘arabe. »
+Le recours à l‘emprunt dans la plupart des cas n‘est pas équitable pour tous les
+parlers et dialectes berbères comme nous venons de le signaler ; certains dialectes sont plus
+touchés que d‘autres, les nécessités ne sont pas non plus les mêmes, certains parlers
+empruntent par nécessité et d‘autres par volonté : c‘est ce que nous entendons par emprunt de
+nécessité et emprunt de luxe.
+Nous entendons par emprunt de nécessité l‘importation de mots qui n‘existent pas
+dans les dialectes de la langue, et que ces mots/dénominations sont devenus une urgence tels :
+- apurtabl « portable »; amikru « micro-ordinateur », les deux emprunts au français ;
+- axeddam « travailleur », lxedma « travail » emprunts à l‘arabe xeddam et xedma ;
+- aseḥḥar « magicien » et iseḥḥaren « magisiens », emprunt à l‘arabe saḥḥar
+Par contre l‘emprunt de luxe est celui qui vient souvent pour concurrencer le lexème de
+souche déjà existant dans les dialectes berbères ou du moins dans un dialecte berbère. Et dans
+ce cas précis, l'emprunt dessert plus qu'il en sert la langue qui emprunte, parce qu'il vient
+concurrencer puis remplacer les lexèmes déjà existants dans la variété ou le parler (des
+lexèmes autochtones ou de souche. C‘est ce que explique Berkai (2009 : 98) :
+"Mais dès lors que cette position sécurisante de la langue n‘est plus observée,
+c‘est le retour à la méfiance à l‘égard de l‘emprunt qui se présente alors, non plus
+comme un facteur d‘enrichissement de la langue, mais au contraire comme un
+facteur d‘appauvrissement, puisque ces emprunts sont censés remplacer des
+termes déjà disponibles ou à créer dans la langue"
+C‘est le cas de la plupart des emprunts attestés dans notre corpus, comme c'est le cas de :
+- aɛemmud emprunt à l‘arabe Ɛamud qui vient remplacer le lexème asɣar et ses
+variantes akeccuṭ et akeccaṭ,
+296
+---PAGE---
+Chapitre 3 : Les variables lexicales
+- rkeb emprunt à l‘arabe rakaba « monter » qui vient remplacer ani, attesté dans les
+parlers Ijermounen, Ait Merâi et Qelaoun (3/19) parlers étudiés de la région de l‘est de
+Béjaia ;
+- trunspur (transport) emprunt au français qui vient concurrencer le terme tumnayt
+attesté dans les parlers Ijermounen, Ait Merâi et Qelaoun (3/19) parlers étudiés de la
+région de l‘est de Béjaia ;
+- ɣedwa (demain) emprunt à l‘arabe ɣadan, attesté dans les parlers qui forme la partie
+centre ainsi la partie Est de la région de l‘est de Béjaia, qui vient concurrencer le terme
+azekka attesté dans la plupart des parlers kabyles ainsi les parlers Ighil Wis, Tagouba,
+Ait Amrous et Ait Bimoun de la région de l‘est de Béjaia ;
+Quant à la forme et la prononciation de l‘emprunt, le processus de son intégration
+dans la langue cible est graduel sur deux plans :
+1. par rapport à son acceptation ou à son rejet dans la langue cible ;
+2. par rapport aux transformations qu‘il va subir dans la langue cible.
+L‘emprunt dans son processus d‘intégration dans la langue cible, subi trois stades
+d‘évolution avant qu‘il soit accepter ou rejeter par la communauté linguistique de la langue
+qui l‘emprunte, c‘est ce que nous pouvons retenir dans la citation de Berkai (2014 : 108) :
+« Trois stades d‘évolution de l‘emprunt sont généralement distingués : le xénisme,
+emprunt senti comme étranger et présenté comme tel par l‘usage de périphrases
+explicatives et autres marques métalinguistiques et/ou typographiques qui
+accompagnent son usage ; le pérégrinisme, c‘est-à-dire un xénisme suffisamment
+connu et ne nécessitant aucune présentation dans le discours […] et enfin
+l‘emprunt intégré. C‘est ce qu‘on appelle en aménagement linguistique emprunt
+de nécessité, par opposition à l‘emprunt de luxe qui possède souvent un
+équivalent endogène. »
+2.1. Le xénisme
+Le xénisme est, selon Dubois (1999 : 512), une unité lexicale constituée par un mot d‘une
+langue étrangère et désignant une réalité propre à la culture des locuteurs de cette langue. Il
+297
+---PAGE---
+Chapitre 3 : Les variables lexicales
+est encore sous sa forme originale dans la langue source. Le xénisme est le résultat de
+l‘importation d‘un signifiant et de son signifié, autrement dit d‘une forme et de son contenu
+sémantique. Lors de son importation dans la langue d‘accueil, la lexie n‘a pas subi de modifi-
+cation par rapport à son modèle en langue d‘origine. C‘est le premier stade de l‘emprunt, il est
+appeler aussi « emprunt intégral ». Ce genre d'emprunt est ressenti comme étranger à la
+langue cible, soit parce que sa structure interne n‘est pas encore intégrée, ou bien même, sa
+structure interne est partiellement intégrée ; ce lexème n‘est pas productif dans la langue cible.
+En d‘autres termes, le xénisme, n‘a pas toutes les flexions d‘un lexème de la langue berbère,
+c‘est ce que nous retenons dans les exemples suivants :
+- aklimatizeur [aklimatizoer] « climatiseur », ou elbus [əlbys] « bus », bien attestés dans
+le discours, mais avec des voyelles étrangères au système linguistique de la langue
+cible. Pour Berkai (2O14 , 108), ces xénismes posent un sérieux problème au
+lexicographe. Les intégrer tels quels, serait faire une entorse aux systèmes
+phonologique et graphique du berbère ; les ignorer, quand ils sont envisageables en
+nomenclature, conduirait à remettre en cause la notion même de dictionnaire qui sert à
+attester l‘usage ;
+Du point de vue social, l‘usage des xénismes est plus fréquent chez les individus
+scolarisés que chez les groupes d‘individus non scolarisés, ce qui est légitime étant l‘usage du
+lexème dans sa forme et sa prononciation dans sa langue source (français ou arabe). Par
+contre, les groupes d‘individus non scolarisés n‘ont accès qu‘à la forme et à la prononciation
+des lexèmes du système linguistique de la langue maternelle qui est le berbère en général et le
+kabyle en particulier. ces xénismes posent un sérieux problème au lexicographe, comme l‘a
+déjà signaler Berkai, non seulement parce qu‘ils constituent une entorse aux systèmes
+phonologique et graphique du berbère, mais aussi le risque de la réhabilitation de la forme
+originale qui va freiner le processus de l‘intégration de ce type d‘emprunts.
+Guerrab (2014 : 33) parle de ces xénismes et de leur impact sur le processus de
+l‘intégration de l‘emprunt dans la langue cible en disant :
+« Du point de vue sociologique, l‘intégration des emprunts se fait moins bien chez
+les couches scolarisées. Du fait qu‘elles sont scolarisées en arabe et en français,
+298
+---PAGE---
+Chapitre 3 : Les variables lexicales
+elles ont tendance à utiliser les lexèmes étrangers tels qu‘elles les ont appris à
+l‘école, même dans leur discours en berbère. Et cela va jusqu‘à réhabiliter la
+forme d‘origine d‘un mot jusqu‘ici intégré dans la langue. Cela concerne
+notamment les emprunts au français.
+- « lbusṭa » (re)devient « la poste » comme en français ;
+- « ibulisen » (re)devient « la police » comme en français ;
+- « lantrit » (re)devient « la retraite » comme en français »
+L‘emprunt intégral ou le xénisme est couramment reconnaissable, son importation porte
+sur trois niveaux :
+- graphique : la graphie d‘origine de la lexie est conservée, sans aucune transformation ni ten-
+tative d‘adaptation à la langue cible. C‘est le cas, par exemple, du mot « weekund » de
+l‘anglais et la poste du français, conservés tels quels.
+- phonétique : en empruntant des mots, on emprunte également les phonèmes. C‘est le cas du
+« les vacances » du français qui concerve le phonème « v » qui n‘existe pas dans la langue
+berbère.
+- sémantique : le sens du mot étranger dans la langue emprunteuse est similaire à celui qu‘il
+porte dans sa langue d‘origine, c‘est le cas du mot « rkeb » de l‘arabe.
+Kahlouche (2009 : 22) explique les implications de l‘emprunt sur le système
+linguistique du berbère en général et du kabyle en particulier, il y voit que l‘accueil massif des
+emprunts essouffle et fatigue la langue réceptrice. Cet emprunt ira parfois plus loin en
+l‘obligeant à se restructurer en acceptant des formes grammaticales étrangères. Il dit à ce
+propos : « …la pression exercée par la masse des emprunts était telle que les capacités du
+kabyle de les soumettre à sa base articulatoire et à ses moules syntaxiques s‘étaient
+essoufflées, laissant passer des sons et des formes grammaticales étrangères qui perturbèrent
+son système et le contraignirent à se restructurer » (2009 : 22).
+2.2. Le pérégrinisme
+Un pérégrinisme est un xénisme suffisamment connu qui ne nécessite aucune
+présentation dans le discours parce qu‘il a intégré l‘une des flexions d‘un lexème de la langue
+cible, généralement celle du singulier ; masculin ou féminin. Nous pouvons encore définir le
+pérégrinisme comme la phase intermédiaire entre le xénisme ; qui est le premier stade ou pas
+299
+---PAGE---
+Chapitre 3 : Les variables lexicales
+de l‘emprunt dans la langue cible (le lexème avec la forme et le son étranger) et l‘emprunt
+intégré qui concurrence les lexèmes de souche berbère. C‘est le cas de l‘exemple suivant :
+- Adosyi(é) (un dossier), qui semble être bien intégré au singulier dans le discours, mais
+avec des voyelles étrangères au système linguistique de la langue d‘arrivée qui est le
+kabyle (o et é), donne li dosyi, mais très rarement idusyiyen (les dossiers) au pluriel
+en conservant la marque du pluriel « les dossiers», précisément le déterminant « les ».
+2.3. L’emprunt intégré
+C‘est le lexème qui part d‘une langue source (français ou arabe) vers une langue
+cible qui est le berbère en général et le kabyle en particulier, en acquérant toutes les flexions
+de la langue d‘accueil, il est appeler aussi « emprunt intégral adapté ». Les emprunts intégrés
+deviennent de sérieux concurrents aux lexèmes de souche et ils sont considérés comme
+synonymes, ils ont les mêmes morphèmes (genre, nombre, état, nom d‘agent, de patient,
+d‘instrument ou d‘adjectif), c‘est ce que nous allons détaillés dans les transformations que
+subit l‘emprunt. C‘est le cas de l‘exemple suivant :
+- akwafur (u-, we-/ikwafuren ; takwafurt (te-/tikwafurin (te-) n: « coiffeur, euse » (syn.
+aḥeffaf, utilisé plutôt par les gens âgés) Berkai (2014 : 596) ;
+- Aɛemmud, aɛmud, iɛemmuden, iɛemdan « fouet(s) » à l‘état libre, uɛemmud ; weɛmud,
+yiɛemmuden ; yiɛemdan à l‘état d‘annexion ;
+Par rapport aux transformations que va subir l‘emprunt dans la langue cible qui est le
+berbère, particulièrement le kabyle, elles sont aux nombre de trois transformations :
+phonétique, morphologiques et à la fois phonético-morphologiques. C‘est ce que explique
+Guerrab (2014 : 33) en disant :
+« L‘intégration d‘un lexème étranger en berbère, peut se faire sur deux niveaux :
+soit au niveau phonologique, soit au niveau morphologique, soit aux deux
+niveaux. »
+1. La transformation phonologique concerne, généralement, le remplacement des phonèmes
+qui n‘existent pas ou qui ne sont pas très productifs dans le système phonologique berbère. En
+300
+---PAGE---
+Chapitre 3 : Les variables lexicales
+d‘autres termes l‘adoption du système phonologique de la langue réceptive (qui est le berbère).
+L‘adaptation graphique des emprunts aux langues étrangères est réalisée afin de diffuser une
+prononciation berbère du mot. Pour cela, des phonèmes berbères sont substitués aux pho-
+nèmes étrangers originaux. En voici quelques exemples illustratifs :
+- lbusṭɑ du français « la poste » (ou le [p] phonème de la langue source qui est le
+français est devenu [b] phonème de la langue cible qui est le kabyle) ;
+- Tabalizt du français « valise », (ou le [v] phonème de la langue source qui est le
+français est devenu [b] phonème de la langue cible qui est le kabyle)
+2. Les transformations morphologiques concernent généralement, l‘adjonction des
+morphèmes de la langue cible, à savoir : le morphème du singulier masculin (a,- u- , i-), celui
+du féminin (t---t, t---), ceux du pluriel : régulier (i---n), interne (alternance vocalique) mixte
+(alternance + adjonction du suffixe) pour les substantifs, le morphème du nom d‘action
+verbale, le morphème du nom d‘agent ( am---a-) ou du nom du patient (am---u-).
+La féminisation des emprunts nominaux masculins est aussi une forme d‘adaptation morpho-
+logique à la langue d‘accueil étant donné qu‘elle passe principalement par l‘ajout du mor-
+phème discontenu « t---t » berbère au lexème enprunté, masculin dans la langue source. C‘est
+le cas de l‘emprunt intégré « tamuturt », féminin dans la langue cible (aquisition du mor-
+phème du féminin t---t), alors qu‘il est masculin dans la langue source qui le français « mo-
+teur ».
+A propos de cette intégration, Berkai (2O14, 108) explique : « Des emprunts kabyles au
+français comme amikṛu [amikro] (pl. imikṛuyen, imikṛuten/ état d‘annexion (E.A) umikṛu) «
+microphone (mais aussi micro-ordinateur64) » ; abidyu [avidju] (pl. ibidyuten, ibidyuyen /E.A
+ubidyu) « vidéo (cassette/disque) » ; ou encore adimu (pl. idimuten, idimuyen/E.A udimu) «
+démodulateur (numérique) », parfaitement adaptés à la langue d‘accueil avec ajout du
+nominalisateur a- du nom masculin berbère, état d‘annexion en u-, et pluriel régulier en i-en,
+ne posent aucun problème de traitement macrostructurel pour peu que la nature du
+dictionnaire s‘y prête. »
+C‘est le cas des exemples suivants :
+301
+---PAGE---
+Chapitre 3 : Les variables lexicales
+- Rkeb « monter », emprunt à l‘arabe rakaba qui donne les dérivés nominaux en
+adoptant les morphèmes kabyles comme amerkub (am---u-) morphème du nom du
+patient, celui qui subi l‘action d‘arkab « celui qu‘on monte, un âne) ;
+- Taktabt « livre », emprunt à l‘arabe kitab, qui a acquit le morphème discontinu du
+féminin berbère (t---t) ; alors qu‘il est masculin dans la langue source.
+- Aɛemmud, aɛmud, iɛemmuden, iɛemdan « fouet ou gaule », la variation entre ces
+lexèmes est d‘ordre morphologique, il s‘agit de la formation du pluriel ; mixte pour
+iɛemdan, externe et régulier pour iɛemmuden. Quant à la racine, elle est commune, il
+s‘agit de la trilitère ɛmd.
+3. Les transformations phonético-morphologiques concernent généralement, l‘adjonction des
+morphèmes de la langue cible, à savoir : le morphème du singulier masculin (a,- u- , i-), celui
+du féminin (t---t, t---), ceux du pluriel : régulier i---n, interne (alternance vocalique) mixte
+(alternance + adjonction du suffixe) pour les substantifs, le morphème du nom d‘action
+verbale, le morphème du nom d‘agent « am---a-) ou du nom du patient (am---u-) accompagné
+d‘un remplacement d‘un phonème de la langue source (généralement l‘arabe ou le français)
+par un phonème de la langue cible (le berbère en général et le kabyle en particulier). C‘est ce
+qu‘illustrent les exemples suivants :
+- Tabalizt « valise », emprunt au français, qui a acquit le morphème du féminin (t---t) ;
+tibalizin « valises » morphème du pluriel régulier (i---in), tbalizt/tbalizin (ta, ti/t)
+morphème d‘état d‘annexion ;
+- Taziteryit /tziteryit « un étrier » emprunt au français, où non seulement on retient
+l‘adjonction du morphème du féminin, mais aussi l‘appropriation de /z/ comme
+consonne du radical alors qu‘elle est une simple liaison du pluriel « les étriers »,
+tiziteryiyin (pluriel à l‘état libre)/tziteryiyin (pluriel à l‘état d‘annexion). Ce que nous
+pouvons retenir de cet exemple est aussi le changement de genre (féminisation d‘un
+emprunt nominal masculin) : il est attesté masculin dans la langue source qui est le
+français « un étrier », devenu féminin dans la langue cible (kabyle), marqué par le
+morphème discontenu « t−t » ;
+- Tazampult (E.L) « une ampoule », tzampult (E.A), tizampulin (Pl.E.L) et tzampulin
+(Pl.E.A) ;
+302
+---PAGE---
+Chapitre 3 : Les variables lexicales
+Pour l‘analyse lexicale, dans certains cas lexico-sémantique, nous référons au parler
+d‘Aokas car il est le notre, nous le maîtrisons plus que les autres. Comme nous l‘avons
+souligner, le recours aux nuances sémantique ne sera pas détaillé, faute de temps et de
+maîtrise de tous les 19 parlers étudiés de la région de l‘est de Béjaia.
+Pour ce qui est de notre corpus, l‘analyse se portera sur deux volets :
+- Variation de lexèmes de souche berbère vis-à-vis de lexèmes empruntés ;
+- Variation de lexèmes de souche berbère entre les 19 parlers étudiés en premier lieu
+ainsi quelques parlers et dialectes berbères que nous allons évoqué ultérieurement.
+3. Variation de lexèmes de souche berbère vis-à-vis de lexèmes empruntés
+Sur une liste de 40 mots dressés, 07 emprunts sont attestés dans les parlers de la région de
+l‘est de Béjaia, dans le domaine de la préparation de la laine pour le tissage, il s‘agit de :
+3.1. aɛmud (iɛemdan) « fouet(s) ou gaule(s) » attesté dans les parlers Ijermounen et Ait Merâi,
+aɛemmud (iɛemmuden), attesté dans le parler d‘Ait Bourman ; lexèmes communs à l‘arabe
+« ɛamud », ils se sont intégrés dans la langue berbère, du moins le dialecte kabyle, en adoptant
+les morphèmes d‘un lexème de souche : aɛmud, aɛemmud (masculin, singulier), formes non
+marquées, mais iɛemdan (pluriel, masculin) est un pluriel mixte : -alternance vocalique
+(voyelle initiale a/i et voyelle interne u/Ө) + adjonction d‘un suffixe –an) tout comme
+iɛemmuden qui est un pluriel externe : adjonction d‘un suffixe –n) accompagné de l‘alternance
+de la voyelle initiale a/i.
+Ce lexème emprunté à l‘arabe « ɛamud » a un correspondant de souche berbère
+azewwaṭ et ses variantes phonétiques (asewwaṭ, azeggwaṭ), (akeccuṭ,axeccuṭ, akeccaṭ),
+ainsi les variantes lexicale (tamezwayt et taḥerbunt) dans les 16 autres parlers de la région
+de l‘est de Béjaia, il s‘agit de : Bouyman, Qelaoun, Taregragt, Ait Mbarek, Darguina,
+Tamrijt, Leâlam, Ait Segoual, Melbou, S.El.Tennine, Aokas, Tizi n Berber, , Ighil Wis,
+Tagouba, Ait Amrous et Ait Bimoun.
+La variation du lexème « fouet » est portée sur une carte géolinguistique (cf annexe
+6.5, figure 1)
+303
+---PAGE---
+Chapitre 3 : Les variables lexicales
+3.2. Mceṭ « peigner » : c‘est un emprunt à l‘arabe « macaṭa », il est nettement intégré
+puisque il a acquis tous les thèmes aspectuels de la langue cible : mceṭ (thème d‘aoriste et
+du prétérit affirmatif) ; mciṭ/mceṭ (thème du prétérit négatif) ; mecceṭ (thème d‘aoriste
+intensif) ; ttwamceṭ « le passif ». ce lexème est emprunté dans tous les 19 parlers étudiés
+de la région de l‘est de Béjaia, comme tout ailleurs dans les parlers kabyles mceḍ
+Bouamara (2017 : 324) et Dallet (1982 : 482)
+La variation du lexème « peigner» est portée sur une carte géolinguistique (cf annexe
+6.5, figure 2).
+3.3. Imceṭ « démêloir » : C‘est un emprunt à l‘arabe « micṭ », il a intégré toutes les
+flexions d‘un substantif de souche berbère : imceṭ (masc, sing) ; timceṭ (fém, sing) ;
+imecṭen (masc, pl) ; timecṭin (fém, pl) ; yimceṭ/yimecṭen (E.A) ; imceṭ-a (ce peigne-ci » ;
+imceṭ-ihin « ce peigne-là » ; imceṭ-nneɣ « notre peigne »,…. Nous tenon à préciser que,
+sémantiquement parlant, imceṭ (instrument confectionné pou peigner la laine) est un
+augmentatif de timceṭ « un peigne » qui a la forme disant ordinaire.
+La variation du lexème « démêloir » est portée sur une carte géolinguistique (cf
+annexe 6.5, figure 3)
+3.4. Taɛeccit «Après-midi ou soir » , c‘est un emprunt à l‘arabe dialectal ɛaciya qui a
+intégré parfaitement la langue berbère, puisque il a acquis les morphèmes du nombre :
+taɛeccit (fém.sing), tiɛecciyin (fém.pl), les morphèmes de l‘état : taɛeccit (E.L) ;
+tɛeccit/tɛecciyin (E.A), ce lexème est attesté dans les parlers Ighil Wis, Tagouba et Ait
+Amrous. Ce qui est à signaler ici, c‘est que ce lexème, a une variante phonétique taɛecwit
+qui, quant à elle, n‘est pas un emprunt, elle est attestée dans les parlers : Bouyman,
+Qelaoun, Ijermounen, Ait Merâi, Taregragt, Ait Mbarek, Darguina, Tamrijt, Leâlam, Ait
+Segoual, Melbou, S.El.Tennine, Aokas et Tizi n Berber. Le type de variation phonétique
+entre le lexème taɛecwit et taɛeccit est la phonétique combinatoire, c‘est l‘assimilation du
+phonème /c/ et /w/ en donnant l‘assimilation progressive /cc/. Ces lexèmes ont une variant
+lexicale de souche berbère, il s‘agit de tameddit, attestée dans les deux parlers formants
+les deux extrémités de la région de l‘est de Béjaia, précisément le parler d‘Ait Bimoun
+pour extrémité Ouest et Ait Bourman pour extrémité Est. Le lexème tameddit est attesté
+dans les autres parlers Berbères, le parler d‘Ait Mengellat Dallet (1982 : 486) et dans les
+autres parlers kabyles Bouamara (2017 : 328) ainsi les parlers du Maroc central Taifi
+304
+---PAGE---
+Chapitre 3 : Les variables lexicales
+(1991 : 403).
+La variation de ce lexème est portée sur une carte géolinguistique (cf annexe 6.5,
+figure 4).
+3.5. ɣedwa « demain » : c‘est un pérégrinisme emprunté à l‘arabe dialectal ɣedwa. Ce
+lexème, même s‘il n‘a pas acquis les modalités centrales, il a adopter les modalités
+périphériques locatives, à savoir : ɣedwa-ya « ce demain-ci » modalité locative de
+proximité; ɣedwa-t-enn ; ɣetwa-tiw-enn ; ɣedwa-tuy-enn « demain en question » modalité
+locative d‘évocation ». ce pérégrinisme est attesté dans 13 parlers de la région de l‘est de
+Béjaia, il s‘agit de : Qelaoun, Ijermounen, Ait Merâi, Taregragt, Ait Mbarek, Darguina,
+Tamrijt, Leâlam, Ait Segoual, Melbou, S.El.Tennine, Aokas et Tizi n Berber. Ce lexème a
+la variante lexicale de souche berbère azekk ; azekka (sing, masc, E.L), wazekk ; wazekka
+(sing, masc, E.A) « demain », Azekku-ya (demain-ci); azekku-yenn (demain en question),
+attesté dans 06 parlers de la région étudiée, il s‘agit de : Ait Bourman, Bouyman, Ighil Wis,
+Tagouba, Ait Amrous et Ait Bimoun. Nous tenons à préciser ici que cette variante de
+souche berbère est récupérée dans les parlers aillant recours au pérégrinisme
+pour « lendemain » qui est seldazekk ; seldazekka ; seldazekku-yenn « lendemain en
+question », attestée dans les 19 parlers étudiés, à savoir Ait Bourman, Bouyman, Qelaoun,
+Ijermounen, Ait Merâi, Taregragt, Ait Mbarek, Darguina, Tamrijt, Leâlam, Ait Segoual,
+Melbou, S.El.Tennine, Aokas, Tizi n Berber, , Ighil Wis, Tagouba, Ait Amrous et Ait
+Bimoun.
+La variation du lexème « demain» est portée sur une carte géolinguistique (cf annexe
+6.5, figure 5).
+3.6. ṣṣabun « savon » (masc.sing) : c‘est un lexème commun à celui de l'arabe
+« eṣṣabun ». Ce lexème est, comme le précédent, suffisamment connu et ne nécessite
+aucune présentation dans le discours, même s‘il n‘a pas acquis les modalités centrales, il
+a adopté les modalités périphériques locative : ṣṣabun-a, ssabun-adaka (ce savon-ci) ;
+ṣṣabun-ihin, ṣṣabun-nnha, ṣṣabun-nnakan (le savon-làbas) ; ṣṣabun-enn, ṣṣabun-nni (le
+savon en question ». ce lexème est attesté dans tous les 19 parlers étudiés : Ait Bourman,
+Bouyman, Qelaoun, Ijermounen, Ait Merâi, Taregragt, Ait Mbarek, Darguina, Tamrijt,
+Leâlam, Ait Segoual, Melbou, S.El.Tennine, Aokas, Tizi n Berber, , Ighil Wis, Tagouba,
+Ait Amrous et Ait Bimoun. Ce qui est à retenir aussi, est que l‘emprunt « ṣṣabun », qui
+305
+---PAGE---
+Chapitre 3 : Les variables lexicales
+désigne un usage générique, est concurrencé par l‘emprunt intégré (d‘usage particulier)
+qui, quant à lui, acquiert toutes les flexions du substantif : taṣabunt « savonnette »
+(fém.sing) ; tiṣabunin (fém.pl) ; tṣabunin (fém.pl.E.A) ; taṣabunt-a « cette savonnette-ci »;
+taṣabunt-nnattan « la savonnette-labàs) ; taṣabunt-nni/-enn « la savonnette en question »,
+taṣabunt-iw « ma savonnette ».
+La variation du lexème « savon» est portée sur une carte géolinguistique (cf annexe
+6.5, figure 6) .
+3.7. ɛṣer « éssorer » : Ce lexème est commun au lexème arabe « ɛaṣara » ; il est intégré
+dans la langue berbère, du moins dans le dialecte kabyle, morphologiquement, il a acquis
+toutes les flexions d‘un verbe : ɛṣer (thème d‘aoriste et du prétérit affirmatif) ; ɛṣir (thème
+du prétérit négatif) ; ɛeṣṣer/tteɛṣar (thème d‘aoriste intensif) ; ttwaɛṣer « le passif » et
+mmeɛṣar (réciproque). C‘est emprunt intégré est attesté seulement dans 4 parlers de la
+région de l‘est de Béjaia, il s‘agit particulièrement de : Qelaoun de la commune de
+kherrata, Leâlam, Melbou et Ait Segoual. Les 15 autres parlers de la région étudiée
+attestent le lexème de souche berbère aẓem « éssorer » que nous allons analysés dans les
+lexèmes de souche.
+La variation du lexème « éssorer» est portée sur une carte géolinguistique (cf annexe
+6.5, figure 7)
+4. Variation de lexèmes de souche berbère
+La variation des lexèmes de souche berbère, du moins kabyles, quant à elle ; sur les
+40 lexèmes de notre corpus ; 33 lexèmes sont autochtones (de souche), hormis 7 emprunts.
+11 lexèmes de ceux de souche berbères sont communs aux 19 parlers étudiés de la région
+située à l'est de Béjaia, à savoir Ait Bourman ; Bouyman ; Qelaoun ; Ijermounen ; Ait Merâi ;
+Taregragt ; Ait Mbarek ; Darguina ; Tamrijt ; Leâlam ; Ait Segoual ; Melbou ; S.El.Tennine ;
+Aokas ; Tizi n Berber ; Ighil Wis ; Tagouba ; Ait Amrous et Ait Bimoun. Les lexèmes
+commun en question sont :
+4.1. Fren « trier, ôter, nettoyer » : fren ( thème d‘aoriste, du prétérit affirmatif), frin (thème du
+306
+---PAGE---
+Chapitre 3 : Les variables lexicales
+prétérit négatif), ferren (aoriste intensif), ttwafren (le passif), ces thèmes comuns à tous les 19
+parlers ne sont pas une spécificité de la région de l‘est de Béjaia, ils sont attestés dans les
+autres parlers berbères comme c‘est le cas du parler d‘Ait mengellat Dallet (1982 : 225) et les
+autres parlers kabyles Bouamara (2017 : 156). Il est à signaler que ce verbe est attestè ferren
+dans les parlers du Maroc central Taifi (1991 : 126), le thème d‘Aoriste intensif dans ces
+parlers est tferran.
+La variation du lexème « trier » est portée sur une carte géolinguistique (cf annexe
+6.5, figure 8).
+4.2. Arqaq « maigre » : c‘est un adjectif qualificatif qui a toutes les flexions d‘un substantif
+amoindri de la marque d‘état d‘annexion : arqaq ((masc, sing) ; tarqaqt (fém, sing) ; irqaqen
+(masc , pl.) ; tirqaqin (fém., pl.), il est formé à base du verbe irqiq, ces lexèmes ne sont pas
+une spécificité de la région de l‘est de Béjaia, ils sont attestés dans les autres parlers berbères
+comme c‘est le cas du parler d‘Ait mengellat voir Dallet (1982 : 731) et et les autres parlers
+kabyles Bouamara (2017 : 446). Ce lexème est attesté urqiq (adjectif avec le morphème infixe
+u--i--) dans les parlers du maroc Central Taifi (1991 : 585)
+La variation du lexème « maigre ou fin » est portée sur une carte géolinguistique (cf
+annexe 6.5, figure 9).
+4.3. Fser « étendre, étaler » : c‘est un verbe mixte (transitif et intransitif) avec trois thèmes
+aspectuels : fser/fesser (thème d‘aoriste et du prétérit affirmatif) ; fsir/fser ( thème du prétérit
+négatif) ; ttfessir/ttefsar (thème de l‘aoriste intensif), ttwafser (passif) et afsar/afesser (nom
+d‘action verbale). Ces lexèmes ne sont pas seulement commun au 19 parlers étudiés de la
+région est de Béjaia, mais à tous les parlers berbères : Dallet (1982 : 234) pour le parler d‘Ait
+Mengellat et Bouamara (2017 : 159) pour les autre parlers kabyles et enfin Taifi (1991 : 134)
+pour les parlers du Maroc central.
+La variation du lexème « étendre » est portée sur une carte géolinguistique (cf annexe
+6.5, figure 10).
+4.4. Taleqqaqt/ « molle, tendre »: C‘est un substantif de souche berbère qui a toutes les
+flexions (genre, nombre et état) : aleqqaq/u (masc. sing) ; taleqqaqt/t (fém, sing) ileqqaqen/yi
+(masc. Pl) ; tileqqaqin/t (fém. Pl). Cet adjectif n‘est pas spécifique aux 19 parlers étudiés, il
+est attesté dans tous les parlers kabyles Bouamara (2017 : 269).
+307
+---PAGE---
+Chapitre 3 : Les variables lexicales
+L‘adjectif aleqqaq est polysémique dans le parler d‘Aokas comme partout dans le
+dialecte kabyle : il a les mêmes sens attestés dans le parler d‘Ait Mengellat, Voir Dallet
+(1982, 461), à savoir :
+- Etre mou, tende : Aksum aleqqaq « une viande tendre », son opposant est awessar ;
+aksum awessar « viande dure » ;
+- Etre mou et tendre au toucher : taqendurt/tikbert taleqqaqt « une robe lisse, douce » ;
+- Nouveau-né : itelli i d-innerna, d aleqqaq « c‘est hier qu‘il est né, il est nouveau » ;
+- Frais,fraiche : llubeyya-ya d taleqqat « cet haricot vert est frais » ;
+- Être jeune (pas mûre) : tɛedmet-add-it, llubeyya-yen, d taleqqaqt, ul tefsil ula « tu as
+bousillé haricot blanc en question, il est encore jeune, il n‘est pas mûr ».
+La variation du lexème « tendre » est portée sur une carte géolinguistique (cf annexe
+6.5, figure 11)
+4.5. Tamellalt « blanche » : c‘est un adjectif qualificatif qui a toutes les flexions du
+substantif amoindri de l‘état d‘annexion ; amellal (masc, sing) ; tamellalt (fém, sing) ;
+imellalen (masc, pl) ; timellalin (fém, pl) ou timellula (fém, pl) attesté dans les parlers
+Melbou et ait Segoual. Cet adjectif est formé à base du verbe d‘état imlul/imlil « être
+blanc », il est formé sur une racine trilitaire mll. Le lexème (adjectif) tamellalt n‘est pas une
+particularité de la région de l‘est de Béjaia, il est attésté dans les autres parlers berères
+comme c‘est le cas du parler d‘Ait mengellat Dallet (1982,P. 497) et les autres parlers
+kabyles Bouamara (2017 : 332), dans les parlers des Aurès Hughe (2007 : 72) les parlers du
+Maroc Taifi (1991 : 416).
+La variation du lexème « blanche » est portée sur une carte géolinguistique (cf annexe
+6.5, figure 12).
+4.6. Qerdec « être cardé » : c‘est un verbe transitif formé sur la racine quadrilitère qrdc, il
+a deux thèmes aspectuels : qerdec (thème d‘aoriste, du prétérit) et ttqerdic (thème d‘aoriste
+intensif) ; ttwaqerdec (passif) ; aqerdec (nom d‘action verbale) ; mqerdac (réciproque) ;
+amqerdec (nom d‘action vebale du verbe mqerdac). Ce verbe n‘est pas seulement atteste
+dans tous les parlers de la région de l‘est de Béjaia, mais dans les autres parlers berbères tel
+308
+---PAGE---
+Chapitre 3 : Les variables lexicales
+le parler d‘Ait Mengellat Dallet (1982 : 675) et les parlers des Aurès Huyghe23 (2007 : 97).
+Ce qui est à retenir ici est que le dérivé réciproque mqerdac, attesté dans le parler d‘Aokas,
+l‘un des parlers de la région de l‘est de Béjaia, signifie « se chamailler » et pas « carder
+mutuellement »
+La variation du lexème « carder » est portée sur une carte géolinguistique (cf annexe
+6.5, figure 13).
+4.7. Aqerdac « carde » : c‘est un substantif qui a toutes les flexions : aqerdac/u (masc,
+sing) ; taqerdact/t (fém, sing) ; iqerdacen/y (masc., pl.) ; tiqerdacin/t (fém., pl.), c‘est le
+nom d‘instrument du verbe qerdec, donc de la racine qrdc. Ce lexème n‘est pas une
+spécificité de la région de l‘est de Béjaia, il est attesté dans les autres parlers berbère
+comme c‘est le cas du parler d‘Ait Mengellat Dallet (1982 : 675) et des autres parlers
+kabyles Bouamara (2017 : 420 ) ainsi les parlers des Aurès Huyghe (2007 : 97). Nous tenon
+à préciser que le féminin taqerdact ou tiqerdacin est un diminutif de aqerdac qui a la forme
+ordinaire.
+La variation du lexème « carde» est portée sur une carte géolinguistique (cf annexe
+6.5, figure 14).
+4.8. Llem « filer, mettre en fils, tordre le fil » : c‘est un verbe transitif formé à base de la
+racine bilitère Lm, il a trois thèmes aspectuels llem (thème d‘aoriste et du prétérit
+affirmatif) ; llim/llem (thèmes du prétérit négatif) ; ttellem (thème de l‘aoriste intensif) ;
+ttwallem (le passif) ; allam/tullma (nom d‘action verbale). Ce lexème n‘est pas seulement
+commun aux parlers de la région est de Béjaia mais à tous les parlers berbères, il est attesté
+dans le parler d‘Ait mengellat Dallet (1982 : 453) et dans les autres parlers kabyles
+Bouamara (2017 : 291), il est attesté aussi dans les parlers du Maroc central Taifi (1991 :
+378) ainsi dans les parlers des Aurès Huyghe (2007 : 155).
+La variation du lexème « blanche » est portée sur une carte géolinguistique (cf
+annexe 6.5, figure 15).
+4.9. Mmir « être vider » : C‘est un verbe intransitif issu de la racine bilitèreMr, il a trois
+thèmes aspectuels mmir (thème d‘aoriste) ; mmar (thème du prétérit) ; ttmaray (thème
+23Le dictionnaire de Huyghe, pour la variante tachaouit, est consulté, par intermédiaire du mémoire de licence de
+Nacer MAHDI, soutenu dans l‘université de Béjaia, en 2006/2007, sous la diréction de Allaoua RABEHI
+309
+---PAGE---
+Chapitre 3 : Les variables lexicales
+d‘aoriste intensif) ; smir (thème de l‘aoriste du dérivé actif factitif), smar (thème du prétérit
+du dérivé actif factitif), smaray (thème de l‘aoriste intensif du dérivé actif factitif). Ce
+lexème est, comme les précédents, n‘est pas une spécificité de la région de l‘est de Béjaia
+mais plutôt commun à tous les parlers kabyles, comme le parler d‘Ait Mengellat Dallet
+(1982 : 511) et les autres parlers Bouamara (2017 : 365). Ce que nous tenons à préciser ici
+est que les verbes mmir « être vider » et smir « vider » signifient généralement verser (il est
+d‘usage pour les liquides et faiblement utilisé pour les choses solides : céréales, farines, fils
+de laine ou laine…).
+La variation du lexème « vider» est portée sur une carte géolinguistique (cf annexe 6.5,
+figure 16).
+4.10. Azehran« gros » : c‘est un adjectif qualificatif qui a toutes les flexions du substantif
+amoindri de celle de l‘état, sont : azehran (masc, sing) ; tazehrant (fém, sing) ; izehranen
+(masc, pl) ; tizehranin (fém, pl), il est formé sur le verbe d‘état zhur, lui-même issu de la
+racine trilitère zhr, il est attesté dans tous les 19 parlers étudiés de la région de l‘est de Béjaia,
+à savoit : Ait Bourman, Bouyman, Qelaoun, Ijermounen, Ait Merâi, Taregragt, Ait Mbarek,
+Darguina, Tamrijt, Leâlam, Ait Segoual, Melbou, S.El.Tennine, Aokas, Tizi n Berber, , Ighil
+Wis, Tagouba, Ait Amrous et Ait Bimoun. Ce lexème attesté dans les 19 parlers de la région
+située à l‘est de Béjaia, a une variante phonétique azuran, attesté dans le parler d‘Ait
+Mengellat Dallet (1982 : 958) et les autres parlers kabyles Bouamara (2017 : 653).
+La variation du lexème « gros» est portée sur une carte géolinguistique (cf annexe 6.5,
+figure 17) .
+4.12. Fuḥ « puer, sentir mauvais » : C‘est un verbe intransitif formé sur la racine bilitère fḥ, il
+a deux thèmes aspectuels fuḥ (thème d‘aoriste et du prétérit) ; ttfuḥ (thème d‘aoriste intensif) ;
+sfuḥ (thème de l‘aoriste et dupétérit du dérivé actif factitif) ; lfuḥa (substantif) ; afuḥan
+(adjectif). Ce lexème n‘est pas seulement commun aux parlers étudiés de la région est de
+Béjaia mais panberbère : il est attesté dans le parler d‘Ait Mengellat Dallet (1982 : 196) et
+dans les autres parlers kabyles Bouamara (2017 : 162), dans les parlers des Aurès Huyghe
+(2007 : 256) ainsi les parlers du Maroc central Taifi (1991 : 108).
+La variation du lexème « puer» est portée sur une carte géolinguistique (cf annexe
+6.5, figure 18)
+310
+---PAGE---
+Chapitre 3 : Les variables lexicales
+5. Les variables de souche berbère
+Dans ce volet, notre analyse se portera sur les lexèmes variables, en d‘autres termes, le
+degré de variation des lexèmes restants liés à la préparation de la laine pour tissage. Comme
+nous l‘avons déjà montré ci-haut, sur 33lexèmes de souche berbères, 9 lexèmes sont communs
+aux19 parlers étudiés (invariables). Quant aux 25 lexèmes restants, la variation est
+considérable entre les 19 parlers étudiés de la région située à l‘est de Béjaia, c‘est ce que
+montrent :
+5.1. Ales « tonde » : C‘est un lexème de souche berbère, de la racine bilitère ls, il est
+attesté dans dans 14 parlers de la région située à l'est de Béjaia, il s‘agit de : Ait
+Bourman, Bouyman, Qelaoun, Ait Merâi, ijermounen, taregragt, Ait Mbarek, Derguina,
+Tamrijt, , Aokas, Tizi n Berber, Ighil Wis, Ait Amrous et tagouba. Il est attesté sous les
+formes : ales, ttales, tullsa, alas et il a comme variantes lexicales dans le reste des
+parlers étudiés de la région de l‘est de Béjaia ;
+- Lles, ttelles, tullsa : ces variantes sont attestées dans le parler d‘Ait Bimoun, parler de
+l‘extrême Est de la région étudiée, elle attestée dans les autres régions du dialecte
+kabyle voir Bouamara (2017 : 291) et Dallet (1982 : 463) et dans les parlers du Maroc
+central, voir Taifi (1991 : 383) ;
+- qerqed (thème d‘aoristre, du prétérit), ttqerqid (thème d‘aoriste intensif) et aqerqed
+(nom d‘action verbale) : ces vaiantes sont attestées dans cinque parlers de la région
+étudiée (5/19), il s‘agit de : Leâlam, Melbou, S.El.tennine, Ait Amrous et At segoual.
+Dans ce dernier, la variante ales est aussi attestée, se sont des synonymes.
+- Seṭṭel (thème d‘aoristre, du prétérit), ttseṭṭil ((thème d‘aoriste intensif) : cette variante
+quant à elle, est attestée dans le parler d‘Ait Amrous ;
+- Les parlers Ait Merâi, Ijermounen et Qelaoun attestent qerqed et ales « tondre comme
+synonymes ;
+Ce que nous tenon à appuyer ici est que le verbe ales, par ailleurs, signifie dans les
+dictionnaires évoqués « recommencer, reprendre ; inaugurer une nouvelle série ou période ».
+Le synonyme de ales dans les 14 parlers de la région de l‘est de Béjaia est l‘emprunt intégré
+ɛɛawed.
+311
+---PAGE---
+Chapitre 3 : Les variables lexicales
+La variation du lexème « tondre» est portée sur une carte géolinguistique (cf annexe
+6.5, figure 19).
+5.2. Tiliset « toison tondue » : Ce lexème est un substantif, il est attesté féminin sans
+masculin dans les parlers Taregragt, Ait mbarek, Derguina, Aokas, Ijermounen, Ait
+Merâi et Ighil Wis, ce lexème a, par contre les flexions du nombre : tiliset (fém, sing) ;
+tilisin (fém, pl.) et les flexions de l‘état : tiliset (E.L) ; tliset (E.A) ; tilisin (E.L) ; tlisin
+(E.A). Ce substantif est formé sur la racine bilitère ls, il n‘est pas spécifique à la
+région de l‘est de Béjaia, il est connu dans les autres parlers kabyles sous la forme
+masculine ilis (variation morphologique de genre, féminin dans les parlers de la région
+située à l'est de Béjaia et masculin dans les autres parlers kabyles). Le lexème ilis
+« toison tondue» est attesté dans le parler d‘Ait mengellat Dallet (1982 : 463) et dans
+les autres parlers kabyles Bouamara (2017 : 286). Ce lexème a d‘autres variantes dans
+la région étudiée, il s‘agit de :
+- Tiliseţ « toison tondue » : ce lexème est la variante phonétique de tiliset la dentale
+occlusive, sourde non affriqué [t] devient affriqué [ţ], il est attesté dans deux parlers :
+Ait Amrous, Tagouba ;
+- Abeṭṭan « toison » : c‘est un substantif issu de la racine trilitère bṬn, les flexion de ce
+dernier sont : abeṭṭan/u (masc, sing) ; tabeṭṭant/t (fém, sing) ; ibeṭṭanen/y (masc, pl) ;
+tibeṭṭanin/t (fém, pl). Le lexème abeṭṭan est attesté dans les parlers suivants : Aokas,
+Tizi n berber, Ijermounen, Ait Merâi, Ighil Wis, Taregragt, Ait Mberek, Darguina,
+S.El.Tennine,
+Ce qui est à retenir c‘est que les parlers qui attestent le lexème abeṭṭan «toison
+tendue» ont une nuance sémantique, ce n‘est pas exactement le même sens dans tous les
+parlers :
+- Dans les parlers Ijermounen, Ait Merâi, taregragt, Ait Mbarek et Ighil Wis, ce lexème
+désigne la peau et la laine, il est extrait une fois la bête est sacrifiée, c‘est l‘équivalent
+de ahiḍur dans le parler d‘Aokas ;
+- Le lexème abeṭṭan, synonyme de tiliset « toison », dans le parler d‘Aokas désigne la
+laine seulement.
+312
+---PAGE---
+Chapitre 3 : Les variables lexicales
+Le lexème abeṭṭan, quant à lui connaît deux autre variantes lexicales dans la région
+étudiée, il s‘agit de : tahedduft et tabeḍrunt.
+- Taḥedduft « toison » : C‘est un substantif féminin, ses flexions sont taḥedduft (fém,
+sing) ; tiḥeddufin (fém, pl) ; tḥedduft/tḥeddufin (E.A). Ce lexème est conçu de la racine
+trilitère ḥdf, il est attesté dans le parler d‘Ait Bimoun.
+- Tabeḍrunt « toison » : C‘est un substantif féminin, ses flexions sont tabeḍrunt (fém,
+sing) ; tibeḍrunin (fém, pl) ; tbeḍrunt/tbeḍrunin (E.A). Ce lexème est formé sur la
+racine quadrilitère bḍrn, il est attesté dans le parler de Laâlam ; c‘est une particularité
+de la région de l‘est de Béjaia.
+La variation du lexème « toison» est portée sur une carte géolinguistique (cf annexe
+6.5, figure 20).
+5.3. Taduṭ « Laine » : c‘est un substantif féminin (t---t) singulier, sans masculin, sans
+pluriel et sans état d‘annexion, il désigne un générique. Ce lexème est attesté dans 18
+parlers de la région située à l'est de Béjaia, il s‘agit précisément des parlers : Ait
+Bourman, Bouyman, Ijermounen, Ait Merâi, Taregragt, Ait Mbarek, Darguina, Tamrijt,
+Leâlam, Ait Segoual, Melbou, S.El.Tennine, Aokas, Tizi n Berb²er, , Ighil Wis,
+Tagouba, Ait Amrous et Ait Bimoun. Il ne s‘agit pas d‘une particularité de la région
+étudiée, ce lexème est attesté dans le parler d‘Ait Mengellat Dallet (1982 : 160) et les
+autres parlers kabyles Bouamara (2017 : 128) ainsi les parlers du Maroc central Taifi
+(1991 : 77). Le lexème taduṭ, a, dans les parlers de la région est de Béjaia, la variante
+lexicale ḍuft ;
+- ḍuft « laine » : C‘est un substantif féminin (−t) singulier, sans masculin, sans pluriel
+et sans état d‘annexion, il désigne un générique. Ce lexème est attesté dans dans un
+seul parler de la région étudiée, il s‘agit du parler de Qelaoun de la commune de
+Kherrata, cette variante, malgré la restriction géographique (un seul parler), n‘est pas
+une spécificité de la région de l‘est de Béjaia, il est attesté aussi dans les parlers des
+Aurès Huyghe (2007 : 191), c‘est dû au rapprochement des deux parlers, ils partagent
+un nombre conséquent de lexèmes, de phonèmes et de morphèmes.
+La variation du lexème « laine» est portée sur une carte géolinguistique (cf annexe
+6.5, figure 21)
+313
+---PAGE---
+Chapitre 3 : Les variables lexicales
+5.4. Ulli « brebis » : C‘est un substantif féminin pluriel, il n‘a ni le masculin, ni le
+singulier, il a seulement la marque de l‘état : ulli (E.L) et wulli (E.A), il désigne un
+générique. Ce lexème est attesté dans 17 parlers de la région Est de Béjai, il s‘agit de :
+Ait Bourman, Bouyman, Qelaoun, Ijermounen, Ait Merâi, Taregragt, Ait Mbarek,
+Darguina, Tamrijt, Leâlam, S.El.Tennine, Aokas, Tizi n Berber, , Ighil Wis, Tagouba, Ait
+Amrous et Ait Bimoun.Il est attesté aussi dans les autres parlers berb ères tel le parler
+d‘ait Mengellat Dallet (1982 : 441) pour les parlers kabyles et les parlers du maroc
+centralTaifi (1991 : 367). Le lexème ulli a une variante morphologique tullatan et ccyah
+commun au lexème arabe « ciyah» ;
+- Tullatan : c‘est la variante morphologique de ulli, cette variante est attestée dans
+deux parlers, il s‘agit de : Melbou et Ait Segoual. Cette variante est, contrairement aux
+autres lexèmes précédents, est une spécificité de la région est de Béjaia, elle n‘est pas
+attestée dans les autres parlers berbères. Les flexions de ce lexème sont : tullat (fém,
+sing) ; tullatan (fém, pl), il s‘agit d‘un pluriel externe (---an) ;
+- Ccyah : ce lexème, commun à l‘arabe ciyah « brebis », désigne un générique, il est
+invariables, en genre, nombre et en état. Il est attesté dans un seul parler de la région
+étudiée, il s‘agit de Qelaoun.
+La variation du lexème « brebis» est portée sur une carte géolinguistique (cf annexe
+6.5, figure 22).
+3.4. Abersus « bourrelets » : C‘est un substantif issu de la racine quadrilitère brss, il a
+les flexions du nombre et de l‘état: abersus (masc, sing) ; ibersusen (masc, pl),
+ubersus (E.A) ; yibersusen (E.A). Ce lexème est une spécificité de la région située à
+l'est de Béjaia, il n‘est pas attesté dans les autres parlers berbères, il est attesté dans 8
+parlers sur les 19 étudiés, il s‘agit de : Aokas, Tizi n Berber , Taregragt, Ait Mbarek,
+Darguina, AitSegoual, Melbou et S.El.Tennine. Ce lexème a deux variantes lexicale
+dans la région étudiée, Ikeɛɛalen et Tiẓerwa.
+- Akeɛɛal : C‘est un substantif formé à base de la racine trilitère kƐl, ses flexions sont :
+akeɛɛal (masc, sing) ; ikeɛɛalen (masc, pl), ce lexème est aussi une spécificité de la
+région de l‘est de Béjaia, il est attesté dans 9 parlers, il s‘agit des deux extrémités de la
+314
+---PAGE---
+Chapitre 3 : Les variables lexicales
+région, à savoir : Ait Bourman (Extrême Est) et Ait Bimoun (extrême Ouest),
+Bouyman, Ijermounen, Ait Merâi, Qelaoun, Ighil Wis, Tagouba et Ait Amrous.
+La variante lexicale de ikeɛɛalen, ibersusen est attestée dans le parler d‘Ighil
+Wis iwersisen mais qui désigne un autre sens que selui de bourrelets, il signifie dans ce
+parler le sang coagulé (ou mottes de caillots).
+La variante lexicale de ikeɛɛalen « bourrelets », ibersusen est aussi attestée
+dans le parler d‘ijermounen mais dans un sens péjoratif, c‘est pour désigner une
+personne ; mal où femelle, qui porte des vêtements sales, usés et déchirés. Nous tenons
+à préciser ici que le verbe keɛɛel est aussi attesté dans ce parler, il signifie ôter les
+bourrelets.
+- Tiẓerwa : c‘est un substantif qui n‘a qu‘une seule flexion marquée, c‘est l‘état ;
+tiẓerwa (fém, pl, E.L) et tẓerwa (fém, pl, E.L), il est issu de la racine trilitère ẓrw, c‘est
+une particularité de la région de l‘est de Béjaia puisque il n‘est pas attesté dans les
+autres parlers berbère. Ce lexème est attesté seulement dans deux parlers : Tamrijt et
+Leâlam.
+La variation du lexème « bourrelets» est portée sur une carte géolinguistique (cf
+annexe 6.5, figure 23)
+5.5. Tafukt « soleil ou rayons du soleil » : C‘est un substantif issu de la racine bilitère fk,
+c‘est un féminin sans masculin, singulier sans pluriel, état libre sans état d‘annexions, la seule
+flexion qu‘il a est celle du féminin (t---t). Ce lexème est attesté dans 15des 19 parlers étdiés,
+ce sont : Bouyman, Qelaoun, Ijermounen, Ait Merâi, Darguina, Ighil Wis, Tamrijt, Taregragt,
+Ait Mbarek, Leâlam, Melbou, ait segoual, S.EL.Tennine, Aokas et Tizi n Berber. Ce
+substantif n‘est pas spécifique à la région située à l'est de Béjaia, mais il est général à tous les
+parlers berbères, c‘est le cas du parler d‘Ait Mengellat Dallet (1982 : 201-202), des autres
+parlers kabyles Bouamara (2017 : 162) des parlers du Maroc central Taifi (1991 : 141) où le
+lexème est attesté sous la forme tafuyt ou tafukt ainsi les parlers des Aurès Huyghe (2007 :
+296) attesté sous la forme tafugt (variante phonétique de tafukt.
+Ce qui est à retenir pour ce lexème c‘est qu‘il désigne :
+- Le soleil ou l‘astre dans les parlers qui l‘attestent de la région de l‘est de Béjaia et
+qui n‘ont que cette variante ;
+315
+---PAGE---
+Chapitre 3 : Les variables lexicales
+- L‘astre et ses rayons, attestés dans les parlers Aokas et Tizi n Berber comme suit :
+tafukt pour les rayons et tiṭṭict pour l‘astre qui est la variante morphologique de iṭṭij
+(variation du genre : masculin dans les parlers concernés et féminin dans les parlers
+Aokas et Tizi n Berber) et aussi variante phonétique (phénomène de sourdité entre [j] et
+[c]). Ce lexème a une variante lexicale iṭij dans la région de l‘est de Béjaia.
+- Iṭij « le solei » : c‘est substantif masculin sans féminin dans les parlers Ait Bourman,
+Ait Amrous, Tagouba, Ait Bimoun, tout comme les autre parlers kabyles Bouamara
+(2017 : 589), il a seulement la marque de l‘état d‘annexion (y) yiṭij, contrairement au
+parler d‘Ait Mengellat où le pluriel iṭijen est attesté Dallet (1982 : 837). Ce lexème est
+formé sur la racine bilitère ṭj.
+La variation du lexème « soleil» est portée sur une carte géolinguistique (cf annexe
+6.5, figure 24).
+5.6. Taweddaɛt «scorie, bourrelets indémêlables » : C‘est un substantif féminin (t---t)
+sans masculin et sans pluriel, c‘est seulement l‘état qui est marqué : taweddaɛt (E.L) et
+tweddaɛt (E.A), il est issu de la racine trilitère wDɛ. Ce lexème est attesté dans 15/19
+parlers étudiés, il s‘agit de : Ait Bourman, Qelaoun, Ijermounen, Ait Merâi, Taregragt,
+Ait Mbarek, Darguina, Leâlam, S.El.Tennine, Aokas, Tizi n Berber, , Ighil Wis, Tagouba,
+Ait Amrous et Ait Bimoun. Nous tenons à préciser ici que le verbe weddeɛ « ôter les
+bourrelets » est aussi attesté dans les parlers que nous venons d‘évoquer. Le lexème
+taweddaɛt a une autre variante lexicale ou paraphrase, elle s‘agit de ikeččawen ou tidi n
+lmal. Ces deux variantes sont attestées dans 04 parlers de la région étudiée, c‘est :
+Tamrijt, Ait Segoual, Melbou, Bouyman.
+La variation du lexème « scorie» est portée sur une carte géolinguistique (cf annexe
+6.5, figure 25).
+5.7. Fsew « Démêler, défaire, étirer» : C‘est un verbe mixte (transitif et intransitif à la
+fois) formé sur la racine trilitère fsw, il a trois thèmes aspectuels : fsu (thème d‘aoriste),
+fsi/a (thème du prétérit), fessu/fessi (thème d‘aoriste intensif) . Ces lexèmes sont attestés
+dans 18 parlers de la région Est de Béjaia, ils ne sont pas une spécificité de cette région
+puisque ils sont attestés dans les autres parlers kabyles comme c‘est le cas du parler
+316
+---PAGE---
+Chapitre 3 : Les variables lexicales
+d‘Ait Mengellat Dallet (1982 : 231) et des autres parlers kabyles Bouamara (2017 : 159)
+et dans les parlers du Maroc central Taifi (1991 : 131).
+Ce que nous tenons à clarifier ici, c‘est que le lexème fsi est polysémique ; il a,
+en plus du sens démêler, deux autres sens :
+- Dénouer : ôter les nœud et ouvrir comme fsi amrar « dénouez la corde » ; fsint tackart
+uzemmur «elles ont dénoué le sac d‘olives » ;
+- Fondre : rendre quelque chose de solide liquide comme c‘est le cas de l‘exemple : ifsi
+am ddhan « il est fondu comme du beurre » ;
+« dénouer » et « fondre » sont évoqués par Bouamara (2017 : 159) mais pas au sens de
+démêler, défaire.
+Le lexème fsew et ses variantes fsu, fsi ont une variante morphologique dans la région
+est de Béjaia, c‘est ssefsi ;
+- ssefsi : cette variante est attestée dans le parler d‘Ait Bimoun, il s‘agit du dérivé
+factitif ss+fsi(verbe mixte) qui donne l‘actif transitif ssefsi, il est issu de la même
+racine que le verbe fsi/fsew.Ce verbe est attesté dans les autres parlers kabyles tel le
+parler d‘Ait Mengellat (avec une alternance vocalique i/u), il est attesté ssefsu Dallet
+(1982 : 231).Ce lexème tel attesté dans le parler d‘Ait Bimoun ssefsie au sens de
+« dénouer », signifie dans les autres parlers kabyles « fondre », à l'instar des parlers de
+la région de l‘est de Béjaia (mis à part Ait Bimoun) et ceux d‘ailleurs rendre quelque
+chose de solide liquide, c‘est le verbe fondre, l‘un des sens du verbe mixte fsi.
+La variation du lexème « démêler» est portée sur une carte géolinguistique (cf annexe
+6.5, figure 26).
+5.8. Aqecwal« brindille » : C‘est un substantif qui est formé sur la racine quadrilitère
+qcwl, c‘est un masculin sans féminin dans les parlers de la région de l‘est de Béjaia, il
+a les flexions du nombre et celles de l‘état : aqecwal (masc, sing) ; iqecwalen (masc,
+pl) ; uqecwal (E.A) ; yiqecwalen (E.A). Ce lexème est attesté dans 11 sur les 19 parlers
+étudiés, il s‘agit de : At Bouman, Bouyman, Qelaoun, Ijermounen, Ait Merâi,
+Taregragt, Ait Mbarek, Ighil Wis, Ait Amrous, Tagouba et Ait Bimoun. Il n‘est pas une
+317
+---PAGE---
+Chapitre 3 : Les variables lexicales
+particularité de la région de l‘est de Béjaia, il est attesté aqeclaw/axeclaw dans le
+parler d‘Ait Mengellat Dallet (1982 : 645) et dans les autres parlers kabyles Bouamara
+(2017 : 415).
+Le lexème aqecwal a d‘autres variantes dans cette région étudiée, il s‘agit de :
+Axecwal, ixecxac/ixecxucen et tiẓẓit.
+-Axecwal : C‘est un substantif masculin sans féminin dans les parlers de la région de
+l‘est de Béjaia, il est issu de la même racine que selui de aqecwal, il a les flexions du
+nombre et celles de l‘état : axecwal (masc, sing) ; ixecwalen (masc, pl) ; uxecwal
+(E.A) ; yixecwalen (E.A). Ce lexème est attesté dans 03 parlers sur les 19 étudiés, il
+s‘agit de : Aokas, Tizi n Berber, Darguina.
+- Axecxuc : C‘est un substantif masculin sans féminin issu de la racine quadrilitère xcxc,
+ses flexions sont celles du nombre et de l‘état ; axecxuc (masc, sing) ; ixecxucen ou
+ixecxac (masc, pl) ; uxecxac (E.A) ; yixecxucen/yixecxac (masc, pl). Ces lexèmes sont
+une partucularité de la région de l‘est de Béjaia, ils sont attestés dans 04 parlers qui
+sont : Ait Segoual, Melbou, Leâlam et Tamrijt. La variation entre ixecxucen et ixecxac
+est d‘ordre morphologique, il s‘agit de la formation du pluriel :
+- ixecxucen : c‘est un pluriel externe (i---n), il est attesté dans le parler de Tamrijt ;
+- ixecxac : c‘est un pluriel interne (alternance vocalique u/a), cette forme est attestée
+dans les parlers Ait Segoual, Melbou, Leâlam.
+- Tiẓẓit : c‘est un substantif féminin sans masculin, sans pluriel et sans état d‘annexion,
+il est issu de la racine bilitère ẓy. Ce lexème est attesté dans le parler de Leâlam, il se
+peut qu‘il est le résultat d‘une assimilation ẓ + d = ẓẓ (tizḍit≤tiẓẓit) puisque le lexème
+tizḍit attesté dans le parler d‘ijermounen désigne la quenouille et le déchet non
+comestible qui accompagne le foin, c‘est ce qui est appelé tiẓẓit dans les parlers Aokas,
+Tizi n Berber et Ighil Wis, attesté aussi dans le parler d‘Ait Mengellat Dallet (1982 :
+927).
+La variation du lexème « brindille» est portée sur une carte géolinguistique (cf
+annexe 6.5, figure 27).
+318
+---PAGE---
+Chapitre 3 : Les variables lexicales
+5.10. Ameẓẓyan « jeune, petit » : C‘est un substantif qui est formé sur la racine trilitère
+mẓy, il désigne aussi un adjectif avec le morphème (a---an), il est dérivé du verbe mẓi,
+ses flexions sont : ameẓẓyan (masc, sing) ; tameẓẓyant (fém, sing) ;
+imeẓẓyanen/imeẓẓyuna (masc, pl) ; timeẓẓyanin/tmeẓẓyuna (fém, pl) ;
+umeẓẓyan/yimeẓẓyanen (E.A) ; tmeẓẓyant/tmeẓẓyanin (E.A). Ce lexème, au singulier,
+est attesté dans les 19 parlers, c‘est seulement au pluriel qu‘il y variation : Aokas, Tizi
+n berber, S.El.Tennine, Qelaoun, Ijermounen, Ait Merâi, Taregragt, Bouyman, Ait
+Mbarek, Darguina, Tamrijt, lelalam, Melbou, Ait Segoual, Ighil Wis, Ait Amrous,
+Tagouba, Ait Bourman, et Ait Bimoun. Ce lexème n‘est pas une particularité de la
+région de l‘est de Béjaia, il est attesté aussi dans le parler d‘Ait Mengellat Dallet
+(1982 : 531), dans les autres parlers kabyles Bouamara (2017 : 346), dans les parlers
+des Aurès Huyghe (2007 : 237) ainsi dans les parlers du Maroc central Taifi (1991 :
+451).
+Ce qui à préciser ici, c'est que la variation entre les lexèmes imeẓẓyanen et
+imeẓẓyuna est d‘ordre morphologique, il s‘agit de la formation du pluriel :
+- ameẓẓyan/imeẓẓyanen : c‘est un pluriel régulier externe (i---n), il est attesté dans 15
+parlers : Aokas, Tizi n berber, S.El.Tennine, Qelaoun, Ijermounen, Ait Merâi,
+Taregragt, Bouyman, Ait Mbarek, Darguina, Ighil Wis, Ait Amrous, Tagouba, Ait
+Bourman, et Ait Bimoun.
+- ameẓẓyan/imeẓẓyuna : c‘est un pluriel interne (alternance vocalique), il est attesté
+dans 04 parlers : Tamrijt, Leâlam, Ait Segoual et Melbou.
+- abeztuḥ/ ibeztuḥen/ibeztuḥa : se sont des adjectifs dérivés du verbe d‘état ztiḥ « être
+petit » : abeztuḥ (masc.sing)/u, tabeztuḥt/t (fém.sing), ibeztuḥen/y (masc.pl.) (pluriel
+régulier ou externe) ; ibeztuḥa/y (masc.pl) (pluriel interne) ; tibeztuḥin ou tibeztuḥa/t
+(fém.pl), ces variantes sont attestées dans 11 parlers de la région située à l'est de
+Béjaia, ils‘agit de : Aokas, Tizi n berber, S.El.Tennine, Qelaoun, Ijermounen, Ait
+Merâi, Taregragt, Ait Mbarek, Darguina, Ait Amrous et Tagouba. Ces variantes ne
+sont pas une spécificité de la région étudiée, elles sont attestées dans les autres parlers
+kabyles Bouamara (2017 : 52) ;
+Généralement, les parlers qui attestent le lexème abeztuḥ, utilisent aussi ameẓẓyan,
+se sont de synonymes.
+319
+---PAGE---
+Chapitre 3 : Les variables lexicales
+La variation du lexème « petit» est portée sur une carte géolinguistique (cf annexe
+6.5, figure 28).
+5.11. Ameqqran « grand, âgé » : C‘est un substantif qui est formé sur la racine trilitère
+mɣr, il désigne aussi un adjectif, il est dérivé du verbe imɣur, ses flexions sont :
+ameqqran (masc, sing) ; tameqqrant (fém, sing) ; imeqqranen (masc, pl) ; timeqqranin
+(fém, pl) ; umeqqran/yimeqqranen (E.A) ; tmeqqrant/tmeqqranin (E.A). Ce lexème
+est attesté dans 13 parlers : Ait Bourman, Qelaoun, Tamrijt, Leâlam, Ait Segoual,
+Melbou, S.El.Tennine, Aokas, Tizi n Berber, , Ighil Wis, Tagouba, Ait Amrous et Ait
+Bimoun, il n‘est pas spécifique à la région située à l'est de Béjaia, il est panberbère, il
+est attesté dans tous les parlers kabyles avec une variante phonétique ameqqwran
+Dallet (1982 : 510) pou le parler d‘Ait Mengellat et Bouamara (2017 : 336) pou les
+autres parlers kabyles. Ce lexème est aussi attesté dans les parlers des Aurès Huyghe
+(2007 : 166) ainsi dans les parlers du Maroc central Taifi (1991 : 425)
+Ce lexème a, comme variante phonétique, dans la région située à l'est de Béjaia,
+ameqqwran, elle est attestée dans 03 parlers : Bouyman, Ait Mbarek et Taregragt. Il
+s‘agit particulièrement de la phonétique articulatoire, la labiovélarisation de [q]/[qw].
+Ce lexème a aussi une variante lexicale dans cette région, il s‘agit de ageɛmir ;
+- Ageɛmir « grand) : C‘est un substantif qui est formé sur la racine quadrilitère gɛmr, il
+désigne aussi un adjectif, il est dérivé du verbe ggaɛmer, ses flexions sont : ageɛmir
+(masc, sing) ; tageɛmirt (fém, sing) ; igeɛmura(pluriel interne) ou igeɛmiren (pluriel
+regulier) (masc, pl) ; tigeɛmura (fém, pl) ; ugeɛmir/yigeɛmura (E.A) ;
+tgeɛmirt/tgeɛmura (E.A).Ce lexème est attesté dans 17 parlers : Aokas, S.EL.Tennine,
+Bouyman, Qelaoun, Ijermounen, Ait Merâi, Bouyman, Taregragt, Ait Mbarek,
+Darguina, Tamrijt, Leâlam, Melbou, Ait Segoual Ighil Wis, Ait Amrous et Tagouba.
+Dans le parlers d‘Aokas, ameqqran (être agé) est plus restreint que ageɛmir(être
+grand), c‘est valable aussi pour ameẓẓyan, destiner à l‘âge jeune, sémantiquement
+parlant plus restreint que abeztuḥ (être petit) ;
+A l‘exception des deux extrémités de la région de l‘est de Béjaia (Ait Bimoun et
+Ait Bourman, tous les autres parlers de cette région attestent le lexème ageɛmir.
+320
+---PAGE---
+Chapitre 3 : Les variables lexicales
+La variation du lexème « grand» est portée sur une carte géolinguistique (cf annexe
+6.5, figure 29).
+5.12. Taclamt « petit outre » : C‘est un substantif qui est formé sur la racine trilitère
+clm, ses flexions sont : aclam (masc, sing) ; taclamt (fém, sing) ; iclamen (masc, pl) ;
+ticlamin (fém, pl) ; uclam/yiclamen (E.A) ; teclamt/teclamin (E.A). Ce lexème est
+attesté dans O5 parlers : Ijermounen, Qelaoun, Ait Merâi, Bouyman, Darguina ;
+- Ticimit : C‘est un substantif qui est formé sur la racine bilitère cm, ses flexions sont :
+icimi (masc, sing) ; ticimit (fém, sing) ; icumay (masc, pl) ; ticumay (fém, pl) ;
+yicimi/yicumay (E.A) ; tcimit/tcumay (E.A). Ce lexème est attesté dans parlers :
+Aokas, Tizi n Berber, Taregragt, Ait Mbarek, Darguina, Ighil Wis, Ait Amrous,
+Tagouba
+Ce que nous tenons à préciser, c‘est que sémantiquement, ticimit est plus grande
+que takemmust ;
+Le parler de Ighzer Ouftis de Darguina atteste les deux lexèmes taclamt et ticimit.
+La variation du syntagme « petit outre» est portée sur une carte géolinguistique (cf
+annexe 6.5, figure 30).
+5.13. Takemmust « petit paquet noué » : C‘est un substantif qui est formé sur la racine
+trilitère kms, ses flexions sont : akemmus (masc, sing) ; takemmust (fém, sing) ;
+ikemmusen (masc, pl) ; tikemmusin (fém, pl) ; ukemmus/yikemmusen (E.A) ;
+tkemmust/tkemmusin (E.A). Ce lexème est attesté dans : Darguina, Taregragt, Ait
+Mbarek, Leâlam, Tamrijt, Ait Segoual, Melbou, S.El.Tennine, Aokas, Tizi n Berber,
+Ighil Wis, Ait Amrous, Tagouba le parler d‘Ait Mengellat takemmust, tawemmust,
+tayemmust/tiyemmusin (akemmus gros ballot noué-moins employer que takemmust)
+Dallet (1982 : 407) et dans les autres parlers kabyles Bouamara (2017 : 236).
+- takemmust : C‘est un substantif qui est formé sur la racine trilitère kms,
+morphologiquement, il a le morphème d‘un nom de patient (tension consonantique et
+alternance vocalique (e/u), c‘est ce que donne : kmes-akem(mu)s), ses flexions sont :
+akemmus (masc, sing) ; takemmust (fém, sing) ; ikemsan (masc, pl) ; tikemsin (fém,
+pl) ; ukemmus/yikemsan (E.A) ; tkemmust/tkemsin (E.A). Ce lexème est attesté dans
+les deux extrémités de la région est de Béjaia, à savoir Ait Bourman et Ait Bimoun ;
+321
+---PAGE---
+Chapitre 3 : Les variables lexicales
+Précisons ici que la variation des lexèmes ikemmusen et ikemsan est d‘ordre
+morphologique, il s‘agit de la formation du pluriel :
+- akemmus / ikemmusen : pluriel régulier externe (i---n) ;
+- akemmus /ikemsan : pluriel mixte, chute d‘une consonne radicale et alternance
+vocalique + (i---n).
+La variation du syntagme « petit paquet noué» est portée sur une carte
+géolinguistique (cf annexe 6.5, figure 31)
+5.14. Zweṭ/zuṭ « secouer, fouetter » : C‘est un verbe mixte (transitif et intransitif à la
+fois) formé sur la racine trilitère zwṭ, il a trois thèmes aspectuels : zweṭ (thème
+d‘aoriste et du prétérit affirmatif), zwiṭ/zweṭ (thème du prétérit négatif),
+zewweṭ/zeggweṭ (thème d‘aoriste intensif) ; ttwaẓwet/ttwazuṭ (le dérivé passif) ; azwaṭ
+(nom d‘action verbale) ainsi azewwaṭ/azeggwaṭ (nom d‘instrument). Ce lexème est
+attesté dans 13 parlers : Bouyman, Aokas, Tizi n berber, S.El.Tennine, Ait Merâi,
+Ijermounen, Qelaoun, Taregragt, Ait Mbarek, Tamrijt, Leâlam, Melbou, Ait Segoual, il
+est attesté sewweṭ (emprunt à l‘arabe sawwaṭa) dans les parlers des Aurès Huyghe
+(2007 : 159).
+- Zwi : C‘est un verbe mixte (transitif et intransitif à la fois) formé sur la racine trilitère
+zwy, il a deux thèmes aspectuels : zwi (thème d‘aoriste et du prétérit), zewwi/zeggwi
+(thème d‘aoriste intensif) ; azway (nom d‘action verbale). Ce lexème est attesté dans
+11 parlers : Ait Bourman, Bouyman, Darguina, Ighil Wis, tagouba, Ait Amrous, Ait
+Bimoun, Tamrijt, Leâlam, Melbou et Ait Segoual. Ce lexème n‘est pas une
+particularité de la région de l‘est de Béjaia, il est attesté dans le parler d‘Ait Mengellat
+Dallet (1982 : 962) et dans les autres parlers kabyles Bouamara (2017 : 655).
+Ce qui retient notre attention ici est que les parlers : Bouyman, Tamrijt, Leâlam,
+Melbou et Ait Segoual attestent les deux lexèmes zwi et zweṭ, ils sont synonymes.
+La variation du lexème « secouer» est portée sur une carte géolinguistique (cf annexe
+6.5, figure 32).
+515. Azewwaṭ, asewwaṭ, , azeggwaṭ « fouet, gaule » : C‘est un substantif formé sur la
+racine trilitère zwṭ, ses flexions sont : azewwaṭ/azeggwaṭ (masc, sing) ;
+322
+---PAGE---
+Chapitre 3 : Les variables lexicales
+izewwaṭen/izeggwaṭen (masc, pl) ; uzewwaṭ/uzeggwaṭ (E.A) ; yizewwaṭen/yizeggwaṭen
+(E.A). Ces lexèmes sont attestés dans les parlers suivants :
+-Azewwat (05 parlers) : Aokas, Tizi n berber, S.El.Tennine, Ait Merâi, Ijermounen,
+Qelaoun ;
+- Azeggwaṭ (03 parlers): Taregragt, Ait Mbarek, Darguina ;
+- Asewwaṭ (02 parlers): Ait Segoual et Melbou.
+Précisons que la variation entre les lexèmes que nous venons d‘évoquer est d‘ordre
+phonétique : entre azewwaṭ et azeggwaṭ c‘est le phénomène de labiovélarisation, entre
+azewwaṭ et asewwaṭc‘est le phénomène d‘assimilation par sourdité ; la dentale
+emphatique [ṭ], a contaminé à distance la sonore[z] en devenant sourde [s] ; il est
+attesté ssewṭ/leswaṭ, ameclaḍ/imeclaḍen dans les parlers des Aurès Huyghe (2007 :
+159) ;
+Sémantiquement, les lexèmes : azewwaṭ, asewwaṭ, et azeggwaṭ sont des noms
+d‘instruments, mais sur le plan morphologique ; c‘est des noms d‘agent : verbe zweṭ
+accompagné d‘une tension de la consonne radicale (médiane –ww-) et d‘une alternance
+vocalique (-e/a-), c‘est ce qui donne : z(s)weṭ---az(s)ewwaṭ/azeggwaṭ.
+- Aɛemmud, asɣar : le premier est un emprunt à l‘arabe, déjà vu dans (1.1) quant au
+second asɣar : C‘est un substantif, nom d‘instrument (s+qqar) dérivé du verbe qqar,
+il est issu de la racine bilitère Qr, ses flexions sont : asɣar (masc, sing) ; isɣaren (masc,
+pl) ; usɣar (E.A) et yisɣaren (E.A) . Ce lexème est attesté dans un seul parler, il s‘agit
+d‘Ait Bourman, il n‘est spécifique à cette région étudiée, il est attesté dans le parler
+d‘Ait Mengellat Dallet (1982 : 622) et dans les autres parlers kabyles Bouamara (2017 :
+544) ;
+- tamezwayt : c‘est un substantif, nom d‘instrument dérivé du verbe zwi, qui,
+morphologiquement, a le morphème du nom d‘agent (am---a-), il est issu de la racine
+zwy, ses flexions sont : amezway (masc, sing) ; tamezayt (fém, sing) ; imezwayen
+(masc, pl) ; timezwayin (fém, pl) ; umezway/yimezwayen (E.A) ; tmezwayt/tmezwayin
+(E.A). Il est attesté dans le parler d‘Ait Bimoun, il a comme synonyme dans ce parler
+taḥerbunt. Le lexème tamezwayt n‘est pas une spécifité de la région de l‘est de Béjaia,
+323
+---PAGE---
+Chapitre 3 : Les variables lexicales
+il est attesté tamezwit dans le parler d‘Ait Mengellat Dallet (1982 : 963) et dans les
+autres parlers kabyles Bouamara (2017 : 346) ;
+- akeccuṭ/akeccaṭ : C‘est un substantif qui est formé sur la racine trilitère kCṭ, ses
+flexions sont : akeccuṭ/akeccaṭ (masc, sing) ; takeccuṭ/takeccaṭ(fém, sing) ; ikecwaṭ,
+ikeccuṭen, ikeccaṭen (masc, pl) ; tikecwaṭ, tikeccuṭin, tikeccaṭin (fém, pl) ;
+ukeccuṭ/yikeccuṭen (E.A) ; tkeccu(a)ṭ/t (E.A). Ce lexème est attesté dans les parlers :
+- Akeccuṭ (03 parlers) : Bouyman, Ighil Wis, Tamrijt;
+- Akeccaṭ (03 parlers): Leâlam Melbou, Ait Segoual.
+Dans le parler d‘Aokas, akeccuṭ « bâton quelconque» est d‘un usage général,
+par contre ; azewwaṭ « fouet » est conçu particulièrement pour la laine ;
+La variation du lexème « fouet» est portée sur une carte géolinguistique (cf annexe
+6.5, figure 01) comme nous l‘avons déjà évoqué dans les emprunts.
+5.16. Irid « être lavé » : C‘est un verbe intransitif issu de la racine bilitère rd, il a trois
+thèmes aspectuels : rid (thème d‘aoriste) ; rad (thème du prétérit) ; ttirid (thème d‘aoriste
+intensif) ; ssired « laver » (thème d‘aoriste de l‘actif factitif) ; ssared (thème du prétérit de
+l‘actif factitif) ; ssirid (thème d‘aoriste intensif de l‘actif factitif). Ce lexème est attesté
+dans les parlers : , il est attesté dans le parler d‘Ait Mengellat Dallet (1982 : 706) et dans
+les autres parlers kabyles Bouamara (2017 : 443), dans les parlers des Aurès Huyghe
+(2007 : 192) ainsi dans les parlers du Maroc central avec une alternance vocalique
+(i/a)Taifi (1991 : 564).
+- llil : C‘est un verbe intransitif formé sur la racine bilitère Ll, il a trois thèmes
+aspectuels : llil (thème d‘aoriste) ; llal (thème du prétérit) ; ttlil (thème d‘aoriste
+intensif) ; slil(thème d‘aoriste du factitif actif), slal (thème du prétérit du factitif actif),
+slalay (thème d‘aoriste intensif du factitif actif), il est attesté dans les parlers Leâlam,
+Ijermounen, Ait Merâi et Ighil Wis mais pas exactement le même sens que celui de
+laver, il signifie passer l‘eau sans l‘utilisation du savon, il s‘agit de laver légèrement.
+Le dérivé du verbe llil est aussi clil/cellel, le morphème de l‘actif factitif est (c---)
+et non pas (s---), il est attesté dans le parler de Leâlam, mais pour désigner l‘étape
+finale du lavage, à savoir le rinçage.
+324
+---PAGE---
+Chapitre 3 : Les variables lexicales
+A préciser que dans le parler d‘Aokas, de Tizi n Berber, S.El.Tennine, Ijermounen et
+Ait Merâi, le verbe cellel signifie camoufler ou refaire une couche, Ex, celleɣ tixitemt s
+lfeṭṭa « j‘ai repeint la bague en argent » ;
+Il est à signaler aussi que la variation entre les lexèmes slil et clil est d‘ordre
+phonétique, il s‘agit d‘assimilation par le lieu d‘articulation [s] et [c].
+La variation du lexème « laver» est portée sur une carte géolinguistique (cf annexe 6.5,
+figure 34).
+5.17. Wiqqer « s’égoutter » : C‘est un verbe intransitif issu de la racine trilitère wQr, il
+a trois thèmes aspectuels : wiqqer (thème d‘aoriste) ; waqqer (thème du prétérit) ;
+ttwiqqir (thème d‘aoriste intensif. Ce lexème est attesté dans 05 parlers : Aokas, Tizi n
+Berber, Taregragt, Ait Mbarek et Leâlam.
+Ce qui est à retenir ici est que, dans ces parlers, c‘est tiqiṭṭert « eau de cendres filtrée »
+du verbe qiṭṭer qui est attesté et pas tiwiqqert.
+- Swiqqer « faire égoutter » : c‘est le dérivé actif factitif du verbe intransitif wiqqer, ses
+thèmes aspectuels sont : swiqqer (thème d‘aoriste) ; swaqqer (thème du prétérit) ;
+swiqqir (thème d‘aoriste intensif), il est attesté dans les mêmes parlers qui attestent le
+verbe simple wiqqer.
+Les lexèmes (wiqqer, ttwiqqir, swiqqer, swiqqir et tiqiṭṭert) sont une particularité
+de la région de l‘est de Béjaia.
+- Qiṭṭer « s‘égoutter » : C‘est un verbe intransitif issu de la racine trilitère qṬr, il a trois
+thèmes aspectuels : qiṭṭer (thème d‘aoriste) ; qaṭṭer (thème du prétérit) ; ttqiṭṭir (thème
+d‘aoriste intensif). Ce verbe a un dérivé actif factitif, tout comme wiqqer, il s‘agit de
+sqiṭṭer « faire égoutter », ses thèmes aspectuels sont : sqiṭṭer (thème d‘aoriste) ; sqaṭṭer
+(thème du prétérit) ; sqiṭṭir (thème d‘aoriste intensif). Ce lexème est attesté dans 16
+parlers : Ait Bourman, Bouyman, Qelaoun, Ijermounen, Ait Merâi, Taregragt, Ait
+Mbarek, Darguina, Tamrijt, Ighil Wis, Tagouba, Ait Amrous, Ait Bimoun, Melbou, Ait
+Segoual, S.El.Tennine. Ce lexème, contrairement au précédent, n‘est pas une
+particularité de la région de l‘est de Béjaia, il est attesté dans le parler d‘Ait Mengellat
+325
+---PAGE---
+Chapitre 3 : Les variables lexicales
+Dallet (1982 : 685) et dans les autres parlers kabyles Bouamara (2017 : 426), les
+parlers des Aurès Huyghe (2007 : 130) ainsi dans les parlers du Maroc central avec
+une alternance vocalique (i/e), il est attesté qeṭṭer Taifi (1991 : 548)
+Les parlers Taregragt et Ait Mbarek attestent les deux lexèmes wiqqer et qiṭṭer, se
+sont des synonymes.
+La variation du lexème « s'égoutter» est portée sur une carte géolinguistique (cf
+annexe 6.5, figure 35)
+5.18. Imezdig «propre, net » : C‘est un adjectif qualificatif dérivé du verbe de qualité
+zdig lui-même formé sur la racine trilitère zdg, le morphème de cet adjectif est un
+préfixe (im---), ses flexions sont : imezdig/y (masc, sing) ; timezdig/yt (fém, sing) ;
+imezdig/yen(masc, pl) ; timezdig/yin (fém, pl) ; yimezdig/yen (E.A) et
+tmezdig/yt/tmezdig/yin (E.A). Ce lexème est attesté dans 14 parlers : Aokas, Tizi n
+Berber, Qelaoun, Bouyman, S.El.Tennine, Ijermounen, Ait Merâi, Taregragt, Ait
+Mbarek, Darguina, Tamrijt, leâlam, Melbou et Ait Segoual, il est particulier à la
+région est de béjaia, dans les autres parlers kabyles ainsi dans les parlers des Aurès, le
+verbe « zdeg » et le nom asizdeg « purification » sont attestés mais l‘adjectif ne se
+forme pas de la même façon (pas avec le préfixe im---).
+-Azedgan /azedyan : C‘est un adjectif qualificatif dérivé du verbe de qualité zdig lui-
+même formé sur la racine trilitère zdg, le morphème de cet adjectif est un infixe (a---
+an), ses flexions sont : azedg/yan (masc, sing) ; tazedg/yant (fém, sing) ; izedg/yanen
+(masc, pl) ; tizedg/yanin) ; yizedg/yanen (E.A) et tzedg/yant/tzedg/yanin (E.A). Ce
+lexème est attesté dans 05 parlers : Ighil Wis, Ait amrous, Tagouba, parlers de la partie
+ouest de la région étudiée ainsi les deux extrémités (Ait Bimoun et Ait Bourman), il
+n‘est pas spécifique à la région est de Béjaia, il est attesté azedgan et azedyan
+(affaiblissement de [g] et son passage à la semi-voyelle [y] dans le parler d‘Ait
+Mengellat Dallet (1982 : 929) et dans les autres parlers kabyles Bouamara (2017 : 639)
+ainsi les parlers des Aurès Huyghe (2007 : 255).
+Nous tenons à rappeler ici, que la variation entre les deux lexèmes attestés dans
+les parlers de la région de l‘est de Béjaia azedgan/azedyan et imezdig est :
+326
+---PAGE---
+Chapitre 3 : Les variables lexicales
+- d‘ordre phonétique entre azedgan et azedyan : affaiblissement de [g] et son passage à
+[y] ;
+- d‘ordre morphologiqueentre azedgan et imezdig : c‘est la formation de l‘adjectif,
+infixe (a---an) pour le premier et préfixe (im---) pour le second.
+La variation du lexème «propre» est portée sur une carte géolinguistique (cf annexe
+6.5, figure 36).
+5.19. Aẓem « essorer, tordre la laine mouillée » : C‘est un verbe transitif issu de la
+racine bilitère ẓm, il a trois thèmes aspectuels : ẓem/ẓmi (thème d‘aoriste et du prétérit
+affirmatif) ; ẓim/ẓem (thème du prétérit négatif) ; ttaẓem (thème d‘aoriste intensif). Ce
+lexème est attesté dans 16 parlers : Aokas, Tizi n Berber, Qelaoun,
+Bouyman,S.El.Tennine, Ijermounen, Ait Merâi, Taregragt, Ait Mbarek, Darguina,
+Tamrijt, Ighil Wis (ẓmi), Ait Amrous, Tagouba, Ait Bourman et Ait Bimoun, il est
+attesté aussi dans le parler d‘Ait Mengellat Dallet (1982 : 945) et dans les autres
+parlers kabyles Bouamara (2017 : 665) tout comme ẓem/ẓemm dans les parlers des
+Aurès Huyghe (2007 : 314) ainsi dans les parlers du Maroc central Taifi (1991 : 825).
+- ɛser : (déjà vu dans 1.7) : Dans le parlers Qelaoun, l‘emprunt intégré ɛser « essorer »
+est attesté tout comme le lexème de souche berbère aẓem, il vient le concurrencer ;
+La variation du lexème « essorer» est portée sur une carte géolinguistique (cf annexe
+6.5, figure 7)
+5.20. kkaw« être sec, sécher » : C‘est un verbe intransitif formé sur la racine bilitère
+Kw, il a deux thèmes aspectuels kkaw (thème d‘aoriste et du prétérit) ; ttkawa (thème
+d‘aoriste intensif) ; skaw (thème de l‘aoriste et dupétérit du dérivé actif factitif) et
+akkaw/takawit (nom d‘action verbale). Ce lexème est attesté dans 09 parlers : Aokas,
+Tizi n Berber, Ighil Wis, Darguina, Taregragt, Ait Mbarek, Ait Amrous, Tagouba, Ait
+Bimoun. Ce lexème n‘est pas une particularité de la région étudiée, il est attesté dans
+le parler d‘Ait Mengellat Dallet (1982 : 429) et dans les autres parlers kabyles
+Bouamara (2017 : 241). Il a une variante lexicale dans cette région étudiée, c‘est qqar.
+- Qqar : C‘est un verbe intransitif formé sur la racine bilitère Qr, il a trois thèmes
+aspectuels qqar (thème d‘aoriste) ; qqur (thème du prétérit) ; ttɣra/ttqara (thème
+327
+---PAGE---
+Chapitre 3 : Les variables lexicales
+d‘aoriste intensif) ; sɣar/sqar (thème de l‘aoriste et dupétérit du dérivé actif factitif) ;
+aqqar/taɣarit (nom d‘action verbale). Ce lexème est attesté dans 14 parlers : Ait
+Bourman, bouyman, Qelaoun, Ijermounen, Ait Merâi, Taregragt, Ait Mbarek, Leâlam,
+Tamrijt, Melbou, Ait Segoual, S.El.tennine, Ait Amrous, Tagouba, il n‘est pas
+particulier à cette région, il est attesté dans le parler d‘Ait Mengellat Dallet (1982 :
+621-622) mais au sens de être sec et pas au sens de sécher comme c‘est le cas des
+parlers de la région de l‘est de Béjaia, dans les autres parlers kabyles au sens de sécher
+Bouamara (2017 : 429) ainsi les parlers des Aurès Huyghe (2007 : 290) ;
+Les parlers Taregragt, Ait Mbarek, Ait Amrous et Tagouba attestent les deux
+lexèmes kkaw et qqar, se sont des synonymes ;
+Dans le parler d‘Aokas, qqar signifie « être dur, sec » et pas sécher comme il est
+attesté dans le parler d‘Ait Mengellat.
+La variation du lexème «sécher» est portée sur une carte géolinguistique (cf annexe
+6.5, figure 37).
+5.21. Fuḥ « puer » : il est attesté dans les 19 parlers étudiés de la région de l‘est de
+Béjaia, nous l‘avons analysé dans les lexèmes communs (2.11). Ce lexème a comme
+variante lexicale buy dans la région de l‘est de Béjaia ;
+- Buy : C‘est un verbe intransitif formé sur la racine bilitère by, il a deux thèmes
+aspectuels buy (thème d‘aoriste et du prétérit) ; ttbuy (thème d‘aoriste intensif) ; sbuy
+(thème de l‘aoriste et dupétérit du dérivé actif factitif) ; lbuya (substantif). Ce lexème
+est une particularité de la région de l‘est de Béjaia, il est attesté dans les 10 parlers
+formants la partie Ouest, à savoir Ighil is, Ait Amrous et Tagouba ainsi la partie Est de
+cette région : Qelaoun, Ijermounen, Ait Merâi, Taregragt, Bouyman et Ait mbarek, et
+enfin le parler de l‘extrême Est, à savoir Ait Bourman. Sémantiquement parlant, le
+verbe buy est plus fort que le verbe fuḥ, il signifie une odeur insupportable « sentir très
+mauvais ».
+La variation du lexème «puer» est portée sur une carte géolinguistique (cf annexe 6.5,
+figure 18 ou 38).
+3.22. Amellal/tamellalt « blanc, blanche » : ses flexions sont Amellal/tamellalt ;
+imellalen/timellalin ; umellal/tmellalt ; yimellalen/tmellalin : il est attesté dans les 19
+328
+---PAGE---
+Chapitre 3 : Les variables lexicales
+parlers étudiés de la région située à l'est de Béjaia, tout comme les autres parlers
+kabyles, nous l‘avons analysé dans les lexèmes communs (2.5)
+- Acuraq : C‘est un substantif qui est formé sur la racine trilitère crq, ses flexions sont :
+acuraq (masc, sing) ; tacuraqt (fém, sing) ; icuraqen (masc, pl) ; ticuraqin (fém, pl) ;
+ucuraq/yicuraqen (E.A) ; tcuraqt/tcuraqin (E.A). Ce lexème est attesté dans les
+parlers : Bouyman, Qelaoun Ijermounen, Ait Merâi, Taregragt, Ait Mbarek, Darguina,
+S.El.Tennine, Aokas, Tizi n berber et Ighil Wis. C‘est une particularité de la région de
+l‘est de Béjaia
+Dans les parlers Aokas, ijermounen, Ait Merâi, Taregragt, Ait Mbarek et Darguina,
+le lexème (adjectif) acuraq « Blanc » est d‘un usage plus restreint que amellal qui
+désigne la couleur blanche en général, acuraq est utilisé pour la peau d‘un être humain
+en particulier (peau blanche) ;
+- Acebḥan : C‘est un substantif qui est formé sur la racine trilitère cbḥ, ses flexions sont :
+acebḥan (masc, sing) ; tacebḥant (fém, sing) ; icebḥanen (masc, pl) ; ticebḥanin (fém,
+pl) ; ucebḥan/yicebḥanen (E.A) ; tcebḥant/tcebḥanin (E.A). Ce lexème est attesté dans
+les deux parlers formants les extrémités de la région Est de béjaia, il s‘agit de : Ait
+Bourman et Ait Bimoun, il n‘est pas spécifique à cette région, il est aussi attesté dans
+le parler d‘Ait Mengellat Dallet (1982 : 73) et les autres parlers kabyles Bouamara
+(2017 : 80) avec deux sens : « beau, belle » et « blanc, blanche », dans le parler
+d‘Aokas, le synonyme du premier sens est amuzyin/tamuzyint et le second est
+acura/tacuraqt ou amellal/tamellalt.
+La variation du lexème «blanche» est portée sur une carte géolinguistique (cf annexe
+6.5, figure 12).
+5.23. Tafuset « petite poignée » : C‘est un substantif qui est formé sur la racine bilitère
+fs, ses flexions sont : tafuset (fém, sing) sans masculin; tifastin (fém, pl) ; tfuset/tfastin
+(E.A). Ce lexème est attesté dans 04 parlers des 19 étudiés : il s‘agit des deux
+éxtrémités à savoir Ait Bimoun à l‘ouest et Ait Bourman à l‘est et des parlers Ait
+Mbarek et Taregragt. Ce lexème n‘est pas spécifique à la région de l‘est de Béjaia, il
+est aussi attesté tafettust dans le parler d‘Ait Mengellat Dallet (1982 : 233) et tafuset
+dans les autres parlers kabyles Bouamara (2017 : 164) ainsi tafust/tifusin dans les
+329
+---PAGE---
+Chapitre 3 : Les variables lexicales
+parlers du Maroc central Taifi (1991 : 133). Ce lexème connait trois autres variantes
+dans la région étudiée, il s‘agit de : tameqqunt, tahebbiẓt et tamanda.
+- Tameqqunt « botte » : C‘est un substantif qui est formé sur la racine bilitère Qn, il
+s‘agit du nom de patient, son morphème est (am-u-). Il a toutes les flexions : ameqqun
+(masc, sing) ; tameqqqunt (fém, sing) ; imeqqunen (masc, pl) ; timeqqunin (fém, pl) ;
+umeqqun/yimeqqunen et tmeqqunt/tmeqqunin (E.A). Ce lexème est attesté dans les
+parlers Aokas, Tizi n Berber, S.El. Tennine, Qelaoun, ijermounen, Ait Merâi, Ighzer
+Uftis de Darguina et Ighil Wis. Ce lexème est attesté aussi dans le parler d‘Ait
+Mengellat Dallet (1982 :668) et dans les autres parlers kabyles Bouamara (2017 : 429).
+-Tahebbiẓt : C‘est un substantif qui est formé sur la racine trilitère hbẓ, signifie ce que
+nous pouvons tenir d‘une poignée de main. Ses flexions sont : ahebbiẓ (masc, sing) ;
+tahebbiẓt (fém, sing) ; ihebbiẓen (masc,pl) ; tihebbiẓin (fém, pl) ; uhebbiẓ/yihebbiẓen et
+thebbiẓt/thebbiẓin (E.A). Ce lexème est attesté dans les parlers Ait Amrous et Tagouba.
+- Tamanda : C‘est un substantif féminin sans masculin, son pluriel timandiwin ;
+tmanda/tmandiwin (E.A.). Ce lexème est spécifique aux trois parlers de la région de
+l‘est de Béjaia qui sont : Taregragt, Ait Mbarek et Bouyman.
+La variation du lexème «motte » est portée sur une carte géolinguistique (cf annexe
+6.5, figure 39).
+5.24. Aḥercaw « rude, rugueux, moulu gros (grain) »: C‘est un substantif qui est formé
+sur la racine quadrilitère ḥrcw, ses flexions sont : aḥercaw (masc, sing) ; taḥercawt
+(fém, sing) ; iḥercawen (masc, pl) ; tiḥercawin (fém, pl) ; uḥercaw/yiḥercawen (E.A) ;
+tḥercawt/tḥercawin (E.A). Ce lexème est attesté dans 14 parlers : Tagouba, Ait Amrous,
+Ighil Wis, Aokas, Tizi n Berber, S.El. Tennine, Melbou, Ait Segoual, Tamrijt, Leâlam,
+Darguina, Qelaoun, ijermounen et Ait Merâi. Il est attesté aussi dans d‘autres parlers
+kabyles tel le parler d‘Ait Mengellat Dallet (1982 : 334).
+3.25. Afalek « plaquette » : C‘est un substantif qui est formé sur la racine trilitère flk,
+ses flexions sont : afalek (masc, sing) ; tafalekt (fém, sing) ; ifulak (masc, pl) ; tifulak
+(fém, pl) ; ufalek/yifulak (E.A) ; tfalekt/tfulak (E.A). Ce lexème est attesté dans 14
+parlers : Aokas, Tizi n Berber, Melbou, Ait Segoual, Laâlam, S.El.Tennine, Ijermounen,
+Qelaoun, Ait Merâi, Bouyman, Taregragt, Ait Mbarek, Darguina, Ighil Wis ;
+330
+---PAGE---
+Chapitre 3 : Les variables lexicales
+- Tafalekt : C‘est un substantif féminin sans masculin dans le parler d‘ Ait Bourman, ses
+flexions dans ce parler sont : tafalekt (fém, sing) ; tifulak (fém, pl) ; tfalekt/ tfulak
+(E.A) ;
+Ce qui est à retenir ici est que la variation entre afalek et tafalekt est d‘ordre
+morphologique ; forme non marquée (masculin) dans les parlers les 14 parlers évoqués
+et forme marquée qui est féminin (t---t) dans le parler d‘Ait Bourman.
+Nous tenons à rappeler ici que dans le parler de Tagouba, ce lexème est attesté au
+féminin pluriel tifulka « plaquettes », le lexème le plus utilisé dans ce parler est
+taḥerzet.
+- Taḥerzet : C‘est un substantif féminin sans masculin, ses flexions sont : taḥerzet (fém,
+sing) ; tiḥreztin (fém, pl) ; tḥerzet/teḥreztin (E.A), ce lexème est attesté dans deux
+parlers : Ait Amrous et Tagouba. Il désigne aussi dans ces parlers quelque chose de
+bien pliée, c‘est cette extention qui a donné le nom de taḥerzet, forme rectangulaire.
+Taḥerzet, dans le parler d‘Aokas tout comme tirit, veut dire remède délivré par le
+marabout en général et d‘autres à des fins de protection, , c‘est le sens attesté dans le
+parler d‘Ait Mengellat « petite amulette » Dallet (1982, 340) ;
+- tawerqet : C‘est un substantif féminin sans masculin issu de la racine trilitère wrq, ses
+flexions sont : tawerqet/tiwerqet (fém, sing) ; tiwerqatin (fém, pl) ; twerqet/twerqatin
+(E.A). Ce lexème est attesté dans un seul parler qui est Ait Bimoun.
+La variation du lexème « plaquette » est portée sur une carte géolinguistique (cf
+annexe 6.5, figure 40).
+5.26. Erẓ (verbe transitif), taruẓi et arẓay (nom d‘action verbale) « plaquettes traitées,
+pliées »: c‘est l‘étape intermidière entre le cardage et celle du filage, c‘est de fait de
+plier les plaquettes cardées et de les étirer soigneusement avant de les filer, cette étape
+est une particularité du parler d‘Aokas.
+5.27.Tilmi « filage » : C‘est un substantif féminin sans masculin, sans pluriel et sans
+état d‘annexion, il est issu de la racine bilitère Lm, il est attesté dans deux parlers :
+Qelaoun et Aokas. Dans le parler d‘Aokas, le lexème tilmi « nom d‘action verbale,
+l‘action de filage ainsi le résultat (laine filée)». Ce lexème est d‘un usage marginal,
+331
+---PAGE---
+Chapitre 3 : Les variables lexicales
+celui qui d‘usage courant est le syntagme taduṭ illmen « laine fillée ». Le lexème tilmi
+n‘est pas une particularité de la région Est de béjaia, il est aussi attesté dansle parler
+des Ait Menguellat Dallet (1982 :453) sous la forme tullma, dans les parlers du Maroc
+central Taifi (1991 : 378) et dans les parlers des Aurès Huyghe (2007 : 155) il est
+attesté tullmi. ce lexème a aussi trois autres variantes dans la région étudiée, il s‘agit
+de ulman, leɣzel et ustu.
+-Ulman « fil de trame » : C‘est un substantif pluriel sans singulier formé sur le verbe
+llem, lui-même issu de la racine bilitère Lm, la seule fléxion qu‘il a est celle de l‘état :
+ulman (masc, pl, E.L) ; wulman (masc, pl, E.A). Ce lexème est attesté dans 09
+parlers des 19 étudié : At Bourman, Bouyman, Taregragt, Ait Mbarek, Tamrijt, Ighil
+Wis, Ait Amrous, Tagouba et Ait Bimoun, il n‘est pas une spécificité de la région
+étudiée, il est attesté dans le parler d‘Ait Mengellat Dallet (1982 : 453) et dans les
+autres parlers kabyles Bouamara (2017 : 295) ;
+- Leɣzel : c‘est substantif non marqué où les oppositions de genre, de nombre et d‘état
+ne sont pas marquées, il est attesté dans deux parlers de la région Est de béjaia, il
+s‘agit de : Ijermounen, Ait Meâi,
+- Ustu : C‘est un substantif masculin sans féminin issu de la racine stw, la seule fléxion
+qu‘il a est celle de l‘état : ustu (E.L) ; wustu (E.A). Ce lexème est attesté dans le parler
+d‘Ait Bimoun,
+Dans le parler d‘Ait Bimoun, Ustu et ulman sont des synonymes, alors que dans le
+parler d‘Aokas, ustu « fil de chaîne de tissage » comme il est attesté dans le parler
+d‘Ait Mengellat Dallet(1982 : 794), il est plus dur, plus fin que tilmi « fils de la laine »,
+à ma connaissance, les deux ne sont pas fait de la même laine, celle de ustu est choisie
+avant qu‘elle soit peignée, c‘est la plus longue, la plus dure.
+La variation du lexème « fils » est portée sur une carte géolinguistique (cf annexe 6.5,
+figure 41).
+5.28. Tizḍit « quenouille » : c‘est un substantif issu de la racine trilitère zḍy, tout comme
+izḍi « grande quenoille », ses flexion sont izḍi (masc, sing) l‘augmentatif de tizḍit
+(fém,sing) forme normale; izḍiyen (masc, pl) ; tizḍiyin (fém, pl). Ce lexème est attesté
+dans 11 des 19 parlers étudiés de la région est de Béjaia, il s‘agit particulièrement de :
+332
+---PAGE---
+Chapitre 3 : Les variables lexicales
+Aokas, Tizi n Berber, S.El.Tennine, Bouyman, Ighil Wis, Qelaoun, Ijermounen, Ait
+Merâi,Taregragt, Ait Mbarek, Darguina et Tamrijt.
+- Le lexème tizḍit ou tizḍiyt signifie la plaque ou morceau de laine peignée prête à être
+filée dans les parlers du maroc central, voir Taifi (1991 : 795), c‘est le synonyme de
+Afalek, tafalekt, taḥerzet, tiwerqet dans les parlers étudiés de la région est de Béjaia.
+- izḍi : C‘est un substantif formé sur la racine trilitère zḍy, ses flexions sont : izḍi (masc,
+sing) «quenouille » qui est la forme et la taille normale ; tizḍit (fém,sing) « petite
+quenoille » qui est le diminutif de izḍi ; izḍiyen (masc, pl) ; tizḍiyin (fém, pl) ;
+yizḍi/yizḍiyen (E.A) ; tezḍit/tezḍiyin (E.A), il est attesté dans les deux parlers formants
+les deux éxtrimités de la région de l‘est de Béjaia : Ait Bourman (extrême Est) et Ait
+Bimoun (extrême Ouest). Ce lexème n‘est pas une spécificité de la région étudiée, il
+est attesté dans les parlers des Aurès Huyghe (2007 : 259) sous la forme azeḍyi
+/izeḍyan, variante morphologique et phonétique du lexème izḍi /izḍiyen :
+- phonétique : azeḍyi--- izḍi (alternance vocalique a/i et chute de la semi-voyelle y) ;
+- morphologique, particulièrement, formation du pluriel : izḍi /izḍiyen (pluriel externe) ;
+azeḍyi /izeḍyan (pluriel mixte).
+Ce que nous tenons à signaler ici, c‘est que la variation entre tizḍit et izḍi est
+d‘ordre morphologique, il s‘agit d‘opposition ou de variation de genre : masculin dans
+quelque parlers et féminin dans les autres parlers de la région de l‘est de Béjaia. Cette
+variation est aussi d‘ordre sémantique parce que izḍi signifie dans le parler d‘Ighil Wis
+la fleure de diss et la tige du diss (une fois sec) dans les parlers Ait Amrous et Tagouba.
+- Izḍi, tizḍit, izḍiyen, tizḍiyin ; où la variation est d‘ordre morphologique, izḍi est attesté
+masculin sans féminin dans les parlers Ait Bourman et Ait Bimoun mais tizḍit est
+attestée féminin sans masculin dans les parlers Aokas, Tizi n Berber, Ighil Wis,
+Ijermounen et Ait Merâi ;
+- Le rapport d‘augmentatif/diminutif est expliqué par Dallet (1982 : 932) par les
+adjectifs « grand » pour izḍi et « petit » pour tizḍit ;
+- Sémantiquement parlant, izḍi/tizḍit désignent, dans le parler d‘Ait Mengellat ainsi les
+parlers Ait Bimoun et Ait Bourman, à la fois le fusceau qui sert pour filer la trame et la
+333
+---PAGE---
+Chapitre 3 : Les variables lexicales
+quantité de la laine enroulée sur ce fusceau, contrairement aux autres parlers de la
+région est de Béjaia qui attestent ce lexème, mais pour désigner le fusceau seulement.
+- Ageṭṭum : C‘est un substantif issu de la racine trilitère gṭm, il a toutes les flexions :
+ageṭṭum (masc, sing) ; tageṭṭumt (fém, sing) ; igeṭman (masc, pl) ; tigeṭmin (fém, pl) ;
+ugeṭtṭum/yigeṭman (E.A) ; tgeṭṭumt/tgeṭmin (E.A). Ce lexème est attesté dans un seul
+parler de la région de l‘est de Béjaia, il est aussi attesté dans le prler d‘Ait Mengellat
+Dallet (1982 : 280) mais pour désigner la lisière du tissage et pas pour le fusceau de
+filage, ce lexème est aussi attesté dans les autres parlers kabyles pour désigner une
+petite branche flexible Bouamara (2017 : 176) ; il est d‘un usage générique, dans les
+autres parlers de la région est de Béjaia, il n‘est pas conçu spécialement pour filer les
+trames de laine. Par exemple, dans le parler d‘Aokas, agṭṭum est d‘un usage très
+générique, c‘est une baguette, du bois (très rarement), du métal ou d‘une autre matière :
+ageṭṭum n remman «branche de grenadier», ageṭṭum n wuzzal « baguette en métal » et
+ageṭṭum n lakri « baguette de craie ». Là aussi, par rapport à la taille et à la matière,
+dans le même parler ; des synonymes et variantes sont attestées :
+- Pour la matière, la baguette en bois, deux lexèmes sont attestés : acelliṭ « branche de
+bois vert, molle et flexible et une fois sèche, durcie, on l'appelle akeccuṭ ;
+- ageṭṭun « barre », lorsqu‘il est d'une certaine taille, estremplacé par aṭad « doigt », à
+l'exemple : aṭad n ccikula « doigt de chocolat » à la place de ageṭṭum n ccikula « barre
+de chocolat ».
+La variation du lexème « quenouille » est portée sur une carte géolinguistique (cf
+annexe 6.5, figure 42).
+5.29. Taqessult « assiette » : C‘est un substantif formé sur la racine trilitère qsl, il a
+toutes les flexions : aqessul (masc, sing), c‘est augmentatif de taqessult (forme
+ordinaire) ; taqessult (fém, sing) ; iqeslan (masc, pl) ; tiqeslin (fém, pl) ;
+uqessul/yiqeslan (E.A) ; tqessult/tqeslin (E.A). Ce lexème est attesté dans 08 parlers
+qui sont les suivants : Aokas, Tizi n Berber, S.El.tennine, Taregragt, Ait Mbarek,
+Qelaoun, Ijermounen et Ait Merâi, Ighil Wis, Ait Amrous, Tagouba,c‘est une
+particularité de la région de l‘est de Béjaia. Ce lexème a trois autres variantes lexicales
+dans cette région, il s‘agit de taɣezzalt, tarbuyt et aqedduḥ.
+334
+---PAGE---
+Chapitre 3 : Les variables lexicales
+- Taɣezzalt « assiètte » : C‘est un substantif qui formé à base de la racine trilitaire ɣzl, il
+a toutes les flexions : aɣezzal (masc, sing) ; taɣezzalt (fém, sing) ; iɣezzalen (masc,pl) ;
+tiɣezzalin (fém, pl), uɣezzal ((E.A) ; yiɣezzalen (E.A), tɣezzalt/tɣezzalin (E.A). cette
+variante est attesté dans 11/19 des parlers étudiés, il s‘agit de : Bouyman, Tamrijt,
+Taregragt, AitMbarek, Darguina, Leâlam, Melbou, Ait Segoual, Ighil Wis, Ait Amrous,
+Tagouba,
+Dans les parlers Taregragt, Ait Mbarek, Ait Amrous et Tagouba, taɣezzalt et
+taqessult ne sont pas les mêmes, elles n‘ont pas la même taille ni la même forme,
+taqessult est plus petite que taɣezzalt, elle est aussi plus creuze que taɣezzalt.
+- Tarbuyt : c‘est un substantif féminin, sans masculin, il est formé sur la racine trilitère
+rby, ses flexions sont : tarbuyt (fém, sing) ; tirbuyin (fém, pl), terbuyt/terbuyin (E.A).
+Cette variante est attestée dans un seul parler de la région est de Béjaia, il s‘agit d‘Ait
+Bimoun, parler de l‘êxtreme Ouest de cette région.
+- aqedduḥ : c‘est un substantif formé sur la racine trilitère qdḥ, il a toutes les flexions :
+aqedduḥ (masc, sing) ; taqedduḥt (fém, sing) ; iqedduḥen (masc, pl) ; tiqedduḥin (fém,
+pl) ; uqedduḥ/yiqedduḥen (E.A) ; tqedduḥt/tqedduḥin (E.A).Ce lexème est attesté dans
+un seul parler de la région de l‘est de Béjaia au sens d‘assiette, il s‘agit du parler d‘ Ait
+Bourman. Dans les autres parlers de la région de l‘est de Béjaia, tel Aokas, Tizi n
+Berber, Ighil Wis, Ait Amrous et tagouba le lexème aqedduḥ désigne un plat en bois
+assez grand, il a la forme de récipient, il sert à emmagasiner de l‘huile d‘olive, quant à
+taqedduḥt, elle signifie un petit plat en bois où on met de réserve ce qui est cher (le
+beurre et le miel). Ce lexème n‘est pas une spécificité de la région est de Béjaia, il est
+attesté dans le parler d‘Ait Mengellat Dallet (1982 : 649) et dans les autres parlers
+kabyles Bouamara (2017 : 416).
+La variation du lexème « assiette » est portée sur une carte géolinguistique (cf annexe
+6.5, figure 43).
+5.30. Tadeqqalt : c‘est un substantif issu de la racine dql, c‘est un féminin singulier,
+sans masculin, à deux nombres : tadeqqalt (fém, sing) ; tideqqalin (fém, pl) et à deux
+états : tadeqqalt (E.L) et tdeqqalt/tdeqqalin (E.A). Ce lexème est attesté dans les
+parlers Aokas, Tizi n Berber, Ighil Wis, Qelaoun, Ijermounen, Ait Merâi, mais sa
+signification n‘est pas la même dans ces parlers, trois sens sont attestés :
+335
+---PAGE---
+Chapitre 3 : Les variables lexicales
+- tadeqqalt/tideqqalin, dans les parlers Aokas et Tizi n Berber, signifie un outil de
+poterie, il a la forme de niche, généralement, fait du boit, il sert à donner la première
+forme à l‘outil fabriqué avec de l‘argile, le premier lissage de l‘outil se fait avec
+tadeqqalt, l‘argile est encore mouilléavant de passer à l‘étape finale du lissage qui se
+fait avec tazɣult, dite aussi tameḥḥart.
+- tadeqqalt/tideqqalin, dans le parler Qelaoun, signifie un hameçon qu‘on accroche au
+haut de la quenouille pour pouvoir filer la laine. Ce sens est attesté dans les parlers des
+Aurès Huyghe (2007,P. 170) ;
+- tadeqqalt/tideqqalin, dans les parlers Ijermounen, Ait Merâi et Ighil Wis, désigne la
+base d‘une poterie (le premier argile que nous posons comme base pour fabriquer un
+un outil quelconque : taqessult, taḥellabt, taqedduḥt…
+Ce qui retient notre attention ici est la variabilité sémantique de ce lexème que ce
+soit entre les parlers de la région de l‘est de Béjaia ou entre les autres parlers kabyles
+où il a une autre signification, à savoir une boite Bouamara (2017,P. 117)
+5.31. Ifassen « brassées » : C‘est un substantif qui est formé sur la racine bilitaire fs, il a
+toutes les flexions : afus (masc, sing) ; ifassen (masc, pl) ; tafuset (fém, sing) est le
+dimunitif de afus ; tifastin (fém, pl) ; ufus (E.A) ; yifassen (E.A) ; tfuset/tfastin (E.A).
+Ce lexème est attesté dans 8/19 parlers étudiés, il s‘agit de : Aokas, Tizi n Berber,
+Ijermounen, Ait Merâi,Leâlam, Ighil Wis, Ait Amrous et Tagouba ;
+- Tifastin/tifastan : C‘est un substantif qui est formé sur la même racine du substantif
+précédent (ifassen), il a toutes les flexions : afus (masc, sing) est l‘augmentatif de
+tafuset; ifassen (masc, pl) ; tafuset (fém, sing) ; tifastin (fém, pl) ; ufus (E.A) ; yifassen
+(E.A) ; tfuset/tfastin (E.A). Ce lexème est attesté dans 9/19 parlers étudiés, il s‘agit de:
+Bouyman, Qelaoun, Taregragt, Ait Mbarek, Darguina, Tamrijt, Ait Segoual, Melbou,
+S.El.Tennine.
+Ce que nous tenon à expliquer ici est que le pluriel de tafuset dans les parlers
+Melbou et Ait Segoual est tifastan et pas tifastin, une variante phonétique (alternance
+vocalique i/a)
+- Izḍi : C‘est un substantif comme nous l‘avons déja défini ci-haut (variante de
+tizḍit 3.28) qui signifie dans les deux parlers de la région de l‘est de Béjaia où il est
+336
+---PAGE---
+Chapitre 3 : Les variables lexicales
+attesté, à savoir les deux extrimités Ait Bimoun et Ait Bourman, à la fois la quenouille
+et la la laine qui contient (la brassée).
+La variation du lexème « brassées» est portée sur une carte géolinguistique (cf
+annexe 6.5, figure 44).
+5.32.Takurt « pelote, bobine » : c‘est un substantif féminin sans masculin issu de la
+racine bilitère kr, ses deux autres flexions (nombre et l‘état) sont : takurt (fém, sing) ;
+takurin (fém, pl) ; tkurt/tkurin (E.A) , il est attesté dans 12 parlers : Tamrijt, Leâlam,
+Melbou, Ait Segoual, S. El.Tennine, Aokas, Tizi n Berber, Ait Amrous, Tagouba,
+Taregragt, Ait mbarek, ighil Wis. Ce lexème n‘est pas une spécificité de la région est
+de Béjaia, il est attesté dans les autres parlers kabyles Bouamara (2017 : 249), dans les
+parlers des Aurès Huyghe (2007 : 233) et aussi dans les parlers du Maroc central Taifi
+(1991 : 343).
+Ce que nous pouvons retenir ici est que le lexème takurt, qui n‘a pas de msculin
+dans la plupart des parlers kabyles, a ce masculin dans les parlers Aokas et Tizi n
+berber, c‘est akur (augmentatif) de takurt tout comme les parlers du maroc central
+Taifi (1991 : 343).
+- Tikfet : C‘est un substantif féminin sans masculin issu de la racinr bilitère kf, ses deux
+autres flexions sont : tikfet (fém, sing) ; tikeftin (fém, pl) ; tekfet/tkeftin (E.A). Ce
+lexème est une particularité de la région Est de béjaia, il est attesté dans 03 parlers
+seulement : Bouyman, taregragt, Ait Mbarek.
+- Takebbabt : c‘est un substantif formé sur la racine trilitère kBb, ses flexions sont :
+akebbab/akbub (masc, sing) ; takebbabt (fém, sing) ; ikebbaben/ikbuben (masc, pl),
+tikebbabin (fém, pl), yikebbaben/yikbuben (E.A) et tkebbabt/tkebbabin (E.A). Ce
+lexème est attesté dans 04 parlers : Qelaoun, Ijermounen, Ait Merâi et Darguina.
+La variation du lexème « pelote ou bobine » est portée sur une carte géolinguistique
+(cf annexe 6.5, figure 45).
+337
+---PAGE---
+Chapitre 3 : Les variables lexicales
+Conclusion
+Nous tenons à rappeler que notre objectif dans ce chapitre est de détecter la variation
+lexicale de 40 lexèmes liés à la préparation de la laine pour tissage entre les 19 parlers étudiés
+de la région située à l'est de Béjaia.
+Au cours de cette analyse, nous avons distingué 07 emprunts : tous à l‘arabe et intégrés à la
+langue cible, il s‘agit de : aɛemmud, mceṭ, imceṭ, taɛeccit, ɣedwa, ɛṣer et ṣṣabun.
+Pour les 33 lexèmes de souche berbère, nous avons déstingué les lexèmes communs des
+lexèmes variables :
+1. Nous avons relevé 11 lexèmes communs, non seulement au 19 parlers étudiés de la
+région de l‘est de Béjaia, mais attestés dans trois dialectes différents (Kabyle, Chaoui
+et Maroc central)
+2. Pour les autres lexèmes variables, nous avons défini le type de variation :
+2.1. variation partielle (évolution phonétique ou morphologique) comme c‘est le cas de :
+- ameqqran / ameqqwran, azewwaṭ /azeggwat : variation phonétique, phonétique
+articulatoire (labiovélarisation) ;
+- tizḍit / tiẓẓit, taɛecwit /taɛeccit : variation phonétique, phonétique combinatoire
+(assimilation) ;
+- ibeztuḥen / ibeztuḥa ; imeẓẓyanen/imeẓẓyuna ; ixecxucen / ixecxax : variation
+morphologique, formation du pluriel ;
+- izḍi / tizḍit ; afalek /tafalekt ; ifassen :tifastin : variation morphologique, opposition du
+genre, attesté masculin dans un parler et féminin dans un autre parler ;
+2.2. évolution totale (changement de racine) : là aussi, la variation est considérable, comme
+c‘est le cas de :
+- azewwaṭ, aɛemmud, asɣar, tamezwayt, taḥerbunt et akeccuṭ ;
+- acuraq, amellal, acebḥan ;
+- tameqqunt, tahebbiẓt, tamanda et tafuset.
+338
+---PAGE---
+Chapitre 3 : Les variables lexicales
+Nous avons aussi soulevé quelques spécificités lexicales de la région de l‘est de
+Béjaia, que nous n‘avons pas trouvé dans les autres parlers et dialectes que nous avons évoqué
+ci-haut, du moins, dans les dictionnaires que nous avons consulté (Dallet, Bouamara, Huyghe
+et Taifi), il s‘agit de :
+- Tullatan : c‘est la variante morphologique de ulli, cette variante est attestée dans deux
+parlers, il s‘agit de : Melbou et Ait Segoual. Cette variante est, contrairement aux
+autres lexèmes précédents, une spécificité de la région est de Béjaianon seulement au
+niveau du dialecte kabyle mais au niveau pan-berbère, elle n‘est pas attestée dans les
+autres parlers berbères. Les flexions de ce lexème sont : tullat (fém, sing) ; tullatan
+(fém, pl), il s‘agit d‘un pluriel êxterne (---an).
+- -ḍuft « laine » : C‘est un substantif féminin (---t) singulier, sans masculin, sans pluriel
+et sans état d‘annexion, il désigne un générique. Ce lexème est attesté dans dans un
+seul parler de la région étudiée, il s‘agit du parler de Qelaoun de la commune de
+Kherrata, cette variante, malgré la réstriction géographique (un seul parler), n‘est pas
+une spécificité de la région de l‘est de Béjaia, il est attesté aussi dans les parlers des
+Aurès Huyghe (2007 : 191), c‘est dû au rapprochement des deux parlers, ils partagent
+un nombre conséquent de lexèmes, de phonèmes et de morphèmes.
+- Taḥedduft : C‘est un substantif féminin, ses flexions sont taḥedduft (fém, sing) ;
+tiḥeddufin (fém, pl) ; tḥedduft/tḥeddufin (E.A). Ce lexème est consu sur la racine
+trilitaire ḥdf, il est attesté dans le parler d‘Ait Bimoun .
+- Tabeḍrunt : C‘est un substantif féminin, ses flexions sont tabeḍrunt (fém, sing) ;
+tibeḍrunin (fém, pl) ; tbeḍrunt/tbeḍrunin (E.A). Ce lexème est formé sur la racine
+quadrilitaire bḍrn, il est attesté dans le parler de Laâlam.
+- Tikfet : C‘est un substantif féminin sans masculin issu de la racine bilitère kf, ses deux
+autres flexions sont : tikfet (fém, sing) ; tikeftin (fém, pl) ; tekfet/tkeftin (E.A). Ce
+lexème est attesté dans 03 parlers seulement : Bouyman, taregragt et Ait Mbarek.
+- Takebbabt : c‘est un substantif formé sur la racine trilitère kBb, ses flexions sont :
+akebbab/akbub (masc, sing) ; takebbabt (fém, sing) ; ikebbaben/ikbuben (masc, pl),
+tikebbabin (fém, pl), yikebbaben/yikbuben (E.A) et tkebbabt/tkebbabin (E.A). Ce
+339
+---PAGE---
+Chapitre 3 : Les variables lexicales
+lexème est attesté dans 04 parlers : Qelaoun, Ijermounen, Ait Merâi et Ighzer Ouftis de
+Darguina.
+Quant à la variation sémantique, elle n‘est pas étudiée dans tous ses détails, car
+beaucoup de nuances sémantiques que nous n‘avons pas résolu, faute d‘accès à tous les sens
+dans toutes les localités étudiées (19 parlers), chose à laquelle nous revenons plus tard, dans le
+cadre d‘articles pour l‘habilitation.
+340
+---PAGE---
+Chapitre 3 : Les variables lexicales
+Conclusion de la partie
+Ce que nous avons retenu de cette partie d'analyse, qui est l'étude des parlers kabyles
+situés à l'est de Béjaia, en abordant les trois niveaux de la structure linguistique, à savoir le
+niveau de la phonétique, le niveau de la morphosyntaxe et celui du lexique (l'étude de 40
+lexèmes liés à la préparation de la laine pour tissage), c'est le haut degré de variabilité : que ce
+soit sur l'axe horizontal (les 19 parlers étudiés) ou sur l'axe vertical (les différents niveaux de
+la structure linguistique).
+Sur l'axe vertical, les variantes sont nombreuses, elles touchent les trois niveaux
+étudiés. Retenons pour le niveau phonétique :
+- l'évolution complexe de la dentale sourde simple /t/ ;
+- le processus de la labiovélarisation et celui de l'affriction dans les 19 parlers étudiés
+de la région située à l'est de Béjaia ;
+Pour ce qui est du niveau morphosyntaxe, les variantes sont aussi très nombreuses, que
+ce soit sur le plan formel ou sur le plan distributionnel (au niveau du syntagme) :
+- la variation de l'indice de personne, qui touche essentiellement la forme ;
+- la variation des fonctionnels, particulièrement les pronoms ;
+- la distribution des affixes et la modalité spatiale dans le syntagme prédicatif verbal.
+Quant au niveau lexical, la variation des lexèmes choisis, touche essentiellement la
+racine (variation totale), la phonétique et la morphologie (variation partielle).
+Sur l'axe horizontal, la région située à l'est de Béjaia (du moins les 19 parlers étudiée)
+est sujet d'une subdivision en sous-groupes, plus ou moins homogènes :
+1. les parlers des deux extrémités de la région de l‘est de Béjaia, à savoir Ait Bourman et Ait
+Bimoun ;
+2. Les parlers de la partie Est de cette région : Qelaoun, Ijermounen, Ait Merâi,Ait Mbarek,
+Ighzer Ouftis ;
+3. Les parlers du centre élargie : Tamrijt, Leâlam, Ait Segoual, Melbou, S.El.Tenine e, Aokas
+et Tizi n Berber ;
+341
+---PAGE---

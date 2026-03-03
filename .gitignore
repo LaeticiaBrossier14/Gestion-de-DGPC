@@ -1,0 +1,139 @@
+# ═══════════════════════════════════════════════════
+# DGPC Pipeline — .gitignore
+# ═══════════════════════════════════════════════════
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+dist/
+build/
+
+# ── Virtual Environment ──
+.venv/
+venv/
+env/
+ENV/
+
+# ── Environment variables ──
+.env
+.env.local
+
+# ── Audio files (trop gros pour GitHub) ──
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.opus
+*.waptt.opus
+
+# ── ML Models (trop gros) ──
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+checkpoint-*/
+whisper-*/
+models/
+
+# ── Large archives ──
+*.zip
+*.7z
+*.tar.gz
+*.rar
+
+# ── PDF/Documents (optionnel — décommenter si besoin) ──
+# *.pdf
+# *.docx
+
+# ── Jupyter ──
+.ipynb_checkpoints/
+# *.ipynb  # on garde les notebooks
+
+# ── IDE ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ──
+*.log
+gen.log
+
+# ── Gradio ──
+.gradio/
+
+# ── Cache ──
+.pytest_cache/
+.ruff_cache/
+
+# ── Fichiers temporaires ──
+temp/
+tmp/
+
+# ── BMAD (agent framework — pas nécessaire pour la collaboration) ──
+_bmad/
+_bmad-output/
+.agent/
+.agents/
+_agents/
+_agent/
+.claude/
+.gemini/
+
+# ── Gros fichiers de données intermédiaires ──
+ml_pipeline/test_audio*.wav
+ml_pipeline/test_audio*.json
+ml_pipeline/locale*
+ml_pipeline/whisper_finetune_data.zip
+ml_pipeline/whisper_finetune_data/
+ml_pipeline/archive/
+ml_pipeline/temp/
+
+# ── External repos (audit) ──
+external_repo_audit/
+
+# ═══════════════════════════════════════════════════
+# GARDER EXPLICITEMENT (override des rules ci-dessus)
+# ═══════════════════════════════════════════════════
+
+# Dataset CSV/JSON essentiels
+!dataset/*.csv
+!dataset/*.json
+!dataset/config.json
+!dataset/annotations_local.json
+
+# Configs YAML
+!augmentation/*.yaml
+!augmentation/config/*.yaml
+
+# Generation tasks JSONL
+!ml_pipeline/dataset/synthetic_generation/*.jsonl
+!ml_pipeline/dataset/annotations_*.jsonl
+!ml_pipeline/dataset/enums.py
+
+# Schema files
+!ml_pipeline/dataset/schema*.json
+!ml_pipeline/dataset/config.json
+
+# .gitkeep pour dossiers vides
+!.gitkeep
+
+# Verification progress
+!verification_tool/verification_progress.json

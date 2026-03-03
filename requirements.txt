@@ -1,0 +1,20 @@
+# DGPC Pipeline — Requirements (Apps collaboratives)
+# Python 3.10+
+
+# ── Commun ──
+python-dotenv>=1.0.0
+pandas>=2.1.0
+PyYAML>=6.0.0
+tqdm>=4.66.0
+
+# ── Annotation App (Streamlit) ──
+streamlit>=1.30.0
+pydub>=0.25.0
+google-generativeai>=0.8.0
+
+# ── Verification Tool (Flask) ──
+flask>=3.0.0
+
+# ── Augmentation / Génération synthétique ──
+pydantic>=2.5.0
+colorama>=0.4.6

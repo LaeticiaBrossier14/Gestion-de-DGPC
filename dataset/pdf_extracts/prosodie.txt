@@ -1,0 +1,3941 @@
+[Etudes présentées le 25.11.1987 et le 01.03.1989 ; parues dans les Comptes rendus du GLECS, 
+31, 1995 ; (I) : p. 27-54 et (II) : p. 55-82] 
+ 
+ 
+ 
+DONNEES EXPLORATOIRES EN PROSODIE BERBERE : 
+I. L'accent kabyle  
+ 
+ 
+ 
+ 
+Salem CHAKER 
+ 
+ 
+ 
+ 
+ 
+ 
+S'il est un domaine que l'on peut considérer comme le parent pauvre des études de 
+linguistique berbère, c'est bien celui de la prosodie. La bibliographie en la matière est des plus 
+réduites et, sous réserve de recherches en cours non encore publiées, les titres qui dépassent le stade 
+de remarques et observations sommaires se comptent sur les doigts de la main. Les auteurs qui ont 
+tenté de noter l'accent de mot sont l'exception. Les données relatives à l'intonation sont encore plus 
+balbutiantes. Quant au recours à l'analyse instrumentale en ces matières, la présente exploration est, 
+à ma connaissance, la première à s'y aventurer. 
+Dans le domaine kabyle (Algérie), auquel nous nous limiterons ici, les deux études – très inégales –
+d'Alfred WILLMS, sur l'accent (1961) et l'intonation (1965) représentent l'essentiel des recherches 
+antérieures. 
+ 
+Le bilan-constat d'André BASSET (1952) demeure donc, malgré sa date, largement 
+d'actualité : 
+ 
+«  ...Certains auteurs ont essayé également de noter un accent de mot, tentatives plutôt rares 
+jusqu'ici, aux résultats peu convaincants. [...] 
+Bref, s'il existe un accent de mot, quel qu'il soit, il est de la catégorie des accents faibles... »  (p. 
+10). 
+ 
+ 
+La plupart des chercheurs qui se sont penchés sur cette question ont admis l'existence d'un 
+accent – plutôt faible –d'intensité, à position fixe, mais susceptible de connaître des déplacements 
+en fonction du jeu des clitiques. Le berbère est en effet caractérisé par la richesse et la flexibilité de 
+son inventaire de morphèmes affixes du nom et du verbe. La structure syllabique du syntagme 
+verbal ou nominal connaît ainsi de grandes variations par le fait de ces clitiques (de statut 
+syntaxique assez divers), de leurs combinaisons et de leurs déplacements. 
+On admet aussi généralement une différence de position de l'accent selon la classe 
+grammaticale (nom/verbe). 
+ 
+ 
+Sur le plan fonctionnel cependant, l'unanimité des berbérisants est acquise et ne semble pas 
+devoir souffrir de contestation sérieuse : l'accent n'a pas de fonction distinctive fondamentale en 
+berbère ; il n'a de rôle que culminatif ; à la rigueur, il pourrait jouer un rôle adventice 
+d'identificateur de classe syntaxique, s'il est établi que nom et verbe n'obéissent pas aux mêmes 
+règles accentuelles. On pourrait ainsi envisager des "distinctions" du type : 
+ 
+ 
+1
+
+---PAGE---
+ 
+ 
+'ikmez  (nom)           /       
+ik'mez  (verbe) 
+ 
+ 
+ pouce  
+ 
+ 
+ il-gratte 
+ 
+ 
+'iger   (nom)  
+ 
+ i'ger   (verbe) 
+ 
+ 
+ champ 
+ 
+ 
+ il-a jeté/introduit 
+ 
+ 
+Dans certains parlers orientaux (Tunisie et Libye), plusieurs auteurs ont mis en évidence le 
+rôle que pouvait jouer l'accent en tant que marqueur syntaxique dans le syntagme nominal, en 
+particulier pour les unités temporelles et locatives : la position de l'accent y est susceptible 
+d'indiquer la relation de dépendance circonstancielle : 
+ 
+ 
+'angu = la cuisine  →  an'gu = dans la cuisine 
+Dans de telles séquences, l'accent aurait donc le même rôle fonctionnel qu'une préposition (voir 
+notamment VYCICHL 1984 et BRUGNATELLI 1986). 
+ 
+ 
+Pour le berbère nord (les dialectes algéro-marocains par opposition aux dialectes sud-est : 
+touareg et parlers orientaux), les descriptions de WILLMS, qui sont de loin les plus fouillées, 
+peuvent être résumées comme suit : 
+ 
+pour les deux dialectes étudiés (kabyle et parlers sud du groupe tamazixt du Maroc), il pose 
+un accent d'intensité, sans modification mélodique ou de durée notable et distingue un accent 
+principal d'un accent secondaire. Pour les nominaux de forme canonique, l'accent (principal) porte 
+sur la syllabe initiale a- (masc)/ta- (fém) qui est très certainement un ancien déterminant affixe 
+devenu obligatoire. 
+ 
+L'exploration instrumentale que j'ai menée (voir données en Annexe) sur des matériaux 
+kabyles infirme très largement cette description. 
+ 
+* 
+ 
+LA NATURE PHYSIQUE DE L'ACCENT 
+ 
+ 
+Le kabyle possède bien un accent de mot de nature mélodique. C'est, pratiquement dans 
+tous les cas (72 sur 77, soit ± 93,5 %), la fréquence fondamentale (F°) qui est le facteur 
+discriminant, la différence de hauteur étant presque toujours très supérieure au seuil différentiel. 
+L'intensité n'intervient significativement que dans un nombre restreint de cas (6), dans lesquels elle 
+n'assure seule que deux fois la mise en relief accentuelle (n° 47 et n° 53). 
+Cette conclusion, extrêmement nette au vu des données instrumentales, est donc à l'opposé 
+de ce que les berbérisants ont écrit ou admis jusqu'à présent quant la nature physique de l'accent. 
+Elle correspond en revanche tout à fait à l'impression spontanée – et culturellement admise en 
+Algérie –qu'ont les auditeurs (berbérophones ou non) du kabyle, perçu comme une langue 
+"chantante" : les arabophones comparent volontiers le kabyle à l'anglais !... 
+ 
+L'intensité 
+ 
+Sur les 77 items soumis à analyse, l'intensité n'intervient comme facteur discriminant unique 
+que dans deux cas : 
+ 
+- n° 47 : a'bernus, qui est certainement un cas d'espèce s'expliquant par une caractéristique 
+phonétique intrinsèque : le /r/ de la syllabe accentuée est pharyngalisé ("emphatique"), trait qui 
+entraîne vraisemblablement une forte baisse de la fréquence fondamentale. Du reste, en tenant 
+compte de la ligne de déclinaison mélodique, la différence de fréquence perçue entre la syllabe 2 
+(160 hz) et la syllabe 1 (155 hz) est probablement supérieure aux données des mesures brutes et 
+pourrait atteindre le seuil de perception (5%).  
+ 
+2
+
+---PAGE---
+ 
+- n° 53 : im'ddukal(?), qui est peut-être un artéfact ou un cas d'espèce lié aux facteurs 
+intrinsèques et co-intrinsèques de la voyelle concernée (voir commentaire sous la séquence). 
+Dans les autres cas, l'intensité intervient conjointement à la durée (n° 56) ou à la fréquence 
+(n° 52, 56...).  
+Au total, la différence d'intensité entre la syllabe accentuée et les autres syllabes est 
+supérieure au seuil de perception (= 3 db) dans 45 cas sur 77 (soit ± 58,5  %).  
+ 
+La durée 
+ 
+La différence de durée est supérieure au seuil de perception (= 20%) dans 24 cas (soit ± 
+31 %) ; elle assure une seule fois la discrimination (n° 24 tim'àarin). 
+ 
+ 
+Ces chiffres confirment que ni l'intensité, ni a fortiori la durée, ne peuvent être considérées 
+comme les paramètres fondamentaux de l'accent en kabyle. On constate cependant que l'élévation 
+de hauteur mélodique est souvent accompagnée d'une différence significative d'intensité et, plus 
+rarement, d'une différence de durée. Mais ces paramètres varient parfois de manière divergente de 
+la mélodie : il n'y a pas toujours parallélisme entre les variations de F, I et D. Seule la fréquence 
+peut et doit être retenue comme indice pertinent (quasi-)permanent.  
+ 
+LA POSITION DE L'ACCENT 
+ 
+La position de cet accent apparaît elle aussi très différente de ce qui a été écrit jusqu'à 
+présent. 
+ 
+Le Nom 
+ 
+ 
+L'immense majorité des nominaux (isolés) sont des paroxytons : l'accent porte très 
+régulièrement sur l'avant-dernière syllabe. Celle-ci se trouve, bien entendu, être la syllabe initiale 
+(a-/ta-) dans les très nombreux mots bisyllabiques, mais c'est le seul cas qui corresponde à la règle 
+énoncée par WILLMS. Dans les trisyllabiques, l'accent sera normalement situé sur la syllabe 
+médiane. Le jeu des alternances de l'accent entre singulier et pluriel fait clairement apparaître la 
+règle qui préside à sa position : la marque (affixe) finale régulière de pluriel -en/-in, en ajoutant une 
+syllabe au nom, déplace l'accent d'un cran vers la fin du mot : 
+ 
+sing : 'argaz  
+(homme) 
+ 
+> 
+plur. : ir'gazen   (hommes) 
+ 
+sing : 'taxxamt 
+(chambre) 
+ 
+> 
+plur. : tix'xamin (chambres) 
+ 
+ 
+Sur les 56 nominaux soumis à analyse, 50 (soit  89,3 %) obéissent indiscutablement à cette 
+règle. 6 cas (trisyllabiques) présentent une accentuation sur la première syllabe, en contradiction 
+avec la règle énoncée. L'exploration instrumentale est encore trop embryonnaire pour permettre une 
+conclusion définitive, mais il s'agit probablement d'artefacts dus aux conditions expérimentales.  
+Cela est presque certain pour les n° 13 ('izgaren) et 24 ('timàarin), pour lesquels l'accent attendu (et 
+intuitivement perçu) est : iz'garen et tim'àarin ; la comparaison avec toutes les autres séquences du 
+même type (n° 11 : ir'gazen...) le confirme. Pour les items 52 et 53 (amddak°el/imddukal), il y a 
+conflit de critères entre mélodie et intensité : la mélodie indique un accent sur la syllabe 1 
+('amddak°el/'imddukal), l'intensité un accent sur la syllabe 2 (am'ddak°el/im'ddukal), conforme à la 
+règle générale. Or dans les deux cas, la durée est significativement plus longue sur la voyelle qui 
+porte le surcroît d'intensité (S2). Deux paramètres sur trois indiquent donc une accentuation 
+(normale) sur la syllabe 2. 
+ 
+3
+
+---PAGE---
+Il en va de même pour l'item n° 56 (inbgawen) pour lequel la position de l'accent est 
+certainement déterminée par le surcroît d'intensité et de durée (sur S2) et non par la fréquence plus 
+élevée sur S1. 
+ 
+Ces correctifs étant apportés, il ne reste en fait que l'item n° 51 ('idurar) qui ne semble pas, 
+sur la base des mesures disponibles, pouvoir être ramené à la règle de base de l'accentuation des 
+nominaux. 
+ 
+ 
+Il n'est pas non plus possible dans l'état présent de l'exploration de déterminer, dans son 
+détail, l'influence des affixes facultatifs du nom ("possessifs" et déictiques) sur la place de l'accent. 
+A première vue, ils fonctionnent exactement comme les affixes obligatoires (genre/nombre/état), 
+c'est-à-dire qu'ils forment aussi avec le noyau nominal une seule unité accentuelle dans laquelle la 
+mise en relief portera toujours sur l'avant-dernière syllabe : 
+ 
+'argaz  
+ 
+ar'gaz-is 
+ 
+ 
+/  arga'z-agi    
+arga'z-ihin 
+homme 
+ 
+homme-son (= son mari) 
+/  homme-ci 
+ 
+homme-là 
+ 
+Mais ce point reste à confirmer et les sondages instrumentaux devront être poursuivis sur ce plan. 
+ 
+ 
+L'accentuation des nominaux sur l'avant-dernière syllabe est du reste corroborée par le 
+traitement des noms propres en usage appellatif : les prénoms kabyles sont abrégés par suppression 
+de la syllabe post-tonique (= la dernière) et la syllabe accentuée subit alors une très forte élévation 
+mélodique accompagnée d'une sur-longueur exceptionnelle. Les prénoms bi-syllabiques ne gardent 
+donc plus qu'une syllabe (S1) et les tri-syllabiques deux (S1+S2) : 
+ 
+- Fa‚ima 
+ 
+(a)  Fa'‚i : ! 
+ 
+- Mekyusa 
+ 
+(a) Mek'yu : ! 
+- Tasa²dit 
+ 
+(a)  Ta'sa : ! 
+ 
+- Salem 
+ 
+(a) 'Sa : ! 
+- Muíend 
+ 
+(a)  'Mu : ! 
+ 
+- LÞuher 
+ 
+(a) 'LÞu : ! 
+ 
+Le Verbe 
+ 
+ 
+En revanche, il se confirme bien que l'accentuation des verbes est nettement différente de 
+celle des noms. 
+Dans les items verbaux simples (sans affixes satellites : pronoms personnels régimes ou 
+particules de mouvement) soumis à analyse, l'accent est toujours sur la dernière syllabe : yek'rez = 
+il a labouré... 
+Si le verbe est accompagné d'affixes, il conserve l'accent sur cette même position, sauf si ces 
+morphèmes comportent une voyelle pleine (/a, u, i/) qui attire automatiquement l'accent ([e] note ici 
+la voyelle neutre non phonologique qui ne doit pas être prise en compte) ; d'où : 
+ 
+ker'zen  
+ 
+= ils ont labouré 
+ker'zen-ten 
+ 
+= ils ont labouré-les       (ils les ont labourés) 
+kerzen-'asen  
+= ils ont labouré-à eux     (ils leur ont labouré) 
+kerzen-'asen-ten 
+= ils ont labouré-à eux-les (ils les leur ont labourés) 
+ 
+ 
+Pour le groupe verbal, sous réserve de vérifications complémentaires, on  peut donc énoncer 
+la règle suivante :  l'accent porte sur la dernière voyelle pleine du syntagme, à défaut, sur la dernière 
+syllabe du noyau verbal. 
+Avec un verbe à voyelle (thématique) pleine, on aura l'accentuation suivante : 
+ 
+ 
+4
+
+---PAGE---
+yef'ka  
+ 
+= il a donné 
+yef'ka-ten 
+ 
+= il a donné-les 
+ 
+ 
+(il les a donnés) 
+yefka-'yasen  
+= il a donné-à eux 
+ 
+ 
+(il leur a donné) 
+yefka-'yasen-ten 
+= il a donné-à eux-les  
+ 
+(il les leur a donnés) 
+yefka-yasen-'tn-id 
+= il a donné-a eux-les-vers ici 
+(il les leur a donnés vers ici) 
+ 
+Pour le verbe comme pour le nom, les données de l'analyse instrumentale ne permettent pas 
+pour l'instant d'établir l'existence de l'accent secondaire qu'évoque A. WILLMS. Il est pourtant 
+probable qu'un "écho de l'accent", selon la terminologie de P. GARDE, existe dans les groupes 
+complexes, en particulier dans ceux comportant plusieurs affixes à voyelles pleines ; cela semble 
+notamment être le cas dans les syntagmes verbaux  du type "verbe  + pronom indirect + pronom 
+direct + particule de mouvement" : 
+yefka       
+-yasen -tn  -id     
+ 
+ 
+il a donné 
+-à eux -les -vers ici    =    il les leur a donnés (vers ici) 
+ 
+dont l'accentuation complète paraît être la suivante :  
+ 
+yefka-'yasen-"tn-id 
+ 
+ 
+Mais il apparaît néanmoins qu'un groupe accentuel (verbal ou nominal) ne comporte qu'une 
+mise en relief (mélodique) sensible, ce qui confirme la fonction essentiellement intégrative et 
+culminative de l'accent kabyle. Car si l'on s'appuie sur les indications de cette première exploration, 
+le rôle de l'accent en kabyle se situe essentiellement au niveau de la structuration et de la 
+reconnaissance syntaxique globale de l'énoncé : l'accent intègre les éléments constitutifs (noyau + 
+affixes) du syntagme nominal ou verbal autour d'un pic mélodique et oppose, par la position de 
+cette mise en relief, le groupe nominal au groupe verbal. 
+ 
+* 
+ 
+ 
+En s'inspirant de la méthodologie préconisée par Paul GARDE (1968), on conclura, 
+provisoirement, que : 
+ 
+– Le Nom et le Verbe sont les unités accentogènes du kabyle ; 
+ 
+– L'unité accentuelle est le syntagme verbal ou nominal, constitué du noyau verbal ou 
+nominal, accompagné de ses éventuels affixes (ou "satellites" selon la terminologie des 
+berbérisants) ; 
+ 
+– Dans le cadre de l'unité accentuelle, toute syllabe est accentuable (= les frontières de 
+morphèmes disparaissent), selon des règles positionnelles qui opposent le groupe verbal au groupe 
+nominal. 
+Il s'ensuit que le kabyle – et sans doute l'ensemble du berbère – peut être défini comme une 
+langue à syntagme accentogène (GARDE 1968 : 69). Le fonctionnement de l'accent y est assez 
+comparable à celui du français : des clitiques, non accentogènes, peuvent être accentués ; 
+ 
+– Le groupe nominal porte régulièrement son accent (principal) sur l'avant-dernière syllabe ; 
+le groupe verbal, sur la dernière voyelle pleine (/a, i, u/), à défaut sur la dernière syllabe du noyau 
+verbal. 
+ 
+– Sous réserve de la distinction Nom/Verbe, «  la place de l'accent se déduit de la 
+considération du mot comme une masse phonologiquement articulée, mais grammaticalement 
+amorphe » (GARDE 1968 : 108). La réserve précitée interdit cependant de parler d'accent fixe 
+stricto sensu : la catégorie "langue à accent quasi fixe" (GARDE 1968 : 100-105) paraît donc la 
+mieux appropriée aux données kabyles. 
+ 
+ 
+ 
+5
+
+---PAGE---
+ 
+Il convient pour terminer d'insister sur le fait que ces premières conclusions doivent encore 
+être étayées par de nombreuses vérifications complémentaires, tant sur le plan instrumental, que sur 
+celui des assemblages syntagmatiques qui sont loin d'avoir été explorés dans leur diversité. 
+On a cru cependant qu'il n'était pas tout à fait inutile d'exposer ces résultats dans leur état 
+actuel dans la mesure où ils jettent quelque lumière sur un domaine très mal connu de la 
+linguistique berbère. 
+ 
+ 
+* * * 
+ 
+ANNEXE : LES DONNEES DE L'EXPLORATION INSTRUMENTALE 
+ 
+ 
+Les enregistrements (en chambre sourde) et l'analyse ont été effectués à l'Institut de 
+Phonétique d'Aix-en-Provence où nous avons toujours été fort aimablement accueilli par Mario 
+ROSSI et Albert DI CRISTO que nous tenons à remercier. Les séquences étudiées ont été 
+enregistrées deux fois, à plusieurs mois d'intervalle, par le même locuteur (Grande Kabylie). Afin 
+d'éviter tout effet de série, elles ont été enregistrées dans un ordre aléatoire, distinct de celui dans 
+lequel elles sont présentées ici. Les résultats des deux sondages sont concordants. Ne sont fournis 
+ici que ceux de l'expérience la plus récente (mars 1987). 
+ 
+ 
+La méthode d'analyse des documents, les seuils d'interprétations utilisés ainsi que les 
+facteurs de correction (notamment l'intensité spécifique des voyelles) sont ceux préconisés par 
+ROSSI et al (1981), i.e. :  
+- Seuil différentiel de perception de la Fréquence (∆F/F) = 5 % 
+- Seuil différentiel de perception de l'Intensité  (∆I/I) = 3 db 
+- Seuil différentiel de perception de la Durée     (∆D/D) = 20 % 
+ 
+F = Fréquence fondamentale (F°) ;  
+I = Intensité ; mesurée en décibels (db) par rapport à un niveau arbitraire de 50 db. Les valeurs 
+d'intensité sont données après correction du facteur d'intensité spécifique des voyelles. 
+D = Durée ; exprimée en milli-secondes. 
+ 
+Le chiffre après F, I, D identifie le centre syllabique concerné. 
+ 
+Discrt = facteur discriminant (supérieur au seuil différentiel de perception).  
+En cas de conflit de critères (plusieurs paramètres étant supérieurs au seuil de perception), on a 
+recours à la méthode des unités subjectives : le facteur qui assure la distinction est celui pour lequel 
+la différence comporte le plus grand nombre de fois la valeur du seuil. 
+ 
+On a marqué par + les paramètres qui, tout en n'étant pas discriminants, présentent 
+cependant une différence supérieure au seuil, et sont donc susceptibles de jouer un rôle adjuvant 
+dans l'identification de l'accent. Les parenthèses : (+), (F), (D), (I) indiquent que le seuil de 
+perception est tout juste atteint. 
+ 
+A ce stade de l'exploration, nous n'avons pas tenu compte de manière systématique d'un 
+certain nombre de facteurs – fort complexes –dans l'interprétation des mesures : courbe de 
+déclinaison mélodique, facteurs intrinsèques (en-dehors de l'intensité spécifique des voyelles) et co-
+in-trinsèques... (ROSSI et al, 1981). Mais ils ne semblent pas devoir influer significativement sur 
+les résultats globaux qui dessinent des tendances accentuelles très nettes. 
+ 
+ 
+6
+
+---PAGE---
+I. NOMS 
+ 
+1. imi = "bouche" → 'imi           
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 180 
+ 
+ 
+F2 = 150 
+ 
+I1 = 55 
+ 
+ 
+I2 = 55 
+ 
+D1 = 112 
+ 
+ 
+D2 = 120 
+ 
+2. imawen = "bouches" → i'mawen     
+ 
+ 
+ 
+Discrt : F/I/D 
+ 
+F1 = 185 
+ 
+F2 = 195 
+ 
+F3 = 130 
+ 
+I1 =  53 
+ 
+I2 =  56 
+ 
+I3 =  50 
++ 
+ 
+D1 =  80 
+ 
+D2 = 105 
+ 
+D3 =  55 
++ 
+ 
+3. ixfawen = "têtes" → ix'fawen      
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 180 
+ 
+F2 = 220 
+ 
+F3 = 140 
+ 
+I1 = 53 
+ 
+I2 = 52 
+ 
+I3 =  50 
+ 
+D1 = 90 
+ 
+D2 = 120 
+ 
+D3 =  90 
++ 
+ 
+4. iàes = "os" → 'iàes  
+ 
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 200    
+F2 = 140 
+ 
+I1 = 55 
+I2 =  50 
+ 
+ 
+ 
+ 
++ 
+ 
+D1 = 168     
+D2 =  80 
+ 
+ 
+ 
+ 
++ 
+ 
+5. iàsan = "os" (plur) → 'iàsan   
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 200 
+ 
+F2 = 155 
+ 
+I1 = 55 
+ 
+I2 =  48 
+ 
+ 
+ 
++ 
+ 
+D1 = 124 
+ 
+D2 = 132 
+ 
+6. uššen = "chacal" → 'uššen  
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 195 
+ 
+F2 = 150 
+ 
+I1 = 49 
+ 
+I2 = 50 
+ 
+D1 = 112 
+ 
+D2 = 104 
+ 
+7. uššanen = "chacals" → u'ššanen  
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 175 
+F2 = 205 
+ 
+F3 = 175 
+ 
+I1 = 49 
+I2 =  52 
+ 
+I3 = 50 
+ 
+D1 = 96 
+D2 = 100 
+ 
+D3 = 100 
+ 
+8. tafat = "lumière" → 'tafat  
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 180 
+F2 = 140 
+ 
+I1 = 50 
+I1 = 46 
+ 
+ 
+ 
+ 
++ 
+ 
+D1 = 96 
+D2 = 128 
+ 
+ 
+ 
+ 
++ 
+ 
+9. tam‚‚ut = "femme" → 'tam‚‚ut 
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 180 
+ 
+F2 = 135 
+ 
+I1 = 56 
+ 
+I2 = 49 
+ 
+ 
+ 
++ 
+ 
+D1 = 88 
+ 
+D2 = 128 
+ 
+ 
+ 
++ 
+ 
+ 
+7
+
+---PAGE---
+10. argaz = "homme" → 'argaz 
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 160 
+ 
+F2 = 145 
+ 
+I1 = 50 
+ 
+I2 = 50 
+ 
+D1 = 112 
+ 
+D2 = 96 
+ 
+11. irgazen = "hommes" → ir'gazen  
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 180 
+ 
+F2 = 200 
+ 
+F3 = 140 
+ 
+I1 = 55 
+ 
+I2 = 53 
+ 
+I2 = 50 
+ 
+D1 = 80 
+ 
+D2 = 132 
+ 
+D3 = 104 
++ 
+ 
+12. azger = "boeuf" → 'azger  
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 195 
+ 
+F2 = 155 
+ 
+I1 = 50 
+ 
+I2 = 50 
+ 
+D1 = 108 
+ 
+D2 = 104 
+ 
+13. izgaren = "boeufs" → 'izgaren/iz'garen (?) 
+ 
+ 
+Discrt : F 
+ 
+F1 = 188 
+ 
+F2 = 170 
+ 
+F3 = 140 
+ 
+I1 = 53 
+ 
+I2 = 54 
+ 
+I3 = 50 
+ 
+D1 = 120 
+ 
+D2 = 160 
+ 
+D3 = 80 
++ 
+[la remontée d'intensité sur S2 et, surtout, la durée bien supérieure de S2, pourraient indiquer que l'accent 
+mélodique sur S1 – inattendu – est un artéfact et que l'on doit restituer une accentuation normale : iz'garen.] 
+ 
+14. ilef = "sanglier" → 'ilef  
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 180 
+ 
+F2 = 140 
+ 
+I1 = 55 
+ 
+I2 = 52 
+ 
+ 
+ 
++ 
+ 
+D1 = 144 
+ 
+D2 = 64 
+ 
+ 
+ 
++ 
+ 
+15. ilfan = "sangliers" → 'ilfan 
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 170 
+ 
+F2 = 140 
+ 
+I1 = 55 
+ 
+I2 = 52 
+ 
+ 
+ 
++ 
+ 
+D1 = 88 
+ 
+D2 = 150 
+ 
+ 
+ 
++ 
+ 
+16. ibki = "singe" → 'ibki 
+ 
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 180 
+ 
+F2 = 140 
+ 
+I1 = 53 
+ 
+I2 = 55 
+ 
+D1 = 160 
+ 
+D2 = 140 
+ 
+17. ibkan = "singes" → 'ibkan 
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 185 
+ 
+F2 = 130 
+ 
+I1 = 55 
+ 
+I2 = 46 
+ 
+ 
+ 
++ 
+ 
+D1 = 132 
+ 
+D2 = 160 
+ 
+18. aŸan = "nuits" → 'aŸan  
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 170 
+ 
+F2 = 140 
+ 
+I1 = 50 
+ 
+I2 = 54 
+ 
+ 
+ 
++ 
+ 
+D1 = 160 
+ 
+D2 = 180 
+ 
+ 
+8
+
+---PAGE---
+19. targa = "rigole" → 'targa  
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 170 
+ 
+F2 = 140 
+ 
+I1 = 50 
+ 
+I2 = 50 
+ 
+D1 = 104 
+ 
+D2 = 170 
+ 
+ 
+ 
++ 
+[la durée anormalement longue de la dernière voyelle est due à la présence d'une diphtongaison nasale en 
+finale, très marquée dans le parler étudié.] 
+ 
+20. tirgwa = "rigoles" → 'tirgwa 
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 200 
+ 
+F2 = 130 
+ 
+I1 = 55 
+ 
+I2 = 46 
+ 
+ 
+ 
++ 
+ 
+D1 = 84 
+ 
+D2 = 120 
+ 
+ 
+ 
++ 
+[contrairement aux notations usuelles en kabyle, il n'y a pas de voyelle neutre segmentable entre /r/ et /g/ : 
+tirgwa est un bisyllabe et non un trisyllabe : * tiregwa.] 
+ 
+21. amàar = "vieillard" → 'amàar 
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 180 
+ 
+F2 = 150 
+ 
+I1 = 54 
+ 
+I2 = 56 
+ 
+D1 = 104 
+ 
+D2 = 180 
+ 
+22. imàaren = "vieillards" → im'àaren  
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 145 
+ 
+F2 = 180 
+ 
+F3 = 130 
+ 
+I1 = 49 
+ 
+I2 = 54 
+ 
+I3 = 48 
++ 
+ 
+D1 = 84 
+ 
+D2 = 160 
+ 
+D3 = 64 
++ 
+ 
+23. tamàart = "vieille" → 'tamàart 
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 190 
+ 
+F2 = 130 
+ 
+I1 = 50 
+ 
+I2 = 50 
+ 
+D1 = 120 
+ 
+D2 = 140 
+ 
+24. timàarin = "vieilles" → tim'àarin  
+ 
+ 
+ 
+Discrt : D 
+ 
+F1 = 185 
+ 
+F2 = 180 
+ 
+F3 = 140 
+ 
+I1 = 55 
+ 
+I2 = 55 
+ 
+I3 = 49 
+ 
+D1 = 56 
+ 
+D2 = 140 
+ 
+D3 = 56 
+[Selon toute vraisemblance, la montée mélodique (qui n'atteint pas le seuil de perception) et l'intensité assez 
+élevée sur S1 sont artificielles; l'accent porte certainement sur S2, comme l'indique la durée particulièrement 
+longue sur ce noyau syllabique, par contraste avec celle notoirement courte sur S1 et S3. De plus, l'intensité 
+perçue sur S1 est très inférieure à la valeur objective du fait de la brièveté de la voyelle (MUNSON, 1947). 
+L'intensité est donc aussi un facteur (subjectif) de mise en relief de S2.] 
+ 
+25. iger = "champ" → 'iger  
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 210 
+ 
+F2 = 150 
+ 
+I1 = 55 
+ 
+I2 = 52 
+ 
+ 
+ 
++ 
+ 
+D1 = 165 
+ 
+D2 = 85 
+ 
+ 
+ 
++ 
+ 
+26. igran = "champs" → 'igran 
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 200 
+ 
+F2 = 145 
+ 
+I1 = 55 
+ 
+I2 = 50 
+ 
+ 
+ 
++ 
+ 
+D1 = 140 
+ 
+D2 = 130 
+ 
+9
+
+---PAGE---
+27. taàa‚‚= "chèvre" → 'taàa‚‚ 
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 180 
+ 
+F2 = 140 
+ 
+I1 = 54 
+ 
+I2 = 54 
+ 
+D1 = 135 
+ 
+D2 = 150 
+ 
+28. tià‚‚en = "chèvres" → 'tià‚‚en 
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 210 
+ 
+F2 = 170 
+ 
+I1 = 57 
+ 
+I2 = 54 
+ 
+ 
+ 
++ 
+ 
+D1 = 130 
+ 
+D2 = 100 
+ 
+ 
+ 
++ 
+[Là encore, on constate que, contrairement aux notations usuelles kabyles, il n'y a pas de voyelle neutre entre 
+/à/ et /‚‚/ : tiàtten est un bisyllabe et non un trisyllabe :* tiàe‚‚en.] 
+ 
+29. afus = "main" → 'afus 
+ 
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 180 
+ 
+F2 = 140 
+ 
+I1 = 50 
+ 
+I2 = 47 
+ 
+ 
+ 
++ 
+ 
+D1 = 105 
+ 
+D2 = 125 
+ 
+30. ifassen = "mains" → i'fassen 
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 180 
+ 
+F2 = 205 
+ 
+F3 = 150 
+ 
+I1 = 51 
+ 
+I2 = 52 
+ 
+I3 = 48 
+ 
+D1 = 95 
+ 
+D2 = 95 
+ 
+D3 = 90 
+ 
+31. akli = "esclave" → 'akli  
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 180 
+ 
+F2 = 150 
+ 
+I1 = 48 
+ 
+I2 = 53 
+ 
+ 
+ 
++ 
+ 
+D1 = 110 
+ 
+D2 = 120 
+ 
+32. aklan = "esclaves" → 'aklan 
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 170 
+ 
+F2 = 150 
+ 
+I1 = 46 
+ 
+I2 = 48 
+ 
+D1 = 120 
+ 
+D2 = 160 
+ 
+33. taxxamt = "chambre" → 'taxxamt  
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 185 
+ 
+F2 = 155 
+ 
+I1 = 54 
+ 
+I2 = 54 
+ 
+D1 = 90 
+ 
+D2 = 125 
+ 
+34. tixxamin = "chambres" → ti'xxamin 
+ 
+ 
+ 
+Discrt : D/(F) 
+ 
+F1 = 170 
+ 
+F2 = 175 
+ 
+F3 = 132 
+ 
+I1 = 53 
+ 
+I2 = 52 
+ 
+I3 = 49 
+ 
+D1 = 72 
+ 
+D2 = 92 
+ 
+D3 = 85 
++ 
+[En mesures absolues, la montée mélodique sur S2 n'atteint pas le seuil ; mais il convient de tenir compte de 
+la ligne de déclinaison mélodique (et aussi du fait que la vélaire sourde /xx/) doit avoir un effet 
+d'abaissement de la fréquence sur la voyelle subséquente. Et la durée significativement plus longue sur S2 
+amène à conclure que l'accent porte bien sur S2.]  
+ 
+35. tamazirt = "jardin" → ta'mazirt  
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 170 
+ 
+F2 = 200 
+ 
+F3 = 125 
+ 
+I1 = 48 
+ 
+I2 = 52 
+ 
+I3 = 51 
+ 
+D1 = 70 
+ 
+D2 = 130 
+ 
+D3 = 90 
++ 
+ 
+10
+
+---PAGE---
+36. taàmiwin = "cuisses" → taà'miwin 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 180 
+ 
+F2 = 200 
+ 
+F3 = 150 
+ 
+I1 = 53 
+ 
+I2 = 55 
+ 
+I3 = 55 
+ 
+D1 = 92 
+ 
+D2 = 120 
+ 
+D3 = 100 
+(+) 
+ 
+37. amalu = "ubac" → a'malu 
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 160 
+ 
+F2 = 185 
+ 
+F3 = 120 
+ 
+I1 = 50 
+ 
+I2 = 54 
+ 
+I3 = 47 
++ 
+ 
+D1 = 100 
+ 
+D2 = 105 
+ 
+D3 = 110 
+ 
+38. akraren = "moutons" → ak'raren  
+ 
+ 
+ 
+Discrt : F/I 
+ 
+F1 = 165 
+ 
+F2 = 180 
+ 
+F3 = 140 
+ 
+I1 = 44 
+ 
+I2 = 54 
+ 
+I3 = 48 
++ 
+ 
+D1 = 85 
+ 
+D2 = 95 
+ 
+D3 = 70 
+ 
+39. tafunast = "vache" → ta'funast  
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 185 
+ 
+F2 = 200 
+ 
+F3 = 140 
+ 
+I1 = 50 
+ 
+I2 = 53 
+ 
+I3 = 50 
++ 
+ 
+D1 = 90 
+ 
+D2 = 85 
+ 
+D3 = 120 
+ 
+40. ifires = "poirier" → i'fires 
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 185 
+ 
+F2 = 215 
+ 
+F3 = 130 
+ 
+I1 = 57 
+ 
+I2 = 57 
+ 
+I3 = 50 
+ 
+D1 = 115 
+ 
+D2 = 140 
+ 
+D3 = 72 
++ 
+ 
+41. ayaziŸ = "coq" → a'yaziŸ 
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 170 
+ 
+F2 = 200 
+ 
+F3 = 135 
+ 
+I1 = 48 
+ 
+I2 = 50 
+ 
+I3 = 53 
+ 
+D1 = 130 
+ 
+D2 = 120 
+ 
+D3 = 120 
+ 
+42. iyuzaŸ= "coqs" → i'yuzaŸ 
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 160 
+ 
+F2 = 215 
+ 
+F3 = 150 
+ 
+I1 = 51 
+ 
+I2 = 53 
+ 
+I3 = 50 
+ 
+D1 = 110 
+ 
+D2 = 115 
+ 
+D3 = 80 
+ 
+43. abudid = "poutre" → a'budid 
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 160 
+ 
+F2 = 190 
+ 
+F3 = 145 
+ 
+I1 = 50 
+ 
+I2 = 55 
+ 
+I3 = 53 
+ 
+D1 = 110 
+ 
+D2 = 125 
+ 
+D3 = 90 
+ 
+44. ibudiden = "poutres" → ibu'diden 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 170 
+F2 = 200 
+F3 = 215 
+F4 = 140 
+ 
+I1 = 51 
+I2 = 53 
+I3 = 55 
+I4 = 48 
+(+) 
+ 
+D1 = 130 
+D2 = 110 
+D3 = 130 
+D4 = 90 
+ 
+45. asif = "rivière" → 'asif   
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 165 
+ 
+F2 = 148 
+ 
+I1 = 46 
+ 
+I2 = 51 
+ 
+D1 = 115 
+ 
+D2 = 100 
+ 
+11
+
+---PAGE---
+ 
+46. isaffen = "rivières" → i'saffen 
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 175 
+ 
+F2 = 205 
+ 
+F3 = 150 
+ 
+I1 = 49 
+ 
+I2 = 54 
+ 
+I3 = 46 
++ 
+ 
+D1 = 75 
+ 
+D2 = 90 
+ 
+D3 = 95 
+ 
+47. abernus = "burnous" → a'bernus  
+ 
+ 
+ 
+Discrt : I 
+ 
+F1 = 155 
+ 
+F2 = 160 
+ 
+F3 = 140 
+ 
+I1 = 50 
+ 
+I2 = 56 
+ 
+I3 = 47 
++ 
+ 
+D1 = 85 
+ 
+D2 = 80 
+ 
+D3 = 180 
+ 
+48. tala = "fontaine" → 'tala  
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 165 
+ 
+F2 = 140 
+ 
+I1 = 50 
+ 
+I2 = 50 
+ 
+D1 = 90 
+ 
+D2 = 120 
+ 
+49. tiliwa = "fontaines"→ ti'liwa 
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 165 
+ 
+F2 = 180 
+ 
+F3 = 155 
+ 
+I1 = 51 
+ 
+I2 = 53 
+ 
+I3 = 46 
+(+) 
+ 
+D1 = 85 
+ 
+D2 = 90 
+ 
+D3 = 130 
+ 
+50. adrar = "montagne" → 'adrar 
+ 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 160 
+ 
+F2 = 130 
+ 
+I1 = 50 
+ 
+I2 = 50 
+ 
+D1 = 120 
+ 
+D2 = 105 
+ 
+51. idurar = "montagnes" → 'idurar  
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 210 
+ 
+F2 = 160 
+ 
+F3 = 130 
+ 
+I1 = 55 
+ 
+I2 = 51 
+ 
+I3 = 50 
++ 
+ 
+D1 = 140 
+ 
+D2 = 145 
+ 
+D3 = 130 
+ 
+52. amddak°el = "camarade" → am'ddak°el   (?) 
+ 
+ 
+Discrt : I/D 
+ 
+F1 = 175 
+ 
+F2 = 160 
+ 
+F3 = 135 
+ 
+I1 = 48 
+ 
+I2 = 52 
+I 
+3 = 48  
++ 
+ 
+D1 = 80 
+ 
+D2 = 100 
+ 
+D3 = 65 
++ 
+[La fréquence sur S1 est significativement supérieure à celle de S2; mais la différence ne dépasse que de peu 
+le seuil. En revanche, l'intensité et la durée de S2 sont supérieures à celles de S1. Un paramètre (la 
+fréquence) indique un accent sur S1, alors que les deux autres (intensité/durée) désignent S2. On retiendra 
+cette dernière solution, plus conforme au modèle général d'accentuation sur l'avant-dernière syllabe.] 
+ 
+53. imddukal = "camarades" → im'ddukal   (?) 
+ 
+ 
+Discrt : I 
+ 
+F1 = 170 
+ 
+F2 = 150 
+ 
+F3 = 140 
+ 
+I1 = 50 
+ 
+I2 = 53 
+ 
+I3 = 50 
++ 
+ 
+D1 = 80 
+ 
+D2 = 110 
+ 
+D3 = 160 
+[Cette séquence pose un problème assez proche du n° 52. La mélodie indique un accent sur S1, l'intensité et 
+la durée le signalent sur S2. Mais cette fois, la différence de fréquence entre S1 et S2 est plus importante. 
+Dans les deux cas (n° 52 et n° 53), on doit tenir compte de la ligne de déclinaison mélodique et de la 
+fréquence intrinsèque et co-intrinsèque du centre syllabique /u/ : cette voyelle voit sa fréquence abaissée par 
+la consonne voisée occlusive tendue (/dd/) précédente (ROSSI et al, 1981, p. 40-43). On  aurait donc 
+quelques raisons de rétablir un schéma accentuel conforme au modèle général : im'ddukal.] 
+ 
+ 
+12
+
+---PAGE---
+54. tiz(e)àwin = "maisons" → 'tizàwin 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 200 
+ 
+F2 = 155 
+ 
+F3 = 140 
+ 
+I1 = 53 
+ 
+I2 = 50 
+ 
+I3 = 51 
++ 
+ 
+D1 = 110 
+ 
+D2 = 40 
+ 
+D3 = 140 
+[Ici encore, les notations usuelles du kabyle sont infirmées : l'élément vocalique entre /z/ et /à/ a une durée 
+telle qu'il n'est pratiquement pas perçu. Et l'accentuation nettement marquée sur S1 indique que le mot est un 
+bisyllabe : tizàwin et non * tizeàwin.] 
+ 
+55. in(e)bgi = "invité" → 'inbgi [i'n/bgi] 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 195 
+ 
+F2 = 210 
+ 
+F3 = 150 
+ 
+I1 = 46 
+ 
+I2 = 51 
+ 
+I3 = 50 
+ 
+D1 = 100 
+ 
+D3 = 80 
+ 
+D3 = 80 (150) 
+(mesures 1 = /i/ ; 2 = /n/ ; 3 = /i/) 
+[La hauteur mélodique maximum porte en fait sur la nasale; la séquence est bisyllabique : il n'y pas 
+d'élément vocalique entre /n/ et /b/ = inbgi et non *inebgi. Quelle que soit la segmentation syllabique que 
+l'on retienne (i/nb/gi ou in/bgi), la position de l'accent est conforme à la règle générale de nominaux : l'avant-
+dernière syllabe. La voyelle finale se termine par une diphtongaison nasalisée qui en double pratiquement la 
+durée] 
+ 
+56. in(e)bgawen = "invités" → 'inbgawen/inb'gawen (?) 
+ 
+Discrt : I/D 
+ 
+F1 = 170 
+F2 = 195 
+F3 = 160 
+F4 = 140 
+ 
+I1 = 48 
+I2 = 52 
+I3 = 51 
+I4 = 50 
++ 
+ 
+D1 = 70 
+D2 = 100 
+D3 = 120 
+D4 = 60 
++ 
+(mesures 1 = /i/ ; 2 = /n/ ; 3 = /a/ ; 4 = [e]). 
+[La fréquence indique un accent sur la première nasale; mais la durée signale plutôt /a/, conformément au 
+schéma attendu. L'élévation de fréquence sur /n/ est peut-être un artefact.] 
+ 
+ 
+II. LES VERBES 
+ 
+57. kerzen = "ils ont labouré" → ker'zen 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 150 
+ 
+F2 = 180 
+ 
+I1 = 48 
+ 
+I2 = 54 
+ 
+ 
+ 
++ 
+ 
+D1 = 75 
+ 
+D2 = 105 
+ 
+ 
+ 
++ 
+ 
+58. yekrez = "il a labouré" → yek'rez 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 130 
+ 
+F2 = 195 
+ 
+I1 = 49 
+ 
+I2 = 52 
+ 
+ 
+ 
++ 
+ 
+D1 = 125 
+ 
+D2 = 130 
+ 
+59. xedmeà = "j'ai travaillé" → xed'meà 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 140 
+ 
+F2 = 180 
+ 
+I1 = 46 
+ 
+I2 = 56 
+ 
+ 
+ 
++ 
+ 
+D1 = 60 
+ 
+D2 = 140 
+ 
+ 
+ 
++ 
+ 
+60. yexdem = "il a travaillé" → yex'dem 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 140 
+ 
+F2 = 180 
+ 
+I1 = 47 
+ 
+I2 = 52 
+ 
+ 
+ 
++ 
+ 
+D1 = 125 
+ 
+D2 = 140 
+ 
+ 
+13
+
+---PAGE---
+61. nexdem = "nous avons travaillé" → nex'dem   
+ 
+Discrt : F 
+ 
+F1 = 145 
+ 
+F2 = 190 
+ 
+I1 = 46 
+ 
+I2 = 52 
+ 
+ 
+ 
++ 
+ 
+D1 = 50 
+ 
+D2 = 120 
+ 
+ 
+ 
++ 
+ 
+62. z(e)greà = "j'ai traversé" → zeg'reà 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 130 
+ 
+F2 = 170 
+ 
+I1 = 40 
+ 
+I2 = 52 
+ 
+ 
+ 
++ 
+ 
+D1 =   
+ 
+D2 = 120 
+ 
+63. tezger = "elle a traversé" → tez'ger 
+ 
+ 
+ 
+Discrt : F 
+ 
+F1 = 150 
+ 
+F2 = 170 
+ 
+I1 = 44 
+ 
+I2 = 52 
+ 
+ 
+ 
++ 
+ 
+D1 = 60 
+ 
+D2 = 95 
+ 
+ 
+ 
++ 
+ 
+64. m(e)gren = "ils ont moissonné" → meg'ren 
+ 
+ 
+Discrt : F 
+ 
+F1 = 140 
+ 
+F2 = 180 
+ 
+I1 = 42 
+ 
+I2 = 54 
+ 
+ 
+ 
++ 
+ 
+D1 =   
+ 
+D2 = 100 
+ 
+65. megren-t = "ils l'ont moissonné" → meg'ren-t  
+ 
+Discrt : F 
+ 
+F1 = 140 
+ 
+F2 = 190 
+ 
+I1 = 42 
+ 
+I2 = 56 
+ 
+ 
+ 
++ 
+ 
+D1 =   
+ 
+D2 = 100 
+ 
+66. megren-ten = "ils les ont moissonnés" → meg'ren-ten      
+Discrt : F 
+ 
+F1 = 140 
+ 
+F2 = 205 
+ 
+F3 = 140 
+ 
+I1 = 48 
+ 
+I2 = 56 
+ 
+I3 = 50 
++ 
+ 
+D1 = 50 
+ 
+D2 = 80 
+ 
+D3 = 95 
+ 
+70. xedmeà-ten = "je les ai faits" → xed'meà-ten            
+ 
+ Discrt : F 
+ 
+F1 = 150 
+ 
+F2 = 210 
+ 
+F3 = 160 
+ 
+I1 = 52 
+ 
+I2 = 57 
+ 
+I3 = 48 
++ 
+ 
+D1 = 70 
+ 
+D2 = 80 
+ 
+D3 = 90 
+ 
+71. nxedm-iten = "nous les avons faits" → nxed'miten 
+   
+Discrt : F 
+ 
+F1 = 145 
+ 
+F2 = 220 
+ 
+F3 = 140 
+ 
+I1 = 48 
+ 
+I2 = 57 
+ 
+I3 = 50 
++ 
+ 
+D1 = 65 
+ 
+D2 = 105 
+ 
+D3 = 100 
+ 
+72. ixedm-iten = "il les a faits" → ixed'miten 
+           
+Discrt : F 
+ 
+F1 = 160 
+F2 = 135 
+F3 = 210 
+F4 = 150 
+ 
+I1 = 49 
+I2 = 44 
+I3 = 55 
+I4 = 50 
++ 
+ 
+D1 = 80 
+D2 = 65 
+D3 = 100 
+D4 = 95 
+ 
+73. xedmeà-as = "je lui ai fait" → xedmeà'as 
+ 
+ 
+Discrt : F 
+ 
+F1 = 135 
+ 
+F2 = 140 
+ 
+F3 = 180 
+ 
+I1 = 46 
+ 
+I2 = 52 
+ 
+I3 = 56 
++ 
+ 
+D1 = 40 
+ 
+D2 = 60 
+ 
+D3 = 150 
++ 
+ 
+14
+
+---PAGE---
+ 
+75. xedmeà-as-ten = "je les lui ai faits" → xedmeà'asten 
+ 
+ 
+Discrt : F 
+ 
+F1 = 155 
+F2 = 140 
+F3 = 200 
+F4 = 150 
+ 
+I1 = 46 
+I2 = 47 
+I3 = 54 
+I4 = 48 
+ 
++ 
+ 
+D1 = 50 
+D2 = 40 
+D3 = 90 
+D4 = 100 
+ 
+76. nxedm-asen-ten = "nous les leur avons faits" = nxed'masenten  
+Discrt : F 
+ 
+F1 = 155 
+F2 = 220 
+F3 = 160 
+F4 = 150 
+ 
+I1 = 48 
+I2 = 56 
+I3 = 50 
+I4 = 48 
+ 
+ + 
+ 
+D1 = 60 
+D2 = 80 
+D3 = 60 
+D4 = 80 
+ 
+77. ixedm-asen-ten = "il les leur a faits" → ixed'masenten  
+ 
+Discrt : F 
+ 
+F1 = 180 
+F2 = 145 
+F3 = 215 
+F4 = 160 
+F5 = 150 
+ 
+I1 = 51 
+I2 = 48 
+I3 = 56 
+I4 = 50 
+I5 = 48 
++ 
+ 
+D1 = 85 
+D2 = 60 
+D3 = 80 
+D4 = 80 
+D5 = 90 
+ 
+ 
+ 
+ 
+ 
+ 
+15
+
+---PAGE---
+DONNEES EXPLORATOIRES EN PROSODIE BERBERE 
+II. Intonation et Syntaxe en kabyle 
+ 
+ 
+ 
+ 
+ 
+ 
+On poursuit ici la présentation des résultats d'une exploration instrumentale, dont on 
+a déjà exposé devant le GLECS (séance du 25.11.1987) la partie relative à l'accent de mot isolé. 
+On ne reprendra point les considérations introductives générales sur ces questions de prosodie 
+berbère : on se reportera pour cela à l'étude précitée, avec laquelle cet article forme un ensemble.  
+ 
+Langue sans tradition écrite, au système conjonctif – notamment subordinatif – relativement 
+peu développé et de formation récente, le berbère est évidemment une langue où l'on peut, a priori, 
+penser que l'intonation joue une rôle important dans la structuration syntaxique de l'énoncé. Les 
+premières données auxquelles nous aboutissons confirment entièrement cette hypothèse. 
+ 
+ 
+Il faut rappeler qu'il existe, en ce domaine de la prosodie kabyle, une étude antérieure 
+d'Alfred Willms (1965), qui a fait œuvre de pionnier, bien qu'elle ne semble pas avoir été fondée 
+sur une quelconque exploration instrumentale. L'essentiel des données brutes de Willms concorde 
+avec les nôtres. Mais l'exploitation et l'interprétation linguistique qu'il en a proposé paraît décevante 
+et peu éclairante. En fait, il manquait à l'étude de Willms un cadre syntaxique préalable qui aurait 
+permis d'établir un lien méthodique entre syntaxe et intonation. En soumettant à investigation des 
+matériaux non ordonnés syntaxiquement, Willms n'a pas perçu certaines corrélations pourtant 
+nettes entre structure syntaxique et configuration intonative. Ce qui est d'ailleurs un peu étonnant de 
+la part de quelqu'un qui affirme d'emblée : 
+ 
+«  Dagegen erwecken hier die verschiedenen Tongestalten von uššen "Schakal" den 
+Eindruck, dass es im Kabylischen Tonverlaufgegensätze mit syntaktischer Funktion gibt… » 
+(p. 39). 
+ 
+Ainsi, l'un des résultats les plus nets de notre étude (Cf. § III), la spécificité intonative du 
+nominal thématisé – par opposition au nom en fonction primaire "neutre" – transparaît déjà 
+clairement à travers les matériaux de Willms : pourtant, cette donnée est tout juste entr'aperçue et 
+n'est pas explicitement formulée par l'auteur. Il faut cependant dire qu'au moment où écrivait A. 
+Willms, les études de syntaxe berbère étaient encore peu développées et que la description des 
+phénomènes prosodiques, en linguistique et phonétique générales, a fait depuis cette date des 
+progrès décisifs. 
+ 
+ 
+On a donc adopté une approche résolument syntaxique et progressive en soumettant à 
+analyse instrumentale un certain nombre d'énoncés représentant quelques grands types de structure 
+de phrase pour :  
+ 
+– en déterminer les schèmes mélodiques, sans idée préconçue ; 
+ 
+– vérifier l'adéquation prosodique de certaines analyses syntaxiques développées ces 
+dernières années par les berbérisants. 
+ 
+Pour le premier volet, on a retenu la phrase simple neutre (sans marque expressive) de type : 
+verbe + expansion nominale.  
+On a distingué le cas du Nom "complément explicatif" (Galand 1964), explicitation lexicale 
+de l'indice de personne conjoint du verbe [symbolisée par l'abréviation : SN (C.E.)] : 
+ 
+yerwel umak°ar = il-s'est enfui voleur = "le voleur s'est enfui" 
+de celui du Nom "complément direct" [= SN (C.D.)] : 
+ 
+16
+
+---PAGE---
+ 
+yečča aàrum = "il a mangé (du) pain" 
+Dans le premier cas (C.E.), le nominal est à l'état d'annexion (initiale w/u- au masculin); dans le 
+second (C.D.), il est à l'état libre (initiale a- au masculin) (sur cette distinction d'état, voir Chaker 
+1988/b). 
+Pour le second aspect de cette recherche, on a étudié deux cas de connexion particulièrement 
+fréquents : 
+ 
+– l'énoncé verbal simple avec lexème nominal thématisé (et antéposé), l'Indicateur de 
+thème, tellement courant que certains auteurs (Picard 1960) l'ont pris pour la forme de base de 
+l'énoncé verbal kabyle : 
+ 
+amak°ar, yerwel = "le voleur, il s'est enfui". 
+ 
+– les suites de deux syntagmes verbaux, sans marque morphématique de jonction, qui 
+peuvent être soit des séquences de verbes coordonnés (par simple juxtaposition = SV1 + SV2) : 
+ 
+yesla, yerwel = "il (l') appris (et), il s'est enfui" ; 
+soit des séquences subordinatives (complétives = SV1 ← SV2) : 
+ 
+yesla yerwel = "il a appris (qu')il s'était enfui". 
+ 
+On s'en est donc tenu pour l'instant à des types syntaxiques très courants et simples, ne 
+comportant qu'un nombre limité de constituants syntaxiques. Au niveau phonologique, la taille 
+maximum des énoncés étudiés ne dépasse pas cinq syllabes. L'intonation de la phrase complexe (à 
+plusieurs expansions nominales, à relative, à subordonnée conjonctive) reste quasiment inexplorée. 
+Il convient d'insister à nouveau sur le fait que le nombre d'énoncés soumis à analyse est encore 
+beaucoup trop faible pour que l'on puisse considérer ces résultats comme définitifs.  Cette étude 
+n'est encore, à l'évidence, qu'une première approche exploratoire qui devra être confirmée et 
+vérifiée par de nombreuses analyses complémentaires. Mais, comme pour l'accent de mot isolé, les 
+premiers résultats indiquent des tendances suffisamment nettes pour qu'on en fasse état et qu'on 
+leur accorde une certaine validité.  
+ 
+Méthodologie 
+ 
+ 
+Les enregistrements (en chambre sourde) ont été effectués à l'Institut de Phonétique d'Aix-
+en-Provence. Les séquences étudiées ont été enregistrées par un seul locuteur (Grande Kabylie). 
+Pour éviter tout effet de série, elles ont été enregistrées dans un ordre aléatoire, distinct de celui 
+dans lequel elles sont présentées ici.  
+Au total, 80 énoncés ont été étudiés ; on en présente le tiers (26), choisis au hasard dans 
+chacun des quatre types syntaxiques envisagés : SV ← SN(C.D.) = 8 (sur 25) ; SV ←SN(C.E.) = 9 
+(sur 25) ; SN(I.Th.), SV = 3 (sur 10) ; SV + SV = 6 (sur 20). 
+ 
+ 
+La méthode d'analyse des documents, les seuils d'interprétation, la procédure de 
+détermination des niveaux intonatifs et de la dynamique de base du sujet, ainsi que les facteurs de 
+correction (notamment l'intensité spécifique des voyelles) sont ceux préconisés par ROSSI et. al. 
+(1981), i.e. :  
+- Seuil différentiel de perception de la Fréquence (∆F/F) = 5% 
+- Seuil différentiel de perception de l'Intensité (∆I/I) = 3db 
+- Seuil différentiel de perception de la Durée   (∆D/D) = 20 % 
+ 
+F = Fréquence fondamentale (F°) ;  
+I = Intensité, mesurée en décibels (db) par rapport à un niveau arbitraire de 50 db (après correction 
+du facteur d'intensité spécifique des voyelles); 
+D = Durée ; exprimée en milli-secondes. 
+ 
+17
+
+---PAGE---
+NI = niveaux intonatifs : Ils ont été établis selon l'échelle de ROSSI et. al. (1981 : 60), par rapport à 
+une Dynamique de base du sujet à 146 hz, elle-même calculée selon la procédure n° 3 de ROSSI 
+(1981 : 59; valeur moyenne de F° sur les syllabes initiales atones). Les niveaux s'étagent donc selon 
+les valeurs suivantes : 
+IG (-2) = infra-grave    
+ : de 100hz à 110hz 
+G  (-1) = grave           
+ : de 110hz à 130hz 
+M  (1)  = médium  
+ 
+ : de 130hz à 177hz/ Dynamique de base : 146 hz 
+IA (2)  = infra-aigu      
+ : de 177hz à 209hz 
+A  (3)  = aigu            
+ : de 209hz à 242hz 
+SA (4)  = sur-aigu       
+ : de 242hz à 276hz 
+ 
+On n'accordera pas une fiabilité absolue à cette échelle intonative car : 
+ 
+– la dynamique de base, repère central de la détermination des niveaux, n'a été calculée qu'à 
+partir d'un nombre limité de valeurs ; 
+ 
+– les facteurs numériques permettant d'établir les limites des différents niveaux intonatifs ne 
+sont pas universels ; ils ont été déterminés à partir de langues occidentales et rien n'indique a priori 
+qu'ils s'appliquent exactement au berbère : ROSSI (1981 : 61) signale même expressément qu'ils ne 
+sont pas valables pour une langue comme le bambara (il est vrai, langue à tons). 
+Ce ne sont donc que des repères provisoires qui devront être vérifiés par des recherches 
+phonétiques et psycho-acoustiques ultérieures approfondies. 
+ 
+ 
+A ce stade de l'exploration, il n'a pas été tenu compte, dans l'interprétation des mesures, d'un 
+certain nombre de facteurs, fort complexes : courbe de déclinaison mélodique, facteurs intrinsèques 
+(en-dehors de l'intensité spécifique des voyelles) et co-intrinsèques... (ROSSI et al., 1981). Mais ils 
+ne semblent pas devoir influer significativement sur les résultats globaux qui dessinent des modèles 
+intonatifs nets. 
+ 
+* 
+ 
+I. LES ENONCES SIMPLES NEUTRES : VERBE + NOM 
+ 
+ 
+L'intonation de l'énoncé verbal simple de type assertif (Verbe + Nom à l'état d'annexion ou à 
+l'état libre) correspond parfaitement au modèle attendu : 
+ 
+Elle part en général d'un niveau médium, avec une montée progressive jusqu'à un niveau 
+aigu ou infra-aigu haut (progrédiante majeure), et se termine à un niveau proche la dynamique de 
+base du sujet, dans le médium bas : 
+ 
+ 
+  I          
+(II)               
+ 
+III            
+ 
+IV 
+ 
+ 
+Médium 
+(Médium) 
+  Infra-aigu/Aigu     
+ 
+Médium 
+ 
+  1          
+(1)               
+ 
+ 2+/3          
+ 
+1- 
+ 
+Conformément à un modèle connu (en français par exemple ; Delattre 1966), la 
+progrédiante mineure dans le cas de séquences à 4 noyaux syllabiques, ne sort pas du médium.  
+ 
+ 
+Le noyau syllabique mis en relief est, dans presque tous les cas, le pénultième, i.e. l'avant-
+dernière syllabe du nom en fonction de complément explicatif ou de complément direct. On 
+retrouve donc dans cette séquence la règle qui préside à l'accentuation des nominaux isolés (Chaker 
+1988/a). En fait, il semble que l'on puisse d'ores et déjà conclure que dans la phrase déclarative 
+simple "Verbe + Nom", quelle que soit la fonction du nom, celui-ci porte la mise en relief 
+maximale (dans l'aigu), sur son avant-dernière syllabe. Plusieurs conclusions devraient alors 
+s'imposer : 
+ 
+18
+
+---PAGE---
+ 
+– Il ne semble pas qu'il y ait de différence prosodique entre le nom à l'état libre 
+(complément direct) et le nom à l'état d'annexion (complément explicatif). La localisation de la 
+mise en relief est la même pour les deux fonctions syntaxiques : la syllabe pénultième ; tout au plus 
+doit-on noter que l'élévation mélodique atteint plus régulièrement l'aigu avec le complément 
+explicatif (+ état d'annexion) qu'avec le complément direct (+ état libre), ce qui est peut-être à 
+interpréter comme l'indice d'une fusion phonique et d'une solidarité syntaxique plus grande entre les 
+deux syntagmes constitutifs. 
+ 
+– Sous réserve de phénomènes accentuels qui pourraient être propres aux verbes à voyelle 
+pleine (Cf. infra), il y a, en énoncé neutre, recouvrement entre intonation et accentuation du mot 
+isolé. La syllabe accentuée du nominal isolé est celle qui porte le pic mélodique dans l'énoncé 
+assertif. Cela signifie qu'il n'existe probablement qu'un accent de phrase (ou en phrase) et que 
+l'accentuation que nous avons détectée sur le mot isolé n'est en définitive que l'intonation de 
+l'énoncé déclaratif : on sait que, dans les conditions d'expérimentation courantes, les mots isolés 
+sont normalement produits, sauf marque expressive, avec une intonation de phrase assertive. La 
+confusion (ou la concordance) est bien sûr totale puisque, comme on l'a montré (Chaker 1988/a), 
+"l'accent de mot" est de type mélodique et qu'il ne peut donc y avoir de distinction entre accent et 
+intonation sur la base de la nature des deux phénomènes.  
+ 
+ 
+Il est alors probable que l'on sera amené à abandonner pour le berbère la notion d'"accent de 
+mot isolé" pour ne retenir que celle d'accent de mot en phrase, mise en relief mélodique distinguant 
+le nom du verbe et dont le jeu servira d'indice à la structuration syntaxique de l'énoncé. Le rôle 
+éminemment syntaxique de la prosodie en berbère paraît ainsi clairement confirmé. 
+Dans les séries d'énoncés I et II, presque tous les items cadrent bien avec les conclusions 
+précédentes ; elles ne peuvent cependant pas encore être considérées comme définitives car, 
+certains énoncés, dont le verbe contient une voyelle pleine (/a, i, u/), posent des problèmes 
+convergents : voir les n° 7, 8, 14 et 15. On trouvera sous chacun d'eux l'exposé de ces difficultés 
+particulières, ainsi que des éléments d'explication. Sans exclure l'hypothèse de l'artéfact dû aux 
+conditions expérimentales, les sondages ultérieurs pourraient amener à introduire une certaine 
+complication du modèle général esquissé ci-dessus.  
+ 
+ 
+SV ← SN (Complément Direct) 
+ 
+1. yečča aàrum  
+= il-a mangé pain (il a mangé du pain) 
+ 
+e 
+ 
+a+a 
+ 
+u 
+F°= 
+140 
+ 
+210 
+ 
+135 
+ 
+ 
+ 
+NI =  M 
+A 
+M 
+I = 
+46 
+ 
+56 
+ 
+51 
+ 
+ 
+ 
+ 
+1 
+3 
+1 
+D = 
+70 
+ 
+220 
+ 
+130 
+ 
+2. yugi aàrum  
+= il-refuse pain (il ne veut pas de pain) 
+ 
+u 
+ 
+(i)+a u 
+F°= 
+150 
+ 
+200 
+ 
+135 
+ 
+  
+ 
+NI = 
+M 
+IA 
+M 
+I = 
+47 
+ 
+50 
+ 
+47 
+ 
+ 
+ 
+ 
+1 
+2 
+1 
+D = 
+95 
+ 
+200 
+ 
+100 
+ 
+3. ‚‚fen uššen = ils-ont saisi chacal 
+ 
+e 
+ 
+u 
+ 
+e 
+F°= 
+160 
+ 
+220 
+ 
+150 
+ 
+ 
+ 
+NI = 
+M 
+A 
+M 
+I = 
+52 
+ 
+57 
+ 
+48 
+ 
+ 
+ 
+ 
+1 
+3 
+1 
+D = 
+60 
+ 
+90 
+ 
+90 
+ 
+ 
+19
+
+---PAGE---
+4. yezla azger  
+= il-a égorgé boeuf (il a égorgé un boeuf) 
+ 
+e 
+ 
+a+a 
+ 
+e 
+F°= 
+140 
+ 
+200 
+ 
+140 
+ 
+ 
+ 
+NI = 
+M 
+IA 
+M 
+I = 
+46 
+ 
+54 
+ 
+50 
+ 
+ 
+ 
+ 
+1 
+2+ 
+1 
+D = 
+80 
+ 
+205 
+ 
+80 
+ 
+5. kerzen igran 
+= ils-ont labouré champs (ils ont labouré les champs) 
+ 
+e 
+ 
+e 
+ 
+i 
+ 
+a 
+F°= 
+160 
+ 
+145 
+ 
+210 
+ 
+130 
+ 
+NI = 
+M   M    A   M 
+I = 
+50 
+ 
+50 
+ 
+57 
+ 
+50 
+ 
+ 
+1     1     3    1- 
+D = 
+70 
+ 
+50 
+ 
+100 
+ 
+120 
+ 
+6. yekrez iger = il-a labouré champ (il a labouré un champ) 
+ 
+e 
+ 
+e 
+ 
+i 
+ 
+e 
+F°= 
+150 
+ 
+155 
+ 
+215 
+ 
+145 
+ 
+NI = 
+M   M   A   M 
+I = 
+48 
+ 
+50 
+ 
+59 
+ 
+52 
+ 
+ 
+1     1     3    1 
+D = 
+50 
+ 
+70 
+ 
+140 
+ 
+100 
+ 
+7. nàan irgazen = ils-ont tué hommes (ils ont tué des hommes) 
+ 
+a 
+ 
+i 
+ 
+a 
+ 
+e 
+F°=  
+90 
+ 
+210 
+ 
+195 
+ 
+135 
+ 
+NI = 
+IA   A   IA    M 
+I = 
+58 
+ 
+59 
+ 
+52 
+ 
+48 
+ 
+ 
+2     3     2      1 
+D = 
+80 
+ 
+90 
+ 
+130 
+ 
+60 
+Ici, le pic intonatif paraît se situer sur le /i/ de irgazen, alors qu'on l'attendait sur le /a/ de la syllabe pénultième. On est 
+peut-être en présence d'un artéfact car le niveau mélodique très élevé (frôlant l'infra-aigu) et l'intensité très forte (58 db) 
+sur le premier noyau syllabique (/a/) semblent indiquer une prononciation artificielle, avec une mise en relief anormale 
+du début de l'énoncé. En revanche, la durée très nettement supérieure (130 ms) de l'avant-dernière voyelle /a/ peut être 
+considérée comme l'indice de sa mise en relief prosodique.  
+(Voir aussi, comme facteurs explicatifs possibles, les hypothèses évoquées sous le n° 15). 
+ 
+8. yezla argaz  = il-a égorgé homme (il a égorgé un homme) 
+ 
+e 
+ 
+a+a 
+ 
+a 
+F°= 
+145 
+ 
+190/210 
+145 
+ 
+ 
+ 
+NI = 
+M   AI/A   M 
+I = 
+48 
+ 
+56/58  
+50 
+ 
+  
+ 
+ 
+1      2 /3     1 
+D = 
+100 
+ 
+220 
+ 
+120 
+La fusion entre les deux /a/ consécutifs est très avancée mais elle n'est pas totale : la mélodie (et l'intensité) 
+forme un creux entre la première valeur maximale (190 hz) et la seconde (210 hz). C'est certainement ce 
+creux – et non pas, bien sûr, une pause inexistante – qui donne l'impression linguistique de deux voyelles : la 
+durée globale représentant l'addition des deux durée vocaliques. C'est également le cas dans tous les autres 
+exemples de jonctions vocaliques (n° 1, 2 et 4), même lorsque les deux timbres sont distincts (n° 2). 
+Contrairement à une notation usuelle, il n'y a donc pas "élision" du premier élément vocalique dans ce type 
+de jonctions puisque la durée est toujours doublée. 
+ 
+ 
+ 
+SV ← SN (C.E.) 
+ 
+9. yerwel umak°ar 
+= il-s'est enfui voleur (le voleur s'est enfui) 
+ 
+e 
+e 
+u 
+a 
+a 
+F°= 
+135 
+135 
+170 
+210 
+135 
+ 
+ 
+ 
+ 
+NI = 
+M   M   M    A   M 
+I = 
+46 
+46 
+51 
+52 
+50 
+ 
+ 
+ 
+ 
+ 
+1     1    1+    3    1 
+D = 
+65 
+50 
+60 
+110 
+140 
+ 
+ 
+20
+
+---PAGE---
+10. yerwel wuššen 
+= il-s'est enfui chacal (le chacal s'est enfui) 
+ 
+e 
+ 
+e 
+ 
+u 
+ 
+e 
+F°= 
+145 
+ 
+155 
+ 
+220 
+ 
+135 
+ 
+ 
+NI = 
+M   M   A   M 
+I = 
+48 
+ 
+50 
+ 
+57 
+ 
+50 
+ 
+ 
+ 
+1     1    3     1 
+D = 
+60 
+ 
+70 
+ 
+60 
+ 
+100 
+ 
+11. yekrez wezger = il-a labouré boeuf (le boeuf a labouré) 
+ 
+e 
+ 
+e 
+ 
+e 
+ 
+e 
+F°= 
+145 
+ 
+155 
+ 
+210 
+ 
+135 
+ 
+ 
+NI = 
+M   M   A   M 
+I = 
+44 
+ 
+48 
+ 
+52 
+ 
+50 
+ 
+ 
+ 
+1     1     3    1 
+D = 
+60 
+ 
+60 
+ 
+70 
+ 
+55 
+ 
+12. yekrez yiger = il-est labouré champ (le champ est labouré) 
+ 
+e 
+ 
+e 
+ 
+i 
+ 
+e 
+F°= 
+150 
+ 
+160 
+ 
+220 
+ 
+135 
+ 
+ 
+NI = 
+M   M   A   M 
+I = 
+46 
+ 
+48 
+ 
+56 
+ 
+48 
+ 
+ 
+ 
+1     1     3    1 
+D = 
+40 
+ 
+60 
+ 
+100 
+ 
+60 
+ 
+13. kerzen yigran = ils-sont labourés champs (les champs sont labourés) 
+ 
+e 
+ 
+e 
+ 
+i 
+ 
+a 
+F°= 
+165 
+ 
+150 
+ 
+210 
+ 
+130 
+ 
+ 
+NI = 
+M   M   A   M 
+I = 
+52 
+ 
+52 
+ 
+57 
+ 
+50 
+ 
+ 
+ 
+1     1     3    1- 
+D = 
+70 
+ 
+50 
+ 
+180 
+ 
+150 
+ 
+14. ddan yemàaren = ils-sont allés vieux (les vieux y sont allés) 
+ 
+a 
+ 
+e 
+ 
+a 
+ 
+e 
+F°= 
+180 
+ 
+175 
+ 
+160 
+ 
+135 
+ 
+ 
+NI = 
+IA   M   'M   M 
+I = 
+52 
+ 
+52 
+ 
+56 
+ 
+48 
+ 
+ 
+ 
+2     1     '1     1 
+D = 
+100 
+ 
+55 
+ 
+140 
+ 
+60 
+[voir commentaire sous le n° 15] 
+ 
+15. ©©ant temàarin 
+= elles-ont mangé vieilles (les vieilles ont mangé) 
+ 
+a 
+ 
+e 
+ 
+a 
+ 
+i 
+F°= 
+200 
+ 
+170 
+ 
+175 
+ 
+135 
+ 
+ 
+NI = 
+IA   M   'M   M 
+I = 
+52 
+ 
+50 
+ 
+54 
+ 
+51 
+ 
+ 
+ 
+ 2     1     1+   1 
+D = 
+75 
+ 
+60 
+ 
+130 
+ 
+70 
+Les énoncés 14 et 15 présentent cette particularité d'avoir une élévation mélodique sur leur premier noyau 
+syllabique, alors qu'on l'attendait sur le troisième et pénultième qui, lui, n'atteint même pas l'infra-aigu. 
+Pourtant, si l'on considère les paramètres d'intensité et de durée, c'est bien ce troisième noyau (/a/) qui reçoit 
+la mise en relief maximale : la durée en est dans les deux cas le double de celle de la voyelle précédente et 
+suivante ; le surcroît d'intensité par rapport aux voyelles adjacentes dépasse également toujours le seuil de 
+perception (3 db). Il y a bien un accent de phrase sur la pénultième. Ce type d'énoncés présenterait donc une 
+double accentuation : sur la pénultième du nom, mais aussi sur la voyelle pleine du thème verbal. 
+Ce pic mélodique sur la syllabe du verbe est difficile à expliquer. On constate cependant qu'il s'agit dans les 
+deux énoncés de verbes à initiale (absolue) tendue (/dd/ et /čč/), qui, pour être perçue comme telle dans cette 
+position peu favorable, demande certainement une forte charge d'énergie et peut-être, subséquemment, de 
+mélodie (?).  
+On remarque aussi que les deux items concernés sont – contrairement à la plupart des énoncés précédents –
+des verbes à voyelle pleine (ici : /a/ : ddan/©©an. Or, on a établi qu'il existe une liaison particulière entre 
+accent et voyelle pleine pour le verbe (Chaker 1988/a) : cette attraction s'exerce peut-être aussi en phrase où 
+la (dernière) voyelle pleine du verbe aurait tendance à recevoir une mise en relief intonative. L'énoncé n° 16 
+ 
+21
+
+---PAGE---
+confirme peut-être cette hypothèse puisque la syllabe pleine finale du verbe ([yezla]) reçoit une élévation 
+mélodique qui l'amène à la limite de l'infra-aigu. Il en irait de même pour le n° 7 dans lequel le niveau 
+mélodique de départ très élevé pourrait s'expliquer par l'action "accentogène" de la voyelle /a/ du thème 
+verbal (/nàan/) (idem pour le n° 26). On devrait alors admettre, pour le verbe, l'existence d'un accent 
+intrinsèque sur la dernière voyelle thématique pleine, et en conséquence, considérer comme normale dans les 
+énoncés 14 et 15 la présence de deux pics mélodiques. 
+Bien sûr, tant que des mesures plus nombreuses ne seront pas disponibles, l'artéfact ne doit pas être exclu 
+comme premier facteur d'explication. 
+ 
+16. yezla wergaz = il-a égorgé homme (l'homme a égorgé) 
+ 
+e 
+ 
+a 
+ 
+e 
+ 
+a 
+F°= 
+140 
+ 
+190 
+ 
+195 
+ 
+150 
+ 
+ 
+NI = 
+M   IA   'IA   M 
+I = 
+46 
+ 
+50 
+ 
+56 
+ 
+53 
+ 
+ 
+ 
+ 1     2     2     1 
+D = 
+60 
+ 
+120 
+ 
+70 
+ 
+120 
+ 
+17. ffàen yergazen 
+= ils-sont sortis hommes (les hommes sont sortis) 
+ 
+e 
+ 
+e 
+ 
+a 
+ 
+e 
+F°= 
+155 
+ 
+155 
+ 
+205 
+ 
+140 
+ 
+ 
+NI = 
+M   M   IA   M 
+I = 
+50 
+ 
+48 
+ 
+50 
+ 
+48 
+ 
+ 
+ 
+ 1    1     2+   1 
+D = 
+60 
+ 
+50 
+ 
+130 
+ 
+70 
+ 
+ 
+II. PHRASES A INDICATEUR DE THEME (SN, SV) 
+ 
+ 
+Les phrases à nominal thématisé –  généralement antéposé – sont particulièrement 
+fréquentes en berbère. La thématisation peut porter sur n'importe quel constituant lexical de 
+l'énoncé neutre : "complément explicatif" (n° 26), "complément direct" (n° 24)... et même sur le 
+prédicat lui-même par anticipation lexicale au moyen d'un nominal déverbatif (n° 25). L. Galand 
+(1964), qui a proposé la dénomination d'Indicateur de thème, considéré comme une fonction 
+nominale particulière, a insisté sur la mise en relief prosodique et la pause (virtuelle) qui caractérise 
+ce type de syntagme nominal (1964 : 39-40). Nous avons nous-même affirmé, intuitivement, que la 
+prosodie était la principale marque de l'Indicateur de thème (Chaker 1983 : 455-6) . Il convenait de 
+vérifier la réalité de ces analyses syntaxiques qui ne s'appuyaient jusque là sur aucune mesure 
+objective. 
+ 
+Il apparaît que l'énoncé à indicateur de thème présente bien une configuration intonative 
+tout à fait particulière qui le distingue nettement de l'énoncé neutre.  
+ 
+Le nominal thématisé connaît une montée mélodique progressive qui culmine sur sa 
+dernière syllabe, à un niveau infra-aigu. La mise en relief de cette dernière syllabe du nom 
+thématisé est aussi très marquée par l'intensité qui est presque toujours bien plus élevée que sur les 
+syllabes adjacentes. La syllabe suivante, la première du goupe verbal, se situe à un niveau 
+mélodique très inférieur dans le médium (bas) ; la courbe remonte ensuite jusqu'à l'infra-aigu, à un 
+niveau proche de l'aigu, sur la syllabe du verbe mise en relief – ici, dans tous les cas retenus, la 
+finale : 
+ 
+ 
+Médium 
+(Médium) 
+Infra-aigu  //  Médium     Infra-Aigu 
+       
+ 1           
+1           
+2               
+1-            
+2+ 
+ 
+L'énoncé à thématisation est donc doublement marqué prosodiquement : 
+ 
+22
+
+---PAGE---
+ 
+– par un décrochage mélodique très net entre la dernière syllabe du nominal thématisé et la 
+première du groupe verbal subséquent : 185hz/160hz; 185hz/155hz ; 185hz/155hz. C'est cette 
+rupture de la courbe mélodique qui crée l'impression de pause souvent mentionnée par les auteurs.  
+ 
+– par le déplacement de la mise en relief vers la finale du nominal thématisé, alors qu'elle se 
+situe normalement sur la pénultième en énoncé neutre (comparez avec n° 9). L'accentuation 
+normale du nom : (1) 2 1 devient dans la thématisation : (1) 1 2. 
+Les analyses empiriques des berbérisants sont ainsi entièrement confirmées par l'étude 
+instrumentale : l'indicateur de thème est bien caractérisé par une configuration prosodique très 
+spécifique. 
+ 
+18. aàrum, yečča 
+= pain, il-a mangé (du pain, il en a mangé) 
+ 
+a 
+u 
+e 
+a 
+F°= 
+150 
+185 
+160 
+205 
+ 
+ 
+ 
+ 
+NI = 
+M   IA  /  M   IA 
+I = 
+48 
+53 
+50 
+56 
+ 
+ 
+ 
+ 
+ 
+1     2       1     2+ 
+D = 
+80 
+75 
+50 
+180 
+ 
+19. tuffàa, yeffeà 
+= sortir, il est sorti (pour sortir, il est sorti) 
+ 
+u 
+a 
+e 
+e 
+F°= 
+165 
+185 
+155 
+205 
+ 
+ 
+ 
+ 
+NI = 
+M   IA  /  M   IA 
+I = 
+47 
+54 
+46 
+58 
+ 
+ 
+ 
+ 
+ 
+1     2       1     2+ 
+D = 
+90 
+90 
+75 
+65 
+ 
+20. amak°ar, yerwel = voleur, il-s'est enfui (le voleur, il s'est enfui) 
+ 
+a 
+a 
+a 
+e 
+e 
+F°= 
+145 
+170 
+185 
+155 
+205 
+ 
+ 
+ 
+NI = 
+M   M  IA / M   IA 
+I = 
+44 
+48 
+52 
+52 
+56 
+ 
+ 
+ 
+ 
+ 1    1    2     1     2+ 
+D = 
+60 
+100 
+95 
+110 
+140 
+ 
+III. PHRASES COMPLEXES (à 2 noyaux verbaux :  coordination/subordination) 
+ 
+ 
+L'analyse syntaxique des énoncés à deux syntagmes prédicatifs verbaux consécutifs, sans 
+aucune marque morphématique de jonction, se heurte au problème de la distinction entre séquence 
+coordinative (par simple juxtaposition) et séquence subordinative ("complétive").  
+Plusieurs berbérisants (notamment Bentolila 1981) ont essayé de dégager des critères linguistiques 
+– des restrictions à la combinatoire du verbe subséquent en cas de subordination – pour fonder la 
+distinction sur des indices linguistiques objectifs. Ces restrictions existent, mais elles paraissent être 
+plus liées au sémantisme du Verbe 1, qu'être de nature proprement syntaxique puisqu'elles ne 
+s'exercent pas pour tous les verbes (Chaker 1983 : 413-416). Tous les verbes "opérateurs" –  ils sont 
+nombreux en berbère –  susceptibles d'occuper la position de V1 n'entraînent pas ces limitations : 
+elles sont vérifiées avec "vouloir" ou "refuser" mais ne le sont pas avec "penser" ou "dire".... De ce 
+fait, elles ne constituent pas un critère d'une netteté absolue.  
+Pourtant, pour le locuteur natif, dans ces séquences sans conjonction morphématique, la 
+distinction entre subordination et coordination ne fait jamais de doute.  
+ 
+ 
+J'ai personnellement émis (Chaker 1983 : 417-424 ; 1985) l'idée que la subordination 
+complétive se distingue fondamentalement de la coordination par la prosodie et, j'ai postulé que la 
+première présente une courbe mélodique unitaire intégrant le syntagme verbal complétif (V2) au 
+verbe principal (V1), dans une seule et même courbe d'enveloppe, tandis que la séquence 
+coordinative se présenterait sous la forme d'une suite de courbes déclaratives de phrases 
+indépendantes. 
+ 
+23
+
+---PAGE---
+On a donc soumis, pour vérification de ces hypothèses, 18 énoncés à l'analyse 
+instrumentale. Il en ressort – avec toute la prudence qu'impose le nombre réduit de phrases étudiées 
+– que notre analyse était largement fondée, même si les choses apparaissent finalement plus 
+complexes que nous l'avions supposé.  
+ 
+ 
+Avant même la configuration intonative ou les niveaux intonatifs atteints, il semble que ce 
+soit le débit global et, subséquemment, la durée et l'intégrité des voyelles dans la zone de jonction 
+qui fait la différence entre coordination et subordination. Les données sont nettes à travers la 
+comparaison des énoncés 21 et 22 qui constituent une vraie "paire minimale". La distinction paraît 
+résider  : 
+ 
+a)- d'abord dans la durée générale de l'énoncé, beaucoup plus longue pour la suite 
+coordinative (1120 ms) que pour la séquence complétive (840 ms) ; le débit, plus rapide dans la 
+subordination que dans la coordination, apparaît ainsi comme l'indice principal de l'unité et de la 
+relation de dépendance syntaxique. 
+Mais le différence de débit peut avoir plusieurs autres incidences, susceptibles de servir de 
+facteurs secondaires de reconnaissance : 
+ 
+ 
+b)- l'abrègement notable de la dernière voyelle du Verbe 1 dans le cas de la subordination : 
+Cf. les durée respectives de la voyelle /a/ dans les n° 21 et 22.  
+ 
+ 
+c)- la comparaison des énoncés 23 (coordination) et 25 (subordination) montre que la 
+distinction peut aussi reposer sur la réalisation/non-réalisation de l'assimilation vocalique à la 
+jonction syntaxique lorsque celle-ci met en contact immédiat deux voyelles : il y a assimilation 
+dans la subordination, maintien des deux timbres dans la coordination. 
+ 
+La fusion-union phonique est bien plus marquée entre les deux syntagmes dans le cas de la 
+subordination ; c'est cette différence qui donne au niveau perceptif l'impression, souvent notée par 
+les descripteurs, de pause (réelle ou virtuelle) dans la suite de verbes coordonnés. 
+ 
+Mais la configuration intonative contribue aussi à opposer, selon des modalités diverses 
+liées à la constitution morphémique et phonologique des syntagmes V1 et V2, les deux types de 
+séquences : 
+ 
+– Dans la suite subordinative, le niveau intonatif maximum (progrédiante majeure) est 
+toujours atteint sur le deuxième syntagme verbal ("complétif") qui fonctionne ainsi comme second 
+constituant d'une phrase intonative (déclarative) unique : 
+Subordination complétive :  
+V1 
+← 
+SV2 
+-1 
+2 
+← 
+4 
+-1 
+ 
+(n° 22) 
+1 
+← 
+2 
+1 
+(ad) 
+(n° 24, 25) 
+2 
+← 
+2 
+3 
+ 
+(n° 26) 
+ 
+ 
+– Dans la suite coordinative, il y a deux pics mélodiques de niveau identique, l'un sur V1, 
+l'autre sur V2. La seconde mise en relief contraste d'ailleurs avec l'accent normal du verbe 
+puisqu'elle est, dans tous les cas, attirée vers la première syllabe de V2 (au lieu de porter sur la 
+dernière).  
+Coordination : 
+ SV1 , 
+SV2 
+ 
+1   2 
+, 
+2    1    (n° 21) 
+ 
+1   2 
+, 
+2   -1    (n° 23) 
+ 
+Il y a ainsi un traitement intonatif particulier du verbe en syntagme coordinatif, qui ne 
+correspond pas à celui que nous avions postulé (Chaker 1983 : i.e une simple juxtaposition de 
+courbes mélodiques assertives neutres, indépendantes les unes des autres). Cette particularité – 
+ 
+24
+
+---PAGE---
+l'attraction de l'accent vers la syllabe initiale de V2 – doit être considérée comme un facteur 
+mélodique d'intégration, en l'occurrence comme la marque de la coordination, par opposition à la 
+vraie juxtaposition de phrases sans lien syntaxique (suites d'actions indépendantes dans un récit, par 
+exemple).  
+En fait, l'examen des deux principaux types de séquences de coordination énumérative 
+(série de verbes/série de noms) montre que l'on doit reconnaître l'existence d'un schéma distinctif 
+d'intonation énumérative (Troubetzkoy : "Principes" : 240). Physiquement, cette intonation 
+d'énumération est fondée sur le contraste par rapport à l'accentuation normale du mot en énoncé 
+assertif neutre :  
+– le Nom, normalement accentué sur la pénultième, le sera sur sa dernière syllabe :  
+(1) 2 1   >   (1) 1 2 
+ 
+aà'rum, 
+ak'sum, 
+aw'ren, 
+ 
+iyu'zaŸ...  
+(du) pain, 
+(de la) viande, (de la) farine, (des) poulets... 
+– le verbe, normalement accentué sur la dernière, le sera sur la première : 1 2  >  2 1 
+(ye©©a), 'yeswa, 'ye‚‚es, 'yelsa... 
+il mange, boit,   dort,    est vêtu...   
+ 
+* 
+ 
+21. yesla, yerwel 
+ 
+= il-a entendu, il-s'est sauvé (il l'a appris et s'est enfui) 
+ 
+e 
+a 
+e 
+e 
+F°= 
+145 
+190 
+190 
+140 
+ 
+ 
+ 
+ 
+ 
+NI = 
+M   IA  / IA    M 
+I = 
+46 
+52 
+52 
+46 
+ 
+ 
+ 
+ 
+ 
+ 
+1     2      2      1 
+D = 
+60 
+95 
+60 
+90 
+[Durée totale de l'énoncé = 1120 ms] 
+ 
+22. yesla yerwel 
+= il-a entendu il-s'est enfui (il a appris qu'il s'est enfui) 
+ 
+e 
+ 
+a 
+ 
+e 
+ 
+a 
+F°= 
+135 
+ 
+180 
+ 
+250 
+ 
+135 
+ 
+ 
+NI = 
+M   IA  / SA   M 
+I = 
+42 
+ 
+44 
+ 
+52 
+ 
+46 
+ 
+ 
+ 
+1     2      4      1 
+D = 
+50 
+ 
+55 
+ 
+80 
+ 
+70 
+[Durée totale de l'énoncé = 840 ms] 
+ 
+23. ye©©a, iswa 
+= il-a mangé, il-a bu (il a mangé et bu) 
+ 
+e 
+ 
+a 
+ 
+i 
+ 
+a 
+F°= 
+130 
+ 
+185 
+ 
+195 
+ 
+110 
+ 
+ 
+NI = 
+M   IA  / IA   G 
+I = 
+42 
+ 
+46 
+ 
+54 
+ 
+48 
+ 
+ 
+ 
+1     2      2     1- 
+D = 
+100 
+ 
+50 
+ 
+85 
+ 
+120 
+L'indice acoustique le plus net de la juxtaposition est sans doute dans la conservation, à la joncture, des deux 
+timbres vocaliques distincts (/a , i/) ; il y a, sur le spectrogramme, un passage franc entre la résonance de /a/ 
+et celle de /i/, qui contraste fortement avec la fusion des timbres (/i + a/ > /a :/) dans le cas de la dépendance 
+syntaxique (Cf. n° 25). C'est aussi certainement cette netteté de la succession des voyelles qui explique que 
+l'on ait un /i/ franc à l'initiale du second verbe au lieu de la semi-voyelle normale en kabyle ([iswa] au lieu 
+de [yeswa]). 
+ 
+24. slià ad yeddu 
+= il-a entendu il-ira (il a appris qu'il irait) 
+ 
+i 
+a 
+e 
+u 
+F°= 
+155 
+195 
+175 
+140 
+ 
+ 
+ 
+ 
+ 
+NI = 
+M  / IA    M    M 
+I = 
+50 
+56 
+52 
+55 
+ 
+ 
+ 
+ 
+ 
+ 
+1      2      1+    1 
+D = 
+70 
+80 
+140 
+135 
+ 
+25
+
+---PAGE---
+On  notera que le morphème préverbal ad ("futur", "non effectif") attire dans tous les cas la mise en relief 
+intonative. 
+ 
+25. yugi ad yeddu = il-refuse il-ira (il refuse d'y aller) 
+ 
+u 
+(i+)a e 
+u 
+F°= 
+135 
+195 
+190 
+140 
+ 
+ 
+ 
+ 
+ 
+NI = 
+M  / IA    IA   M 
+I = 
+43 
+48 
+54 
+51 
+ 
+ 
+ 
+ 
+ 
+ 
+1      2      2      1 
+D = 
+65 
+90 
+50 
+140 
+ 
+26. slià yemmut = j'ai appris il-est mort (j'ai appris qu'il est mort) 
+ 
+i 
+ 
+e 
+ 
+u 
+F°= 
+190 
+ 
+170 
+ 
+220 
+ 
+ 
+ 
+ 
+NI = 
+IA  / M    A 
+I = 
+55 
+ 
+50 
+ 
+55 
+ 
+ 
+ 
+ 
+ 
+2      1      3 
+D = 
+90 
+ 
+80 
+ 
+60 
+ 
+ 
+* * * 
+ 
+ 
+CONCLUSIONS GENERALES (PROVISOIRES) 
+ 
+ 
+Au terme de cette exploitation de deux séries de sondages instrumentaux sur les 
+phénomènes prosodiques kabyles, il est possible de formuler un certain nombre de conclusions et 
+d'hypothèses qui permettent d'en esquisser de façon provisoire le fonctionnement général. 
+ 
+ 
+Sous la réserve importante du problème des thèmes verbaux à voyelle pleine, il semble qu'il 
+n'y ait pas en kabyle "d'accent de mot intrinsèque", mais simplement un accent de mot en phrase. 
+L'ensemble des conclusions de la première partie de cette étude ("l'accent") demeure valable mais 
+doit être replacé dans le cadre de l'intonation de la phrase déclarative simple. 
+La mise en relief mélodique du mot s'intègre donc dans les configurations intonatives 
+globales des différents types d'énoncés et établit, fondamentalement, un contraste entre le groupe 
+nominal (accentué sur la pénultième) et le groupe verbal (accentué sur sa dernière voyelle pleine, à 
+défaut sur la dernière syllabe du noyau). 
+ 
+De cette donnée centrale ressort immédiatement la fonction principale de la prosodie en 
+kabyle : celle d'identificateur syntaxique et d'indice permanent de la structuration syntaxique de 
+l'énoncé – en concordance parfaite avec les analyses générales de savants comme Troubetzkoy ou 
+Malmberg : 
+ 
+« On peut affirmer que beaucoup d'éléments prosodiques (sur le plan de la fonction 
+symbolique) sont en partie ou complètement des signaux de frontières ou de jonctures. » 
+(Malmberg 1971 : 213). 
+ 
+ 
+A un niveau très général, on retrouve d'abord la fonction délimitative de Troubetzkoy 
+"Principes" : 244) : la prosodie (intonation, débit, durée...) est la première marque de l'unité et de 
+l'intégration syntaxique. Des syntagmes (mots ou propositions) unis par la prosodie le sont aussi au 
+niveau syntaxique ; des syntagmes disjoints par la prosodie le sont également au niveau syntaxique.  
+ 
+ 
+De manière plus précise, les configurations intonatives et un certain nombre d'autres indices 
+prosodiques connexes (débit et durée) jouent un rôle central dans l'indication des rapports 
+syntaxiques : 
+ 
+26
+
+---PAGE---
+ 
+– ils distinguent d'une manière tranchée la phrase à thématisation de l'énoncé neutre ; 
+ 
+– dans les suites de syntagmes (sans connexion morphématique), ils opposent nettement la 
+relation de coordination (intonation "énumérative" spécifique) à celle de subordination (intégration 
+mélodique). 
+ 
+En fait, le marquage prosodique de la syntaxe est double : 
+ 
+– global d'abord, en terme de schémas prosodiques de phrase, s'opposant les uns aux autres : 
+phrase déclarative neutre / phrase à thématisation ; phrase à coordination / phrase à subordination... 
+ 
+– au niveau du mot ensuite, où la position de l'accent peut jouer un rôle d'indicateur de 
+relation syntaxique particulière : pour le nom et le verbe, le déplacement de l'accent par rapport à 
+l'accentuation "neutre" (de l'énoncé déclaratif simple) pourrait être considéré quasiment comme un 
+"fonctionnel".  
+Il n'est d'ailleurs pas exclu que des recherches ultérieures montrent que cette fonction de 
+marqueur syntaxique est en réalité beaucoup plus large et concerne d'autres types de structures et 
+d'unités que celles qui ont été étudiées ici. 
+ 
+En tout cas, l'ensemble de ces premiers résultats kabyles nous incitera à faire pleinement 
+nôtre la position fermement défendue par Malmberg (1971 : 203) :   
+ 
+« C'est la structure prosodique qui donne à l'auditeur d'un énoncé la première orientation sur 
+la voie à suivre pour trouver le sens. C'est à l'intérieur des cadres dressés par la prosodie qu'il doit 
+chercher... La prosodie est au centre tant de la structure que du mécanisme de la langue. »   
+ 
+* 
+ 
+ 
+En définitive, quelques conclusions qui paraissent déjà bien établies, conformes à ce que 
+l'on pouvait attendre d'une langue essentiellement orale et au système conjonctif peu développé. 
+Mais aussi plusieurs hypothèses et zones d'incertitude qui restent à vérifier et à clarifier. L'étude 
+expérimentale devra en conséquence être poursuivie et complétée dans de nombreuses directions : 
+des types d'unités et de syntagmes plus diversifiés (surtout pour le verbe), des types de phrases plus 
+complexes... devront encore être examinés.  
+Il convient aussi d'insister sur le fait que ces premières conclusions ne sont valables que 
+pour un parler déterminé de Grande Kabylie : il est presque certain, qu'au sein même de la Kabylie, 
+il existe d'importantes variations régionales sur le plan prosodique. La Petite Kabylie – notamment 
+la région de Bougie – présente probablement de sérieuses divergences par rapport au modèle 
+général auquel nous aboutissons. 
+ 
+* * * 
+ 
+Bibliographie  
+ 
+Linguistique et phonétique générale : 
+ 
+- DELATTRE (Pierre) : 1966 - Les dix intonations de base du français, French Review, 40/1. 
+- DI CRISTO (Albert) : 1975 - Soixante et dix ans de recherches en prosodie, Université de Provence. 
+- FAURE (George) : 1964 - Aspects et fonctions linguistiques des variations mélodiques dans la chaîne 
+parlée, Proceedings of the 9th International Congress of Linguists (Cambridge, 1962), La Haye, Mouton. 
+- FAURE (George) : 1969 - Contribution à l'étude des apports du système prosodique à la structuration de 
+l'énoncé en français moderne, Proceedings of the Xth International Congress of Linguists (Bucarest, 1967), 
+Académie des Sciences de Roumanie, t.II. 
+- FAURE (George) : 1972 - Contribution à l'étude du niveau d'analyse des structures prosodématiques, 
+Proceedings of the VIIth International Congress of Phonetic sciences (Montréal, 1971), La Haye, Mouton. 
+ 
+27
+
+---PAGE---
+- FAURE (George) : 1971 - La description phonologique des systèmes prosodiques, Zeitschrift für 
+Phonetik..., 24/5. 
+- FAURE (George) : 1972 - Contribution à l'étude de la fonction prédicative de l'intonation, Travaux de 
+l'Institut de Phonétique d'Aix, 1. 
+- GARDE (Paul) : 1968 - L'accent, Paris, PUF (SUP). 
+- LEON (Pierre)/ MARTIN (Pierre) : 1970 - Prolégomènes à l'étude des structures intonatives, Paris, Didier. 
+- MALMBERG (Bertil) : 1971 - Les domaines de la phonétique, Paris, PUF (notamment : chap. VI. "Etude 
+prosodique"). 
+- MALMBERG (Bertil) : 1974 - Manuel de phonétique générale, Paris, Picard (notamment : chap. X. "Faits 
+quantitatifs et prosodiques"). 
+- ROSSI (Mario) et. al. : 1981 - L'intonation. De l'acoustique à la sémantique, Paris, Klincksieck. [ouvrage 
+collectif qui reprend et synthétise un ensemble de recherches menées par l'équipe aixoise de l'Institut de 
+Phonétique en théorie et méthodologie de l'analyse prosodique. On y retrouvera notamment tous les seuils et 
+correctifs utilisés pour l'interprétation des documents expérimentaux.] 
+- TROUBETZKOY (N.S.) : 1970 (2e éd.) - Principes de phonologie, Paris, Klincksieck (IV/5. "Les 
+caractéristiques prosodiques", notamment : E. "Oppositions prosodiques distinguant des phrases"). 
+ 
+Linguistique berbère : accent,  intonation et syntaxe 
+ 
+- BASSET (André) : 1959 - L'anticipation en berbère, Articles de dialectologie berbère, Paris, Klincksieck, 
+p. 90-100. 
+- BASSET (André) : 1952 (1969) - La langue berbère, Londres, I.A.I., 72 p. 
+- BEGUINOT (Francesco) : 1931 - Il berbero Nefàsi di Fassâto, Rome, Istituto per l'Oriente, 314 p.  
+[chapitre "Accent" : p. 10-16 + notation systématique de l'accent dans le glossaire et les textes]. 
+- BENTOLILA (Fernand) : 1981 - Grammaire fonctionnelle d'un parler berbère, Paris, SELAF, 447 p. 
+- BRUGNATELLI (Vermondo) : 1986 - Alternanze accentuali e morpho-sintassi nominale nel berbero 
+orientale, Contributi di orientalistica, glottologia e dialletologia, Milano, Cisalpino-Goliardica, p. 61-72. 
+[rôle de l'accent comme indicateur syntaxique dans le syntagme nominal] 
+- CHAKER (Salem) : 1983 - Un parler berbère d'Algérie (Kabylie) : syntaxe, Université de Provence, 549 + 
+111. 
+- CHAKER (Salem) : 1984 - Textes en linguistique berbère (introduction au domaine berbère), Paris, 
+CNRS, 291 p. 
+- CHAKER (Salem) : 1985 - Syntaxe de la langue / syntaxe de la parole ? Intonation et situation dans 
+l'analyse syntaxique : quelques points controversés en berbère, Travaux du Cercle de Linguistique d'Aix-en-
+Provence, 3, p. 121-139. 
+- CHAKER (Salem) : 1988/b - Annexion (état d'), Encyclopédie berbère, 5, Aix, Edisud, p. 686-695. 
+- GALAND (Lionel) : 1964- L'énoncé verbal en berbère. Etude de fonctions, Cahiers Ferdinand de 
+Saussure, 21, p. 33-59. 
+- GALAND (Lionel) : 1969- Types d'expansions nominales en berbère, Cahiers Ferdinand de Saussure, 25, 
+p. 83-100. 
+- MITCHELL (T.F.) : Particle-Noun Complexes in a Berber Dialect (Zuara), Bulletin of the School of 
+Oriental and African Studies, XV/2, 1953, p. 375-390. [variations de la position de l'accent selon la structure 
+du syntagme nominal]. 
+- PICARD (André) : 1960 - De quelques faits de stylistique dans le parler des Irjen (Kabylie, Algérie). De la 
+phrase inorganique à la phrase organisée, Alger, La Typo-Litho/J. Carbonnel, XX-703 p. 
+- PRASSE (Karl-G.) : 1959 - L'accent des mots et des groupes accentuels en touareg, Comptes rendus du 
+GLECS, VIII, p. 60-62. 
+- PRASSE (Karl-G.) : 1959 - Notes sur la langue touarègue, Acta Orientalia [Copenhague], XXV, p. 43-
+111. 
+- PRASSE (Karl-G.) : 1972 - Manuel de Grammaire touarègue (tahaggart), vol 1, Copenhague, Akademisk 
+Forlag, 274 p. [accent et intonation : p. 30-37] 
+- SARRIONANDIA (Fr.) : 1905 (1925) - Gramatica de la lengua rifena, Tanger, 458 p. [p. 26-28 + notation 
+de l'accent] 
+- STUMME (Hans) : 1899 - Handbuch des Schilhischen von Tazerwalt, Leipzig, Hinrich, VI + 249 p. [§ 16 
++ notation de l'accent]. 
+ 
+28
+
+---PAGE---
+ 
+29
+- STUMME (Hans) : 1895 - Märchen der Schluh von Tazerwalt, Leipzig, Hinrich, XII + 208 p.  
+[notation de l'accent dans les textes] 
+- STUMME (Hans) : 1899 - Märchen der Berber von Tamzrett in Süd Tunisien, Leipzig, Hinrich, 72 p.  
+[notation de l'accent]. 
+- VYCICHL (Werner) : 1984 - Accent, Encyclopédie berbère, I, Aix, Edisud, p. 103-105 (suivi d'une notule 
+de S. CHAKER) 
+- WILLMS (Alfred) : 1961 - Der Akzent im Kabylischen, Der XV. Deutsche Orientalistentag Göttingen, p. 
+430. 
+- WILLMS (Alfred) : 1965 - Die tonalen Prosodeme des Kabylischen, Zeitschrift für Phonetik..., 18/1, p. 37-
+49. 
+- WILLMS (Alfred) : 1972 - Grammatik der südlichen Beraberdialekte (Süd Marokko), Hamburg-
+Glückstadt, Verlag J.J. Augustin. [accent : § 253, p. 75-78]. 
+
+---PAGE---

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 130">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#1e3a5f"/></linearGradient>
+  <radialGradient id="beam1" cx="25%" cy="80%"><stop offset="0%" stop-color="#fef3c7" stop-opacity="0.15"/><stop offset="100%" stop-color="transparent"/></radialGradient>
+  <radialGradient id="beam2" cx="55%" cy="75%"><stop offset="0%" stop-color="#fef3c7" stop-opacity="0.1"/><stop offset="100%" stop-color="transparent"/></radialGradient>
+</defs>
+<rect width="400" height="130" fill="url(#sky)"/>
+<rect width="400" height="130" fill="url(#beam1)"/>
+<rect width="400" height="130" fill="url(#beam2)"/>
+<!-- Stars -->
+<circle cx="50" cy="10" r="1" fill="white" opacity="0.5"/><circle cx="120" cy="18" r="0.8" fill="white" opacity="0.4"/>
+<circle cx="200" cy="8" r="1.2" fill="white" opacity="0.6"/><circle cx="280" cy="15" r="0.9" fill="white" opacity="0.4"/>
+<circle cx="340" cy="12" r="1" fill="white" opacity="0.5"/><circle cx="380" cy="22" r="0.7" fill="white" opacity="0.3"/>
+<!-- Mountains -->
+<path d="M0,65 L50,35 L100,50 L150,30 L200,45 L250,28 L300,42 L350,25 L400,40 L400,130 L0,130Z" fill="#14532d" opacity="0.3"/>
+<!-- Forest ground -->
+<rect x="0" y="90" width="400" height="40" fill="#1a2e05"/>
+<!-- Trees -->
+<g opacity="0.5" fill="#166534">
+  <polygon points="30,50 42,90 18,90"/><rect x="28" y="85" width="4" height="10" fill="#3f2c06"/>
+  <polygon points="80,45 94,90 66,90"/><rect x="78" y="85" width="4" height="10" fill="#3f2c06"/>
+  <polygon points="320,48 334,90 306,90"/><rect x="318" y="85" width="4" height="10" fill="#3f2c06"/>
+  <polygon points="370,52 382,90 358,90"/><rect x="368" y="85" width="4" height="10" fill="#3f2c06"/>
+</g>
+<!-- Flashlight beams -->
+<polygon points="120,80 80,30 100,25" fill="#fef3c7" opacity="0.06"/>
+<polygon points="220,78 180,25 200,20" fill="#fef3c7" opacity="0.05"/>
+<!-- Search party silhouettes -->
+<g transform="translate(110,58)">
+  <circle cx="8" cy="0" r="5" fill="#1e293b"/>
+  <rect x="3" y="5" width="10" height="16" rx="2" fill="#1e293b"/>
+  <rect x="3" y="20" width="4" height="10" fill="#1e293b"/>
+  <rect x="9" y="20" width="4" height="10" fill="#1e293b"/>
+  <!-- Flashlight -->
+  <rect x="14" y="8" width="10" height="3" rx="1" fill="#6b7280"/>
+  <circle cx="25" cy="9.5" r="2" fill="#fef3c7" opacity="0.6"/>
+</g>
+<g transform="translate(210,62)">
+  <circle cx="7" cy="0" r="4.5" fill="#1e293b"/>
+  <rect x="2" y="5" width="9" height="14" rx="2" fill="#1e293b"/>
+  <rect x="2" y="18" width="3.5" height="9" fill="#1e293b"/>
+  <rect x="7.5" y="18" width="3.5" height="9" fill="#1e293b"/>
+  <rect x="12" y="7" width="9" height="2.5" rx="1" fill="#6b7280"/>
+  <circle cx="22" cy="8.3" r="1.8" fill="#fef3c7" opacity="0.5"/>
+</g>
+<!-- Footprints on path -->
+<g fill="#3f2c06" opacity="0.3">
+  <ellipse cx="160" cy="100" rx="3" ry="1.5" transform="rotate(10 160 100)"/>
+  <ellipse cx="168" cy="105" rx="3" ry="1.5" transform="rotate(-5 168 105)"/>
+  <ellipse cx="175" cy="98" rx="3" ry="1.5" transform="rotate(15 175 98)"/>
+  <ellipse cx="183" cy="103" rx="3" ry="1.5" transform="rotate(-8 183 103)"/>
+  <ellipse cx="190" cy="97" rx="3" ry="1.5" transform="rotate(12 190 97)"/>
+</g>
+<!-- "?" floating markers -->
+<text x="260" y="55" font-size="18" fill="#60a5fa" opacity="0.3" font-weight="bold">?</text>
+<text x="290" y="42" font-size="14" fill="#60a5fa" opacity="0.2" font-weight="bold">?</text>
+</svg>

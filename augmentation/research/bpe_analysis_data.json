@@ -1,0 +1,1310 @@
+{
+  "corpus_size": 97,
+  "num_merges": 300,
+  "top_merges": [
+    {
+      "left": ".",
+      "right": "</w>",
+      "frequency": 1179,
+      "merged": ".</w>"
+    },
+    {
+      "left": "a",
+      "right": "</w>",
+      "frequency": 774,
+      "merged": "a</w>"
+    },
+    {
+      "left": ",",
+      "right": "</w>",
+      "frequency": 659,
+      "merged": ",</w>"
+    },
+    {
+      "left": ".",
+      "right": ".",
+      "frequency": 574,
+      "merged": ".."
+    },
+    {
+      "left": "o",
+      "right": "u",
+      "frequency": 494,
+      "merged": "ou"
+    },
+    {
+      "left": "a",
+      "right": "n",
+      "frequency": 480,
+      "merged": "an"
+    },
+    {
+      "left": "?",
+      "right": "</w>",
+      "frequency": 444,
+      "merged": "?</w>"
+    },
+    {
+      "left": "i",
+      "right": "</w>",
+      "frequency": 434,
+      "merged": "i</w>"
+    },
+    {
+      "left": "a",
+      "right": "l",
+      "frequency": 402,
+      "merged": "al"
+    },
+    {
+      "left": "e",
+      "right": "</w>",
+      "frequency": 400,
+      "merged": "e</w>"
+    },
+    {
+      "left": "a",
+      "right": "m",
+      "frequency": 394,
+      "merged": "am"
+    },
+    {
+      "left": "e",
+      "right": "r",
+      "frequency": 381,
+      "merged": "er"
+    },
+    {
+      "left": "n",
+      "right": "</w>",
+      "frequency": 362,
+      "merged": "n</w>"
+    },
+    {
+      "left": "c",
+      "right": "h",
+      "frequency": 337,
+      "merged": "ch"
+    },
+    {
+      "left": "d",
+      "right": "</w>",
+      "frequency": 325,
+      "merged": "d</w>"
+    },
+    {
+      "left": "a",
+      "right": "r",
+      "frequency": 322,
+      "merged": "ar"
+    },
+    {
+      "left": "..",
+      "right": ".</w>",
+      "frequency": 318,
+      "merged": "...</w>"
+    },
+    {
+      "left": "s",
+      "right": "</w>",
+      "frequency": 305,
+      "merged": "s</w>"
+    },
+    {
+      "left": "l",
+      "right": "'",
+      "frequency": 298,
+      "merged": "l'"
+    },
+    {
+      "left": "a",
+      "right": "t",
+      "frequency": 293,
+      "merged": "at"
+    },
+    {
+      "left": "a",
+      "right": "h",
+      "frequency": 291,
+      "merged": "ah"
+    },
+    {
+      "left": "-",
+      "right": "</w>",
+      "frequency": 265,
+      "merged": "-</w>"
+    },
+    {
+      "left": "e",
+      "right": "l",
+      "frequency": 263,
+      "merged": "el"
+    },
+    {
+      "left": "t",
+      "right": "</w>",
+      "frequency": 261,
+      "merged": "t</w>"
+    },
+    {
+      "left": "a",
+      "right": "y",
+      "frequency": 251,
+      "merged": "ay"
+    },
+    {
+      "left": "e",
+      "right": "n",
+      "frequency": 225,
+      "merged": "en"
+    },
+    {
+      "left": "g",
+      "right": "h",
+      "frequency": 216,
+      "merged": "gh"
+    },
+    {
+      "left": "i",
+      "right": "n",
+      "frequency": 199,
+      "merged": "in"
+    },
+    {
+      "left": "s",
+      "right": "s",
+      "frequency": 191,
+      "merged": "ss"
+    },
+    {
+      "left": "a",
+      "right": "c",
+      "frequency": 186,
+      "merged": "ac"
+    },
+    {
+      "left": "l",
+      "right": "e",
+      "frequency": 181,
+      "merged": "le"
+    },
+    {
+      "left": "i",
+      "right": "t",
+      "frequency": 172,
+      "merged": "it"
+    },
+    {
+      "left": "l",
+      "right": "a</w>",
+      "frequency": 172,
+      "merged": "la</w>"
+    },
+    {
+      "left": ":",
+      "right": "</w>",
+      "frequency": 171,
+      "merged": ":</w>"
+    },
+    {
+      "left": "k",
+      "right": "h",
+      "frequency": 169,
+      "merged": "kh"
+    },
+    {
+      "left": "o",
+      "right": "r",
+      "frequency": 167,
+      "merged": "or"
+    },
+    {
+      "left": "e",
+      "right": "m",
+      "frequency": 151,
+      "merged": "em"
+    },
+    {
+      "left": "d",
+      "right": "'",
+      "frequency": 150,
+      "merged": "d'"
+    },
+    {
+      "left": "d",
+      "right": "a",
+      "frequency": 147,
+      "merged": "da"
+    },
+    {
+      "left": "h",
+      "right": "</w>",
+      "frequency": 142,
+      "merged": "h</w>"
+    },
+    {
+      "left": "ac",
+      "right": "c",
+      "frequency": 132,
+      "merged": "acc"
+    },
+    {
+      "left": "al",
+      "right": "l",
+      "frequency": 130,
+      "merged": "all"
+    },
+    {
+      "left": "i",
+      "right": "d",
+      "frequency": 130,
+      "merged": "id"
+    },
+    {
+      "left": "t",
+      "right": "e",
+      "frequency": 129,
+      "merged": "te"
+    },
+    {
+      "left": "i",
+      "right": "r",
+      "frequency": 127,
+      "merged": "ir"
+    },
+    {
+      "left": "a",
+      "right": "d",
+      "frequency": 126,
+      "merged": "ad"
+    },
+    {
+      "left": "a",
+      "right": "3",
+      "frequency": 125,
+      "merged": "a3"
+    },
+    {
+      "left": "acc",
+      "right": "or",
+      "frequency": 123,
+      "merged": "accor"
+    },
+    {
+      "left": "i",
+      "right": "m",
+      "frequency": 123,
+      "merged": "im"
+    },
+    {
+      "left": "a",
+      "right": ".</w>",
+      "frequency": 122,
+      "merged": "a.</w>"
+    },
+    {
+      "left": "e",
+      "right": "n</w>",
+      "frequency": 121,
+      "merged": "en</w>"
+    },
+    {
+      "left": "d'",
+      "right": "accor",
+      "frequency": 119,
+      "merged": "d'accor"
+    },
+    {
+      "left": "i",
+      "right": "l",
+      "frequency": 114,
+      "merged": "il"
+    },
+    {
+      "left": "an",
+      "right": "</w>",
+      "frequency": 104,
+      "merged": "an</w>"
+    },
+    {
+      "left": "a",
+      "right": "s",
+      "frequency": 102,
+      "merged": "as"
+    },
+    {
+      "left": "a",
+      "right": "k",
+      "frequency": 102,
+      "merged": "ak"
+    },
+    {
+      "left": "el",
+      "right": "</w>",
+      "frequency": 99,
+      "merged": "el</w>"
+    },
+    {
+      "left": "er",
+      "right": "</w>",
+      "frequency": 97,
+      "merged": "er</w>"
+    },
+    {
+      "left": "e",
+      "right": "d</w>",
+      "frequency": 96,
+      "merged": "ed</w>"
+    },
+    {
+      "left": "p",
+      "right": "o",
+      "frequency": 96,
+      "merged": "po"
+    }
+  ],
+  "vocabulary": [
+    {
+      "token": ".</w>",
+      "frequency": 437,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "t",
+      "frequency": 415,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "</w>",
+      "frequency": 397,
+      "category": "other",
+      "length": 0
+    },
+    {
+      "token": ",</w>",
+      "frequency": 388,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "s",
+      "frequency": 375,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "b",
+      "frequency": 345,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "?</w>",
+      "frequency": 337,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "m",
+      "frequency": 328,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "a</w>",
+      "frequency": 328,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "i",
+      "frequency": 304,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "n",
+      "frequency": 299,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "...</w>",
+      "frequency": 292,
+      "category": "other",
+      "length": 3
+    },
+    {
+      "token": "e",
+      "frequency": 270,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "l",
+      "frequency": 269,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "-",
+      "frequency": 267,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "d",
+      "frequency": 267,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "-</w>",
+      "frequency": 265,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "e</w>",
+      "frequency": 262,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "3",
+      "frequency": 255,
+      "category": "arabizi_marker",
+      "length": 1
+    },
+    {
+      "token": "f",
+      "frequency": 250,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "i</w>",
+      "frequency": 246,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "r",
+      "frequency": 240,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "a",
+      "frequency": 234,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "h",
+      "frequency": 233,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "l'",
+      "frequency": 226,
+      "category": "french_integrated",
+      "length": 2
+    },
+    {
+      "token": "an",
+      "frequency": 226,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "w",
+      "frequency": 224,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "ou",
+      "frequency": 215,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "u",
+      "frequency": 209,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "c",
+      "frequency": 208,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "g",
+      "frequency": 202,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "k",
+      "frequency": 190,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "am",
+      "frequency": 181,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "ch",
+      "frequency": 177,
+      "category": "arabizi_marker",
+      "length": 2
+    },
+    {
+      "token": "al",
+      "frequency": 166,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "ar",
+      "frequency": 159,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "z",
+      "frequency": 153,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "la</w>",
+      "frequency": 151,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "y",
+      "frequency": 151,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "gh",
+      "frequency": 144,
+      "category": "arabizi_marker",
+      "length": 2
+    },
+    {
+      "token": "j",
+      "frequency": 138,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "ay",
+      "frequency": 135,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "n</w>",
+      "frequency": 135,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "er",
+      "frequency": 133,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "in",
+      "frequency": 132,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "p",
+      "frequency": 130,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "te",
+      "frequency": 129,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "q",
+      "frequency": 129,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "s</w>",
+      "frequency": 127,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "at",
+      "frequency": 126,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "el",
+      "frequency": 122,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "en</w>",
+      "frequency": 121,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "v",
+      "frequency": 121,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "it",
+      "frequency": 120,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "ss",
+      "frequency": 119,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "kh",
+      "frequency": 118,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "o",
+      "frequency": 115,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "en",
+      "frequency": 107,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "t</w>",
+      "frequency": 107,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "im",
+      "frequency": 105,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "é",
+      "frequency": 102,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "as",
+      "frequency": 102,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "ir",
+      "frequency": 102,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "ak",
+      "frequency": 102,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "em",
+      "frequency": 101,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": ":</w>",
+      "frequency": 100,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "ad",
+      "frequency": 100,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "le",
+      "frequency": 100,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "el</w>",
+      "frequency": 99,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "da",
+      "frequency": 98,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "er</w>",
+      "frequency": 97,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "ed</w>",
+      "frequency": 96,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "ah",
+      "frequency": 95,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "a,</w>",
+      "frequency": 94,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "1",
+      "frequency": 92,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "d</w>",
+      "frequency": 91,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "a.</w>",
+      "frequency": 90,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "on",
+      "frequency": 85,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "id",
+      "frequency": 84,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "d-",
+      "frequency": 84,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "k</w>",
+      "frequency": 84,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "7",
+      "frequency": 81,
+      "category": "arabizi_marker",
+      "length": 1
+    },
+    {
+      "token": "les</w>",
+      "frequency": 81,
+      "category": "other",
+      "length": 3
+    },
+    {
+      "token": "g</w>",
+      "frequency": 79,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "th",
+      "frequency": 78,
+      "category": "arabizi_marker",
+      "length": 2
+    },
+    {
+      "token": "il",
+      "frequency": 76,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "u</w>",
+      "frequency": 75,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "ar</w>",
+      "frequency": 75,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "h</w>",
+      "frequency": 72,
+      "category": "other",
+      "length": 1
+    },
+    {
+      "token": "ass",
+      "frequency": 72,
+      "category": "other",
+      "length": 3
+    },
+    {
+      "token": "li",
+      "frequency": 71,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "ed",
+      "frequency": 70,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "ach",
+      "frequency": 69,
+      "category": "other",
+      "length": 3
+    },
+    {
+      "token": "ur",
+      "frequency": 68,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "an</w>",
+      "frequency": 68,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "ih",
+      "frequency": 68,
+      "category": "kabyle_particle",
+      "length": 2
+    },
+    {
+      "token": "ti",
+      "frequency": 67,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "..",
+      "frequency": 66,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "-n",
+      "frequency": 62,
+      "category": "other",
+      "length": 2
+    },
+    {
+      "token": "aw",
+      "frequency": 62,
+      "category": "other",
+      "length": 2
+    }
+  ],
+  "category_stats": {
+    "other": {
+      "count": 93,
+      "total_freq": 15083
+    },
+    "arabizi_marker": {
+      "count": 5,
+      "total_freq": 735
+    },
+    "french_integrated": {
+      "count": 1,
+      "total_freq": 226
+    },
+    "kabyle_particle": {
+      "count": 1,
+      "total_freq": 68
+    }
+  },
+  "divergence": {
+    "total_real_tokens": 100,
+    "total_synth_tokens": 100,
+    "overlap_count": 64,
+    "only_in_real": 36,
+    "only_in_synth": 36,
+    "overlap_ratio": 0.4706,
+    "top_divergences": [
+      {
+        "token": "-</w>",
+        "real_freq": 265,
+        "synth_freq": 306,
+        "real_ratio": 0.016447,
+        "synth_ratio": 0.0742,
+        "divergence": 0.057752,
+        "category": "other"
+      },
+      {
+        "token": "!</w>",
+        "real_freq": 0,
+        "synth_freq": 113,
+        "real_ratio": 0.0,
+        "synth_ratio": 0.027401,
+        "divergence": 0.027401,
+        "category": "other"
+      },
+      {
+        "token": "...</w>",
+        "real_freq": 292,
+        "synth_freq": 0,
+        "real_ratio": 0.018123,
+        "synth_ratio": 0.0,
+        "divergence": 0.018123,
+        "category": "other"
+      },
+      {
+        "token": "gher</w>",
+        "real_freq": 0,
+        "synth_freq": 64,
+        "real_ratio": 0.0,
+        "synth_ratio": 0.015519,
+        "divergence": 0.015519,
+        "category": "other"
+      },
+      {
+        "token": "yella</w>",
+        "real_freq": 0,
+        "synth_freq": 59,
+        "real_ratio": 0.0,
+        "synth_ratio": 0.014306,
+        "divergence": 0.014306,
+        "category": "other"
+      },
+      {
+        "token": "a</w>",
+        "real_freq": 328,
+        "synth_freq": 30,
+        "real_ratio": 0.020357,
+        "synth_ratio": 0.007274,
+        "divergence": 0.013083,
+        "category": "other"
+      },
+      {
+        "token": "caller:</w>",
+        "real_freq": 0,
+        "synth_freq": 52,
+        "real_ratio": 0.0,
+        "synth_ratio": 0.012609,
+        "divergence": 0.012609,
+        "category": "other"
+      },
+      {
+        "token": "operator:</w>",
+        "real_freq": 0,
+        "synth_freq": 50,
+        "real_ratio": 0.0,
+        "synth_ratio": 0.012124,
+        "divergence": 0.012124,
+        "category": "other"
+      },
+      {
+        "token": "b",
+        "real_freq": 345,
+        "synth_freq": 39,
+        "real_ratio": 0.021413,
+        "synth_ratio": 0.009457,
+        "divergence": 0.011956,
+        "category": "other"
+      },
+      {
+        "token": "ye",
+        "real_freq": 0,
+        "synth_freq": 43,
+        "real_ratio": 0.0,
+        "synth_ratio": 0.010427,
+        "divergence": 0.010427,
+        "category": "other"
+      },
+      {
+        "token": ",</w>",
+        "real_freq": 388,
+        "synth_freq": 142,
+        "real_ratio": 0.024081,
+        "synth_ratio": 0.034433,
+        "divergence": 0.010351,
+        "category": "other"
+      },
+      {
+        "token": "ur</w>",
+        "real_freq": 0,
+        "synth_freq": 39,
+        "real_ratio": 0.0,
+        "synth_ratio": 0.009457,
+        "divergence": 0.009457,
+        "category": "other"
+      },
+      {
+        "token": "dayi</w>",
+        "real_freq": 0,
+        "synth_freq": 38,
+        "real_ratio": 0.0,
+        "synth_ratio": 0.009214,
+        "divergence": 0.009214,
+        "category": "kabyle_particle"
+      },
+      {
+        "token": "t",
+        "real_freq": 415,
+        "synth_freq": 69,
+        "real_ratio": 0.025757,
+        "synth_ratio": 0.016731,
+        "divergence": 0.009026,
+        "category": "other"
+      },
+      {
+        "token": "l'",
+        "real_freq": 226,
+        "synth_freq": 95,
+        "real_ratio": 0.014027,
+        "synth_ratio": 0.023036,
+        "divergence": 0.009009,
+        "category": "french_integrated"
+      },
+      {
+        "token": "i</w>",
+        "real_freq": 246,
+        "synth_freq": 26,
+        "real_ratio": 0.015268,
+        "synth_ratio": 0.006305,
+        "divergence": 0.008964,
+        "category": "other"
+      },
+      {
+        "token": "ara</w>",
+        "real_freq": 0,
+        "synth_freq": 36,
+        "real_ratio": 0.0,
+        "synth_ratio": 0.008729,
+        "divergence": 0.008729,
+        "category": "other"
+      },
+      {
+        "token": "j",
+        "real_freq": 138,
+        "synth_freq": 0,
+        "real_ratio": 0.008565,
+        "synth_ratio": 0.0,
+        "divergence": 0.008565,
+        "category": "other"
+      },
+      {
+        "token": "ay",
+        "real_freq": 135,
+        "synth_freq": 0,
+        "real_ratio": 0.008379,
+        "synth_ratio": 0.0,
+        "divergence": 0.008379,
+        "category": "other"
+      },
+      {
+        "token": "n",
+        "real_freq": 299,
+        "synth_freq": 42,
+        "real_ratio": 0.018558,
+        "synth_ratio": 0.010184,
+        "divergence": 0.008373,
+        "category": "other"
+      },
+      {
+        "token": "deg</w>",
+        "real_freq": 0,
+        "synth_freq": 34,
+        "real_ratio": 0.0,
+        "synth_ratio": 0.008244,
+        "divergence": 0.008244,
+        "category": "other"
+      },
+      {
+        "token": "l",
+        "real_freq": 269,
+        "synth_freq": 35,
+        "real_ratio": 0.016696,
+        "synth_ratio": 0.008487,
+        "divergence": 0.008209,
+        "category": "other"
+      },
+      {
+        "token": "in",
+        "real_freq": 132,
+        "synth_freq": 0,
+        "real_ratio": 0.008193,
+        "synth_ratio": 0.0,
+        "divergence": 0.008193,
+        "category": "other"
+      },
+      {
+        "token": "d'accord,</w>",
+        "real_freq": 0,
+        "synth_freq": 33,
+        "real_ratio": 0.0,
+        "synth_ratio": 0.008002,
+        "divergence": 0.008002,
+        "category": "other"
+      },
+      {
+        "token": "h",
+        "real_freq": 233,
+        "synth_freq": 27,
+        "real_ratio": 0.014461,
+        "synth_ratio": 0.006547,
+        "divergence": 0.007914,
+        "category": "other"
+      },
+      {
+        "token": "s",
+        "real_freq": 375,
+        "synth_freq": 64,
+        "real_ratio": 0.023275,
+        "synth_ratio": 0.015519,
+        "divergence": 0.007756,
+        "category": "other"
+      },
+      {
+        "token": "an",
+        "real_freq": 226,
+        "synth_freq": 26,
+        "real_ratio": 0.014027,
+        "synth_ratio": 0.006305,
+        "divergence": 0.007722,
+        "category": "other"
+      },
+      {
+        "token": "ma",
+        "real_freq": 0,
+        "synth_freq": 31,
+        "real_ratio": 0.0,
+        "synth_ratio": 0.007517,
+        "divergence": 0.007517,
+        "category": "other"
+      },
+      {
+        "token": "en</w>",
+        "real_freq": 121,
+        "synth_freq": 0,
+        "real_ratio": 0.00751,
+        "synth_ratio": 0.0,
+        "divergence": 0.00751,
+        "category": "other"
+      },
+      {
+        "token": "it",
+        "real_freq": 120,
+        "synth_freq": 0,
+        "real_ratio": 0.007448,
+        "synth_ratio": 0.0,
+        "divergence": 0.007448,
+        "category": "other"
+      }
+    ],
+    "only_real_examples": [
+      "-n",
+      "..",
+      "...</w>",
+      "1",
+      ":</w>",
+      "ach",
+      "ah",
+      "ak",
+      "an</w>",
+      "ar</w>",
+      "as",
+      "ass",
+      "aw",
+      "ay",
+      "d-",
+      "ed",
+      "el</w>",
+      "em",
+      "en</w>",
+      "er</w>"
+    ],
+    "only_synth_examples": [
+      "!</w>",
+      "-i",
+      "7imay",
+      "9",
+      "ad</w>",
+      "ag",
+      "allo!</w>",
+      "allo,</w>",
+      "an3am,</w>",
+      "anda</w>",
+      "ara</w>",
+      "be",
+      "caller:</w>",
+      "d'accord,</w>",
+      "d.</w>",
+      "dayi</w>",
+      "deg</w>",
+      "e!</w>",
+      "e,</w>",
+      "e.</w>"
+    ]
+  }
+}

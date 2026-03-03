@@ -1,0 +1,597 @@
+Conclusion générale
+avons traité les différents variables linguistiques sur les deux axes : linguistique (les niveaux
+de la structure linguistique) et géographique (l‘usage dans les différents parlers et dialectes
+berbères et la localisation dans les parlers de la région de l‘est de Béjaia) ;
+- Le premier chapitre est consacré aux variables phonétiques : nous avons donné le
+cadre théorique de chaque trait phonétique étudié, sa localisation géographique dans les
+différents dialectes à travers les descriptions et les comparaisons disponibles, avant de
+procéder à l‘analyse des données de notre corpus des 19 parlers étudiés de la région de l‘est de
+Béjaia. Là, nous avons énuméré les différentes variantes en subdivisant la région Est de
+Béjaia en sous-groupes, les variantes sont synthétisées, à chaque fois dans un tableau
+récapitulatif. Ce chapitre est subdivisé en deux volets :
+Dans le premier volet, nous avons traité les éléments de phonétique articulatoire qui
+sont au nombre neuf (09) : L‘évolution de la dentale sourde /t/ (Changement de mode
+d‘articulation [t] - [ṯ], Changement de lieu d‘articulation [ṯ] – [h] puis son éffacement [ṯ] – ϕ;
+la spirantisation de la vélaire sourde [k] et son passage à [c], [č] puis [ǧ] ; la spirantisation de
+la palatale sonore [g] et son passage à [y] ; la sourdité de l‘emphatique [ḍ] et son passage à [ṭ] ;
+le passage de l‘uvulaire sourde[q] à la vélaire[x] ; l‘affriction de la dentale sourde[t]---[ţ] ;
+traitement de la labiovélarisation (présence-absence) ; Le maintien de la semi-voyelle tendue
+ww –ggw et la vocalisation de la semi-voyelle. Tous ces éléments sont variables, comme nous
+l‘avons montré, dans les 19 parlers étudiés de la région de l‘est de Béjaia, à l‘exception de la
+sourdité de la dentale sonore[ḍ] qui est commune à tous les parlers de cette région. La
+variation de ces éléments est, non seulement, considérable entre les parlers étudiés mais aussi
+graduelle; ce n‘est pas la même évolution dans les différents ponts d‘enquête.
+Dans le deuxième volet, nous avons étudié cinq éléments de la phonétique
+combinatoire : L‘assimilation (l‘assimilation interne appelée aussi monématique et
+l‘assimilation dans la chaîne) ; le contact des voyelles (l‘adjonction de la semi-voyelle/
+épenthèse, la chute de la voyelle/ aphérèse et la transformation de la 2ème voyelle en semi-
+voyelle) ; apophonie ou alternance vocalique ; chute ou adjonctiond‘un phonème en position
+finale et la métathèse et l‘interversion. Là aussi, les variantes sont nombreuses, elles touchent
+les éléments de la phonétique articulatoire et ceux de la phonétique combinatoire, c‘est le cas
+de :
+1) La variation de la vélaire sourde /k/-/c/-/y/
+345
+---PAGE 345---
+Conclusion générale
+- aḵal attesté dans 18 parlers de la région de l‘Est de Béjaia tout comme les autres
+parlers kabyles aboutit à acal, attestée dans le parler de Qelaoun.
+- kemm, attesté dans les parlers (Ait Bourman, Aokas, Tizi n Berber, Ighil Wis, Tagouba,
+Ait Amrous et Ait Bimoun S.El.Tennine) tout comme les autres parlers kabyles aboutit
+à cemm, attesté dans les parlers (Bouyman, Ijermounen, Ait Marâi, Qelaoun, Taregragt,
+Ait Mbarek, Darguina, Melbou, Ait Segoual, Tamrijt, Laâlam)
+- aḵeffi « le lait », attesté dans les parlers Ijermounen et Ait Marâi aboutit à ayeffi,
+attesté dans le parler d‘Aokas, en passant par aceffa, attesté dans le parler de Qelaoun.
+2) La variation de la vélaire sourde tendue /kk/-/čč/ :
+- Takka « poussière » attesté dans les parlers Aokas et Tizi n Berber à tačča dans les
+parlers Tagouba et Ighil Wis. Précisons ici que [kk] et [čč] coexistent dans le même
+parler avec une restriction sémantique.
+- ewt « frapper » ; kkat « frapper habituellement» attesté dans 18 parlers de la région de
+l‘Est de Béjaia tout comme les autres parlers kabyles aboutit à ččat attestée dans le
+parler de Qelaoun.
+3) La variation de la palatale sonore /g/ - /j/ - /y/
+- Agertil attesté dans les parlers (Bouyman, Ijermounen, Ait Merâi, Taregragt, Ait
+Mbarek, Darguina, Tamrijt, Leâlam, Ait Segoual, Melbou, S.El.Tennine, Ighil Wis,
+Tagouba et Ait Amrous) aboutit à ajertil dans le parler de Qelaoun et en dernier lieu à
+ayertil attesté dans les parlers (Ait Bourman, Ait Bimoun, Aokas et Tizi n Berber.
+4) L‘affriction de la dentale sourde [ţţ] dans les parlers (Ait Amrous, Tagouba, Ait
+Bimoun), Ex. ţţawi « porter habituellement » et son absence dans les parlers (Ait
+Bourman, Bouyman, Qelaoun, Ait Merai, Ijermounen, Taregragt, Ait Mbarek,
+Darguina, Tamrijt, Laâlam, S.El.Tenine, Melbou, Ait Segoual, Aokas, Tizi n
+berber et Ighil Wis), Ex. ttawi « porter habituellement ».
+5) La présence de la labiovélarisation dans les parlers (Bouyman, Ait Bourman,
+Qelaoun, Ait Merai, Ijermounen, Taregragt, Ait Mbarek et Ighzer Ouftis), Ex.
+azeggwaɣ « rouge » et son absence dans les parlers (Tamrijt, Laâlam, S.El.Tennine,
+Melbou, Ait Segoual, Aokas, Tizi n berber, Ighil Wis, Ait Amrous, Tagouba et Ait
+Bimoun) ;
+346
+---PAGE 346---
+Conclusion générale
+6) (assimilation/dissimilation) /n/ + /k/ > [kk] : anken « comme ça », attesté dans le
+parler d‘Aokas, Tizi n Berber, S.El.Tennine, Tamrijt, Ait Mbarek, Taregragt,
+Ijermounen, Ait Merâi et Bouyman, aboutit à akken attesté dans les parlers Ait
+Bimoun, Ait Amrous, Tagouba, Ighil Wis et Ait Bourman et aboutit finalement,
+non seulement à l‘affaiblissement articulatoire (tendue-simple), mais aussi à la
+palatale sourde spirante [ḵ] haḵǝn attesté dans le parler de Melbou, Ait Segoual et
+Leâlam ; anka « comme ça », attesté dans les parlers de Bouyman, taregragt et
+Aokas, donne akka attesté dans les parlers Ait Bimoun, Ait Amrous, Tagouba,
+Ighil Wis et Ait Bourman.
+Dans le second chapitre, nous avons traité les variables morphologiques : ce dernier
+est scindée en deux :
+Le premier volet a englobé les différentes formes et flexions, il a touché
+essentiellement le verbe, les déictiques, les pronoms et les particules. Dans le premier nous
+avons abordé l‘indice de personne (verbes ordinaires, verbes de qualité et l‘impératif) et le
+participe, tous soumis à la variation entre les différents parlers étudiés, excepté les indices de
+personne du verbe d‘état qui sont communs à tous les parlers (pas de distinction entre les
+indices des verbes ordinaires et les verbes d‘état au prétérit). Dans le second, nous avons
+étudié les modalités locatives ou déictiques (proximité et éloignement) que ce soit la forme
+réduite ou la forme étoffée, les déictiques d‘évocation et les modalités d‘altérité (forme
+définie et forme indéfinie). Dans le troisième, nous avons cerné les substituts que ce soit des
+pronoms personnels (autonomes et affixes) ou non personnels (démonstratif et d‘altérité). En
+dernier lieu, nous avons abordé les particules : préverbale, de négation et de rection.
+1) L‘indice de personne
+- La variation du 2ème segment de l‘indice de personne (2ème p. sing.) : t---ṭ, t---t et t---ṯ ;
+- Le phénomène d‘aphérèse touche la 2ème personne et la 3ème personne du singulier,
+masculin et féminin, à l‘aoriste avesc la particule préverbale di: ---t et ---ṯ (2ème p.
+sing.) ; di ---m/---mt (2ème p. pl.) et di --- (3ème p. sing.) (confusion entre le féminin et
+le masculin) ;
+2) La variation des déictiques
+347
+---PAGE 347---
+Conclusion générale
+- Pour ce qui est de l‘allongement du déictique, ça va de –a/ayi/-ayyi jusqu‘à –adaka/-
+adatta en passant par –ayyini /-ayyina,
+- Quant à l‘accord grammatical entre le déictique et le substantif, ces formes sont
+variables en genre et en nombre ou seulement en nombre, dans certains parlers et
+invariables dans d‘autres de la région de l‘est de Béjaia, c‘est le cas de :
+a) La forme –adaka est attestée dans 3 parlers (Aokas, Tizi n Berber et Tamrijt), elle est
+variable en genre et en nombre : ameḥduq-adaka(d) « ce dégourdi-ci » (sing.
+masc.) ; tameḥduqt-adatta(d) « cette dégourdi-ci » (sing. fém.) ; imeḥdaq-idakni(d)
+« ces dégourdis-ci » (pl. masc.) ; timeḥdaq-idakti-d) « ces dégourdies-ci » (pl. fém.).
+b) La forme –a(d) est variable en nombre et invariable en genre; -a pour le singulier, -i
+pour le pluriel. Elle est attestée dans 11 parlers. C‘est ce que nous retenons
+dans : amehbul-a(d) « ce niais-ci » (sing. masc.) ; tamehbult-a(d) « cette niaise-ci »
+(sing.fém.) ; imehbal-i(d) « ces niais-ci » (pl. masc.) ; timehbal-i « ces niaises-ci » (pl.
+fém.)
+c) Les formes -ayi/-ayyi/-ayyina sont invariables dans 16 parlers, c‘est ce que montrent :
+tameṭṭut-ayi/-ayyi/-ayyina « cette femme-ci » (sing. fém.) ; argaz-ayi/-ayyi/-ayyina
+« cet homme-ci » (sing. masc.) ; lxalat-ayi/-ayyi/-ayyina « ces femmes-ci » (pl. fém.) ;
+ulman-ayi/-ayyi/-ayyina«laine brassée » (pl. masc.)
+3) Variation des pronoms affixes régimes directs
+Les pronoms affixes régimes directs des parlers de la région de l‘est de Béjaia se
+distinguent des autres parlers berères dans le fait que :
+a) Contrairement aux pluparts des parlers berbères, les parlers de la région de l‘est de
+Béjaia ne perdent pas l‘élément vocalique du pronom affixe. C‘est le cas de wwin-it/at
+et pas wwin-t « ils l‘ont pris » et même après les verbes à final vocalique, il y a
+l‘apparition du hiatus « y » comme c‘est le cas de iwwi-yim « il t‘a pris » et iwwi-yatt
+et pas yewwi-tt « il l‘a pris »;
+b) Perte de l‘élément consonnantique du pronom affixe régime direct dans les parlers de
+la région de l‘est de Béjaia tout comme le touareg (cf. Basset), contrairement aux
+autres parlers kabyles. C‘est ce que nous retenons dans : iwwi-ya, attesté dans le parler
+de Melbou et pas yewwi-t « il l‘a pris »; iwwi-yin/yan et pas yewwi-ten « il les a pris ».
+348
+---PAGE 348---
+Conclusion générale
+4) La variation des particules
+a) La particule de préverbale : trois formes sont attestées, il s‘agit de : ad/a, di/i et da.
+b) La particule de négation : deux formes se distinguent, la forme discontinue, elle-même
+variable (ur/ul---ara/ula/ani/kra/ka) et la préverbale (atḥa/tḥa/ḥa/xa) ;
+C) La particule d‘orientation spatiale (deux groupes se distinguent)
+- Un groupe qui utilise les deux particules (08/19) : Aokas, Tizi n Berber, S.El.Tennine,
+Tamrijt, Leâlam, Melbou, Ait Segoual et Ighzer Ouftis. Ex. : [ḏ add-it- nǝkkǝs, d a tt-
+nǝzwǝṭ s uzǝwwaṭ]« On la prélève, et on la bat à l‘aide d‘un fouet » et [iwsa -yǝn iṭǝlli
+lǝɛca] « il est venu vers là-bas hier soir» ;
+- Un groupe qui n‘a qu‘une seule particule « d » (11/19), il s‘agit de : Ait Bourman,
+Qelaoun, Ait Merâi, Ijermounen, Taregragt, Bouyman, Ait Mbarek, Ighil Wis, Ait Amrous,
+Tagouba et Ait Bimoun. Ex. [ah-d-nǝkkǝs, a tt-nǝzwi s uɛǝmmuḏ]« on l‘enlève [laine], on
+la secoue en la battant d‘un « aɛemmud ».
+Dans ce volet, nous venons de le discerner clairement, les particularités morphologiques
+des 19 parlers étudiés de la région de l‘est de Béjaia sont très nombreuses en les comparants
+aux autres parlers kabyles et elles concernent certaines catégories plus que d‘autres. D‘un coté,
+certains traits ne sont pas spécifiques aux 19 parlers étudiés par rapport aux autres parlers
+kabyles seulement, mais au niveau de toutes les variétes berbères. C‘est le cas, par exemple,
+de la particule préverbale di, de sa variante da et de la modalité d‘orientation spatiale add.
+D‘un autre coté, les différences des ces parlers avec les autres blocs kabyles (oriental ouest et
+centre, occidental et extrême occidental) concordent avec celles d‘autres parlers berbères
+comme l‘a déjà signalé Nait Zerrad et Berkai. Et particulièrement, pour notre corpus, le
+rapprochement avec le Rifain et le Chaouia pour les indices de personnes (élision du premier
+segment de la 2ème personne (sing. et pl.), avec le Rifain dans la variabilité en nombre du
+deictique de proximité (argaz-ad (sing.)/irgazen-id (pl.) et même avec le Touareg dans la perte
+de l‘élément pronominal « t » du pronom affixe régime direct (3ème personne du pluriel
+(wwin-in et wwin-int/inet) (cf Basset, 1952) et la variabilité en genre et en nombre du
+deictique de proximité.
+Le second volet a traité la morphologie positionnelle qui a pour objectif, l‘étude des
+différentes positions des satellites, particulièrement ceux du syntagme prédicatif verbal
+349
+---PAGE 349---
+Conclusion générale
+(affixes régime direct, affixes régime indirect et la modalité de rection), leurs anticipations et
+déplacement ainsi leurs dédoublements. Dans ce volet, à part le déplacement du pronom
+affixe, régime direct, ce sont des particularités de la région située à l‘est de Béjaia (position et
+dédoublement de la modalité de rection).
+1) La conbinaison des satellites : deux conbinaisons se manifestent, il s‘agit
+essentielement de la position de la modalité d‘orientation spatiale « d »:
+- La combinaison finale : pronom affixe indirect – pronom affixe direct- modalité
+d‘orientation spatiale : elle est minoritaire (5/19) ;
+- La combinaison médiane : pronom affixe indirect - modalité d‘orientation spatiale –
+pronom affixe direct: elle est majoritaire (14/19) ;
+2) L‘anticipations et déplacement des sattelites : Là aussi, deux positions se distinguent
+à voisinage du groupe « relatif, particule préverbale et particule de négation » :
+- Position préposée au verbe, comme la plupart des parlers kabyles, attestée dans
+(12/19). C‘est le cas de l‘exemple suivant : [ifulaḵ-nni a hǝn-nǝǧǧ aḏ rsǝn ḵra
+wwussan bac a hǝn-nǝllǝm] « on laisse reposer les plaquettes en question quelques
+jours pour enfin les torsader »
+- Position postposée au verbe, attestée dans 7 parlers (Ait Merâi, Aokas, Tizi n Berber,
+S.El.Tennine, Tamrijt, Melbou et Ait Segoual). C‘est ce que montre : [ṯimǝqqunin –
+ǝnn ḏi nqǝrḏǝc- int ḏ ifulaḵ] « Ces mottes, on les carde en plaquettes » (les mottes-en
+question, on carde-les c‘est plaquettes).
+3) La duplication de la modalité d‘orientation spatiale : ce phénomène de dédoublement
+est attesté dans 14 parlers de la région étudiée (Qelaoun, Bouyman, Ait Merai, Ijermounen,
+Taregragt, Ait Mbarek, Ighzer Ouftis, Tamrijt, Laâlam, Melbou, Ait Segoual, Souk El
+Tennine, Aokas etTizi n Berber. C‘est le cas de l‘exemple suivant : [i nǝkk ay t-tǝffit-iyi-d
+ṯaduṭ-ǝnn](i nekk ay d-tekfit-iyi-d taduṭ-nn) « c‘est à moi que tu a donné la laine en question ».
+Le dernier chapitre, même s'il n‘est pas détaillé, est consacrée au lexique d‘un champ
+précis, c‘est celui de la préparation de la laine pour tissage. Comme les deux précédentes,
+nous avons abordé, en premier lieux, le lexique, la variation de ce dernier et le recourt à
+l‘emprunt (le xénisme, le prérégrinisme et l‘emprunt intégré) et en deuxième lieux, nous
+350
+---PAGE 350---
+Conclusion générale
+avons analysé les différentes variantes de notre échantillon (40 lexèmes) dans les 19 parlers
+de la région de l‘est de Béjaia. Enfin, pour épauler cette comparaison, nous avons fait recourt
+à quatre dictionnaires :
+1. Deux relevant de la variation intra dialectale, c‘est pour comparer les lexèmes attestés
+dans les parlers étudiés par rapport aux autres parlers kabyles, il s‘agit de :
+- Dallet (J.M) ; 1982 : Dictionnaire kabyle - français ; SELAF, Paris, qui est une
+description d‘un seul parler, celui d‘Ait Mengellat ;
+- Bouamara (K.) ; 2017 : ISSIN WIS SIN, asegzawal n teqbaylit (dictionnaire kabyle –
+kabyle) (deuxième édition) ; L‘ODYSEE, qui est un dictionnaire de variation entre les
+parlers kabyles ;
+2. Deux relevant de la variation inter dialectale, en particulier, les parlers de l‘Aurès et
+les parlers du Maroc central, il s‘agit de :
+- HUGHE (G) ; 1906 : Dictionnaire français – chaouia, Lithographie Adolphe Jourdan,
+Alger, pour les parlers des Aurès ;
+- Taifi(M.) ; 1991: Dictionnaire tamazight – français (parlers du Maroc central) ;
+L‘HARMATTAN-AWAL, Paris.
+Même si notre échantillon est très peut représentatif, même pas un seul champ lexical,
+puisque nous nous somme concentrer sur 40 lexèmes seulement, la variation entre les
+différents parlers étudiés est considérable. C‘est dans cette composante que les ruptures ont
+profondément altéré l‘intercompréhension entre les locuteurs de ces différents parlers étudiés
+en premier lieu et ceux des autres parlers berbères. L‘intercompréhension est bloquée lorsque
+la racine est complètement différente, aléatoire lorsque la racine est la même, la variation est
+seulement d‘ordre phonétique ou morphologique.
+Les résultats d‘analyse de toutes les parties traitées sont interprétés dans des cartes
+géolinguistiques annexées.
+Ces divers éléments évoqués précédemment, nous ont permis de subdiviser la région de
+l‘est de Béjaia, du moins les 19 parlers étudiés, en quatre sous-groupes plus au moins
+homogènes :
+351
+---PAGE 351---
+Conclusion générale
+1 . Les parlers des deux extrémités de la région de l‘est de Béjaia, à savoir Ait Bourman
+et Ait Bimoun ;
+2. Les parlers de la partie Est de cette région : Qelaoun, Ijermounen, Ait
+Merâi,Taregragt, Ait Mbarek et Darguina (Ighzer Ouftis) ;
+3. Les parlers du centre élargie : Tamrijt, Leâlam, Ait Segoual, Melbou, S.El.Tenine e,
+Aokas et Tizi n Berber ;
+4. Enfin la partie Ouest qui contient Ighil Wis, Ait Amrous et Tagouba.
+Les limites de ce modeste travail se résument dans :
+Le fait de ne pas intégrer tous les faits linguistiques qui sont sujet à la variation (même
+au moment où nous finalisons, d‘autres formes à traiter apparaissent et pour lesquelles il nous
+faudrait encore d‘autres enquêtes de terrain, elles peuvent faire le sujet d‘une autre thèse) et
+de ne pas approcher en détail tous les niveaux de la structure linguistique (phonétique,
+morphologique, syntaxique, lexique et sémantique) afin d‘envisager une description
+comparative exhaustive de la région de l‘est de Béjaia ;
+Le nombre restreint de points d‘enquête (19 points), élargir le domaine d'enquête de
+telle sorte à embrasser d'autres parlers qui restent inconnus pour les linguistes berbérisants et
+qui réservent des particularités à tous les niveaux de la structure linguistique.
+La première perspective de ce modeste travail est la réalisation d‘un atlas linguistique
+exhaustif de tous les parlers kabyles de la région de l‘est de Béjaia en premier lieu (en
+commençant par compéter le volet sémantique des lexèmes traités dans les 19 parlers étudiés)
+et de tous les parlers kabyles, compléter et achever les travaux déjà entamés (Basset, Madoui
+et Guerrab). Pour faciliter, sans doute, la tâche de la réalisation de cet atlas linguistique, la
+transcription, puis la disponibilité d‘un corpus au format numérique sont plus que nécessaires.
+La seconde perspective (sans doute le souhait de tous les linguistes berbérisants) est
+celle de la réalisation d‘un atlas linguistique de tous les dialectes berbères. L‘objectif sera de
+mettre en évidence le continuum dialectal et le rapprochement entre les dialectes berbères. Et
+pour faciliter cette réalisation, des travaux de variation interdialectales sont plus que
+nécessaires, des initiatives individuelles ou travaux de groupes (projets et enquêtes de terrain)
+seront une priorité et une urgence.
+352
+---PAGE 352---
+Conclusion générale
+353
+---PAGE 353---
+Conclusion générale
+La bibliographie
+354
+---PAGE 354---
+Conclusion générale
+Les références bibliographiques
+Actes du colloque international « unité et diversité de Tamazight » ; 20-21Avril 1991 : Ouvrage
+collectif, Ghardaïa.
+AIKHENVALD (A.) ; 1988 : A structural and typological classification of berber languages, in
+Progressive Tradition in Africain and Oriental Stadies, Berlin, AkademieVerlag, PP. 36-43.
+AISSOU (O.) ; 2007 : Etude comparée de deux parlers Kabyles (Parler d‘Aokas& parler
+d‘Irjen), mémoire de magister de linguistique amazigh, sous la direction de Kamal NAIT-
+ZERRAD; Université A/Mira de Béjaia.
+AISSOU (O.) ; 2010 : L‘enseignement de la variation linguistique – le cas de Tasahlit -
+L‘enseignement de la langue amazighe au Maroc et en Algérie : pratiques et évaluation, in
+deux rives Europe-Maghreb, n0 6, l‘Harmattan.
+ALLAOUA (M.) ; 1994 : « Variations phonétiques et phonologiques en kabyle », in Etude et
+Documents berbères, N11, PP. 63-76.
+AMEUR (M.) ; 1985 : Description phonologique du parler berbère des Ait-Mguild (Maroc
+central) – éléments de dialectologie phonologique, sous la direction du professeur Salem
+Chaker, Université de Provence Aix-Marseille.
+AMEUR (M.) ; 1990 : A propos de la classification des dialectes berbères, in EDB 7, PP.16-
+35.
+BAL (W.) ; 2004 : La géographie linguistique et l‘Atlas linguistiques de la Wallonie,
+in Séance Mensuelle du 1 0 Avril 2 0 0 4.
+BASSET (A.) et Picard (A.) ; 1948 : Eléments de grammaire berbère (Kabylie-Irjen), Alger.
+BASSET (A.) ; 1929 : La langue berbère ‗‗Morphologie‘‘ Le verbe- étude de thèmes, ERNEST
+Lerons.
+BASSET (A.) ; 1929 : Études de géographie linguistique en Kabylie (I. Sur quelques termes
+concernant le corps humain.), Leroux, Paris.
+BASSET (A.) ; 1936 et 1939 : Atlas linguistique des parlers berbères, Alger (+ Cartes).
+355
+---PAGE 355---
+Conclusion générale
+BASSET (A.) ; 1945 : « Sur la voyelle initiale en berbère », in Revue Africaine, PP. 82-88.
+BASSET (A.) ; 1950 : « L‘anticipation en berbère »,in Mélange William Marçais, Paris,
+PP.17-27.
+BASSET (A.) ; 1952 : La langue berbère, Oxford Université Presse, London.
+BASSET (A.) ; 1959 : Articles de dialectologie berbère ; Librairie Klincksieck, Paris.
+BASSET (R.) ; 1894 : « Etudes sur les dialectes berbères. Paris, Leroux.
+BASSET (R.) ; 1887 : Manuel de langue kabyle (dialecte Zouara).
+BASSET (R.) ; 1890 : Le dialecte de Syouah.
+BASSET (R.) ; 1894 : Etude sur la Zénatia du Mzab, de Ouargla et de Oued Rir', Leroux,
+Paris, (BCA; 12).
+BASSET (R.) ; 1894 : Etude sur la Zénatia de l‘Ouarsenis et du Mzab Central.
+BENJABALLAH (S.) ; 2006 : « Les verbes de qualité en kabyle », in Etudes et
+Documentation Berbères, N 24, p 71-103.
+BENTOLILA (F.) ; 1981 : Grammaire fonctionnelle d‘un parler berbère, Ait Seghrouchen
+d‘Oum Jeniba, SELAF, Paris.
+BENTOLILA (F.) ; 1988 : Les syntagmes verbaux dans différents parlers berbères, la Maison
+des Sciences de l‘Homme, Paris.
+BERKAI( A.) ; 2009 : Quel aménagement de l‘emprunt en amazighe, in Asinag, N03, PP. 97-
+108 .
+BERKAI (A.) ; 2011 : Les spécificités morphosyntaxiques du parler kabyle d‘Aokas, in
+Asinag, N06, PP. 95-114.
+BERKAI (A.) ; 2014 : Essai d‘élaboration d‘un dictionnaire Tasaḥlit (parler d‘Aokas)-
+français, sous la direction du professeur Mohand Akli HADDADOU, Université Mouloud
+Mammeri de Tizi-Ouzou.
+BOUDJELLAL (M.) ; 2015 : Contribution à la géographie linguistique du berbère chaouïa,
+sous la direction du professeur Kamal NAIT ZERRAD, INALCO, CRB.
+356
+---PAGE 356---
+Conclusion générale
+BOUKOUS (A.) 1991: Unité profonde et diversité de surface de la phonologie du tamazight,
+in Unité et diversité de tamazight, tome I, PP. 15-31.
+BOUKOUS (A.) ; 2005 : Un héritage colonial à revisiter : La dialectologie amazighe, in
+STUDI MAGREBINI, vol III, PP.119-129.
+BOULIFA (A.S) ; 1910 : Méthode de langue kabyle, cours de deuxième année, étude
+linguistique et sociologique sur la Kabylie de Djurdjura. Texte Zouaoua suivi d‘un glossaire,
+Alger, Jourdan.
+BOUMALK (A.) ; 2002 : « Variation sémantique en berbère (aspects et implications) », in
+Articles de linguistique berbère, l‘Harmattan, p 153-163.
+BOUOUD (A.) ; 1990 : Grammaire et syntaxe d‘un parler berbère Ait-Sadden (Maroc), sous
+la direction de monsieur le professseur A.Leguil, Institut National des Langues et sivilisations
+Orientales.
+BOYER (H.) ; 2001: Introduction à la sociolinguistique, Paris.
+BRETON (R.) ; 1976 : Géographie des langues, PUF.
+BRETON (R.) ; 1998 : Géographie des langues, CASBAH, Alger.
+CADET (K .) ; 1991 : "De la langue à la langue : ou Tamazight et le paradoxe de la langue
+introuvable. (Éléments pour un examen critique des notions de langue, dialecte et parler)".
+CHAKER (S.); 1983 : Un parler berbère d‘Algérie (Kabylie), Université de Provence ;
+présentée devant l‘université de Paris V le 16 Décembre 1978.
+CHAKER (S.) ; 1984 : Textes en linguistique berbère, Centre National de Recherche
+Scientifique (CNRS), Paris.
+CHAKER (S.) ; 1991a : Manuel de Linguistique Berbère I. BOUCHENE, Alger.
+CHAKER (S.) ; 1991b : « Unité et diversité de la langue berbère », in Unité et Diversité de
+Tamazight, tome 2, PP. 129-142. Ghardaïa: AgrawAdelsan Amazigh.
+CHAKER (S.); 1995: « Dialecte – », in encyclopédieberbère, XV, EDISUD, Paris, PP. 2291-
+2295.
+357
+---PAGE 357---
+Conclusion générale
+CHAKER (S.) et Caubet (D.) ; 1996 : « Quelques remarques préliminaires sur la négation en
+berbère », in La négation en berbère et en arabe maghrébin, l‘Harmattan, Paris, PP. 09-22.
+CHAKER (S.) ; 1998 : Géographie linguistique, in Encyclopédie berbère XX, P 3060.
+CHAKER (S.) ; 2004 : « Kabylie – La langue », in encyclopédie berbère, N26, EDISUD,
+Paris, p 4056-4066.
+CHAKER (S.) ; 2005: Le berbère : De la linguistique descriptive à l‘enseignement de la
+langue maternelle, in Actes du colloque international sur l‘enseignement des langues
+maternelles, pp. 125-136.
+CHOI-JONIN (I.) et DELHAY (C.) ; 1998 : introduction à la méthodologie en linguistique,
+Strasbourg.
+COLIN ; 1935 : « Carte de localisation des parlers », in Atlas Historique, Géographique,
+Economique du Maroc, Paris, Horizon de France.
+DALLET (J.M) ; 1982 : Dictionnaire kabyle - français ; SELAF, Paris.
+DAUZAT (A.) ; 1922 : La géographie linguistique, Paris, édition Flammarion.
+DE SAUSSURE (F.) ; 1994: Cours de linguistique générale, éd ENAG.
+DESTAING (E.) ; 1907 : Etude sur les dialectes berbères des Béni-Snous, Paris.
+DESTAING (E.) ; 1920 : Etude sur le dialecte berbère d‘Ait-Zeghrouchene (Moyen Atlas
+marocain), Paris.
+DONATO (J.) ; 1980 : La variation linguistique ou la langue dans l‘espace, le temps, la
+société et les situations de communication. In Linguistique de français (F.), éd Puf, PP. 281-
+362.
+DUBOIS(J.) et autres ; 1999 : Dictionnaire de linguistique et des sciences du langage, éd
+LAROUSSE,
+DURAND(O.) ; 1991 : « L‘enchevêtrement des parlers berbères », in Revue Sart Oriental
+LXV. N3-4, p 185-194.
+358
+---PAGE 358---
+Conclusion générale
+EL MOUNTASSIR (A.); 200 : « Langage et espace. Les particules d‘orientation –d/-nn en
+berbère (tachelhit) » in Etudes berbère et Chamito-Sémitique. Mélanges offerts à Karl –G.
+Prasse, éditées par Chaker (S.), Paris, Louvain, PP. 129-153.
+EL MOUNTASSIR (A.); 2009 : « Vers une convergence progressive des variétés dialectales
+amazighes », in Asinag, NO 03, PP. 89-96.
+ELUERD (R.) ; 1993 : Pour aborder la linguistique, initiation-information.
+FEUILLET (J.) ; 1988 : Introduction à l‘analyse morphosyntaxique, éd Puf, Paris.
+GADET (F.) ; 2003 : « La Variation » in YaguelloM. Grand livre de la langue française, Paris,
+Seuil, pp. 90-152.
+GALAND (L.) et GALAND-PERNET (P.) ; 1971 : Questionnaire linguistique pour le
+berbère -Vocabulaire et morphosyntaxe – RCP, Paris.
+GALAND (L.) ; 1953 : « La phonétique en dialectologie berbère »; in ORBIS, II, 1, pp. 225-
+233.
+GALAND (L.) ; 1966 : Les pronoms personnels en berbère »; Paris, BSL, I, fasc. 1,
+Klincksieck, pp.286-298.
+GALAND (L.) ; 1987 : « Propositions relatives, Rhématisation et thématisation – L‘exemple
+du berbère », in Mélanges linguistiques offerts à Emile Benveniste, Paris, p 331-355.
+GALAND (L.) ; 1994 : « la négation en berbère », Matériaux arabes et sudarabique,
+GELLAS, nouvelle série, 8, Paris, P. 169-181, in études de linguistique berbère, collection
+linguistique publiée par la société de linguistique de paris, PEETERS, 2002, PP. 175-184.
+GALAND (L.) ; 2002 : « La personne grammaticale en berbère », in Etudes de linguistique
+berbère, PEETERS, LEUVEN-PARIS, PP. 165-173 .
+GENEVOIS (H.) ; 1955 : Ait Mbarek-Notes d‘enquête linguistique sur un village des Beni-
+Smail de Kerrata (Constantine), FDB N 49, Fort National.
+GERMIN (C.) et LEBLANG (R.) ; 1981 : « introduction à la linguistique générale – La
+morphologie », Université de Montréal, Canada.
+GILLIERON (J.) ; 1902-1910 : Atlas linguistique de la France, Paris, Champion.
+359
+---PAGE 359---
+Conclusion générale
+GUERRAB (S.) ; 2013 : « Esquisse d'un Atlas linguistique des parlers kabyles »., in Revue
+des Etudes Berbères. N°9. PP. 383-397 , INALCO.
+GUERRAB (S.) ; 2014 : Analyse dialectométrique des parlers berbères de Kabylie, sous la
+direction du professeur Kamal NAIT ZERRAD, INALCO, CRB.
+GUIDER (M.) ; 2004 : Méthodologie de la recherche, Ellipses Marketing, Paris.
+HADDADOU (M. A.) ; 2007 : Dictionnaire des racines berbères communes, Haut
+Commissariat à l‘Amazighité.
+HASSANI (S.) ; 2008 : Description et comparaison de la variation morphologique entre trois
+parlers berbères (kabyles) : le parler d‘Ait yahia Moussa et deux de Azouza et d‘Aokas ,
+mémoire de magister de linguistique amazigh, sous la direction de Nora TIGZIRI; Université
+Mouloud Mammeri de Tizi-Ouzou.
+HAUGEN (E.); 1962: Schizoglossia and the linguistic norm , in Monograph Series on
+Languages and Linguistics, n° 15. Georgetown U.P., PP. 63-69.
+IDIR (A.) ; 2009 : Description morphosyntaxique d‘un parle r kabyle : LE PARLER
+D‘AKFADOU (région de Bejaia), mémoire de magister de linguistique amazigh, sous la
+direction de Kamal NAIT-ZERRAD; Université A/Mira deBéjaia.
+Journée d‘étude de linguistique berbère ; Samedi le 11 Mars 1989 : ouvrage collectif, La
+Sorbonne.
+KAHLOUCHE (R.) ; 2009 : L‘incidences de l‘arabe et du francais sur le système phonolo-
+gique du berbere (kabyle), In Iles d Imesli, N° 01, Laboratoire d‘Aménagement et
+d‘Enseignement de la Langue Amazighe, Faculte des Lettres et des Langues, Departement de
+Langue et Culture Amazighes, Universite Mouloud Mammeri de Tizi-Ouzou, pp. 21-27.
+KIRECHE (Ou.) ; 2010 : Etude comparative du vocabulaire fondamental entre les parlers de
+Sidi Ali Bounab et Souk El Tenine - Analyse morphologique et sémantique-, mémoire de
+magister de linguistique amazigh, sous la direction de Mohand Akli HADDADOU; Université
+Mouloud Mammeri de Tizi-Ouzou.
+KOSSMANN (M.) ; 1995 : « Les verbes à ‗‗i‘‘ final en Zénète : Etude historique », in Etudes
+et Documents Berbères, N13, Edisud, pp. 99-104.
+360
+---PAGE 360---
+Conclusion générale
+KOSSMANN (M.) ; 1997 : Grammaire du parler berbère de Figuig (Maroc Oriental), Paris-
+Louvain, PEETERS.
+KOSSMANN (M.) ; 2000a : Esquisse grammaticale du rifain oriental, Editions PEETERS,
+Paris-Louvain.
+KOSSMANN (M.) ; 2000b : « Le futur à Ghadamès et l‘origine de la conjugaison verbale en
+berbère », in Chaker S. et Zaborski A. (dir.), Etudes berbères et chamito-sémitiques.
+Mélanges offerts à Karl-G. Prasse, édités par Salem Chaker, Editions PEETERS, Paris-
+Louvain, p. 237-256.
+KOSSMANN(M.) ; 2002 : « La spirantisation dans les parlers zénètes : aperçu historique », in
+Langues du Maroc, P. Bos, M. Kossmann, J. J. De Ruiter [et al.], Tilburg (Pays-Bas, Univ.
+Press, PP.11-19.
+LACEB (M. O) ; 2000 : « Présentation du système phonologique kabyle », in Etudes et
+Documentation Berbères, N 18, p 111-136.
+LACEB (M.) ; 2006: « De quelques corrélation d‘emphase en tamazight », in Etudes et
+Documentation Berbères, N 19-20, pp. 65-85.
+LAFKIOUI (M.) ; 2005 : « La spirantisation dynamique de la vélaire occlusive simple /k/
+dans les varietés berbères du Rif », in Studi Berberie Mediterranei, StudiMagrebini, pp. 219-
+228.
+LAFKIOUI (M.) ; 2006 : « La vocalisation des alvéolaires /r/ et /rr/ dans les variétés berbères
+du Rif ». (V. &. Ibriszimow, Éd.), in Etudes berbères III : le nom, le pronom et autres articles,
+14, pp. 175-184.
+LAFKIOUI (M.) ; 2007 : « Atlas Linguistique des variétés berbères du Rif », in BERBER
+STUDIES volume 16.
+LAFKIOUI (M.) ; 2008 : « Pour la démarche géolinguistique de la standardisation des
+variétés amazighes du Rif », in afrika focus — Volume 21, Nr. 1, pp. 97-102.
+LAOUST (E.) ; 1912 : Etudes sur le dialecte berbère du Chenoua, Paris, Leroux.
+LAOUST (E.) ; 1918 : Etudes sur le dialecte berbère des Ntifa, Paris, Leroux.
+LAOUST (E.) ; 1920 : Coup d‗oeil sur les études dialectales au Maroc, in Bulletin de
+l‗I.H.E.M, Paris.
+361
+---PAGE 361---
+Conclusion générale
+LAOUST. (E.) ; 1927 : Etudes sur le dialecte berbère du Rif , in Hespéris, PP. 173-208.
+LAOUST. (E.) ; 1928 : Cours de berbère marocain- Dialecte du Maroc central, Paris, édition
+Geuthner.
+LEGUIL (A.) ; 1992 : Structures prédicatives en berbère – Bilan et perspectives, l‘Harmattan,
+Paris.
+LOUNISSI (S.) ; 2010 : Etude de géographie linguistique chaoui sur les plans phonético-
+phonologique et lexical, mémoire de magister de linguistique amazigh, sous la direction de
+Nora TIGZIRI; Université Mouloud Mammeri de Tizi-Ouzou.
+LOUBIGNAC ; 1924 : « Etude sur le dialecte berbère des Zaian et Ait Sgougou », Paris.
+LYON (J.); 1970 : « Linguistique générale », Larousse, Paris.
+MADOUI (K.) ; 1994 : Contribution à la géographie linguistique de la petite Kabylie,
+mémoire de magister de linguistique amazigh, sous la direction de CHAKER ; Université de
+Bejaia.
+MALMBERG (B.) ; 1972 : « Les nouvelles tendances de la linguistique », éd Presses
+Universitaires de France.
+MARCELLESI (J. –B.) etGardin (B.) ; 1974 : « Introduction à la sociolinguistique – la
+linguistique sociale », éd Larousse Université.
+MARTINET A.) ; 1967 : Eléments de la linguistique générale, Armand Colin, Paris.
+MARTINET (A.) ; 1970 : Eléments de linguistique générale, Librairie Armand Colin, Paris.
+MARTINET (A.) ; 1975 : « Evolution des langues et reconstruction », éd Presses
+Universitaires de France.
+Mémorial André Basset ; 1957 : Ouvrage collectif, Librairie d‘Amérique et d‘Orient, Paris.
+MERCIER (G.) ; 1896 : Le chaouïa de l'Aurès (dialecte de l'Ahmar-Khadddou), Paris,
+(Bull. Corr. Afric., XVII).
+MERCIER (G.) ; 1900 : "Cinq textes berbères en dialecte chaouïa", Journal Asiatique, P.64.
+MERCIER (G.) ; 1905 : "Les noms des plantes en dialecte chaouïa de l'Aurès", in XVIème
+Congrès International des Orientalistes, Alger, t. 2. 4ème section, p. 79-92.
+METTOUCHI (A.) ; 2000 : « Accompli et négation en kabyle », in Etudes berbère et
+chamito-sémitiques, Peeters, PP. 281-294.
+MOREAU (M.L.) ; 1997 : « Sociolinguistique –Les concepts de base », Paris, Mardaga.
+362
+---PAGE 362---
+Conclusion générale
+NAHALI (DJ.) ; 2005 : Etude comparative de deux parlers berbères d‘Algérie, Ayt Mbarek
+(Kabylie) et Ayt Frah (Aurès) mémoire de magister de linguistique amazigh, sous la direction
+de Malika HMED ZAID ; Université de Bejaia.
+NAIT-ZERRAD (K.) ; 2001 : « esquisse d‘une classification linguistique des parlers
+berbères », in BIBLID [1133-8571] 8-9, PP.389-412.
+NAIT-ZERRAD (K.) ; 2004 : Kabylie – « Dialectologie », in encyclopédie berbère N26,
+EDISUD, Paris, PP. 4067-4070.
+NAIT-ZERRAD(K.) ; 2005a: « Essai d‘analyse dialectométrique appliquée au berbère », in
+StudiBerberieMediterranei, StudiMagrebini, p 229-238.
+NAIT-ZERRAD (K.) ; 2005b: « Le kabyle langue maternelle : variation, standardisation et
+enseignement. » In Langues Maternelles: contacts, variations et enseignement – le cas de la
+langue amazighe, PP. 241-245.
+NAIT-ZERRAD (K.) ; (2001- 2002) : « Esquisse d‘une classification linguistique des parlers
+berbères »in AM 8-9, Université de Francfort,BIBLID, Pp. 389-412.
+PICOCHE (J. ) ; 1992: Structures sémantiques du lexique français, éd. Paul Siblot.
+PENCHOEN (Th. G.) ; 1973 : Etude syntaxique d‘un parler berbère (Ait Frah de l‘Aurès),
+Centro Di StudiMagrebini, Napoli.
+POP (S.) ; 1951 : la dialectologie - un aperçu historique et méthodes d‘enquêtes
+linguistiques :Vol.I - Dialectologie Romane, Ed. Louvain.
+PRASSE (K. G.) ; 2002 : « L‘origine des préfixe d‘état en berbère », in Article de linguistique
+berbère, L‘Haramatta, p 373-390.
+RABEHI (A.) ; 1992 : « Les particules de négation dans la kabylie de l‘Est », in Etudes et
+Documents Berbères, N9, p 139 -145.
+RABEHI (A.) ; 1994 : Description du parler d‘Aokas (Ait Mhend), Algérie, Bejaia.
+Morphosyntaxe, mémoire de magister de linguistique amazigh, sous la direction de Salem
+CHAKER ; Université de Bejaia.
+RABEHI (A.) ; 1996 : « De la négation en berbère : Les données algériennes », in La
+négation en berbère et en arabe Magrebin, p 23-34.
+RENISIO ; 1932: « Etude sur les dialectes berbères des Beni-Iznassen du Rif et des Sanhadje
+de Srair ».
+363
+---PAGE 363---
+Conclusion générale
+RIDOUANE (R.) ; 2008 : L‘inaltération des géminées et laspirantisation », in EDB, N27,
+PP.127-149.
+SADIQI (F.) ; 1997 : Grammaire du berbère, l‘Harmattan, Paris.
+SERVIER (J.) ; 1954 : « Quelques faits d‗intercompréhension dans les parlers berbères
+», in G.L.E.C.S.
+SOUTET (O.) ; 1995: « Linguistique – La diversité des langues- », éd Puf.
+TAIFI (M.) ; 1994 : « Unité et diversité du berbère : Détermination des lieus
+d‘intercompréhension », in Etude et Documents Berbère, N12, p 119-138.
+Textes réunis par Billiez (J.) ; 1998 : « De la didactique des langues à la didactique du
+plurilinguisme », Hommage à Dabène (L.), éd CDL-LIDILEM.
+WILLMS (A.) ; 1980a : « Berabers » in Encyclopédie berbère (éd provisoire), Cahier N27,
+1980 a, P 5.
+WILLMS (A.) ; 1980b : Die dialektale Differenzierung des Berberischen, Berlin, von
+Dietrich, Reimer.
+Source bibliographiques
+AISSOU (O.) ; 2004 : Taynarrayt n Taddart n Ɛeqqar, Ayt Mḥand , mémoire de licence en
+Anthropolohie amazigh, sous la direction de D.Abrous; Université de Bejaia.
+AMIROUCHE (A.) et DERMEL (L.) ; 2016 : Aserwes gar yimqimen n tmeslayt n Leɛlam d
+Ayt Felkay deg usammar n Bgayet, mémoire de licence en linguistique amazigh, sous la
+direction de O. AISSOU ; Université de Bejaia.
+BOUAMARA (K.) ; 2017 : ISSIN WIS SIN, asegzawal n teqbaylit (dictionnaire kabyle –
+kabyle) (deuxième édition) ; L‘ODYSEE.
+HUYGHE (G.) ; 1904 : Dictionnaire kabyle-français, Deuxième Edition, Imprimerie
+Nationale, Paris.
+HUYGHE (G.) ; 1906 : Dictionnaire français – chaouia, Lithographie Adolphe Jourdan,
+Alger.
+HUYGHE(G.) ; 1907 : Dictionnaire chaouia-arabe-kabyle et français, A. Jourdan, Alger.
+364
+---PAGE 364---
+Conclusion générale
+MAHDI (N.) ; 2007 : Asetrer n usegzawal n Huyghe G. (1906) : tafransist-tacawit), mémoire
+de licence en linguistique amazigh, sous la direction de A. RABEHI ; Université de Bejaia.
+MOAD (S.) et MOUHLI (S.) ; 2012 : Aglam n unagraw n umyag n yiwet n tmeslayt taqbaylit
+(Timrijt), mémoire de licence en linguistique amazigh, sous la direction de O. AISSOU ;
+Université de Bejaia.
+OUSSAR (A.) ; 2015 : Aglam n yimqimen udmawanen deg yiwet n tmeslayt taqbaylit
+(Leɛlam), mémoire de licence en linguistique amazigh, sous la direction de O. AISSOU ;
+Université de Bejaia.
+RAHMANI (S.) ; 1934 : Notes ethnographiques et sociologiques sur les Beni-M‘hamed du
+Cap Aokas et les Beni-Amrous, Braham, Constantine.
+SADOUDI (S.) ; 2015 : Aglam n yimqimen irudmawanen deg yiwet n tmeslayt taqbaylit (Ayt
+Segoual), mémoire de licence en linguistique amazigh, sous la direction de O. AISSOU ;
+Université de Bejaia.
+TAHIR (A.) et YAKOUBEN (M.); 2012 : Anagraw n yisem, aglam n tmeslayt taqbaylit –
+tamrijt (tasnalɣa), mémoire de licence en linguistique amazigh, sous la direction de O.
+AISSOU ; Université de Bejaia.
+TAIFI (M.) ; 1991: Dictionnaire tamazight – français (parlers du Maroc central) ;
+L‘HARMATTAN-AWAL, Paris.
+YAHIAOUI (F.) ; 2010 : Anagraw n yisem, aglam n yiwet n tmeslayt taqbaylit (Ait Merɛi),
+mémoire de licence en linguistique amazigh, sous la direction de O. AISSOU ; Université de
+Bejaia.
+Le site internet
+Site d‘internet : http://fr.wikipedia.org/
+365
+---PAGE 365---

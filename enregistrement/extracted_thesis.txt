@@ -1,0 +1,108 @@
+============================================================
+FICHIER 2: FINAL_RV (28).docx (Exemple thèse encadrant)
+============================================================
+Re´publique Alge´rienne De´mocratique et Populaire
+Faculte´ des Sciences Exactes De´partement de Recherche Ope´rationnelle
+Me´moire pre´sente´ pour l’obtention du diploˆme de master
+Spe´cialite´ : Sciences de Donne´es et Aide a` la De´cision
+Reconnaissance vocale des lettres de la langue Amazighe (Kabyle)
+Pre´sente´ par :
+TETAH Ikram BOURNINE Ikram
+Sous la direction de : Mr. A Zaidi et Dr. L Asli
+De´fendu le 03/07/2024, devant le jury compose´ de :
+Remerciments
+En premier lieu, nous remercions ALLAH, le tout puissant, de nous avoir appris ce que nous ignorons, de nous avoir donne´ la sante´ et tout dont nous avons besoin pour l’accomplissement de ce me´moire.
+Nous exprimons notre gratitude envers monsieur Zaidi Ali pour eˆtre a` l’origine de ce the`me de recherche et pour ses conseils pre´cieux, ses encouragements constants et son soutien continu.
+Nous remercions Monsieur Asli Larbi pour ses conseils avise´s, sa disponibilite´, ses encou- ragements et son pre´cieux accompagnement tout au long de ce travail.
+Ce travail a e´te´ mene´ au sein du centre de recherche en langue et culture amazighes. Nous souhaitons exprimer notre respect et notre gratitude envers tous les membres du personnel du centre.
+Nous remercions since`rement toutes les personnes qui ont contribue´ donne´es. Leur aide a e´te´ essentielle a` la re´alisation de ce projet.
+a` notre collecte de
+Nous remercions e´galement tous les enseignants qui ont assure´ notre formation. Leur de´vouement et leurs connaissances ont e´te´ essentiels a` notre parcours. Graˆce a` eux, nous avons pu acque´rir
+les compe´tences ne´cessaires pour mener a` bien ce projet.
+On tient a` remercier les membres du jury pour avoir accepte´ d’e´valuer notre travail.
+On remercie tout particulie`rement nos parents, ainsi que nos fre`res et sœurs, pour leur sou- tien inconditionnel tout au long de ces longues anne´es d’e´tudes.
+A` toutes les personnes qui ont contribue´ de pre`s ou de loin a` l’e´laboration de ce travail, nous disons, MERCI.
+Table des matie`res
+Remerciments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .	I
+TABLE DES MATIE`RES	IV	B
+Re´seaux de neurones re´currents	69
+Fonctionnement d’un RNN	69
+Architectures du RNN	71
+LSTM Bidirectionnel	75
+Conclusion	76
+Imple´mentation & Re´sultats	77
+Introduction	77
+Environnement de de´veloppement	77
+Principes cle´s de l’apprentissage profond	78
+Me´triques d’e´valuation	78
+Pre´paration des donne´es d’entre´e du mode`le	79
+Re´partition des donne´es	80
+Architecture du mode`le	80
+Parame`tres d’apprentissage	83
+Sortie du mode`le	83
+Analyse des re´sultats	84
+Courbes d’entraˆınement et de validation	84
+Matrice de confusion	85
+Courbe ROC	85
+Rapport de classification	87
+Taux de reconnaissance globale	87
+Pre´diction sur les donne´es test	88
+Erreurs de pre´diction	89
+E´valuation du mode`le sur de nouveaux enregistrements	91
+Conclusion	92
+Conclusion ge´ne´rale	93
+Bibliographie	98
+Re´sume´	99
+B
+Table des figures
+Intelligence Artificielle. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .	4
+Turing Test. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .	4
+Domaines d’application de l’IA.  . . . . . . . . . . . . . . . . . . . . . . . . .	5
+Techniques du machine learning [43]. . . . . . . . . . . . . . . . . . . . . . .	7
+Deep learning [27]. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .	8
+Forme d’un re´seau de neurones.	. . . . . . . . . . . . . . . . . . . . . . . . .	9
+Sche´ma de l’appareil phonatoire [51].	12
+Niveaux d’analyse du signal de parole [51].	13
+Principe de fonctionnement [51].	15
+Re´partition Ge´ographique des dialectes amazighs [56].	21
+Re´partition ge´ographique de la kabylie [65].	23
+Lettres spe´cifiques de la langue kabyle.	24
+Tableau des lettres de la langue amazighe [8].	25
+Tableau illustrant les variations du phe´nome`ne d’assimilation [61].	26
+Centre de Recherche en Langue et Culture Amazighes (CRLCA) [10].	27
+Organigramme CRLCA [10].	29
+Exemple de liste illustrant l’utilisation d’un phone`me.	34
+Lieux de collecte.	35
+Dictaphone.	37
+TALN-RV Corpus.	37
+TALN-RV-DATA	38
+Audacity Logo.	38
+Re´partition des personnes par tranche d’aˆge.	39
+Re´partition des personnes par sexe.	39
+Zones ge´ographiques.	40
+E´limination du bruit.	41
+Fichier de type wav apre´s la re´duction du bruit.	41
+Segmentation des enregistrements vocaux.	42
+Festival.	43
+Ve´rification de l’installation de Festival.	43
+Liste des voix.	44
+La se´lection d’une voix.	44
+Le texte a` lire.	45
+Extraction des donne´es.	46
+TALN.csv	46
+TABLE DES FIGURES	VI	B
+Dossier wav	47
+Dataset vocale phone`me.	48
+Avant & Apre´s Re´e´chantillonnage	52
+Avant & Apre´s Normalisation	54
+Avant & Apre´s Re´duction du bruit.	57
+SNR & MSE.	59
+De´composition du signal en trames dans le domaine temporel	60
+Feneˆtre de Hamming	60
+De´composition du signal en trames dans le domaine fre´quentiel	61
+Banc de filtres de Mel.	61
+Comparaison dynamique.	63
+Repre´sentation d’un phone`me.	63
+Approches du SVM [19].	64
+Neurone biologique.	64
+Neurone artificiel.	65

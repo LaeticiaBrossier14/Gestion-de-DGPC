@@ -1,0 +1,124 @@
+Nombre de slides: 12
+
+============================================================
+=== SLIDE 1 ===
+============================================================
+  TEXT: MINISTERE DE L’ECONOMIE DE LA CONNAISSANCE, DES STARTUPS ET DES MICRO-ENTREPRISES
+  TEXT: اسم الشركة 
+قطاع المشروع
+  TEXT: علامة و شعار الشركة
+
+============================================================
+=== SLIDE 2 ===
+============================================================
+  TEXT: تحديد المهمة
+  TEXT: حدد  بوضوح مهمة مؤسستك على المدى الطويل و المتوسط من حيث:
+السوق المستهدف 
+وسائل الإنتاج الضرورية للمشروع 
+عدد مناصب الشغل التي سيتم استحداثها .
+  TEXT: حاول استخدام المصطلحات التي ستدعم نمو مؤسستك وتكون موجزة قدر الإمكان.
+
+============================================================
+=== SLIDE 3 ===
+============================================================
+  TEXT: فريق العمل
+  TEXT: حدد المسير و المساعدين.
+اذكر أيضًا الإنجازات السابقة لإظهار أن هؤلاء الأشخاص قد حققوا بالفعل العديد من النجاحات.
+لخص خبرتك في هذا المجال.
+  TEXT: لا تستهن بخبرتك المهنية مهما كانت بسيطة
+
+============================================================
+=== SLIDE 4 ===
+============================================================
+  TEXT: لخص وضع السوق في الماضي والحاضر والمستقبل.
+افحص التغييرات في حصة السوق من حيث الفاعلين و كذا تحولات السوق من حيث التكاليف أو الأسعار أو المنافسة لأنها قد تساهم في نجاح عملك .
+  TEXT: ملخص السوق
+:
+
+============================================================
+=== SLIDE 5 ===
+============================================================
+  TEXT: المفهوم التجاري للمنتج
+  TEXT: لخص التكنولوجيا أو المفهوم أو الاستراتيجية الرئيسية التي يقوم عليها عملك.
+  TEXT: لا تتردد في وضع فيديو او صور للمنتج
+
+============================================================
+=== SLIDE 6 ===
+============================================================
+  TEXT: Agir pour que l’entrepreneuriat soit un moyen de développement local 
+
+Accompagner l’émergence d’un cadre plus favorable à l’initiative économique, pour tous et dans l’ensemble du territoire ;  
+Soutenir, en lien avec les partenaires, les entrepreneurs dans le cadre du programme du développement de la chaine de valeur et la sous-traitance.
+  TEXT: المنافسة
+  TEXT: لخص طبيعة المنافسة.
+قدم نظرة للميزة التنافسية لمنتوجك
+  TEXT: لا تتردد في وضع فيديو او صور للمنتج
+
+============================================================
+=== SLIDE 7 ===
+============================================================
+  TEXT: Agir pour que l’entrepreneuriat soit un moyen de développement local
+  TEXT: الأهداف
+  TEXT: حدد أهداف مشروعك (رقمي).
+قدم نظرة حول كيفية الوصول لهذا الهدف.
+
+============================================================
+=== SLIDE 8 ===
+============================================================
+  TEXT: Agir pour que l’entrepreneuriat soit un moyen de développement local 
+
+Accompagner l’émergence d’un cadre plus favorable à l’initiative économique, pour tous et dans l’ensemble du territoire ;  
+Soutenir, en lien avec les partenaires, les entrepreneurs dans le cadre du programme du développement de la chaine de valeur et la sous-traitance.
+  TEXT: الخطة المالية
+  TEXT: قدم نظرة عامة على الخطة المالية التي يعتمد عليها نموذجك المالي وافتراضات التسعير.
+يجب أن تتضمن هذه الخطة المبيعات السنوية المتوقعة وأرقام الأرباح للسنوات الثلاث القادمة.
+استخدم شرائح متعددة لتغطية هذا الموضوع بشكل مناسب..
+
+============================================================
+=== SLIDE 9 ===
+============================================================
+  TEXT: Agir pour que l’entrepreneuriat soit un moyen de développement local 
+
+Accompagner l’émergence d’un cadre plus favorable à l’initiative économique, pour tous et dans l’ensemble du territoire ;  
+Soutenir, en lien avec les partenaires, les entrepreneurs dans le cadre du programme du développement de la chaine de valeur et la sous-traitance.
+  TEXT: الاحتياجات من الموارد
+  TEXT: ضع قائمة بالمتطلبات الخاصة بالموارد التالية كما و نوعا الخاص بالموارد التالية:
+طاقم عمل
+أخبار التكنولوجيا
+تمويل
+توزيع
+ترقية
+منتجات
+خدمات
+
+============================================================
+=== SLIDE 10 ===
+============================================================
+  TEXT: Agir pour que l’entrepreneuriat soit un moyen de développement local 
+
+Accompagner l’émergence d’un cadre plus favorable à l’initiative économique, pour tous et dans l’ensemble du territoire ;  
+Soutenir, en lien avec les partenaires, les entrepreneurs dans le cadre du programme du développement de la chaine de valeur et la sous-traitance.
+  TEXT: المخاطر والأرباح
+  TEXT: لخص المخاطر المرتبطة بالمشروع المقترح والنهج الذي يجب اتباعه.
+قم بتقدير الأرباح المتوقعة ، خاصة إذا كنت تبحث عن تمويل.
+
+============================================================
+=== SLIDE 11 ===
+============================================================
+  TEXT: Agir pour que l’entrepreneuriat soit un moyen de développement local 
+
+Accompagner l’émergence d’un cadre plus favorable à l’initiative économique, pour tous et dans l’ensemble du territoire ;  
+Soutenir, en lien avec les partenaires, les entrepreneurs dans le cadre du programme du développement de la chaine de valeur et la sous-traitance.
+  TEXT: العناصر المفتاحية
+  TEXT: على المدى القصير:
+حدد القرارات والقضايا الرئيسية التي تتطلب حلًا فوريًا أو في المدى القصير.
+اذكر عواقب التأجيل المحتمل للقرار.
+على المدى طويل:
+حدد المشكلات التي تتطلب حلًا طويل المدى.
+اذكر عواقب التأجيل المحتمل للقرار.
+  TEXT: إذا كنت ترغب في الحصول على تمويل ، اشرح بدقة الصعوبات التي يتطلب حلها موارد مالية.
+
+============================================================
+=== SLIDE 12 ===
+============================================================
+  TEXT: شكرا على الانتباه
