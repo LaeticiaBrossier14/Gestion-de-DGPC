@@ -1,0 +1,24 @@
+{
+  "CALL_0208_Appe": {
+    "status": "skipped",
+    "corrected_transcription": "",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "request_help",
+      "urgency_human": "high",
+      "injury_severity": "severe",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "Ighzer Ouzarif",
+      "location_description": "2550 logements, le bloc 20, appartement 4, cité l'social uksar (partie basse)",
+      "summary": "Demande d'assistance médicale pour une patiente cancéreuse souffrant de fortes douleurs à l'estomac à la cité 2550 logements d'Ighzer Ouzarif.",
+      "notes_cot": "L'appelant mentionne 'cancéreuse' et 't-7ra-as l'ma3da-as' (brûlures/douleurs à l'estomac), ce qui qualifie l'incident de 'medical_emergency'. Le lieu est précisé comme 'Ighzer Ouzarif' dans les '2550 logements' (logements sociaux, partie basse 'uksar'). L'urgence est haute car il s'agit d'une détresse liée au cancer."
+    },
+    "timestamp": "2026-03-03T23:17:46.360372"
+  }
+}
