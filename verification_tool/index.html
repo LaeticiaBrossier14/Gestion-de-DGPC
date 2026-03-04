@@ -827,6 +827,44 @@
             background: #4f46e5;
             box-shadow: 0 0 20px var(--accent-glow);
         }
+
+        /* ── Reload Button ── */
+        .reload-btn {
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            border: 1px solid #22d3ee;
+            background: transparent;
+            color: #22d3ee;
+            font-size: 11px;
+            font-weight: 600;
+            cursor: pointer;
+            font-family: inherit;
+            transition: all .2s;
+            width: 100%;
+        }
+
+        .reload-btn:hover {
+            background: rgba(34, 211, 238, .1);
+            box-shadow: 0 0 12px rgba(34, 211, 238, .2);
+        }
+
+        .reload-btn.loading {
+            opacity: .6;
+            cursor: not-allowed;
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: .6;
+            }
+
+            50% {
+                opacity: 1;
+            }
+        }
     </style>
 </head>
 
@@ -854,7 +892,7 @@
         <div class="sidebar">
             <div class="sidebar-header">
                 <h1>🎧 Vérification Transcription</h1>
-                <div class="subtitle">500annotations_local.csv — DGPC Béjaïa</div>
+                <div class="subtitle" id="sourceSubtitle">🤝 Mode Collaboratif — DGPC Béjaïa</div>
             </div>
             <div class="progress-section">
                 <div class="progress-bar-container">
@@ -879,8 +917,15 @@
                     oninput="renderCallList()">
             </div>
             <div class="call-list" id="callList"></div>
-            <div style="padding:12px 20px; border-top:1px solid var(--border)">
+            <div
+                style="padding:12px 20px; border-top:1px solid var(--border); display:flex; flex-direction:column; gap:8px">
                 <button class="export-btn" onclick="exportCSV()">📥 Exporter CSV vérifié</button>
+                <button class="reload-btn" id="reloadBtn" onclick="reloadData()"
+                    title="À utiliser après git pull pour voir les nouvelles annotations de ta binôme">
+                    🔄 Recharger (après git pull)
+                </button>
+                <div id="reloadStatus" style="font-size:10px; color:var(--text-muted); text-align:center; display:none">
+                </div>
             </div>
         </div>
 
@@ -1293,6 +1338,48 @@
         }
 
         function exportCSV() { window.location.href = '/api/export'; showToast('📥 Export en cours...', 'info'); }
+
+        // ── Reload after git pull ──
+        async function reloadData() {
+            const btn = document.getElementById('reloadBtn');
+            const statusDiv = document.getElementById('reloadStatus');
+            btn.classList.add('loading');
+            btn.textContent = '⏳ Rechargement...';
+            btn.disabled = true;
+            statusDiv.style.display = 'none';
+
+            try {
+                const res = await fetch('/api/reload', { method: 'POST' });
+                const data = await res.json();
+
+                // Reload all calls and stats
+                await loadCalls();
+                await loadStats();
+                renderCallList();
+
+                // Update subtitle with source info
+                const srcRes = await fetch('/api/sources');
+                const srcData = await srcRes.json();
+                const activeSources = srcData.csv_sources.filter(s => s.exists).map(s => s.name);
+                document.getElementById('sourceSubtitle').textContent =
+                    `🤝 ${activeSources.join(' + ')} (${data.total} appels)`;
+
+                statusDiv.textContent = `✅ ${data.total} appels chargés`;
+                statusDiv.style.color = 'var(--green)';
+                statusDiv.style.display = 'block';
+                showToast(`🔄 ${data.message}`, 'success');
+            } catch (err) {
+                statusDiv.textContent = '❌ Erreur de rechargement';
+                statusDiv.style.color = 'var(--red)';
+                statusDiv.style.display = 'block';
+                showToast('❌ Erreur lors du rechargement', 'info');
+            } finally {
+                btn.classList.remove('loading');
+                btn.textContent = '🔄 Recharger (après git pull)';
+                btn.disabled = false;
+                setTimeout(() => { statusDiv.style.display = 'none'; }, 4000);
+            }
+        }
 
         // ── Keyboard shortcuts ──
         document.addEventListener('keydown', (e) => {
