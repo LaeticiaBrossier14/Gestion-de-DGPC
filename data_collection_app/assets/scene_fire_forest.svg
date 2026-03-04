@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 130">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#451a03"/><stop offset="50%" stop-color="#78350f"/><stop offset="100%" stop-color="#92400e"/></linearGradient>
+  <linearGradient id="fireG" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#dc2626"/><stop offset="50%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#fef3c7" stop-opacity="0.6"/></linearGradient>
+  <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#365314"/><stop offset="100%" stop-color="#1a2e05"/></linearGradient>
+</defs>
+<rect width="400" height="130" fill="url(#sky)"/>
+<!-- Mountains -->
+<path d="M0,70 L40,35 L80,55 L130,25 L180,50 L220,30 L270,55 L320,20 L360,45 L400,30 L400,130 L0,130Z" fill="#1a2e05" opacity="0.5"/>
+<!-- Ground -->
+<rect x="0" y="95" width="400" height="35" fill="url(#ground)"/>
+<!-- Trees (healthy, background) -->
+<g opacity="0.3">
+  <polygon points="300,55 310,95 290,95" fill="#166534"/>
+  <polygon points="340,50 352,95 328,95" fill="#166534"/>
+  <polygon points="370,60 380,95 360,95" fill="#166534"/>
+</g>
+<!-- Burning trees -->
+<g transform="translate(60,30)">
+  <rect x="8" y="40" width="5" height="25" fill="#78350f"/>
+  <polygon points="10,10 22,45 -2,45" fill="#dc2626" opacity="0.7"/>
+  <polygon points="10,0 18,30 2,30" fill="#f59e0b" opacity="0.8"/>
+  <polygon points="10,-5 14,15 6,15" fill="#fef3c7" opacity="0.5"/>
+</g>
+<g transform="translate(100,25)">
+  <rect x="9" y="42" width="6" height="28" fill="#78350f"/>
+  <polygon points="12,8 26,48 -2,48" fill="#dc2626" opacity="0.8"/>
+  <polygon points="12,-2 22,32 2,32" fill="#f59e0b" opacity="0.7"/>
+  <polygon points="12,-6 16,18 8,18" fill="#fef3c7" opacity="0.5"/>
+</g>
+<g transform="translate(145,28)">
+  <rect x="7" y="38" width="5" height="24" fill="#78350f"/>
+  <polygon points="9,5 20,42 -2,42" fill="#dc2626" opacity="0.75"/>
+  <polygon points="9,-3 17,28 1,28" fill="#f59e0b" opacity="0.7"/>
+</g>
+<g transform="translate(185,32)">
+  <rect x="8" y="36" width="5" height="22" fill="#78350f"/>
+  <polygon points="10,8 20,40 0,40" fill="#dc2626" opacity="0.7"/>
+  <polygon points="10,0 17,26 3,26" fill="#f59e0b" opacity="0.65"/>
+</g>
+<g transform="translate(220,26)">
+  <rect x="9" y="40" width="6" height="26" fill="#78350f"/>
+  <polygon points="12,6 24,44 0,44" fill="#dc2626" opacity="0.75"/>
+  <polygon points="12,-4 20,30 4,30" fill="#f59e0b" opacity="0.7"/>
+  <polygon points="12,-8 16,16 8,16" fill="#fef3c7" opacity="0.4"/>
+</g>
+<!-- Smoke -->
+<ellipse cx="100" cy="15" rx="35" ry="14" fill="#1c1917" opacity="0.5"/>
+<ellipse cx="160" cy="8" rx="40" ry="12" fill="#292524" opacity="0.4"/>
+<ellipse cx="200" cy="18" rx="30" ry="10" fill="#1c1917" opacity="0.35"/>
+<ellipse cx="80" cy="5" rx="25" ry="8" fill="#292524" opacity="0.3"/>
+<!-- Helicopter -->
+<g transform="translate(310,18)">
+  <ellipse cx="0" cy="0" rx="12" ry="5" fill="#374151"/>
+  <rect x="-4" y="-2" width="8" height="4" rx="1" fill="#4b5563"/>
+  <rect x="8" y="-1" width="14" height="2" rx="1" fill="#374151"/>
+  <line x1="-18" y1="-5" x2="18" y2="-5" stroke="#6b7280" stroke-width="1"/>
+  <ellipse cx="0" cy="-5.5" rx="18" ry="1.5" fill="#6b7280" opacity="0.3"/>
+  <!-- Water drop -->
+  <path d="M-2,6 Q0,14 2,6" fill="#3b82f6" opacity="0.5"/>
+</g>
+<!-- Embers floating -->
+<circle cx="80" cy="25" r="1" fill="#fbbf24" opacity="0.6"/>
+<circle cx="130" cy="18" r="1.2" fill="#f59e0b" opacity="0.5"/>
+<circle cx="200" cy="12" r="0.8" fill="#fbbf24" opacity="0.7"/>
+<circle cx="170" cy="22" r="1" fill="#ef4444" opacity="0.4"/>
+<circle cx="250" cy="28" r="0.9" fill="#fbbf24" opacity="0.5"/>
+</svg>

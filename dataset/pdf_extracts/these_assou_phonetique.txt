@@ -1,0 +1,2553 @@
+Partie II : Etudes des parlers kabyles de l’est de Béjaia
+Introduction de la partie
+Dans cette partie consacrée à l‘étude des parlers kabyles de l‘est de Béjaiai, nous
+allons aborder la situation linguistique des 19 parlers choisis, situés dans la région dite
+Tasahlit. Il s‘agit en fait, d‘une description comparative de ces différents parlers par rapport à
+la situation linguistique des autres parlers berbères (supports théoriques) avant d‘aborder une
+comparaison interne aux parlers étudiés.
+Cette comparaison va toucher trois niveaux de la structure linguistique, à savoir la
+phonétique (articulatoire et combinatoire), la morphologie ainsi la morphologie positionnelle
+et enfin le lexique lié à la préparation de la laine pour tissage.
+109
+---PAGE 109---
+Chapitre 1 : Les variables phonétiques
+Introduction
+Une étude phonétique est souvent associée à celle de la phonologie. Elles partagent
+toutes les deux le même objectif, qui est l‘étude des sons du langage humain, par opposition à
+la communication animale.
+L‘objectif de ce chapitre est de décrire les sons des dix-neuf (19) parlers étudiés et de
+dégager leurs particularités phonétiques en premier lieu, de détecter les similitudes et les
+divergences entre ces parlers et les autres parlers kabyles et berbères en deuxième lieu. Ce
+chapitre ne peut être approfondi étant donné qu‘il s‘agit d‘une sélection de quelques traits
+phonétiques, précisément quatorze (14) choisis au préalable, neuf (09) éléments de la
+phonétique articulatoire et cinq (05) éléments de la phonétique combinatoire, les voici :
+1. Spirantisation – affaiblissement /ṯ/ ---/h/ et son effacement ;
+2. La spirantisation de la palatale sourde /k/ et son passage à /c/, /č/ puis /ǧ / ;
+3. La spirantisation de la palatale sonore /g/ et son passage à /c/ ;
+4. La sourdité de l‘emphatique /ḍ/ et son passage à /ṭ/ ;
+5. Le passage de l‘uvulaire sourde/q/ à /x/ ;
+6. L‘affriction de la dentale sourde/t/--[ţ] ;
+7. Traitement de labiovélarisation : présence-absence ;
+8. Le maintien de la semi-voyelle tendue ww -ggw ;
+9. Vocalisation de la semi-voyelle, pour représenter la phonétique articulatoire.
+10 Contact des voyelles (chute ou adjonction de la semi-voyelle) ;
+11. L‘assimilation (monématique et dans la chaine) ;
+12. Appophonie ou alternance vocalique ;
+13. Chute ou adjonction d‘un phonème en position finale ;
+14. La métathèse et l‘interversion, pour déceler des divergences d‘ordre phonétique
+combinatoire.
+110
+---PAGE 110---
+Chapitre 1 : Les variables phonétiques
+Nous nous contenterons d‘une présentation des traits phonétiques cités ci-dessus, à
+savoir l‘articulation et la combinaison des consonnes choisies, leurs distribution dans les
+localités représentant la région de l‘est de Béjaia, et enfin, dégager les frontières
+géolinguistiques ou isoglosses linguistiques subdivisant cette région.
+1. La phonétique articulatoire
+Notre intérêt ici est de nous pencher seulement sur le système consonantique, que nous
+détaillerons par la suite : nous décrirons seulement le parcours des consonnes citées ci-
+dessus.
+Les consonnes forment un système clos et complexe, ses unités sont dégagées par le
+biais du test de commutation Sadiqi (1997 : 32). Leur identification est basée sur leurs
+caractéristiques articulatoires. Ce système consonantique diffère d‘un parler l‘autre, il peut
+être réduit ou étoffé. Le degré de différentiation entre les parlers est très élevé, le processus
+d‘évolution phonétique n‘est pas le même dans tous les parlers, il peut être total comme c‘est
+le cas de la dentale /t/ ; de l‘occlusive[t] jusqu‘à l‘élision ϕ et de la palatale/k/ ; de l‘occlusive
+[k] à la spirante [ḵ] à la chuintante [c] à l‘affriquée [č] puis à la semi-voyelle /y/ et enfin à la
+voyelle /i/. Ce processus évolutif peut aussi être partiel, de simple spirantisation (changement
+de mode d‘articulation) ou d‘affaiblissement (changement de lieu d‘articulation). Parfois, les
+évolutions phonétiques sont spécifiques aux parlers. A ce propos, Taifi (1991 : 123) explique :
+«Les changements phonétiques constituent sans doute les ruptures les plus
+béantes qui altèrent le modèle abstrait. Chaque parler et chaque supra-système
+berbère connaît des évolutions propres qui modifient les formes de mot au point
+qu'il est parfois impossible de les identifier et d'en rétablir les racines. »
+1.1. La spirantisation
+La caractéristique de spirantisation touche généralement la labiale sonore non-nasale /b/,
+les apico-dentales sourde /t/ et sonore /d/, sans oublier la dentale pharyngalisée /ṭ/, les
+palatales sourde /k/ et sonore /g/. Elle est quasi-systématique pour les non- tendues Rabehi
+(1994 :15).
+111
+---PAGE 111---
+Chapitre 1 : Les variables phonétiques
+/ḇ/ : [aγǝrḇal] « tamis » ; [iḥḇǝs] « il s‘est arrêté » ; [ḇla]« sans »; [lḇǝrṭa] « la
+boue ».
+/ṯ/ : [ṯisliṯ] « belle fille, bru » ; [lwǝqṯ] « temps, époque » ; [lxalaṯ] «femmes »
+/ḏ/ : [ḏǝg] « dans » ; [ṯamǝḥḏuqṯ] « normale, dégourdie » ; [ḏ] « Auxiliaire de
+prédication ».
+/ḵ/ : [ḵra] « quelque »; [acriḵ] « l‘associé », [amǝḵ] « comment »;
+[lmaḵla]« nourriture ».
+/ǥ/ : [ṯiǥǝrṯ] « champ» ; [tamǝǥra]« moisson » ; [ṯaǥrurṯ]« figuier »
+Dans les parlers de la région de l‘est de Béjaia, champ de cette étude, il y a des
+exceptions à cette règle de spirantisation des non-tendues, parmi ces cas de figure, il y a :
+- /t/ non tendue occlusive dans l‘indice de personne : (2éme segment de la 2éme personne
+du singulier). C‘est le cas de : /ṯ –t/ : [ṯǝkkafǝt] «tu donnes habituellement », [ṯǝwwit]
+« tu as pris » ;
+- /d/ non tendue occlusive quand elle est précédée de /l/, /m/, /n/, /s/, /z/ et /ẓ/,
+/l/ - /d/ : [ldi] « ouvrir » ;
+/m/ -/d/: [ṯamda] « lac»;
+/n/ -/d/: [ṯǝndǝm] «elle regretta» ; nndama « le regret» ;
+/z -/d/ : [zdǝm] « défricher» ; zdari «mettre à l‘abri» ;
+/d/ de la particule d‘orientation spatiale : tusa-yed « elle est venue » ;
+/t/ non tendue occlusive quand elle est précédée de /l/, /m/, /n/, /s/, /z/.
+/l/ - /t/ : [ṯiγilt] « flanc haut, versant » ;
+/m/ - /t/ : [ḵunǝmti] « vous » 2ème personne du pluriel féminin ;
+/n/ -/t/ : [nuhǝnti] « elles » 3ème personne du pluriel féminin ;
+/s/ -/t/ : [ṯǝstaf] « elle avait du temps » ;
+/z/ -/t/ : [ṯaḇǝztuḥṯ] « petite ».
+112
+---PAGE 112---
+Chapitre 1 : Les variables phonétiques
+Notre intérêt particulier ici sera :
+La spirantisation de la dentale sourde /t/, son passage à /h /, puis son effacement ;
+La spirantisation de la palatale sourde /k/, son passage à /c/, /č/, puis /ǧ/ ;
+La spirantisation de la palatale sonore /g/ et son passage à /y/.
+1.1.1. La spirantisation de la dentale sourde /t/
+Comme nous l‘avons signalé ci-dessus, la spirantisation est un phénomène
+d‘affaiblissement des occlusives, parfois, très repoussée dans les parlers de la région de l‘est
+de Béjaia ; c‘est le cas de la dentale sourde /t/, car elle ne change pas seulement le mode
+d‘articulation ([t] → [ṯ]) dans la catégorie des substantifs, mais aussi le lieu d‘articution ([ṯ]
+→ /h/) dans la catégorie des substituts autonomes, avant qu‘elle ne s‘efface complètement
+dans la catégorie des substituts affixes Aissou (2007 : 29).
+De son coté, Basset (1952 : 23), a expliqué le processus de la spirantisation et
+particulièrement le parcours évolutif de la dentale sourde /t /en disant : «Dans les parlers à
+tendance spirantisante de la dentale, ce t bref, s‘il n‘est pas conditionné, devient ṯ et
+régionalement même passe à h et même à zéro ».
+Dans son ouvrage consacré à la description des variétés du Rif, Lafkioui (2007 : 38),
+quant à elle, parle de deux concepts distinctifs, celui de la spirantisation synchronique
+(statique ou stable qui a une pertinence marginale) et celui de la spirantisation dynamique
+qui correspond aux processus évolutifs aboutissant à un moment donnée à des stades
+différents, plus au moins avancés selon les régions, c‘est le cas de l‘interdentale fricative /t/
+qui devient glottale fricative /h/ et enfin s‘efface définitivement /ϕ/. A ce propos, Lafkioui
+(2007 : 57) explique : « La spirantisation dynamique de l‘interdentale fricative /t/ [θ] est
+généralement réalisée par affaiblissement jusqu‘à sa disparition ».
+Cet auteur affirme aussi que ce parcours évolutif de l‘interdentale fricative n‘est pas
+une spécificité d‘un seul dialecte ou d‘une sous-variété. A ce propos, Lafkioui (2007 : 57) dit :
+113
+---PAGE 113---
+Chapitre 1 : Les variables phonétiques
+« L‘affaiblissement de /t/ en /h/vet /ϕ/est attesté dans d‘autres variétés du berbère dont le
+tachawit témoigne d‘une régularité considérable ».
+Par ailleurs, Lounissi, dans son mémoire de magistère consacré à l‘étude de la
+variation linguistique des parlers chaouis sur le plan phonético-phonologique et lexical, parle
+aussi de ce phénomène de spirantisation-affaiblissement-élision de l‘interdentale fricative ;
+mais pour lui, ce parcours évolutif de l‘interdentale fricative est spécifique à la marque du
+féminin, s‘agissant du segment préfixe (t−) se trouvant à l‘initial du nom féminin. A ce propos,
+Lounissi dit (2010 : 68) :
+« A l‘initiale, l‘affaiblissement peut même aboutir à la disparition pure et simple
+de la marque du féminin selon le schéma : /t/ - /ṯ/ - /h/ -φ »
+1.1.1.1. Changement de mode d’articulation (spirantisation) : [t] → [ṯ]
+Le phénomène de spirantisation de la dentale sourde n‘est pas une spécificité régionale
+intradialectale, mais, en terme géolinguistique généralisé à tous les parlers berbères du Nord,
+par opposition au dialecte Touareg du Sud. Parmi les parlers berbères du Nord étudiés, nous
+citons en exemple, le parler d‘Irjen Chaker (1978), le parler d‘Aokas Rabehi (1994),
+d‘Akfadou Idir (2009) et récemment pour l‘ensemble des parlers du dialecte Kabyle Guerrab
+(2014), l‘ensemble des parlers du dialecte Chaouia Boudjellal(2015), le parler d‘Ait
+Seghrouchen (1981), le Rifain Oriental Kossmann (2000) et l‘ensemble des parlers Rifains
+Lafkioui (2007).
+Le phénomène de spirantisation est représenté dans toutes les catégories morphologiques, à
+savoir le nom, le verbe et le substitut.
+1.1.1.1.1 La classe du nom
+C‘est le morphème du genre, il oppose la forme marquée du nom au féminin (ṯ---ṯ; ṯ---;
+---ṯ), à la forme non marquée du nom au masculin.
+[ṯiγilt] «flanc, versant» ; [ṯisliṯ] «belle-fille, bru, fiancée» ; [ṯala] «fontaine » ;
+114
+---PAGE 114---
+Chapitre 1 : Les variables phonétiques
+[ṯaḍut] et [dufṯ] dans le parler de Qelaoun pour «laine» (cf annexe 2, texte 1.3).
+1.1.1.2 La classe du verbe
+Le phénomène de spirantisation est représenté dans la classe verbale par l‘indice de
+personne, connu aussi sous le nom de indice-sujet Penchoen (1973 : 08), parce qu‘il assure
+par son acccord en nombre et en genre le rapport du nom avec la prédicat verbal. Il concerne
+particulèrement le préfixe de la 2ème et la 3ème personne, sous tous les aspects (exception faite
+pour l‘Aoriste avec particule préverbale ―di‖ ou ―i‖ et sans autres périphériques), que nous
+allons développer dans l‘évolution phonétique finale de la dentale sourde /t/. Ce phénomène
+est attesté dans tous les 19 parlers étudiés de la région de l‘est de Béjaia ; ce qu‘expliquent les
+exemples suivants :
+[alama ṯrǝg](annexe 2, texte1.13/1.14/1.15), attesté dans les parlers Aokas, Tizi n berber
+et Souk El Tennine ; [alamma/ alma ṯǝrǥa]«jusqu‘à ce qu‘elle soit propre» (annexe 2, texte
+1.10/1.11/1.12), attesté dans les parlers d‘Ait Segoual, Melbou et Laâlam;
+[ḏi mǝccǝṭ ṯfǝssi] « elle peigne en démêlant » (annexe 2, texte 1.8), attesté dans le
+parler d‘Ighzer Ouftis ;
+[ḏ‘ add-u-ṯawit/ ḏ‘ add-i-ṯawit] «tu vas le ramener vers ici», attesté respéctivement dans
+les parlers de Taregragt, Bouyman, Ait Mbarek, Ighzer Ouftis, Aokas et Tizi n Berber.
+1.1.1.3 La classe des substituts
+Le changement de mode d‘articulation de la dentale sourde /t/(la spirantisation), est
+attesté aussi dans les deux catégories de la classe des substituts : substituts personnels et
+substituts non personnels.
+1.1.1.3.1. Les substituts personnels
+Le phénomène de spirantisation est attesté dans les deux sous-catégories : substituts
+personnels, à savoir les subtstituts personnels autonomes et les substituts personnels affixes.
+a) Les substituts personnels autonomes
+Ce phénomène concerne seulement la 3 ème personne; singulier et pluriel : au
+115
+---PAGE 115---
+Chapitre 1 : Les variables phonétiques
+singulier, seul le féminin [nǝttaṯ] «elle» est concerné, elle est attestée dans les 19 parlers
+étudiés. Pour la 3ème personne du pluriel, les deux genres sont concernés : la forme du
+féminin [nuhǝntiṯ], forme étoffée de [nuhǝnti] «elles» et la forme [nuhniṯ], forme étoffée de
+[nuhni] «ils» (cf annexe 4.3). Ces deux formes étoffées sont attestées dans les parlers d‘Ait
+Bourman, Ait Merâi, Ijermounen, Aokas, Tizi n Berber, Ighil Wis , Tagouba, Ait Amrous et
+Bouyman.
+b) Les substituts personnels affixes
+Le phénomène de spirantisation concerne aussi, dans ce cas, la 3 ème personne :
+Singulier masculin, préposé (ṯ−) ou post-posé (−ṯ) au verbe, sans ou avec la présence de
+la modalité d‘orientation spatiale. Cette forme est attestée seulement dans le parler d‘Ait
+Bourman, c'est ce qu‘expliquent les exemples suivants:
+[a ṯ-nɛell g qedduh] (izḍi) «on la met dans un récipient» (quenouille) (cf. annexe 2,
+texte 1.1, phrase 15) ;
+[m‘ara yǝččar iẓḍé-nni, a ṯ-id-nǝssǝnsǝr γ ufus] «Quand la quenouille est pleine, on la
+débite sur un bras» ( cf. annexe 2, texte 1.1, phrase 16).
+Singulier masculin, préposé (ṯ−) ou post-posé (−ṯ) au verbe en l‘absence de la modalité
+d‘orientation spatiale. Il est attesté dans les 189 autres parlers de la région étudiée, voici
+quelques exemples :
+[ḏ‘ aṯ-fsǝr i ṯafuḵṯ] (ahiḍur) «elle l‘exposera au soleil» (fourrure) (cf. annexe 2, texte
+1.4/1.5, phrase 2), attesté dans les parlers Tizi n Berber, Aokas, S El Tennine, Tamrijt, Ighzer
+Ouftis, Ait Mbarek, Taregragt, Ait Marai et Ijermounen.
+[ḏa ṯ-fsǝr i ṯafuḵṯ] (ahiḍur) « elle l‘exposera au soleil » (fourrure) (cf. annexe 2, texte
+1.10/1.11/1.12, phrase 2), attesté dans les parlers de Laâlam, Ait Segoual et Melbou;
+[ a ṯ-fsǝr i ṯafuḵṯ] (ahiḍur) «elle l‘exposera au soleil» (fourrure), attesté dans les parlers
+Ait Bimoun, Ait Melloul, Ait Amrous, Ighil Wis et Qelaoun;
+[jam‘ aṯ-ṭlǝb ṯaddarṯ g lǝxlaṣ] « le village ne lui demandera jamais le payement »,
+9 Les parlers Bouyman, Qelaoun, Ait Merai, Ijermounen, Taregragt, Ait Mbarek, Ighzer Ouftis, Tamrijt,
+Laâlam, Melbou, Ait Segoual, Souk El Tennine, Aokas, Tizi n Berber, Ighil Wis, Tagouba, Ait Amrous et Ait
+Bimoun.
+116
+---PAGE 116---
+Chapitre 1 : Les variables phonétiques
+attesté dans le parler de Bouyman.
+Singulier feminin, préposé (ṯ−) ou post-posé (−ṯ) au verbe quand il est précédé par la
+modalité d‘orientation spatiale. Il est attesté dans deux parlers: parler d‘Aokas et celui de Tizi
+n Berber, voici quelques exemples illustratifs:
+Position préposée : [ḏ‘ add-iṯ -nǝkkǝs] «on l‘enlevera vers ici (la laine)» (cf annexe 2,
+texte 1.14, phrase 8);
+Position poste-posée :[nǝkkǝs-add-iṯ] «on l‘a enlevée vers ici (la laine)»
+1.1.1.3.2. Les substituts non personnels
+La spirantisation de la dentale sourde qui représente le morphème du féminin, forme
+préfixiale dans cette catégorie (ṯ−), est attestée aussi dans la catégorie des substituts non
+personnels, particulièrement les pronoms démonstratifs (de proximité, d‘éloignement,
+d‘évocation et d‘altérité) que nous allons détailler dans le chapitre des variables
+morphologiques. En voici quelques exemples illustratifs :
+[ṯa/ ṯayyi / ṯayyina; ṯiyya /ṯiyyayina] « celle-ci; celles-ci », attestée dans le parler d‘Ighil
+Wis (cf annexe 4.3.2.1);
+[ṯannattan / ṯannha; ṯinnaktan] « celle-là; celles-là-bas », attestée dans le parler d‘Aokas
+(cf annexe 4.3.2.1).
+1.1.1.2.Changement de lieu d’articulation : /ṯ/ → /h/
+Cette phase médiane du processus phonétique de la dentale sourde spirante/ṯ/ → /h/ ne
+touche pas la classe des substantifs (noms) dans notre région d‘étude, comme c‘est le cas dans
+la plupart des parlers du dialecte Chaoui. C‘est ce que nous pouvons lire dans la citation de
+Lounissi (2010, 68) :
+« C‘est qu‘il touche tous les parlers de l‘Aurès. Cette spirantisation de /t/ → /ṯ/
+aboutit fréquemment, au simple souffle (laryngale /h/). Le phénomène est quasi
+général dans certains parlers pour le préfixe [t] des noms féminins et dans tous
+les paradigmes pronominaux. »
+117
+---PAGE 117---
+Chapitre 1 : Les variables phonétiques
+Ce processus d‘affaiblissement touche, dans la région soumise à l‘‘étude, seulement la
+classe des substituts, particulièrement les pronoms autonomes et les pronoms affixes, régime
+direct. Exception faite pour le parler de Taregragt, le parler d‘Ijermounen et le parler d‘Ait
+Merâi, où, dans un seul verbe « ttakǝn », la marque de l‘Aoriste intensif «tt−» du verbe
+« ǝfk », aboutit à « hh- » : ttakǝn-as taduṭ ≤ [hhakǝn-as ṯaduṭ] «ils leur donnent de la laine ».
+L‘affaiblissement de la dentale sourde spirante /ṯ/ en /h/, dans la catégorie des pronoms
+autonomes, particulièrement la 3ème personne du pluriel masculin nuhni « ils » et féminin
+nuhenti « elles ». Ce phénomène est attesté dans tous les 19 points d‘enquête de la région de
+l‘est de Béjaia. Exception fait pour le parler d‘Ait Mbarek, où les formes [nuṯni] «ils» et
+[nuṯǝnti] « elles » sont aussi attestées (ces formes sont évoquées par Genevois (1955 : 13).
+Le processus d‘affaiblissement ou évolution phonétique partielle de la dentale, touchant
+aussi la catégorie des pronoms affixes - régime direct, n‘est pas une spécificité exclusive des
+parlers de la région de l‘est de Béjaia, il concerne aussi les parlers du dialecte Chaouia,
+particulièrement le parler d‘Ait Frah Penchoen (1973 : 62).
+Si ce phènomène d‘affaiblissement est attesté dans la marque obligatoire du verbe qui est
+l‘indice de personne chez les chaouis, il affécte le préfixe de la 2ème et la 3ème personne,
+singulier féminin. C‘est ce qu‘explique Penchoen (1973 : 08) en disant :
+« Le préfixe t des 2e personne et de la 3e personne singulier feminin est
+susceptible d‘altération sporadique aboutissant à h lorsqu‘il est précédé et suivie
+d‘une voyelle ».
+Par contre, cette phase médiane de l‘évolution phonétique de la dentale, n‘est pas
+généralisée à tous les 19 points de la région étudiée, elle est attestée dans certains parlers et
+non pas dans d‘autres et dans un contexte phonétique différent de celui des Aurès (préfixe de
+la 2ème et la 3ème personne). Si ce changement de lieu d‘articulation de la dentale /ṯ/ → /h/ est
+attesté dans la catégorie des affixes directs, paticulièrement la 3ème personne et dans un
+contexte particulier, seulement (05/19) parlers sont touchés, il s‘agit : Ait Bourman, Ighil Wis,
+Ait Amrous et Ait Melloul (Tagouba). Mais, là aussi, l‘évolution phonétique partielle de la
+dentale sourde n‘est pas systhèmatique dans tous les points d‘enquête sus-cités. Cette
+118
+---PAGE 118---
+Chapitre 1 : Les variables phonétiques
+évolution est conditionnée par les éléments du paradigme syntagmatique, à s‘avoir, la
+présence ou non de la modalité d‘orientation spatiale ainsi que la modalité du nombre
+(opposition singulier – pluriel).
+1.1.1.3. Le contexte linguistique où s’oppère le changement
+Comme nous l‘avons évoqué ci-dessus, deux contextes linguistique condictionnent le
+changement de lieu d‘articulation de la dentale sourde /ṯ/ → /h/, il s‘agit de la modalité
+d‘orientation spatiale et de la modalité du nombre.
+1.1.1.3.1. La modalité d’orientation spatiale
+L‘affaiblissement de la dentale sourde dans l‘affixe direct est conditionnée par la présence de
+la modalité d‘orientation spatiale, il n‘est attesté qu‘ au singulier, notamment au féminin
+« elle » : affaiblissement d‘une occlusive tendue /tt/→/h/, par contre au masculin il est attesté
+spirant /ṯ/, évoqué ci-dessus. Ce changement de lieu d‘articulation est attesté uniquement à la
+3 ème peronne, féminin singulier. C‘est ce que nous pouvons schématiser :
+Verbe+affixe direct (3ème personne, féminin singulier) tt-/-tt + d =verbe + /h/ + d
+Verbe + affixe direct (3ème personne, masculin singulier) [ṯ] + id = verbe + t + id
+Ce conditionnement est illustré dans les exemples suivants :
+[a h-d-nǝkkǝs] (taduṭ) «on l‘enlève (laine) vers ici» mais [a tt-nǝkkǝs] sans la modalité
+d‘orientation spatiale «on la supprime », attestés dans le parler d‘Ighil Wis ;
+[a h-d-awin] « ils vont la faire venir » mais [a ṯ-id-awin] « ils vont le faire venir »,
+attestés dans le parler d‘Ighil Wis ;
+[a h-d-nǝjmǝɛ] (taduṭ) «on la ramasse vers ici, on la range» (cf. annexe 2, texte 1.1,
+phrase 4), à contrario [ a tt-nǝssǝrṭǝb] (taduṭ) « on la trempe » (cf. annexe 2, texte 1.1, phrase
+5), mais [ a t-nǝssǝrṭǝb] (ahiḍur) « on le trempe » (fourrure) attesté dans le parler d‘Ait
+Bourman ;
+[ma nǝbɣ‘ a‘ h-ǝdd-nǝkkǝs akkǝn, aţţ-ngǝr ḏ azǝṭṭa](taduṭ) « si on veut l‘enlever en
+l‘état, pour en faire un tissage (laine) » (cf. annexe 2, texte 1.17/1.18, phrase 25); [ a h-ǝdd-
+119
+---PAGE 119---
+Chapitre 1 : Les variables phonétiques
+nǝkkǝs ɣǝl ḏaxel n tǝmḥǝrmin](taduṭ) « on la transfère dans des fichus (laine)» (cf. annexe 2,
+texte 1.17/1.18, phrase 19), attestés dans le parler d‘Ait Amrous et celui de Tagouba ;
+1.1.1.3.2. La modalité du nombre
+Dans les parlers évoqués ci-dessus, à savoir Ait Bourman (pour la partie est), Ighil Wis, Ait
+Amrous et Tagouba (pour la partie Ouest), le phénomène du changement de lieu d‘articulation
+pour la dentale sourde /ṯ/ → /h/ est attesté dans les affixes directs, à la 3ème personne, au
+pluriel, masculin et féminin, et sans condition (avec ou sans la particule d‘orientation spatiale.
+Voici quelques exemples illustratifs :
+- [a hǝn-nǝfsǝr yumayǝn alamma qqurǝn, w‘ a hǝn-nǝjmǝɛ] «On les étale deux jours jusqu‘à
+ce qu‘ils soit sècs, puis on les emmagasine », attesté dans le parler d‘Ait Bourman, (cf. annexe
+2, texte 1.1, phrase 18).
+- [a hǝnt-nalǝs] (ulli) «on les tond (brebis)» (cf. annexe 2, texte 1.17/1.18, phrase 4); [lɛali-
+hǝn] (ulman) « ils sont bons (fils de trame)», attestés dans le parler d‘Ait Amrous celui de
+Tagouba.
+- [a hǝn-nǝǧǧ] «on les laisse» (cf. annexe 2, texte 1.16, phrase 11) ou encore [a hǝnt-nalǝs]
+«on les tondre», attestés dans le parler d‘Ighil Wis.
+Ce qui retient notre attention ici, c‘est juste qu‘à coté du parler d‘Ighil Wis, le parler de
+Tifernin, où c‘est plutôt le /t/ du masculin qui subit l‘affaiblissement en se transformant en /h/
+et non pas la dentale tendue /tt/ marque du féminin, ce qui nous semble plus logique
+phonétiquement. C‘est le cas des exemples suivants : iwwi-h-d « il l‘a amené/ il a amené lui »
+et iwwi-tt-id « il l‘a amenée /il a amené elle »
+1.1.1.4. Effacement de la dentale : /ṯ/ - /ϕ/
+Ce phénomène de chute ou l‘effacement de la dentale sourde est le résultat final de son
+évolution phonétique, il est appellé aussi l‘aphérèse, il est défini par Berkai (2014 : 65)
+comme:
+«Un phénomène de réduction phonique (une ou plusieurs syllabes) qui se produit
+à l‘initial des mots par commodité articulatoire le plus souvent, mais aussi parfois
+par confusion d‘éléments phoniques aux frontières des mots».
+120
+---PAGE 120---
+Chapitre 1 : Les variables phonétiques
+Cet aboutissement final à la chute, est attesté dans les parlers kabyles de l‘est de Béjaia
+dans deux classes morphologiques différentes : la classe des verbes et la classe des substituts,
+particulièrement les substituts affixes, régime direct.
+1.1.1.4.1. Indice de personne
+Dans cette catégorie, ce n‘est pas tous les 19 points d‘enquête de la région étudiée qui
+sont concernés. Ce phénomène de chute affecte uniquement le premier segment de l‘indice de
+personne, et précisement dans un seul aspect, c‘est celui de l‘Aoriste avec particule
+préverbale « di/da » et « i ». Donc, les parlers de la région de l‘est de Béjaia affectés par cet
+effacement de la dentale sourde sont uniquement ceux qui utilisent la particule préverbale di,
+ils sont aux nombre de 13/19), à savoir les parlers Tizi n berber, Aokas, S. El. Tennine,
+Tamrijt, Laâlam, Melbou, Ait Segoual, Ighzer Ouftis, Ait Mbarek, Taregragt, Bouyman, Ait
+Marai et le parler d‘Ijermounen. Voici les indices de personne concernés par ce phénomène de
+chute :
+- La 2ème personne du singulier, féminin ou masculin ṯ --- t : cette forme discontinue, qui,
+selon Berkai (2014 : 69), est le deuxième élément car, étant une dentale occlusive sourde,
+serait une évolution par dépharyngalisation du[ṭ] de la région de Béjaïa, elle-même étant une
+évolution par assourdissement du phonème [ḍ]. Cette forme ambifixe est aussi évoquée par
+Basset (1959 : 35), où il montre la variabilité du deuxième ségment; il dit :
+«Il offre, avec une variation vocalique dialectale aux deuxième et troisième pers.
+de l‘aoriste, une première pers. sing. com. –y, une deuxième pers. sing. com. t_d, d
+ou t selon les parlers, une première pers. pl. com. n-, une deuxième pers. pl. masc.
+t-m, fém. t-mt, indéchiffrables sur le plan berbère hormis le –t de deuxième pers.
+fém. –nt.»
+Le phénomène de la chute de la dentale, où son aboutissement en phase finale de son
+évolution phonétique, touche seulement le premier ségment de cette forme discontinue si elle
+121
+---PAGE 121---
+Chapitre 1 : Les variables phonétiques
+est précédée par la particule préverbale «di» ou «i»: ṯ − t ≤ ϕ− t10. Cette corrélation est aussi
+évoquée par Lafkioui (2007 : 57) en affirmant que cette élision n‘affecte en aucun cas le
+fonctionnement morphologique du syntagme :
+«Comme il s‘agit généralement de morphèmes grammaticaux sur-spécifiés-
+marques discontinues-, l‘effacement d‘un segment n‘altère en rien le
+fonctionnement morphologique de l‘ensemble (...)Dans les variétés ou /tenɣiḍ/ (tu
+as tué) n‘a que la forme /nɣiḍ/ comme corrélaire libre, l‘élision du premier
+segment /t-/ de la marque sur-spécifiée /t--ḍ/ est souvent induite par débit accéléré
+de la chaine vocalique ».
+Voici quelques exemples qui attestent cette corrélation dans les parlers concernés:
+1. La 2ème personne du singulier : ϕ− t
+– [ḏi ğğǝt taḍut-ǝnn ankǝn rǝḇɛa waɛǝcrin ssaɛa] « tu laisses la laine en question en
+l‘état vingt-quatre heures» (cf annexe 2, texte 1.6, phrase 44), attestée dans le parler de
+Taregragt ;
+[alm‘ irǝǥ, ḏ‘ add-u-ṯawit, ḏ‘ aṯ-fǝsrǝt s yiwǝt llǧiha g mḵan iɛlayǝn] «une fois essoré, tu
+le reprends, tu l‘étale sur un côté à l‘endroit le plus haut» (cf. annexe 2, texte 1.7/1.8, phrase
+10), attestée dans le parler d‘Ait Mbarek et le parler Ighzer Ouftis ;
+– [ ḏ‘ att-zwit s ukǝccuṭ alma gǝɣli ttǝxc illan ḏg-ǝs] «tu la fouette d‘un bâton jusqu‘à ce
+que les détritus en elle tombent»(cf. annexe 2, texte 1.9, phrase 12), attestée dans le
+parler de Tamrijt;
+– [ḏ‘ att-zǝwṭǝt s ukeccaṭ alama ɣlin ixecxac i gellan ḏg-es]«tu la fouettes d‘un bâton
+jusqu‘à ce que les détritus en elles tombent» (cf. annexe 2, texte 1.10, phrase 12),
+attestée dans le parler de Laâlam ;
+10Cette évolution phonique de l‘interdentale sourde t ≤h≤ ϕ est attestée aussi dans le parler d‘Ait Frah du
+dialecte Chaoui, elle est à sa phase médiane t ≤ h , car le préfixe t---des 2e personnes et de la 3e personne
+singulier féminin est susceptible d‘altération sporadique aboutissant à h lorsqu‘il est précédé et suivie d‘une
+voyelle Penchoen (1973 :08) d‘où le résultat en « h---d » pour la deuxième personne du singulier ; « h---m »
+pour la deuxième personne, masculin pluriel ; « h---mt » pour la deuxième personne, féminin pluriel et « h---»
+pour la troisième personne, féminin singulier.
+122
+---PAGE 122---
+Chapitre 1 : Les variables phonétiques
+– [ma ṯǝbɣit i wwit, ḏi wwit] «si tu veux prendre, tu prendras », attestée dans le parler de
+Bouyman.
+2. La 3ème personne du singulier, masculin et féminin ϕ: Le phénomène d‘aphérèse
+touche aussi cette 3ème personne du singulier, masculin et féminin, ce qui induit une
+confusion du genre, car la distinction entre le masculin et le féminin n‘est possible que
+selon le contexte. A ce propos, Berkai ((2014 : 65) explique:
+«L‘absence de la marque du féminin t- de la 3e pers. du sing. à l‘aoriste et la
+confusion des deux formes du masculin et du féminin peut s‘expliquer par ce
+phénomène d‘aphérèse ».
+Nous tenons à rappeler que, comme évoqué ci-dessus, la cause de ce phénomène
+d‘aphérèse sont les modalités d‘aoriste «di, i, da, a ». C‘est ce que montrent les exemples
+suivants :
+– [ḏi kkaw ṯaḍuṭ] et [ḏi kkaw uhiḍuṛ] «la laine sèchera » et « la fourrure sèchera»,
+attestées dans le parler de Taregragt ;
+– [ḏi fǝssu ḏi fǝttǝḥ] (tin ixeddmen taduṭ) «elle défait et ouvre » (celle travaillant la
+laine), attestée dans le parler d‘Ighzer Ouftis de la commune de Derguina ;
+– [umbǝɛḏ ḏ‘ att-mcǝṭ, ḏa mǝccǝṭ ṯfǝssi]« ensuite elle la peigne, elle la peigne en la
+défaisant» (cf. annexe 2, texte 1.11, phrase 26), attestée dans le parler d‘Ait Segoual.
+Les points d‘enquête qui ne sont pas concernés par ce phénomène de chute sont au
+nombre de six, il s‘agit de : Ait Bimoun, Tagouba, Ait Amrous et Ighil Wis pour la partie
+Ouest et Qelaoun et Ait Bourman pour la partie Est. C‘est ce que nous pouvons lire dans les
+exemples suivants :
+- [attǝqqǝl ḏ ifulaḵ], ad tǝqqǝl d ifulak «elle devient des plaquettes » et ad iruḥ azekk
+« il partira demain », attestés dans le parler d‘ Ighil Wis ;
+- [a tǝkkǝs taduṭ] «elle enlèvera la laine», attesté dans le parler d‘Ait Bourman.
+Le tableau suivant est une synthèse de l‘influence de la modalité préverbale «di » sur
+l‘interdendale fricative sourde « /t/ ».
+aspect avec modalité di/da aspect sans modalité di/da le parler conserné
+[ma ḏi kkǝs amcaṭ] [ḥaca(alama) ṯǝrǥa (ṯellal)] Laâlam,
+123
+---PAGE 123---
+Chapitre 1 : Les variables phonétiques
+« quand elle termine le « jusqu‘à essorage complet »
+peignage»
+[ma da bdu leḥmu n ṣṣif] [ṯǝttqǝrqid ṯullatan ṯimǝllula] Melbou,
+«quand les chaleurs d‘été « elle tond les brebis blanches »
+commencent »
+[ḏi kkǝs twǝddaεt] [bac‘ a s-ṯǝkkǝs ṯwǝddaεṯ] Aokas, Tizi n Berber
+« s‘enlève le gras » « pour que lui soit enlevé le
+gras »
+[ bac aḥa ḏi skačču] [yiwǝt ṯǝṭṭǝf ṯizḍiṯ] S. El. Tennine,
+«pour qu‘elle ne pourrisse « une (femme) prend la
+pas » quenouille »
+[ma da rṭeb i d-nekkes ad-i] [ḥaca ṯǝččur ṯǝzḍiṯ ḏ ulman] Tamrijt,
+«une fois attendrie, on « jusqu‘au remplissage de la
+l‘enlève » quenouille de fils de trame »
+[ḏ‘ att-naǥǝr ḇac‘ a ddǝm] [bac‘ aḥa ḏ‘ att-issaɣ lqaɛ] Ait Segoual,
+«on l‘introduit pour qu‘elle «afin qu‘elle ne touche pas la
+prenne» terre »
+[ḏi zǝggwǝṭ ssafǝl i sadda] [ḏ‘ add-u-ṯawit, ḏ‘ aṯ-ɛǝllqǝt] Ighzer Ouftis,
+« tu l‘époussette de haut en « tu la reprend et la suspend »
+bas»
+[ḏi mǝccǝṭ ṯfǝssi] [ḏ‘ add -i-ṯqǝrṭǝṭ] Ait Mbarek
+« elle peigne en défaisant» « tu la coupes »
+[ḏi fakk uṣǝmméṭ n lmal] [mǝlmi ṯǝkkǝs ḏayǝn] Taregragt,
+« s‘achève le froid des bêtes » « une fois terminée
+complètement »
+[ṯict ḏi ṭṭǝf ṯizḍiṯ ] [ḇac‘ a s- ṯǝkkǝs twǝddaεt] Ijermounen /Ait Marai
+« une prend la quenouille » «pour que lui soit enlevé le gras
+»
+[di qqim lxawa-nneɣ tezdi] [kul taddart tesseggway] Bouyman
+« restera notre fratrie unie » « chaque village cuisine »
+124
+---PAGE 124---
+Chapitre 1 : Les variables phonétiques
+Nous tenons à préciser que ce phénomène d‘aphérèse n‘est possible que si le verbe est
+précédé directement par la modalité préverbale «di/da». Autrement dit, si entre le verbe et la
+modalité, il y a l‘adjonction de pronoms affixes (régime direct et indirect), un autre verbe, ou
+bien la modalité d‘orientation spatiale, le verbe récupère, alors, ses indices de personne
+entierement. Voici quelques exemples :
+– [bac‘ aḥa ḏ‘ att-issaɣ lqaɛ] «pour qu‘elle ne touche pas le sol» (pour ne-pas p.non réel
+aff.dir (3sing.fém)-il toucher le sol) (cf annexe 2, texte 1.11, phrase 11), attésté dans le
+parler d‘Ait Segoual;
+– [ḏ in-tfessi ḏ in-txeddem ḏ afus] « elle les démêlait et elle les mettait en brassée» ,
+attésté dans le parler de Laâlam;
+– [a ṯ-nǝssǝrqiq i d- isḇǝḥ ḏ arqaq, lεali-ṯ g m‘ uzǝṭṭa] « nous l‘affinons pour qu‘il
+devienne fin, bon pour l‘introduction entre les fils de trames» (cf annexe 2, texte 1.4,
+phrase 22), attésté dans le parler d‘Ijermounen;
+– [ḏi mǝccǝṭ ṯfǝssi] « elle peigne en défaisant» ; attesté dans le parler d‘Ait Mbarek.
+Il est à noter aussi, que le phénomène d‘assimilation, n‘est pas inclu dans le phénomène
+d‘aphérèse, c‘est le cas de la succession du «t/tt» du régime direct avec le «t-» de l‘indice de
+personne ou encore la succession du «n» de «ten/hen» du régime direct avec le «n» de l‘indice
+de personne. Voici des exemples :
+- [ḏ‘ att-zǝwṭǝt s ukǝccaṭ alama ɣlin ixǝcxac i gǝllan ḏg-ǝs] ≥ di att-tzewṭet s ukeccaṭ
+alama ɣlin ixecxac i gellan deg-s « tu l‘époussettes d‘un bâton jusqu‘à ce que lui
+tombent les détritus en elle» (cf annexe 2, texte 1.10, phrase 12), attestée dans le parler
+de Laâlam ;
+– [ ḏ‘ att-zwit s ukǝccuṭ alama yǝɣli ttǝxc illan ḏg-ǝs] ≥ di att-tezwit s ukǝccuṭ alama
+yeɣli ttǝxc illan deg-s «tu l‘époussettes d‘un bâton jusqu‘à ce que lui tombent les
+détritus en elle» (cf annexe 2, texte 1.13, phrase 12), attestée dans le parler de
+S.El.Tennine ;
+– [ass m‘ara qqarǝn ulman-nni a h-nnǝjmǝɛ bac aḏ rsǝn, wa ngǝr syǝssǝn aẓǝṭṭa] ass mi
+ara qqarǝn wulman-nni a hen-nǝjmǝɛ bac ad rsǝn, wa ngǝr syes-sen azeṭṭa ≥ « le jour
+où sècheront ces fils de trames-là, on les ramasse pour qu‘ils se reposent, puis on en
+125
+---PAGE 125---
+Chapitre 1 : Les variables phonétiques
+fait un tissage» (cf annexe 2, texte 1.1, phrase 22), attestée dans le parler d‘Ait
+Bourman ;
+– [a d-dawi ssbaɣ, izǝggaɣǝn nǝɣ ibǝrkanǝn, iwraɣǝn, a h-nngǝr azal n tlata sswayǝɛ] ≥
+a d-tawi ssbaɣ, izeggaɣen neɣ iberkanen, iwraɣen, a hen-ngǝr azal n tlata sswayǝɛ
+«elle apporte la teinture rouge, noire, et jaune, on les trempe durand trois heures» (cf
+annexe 2, texte 1.18, phrase 25), attestée dans le parler de Tagouba.
+3. La 2ème personne du pluriel, masculin « ϕ− m » et feminin « ϕ− mt » :
+Cette personne fait aussi l‘objet d‘élision, elle touche particulièrement le préfixe « t---» de
+cette forme discontinue qui devient ainsi «---m » pour le masculin et «---mt » pour le
+féminin. Voici quelques exemples qui attestent cette corrélation ifluencée par la modalité
+préverbale « di » et ses variantes « da, i, a».
+– [ḏi kksǝmt injan niɣ iwǝsxan i ṯaḍuṭ] « vous enlevez les saletés ou les détritus de la
+laine », attestée dans le parler d‘Ait Segoual ;
+– [ ḏi kksǝmt ṯan llɛali i wzǝṭṭa wwǝḥram]« vous prélevez la meilleure pour le tissage de
+la couverture»(cf annexe 2, texte 1.13, phrase 18), attestée dans le parler de S. El.
+Tennine ;
+– [ ḏi ssǝmdimt taduṭ i ṯala, ḏ‘ att-fsimt i waman ḇac di ruḥǝn ixǝrcucǝn illan ḏg-ǝs]
+«vous exposez la laine à l‘eau de la fontaine, vous la défaisez sous l‘eau pour que
+s‘enlèvent les débris en elle » (cf annexe 2, texte 1.17, phrase 6), attestée dans le parler
+d‘Ait Mbarek.
+1.1.1.4.2. La classe de substituts affixes
+L‘aboutissement final de l‘évolution phonétique de l‘interdentale fricative qui est
+l‘effacement, est attestée non seulement dans la région de l‘est de Béjaia (région de l‘étude),
+mais aussi dans d‘autres parlers tel le Toureg Basset (1952 : 32) et le Rif. Voici ce qu‘écrit
+Lafkioui (2007 : 57) à propos des parlers rifains :
+« On pourrait également considérer les variantes libres à /h/ comme des
+allomorphes des variantes à /t/. Ceci s‘appliquerait ainsi aussi au cas du pronom
+126
+---PAGE 126---
+Chapitre 1 : Les variables phonétiques
+affixe direct 3MP/3FP : /-ten/et /-tent/ayant donc comme allomorphes /-hen/, /-
+hent/, /-n/ et /-nt/. »
+Le phénomène d‘élision de l‘interdentale fricative est attestée pour cette catégorie des
+substituts affixes, régime direct, dans 13/19 points d‘enquête; il s‘agit particulièrement de la
+3ème personne. Si dans les parlers du Rif, cette élision touche uniquement le pluriel de la 3ème
+personne : (nutni) « -in » et (nutenti) « -int », dans la région de l‘est de Béjaia, par contre, le
+genre et le nombre de cette personne sont affectés (singulier et pluriel ; masculin et féminin).
+Les parlers concernés par cette élision sont au nombre de 13/19 : les parlers Tizi n
+berber, Aokas, S. El. Tennine, Tamrijt, Laâlam, Melbou, Ait Segoual, Ighzer Ouftis, Ait
+Mbarek, Taregragt, Bouyman, Ait Merâi, Ijermounen et Qelaoun. C‘est ce qu‘illustre le
+tableau suivant :
+Le phénomène d’élision genre et nombre du les parlers concernés
+pronom affixe direct
+[ḏ‘in-tfessi ḏ‘in-txeddem ḏ afus] 3ème p. masc. pl. Laâlam
+(ulman) « elle les démêlait et elle les
+mettait en brassée»
+[ma da rṭeb i d-nekkes-add-itt ] (taduṭ) 3ème p. fém. sing. Melbou
+«une fois attendrie, on l‘enlève »
+[ḏi nǝjmǝε-in] (ifassen) «on les 3ème p. masc. pl. Aokas, Tizi n Berber
+emmagazine» (brassées)
+[ḏ‘ ant-tǝllǝm] (timeqqunin) « 3ème p. fém. pl. S. El. Tennine,
+[ḏ‘ant-tǝǧǧ anḵǝn] (tifastin) «elle les 3ème p. fém. pl. Tamrijt
+laisse ainsi » (brassées)
+[ḏ‘an-tǝxḏǝm ttifasṯan] (ulman) «elle 3ème p. masc. pl. Ait Segoual
+les mettra en brassées »
+[ḏ‘ add-u-ṯawit] (abeṭṭan) «tu le 3ème p. masc. sing. Ighzer Ouftis
+prendras » (fourrure)
+[ḇac ḏ‘in-tǝllǝm] (ifulak) « pour les 3ème p. masc. pl. Ait Mbarek
+filler » (plaquettes)
+[ndǝhhǝn-int s zziṯ n aqḇayli] 3ème p. fém. pl. Taregragt
+(timeqqunin) « nous les huilerons avec
+127
+---PAGE 127---
+Chapitre 1 : Les variables phonétiques
+de huil kabyle » (mottes)
+[ḏi nǝḇrǝn- int] (ulman) «nous les 3ème p. fém. pl. Ijermounen /Ait Marai
+roulerons» (fil de trame)
+[ a d-it-nǝkkǝs ] (taduṭ) «on l‘enlevera 3ème p. fém. sing. Qelaoun
+vers ici » (la laine)
+[di neǧǧ-(i)n i kkawen] «nous les 3ème p. masc. pl. Bouyman
+laissons sécher
+Précisons qu‘au singulier l‘élision de l‘interdentale fricative des substituts affixes
+(régime direct) est conditionnée par la présence de la modalité d‘orientation spatiale dans le
+syntagme prédicatif verbal, masculin ou féminin, préposée ou poste-posée.
+La distinction entre masculin et féminin est contextuelle dans 14 points d‘enquête touchés
+par cette élision et que nous allons énumérer ici. Nous remarquons aussi que dans les parlers
+restants, cette distinction est marquée par l‘alternance vocalique « u » au masculin et « i » au
+féminin.
+1. Les parlers, où il y a confusion entre l‘affixe régime direct singulier- masculin et
+l‘affixe régime direct, singulier-féminin, sont au nombre de 2/14, à savoir le parler
+d‘aokas et celui de Tizi n Berber. Voici un exemple illustrant cette confusion.
+– [ḏ‘ add-i-nǝkkǝs] (abeṭṭan ou taduṭ) « nous allons l‘enlever », alors que l‘affixe direct
+masculin singulier « t-, [ṯ] » est nettement démarqué de l‘affixe direct féminin
+singulier « tt- » en l‘absence de la modalité d‘orientation spatiale dans ces deux
+parlers évoqués ci-dessus:
+– [ḏ‘ aṯ-nǝkkǝs] (abeṭṭan) « nous allons enlever la fourrure (peau d‘animal) » ;
+– [ḏ‘ att-nǝkkǝs] (taduṭ) « nous allons enlever la laine » ;
+Nous tenons à préciser que la forme distinctive est aussi attestée dans ces deux parlers,
+mais d‘un usage marginal, comme nous l‘avons déjà souligné auparavant :
+- [ḏ‘ add-i-nǝkkǝs] (abeṭṭan);
+- [ḏ‘ add-iṯ-nǝkkǝs] (taduṭ).
+128
+---PAGE 128---
+Chapitre 1 : Les variables phonétiques
+2. Les parlers, où la distinction, entre l‘affixe régime direct (singulier masculin) et
+l‘affixe direct régime direct (singulier féminin), est toujours marquée, sont au nombre
+de 12/14 : S. El. Tennine, Tamrijt, Laâlam, Melbou, Ait Segoual, Ighzer Ouftis, Ait
+Mbarek, Taregragt, Ait Marâi, Ijermounen, Qelaoun et Bouyman. Voici un exemple
+illustrant cette démarcation.
+- [ḏ‘ add-u-ṯawit] (abeṭtṭan) (cf annexe 2, texte 1.7, phrase10) « tu va le
+ramener» (fourrure ou peau d‘animal);
+- [ḏ‘ add-i-nǝkkǝs] (taduṭ) (cf annexe 2, texte 1.3, phrase10) « nous allons l‘enlever
+» (la laine);
+C‘est ainsi que nous pouvons schématiser les différentes réalisations de l‘affixe régime
+direct, 3ème personne du singulier à voisinage de la modalité d‘orientation spatiale :
+Verbe + Aff.dir.3.masc.sing. (-at) → Verbe + D/N + (-i/-u)
+Verbe + Aff.dir.3.fém.sing. (-att) → Verbe + D/N + (-it/-i)
+Par contre, l‘élision de l‘interdentale fricative sourde /t/ n‘est pas conditionnée par la
+présence de la modalité d‘orientation spatiale à la 3ème personne du pluriel, masculin ou
+féminin dans 14 points d‘enquête concernés par cette élision. Voir les exemples suivants :
+- Préverbal : [d‘ in-tečč] > di ten-tečč « elle va les manger » ; d‘ int-ixdem « il va les faire »
+attestées dans le parler d‘Aokas (cf Aissou 2007); [ḏ‘ add-unt-nǝjmǝɛ]« on va les
+ramasser »; [ḏ‘ add-u-nǝjmǝɛ] « on va le ramasser » ; [ḏ‘ add-i-nǝjmǝɛ] « on va la
+ramasser »(cf annexe 2, texte 1.2, phrase 4), attestées dans le parler de Taregragt
+(commune d‘Ait Smail) et dans le parler de Bouyman.
+- Postverbal : tewwi-yint > tewwi-tent « elle les a accompagnées » ; γγan-in > nγan-ten «
+ils les ont tués » attestée dans le parler d‘Aokas et celui de Tizi n Berber ;
+[ṯimǝqqunin –ǝnn ḏi nǝḇrǝn- int ḏ ifulak] « les mottes en question, on les tresse en
+plaquettes», (cf annexe 2, texte 1.5, phrase 11) attestée dans le parler d‘Ait Marâi
+et [ḏ‘ add-u-ṯawit](cf annexe 2, texte 1.8, phrase 10) « tu va le ramener », attestée
+dans le parler de Ighzer Ouftis ( commune de Derguina). Puis [ḏ‘ add-i-nǝkkǝs](cf
+129
+---PAGE 129---
+Chapitre 1 : Les variables phonétiques
+annexe 2, texte 1.15, phrase 8) « on va l‘enlever », attestée dans le parler de Tizi
+n Berber.
+Le tableau suivant représente les différentes réalisations de la dentale sourde /t/ dans
+les dix-neuf points d‘enquête représentant la région de l‘est de Béjaia.
+Région spirantisation [ṯ] Affaiblissement [h] chute ou élision Φ
+Bouyman [tǝṭṭalab-aṯ] « elle lui [ḏi nǝǧǧ-in] « on les
+demandait » laisse »
+Iṯǝtt-att « il la mange » [ḏ‘add-un-nǝnhǝr-in]
+« on les reconduit »
+Ait Bourman [a tt-nǝssǝrṭǝb] (taḍut) [a h-d-nǝjmǝɛ] (taḍut) «
+« on la ramollie» (la on la ramasse » (la laine)
+laine) ; [a hǝn-nǝfsǝr alama
+[a ṯ-nɛǝll g qǝdduh] (izdḍi)« qqurǝn wa hǝn-nǝjmǝɛ
+on la met dans un pot de (ulman)] « on les étale
+terre » (la quennouille); jusqu‘a séchage complet
+[a ṯ-id-nǝssǝnsǝr ɣ et on les ramasse» (fils de
+ufus](izḍi)« on la transfert trame)
+au bras » (la quennouille)
+Qelaoun [a d-i(ṯ)-nǝkkǝs] «on la [a d-i-nǝkkǝs] « on la
+soustrait » soustrait »
+Ait Marâi/ [ḏ‘att-nǝjmǝɛ] « on [ḏ‘ad-i-nǝjmǝɛ] ―on la
+Ijermounen l‘emmagasine/ ramasse (vers ici) »
+on la emmagasine » [ḏ‘ad-u-nǝjmǝɛ] « on
+[ḏ‘aṯ-nǝjmǝɛ] le ramasse (vers ici) »
+« onl‘emmagasine/on le [ḏ‘ad-un-nǝjmǝɛ-in]
+emmagasine » (ulman) « on les
+ramasse (vers ici) »
+(fils de trame)
+[ḏ‘ad-int-nǝjmǝɛ] (ulli)
+« on les rassemble»
+(les brebis
+Taregragt [ḏ‘att-nǝjmǝɛ] (taḍut) « on [ḏ‘ ad-i-nǝjmǝɛ] (taḍut)
+l‘emmagasine/on la [ḏ‘ad-nǝjmǝɛ](ahiḍur)
+emmagasine » [ḏ‘ad-un-nǝjmǝɛ-in]
+[ḏ‘aṯ-nǝjmǝɛ] (ahiḍur) « on (ulman)
+l‘emmagasine/on le [ḏ‘ad-int-nǝjmǝɛ] (ulli)
+emmagasine »
+Ait Mbarek [ḏ‘aṯ-hǝrrsǝnt ] « elles le [Iggwi-ad-unt] (tixitemt
+pilent » d tekbert) « il les a
+130
+---PAGE 130---
+Chapitre 1 : Les variables phonétiques
+[ḏ‘att-awint as-mǝcṭǝnt] ramenées » (bague et
+« elles la prennent pour la robe)
+peigner »
+Darguina [ḏ‘att-nǝjmǝɛ] « on [ḏ ad-i-nǝjmǝɛ/nǝkkǝs]
+l‘emmagasine/on la « on la ramasse (vers
+emmagasine » ici) »
+[ḏ‘aṯ-nǝjmǝɛ] « on [ḏ ad-u-nǝjmǝɛ] « on le
+l‘emmagasine/on le ramasse (vers ici)
+emmagasine » [ḏ ad-int-nǝjmǝɛ] « on
+[ḏ‘ int-nǝjmǝɛ] « on les les ramasse (vers ici) »
+emmagasine » [ḏ‘ad-un-nǝjmǝɛ-in] «
+on les ramasse (vers
+ici) »
+Tamrijt [ḏi d-nǝjmǝɛ-ad-iṯ] « on le
+ramasse (vers ici) »
+Laâlam [ḏ‘ad-u-ṯawit] « tu le
+ramènes (vers ici) »
+[ḏ‘ad-un-tawit] « tu les
+ramènes (vers ici) »
+Melbou [nǝssirid-att] « on la lave » [ḏ‘ad-i-nǝjmǝɛ] « on la
+ramasse (vers ici) »
+Ait Segoual -[awim-ad-uṯ] « amenez-le» [ḏ an-jǝmɛǝn] « ils les
+-[awim-ad-iṯ] « amenez-la » ramassent »
+[ḏ‘ad-in-ṭṭfǝn] « ils les
+attrappent (vers ici) »
+Aokas -[ḏ‘ att-nǝkkǝs] (taḍut) « on [ḏ‘ad-i-nagǝr ggaman]
+l‘enlève » (la laine) (ahiḍur) « on le trempe
+-[ḏ‘aṯ-nagǝr ggaman] « on dans l‘eau »
+le trempe dans l‘eau » [ḏ‘ad-in-awint)
+-[ḏ‘ad-iṯ-nǝsmir](taḍut) « (ihiḍuren) « elles les
+on la transfert (vers ici) » ramènnent (vers ici) »
+[ḏ‘ad-int-ɛǝzlǝnt] (ulli)
+«elles les isolent (vers
+ici) »
+Tizi n Berber -[ḏ‘ att-nǝkkǝs] (taḍut) « on [ḏ‘ad-i-nǝsmir]
+l‘enlève » (la laine) (azemmur) «on le
+-[ḏ‘aṯ-nagǝr ggaman] transvase (vers ici) »
+(ahiḍur) « on le trempe dans
+l‘eau »
+-[ḏ‘ad-iṯ-nǝsmir] (taḍut)
+―on la transfert (vers ici) »
+Ighil Wis -[a ṯ-nǝḵmǝs] «on l‘attache [a hǝn-nǝǧǧ aḏ rsǝn] «on Pluriel sans condition
+131
+---PAGE 131---
+Chapitre 1 : Les variables phonétiques
+» les laisse se reposer » et singulier conditioné
+-[a tt-nǝsrǝs] « on la dépose
+»
+Ait Amrous [a ṯ-yaɣ /yuɣ-iṯ]« il l‘achète [lɛali-hǝnt «elles sont Attestée seulement aux
+» bonnes » pluriel et la présence
+[ṯin i tt-iqǝrbǝn]« celle qui [a hǝn-irfǝḏ] « il les de d n‘a pas
+s‘en raproche » soulève » d‘influence
+Taguba [a ṯ-nǝḵbǝl i wfǝggag] « on [a hǝn-nǝssǝfsay « on les Singulier conditionné
+l‘enroule à l‘ensouple » fait fondre » par d et non pas le
+[ma nǝbɣa a h-d-nǝkkǝs [a hǝnt-nalǝs] «on les pluriel
+akkǝn, a tt-ngǝr ḏ azǝṭṭa] tond »
+« si on veut l‘enlever en
+l‘état, on l‘introduit au
+tissage »
+At Bimoun [a tt-nǝkkǝs] « on [(wa)hǝn/hǝnt-nǝssǝfsay] Les deux formes sont
+l‘enlève/on la enlève » ; « et on les fait fondre » attestées au pluriel, au
+[a ṯ-nǝkkkǝs] « on singulier seulement [t]
+l‘enlève/on le enlève ;
+[a ṯǝn-nǝssǝfsi] « on les fait
+fondre» ;
+[a ṯǝnt-nǝllǝm] « on les
+file »
+Les données de l‘évolution de la dentale sourde /t/ dans les 19 parlers étudiés de la région de
+l‘est de Béjaia sont portées sur une carte géolinguistique (cf. annexe 6.3, figure 01).
+1.1.2. La spirantisation de la vélaire sourde /k/ et son passage à /c/, /č/ puis /ǧ /
+La vélaire sourde occlusive /k/, elle aussi, est sujette à l‘évolution phonétique. Sa
+spirantisation dynamique correspond aux processus évolutifs réalisés,elle peut subir
+sporadiquement des changements partiels en termes d‘affaiblissement de la tension
+articulatoire (ou ce que nous pouvons appeler phénomène de spirantisation - mode
+d‘articulation), où nous pouvons distinguer l‘occlusif [k] du spirant [ḵ], comme c‘est le cas
+des parlers du Rifain occidental, Metalsa, Zekkara et Beni Bou Zeggou Kossmann (2000 : 11).
+Cette vélaire peut aussi subir des changements définitifs, autrement dit un changement de lieu
+ou de point d‘articulations par palatalisation, comme c‘est le cas des parlers d‘Ait
+Zeghrouchen Pentolila (1981 : 20). Nous pouvons schématiser le processus évolutif de la
+vélaire comme suit :
+132
+---PAGE 132---
+Chapitre 1 : Les variables phonétiques
+Occlusive > fricative > semi-voyelle (voyelle).
+Ces transformations dynamiques ont évolué vers des stades différents, plus ou moins
+avancés selon les parlers. Ainsi nous pouvons distinguer plusieurs séries :
+1. Une série aboutissant seulement à la spirantisation [k] – [ḵ] ;
+2. Une série aboutissant, par assourdissement, à la chuintante /c/ ;
+3. Une série aboutissant, par palatalisation, aux fricatives [č] et [ǧ]. ».
+Nous tenons à préciser que cette évolution phonétique de la vélaire occlusive /k/ n‘est
+pas une spécificité d‘un seul dialecte ou d‘une sous-variété ; elle est attestée non seulement
+dans la région de l‘est de Béjaia - qui fait l‘objet d‘étude de notre recherche -, appartenant au
+dialecte kabyle, mais aussi dans d‘autres dialectes tel que Chaouia examiné par Lounissi
+(2010) et Boudjellal (2015), et dans le dialecte Rifain étudié par Lafkioui(2007). D‘ailleurs, il
+se peut que la région de l‘est de Béjaia soit influencée par le processus évolutif de la vélaire
+dans le dialecte Chaouia, étant donné le rapprochement géographique entre les deux dialectes :
+ils connaissent presque les mêmes aboutissements que nous allons détaillés ici. C‘est, du
+moins, ce que nous pouvons lire chez Boudjellal (2015 : 110) disant :
+«Ces transformations diachroniques sont arrivées en ce moment à des stades
+différents, plus ou moins avancés selon les parlers. Ainsi il y a une première série
+qui a touché l‘ensemble des parlers chaouïa, qui à aboutit à la chuintante /c/, par
+exemples : /cal/, /cem/, (terre, tu du féminin »). Il y a une deuxième série touchant
+certains parlers, qui connaissent la spirantisation de la vélaire /k/ aboutissant à la
+palatale fricative [ç]. »
+Les différents stades de l‘évolution phonétique de la vélaire occlusive /k/ montrent que
+les ruptures que connaissent les articulations de base ne sont pas homogènes, elles ne sont pas
+non plus systématiques puisque ce phonème évolue dans des directions différentes :
+spirantisation dans quelques parlers ou dialectes touchant seulement au mode d‘articulation,
+133
+---PAGE 133---
+Chapitre 1 : Les variables phonétiques
+assourdissement dans d‘autres parlers aboutissant à la chuintante, et enfin palatalisation
+aboutissant aux affriquées [č] et [ǧ].
+Nait Zerrad (2001 : 389-412) parle des études menées sur l‘évolution phonétique de la
+vélaire /k/, c‘est ce que nous pouvons lire dans :
+« Les correspondances et les règles du processus d‘évolution des vélaires dans les
+variétés berbères ont été examinées par Kossmann (1995b, 1999) et Louali (1999).
+Les hypothèses déduites ne permettent pas d‘expliquer les irrégularités
+nombreuses de ces correspondances. On peut cependant faire un regroupement de
+parlers selon qu‘ils sont affectés ou non par l‘évolution des vélaires vers les
+fricatives ou affriquées »
+Notons, même, que dans un seul dialecte ou variété, ce phonème ne connaît pas les
+mêmes stades d‘évolution phonétique. C‘est ce que nous constatons, particulièrement, dans la
+région de l‘est de Béjaia, ce phonème est une sous-variété, où les trois stades évolutifs sont
+représentés ; ils affectent particulièrement trois catégories : les substantifs, les verbes et les
+substituts.
+Dans la catégorie des substantifs, le processus évolutif de la vélaire occlusive /k/ dans
+les parlers de la région de l‘est de Béjaia, à exception de trois parlers que nous allons étudier
+ici, ne diffère pas de l‘ensemble des parlers kabyles qualifiés de spirants Basset (1952, 1959)
+et Chaker (1991), car l‘évolution phonétique ne touche que le mode d‘articulation, à savoir la
+spirantisation. Nous pouvons comme suit synthétiser son aboutissement :
+1) Une série aboutissant seulement à la spirantisation [k] – [ḵ] : c‘est la série qui est
+largement attestée dans la région de l‘est de Béjaia, sur 19 parlers étudiés, 18 parlers
+sont spirants [k] --- [ḵ], à savoir : Le parler d‘Ait Bimoun, de Tagouba, d‘Ait Amrous,
+d‘Ighil Wis, de Tizi n berber, d‘Aokas, de S. El. Tennine, de Tamrijt, de Laâlam, de
+Melbou, d‘Ait Segoual, d‘Ighzer Ouftis, d‘Ait Mbarek, de Taregragt, d‘Ait Marâi,
+d‘Ijermounen, d‘Ait Bourman et le parler de Bouyman. Voici quelques exemples
+illustratifs :
+- [annǝzḏi ṯafalǝḵṯ γ ṯayǝṭ] (cf annexe 2, texte 1.1, phrase 13) «On mêle une mèche à
+l‘autre bout à bout», attestée dans le parler d‘Ait Bourman ;
+134
+---PAGE 134---
+Chapitre 1 : Les variables phonétiques
+- [ḏ‘ att-nǝfsǝr i ṯafuḵṯ ḵra wussan](cf annexe 2, texte 1.7, phrase 3) « nous l‘exposerons
+au soleil quelques jours», attestée dans le parler d‘Ait Mbarek, le parler de S. El.
+Tennine, le parler d‘Aokas et celui de Tizi n Berber ;
+- [a nǝssǝḥmu aman alama rǝḵmǝn](cf annexe 2, texte 1.17/1.18, phrase 15) «nous
+chaufferons l‘eau jusqu‘à l‘ébulition »; attestée dans le parler de Tagouba et celui
+d‘Ait Amrous.
+2. Une série aboutissant par assourdissement à la chuintante /c/ : Cette série est attestée
+dans un seul point d‘enquête de la région de l‘est de Béjaia (1/19), et seulement lorsque la
+vélaire est simple (non tendue) ; il s‘agit du parler de Qelaoun. En voici deux exemples :
+- aḵal (cf annexe 2, texte 3.1, phrase 1) « terre », attestée dans le parler d‘Ait Mbarek
+aboutit à acal(cf annexe 2, texte 3.2, phrase 1), attestée dans le parler de Qelaoun ;
+- aḵeffi « le lait », attesté dans les parlers Ijermounen et Ait Marâi aboutit à ayeffi,
+attesté dans le parler d‘Aokas, en passant par la phase intermédiaire, aceffa, attesté
+dans le parler de Qelaoun.
+3. Une série aboutissant par palatalisation à la fricative [čč] : Cette série est attestée dans
+deux points de la région de l‘est de Béjaia, il s‘agit des parlers Tagouba et Ighil Wis.
+Précisons ici que [kk] et [čč] coexistent dans le même parler avec une restriction
+sémantique, c‘est le cas du lexème takka « poussière ».
+- [ṯakka] « poussière en général », attestée dans le parler d‘Aokas, de Tizi n
+Berber,voire celui de Tagouba et d‘Ighil Wis, [ṯakka] «la poussière de la laine »
+attestée dans le parler d‘Aokas et celui de Tizi n Berber qui cette fois-ci devient [ṯačča]
+(cf annexe 2, texte 1.18, phrase 23) dans les parlers de Tagouba et d‘Ighil Wis.
+Le processus évolutif de la vélaire /k/ est aussi le résultat d‘une assimilation
+monématique de l‘alvéolaire/s/ et de la vélaire /k/ en [cc]). Il est attesté non seulement dans la
+région de l‘est de Béjaia, mais aussi dans les autres dialectes berbères, à l‘image du dialecte
+Rifain où le résultat de cette assimilation ressemble nettement à celle attestée dans les parlers
+de la région de l‘est de Béjaia. A ce sujet, Lafkioui (2007 : 59) dit :
+« Les lexèmes /askar/ (ongle) et /tiskert/ (ail) tiennent leur particularité de la contiguïté
+de la vélaire /k/ avec l‘alvéolaire /s/dans la suite /sk/. La palatalisation de cette
+séquence dans l‘exemple /askar/ a abouti dans /accar/ dans une très grande partie du
+Rif ».
+135
+---PAGE 135---
+Chapitre 1 : Les variables phonétiques
+Dans les parlers de la région de l‘est de Béjaia, les deux stades de l‘évolution
+phonétique de la vélaire sont attestés (assimilation/dissimilation).Voici un tableau récapitulatif
+de ce phénomène dans tous les 19 parlers étudiés (cf annexe 3, tableau 3.1)
+le lexème assimilation [cc] dissimilation Les parlers concernés
+/s/ou/c/+/k/
+Ticcert Ait Mbarek, Ait Marâi, Ijermounen,
+Qelaoun
+Ait Bimoun, Tagouba, Ait Amrous,
+Ighil Wis, Tizi n berber, Aokas, S. El.
+Ail Tennine, Tamrijt,Melbou, Laɛlam, Ait
+Tiskert Segoual Ighzer Ouftis, Taregragt, Ait
+Bourman et Bouyman
+Ait Bimoun, Tagouba11, Ait Amrous,
+Ighil Wis, Tizi n berber, Aokas, S. El.
+Tennine, Tamrijt, Ighzer Ouftis, Ait
+Ongle (s) iccer/accaren Mbarek, Taregragt, Ait Marai,
+Ijermounen,Qelaoun,Ait Bourman et
+Bouyman
+icker/icekran Melbou, Laɛlam, Ait Segoual
+Les résultats de cette assimilation sont portés sur une carte géolinguistique (cf annexe 6.3,
+figure3)
+L‘évolution phonétique de la vélaire occlusive /k/vers la chuintante /c/ et vers les
+affriquées /čč/, dans la catégorie des verbes, est attestée seulement dans un seul parler sur les
+dix-neuf étudiés, il s‘agit du parler de Qelaoun.
+Dans ce parler, la vélaire tendue /kk/ évolue vers l‘affriquée /čč/. Exemple : ewt « frapper » ---
+kkat --- ččat « frapper habituellement, aoriste intensif ».
+11Nous tenons à préciser que dans le parler de tagouba, le lexème « icker » est aussi attesté, mais pour désigner la
+péjoration, en d‘autres termes, icker signifie griffe d‘un chat ou d‘un chien (ongle mal entretenue, non coupé), la
+forme du pluriel est aussi attestée : icekrawen.
+136
+---PAGE 136---
+Chapitre 1 : Les variables phonétiques
+L‘évolution phonétique de la vélaire occlusive /k/ est aussi attestée dans la catégorie des
+substituts, en particulier les substituts autonomes. Dans cette catégorie, l‘évolution de la
+vélaire ne touche pas un seul parler, comme dans la catégorie des verbes, mais plusieurs
+parlers de la région de l‘est de Béjaia. Précisons par ailleurs que, là aussi, le processus de la
+palatalisation de /k/ n‘est pas une spécificité liée à cette région, il est attesté dans les parlers
+du dialecte Chaouia Boudjellal (2015), dans les parlers du dialecte Rifain Lafkioui (2007) et
+dans les parlers du Maroc central Taifi (1991).
+A propos de la palatalisation de /k/, Lafkioui (2007 : 59) explique :
+« Ainsi, la vélaire simple /k/ du pronom personnel indépendant /kem/ (tu, 2FS) et
+du nom /(a)kal/ (terre) aurait connu le changement en /c/ dans respectivement
+/cem/ et /cal/ »
+- Kemm (Ait Bourman, Aokas, Tizi n Berber, Ighil Wis, Tagouba, Ait Amrous et Ait
+Bimoun S.El.Tennine) ----- cemm (Bouyman, Ijermounen, Ait Marâi, Qelaoun,
+Taregragt, Ait Mbarek, Darguina, Melbou, Ait Segoual, Tamrijt, Laâlam)
+- cekk (Aokas, S.El.Tennine, Tizi n Berber, Melbou, Laâlam, Bouyman, Qelaoun,
+Ijermounen, Ait Merâi,Taregragt, Ait Mbarek, Darguina, Tamrijt, Ait Segoual --- kečč
+(keǧǧ) (Ait bourman, Ighil Wis, At Melloul, Ait Amrous et Ait Bimoun)
+La variation du substitut « cekk, kečč, keǧǧ » est synthétiser dans le tableau suivant (cf
+annexe 3, tableau 3.2) et cette variation est portée sur une carte géolinguistique (cf annexe 4,
+tableau 5.1) :
+Les parlers concernés La vélaire La fricative La fricative
+sourde [kk] sourde [čč] sonore [ǧǧ]
+Aokas, S.El.Tennine, Tizi n Berber, Cekk
+Melbou, Laâlam, Bouyman, Qelaoun,
+Ijermounen, Ait Merâi,Taregragt, Ait
+Mbarek, Darguina, Tamrijt, Ait Segoual
+Ait bourman, Ighil Wis, Tagouba, Ait Kečč Keǧǧ
+Amrous et Ait Bimoun
+1.1.3. La spirantisation de la palatale sonore /g/ et son passage à /j/ et /y/
+137
+---PAGE 137---
+Chapitre 1 : Les variables phonétiques
+Dans des cas marginaux, la spirantisation est très poussée dans les parlers de la région
+de l‘est de Béjaia, elle aboutit au phénomène d‘affaiblissement : /g/-[ǥ]-/j/-/y/.
+L‘affaiblissement de la palatale /g/ et son passage à /y/, simple ou tendue, Rabehi
+(1994 : 65) n‘est pas une spécificité d‘un parler, mais de 04 sur les19 parlers étudiés, c‘est le
+cas du parler d‘Ait Bourman qui n‘utilise pas la spirante [ǥ]. C‘est ce que montrent les
+exemples suivants :
+– /g/ - /y/ : amger « faucille à lame striée pour couper l‘herbe » ; azgen « moitié,
+demi » ; aglim « peau » et ssǝbzǝg attestés dans le parler d‘Ijermounen, Qelaoun, Ait
+Merâi, Taregragt, Ait Mbarek, Ighzer Ouftis, Tamrijt, Laâlam, S. El.Tennine, Melbou
+et Ait Segoual aboutit à amyer ; azyen ;aylim et ssǝbzǝy dans les parlers : Aokas, tizi
+n Berber, Ait Bourman et Ait Bimoun ;
+– /gg/ - /yy/ : ṭegger « jeter » attestés dans les parlers qui forment des deux extrémités,
+à savoir Ait Bourman et Ait Bimoun (ce dernier atteste aussi ṭeyyer) aboutit à ṭeyyer
+dans les autres parlers de cette région, à savoir : Tagouba, Ait Amrous, Ighil Wis, Tizi
+n Berber, Aokas, S.El. Tennine, Melbou, Ait Segoual, Timrijt, Laâlam, Ighzer Ouftis,
+Ait Mbarek, Taregragt,Ait Merâi, Ijermounen, Qelaoun et Bouyman.
+L‘évolution de la vélaire [g], sa spirantisation [ǥ] et son passage à la palato-alvéolaire /j/
+puis à la semi-voyelle /y/ n‘est pas une spécificité des parlers de la région de l‘est de Béjaia.
+Ce phénomène est aussi attesté dans les parlers des Aurès, c‘est ce que nous pouvons lire dans
+la citation de Boudjellal (2015 : 107) : « Le traitement de la vélaire /g/ en palatale /y/ est un
+phénomène attesté dans nombre de parlers du massif et de l‘extrême ouest de la zone
+chaouïa» .
+Dans le même ordre d‘idée, Lounissi (2010 : 67) ajoute :
+« La variation de spirantisation, la plus grande, de la vélaire /g/ est attestée
+seulement dans le lexème /nnig/ (dessus). Le processus de transformation est
+arrivé jusqu‘à la semi-voyelle /y/ passant par la palato-alvéolaire /j/, ce
+phénomène atteint son terme par la vocalisation parfois de la semi-voyelle /y/
+138
+---PAGE 138---
+Chapitre 1 : Les variables phonétiques
+pour une voyelle /i/. Le schéma de transformation de cette unité et le suivant : /g/-
+/g/ - /j/ - /y/ - /i/ »
+L‘évolution de la vélaire la plus attestée dans les parlers de la région de l‘est de Béjaia
+est celle de sa spirantisation ainsi son passage à la semi-voyelle. Le passage à la palato-
+alvéolaire /j/ est attesté seulement dans un seul parler, c‘est celui de Qelaoun. C‘est le cas de :
+Agertil dans 14 parlers de la région Est de Béjaia, ajertil dans le parler de Qelaoun et enfin
+ayertil dans les parlers Aokas, Tizi n Berber et ceux des deux extrémités (Ait Bimoun et Ait
+Bourman).
+La spirantisation de la palatale [g] et son passage à [y] est synthétiser dans le tableau
+suivant (cf annexe 3. tableau 2):
+Les parlers concernés La palatale La palatale La semi
+sourde[g] sonore [j] voyelle[y]
+Bouyman, Ijermounen, Ait Merâi, Taregragt, Agertil
+Ait Mbarek, Darguina, Tamrijt, Leâlam, Ait
+Segoual, Melbou, S.El.Tennine, Ighil Wis,
+Tagouba et Ait Amrous
+Qelaoun, Ajertil
+Ait Bourman, Ait Bimoun, Aokas, Tizi n Ayertil
+Berber,
+Les données de cette variation dans les 19 parlers étudiés sont portées dans une carte
+géolinguistique (cf annexe 6.3, figure 2)
+1.1.4. La sourdité de l’emphatique /ḍ/ et son passage à /ṭ/
+L‘alvéolaire sourde emphatique, réalisée simple /ṭ/ ou tendue /ṭṭ/,est largement attestée
+dans les parlers de la région de l‘est de Béjaia. C‘est l‘alvéolaire sonore /ḍ/ dans les autres
+parlers du dialecte kabyle, à l‘image du parler d‘Irjen Chaker (1978) et Aissou (2007) et du
+parler d‘Akfadou Idir (2009). La sourdité de l‘apico-dentale /ḍ/ et son passage à /ṭ/ n‘est pas
+139
+---PAGE 139---
+Chapitre 1 : Les variables phonétiques
+une spécificité de la région de l‘est de Béjaia, le même processus est attesté dans les parlers
+ouest du dialecte Chaoui. C‘est ce qu‘annonce Boudjellal (2014 : 119) :
+« On observe la similitude du traitement de l‘emphatique /ḍ/ pour les parlers de la
+Kabylie orientale et ceux de l‘ouest de la zone linguistique chaouïa, cela avait
+déjà été constaté par André Basset (1959 :23) en disant : « (…), l‘opposition de d
+emphatique bref et t emphatique bref, associe la partie orientale de la Kabylie et
+le fragment nord-ouest du pays chaouïa en regard de la Kabylie occidentale et du
+reste de l‘Aurès ».
+Les exemples suivants illustrent l‘existence de cette apico-dentale sourde dans tous les
+parlers de la région située à l‘est de Béjaia et dans toutes des catégories monématiques (verbe,
+nom et substitut).
+1. L‘apico-dentale simple /ṭ/
+- aṭar « pied » et imceṭ «peigne » attestés dans les 19 parlers étudiés (cf annexe 3,
+tableau 4) ;
+- sserṭeb « humecter » attestés dans les 19 parlers étudiés;
+- wanniṭen « l‘autre » et wayeṭ « autre » attestés dans les 19 parlers étudiés.
+2. L‘apico-dentale tendue/ṭṭ/
+- ṭṭes « dormir»attesté dans les 19 parlers étudiés ; qqiṭṭer «s‘égouter » attesté dans le
+parler d‘Ait Amrous et celui de Tagouba. ;
+- lfeṭṭa « argent » et azeṭṭa « tissage » attestés dans les 19 parlers étudiés ; iṭṭij « soleil»
+attesté dans le parler d‘Ait Bimoun.
+Si nous nous basons sur la définition de Mounin (1974 : 256), la pharyngalisation se
+présente comme suit :
+« Une consonne pharyngale est une consonne dont le point d‘articulation se situe
+entre la partie radicale de la langue et la paroi pharyngale, légèrement
+postérieure à celui d‘une vélaire ».
+140
+---PAGE 140---
+Chapitre 1 : Les variables phonétiques
+Les consonnes pharyngalisées - dites aussi consonnes emphatiques - ont une influence
+très forte sur leur entourage : toutes les consonnes appartenant au même mot prennent
+généralement une coloration postérieure très sensible à la vraie emphatique. Ces consonnes
+contaminées, contrairement aux vraies emphatiques, ne sont pas pertinentes, il s‘agit d‘une
+emphase contextuelle, faite de contamination due à la présence d‘une vraie emphatique.
+- /ḍ/, /ẓ/ et [ṛ] : aḍar « pied » qui donne [aḍaṛ]; aẓar « racine » qui donne [aẓaṛ];
+- /ṭṭ/ et [ẓ] : azeṭṭa « tissage » qui donne [aẓeṭṭa];
+- /ẓ/ et [ḍ] : imiẓid « délicieux » qui donne [imiẓiḍ].
+La présence de /ḍ/ pharyngalisée dans les parlers situés à l‘est de Béjaia s‘explique par
+le phénomène de contamination que nous venons d‘évoquer ci-dessus (présence d‘une
+emphatique vraie), c‘est le cas des exemples suivants :
+- [ṯaḍuṭ] « laine » attesté dans les 19 parlers étudiés;
+- [ṯiẓḍiṯ] «quenouille» attesté dans le parler d‘Aokas, Tizi n Berber, Ait Amrous, Tagouba,
+Ait Marâi, Ijermounen, Qelaoun, Taregragt, Ait Mbarek, Ighzer Ouftis, Tamrijt, Laâlam,
+Melbou [iẓḍi] à Ait Bourman, Bouyman et Ait Bimoun.
+Le phénomène de la sourdité de la dentale sonore /ḍ/ et son passage à la dentale sourde
+/ṭ/ dans les 19 parlers étudiés est porté sur une carte géolinguistique (cf annexe 6.3, figure 4)
+1.1.5. Le passage de l’uvulaire sourde /q/ à la vélaire/ x/
+Le processus d‘évolution phonétique, comme les phonèmes que nous venons d‘étudier
+dans ce chapitre, affecte l‘uvulaire sourde /q /, il ne touche pas seulement le mode
+d‘articulation (sonorisation), mais aussi le lieu d‘articulation, puisque l‘uvulaire passe à la
+vélaire /x/. Ce changement de lieu d‘articulation concerne 11/19 parlers étudiés de la région
+de l‘est de Béjaia (cf annexe 3, tableau 5), c‘est ce qu‘illustre le tableau suivant :
+parler concerné l’uvulaire /q/ la vélaire /x/
+141
+---PAGE 141---
+Chapitre 1 : Les variables phonétiques
+Bouyman, Ait Bourman, Ighil Wis, Ait Amrous, Aqecwal
+Tagouba, Ait Bimoun
+Qelaoun, Taregragt Aqeclaw
+Ait Merai, Ijermounen, Ait Mbarek, Ighzer Uftis, Axecwal
+S.El.Tenine, Aokas, Tizi n berber
+Tamrijt, Laâlam, Ait Segoual Ixecxac
+Melbou Ixecxucen
+Le résultat de cette variation est porté sur une carte géolinguistique (cf annexe 6.3, figure 5)
+La sonorisation de l‘uvulaire /q/ et son passage à /ɣ/ est attesté dans quelques points
+d‘enquête, mais leur distribution n‘est pas systématique : Uvulaire sourde /q/ dans un parler et
+uvulaire sonore /ɣ/ dans un autre, ou la coexistence des deux uvulaires dans le même parler,
+c‘est le cas de :
+- /q/ : ttqersan ou tteɣrasen « ils se déchiraient », attesté dans les parlers Qelaoun,
+Ijermounen et Ait Marâi ;
+- /ɣ/ : tteɣrasen « ils se déchiraient », attesté dans le parler d‘Aokas et celui de Tizi n
+Berber ;
+- /γ/ –- /γγ/ : aγesmar « mâchoire »; aγerbal « tamis » et iγγar « il appelait »; iγγa
+« il tua »; taγγaṭ « chèvre » ;
+- /q/ –- /qq/ : amqerqur « grenouille »; aqelmun « capûche »; iqqar « il disait »;
+ameqqran « grand, l‘aîné ».
+Mais il y a d‘autres cas où la correspondante tendue de /γ/ est /qq/, comme l‘attestent les
+exemples ci-dessous :
+- /γ/ –- /qq/ : tiγimit « le fait de s‘asseoir » et qqim « s‘asseoir »; temγer « vieillesse » et
+ameqqran « grand ».
+142
+---PAGE 142---
+Chapitre 1 : Les variables phonétiques
+1.1.6. L’affriction de la dentale sourde tendue /tt/---[ţţ]
+L‘affriction est le phénomène qui affecte les consonnes occlusives, elles subissent une
+dégradation lente de l‘articulation laissant entendre un léger bruit fricatif ou spirant. C‘est ce
+qui lui confère sa nature constrictive, comme l‘a écrit Chaker (1983 : 55-56) disant que les
+affriquées kabyles proviennent de trois choses :
+- d‘occlusives dentales ayant subi un processus d‘affaiblissement articulatoire ;
+- de constrictives tendues ayant connu un phénomène de renforcement allant jusqu‘à
+une occlusion partielle ;
+- de fusions phonétiques entre consonnes de localisation voisine (dentales,
+prépalatales et palato-vélaires).
+Dans ce présent travail, notre intérêt se porte seulement sur l‘affriction de l‘apico-
+dentale sourde, qu‘elle soit simple ou tendue : [ţ] ~ [ţţ].
+L‘affriction de la dentale en général ne révèle aucune pertinence phonologique, elle
+n‘est qu‘une variante phonétique de /t/~ [ţ] simple ou de /tt/~ [ţţ] tendue, elle est attestée
+dans plusieurs parlers du dialecte kabyle comme celui d‘Irjen Chaker (1978) et d‘Akfadou
+Idir (2009). Cette affriction est par contre absente dans d‘autres parlers kabyles à l‘exemple de
+certains parlers de la région de l‘est de Béjaia. Nait Zerrad (2004 : 4068) ira plus loin en
+disant que tout le bloc EOR (extrême oriental) dit tasaḥlit et la partie Est du Bloc Oriental
+(Ait-Slimane) n‘utilisent pas les affriquées [ţ] et [ȥ]. A ce propos, il dit : « Le groupe EOR et
+en partie OR-Est ne connaissent pas les affriquées [ts] et [dz] ».
+Globalement, les berbérisants, tels qu‘Allaoua (1994), Nait Zerrad (2004) et Guerrab
+(2014), partagent les parlers kabyles en deux ou trois groupes, selon le degré d‘utilisation de
+cette consonne affriquée. Voici ce que nous dit Allaoua (1994 : 63) à ce sujet : « Tel groupe
+de parlers est caractérisé par un usage intensif de la semi-occlusive [ʦ], tel autre ne la
+connaît pas. »
+1. Un groupe où les affriquées [ţ] et [ţţ] ne sont pas attestées. Ce groupe est représenté par les
+parlers kabyles de tasaḥlit, dites aussi Kabylie extrême orientale.
+143
+---PAGE 143---
+Chapitre 1 : Les variables phonétiques
+2. Un groupe intermédiaire majoritaire où l‘affriquée [ţ] et sa correspondante tendue [ţţ] sont
+attestées, mais dans des contextes bien déterminés (préfixe de l‘aoriste intensif, marque du
+féminin en position finale, pronom complément régime direct de la troisième personne du
+féminin singulier et enfin résultat d‘une assimilation).
+3. Enfin, le troisième groupe comprend certains parlers de la vallée de la Soummam qui
+poussent encore plus loin l‘affriction de la dentale occlusive [t]. Dans ces parlers, la
+dentale [t] est souvent réalisée [ţ]. En voici quelques exemples d‘appui :
+– /t/ ~ [ţ] : tidet ~ [tideţ] « vérité » ; tasegrut ~ [tasegruţ] « épieu » ;
+– /tt/ / ~ [ţţ] : netta ~ [neţţa] « il, lui » ; a tt-nezwi ~ [a ţţ-nǝzwi] « nous la secouons »
+Ce phénomène d‘affriction est aussi attesté dans la région de l‘est de Béjaia, il touche
+particulièrement les parlers situés à l‘Ouest de cette région qui sont au nombre de trois (3/19) ;
+il s‘agit du parler d‘Ait Bimoun, de Tagouba et du parler d‘Ait Amrous.
+Nous tenons à préciser que l‘affriction dans ces trois parlers affecte généralement
+l‘apico-dentale tendue /tt/, que ce soit une tendue vraie ou, plutôt, le résultat d‘assimilation
+syntagmatique (/d/ + /t/ = [ţţ]) que nous allons développer dans le deuxième volet de ce
+chapitre. Voici quelques exemples :
+1. Vraie apico-dentale, affriquée
+- [aţţuɣ ṯǝkkaw, ffɣǝn-ţţ waman-nni ṯǝsɛa] «jusque là elle aura été séchée, son eau s‘en
+est allée» (cf annexe 2, texte 1.17, phrase 21), attestée dans le parler d‘Ait Amrous ;
+- [nǝţţalǝs ulli ma qrib aḏ ifakk chǝr mmayu] « on tond les brebis à l‘approche de la fin
+du mois de mai »(cf annexe 2, texte 1.18, phrase 1), attestée dans le parler de Tagouba;
+- [m‘ara ţţ-nsukk gǝmcǝṭ, a d-nǝţţǝkkǝs usṯu] «quand nous la passons par le peigne,
+nous extrayons le fil de trame» (cf annexe 2, texte 1.19, phrase 1O), attestée dans le
+parler d‘Ait Bimoun.
+2. Résultat d‘assimilation, que se soit « d » de la particule préverbale ad et « t-» préfixe
+144
+---PAGE 144---
+Chapitre 1 : Les variables phonétiques
+de l‘indice de personne dans le syntagme verbal ou encore « d » auxiliaire de
+prédication et « t » morphème du féminin, c'est le cas de :
+- [umbǝɛd a ţǝqqar swaswa] ~ umbeɛd ad teqqar swaswa «ensuite elle sèche à point »
+(cf annexe 2, texte 1.17, phrase 14), attestée dans le parler d‘Ait Amrous ;
+- [ma ṯǝmmug ţţiḥrǝztin a ţţ-nǝllǝm am lǝxyuṭ]~ ma temmug d tiḥreztin ad tt-nellem am
+lexyuṭ «une fois obtenue en plaquettes, nous la filons en fils»(cf annexe 2, texte 1.18,
+phrase 33), attestée dans le parler de Tagouba ;
+- [aţţǝdmǝṭ a ţrǝsmǝṭ ţţilajurin ḏ cjur]ad tt-teddmeṭ ad tt-tresmeṭ d tilajurin d ccjur «tu
+la prends et la façonnes en plaquettes géométriques et en dessins d‘arbres» (cf annexe
+2, texte 3.3, phrase 22), attestée dans le parler d‘Ait Bimoun.
+L‘apico-dentale affriquée simple, son usage, quant à elle, est trés marginal ; elle est
+attestée seulement dans un seul lexème : [ṯiliseţ] « laine tondue».
+Le tableau suivant illustre la répartition de l‘apico-dentale tendue affriquée [ţţ] et non
+affriquée [tt] dans les 19 parlers étudiés de la région de l‘est de Béjaia (cf annexe 3, tableau 6):
+les parlers concernés /tt/ [ţţ]
+Ait Bourman, Bouyman, Qelaoun, Ait [ttawin/a tt-nǝfsi] «ils
+Merai, Ijermounen, Taregragt, Ait Mbarek, emportèrent
+Darguina, Tamrijt, Laâlam, S.El.Tenine, habituellemnt/nous la
+Melbou, Ait Segoual, Aokas, Tizi n berber, démêlerons »
+Ighil Wis
+Ait Amrous, Tagouba, Ait Bimoun [ţţawin /a ţţ-nǝfsi]
+«ils emportèrent
+habituellemnt/nous la
+démêlerons »
+Les données de la variation de la dentale sourde tendue /tt/ sont portées sur une carte
+géolinguistique (cf annexe 6.3, figure 6).
+145
+---PAGE 145---
+Chapitre 1 : Les variables phonétiques
+1.1.7. Traitement de labiovélarisation (présence-absence)
+Le phénomène de labiovélarisation d‘après Mounin (1974 : 94) « est une réalisation
+phonique produite au moyen de deux articulations concomitantes : à la fois par le
+rapprochement des deux lèvres (labiale) et par l‘élévation du dos de la langue vers le voile du
+palais (dorso-vélaire) ». En d‘autres termes, les labio-velarisées résultent des coarticulations
+comprenant comme second élément un appendice labial, c‘est-à-dire arrondissement des
+lèvres. C‘est ce que donne la caractéristique constrictive à ces consonnes. Ces labiovélarisées
+peuvent être de simples variantes des non labiovélarisées dans certains parlers berbères,
+comme c‘est le cas des parlers du dialecte Chaouia étudiés par Lounissi (2010) et Boudjellal
+(2015), du parler d‘Akfadou Idir (2009) du dialecte Kabyle et du parler d‘Ait Zeghrouchen
+Pentolila (1981). Ou bien comme des paires minimales s‘opposant ainsi aux nons
+labiovélarisées à l‘exemple du parler d‘Irjen Chaker (1978, 1983). Voici quelques exemples
+attestant cette opposition.
+1. Les labiovélarisées sont de simples variantes des non labiovélarisées
+– [qw] ~ /q/ : [amǝqqwran] ~ ameqqran « le grand »
+– [kw] ~ /k/ : [axxam-nkwǝnt] ~ axxam-nkent « votre maison » ; ṯaɛǝkkwazṯ ~taɛekkazt
+« canne »
+– [ɣw] ~ /ɣ/ : [ṯaɣwǝsmarṯ] ~ taɣesmart « mâchoire »
+2. Les labiovélarisées s‘opposent aux non labiovélarisées (paires minimales)
+- /bbw/ ≠ /bb/ : yebbwi « il a emmené » ≠ yebbi « il a pincé »
+- /ggw/ ≠ /gg/ : reggwel « fuir habituellement» ≠ reggel « boucher habituellement ».
+Le phénomène de la labiovélarisation est aussi attesté dans la région de l‘est de Béjaia,
+il touche particulièrement les parlers situés à l‘est de cette région, il s‘agit éxactement de
+08/19 ; le parler d‘Ait Bourman, Bouyman, Qelaoun, Ait Merâi, Ijermounen, Taregragt, Ait
+Mbarek et Ighzer Ouftis de Darguina. Le phénomène de la labiovélarisation est très répandu
+dans ces parlers contrairement à ce qu‘annonce Guerrab (2014 : 74) en disant : « Le deuxième
+146
+---PAGE 146---
+Chapitre 1 : Les variables phonétiques
+groupe est celui où la labiovélarisation est connue, mais très peu utilisée. C‘est le cas de
+certains parlers de Tasaḥlit (Kherrata, Ath Smaïl, …).
+La présence de labiovélarisation dans ces parlers de la région de l‘est de Béjaia fait que
+les palatales et les vélaires sont labialisés :
+- [kw] ~ /k/ et [kkw] ~ /kk/ : [nekwni] ~ nekni « nous » et [ṯaɛǝkkwazṯ] ~ taɛekkazt
+«canne», attesté dans le parler de Bouyman, Ait Merai et celui de Taregragt ;
+- [qw] ~ /q/ et [qqw] ~ /qq/ : [lqwebl-iw] ~ lqebl-iw « ma part » et [lɛeqqwal] ~ lɛeqqal
+« les sages », attesté dans le parler de Bouyman ;
+- [gw] ~ /g/ et [ggw]~ [gg/ : [ag°lim] ~ aglim « la peau », [agwnǝs] ~ agnes « sol
+intérieur » et iggwed ~ igged « avoir peur », attestés dans le parler d‘Ijermounen ;
+- [qw] ~ /q/ et [qqw] ~ /qq/ : [aqwerruy] ~ aqerruy « tête », [imǝqqwranen] ~ imeqqranen
+« les grands » attestés dans le parler d‘Ait Mbarek ;
+- [ɣw]~ /ɣ/ : [ccɣwel] ~ ccɣel « travail », [aɣwesmar] ~ aɣesmar « mâchoire », attesté
+dans le parler de Taregragt.
+Ce que nous pouvons retenir des exemples sus-cités, c‘est que les labiovélarisées sont de
+simples variantes des non labiovélarisées, mais la pertinence de ces dernières ou leurs
+oppositions aux non labiovélarisées est aussi attestée dans les 08 parlers de la région de Béjaia.
+Les exemples suivants illustrent cette opposition :
+- /γw/ ~ /γ/ : taɣwebbart « poussière » ~ aɣebbar « pluie » ; tɣwebber « couverte de
+poussière » ~ tɣebber «engraisser, fertiliser la terre avec les déchets d‘animaux»,
+attesté dans le parler d‘Ijermounen ;
+- /ggw/ ~ /gg/ : iggwa « mûr » ~ igga « a un rapport sexuel », attesté dans le parler d‘Ait
+Marâi et celui de Taregragt.
+Le tableau suivant est une synthèse de la localisation de la labiovélarisation dans les
+parlers de la région de l‘est de Béjaia pour le lexème buzeggaɣ « rougeole » (cf annexe 3,
+tableau 7):
+147
+---PAGE 147---
+Chapitre 1 : Les variables phonétiques
+les parlers concernés Labiovélarisée non labiovélarisée
+Bouyman, Ait Bourman, Qelaoun, Ait [buzeggwaɣ]
+Merai, Ijermounen, Taregragt, Ait Mbarek
+et Ighzer Ouftis
+Tamrijt, Laâlam, S.El.Tennine, Melbou, [buzeggaɣ]
+Ait Segoual, Aokas, Tizi n berber, Ighil
+Wis, Ait Amrous, Tagouba, Ait Bimoun
+Les données de cette variation sont portées sur une carte géolinguistique (cf annexe 6.3,
+figure 7).
+1.1.8. Le maintien de la semi-voyelle tendue [ww] et son passage à [ggw]
+Le phénomène de la palatalisation de la semi-voyelle est très répandu dans les parlers
+kabyles, il est attesté aussi dans d‘autres dialectes comme c‘est le cas des parlers du Maroc
+central (Taifi : 1991)12, mais son aboutissement n‘est pas systématique dans tous les parlers et
+lexèmes où il est attesté.
+Si nous prenons l‘exemple de la semi-voyelle tendue « ww », nous constatons qu‘elle se
+prononce différemment d‘une région à l‘autre en Kabylie. Cette consonne se prononce
+généralement comme suit :
+- [bbʷ] pour les hommes et [ppʷ] pour les femmes et les enfants, dans la région de Tizi
+Ouzou. Guerrab (2014 : 74) ;
+- [ggw] dans une bonne partie de la région de la Soummam (sud-ouest de la wilaya de
+Bejaïa)- Madoui (1994 : 104) ;
+- [ww] dans la ville de Bejaïa et alentours, et dans une grande partie des parlers de la
+région de l‘est de Béjaia.
+12 Mer teḥcima axewwan ur ac-ireggwel « si tu avais bien maîtrisé le voleur, il ne se serait pas enfui » , 1991 ; P.
+239
+148
+---PAGE 148---
+Chapitre 1 : Les variables phonétiques
+Ainsi, le lexème tewwa « elle est cuite » est prononcé selon les parlers : ,
+[ṯəwwa],[ṯəbbʷa],[ṯəppʷa] et [ṯəggʷa].
+Le phénomène de la labiovélarisation de la semi-voyelle tendue « ww » est attesté
+dans 08 / 19 parlers où la labiovélarisation est répandue dans la région située à l‘est de
+Béjaia-ville. Il s‘agit du parler d‘Ait Bourman, Bouyman, Qelaoun, Ait Merâi, Ijermounen,
+Taregragt, Ait Mbarek et Ighzer Ouftis. En voici quelques exemples:
+- [a tt- nqǝrdǝc mliḥ alma ṯǝggwa g qǝrḏac] «nous la cardons très bien jusqu‘à
+mûrissement dans la carde » (cf annexe 2, texte 1.3, phrase 12), attesté dans le parler
+de Qelaoun, Ijermounen et Ait Merâi ;
+- [kul ṯaddarṯ ṯǝssǝggway g ṯǝxxamt-is] « chaque village prépare le repas dans sa propre
+chambre » attesté dans le parler de Bouyman ;
+- [ḏ‘ add-i-nǝjmǝɛ ḏ‘ att-nǝẓwǝṭ s uẓǝggwaṭ] « On la prélève, et on la fouette à l‘aide
+d‘un bâton (conçu à cet effet) » (cf annexe 2, texte 1.6, phrase 4), attesté dans le
+parler de Taregragt;
+- [ḏi ǥǝr ṯizḍéṯ ḏaxǝl n tɣǝzzalt ḇac ul ṯrǝggwǝl ula mi ḏi llǝm] «elle met la quenouille
+dans une assiette pour qu‘elle ne s‘échappe pas quand elle file» (cf annexe 2, texte 1.7,
+phrase 33), attesté dans le parler d‘Ait Mbarek.
+Certains parlers kabyles révèlent une labiovélarisation systématique de ces semi-
+voyelles tendues sus-citées, comme c‘est le cas du parler d‘Irjen Aissou (2007 : 34) et du
+parler d‘Akfadou Idir (2009 : 28), à l‘exemple :
+- /w/ ~ /ww/ ~ /bbw/;
+Aweḍ « arriver» ~ tewweḍ ~ [ṯǝbbwǝḍ] « elle arriva » ;
+Awi « prendre » ~ newwi~ [nǝbbwi] « nous prîmes » ;
+Ssew « préparer le repas » ~ sewwen ~ [sǝbbwǝn] « ils préparèrent le repas »
+149
+---PAGE 149---
+Chapitre 1 : Les variables phonétiques
+- /w/ ~/ww/ ~ /ggw/;
+Rwel « fuir » ~ rewwlen ~ [rǝggwlǝn] « ils fuyaient » ;
+Aweḍ/ṭ « parvenir » ~ [awwaṭ] ~ [aggwaḍ] « le fait de parvenir » ;
+Précisons ici que la labiovélarisation de la semi-voyelle tendue « ww », illustrée ci-
+dessus, n‘est pas systématique dans tous les 08 parlers où elle est attestée dans la région de
+l‘est de Béjaia. Cette labiovélarisation est systématique seulement dans 02/08 parlers
+concernés, celui de Taregragt et d‘Ighzer Ouftis à Darguina, les exemples suivants attestent
+cette systématisation /w/ ~ /ww/ ~ [ggw] :
+- [zweṭ]« fouetter » ~ [zǝggwǝṭ]« fouetter habituellement » ~ [aẓǝggwaṭ] « bâton conçu à
+fouetter » ;
+- terwel « fuir » ~[ṯrǝggwǝl] «fuir habituellement » ;
+- awi « prendre » ~ [ṯǝggwi] « elle a pris » ; [ṯǝggwa] « mûrir ».
+Dans le reste des parlers concernés par la labiovélarisation, à savoir 06/08 des parlers de
+la région située à l‘est de Béjaia-ville, la labiovélarisation de la semi-voyelle tendue « ww »
+n‘est pas systématique. C‘est le cas dans les exemples suivants :
+- /w/~ [ggw] comme : /wer/ « ouvrir » ~ [ṯaggwurṯ] « porte » ; [iggwa] « il est mûr » ;
+[iggwi] « il a pris » ; [ṯiggwa] « le dos » ; [irǝggwǝl] « fuir habituellement » sont
+attestés dans 06 parlers, à savoir Ait Bourman, Bouyman, Qelaoun, Ait Merâi,
+Ijermounen et Ighzer Ouftis.
+Mais, la correspondante tendue de la semi-voyelle /w/ ~ /ww/ est aussi attestée dans ces
+mêmes parlers c‘est le cas des lexèmes suivants :
+- zweṭ « fouetter la laine » ~ azewwaṭ « bâton conçu à fouetter » ; sewwet « fouetter,
+battre » ~ asewwaṭ « bâton conçu à fouetter, à battre », attesté dans le parler
+d‘Ijermounen et celui d‘Ait Marâi ;
+- aweṭ « parvenir, arriver » ~ iwweṭ «il parvient, il est arrivé».
+150
+---PAGE 150---
+Chapitre 1 : Les variables phonétiques
+Dans le reste des parlers étudiés, à savoir 11/19, la correspondante tendue de la semi-
+voyelle /w/ ~ /ww/ est maintenue dans tous les lexèmes que nous venons d‘étudier ci-dessus :
+[ṯawwurṯ] « porte » ; [iwwa] « il est mûr » ; [iwwi] « il a pris » ; [ṯiwwa] « le dos » ;
+[irǝwwǝl] « fuir habituellement ». Ce qui retient notre attention ici, c‘est que le parler d‘Ait
+Bimoun qui, pourtant ne connaît pas la labiovélarisation en général, prononce [irǝggwǝl] au
+lieu de [irǝwwǝl]. (cf annexe 3, tableau 8).
+On peut déduire ici - malgré l‘usage courant de la labiovélarisation de la semi-voyelle
+tendue dans un nombre considérable de parlers 08/19 de la région située à l‘est de Béjaia -,
+que son usage est, en grande partie, perçu comme de simples variantes de la semi-voyelle
+tendue « ww » : elle est porteuse de sens que dans un nombre très réduit de lexèmes.
+La localisation de la semi-voyelle /ww/ dans les 19 parlers étudiés est portée sur une
+carte géolingistique (cf annexe 6.3, figure 8).
+1.1.9. Vocalisation de la semi-voyelle
+Les semi-voyelles palatales /y/ et vélaire /w/ sont attestées dans tous les parlers berbères.
+Elles se distinguent des voyelles correspondantes / i/ et /u/.
+1. /w/ ≠ /u/ :
+- [ṯǝbγa aţ-ţarǝw] « elle voulait enfanter » se distingue de [ṯebγa aţ-ţaru] « elle voulait
+écrire »
+- [a nǝssǝw imǝnsi] « nous préparerons le dîner » se distingue de [a nǝssu ṯibḥirṯ] «
+nous arroserons le jardin ».
+Dans certains contextes, ces semi-voyelles « w/y » subissent le phénomène de
+vocalisation Lafkioui (2007 : 27). Leurs contextes peuvent être morphologiques, à l‘exemple
+de l‘indice de personne dans la catégorie verbale et l‘état d‘annexion dans la catégorie
+nominale, ou la vocalisation d‘une consonne interne au radical. En voici quelques exemples
+qui montrent ces tendances où la voyelle peut être considérée parfois comme une consonne et
+inversement :
+2. /w/ ~ /u/
+151
+---PAGE 151---
+Chapitre 1 : Les variables phonétiques
+- [acu i ṯǝn-yǝwγǝn] ~ [acu i ṯǝn-yuγǝn] « qu‘est ce qui leur arrive » ;
+- [wǝltma-ṯwǝn] ~ [ultma-ṯwǝn] « votre sœur » ;
+- [ṯǝwɛǝr i wqacǝr] « elle est dure en négociation » ~ [yuɛǝr uqacǝr] « la
+négociation est dure » ;
+- [Iwfa-yas-d ixf-is] « il a trouvé une solution » ~ [ṯufa-yǝdd sǝbba] « elle a trouvé
+un prétexte ».
+3. /y/ ~ /i/
+- yebγa ~ ibγa « il a voulu » ; yefka ~ ifka « il a donné » ;
+- [yufa ṯimɛiwna] « il a trouvé de l‘aide» ~ [iwf‘ iman-is] « il s‘est trouvé » ;
+1.1.1.4 1.1.9.1. Vocalisation de la semi-voyelle « y »
+La tendance de vocalisation de la semi-voyelle « y » est fortement attestée dans les
+parlers de la Région Est de Béjaia. C‘est surtout les verbes qui sont touchés par ce
+changement. La palatale /y/, lorsqu‘elle fait fonction d‘indice de personne du masculin
+singulier, elle devient dans plusieurs, si ce n‘est dans la totalité des parlers de cette région, une
+simple voyelle /i/, exception fait pour les verbes qui ont la forme CV ; Berkai (2014 : 69)
+évoque cette vocalisation dans l‘indice de personne en disant :
+« Une différence aussi concernant l‘usage de l‘indice de la 3ème pers. du masc.
+sing. : i/y-. La forme i- est plus utilisée dans le parler d‘Aokas où on la trouve
+dans tous les contextes, à l‘exception du contexte postvocalique qui entraîne une
+dissimilation de cette voyelle en semi-voyelle y ; contrairement aux parlers de la S.
+et de G.K où le i- n‘est attesté que devant une consonne suivie d‘une voyelle (iCV-)
+(Chaker, 1983 : 112) ».
+Voici quelques exemples où la semi-voyelle est vocalisée/y/ ~ /i/ :
+- [iswiqqǝr], [iqiṭṭǝr] « s‘égoutter », attestés respectivement dans le parler d‘Ighzer
+Ouftis, Ait Amrous et Tagouba ;
+- [imda] « il est accomplie » ; [iqqim] « il est resté » attestés dans le parler d‘Ighil Wis
+et celui d‘Ijermounen ;
+- [iwsa-yǝdd] « il est venu » ; iwɛǝr « il est dure » attestés dans le parler d‘Aokas et
+celui de Tizi n Berber.
+152
+---PAGE 152---
+Chapitre 1 : Les variables phonétiques
+Précisons tout de même, là aussi, que la vocalisation de la semi-voyelle /y/ n‘est pas
+systématique, car la semi-voyelle /y/ et sa correspondante vocalisée/i/ coexistent dans le
+même parler, c‘est ce que synthétise le tableau suivant :
+indice de personne avec/y/ indice de personne avec/i/ parler concerné
+yemmut « il est mort » ; iɛma « il est aveuglé » ; Bouyman ;
+yettreqriq « il brille » ; irad « il est lavé » ; Ait Bourman ;
+yeččar « il sera plein » ; iččur « il est plein » ; Ighil Wis ;
+yeffeɣ « il est sorti » ; [ireggwel] « il fuit habituellement » Ait Bimoun
+ireg(a) « il est sorti » Laâlam, Tamrijt
+Il est à signaler que, même dans un contexte postvocalique entraînant une dissimilation
+de cette voyelle /i/ en semi-voyelle /y/, certains parlers (03) de la région de l‘est de Béjaia
+maintiennent le phénomène de la vocalisation de la palatale. C‘est le cas dans l‘exemple
+suivant : usa (thème de prétérit du verbe as « venir ») formé en VCV (voyelle + consonne)
+imputantl‘indice de personne /y/ dans la majorité écrasante des parlers kabyles et donne yusa-
+d « il est venu ». Mais dans le parler d‘Aokas, de Tizi n Berber, d‘Ijermounen, ce verbe est
+attesté iwsa-yedd « il est venu », là nous constatons, la dissimilation de la voyelle /u/ en semi-
+voyelle/w/. C‘est le même processus de dissimilation qui est attesté pour les verbes ayant la
+même forme (VCV) comme :
+- af ~ awef « trouver » : yufa~ iwfa « il a trouvé » ;
+- ut ~ ewt « frapper » : yuta ~ iwta « il a frappé » ;
+- aɣ ~ aweɣ « action de teinture» : yuɣ ~ iweɣ « il est teinté »
+Malgré la tendance de la vocalisation de la semi-voyelle /y/, le processus inverse, à
+savoir, la dissimilation de la voyelle /i/ en semi-voyelle /y/ est attesté dans la région de l‘est de
+Béjaia et dans le contexte où il doit être une voyelle /i/ forme en CV. Deux sur dix-neuf
+parlers (02/19) sont concernés ; le parler d‘Ighil Wis et celui d‘Ait Bimoun. C‘est ce
+qu‘attestent les deux verbes fakk « terminer » et qeɛɛed « réparer », conjugués à la 3ème
+personne masculin singulier donnant respectivement yfukk « il est achevé » au lieu de ifukk et
+153
+---PAGE 153---
+Chapitre 1 : Les variables phonétiques
+yeqɛed « il est réparé » au lieu de iqeɛɛed, tous les deux (ifukk / iqeɛɛed) sont attestés dans
+les 17 /19 parlers de cette région.
+En règle générale, la vocalisation de la semi-voyelle /y/ est systématique dans le
+premier segment de l‘indice du participe au prétérit « y---n » qui donne « i---n » ; elle est
+attestée dans tous les parlers étudiés.C'est ce que montrent les exemples suivants : Iwejden
+« étant prêt » ; ibɣan « voulant » ; iḥman « étant chaud », iṣfan « être pur, propre »
+1.1.9.2. La vocalisation de la semi-voyelle /w/
+Comme cité ci-haut, le phénomène de vocalisation de la semi-voyelle /w/ touche la
+consonne interne au radical ou bien la marque de l‘état d‘annexion. Ce phénomène de
+vocalisation est très répandu dans les parlers de la région de l‘est de Béjaia. C‘est ce que
+Berkai (2014 : 80) explique en disant:
+« La tendance à la vocalisation des semi-voyelles très avancée dans ce parler
+(Aokas) fait que la forme we- d‘annexion de certains noms de la forme acc-
+correspond parfois à u- dans le parler d‘Aokas lorsque le nom « annexé » est
+précédé d‘un mot se terminant par une consonne. Souvent, les locuteurs
+interrogés ne savent pas s‘ils prononcent un we- ou un u- ».
+Mais, en ce qui concerne la semi-voyelle /y/, le phénomène de la vocalisation n‘est pas
+systématique ; c‘est ce que montrent les exemples suivants :
+1. Marque d‘état d‘annexion /w/ ~ /u/
+- iwella-yedd weqcic ~ iwella-yedd uqcic « le garçon est rentré », attesté dans le parler
+d‘Aokas ;
+- Inɛettab wergaz ~ inɛettab urgaz « l‘homme est fatigué», attesté dans tous les parlers
+de la région de l‘est de Béjaia ;
+- [d‘att-xemmet ccɣel n weɛric alma teqqor mliḥ] « tu la suspends comme une pergola
+jusqu‘au séchage complet », attesté dans le parler de S. El. Tennine, elle aboutit à
+[d‘att-xǝmmǝt ccɣǝl n uɛric almi da qqur mmliḥ] attesté dans le parler de Melbou.
+154
+---PAGE 154---
+Chapitre 1 : Les variables phonétiques
+2. Vélaire interne au radical : La vélaire /w/ faisant partie du radical, aussi verbal soit-
+elle ou non, est aussi sujette à la vocalisation. Mais, là aussi, la vocalisation n‘est pas
+systématique.
+- lewsex, iwesxan « saleté (s), impureté (s) », attesté dans le parler de Laâlam, celui
+d‘Ait Segual et celui de Melbou ~ lusex « saleté», attesté dans les autres parlers.
+- ayweq ~ ayuq « quand » ;
+- tibɛucin ~ tibeɛwac « insectes » ; pour le radical non verbal ;
+- nezweṭ « nous avons fouetté » ; tewɛer « elle est difficile, dure » ; ssawjaden « ils
+préparent », attestés dans le parler d‘Ighzer Ouftis (Derguina) et celui d‘Akkar (Aokas)
+~ nzuṭ ; tuɛer ; ssujuden, attestés dans les parlers Qelaoun, Ait Bourman et
+S.El.Tennine.
+Pour ce qui est de la non systématisation de la vocalisation de la semi-voyelle /w/, nous
+constatons que dans plusieurs parlers de la région de l‘est de Béjaia, la voyelle et sa
+correspondante semi-voyelle coexistent ensemble dans des lexèmes différents et parfois dans
+les mêmes lexèmes. C‘est le cas dans les exemples suivants :
+- tewɛer ~ tuɛer « elle est dure ; iwjed, nessawjed ~ yujed, nessujed « il est prêt, nous
+préparons », attesté dans le parler d‘Ait Amrous et celui de Tagouba ;
+- yewɣ ~ iweɣ « il a laissé de trace » ; lweqt « le temps » mais ittuṭerreq « il est chassé »
+attesté dans le parler d‘Ait Segual ;
+- nzuṭ « fouettons » ; tuɛer « elle est dure » ; tuta « elle a frappé » mais iwɣen « laissant
+de trace », attesté dans le parler de Tamrijt.
+Cette coexistence de la voyelle et de la semi-voyelle est synthétisée dans le tableau
+suivant (cf annexe 3, tableau 9) :
+les parlers concernés la semi-voyelle /w/ la voyelle /u/
+Ait Bourman et Qelaoun zuṭ, yuɛer, yujed, issujud
+Ijermounen, Ait Merâi iwɛer, iwjed, izuṭ, yuɛer, yujed, issujud
+Taregragt, Ait Mbarek, Bouyman iwɛer, iwjed, issawjad
+et Ighzer Ouftis
+Tamrijt iwɣen, lweqt zuṭ, tuta, tuɛer
+155
+---PAGE 155---
+Chapitre 1 : Les variables phonétiques
+Laâlam izuṭ, yuɛer, yujed, issujud
+Ait Segoual et Melbou iwɣen, lweqt ittuṭerreq
+S.El. Tennine izuṭ, yuɛer, yujed, issujud
+Aokas et Tizi n Berber zweṭ, iwɛer, iwjed,
+issawjad
+Ighil Wis, Ait Amrous et Tagouba yewɛer, yewjed, issawjed izuṭ, yuɛer, yujed, issujud
+Ait Bimoun zuṭ, yuɛer, yujed, issujud
+Les données de cette variation sont portées sur une carte géolinguistique (cf annexe 6.3 ;
+figure 9)
+Ce que nous pouvons déduire de ce tableau :
+1. Un groupe conservant la semi-voyelle interne : parlers de Taregragt, Ait Mbarek,
+Ighzer Ouftis, Aokas et Tizi n Berber.
+2. Un groupe ayant subi en grande partie le phénomène de la vocalisation : les parlers de
+Tamrijt, Leâlam, Ait Segoual et Melbou ; ou définitivement les parlers formant les
+deux extrémités, à savoir le parler d‘Ait Bourman pour l‘extrême Est et d‘Ait Bimoun
+pour l‘extrême Ouest.
+3. Un groupe où la semi-voyelle et sa vocalisation coexistent ensemble: il s‘agit des
+parlers aux extrémités Est - Ouest, celui d‘Ijermounen, d‘Ait Merâi et de Qelaoun pour
+la partie Est et d‘Ighil Wis, d‘Ait Amrous et de Tagouba pour l‘Ouest.
+Si nous tentons de ségmenter les transformations de la forme basique du lexème ɣedwa-
+nni, « le lendemain en question », nous retenons que le phénomène de vocalisation est plus
+poussé : /w/ ~ /y/ ~ ϕ,
+- il est attesté ɣedwatiwen dans le parler de taregragt ;
+- ɣedwatuyen dans le parler d‘Aokas ;
+- et ɣedwaten dans le parler d‘Ijermounen, d‘Aokas et celui de Ait Merâi.
+Ce même parcours de transformations est observable dans le lexème iwker « il a volé »,
+il est attesté iwker /w/ dans les parlers Ijermounen, Ait Merâi et Ait Amrous ; yuker /u/ dans
+156
+---PAGE 156---
+Chapitre 1 : Les variables phonétiques
+les parlers de Bouyman, Ait Bimoun et Ait Bourman ; et iker (ϕ) dans le parler de Tizi n
+Berber et d‘Aokas.
+Ce que nous pouvons conclure de cette phonétique articulatoire, c‘est la non
+systématisation de l‘évolution phonétique des phonèmes étudiés, que ce soit sur le plan
+linguistique ou géographique.
+1) Sur le plan linguistique : L‘évolution phonétique du phonème n‘est pas la même dans
+toutes les catégories monématiques comme c‘est le cas de l‘interdentale fricative /t/ :
+- Spirantisation [ṯ], en d‘autres termes, évolution initiale (si nous pouvons l‘appeler
+ainsi)-, car le changement n‘intervient qu‘au mode d‘articulation dans la classe
+nominale ;
+- Affaiblissement ou changement de lieu d‘articulation /t/ ~/h/, appelée aussi évolution
+partielle dans la classe des substituts ;
+- élision ou chute /t/~ ϕ dans la classe des verbes et substituts affixes, régime direct.
+2) Sur le plan géographique : l‘évolution phonétique du phonème en général n‘est pas
+systématique dans les parlers étudiés, ce qui explique la coexistence de deux stades
+évolutifs dans un seul parler /ww/~ [ggw], comme c‘est le cas du parler de Bouyman,
+Ijermounen et Ait Meraî.
+D‘autre part, le rapprochement géographique favorisant lecontinuum linguistique n‘est
+pas toujours juste, c‘est le cas du parler de Bouyman (commune d‘Ait Tizi) qui ne partage
+pas la même évolution phonétique de l‘interdentale fricative dans la catégorie des
+substituts affixes, régime direct :
+- Affaiblissement /t/~ /h/ à Bouyman (Ait Tizi) : [Iẓra-hen-d] « il les a vus » comme
+c‘est le cas à Ighil Wis et Tagouba (Ait Melloul) qui partagent une frontière
+géographique commune ;
+- Élision /t/~ ϕ à Bouyman : [iẓra-yadd-un] « il les a vus », attesté aussi dans le parler
+d‘Ait Ali Oumhand et de Taregragt (commune d‘Ait Smail).
+157
+---PAGE 157---
+Chapitre 1 : Les variables phonétiques
+2. La phonétique combinatoire
+Si les consonnes et les voyelles peuvent être étudiées comme unités indépendantes entre
+elles dans le cadre de la phonétique articulatoire (mode et lieu d‘articulation), ces unités
+s‘influencent mutuellement, entretenant ainsi un contraste pour former des unités supérieures
+à celle des phonèmes, à savoir le morphème, le lexème et le syntagme pour la linguistique
+phrastique. Voici le résultat de l‘interaction mutuelle entre les voyelles et les consonnes:
+- Assimilation par l‘interaction entre consonnes ;
+- Chute ou adjonction de la semi-voyelle par le contact des voyelles
+2.1. L’assimilation
+L‘assimilation est un processus phonologique où un phonème devient plus au moins
+identique à un autre phonème adjacent (le suit ou le précède) sous l‘effet de l‘influence
+réciproque. L‘assimilation est définie par Sadiqi (1997 : 61) comme suit: « C‘est un processus
+phonologique où un segment devient phonème au moins identique à un autre segment sous
+l‘effet de l‘influence de l‘un sur l‘autre dans un environnement phonétique précis ».
+L‘interaction entre les consonnes peut jouer, comme nous l‘avons évoqué ci-dessus,
+dans deux unités différentes :
+- L‘unité du lexème, donnant ainsi l‘assimilation monématique.
+- L‘unité du syntagme, aboutissant à l‘assimilation syntagmatique.
+Quant aux résultats de l‘influence mutuelle, deux types d‘assimilation sont distingués :
+- L‘assimilation progressive, changement total ou partiel d‘un segment sous l‘influence
+d‘un autre segment le précédant immédiatement ; pour ce type d‘assimilation le
+changement affecte le deuxième segment.
+- l‘assimilation régressive, Changement total ou partiel d‘un segment sous l‘influence
+d‘un autresegment le suivant immédiatement. Dans ce cas, le changement affecte le
+premier segment, c‘est l‘assimilation la plus répandue.
+158
+---PAGE 158---
+Chapitre 1 : Les variables phonétiques
+Les assimilations recensées dans les dix-neuf parlers représentant la région de l‘est de
+Béjaia sont traitées dans leur unité où elle intervient (lexème ou syntagme). Elles ne diffèrent
+pas de la quasi-totalité des autres parlers du dialecte kabyle, où les rencontres de phonèmes,
+appartenant à un même lexème ou à des lexèmes distincts, sont à l‘origine de nombreux
+accidents phonétiques. Ce qui nous donne les deux types d‘assimilations, à savoir
+l‘assimilation monématique et l‘assimilation syntagmatique.
+2.1.1. L’assimilation interne (monématique)
+Cette assimilation se maniféste au niveau du lexème ; que ce soit un nom, un verbe ou
+un fonctionnel ; elle est généralement régressive. Elle peut toucher :
+1. La fin des mots féminins formés sur leur correspondants masculins qui se terminent
+par la dentale sonore /d / (Rabehi, 194 :18) comme :
+/d/+/t/ ~ [tt] : aḥessad ~ taḥessadt [taḥessatt] « hypocrite » ; awdad ~ tawdadt
+[tawdatt] « montant vertical en bois du métier à tisser », attesté dans les parlers
+Ijermounen, Aokas et Tagouba.
+2. Dans des mots ayant les consonnes ci-dessous ;
+- / k / + / f / ~ [ff] : ekf « donner », attesté dans les parlers Ijermounen et Ait Marâi, ou
+efk attesté dans les parlers Ait Bourman, Ighil Wis, Ait Amrous, Tagouba et Ait
+Bimoun, aboutit en eff, attesté dans les parlers Taregragt, Bouyman, Ighzer Ouftis,
+Aokas, Tizi n Berber, S. El. Tennine, Laâlam et Tamrijt ; ayekfi « lait » attesté dans les
+parlers Ait Merâi et Ijermounen ou ayefki attesté dans le groupe d‘Ait Amrous
+aboutissant à ayeffi/akeffi dans le groupe de Taregragt.
+- / d / + / m / ~ [mm] : xdem « faire » aboutissant à xemm dans la majorité écrasante des
+parlers étudiés.
+Ces deux assimilations, que nous venons d‘évoquer, le sont par le lieu d‘articulation,
+étant donné l‘existence des deux consonnes sourdes et fricatives dans ces parlers.
+- / n / + / γ / ~ [γγ] : enγ « tuer » attesté dans le parler d‘Ait Bimoun, Tagouba, Ait Amrous,
+où la dissimilation est notable, contrairement à eγγ où /n/ est assimilé à /ɣ/, attesté dans le
+restant des parlers de la région de l‘est de Béjaia.
+159
+---PAGE 159---
+Chapitre 1 : Les variables phonétiques
+L‘assimilation interne peut être, mais rarement, progressive. Elle est recencée dans les
+cas suivants :
+- La fin des mots féminins formés sur leur correspondants masculins se terminant par la
+dentale sourde emphatique /ṭ/ : ameγṭaṭ ~ tameγṭaṭt [tameγṭaṭṭ] «celui ~ celle qui se
+fâche» ; asemmaṭ ~ tasemmaṭt [tasemmaṭṭ] « frais, fraîche».
+- Les mots où un phonème sonore peut influencer un autre sourde qui le suit
+immédiatement / s / + / d / ou /g/ ~ [zz] comme dans sdat ~ zdat ~ zzat « devant
+», attesté dans tous les 19 parlers étudiés ; sg-es ~ zg-es « de », attesté dans 18 parlers,
+exeption fait pour le parler d‘Ait Bourman où cette forme aboutit à zzis.
+Ce qui retient notre attention ici, c‘est que quatre des dix-neuf parlers (04/19) attestant
+le lexème ldi « ouvrir » sont Ait Bimoun, Tagouba, Ait Amrous et Ighil Wis ; c‘est plutôt le
+phénomène de dissimilation qui est retenu en rapport à lli attesté dans le parler d‘Akfadou (cf
+Idir, 2009).
+- /n/ + /k/ > [kk] : anken « comme ça », attesté dans le parler d‘Aokas, Tizi n Berber,
+S.El.Tennine, Tamrijt, Ait Mbarek, Taregragt, Ijermounen, Ait Merâi et Bouyman,
+aboutit à akken attesté dans les parlers Ait Bimoun, Ait Amrous, Tagouba, Ighil Wis et
+Ait Bourman et aboutit finalement, non seulement à l‘affaiblissement articulatoire
+(tendue-simple), mais aussi à la palatale sourde spirante [ḵ] haḵǝn attesté dans le
+parler de Melbou, Ait Segoual et Leâlam ; anka « comme ça », attesté dans les parlers
+de Bouyman, taregragt et Aokas, donne akka attesté dans les parlers Ait Bimoun, Ait
+Amrous, Tagouba, Ighil Wis et Ait Bourman ; tenker attesté dans le parler d‘Irjen
+donne tekker « elle se leva » dans tous les parlers de la région de l‘est de Béjaia.
+- /c / + /w/ > [cc] : taɛecwit « l‘après midi » attesté dans les parlers Aokas, Tizi n berber,
+Ait Merâi, Ijernmounen, Qelaoun, Taregrat, Ait Mbarek donne taɛeccit attesté dans le
+parler d‘Ighil Wis (cf annexe 2, texte 1.16, phrase 4), Tagouba, Ait Amrous et Ait
+Bimoun. Les données de cette variation sont portées sur une carte géolinguistique (cf
+annexe 6.5, figure 4).
+160
+---PAGE 160---
+Chapitre 1 : Les variables phonétiques
+2.1.2. L’assimilation dans la chaîne
+Elle est le résultat du contact entre deux monèmes dans une chaîne. Les deux
+phonèmes qui seront influencés sont le phonème final du premier monème avec le phonème
+initial du deuxième monème. Dans cette assimilation c‘est le type régressif qui est récurent,
+c‘est le cas des exemples suivants :
+- Auxiliaire de prédication + nom féminin / d / + / t / aboutissant à [tt] est attesté dans la
+majorité des parlers de la région de l‘est de Béjaia ; ils sont au nombre de 16/19,
+exeption faite du parler d‘Ait Amrous, de Tagouba et celui d‘Ait Bimoun (situés dans
+la partie Ouest de cette région, dont le résultat de cette assimilation est l‘affriquée [ţţ]).
+En voici des exemples illustratifs:
+d tizehranin > t-tizehranin>[ttizehranin] « c‘est des grosses » ; d tameḥduqt > t-
+tameḥduqt >[ttameḥduqt] « c‘est une dégourdie » ; d taweddaɛt > t-
+taweddaɛt >[ttaweddaɛt] «c‘est des bourrelets indémêlables» ; d tisumt(a)iw(a)in >
+t-tisumt(a)iw(a)in > ttisumt(a)iw(a)in « c‘est des oreillets » pour les 16 parlers (Ait
+Bourman, Bouyman, Qelaoun, Ait Merai, Ijermounen, Taregragt, Ait Mbarek, Ighzer
+Ouftis, Tamrijt, Laâlam, S.El.Tennine, Melbou, Ait Segoual, Aokas, Tizi n berber,
+Ighil Wis), et, d tibǝztuḥin > ţ-ţibǝztuḥin >[ţţibǝztuḥin]« c‘est des petites », attesté
+dans le parler de Tagouba et celui d‘Ait Amrous ; d tiwǝrqaṯin > ţ-ţiwǝrqaṯin >
+[ţţiwǝrqaṯin] «c‘est des feuilles » (cf annexe 2, texte 1.19, phrase 10), attesté dans le
+parler d‘Ait Bimoun.
+- Nom + préposition + nom féminin / d / + / t / >[tt] attesté non seulement dans les
+parlers de la région de l‘est de Béjaia mais dans tous les parlers kabyles, c‘est ce
+qu‘attestent : tamehbult d tmeḥduqt > tamehbult t-tmeḥduqt >[tamehbult ttmeḥduqt]«
+la niaise et la dégourdie » ; iɣǝd d tmǝrkǝssiwṯ > iɣǝd t-tmǝrkǝssiwṯ > [iɣǝd
+ttmǝrkǝssiwṯ]« la cendre et la citronnelle » attesté dans le parler d‘Ait Bimoun et
+aḵǝccaṭ d tullatan>aḵǝccaṭ t-tullatan> [aḵǝccaṭ ttullatan] «batôn et brebis», attesté
+dans le parler de Melbou.
+- Particule d‘orientation spatiale + l‘indice de 3ème personne singulier féminin, ou bien
+particule d‘orientation spatiale + 2ème personne, que se soit singulier ou pluriel,
+féminin ou masculin. Dans ce type d‘assimilation le résultat n‘est pas le même, c‘est
+161
+---PAGE 161---
+Chapitre 1 : Les variables phonétiques
+une assimilation régressive dans les parlers qui ont comme particule préverbale « di »
+aboutissant à /d/ + /t/ = [tt], et une assimilation progressive pour ceux utilisant la
+particule préverbale « ad » et qui donne /d/ + /t/ = [dd].
+- 2ème personne du singulier, au masculin ou au feminin: Là aussi, l‘assimilation est
+régressive dans les 13 parlers formant le centre de la région de l‘est de Béjaia, et
+progressive dans les 06 autres parlers restants constituant la périphérie (04 à l‘Ouest et
+02 à l‘extrème Est) : di d-tǝkfǝt > di t-tǝkfǝt > [di ttǝkfǝt] « tu vas donner » attesté
+dans le parler de Tizi n berber, d‘Aokas, de S. El. Tennine, de Tamrijt, de Laâlam, le
+parler de Melbou, le parler d‘Ait Segoual, le parler d‘Ighzer Ouftis, d‘Ait Mbarek, de
+Taregragt, de Bouyman, d‘Ait Marai et le parler d‘Ijermounen; a d-tǝssirḏǝt > a d-
+dǝssirḏǝt > [a ddǝssirḏǝt] « tu vas te laver » attesté dans le parler d‘Ighil Wis, d‘Ait
+Amrous, d‘Ait Bimoun et de Tagouba à l‘Ouest de la région de l‘est de Béjaia, et à Ait
+Bourman, et Qelaoun à l‘extrème Est de la région étudiée.
+- 3ème personne de singulier, feminin : di d-tawi > di t-tawi > [di ttawi] « elle va
+ramener, elle ramènera » (cf annexe 2, texte 1.9, phrase 15); ḏi d-tǝkkǝs > ḏi t-tǝkkǝs >
+[ḏi ttǝkkǝs] « elle va enlever », attesté dans 13 parlers : le parler de Tizi n berber,
+d‘Aokas, de S. El. Tennine, de Tamrijt, de Laâlam, de Melbou, d‘Ait Segoual, d‘Ighzer
+Ouftis, d‘Ait Mbarek, de Taregragt, de Bouyman, d‘Ait Marai et le parler
+d‘Ijermounen. Cette assimilation est progressive dans 06 parlers de la région étudiée: a
+d-tǝzdi > a d-dǝzdi > [a ddǝzdi] « elle rattachera », attesté dans le parler d‘Ait
+Bourman ; a d-tawi > a d-dawi > [a ddawi] «elle ramènera » attesté dans le parler de
+Qelaoun, Ighil Wis, Ait Amrous, Ait Bimoun et Tagouba.
+- 2ème personne du pluriel, masculin ou feminin, l‘asssimilation concerne la particule
+d‘orientation spatiale et le premier segment de de l‘indice de personne (t---m /t---mt) :
+di d-tawim > di t-tawim >[di ttawim]« vous allez ramener », di d-tawimt > di t-
+tawimt >[di ttawimt] « vous allez ramener » attesté dans les 13 parlers qui ont la
+particule préverbale « di » évoqués ci-dessus où l‘assimilation est régressive. a d-
+tǝrnum/mt > a d-dǝrnum/mt >[a ddǝrnum/mt]« vous allez rajouter» attesté dans les 06
+parlers restants de la région étudiée : là, par contre, l‘assimilation est progréssive.
+162
+---PAGE 162---
+Chapitre 1 : Les variables phonétiques
+– Particule préverbale « ad » + indice de personne : l‘assimilation, entre la particule
+préverbale et l‘indice de personne, affecte particulièrement le préfixe de trois
+personnes : la deuxième et troisième personne /d/ + /t/ (t---/t---m/t---mt) aboutit à [t/ţ],
+et la première personne du pluriel /d/ + /n/ donne /nn/ : cette assimilation est de type
+régressive pour les deux.
+– Le « d » de la particule préverbale « ad » + le « t- » ; premier segment de l‘indice de
+personne t---ṭ ; t---m ; t--- : cette assimilation concerne, comme nous l‘avons évoqué
+ci-dessus, les parlers qui ont la particule préverbale « ad », ils sont au nombre de six.
+L‘assimilation aboutit à l‘affriquée [ţ], donc assimilation réciproque dans 03 parlers
+situés à l‘extrême Ouest de la région de l‘est de Béjaia: le parler d‘Ait Bimoun, de
+Tagouba et celui d‘Ait Amrous) et, aboutit à la non affriquée [t] (assimilation
+régressive) dans le parler d‘Ighil Wis situé à l‘Ouest de la région de l‘est de Béjaia, et,
+aussi dans le parler de Qelaoun et celui d‘Ait Bourman, à l‘extrême Est de la région
+étudiée. C‘est le cas de : [ma qrib a ţfakk, a ţaweṭ ɣel iṭarren-is, a ţales tmeṭṭut-nni
+ayen umi neqqar ikeɛɛalen] « juste avant qu‘elle ne se termine, arrivée à ses pieds, la
+femme en question tond ce qu‘on appelle les crottes» (cf annexe 2, texte 1.18, phrase
+8);ad tawiṭ> aţ-ţawiṭ (2 p.sing.fém.masc.) «Tu emporteras »; ad tawi > aţ-ţawi (3
+p.sing.fém.) «Elle emportera »; ad tawim > aţ-ţawim (2ème p.pl.masc.) «Vous
+emporterez »; ad tawimt > a ţ-ţawimt (2ème p.pl.fém.) «Vous emporterez », attesté dans
+le parler d‘Ait Bimoun, parler de Tagouba et celui d‘Ait Amrous ; ad tkemsem > [aṯ-
+ṯḵǝmsǝm] >[a tḵǝmsǝm]« vous allez nouer » attesté dans le parler d‘Ighil Wis ; ad
+tezdiṭ tafuset ɣer tayǝṭ >[attǝzdiṭṯafusǝt γ ṯayǝṭ] «tu raccordes les mèches les unes aux
+autres » (cf annexe 2, texte 1.1, phrase 14), attesté dans le parler de Qelaoun et celui
+d‘Ait Bourman.
+– /ad/ + /n/ >/nn/: ad nezdi tafalekt ɣer tayǝṭ >[annǝzḏi ṯafalǝḵṯ γ ṯayǝṭ]« nous mêlerons
+une mèche bout à bout» (cf annexe 2, texte 1.1, phrase 13), attesté dans le parler d‘Ait
+Bourman ; ad nawi > [a nawi] «Nous emporterons » et ad nexdem > [a nǝxḏǝm] «
+nous travaillerons » (cf annexe 2, texte 1.3, phrase 16), attesté dans le parler de
+Qelaoun et celui d‘Ighil Wis; ad nefsi takurin-nni > [a nnǝfsi ṯaḵurin-nni] « nous
+163
+---PAGE 163---
+Chapitre 1 : Les variables phonétiques
+démêlerons les bobines en question » (cf annexe 2, texte 1.18, phrase 24), attesté dans
+le parler d‘Ait Amrous, le parler de Tagouba et celui d‘Ait Bimoun.
+- La préposition [n] + état d‘annexion du nom masculin /w/ou /y/ donnant la
+semivoyelle tendue /ww/ et /yy/ (assimilation régressive) :
+1. /n/ + /w/ > [ww] : Malgré l‘existance de la labiovélarisation dans certains parlers de la
+région de l‘est de Béjaia, comme nous l‘avons déjà vu dans la phonétique articulatoire,
+elle ne concerne pas ce type de syntagme, comme c‘est le cas de plusieurs parlers
+kabyles, à l‘image du parler d‘Akfaddou Idir (2009 : 36), et celui d‘Irjen Aissou (2007 :
+43) : n wuday > w-wuday >[wwuday] « du juif » ; n warrac > w-warrac >[wwarrac]
+« aux garçons » ; ḵra n wussan > ḵra w-wussan > [ḵra wwussan] « quelques jours
+» et azǝṭṭa n wǝḥram > azǝṭṭa w-wǝḥram > [azǝṭṭa wwǝḥram]« tissage de couverture ».
+Les exemples ci-dessus sont tous attestésdans les 19 parlers étudiés de la région de
+l‘est de Béjaia. Par contre, tullsa n wulli > tullsa w-wulli > [ṯullsa wwulli] «tontedes
+brebis» (cf annexe 2, texte 1.19, phrase 2) est attesté dans le parler d‘Ait Bimoun,
+d‘Aokas et de Tizi n Berber ; et, aqerqed n wulli > aqerqed w-wulli > [aqerqed
+wwulli] attesté dans les parlers d‘Ijermounen, Qelaoun, Melbou, Ait Segoual, Laâlam,
+S.El.Tennine et celui d‘Ait Merâi ; ḵra wwaman > ḵra wwaman > [ḵra wwaman] «
+un peu d‘eau » (cf annexe 2, texte 1.16, phrase 8), attesté dans le parler d‘Ighil Wis.
+2. /n/ + /y/ > [yy] : cette assimilation est attestée dans les 19 parlers étudiés de la région
+située à l‘est d Béjaia, elle est du type régressive : tajmaɛt n yergazen >tajmaɛt y-
+yergazen >[tajmaɛt yyergazen] « l‘assemblée des hommes » ; n yixxamen-is> y-
+yexxamen-is>[yyexxamn-is] « de ses maisons » ; lxiṭ n yilni > lxiṭ y-yilni > [lxiṭ
+yyilni] « fils de trame».
+Ce que nous tenons à éclairer ici, c‘est que dans certains parlers de la région de l‘Est de
+béjaia-ville, l‘association de la préposition « n » à la marque de l‘état d‘annexion du nom qui
+suit cette préposition ne donne pas l‘assimilation régressive, on ne sent pas la tention du (yy-)
+comme les exemples précédents c‘est le cas de l‘exemple : Tala n yifassen qui aboutit à tala
+yfassen et pas tala yyifassen « nom d‘un village, toponyme ».
+164
+---PAGE 164---
+Chapitre 1 : Les variables phonétiques
+- La préposition n « de » + éxpansion sans la marque d‘état d‘annexion : c‘est une
+assimilation qui touche tous les 19 parlers de la région de l‘est de Béjaia, elle est de
+type régressive. C‘est le cas de :
+– /n/ + expansion commençant par une consonne, excepté les noms propres :
+/n/ + /f/ > [ff] : adrar n fad >adrar f-fad > [adrar ffad] « la montagne de la soif
+» ;
+/n/ + /l/ > [ll] : ussann laẓ> ussan l-laẓ> [ussan llaẓ] « jours de la faim » ; aɛeqqa
+n luz >aɛeqqa l-luz> [aɛeqqa lluz] «grain d‘amandier » ; axxam n lqaε, n
+yimɣaren > axxam l-lqaε, yyemɣaren > [axxam llqaε, yyemɣaren] « la maison du
+rez-de-chaussé, est au beaux-parents» ; ikerri n lεid > ikerri l-lεid > [ikerri llεid]
+« le mouton de laïd » ; tickarin n lxica > tickarin l-lxica> [ṯicḵaṛin llxica] « les
+sacs de jute » (cf annexe 2, texte 1.16, phrase 6) ;
+/n/ + /r/ > [rr] : tackart n rwi > tackart r-rwi > [tackart rrwi] « sac d‘ordure » ;
+iferr n remman > iferr r-remman > [iferremman] « feuille de grenadier » ; teɣli-d
+kra n reḥma > teɣli-d kra r-reḥma > [teɣli-d kra rreḥma] « est venue un peu de
+quiétude ».
+/n/ + /m/> [mm] : sin n medden ad ṭṭfǝn deg iṭarrǝn > sin m-mǝddǝn aḏ ṭṭfǝn g
+ṭarrǝn > [sin mmǝddǝn aḏ ṭṭfǝn g ṭarrǝn] «deux personnes attrappent par les
+pieds » (cf annexe 2, texte 1.17, phrase 6), attesté dans le parler d‘Ait Amrous et
+celui de Tagouba.
+3. n + tous les noms propres : l‘assimilation est attestée dans tous les 19 parlers étudiés
+et généralement dans tous les parlers kabyles.
+/n/ + /k/ > /kk/ : n Karim > k-Karim > [kkarim] « de Karim » ;
+/n/ + /f/ > /ff/ : n Fatiḥa > f-Fatiḥa > [ffatiḥa] « de Fatiha » ;
+/n/ + /m/ > /mm/ : n Malek > m-Malek > [mmalek] « de Malek ».
+4. Préposition [n] + nom féminin : Là aussi, l‘association entre la préposition
+nexprimant la possession et la marque du féminin « t » préradicale aboutissant à
+l‘assimilation régressive [tt] :
+165
+---PAGE 165---
+Chapitre 1 : Les variables phonétiques
+/n/ + /t/ > [tt] : awal n tmeṭṭut > awal t-tmeṭṭut > [awal ttmeṭṭut] « la parole de la
+femme », attesté dans le parler d‘Aokas ; daxel n teckart > daxel t-teckart >
+[ḏaxǝl ttǝcḵaṛṯ] « dans le sachet » attesté dans le parler de Laâlam.
+Les seuls cas où nous pouvons relever l‘assimilation progressive, c‘est aux deux
+prépositions γef « sur » et deg « dans » avec l‘état d‘annexion des expansions qui s‘en suivent.
+Constations dans les exemples ci-dessous :
+- Le « f » de la préposition γef s‘assimile généralement avec la semi-voyelle, marque de
+l‘état d‘annexion d‘un nom masculin : /f/+/w/> [ff] : ɣef wawal >f-fawal > [ffawal]
+« du mot » [sur le mot] ; ɣef weγyul > f-feγyul> [ffeɣyul] « sur l‘âne » ; nnuɣen ɣef
+wulac > nnuɣen f-fulac > [nnuɣen ffulac] « ils se sont disputés sur rien ».
+Ce qui retient notre attention ici, c‘est que cette préposition ɣef « sur », transformée en
+[ff] est attestée, même avant un nom à initiale vocalique [u], où, plus loin encore, a perdu la
+première syllabe. C‘est le cas de : a tt-nefser ɣef uqermuḏ> a tt-nǝfser f-fuqǝrmuḏ> [a tt-
+nǝfser ffuqǝrmuḏ] «nous l‘étalons sur les tuiles » (cf annexe 2, texte 1.1, phrase 3), attesté
+dans le parler d‘Ait Bourman, de Qelaoun, d‘Ait Merâi et celui d‘Ijermounen ; le même
+syntagme est attesté aussi [a tt-nǝfser fqǝrmuḏ] dans le parler d‘Aokas.
+- /f/+/y/ > [ff] : mḥacmen ɣef yidrimen >mḥacmen f-fidrimen >[mḥacmen fedrimen] «
+ils se sont fâchés à cause de l‘argent » ; nhewwaleɣ ɣef yemma > [nhewwaleɣ f-fimma]
+«je suis inquiète à cause de ma mère » ; ad ten-nesmir ɣef yifadden-nneɣ> [a hǝn-
+nǝsmir fifaddǝn-nnǝɣ] « on les transfère sur nos genoux » (cf annexe 2, texte 1.16,
+phrase 13), attesté dans le parler d‘Ighil Wis.
+- La préposition deg « dans » : cette préposition est aussi sujette à l‘assimilation
+lorsqu‘elle est suivie de la semi-voyelle /w/ ou /y/, marque d‘état d‘annexion, elle est
+du type progressive.
+166
+---PAGE 166---
+Chapitre 1 : Les variables phonétiques
+1. /g/+/w/ > [gg] ou [ggw] : Le résultat d‘assimilation est [ggw] dans les parlers qui
+attestent, en règle générale, le phénomène de labiovélarisation. C‘est de cas des
+parlers de la partie Est de la région de l‘est de Béjaia, il s‘agit particulièrement du
+parler d‘Ighzer Ouftis, Ait Mbarek, Taregragt, Bouyman, Ait Merâi, Ijermounen,
+Qelaoun et Ait Bourman : ḏi att-nesserṭeb deg waman iḥman> [ḏ‘ att-nǝssǝrṭǝḇ
+ggwaman iḥman] «nous la tremperons dans l‘eau chaude » (cf annexe 2, texte 1.7,
+phrase 7); deg waynes > g-gwaynes >[ggwaynǝs] « l‘intérieur de la maison
+traditionnelle ».
+Par contre, dans les parlers de la région de l‘est de Béjaia ne connaissant pas
+la labiovélarisation, l‘assimilation aboutit à [gg]. Ces parlers se situent au centre
+et à l‘Ouest de la région étudiée, ils sont aux nombres de 11 parlers : Tamrijt,
+Laâlam, Melbou, Ait Segoual, S.El.Tennine, Aokas, Tizi n Berber, Ighil Wis, Ait
+Amrous, Tagouba et Ait Bimoun. Les deux syntagmes évoqués ci-dessus sont
+attestés de cette manière : di att-nesserṭeb deg waman iḥman> (ḏ‘) att-nesserṭeb
+g- gaman iḥman> [(ḏ‘) att-nǝssǝrṭǝḇ ggaman iḥman] « nous la tremperons dans
+l‘eau chaude » (cf annexe 2, texte 1.9, phrase 7); deg waynes > g-gaynes >
+[ggaynǝs] « à l‘intérieur de la maison traditionnelle ».
+2. /g/+/y/ > [gg] : deg yeyni > g-geyni >[ggǝyni]« dans un terrain plat» ; deg
+yixerban > g-gixerban >[ggixǝrban] ou même [gxǝrban] « dans les ruines » ;
+deg yixfawen> g-gixfawen > [ggixfawen] « dans les bouts » (cf annexe 2, texte 1.3,
+phrase 16); deg yimi n uzeṭṭa > g-gimi n uzeṭṭa >[ggimi n uzeṭṭa]ou encore
+[gm‘uzeṭṭa]« dans la trame du tissage » ( cf annexe 2, texte 1.4, phrase 22).
+Ce que nous pouvons synthétiser ici, c‘est que le phénomène d‘assimilation peut être
+poussé à son paroxysme, ce que nous appelons l‘aphérèse : réduction d‘une ou plusieurs
+syllabes dans certains parlers de cette région Est de Béjaia. C‘est le cas des deux derniers
+exemples sus-cités, attesté dans les parlers formant le centre de la région étudiée : Aokas, Tizi
+n Berber et S.EL.Tennine ainsi les parlers Qelaoun, Ijermounen et Ait Marâi.
+- L‘association de la particule de négation et du participe provoque aussi une
+assimilation entre le premier segment de la négation « ul/ur » et le « n- » préfixe de
+167
+---PAGE 167---
+Chapitre 1 : Les variables phonétiques
+l‘indice du participe négatif, cette dernière est régressive dans les 19 parlés étudiés de
+la région de l‘est de Béjaia:
+/l/ ou /r/ + /n/ donne [nn] : wan ul nessin i xiṭ, issekmilay lxiṭ <[wan un nessin i xiṭ,
+issekmilay lxiṭ], attesté dans le parler d‘Aokas et celui de Tizi n Berber.
+- La particule de coordination d « avec » +[t] marque du nom féminin : Cette
+association aboutit à une assimilation régressive [tt] dans la plupart des parlers étudiés,
+ils sont exactement au nombre de 16 parlers ; répartient au centre et à l‘Est de la
+région de l‘est de Béjaia, mais aussi à une assimilation réciproque [ţţ] dans 03 parlers
+situés à l‘Ouest de cette région :
+/d/ + /t/ > [ţţ] dans 03 parlers, à savoir Ait Amrous, Tagouba et Ait Bimoun ou [tt] dans
+les 16 parlers restants des 19 étudiés, selon la présence de l‘affriction ou non dans les
+parlers (déjà étudiée dans la phonétique articulatoire) :
+Neţţat d taklit > neţţat ţ-ţaklit > [neţţat ţţaklit] « elles avec l‘esclave », attesté dans le
+parler d‘Ait Bimoun, Tagouba et Ait Amrous ; tletha d teqcict-is > tletha t-teqcict-is >
+[tletha tteqcict-is « elle s‘occupa de la fille », attesté dans le parler de Tizi n Berber.
+- Le comparatif am « comme » + la semi-voyelle « w/ » (marque d‘état d‘annexion) :
+cette association aboutit aussi à l‘assimilation progressive, c‘est le cas des exemples
+suivants :
+/m/ + /w/ >[mm] : Am warrac n tura > am-marrac t-tura>[ammarrac ttura] « comme
+les enfants d‘aujourd‘hui» ; d ibǝztuḥǝn am walim > d ibeztuḥen am-malim > [d
+ibǝztuḥǝn am malim] « sont petits comme la paille » (cf annexe 2, texte 1.18, phrase
+23); am win iheddren i lḥiṭ >am-min iheddren i lḥiṭ> [ammin iheddren i lḥiṭ] «
+comme celui parlant à un mûr»
+/m/ + /y/ > [mm] : am yergazen am lxalat > am-mergazen am lxalat > [ am-mergazen
+am lxalat]« (tels les) hommes (telles les) femmes» ; am yimma-s am yilli-s > am-
+mimma-s am-milli-s > [ammimma-s ammilli-s] « (telle mère telle fille», attestés dans
+les 19 parlers étudiés de la région située à l‘est de Béjaia.
+Le seul cas qui révèle une assimilation par le lieu d‘articulation dans ces parlers
+d‘étude, c‘est que la préposition n est remplacée par /m/ (même lieu d‘articulation)
+168
+---PAGE 168---
+Chapitre 1 : Les variables phonétiques
+s‘assimilant avec /w/ (marque d‘état d‘annexion) et aboutissant à [mm] : /n/―/m/ + / w / >
+[mm] : iɣil n wenza > iɣil m wenza > iɣil m-menza > [iɣil mmenza]« nom d‘un lieu ou
+toponyme », attesté dans le parler d‘Ijermounen.
+2.2. Le contact des voyelles
+La rencontre des voyelles dans le cadre d‘un syntagme subit des altérations phoniques
+qui diffèrent non seulement d‘un parler à un autre, mais aussi, d‘un contexte phonétique à un
+autre. Ces altérations aboutissent généralement à une adjonction de la semi-voyelle appelée
+aussi le phénomène d‘épenthèse (chute de l‘une des voyelles ou la transformation de la 2ème
+voyelle en semi-voyelle). C‘est ce qui est attesté dans les parlers kabyles et particulièrement
+les parlers de la région de l‘est de Béjaia qui fait l‘objet de notre étude.
+2.2.1. L’adjonction de la semi-voyelle/ épenthèse
+L‘adjonction de la semi-voyelle ou plus globalement le phénomène d‘épenthèse, qui
+selon Dubois (1999 : 183) consiste à intercaler dans un mot ou un groupe de mots un
+phonème non étymologique pour des raisons de commodité articulatoire, par analogie.
+L‘adjonction d‘un élément phonique le plus répandu dans les parlers kabyles, en général, est
+celui de la semi-voyelle appelée aussi glide. C‘est le phénomène d‘adjonction le plus attesté
+dans les parlers de la région de l‘est de Béjaia.
+Ce qu‘il faut retenir ici, c‘est que l‘intercalation de la semi-voyelle -y- intervient pour
+rompre le contact de deux voyelles : la voyelle finale du thème verbal et celle du pronom
+personnel qui lui est suffixé, que ce soit régime direct ou indirect, ou bien la voyelle finale du
+thème verbal d‘avec la modalité d‘orientation spatiale.
+1. Pronoms personnels, affixe régime direct : comme nous l‘avons déjà évoqué ci-
+dessus, la condition de cette intercalation exige que le pronom soit suffixé, car sa
+préfixation engendre l‘élision de la 1ère voyelle ; c‘est ce que nous allons aborder ci-
+dessous, en parlant de la possession de ce pronom d‘une voyelle préfixée. Quatorze
+(14) des dix-neuf (19) parlers sont concernés par cette adjonction ; ils se situent au
+centre et à l‘Est de la région étudiée. C‘est le cas des exemples suivants :
+169
+---PAGE 169---
+Chapitre 1 : Les variables phonétiques
+- [nǝssǝmdi-yaṯ i ṯala](ahiḍur) « on l‘a exposé à l‘eau de la fontaine » (fourrure ou peau
+d‘animal); [nǝssǝmdi-yin i ṯala] (ihiḍuren) « on les a exposé à l‘eau de la fontaine »
+(fourrures ou peaux d‘animaux) ; ḏinǝssǝmlaqa-yin] (ifulak) « nous les rattacherons »
+(plaquettes) (cf annexe 2, texte 1.14, phrase 18), attestés dans les parlers Aokas,
+S.El.Tennine et Tizi n Berber ;
+- [luxǝn nǝzwi –yatt s uḵǝccaṭ] (taduṭ) « alors nous l‘époussetâmes d‘un bâton» (laine;
+[luxǝn nǝzwi – yan s uḵǝccaṭ] (ikeɛɛalen)) ; « alors nous les époussetâmes d‘un
+bâton » (crottes) (cf annexe 2, texte 1.11, phrase 23), attesté dans le parler d‘Ait
+Segoual ;
+Retenons ici que le phénomène d‘intercalation, dans quelques contextes marginaux,
+n‘est pas obligatoire dans certains parlers de la région de l‘est de Béjaia. Il n‘est possible que
+quand le pronom est au singulier, que ce soit masculin ou féminin ; c‘est le cas du parler
+d‘Ijermounen (la coexistence des deux). Voici l‘exemple qui le montrant : teggwi-t/-tt i
+wexxam-is (absence d‘intercalation), et aussi teggwi- yat /- yatt i wexxam-is (intercalation du
+glide) « elle l‘a emmené(e) à sa maison ». L‘intercalation ou l‘adjonction devient, par contre,
+obligatoire au pluriel, c‘est le cas de : teggwi- yin /- yint i wexxam-is « elle les a emmené(e)s à
+sa maison », attesté dans le même parler (Ijermounen). Le caractère obligatoire du glide dans
+les quatorze parlers de cette région est lié au fait que les pronoms personnels affixes régime
+direct ne perdent pas leurs éléments vocaliques.
+Les parlers non concernés par cette adjonction sont au nombre de 05 : les parlers situés
+aux deux extrémités de la région étudiée, à savoir Ait Bourman à l‘extrême Est et Ait Bimoun
+à l‘extrême ouest ; Ighil Wis, Tagouba et Ait Amrous pour la partie Ouest de cette région.
+Voici quelques exemples: [nǝrna ṯarbuyṯ] > nerna-tt et non pas nerna- yatt « nous l‘avons
+ajoutée » ; [nǝrna ṯirbuyin] > nerna-tent « nous les avons ajoutées » (cf annexe 2, texte 1.19,
+phrase 12), attesté dans le parler d‘Ait Bimoun ; [nǝzḏi-hǝnt ṯafalǝḵṯ γ ṯayǝṭ]« nous avons
+mêlées les mèches bout à bout » (cf annexe 2, texte 1.1, phrase 13), attesté dans le parler d‘Ait
+Bourman ; [nǝsɛ‘ aḥram] « nous avons la couverture » > nesɛa-t « nous l‘avons » et [nǝsɛa
+ṯadoṭ] « nous avons la laine » > nesɛa-tt « nous l‘avons » attesté, dans le parler de Tagouba et
+celui d‘Ait Amrous.
+170
+---PAGE 170---
+Chapitre 1 : Les variables phonétiques
+2. Pronom affixe, régime indirect : là aussi, la condition de l‘adjonction de la semi-
+voyelle –y-exige que le thème verbal soit terminé par une voyelle et que le pronom
+soit suffixé, tout comme la plupart des autres parlers kabyles. Cette intercalation
+attestée dans tous les parlers de la région Est de Bejaia, c‘est ce que montrent les
+exemples suivants :
+- [Nǝrra-yas aman almi ruḥǝn iqǝcwalǝn-nni izǝhranǝn] « on lui a ajouté de l‘eau
+jusqu‘à disparitions des gros débris » (cf annexe 2, texte 1.18, phrase 18), attesté dans
+le parler de Tagouba et elui d‘Ait Amrous;
+- [nǝssǝḥma-yas aman] «nous lui avons chauffé de l‘eau »; [ibǝrsusnǝn, nǝrna-yasǝn
+aman irǝkmǝn bac in-tǝffǝɣ twǝddaɛt] « les laines crottées sont trempées dans l‘eau
+pour que s‘en aille la matière grasse », attestés dans le parler d‘Aokas et celui de Tizi n
+Berber ;
+- Nekfa-yasen/neffa-yasen awal ( on leurs a donné parole) « on leurs a promi », attesté
+dans les parlers : Laâlam, Tamrijt, Ait Segoual et Melbou.
+Soulignons ici que l‘intercalation du glide est facultative dans tous les parlers de cette
+région située à l‘est de Béjaia, car le phénomène de l‘élision de la 2ème voyelle ou de l‘une
+d‘elles est attesté dans les mêmes parlers et dans le même contexte:
+- [nǝssǝḥma-s aman] «nous lui avons chauffé de l‘eau » ; [ibǝrsusnǝn, nǝrna-sǝn aman
+irekmen bac in-teffeɣ tweddaɛt] « ces crotes-là, on leurs ajoute de l‘eau bouillante pour
+que s‘en aille le gras » ;
+- [Nǝrra-s aman almi ruḥǝn iqǝcwalǝn-nni izǝhranǝn] « on lui met de l‘eau jusqu‘à
+disparition des gros débris en question » ;
+- Nekf-asen/neff-asen awal ( on leurs a donné parole) « on leurs a promi »,
+3. Modalité d’orientation spatiale : L‘adjonction de la modalité d‘orientation spatiale
+n‘est pas la même dans tous les parlers de la région de l‘est de Béjaia, que ce soit sur
+le plan combinatoire (sa position vis-à-vis du prédicat :médiane ou finale), ou sur le
+plan formel (sa forme varie de : d/dd, add, jusqu‘a yadd) ; c‘est ce que nous allons
+171
+---PAGE 171---
+Chapitre 1 : Les variables phonétiques
+détailler dans les variables morphologiques. Ici, nous nous contentons juste d‘étudier
+l‘intercalation du glide –y- qui intervient sous conditions, à savoir que :
+- Cette modalité est en position médiane, c-à-d, entre le thème verbal seul et le pronom
+affixe, régime direct, ou, entre le syntagme (thème verbal + pronom affixe indirect) et
+le pronom affixe, régime direct.
+- Le thème verbal, ou le pronom affixe indirect le précédant, se termine par une voyelle ;
+cette intercalation est attestée dans les parlers situés au centre et à l‘Est de la région de
+l‘est de Béjaia, à savoir : Aokas, Tizi n Berber, S.El.Tennine, Melbou, Ait Segoual,
+Laâlam, Tamrijt, Ighzer Ouftis, Ait Mbarek, Taregragt, Ait Merâi, Ijermounen,
+Qelaoun et Bouyman. C‘est ce que montrent ces exemples :
+- Newwi-yadd-in yibersusen-nn, nerna-yasen aman irekmen bacu in-teffeɣ tweddaɛt >
+[nǝwwi- yadd -in ibǝrsusnǝn, nǝrna-yasǝn aman irǝkmǝn bac in-tǝffǝɣ twǝddaɛt] «
+nous avons emmené les bourrelets en question, on leur a ajouté de l‘eau bouillante
+pour que soit débarrassé le gras » ; yusa- yǝdd ḏ arqaq « il est devenu fin », attestés
+dans les parlers Aokas et Tizi n Berber ;
+- di d-nawi-yadd-it/ut > [ḏi d-nawi-yadd-iṯ/uṯ] « nous allons l‘emmené (elle/il) vers
+ici » (cf annexe 2, texte 1.13, phrase 10), attesté dans les parlers Tamrijt, Laâlam,
+Melbou et Ait Segoual;
+- neggwi-d taduṭ/ahiḍur « nous avons emmené-vers ici la laine/fourrure » >neggwi-yadd-
+i/u « nous l‘avons emmené (elle/il) vers ici » (cf annexe 2, texte 1.5, phrase 2), attesté
+dans le parler de Qelaoun, Ijernmounen et celui d‘Ait Merâi.
+Précisons là aussi que l‘intercalation du glide entre verbe à finale vocalique et modalité
+d‘orientation spatiale est facultative dans les parlers situés au centre et à l‘Est de la région de
+l‘est de Béjaia (voir ci-haut), car le phénomène de l‘élision de la 1ère voyelle est attestée dans
+les mêmes parlers et dans le même contexte, c‘est le cas de :
+172
+---PAGE 172---
+Chapitre 1 : Les variables phonétiques
+- Neww‘-add-in ibersusen-nn, nern‘-asen aman irekmen bac‘ in-teffeɣ tweddaɛt « nous
+avons emmené les bourrelets en question, on leur a ajouté de l‘eau bouillie pour que
+s‘en aille le gras», attesté dans le parler d‘Aokas ;
+- di d-naw‘-add-it/ut « nous allons l‘emmené (elle/il) vers ici » ;
+- neggw-add-i/u « nous l‘avons emmené (elle/il) vers ici » ;
+Les parlers qui ne sont concernés par cette intercalation du glide -y- sont ceux situés à
+l‘Ouest de la région de l‘est de Béjaia, à savoir Ait Bimoun, Tagouba, Ait Amrous et Ighil Wis
+et ceux de l‘extrême Est, en particulier celui d‘Ait Bourman. Voici quelques exemples
+illustratifs :
+- [alama yusa-d ḏ arqaq]« jusqu‘à ce qu‘il soit fin » (cf annexe 2, texte 1.19, phrase 18),
+attesté dans le parler dAit Bimoun ;
+- [nǝkkǝs-ih-d ḵra n yumayǝn niγ tǝltiyyam] « nous l‘enlevons (laine) après quelques
+deux ou trois jours », attesté dans le parler d‘Ait Bourman ;
+- [a hǝn-d-nǝsmir fifaddǝn-nnǝɣ] « nous les transférons sur nos genoux » (cf annexe 2,
+texte 1.16, phrase 13); [w a d-nǝrnu ṯayǝṭ alamma yfukk ufus-nni] « et nous en
+ajoutons une autre jusqu‘à finir la brassée » (cf annexe 2, texte 1.16, phrase 18),
+attestés dans le parler d‘Ighil Wis ;
+- [a h-d-nǝkkǝs ɣǝl ḏaxǝl n tǝmḥǝrmin] « nous la transfèrons dans un fichu » (cf annexe
+2, texte 1.17, phrase 19), attesté dans le parler de Tagouba et celui d‘Ait Amrous.
+Le phénomène d‘épenthèse, quant à lui, est largement attesté dans les parlers de la région
+de l‘est de Béjaia, mais pas de la même proportion quant à l‘intercalation du glide –y-. Il
+s‘agit de l‘élément phonique ou simplement du phonème /t/ et /g/13, c‘est ce que montrent les
+exemples suivants :
+- ɣedwa-t-enn, attesté dans le parler d‘Aokas et celui de Tizi n Berber ; ɣedwi-t-enn
+attesté dans le parler de Laɛlam et celui de Tamrijt ; ɣedwa-tiw-enn dans le parler de
+taregragt, ɣedwa-tuy-enn dans le parler d‘Ijermounen et celui d‘Ait Merâi « demain
+en question ». La variation de ce syntagme dans les 19 parlers étudiés de la région
+13 Ce phénomène d‘épenthèse est étudié par Berkai (2014 : 64)
+173
+---PAGE 173---
+Chapitre 1 : Les variables phonétiques
+située à l‘est de Béjaia est portée sur une carte géolinguistique (cf annexe 6.3, figure
+5).
+- anig iqqim ḥedd mačči din, teṭra-yaneɣ am win as-teḥsel tmellalt « là où s‘assoit
+quelqu‘un, ce n‘est pas là, on est comme à qui un œuf est coincé dans la gorge »,
+attesté dans le parler d‘Ait Merâi.
+- iwanig iruḥ ul itthenna wla « là où il va, il n‘a point de quiétude », attesté dans le
+parler d‘Ijermounen.
+- agman agman, bɣiɣ i mxawam, alanig ulac, kul yiwen s uxxam-is « quoi qu‘il en soit,
+je veux que vous vous réconciliez, sinon, à chacun sa maison », attesté dans le parler
+d‘Aokas et celui de Tizi n Berber.
+Selon Berkai (2014 : 64) [l‘adjonction du phonème /g/ à l‘adverbe ani « où » iwani
+« vers où » et alani « jusqu‘où » semble s‘être lexicalisée dans le parler d‘Aokas, puisque
+cette consonne dorso-palatale sonore occlusive [g] suffixée à ces adverbes est aussi attestée
+dans des contextes non intervocaliques]. Cette adjonction est aussi attestée dans les parlers
+Tizi n Berber, Ait Merâi et Ijermounen, c‘est ce que nous retenons dans les exemples suivants:
+- anig tessaɣet aferṭas d'ijreḥ « là où l'on touche un chauve on le saigne », attesté dans
+les parlers d‘Ijermounen et d‘Ait Merâi;
+- [alanig tewwṭet, ttɣileɣ u tteqqalet ul ass-a]>alanig tewwṭet, ttɣileɣ ul d-tetteqqalet
+ula ass-a « là où tu es arrivé, je pensais que tu ne reviendras pas aujourd‘hui», attesté
+dans les parlers Aokas et Tizi n Berber.
+Berkai, dans sa thèse de Doctorat, (2014 : 64) parle d‘une [possibilité d‘amalgame ou
+contraction de deux mots : l‘adverbe ani « où » et la préposition (d)eg « dans, à », phénomène
+courant en kabyle : aniwer/aniɣer (<ani-(ɣ)er : où-à/vers) « où ? Dans quelle direction ? » ;
+ansi/anisi/anisa/anis (<ani-si : où-de (provenance)) « d‘où »… En remarque, une forme
+semblable est même attestée dans certains parlers de Grande Kabylie (comme définie au début
+de cette partie) : anga « où, là où, où ? » (Huyghe, 1904 : 51).]
+174
+---PAGE 174---
+Chapitre 1 : Les variables phonétiques
+2.2.2. La chute de la voyelle (aphérèse)
+Comme sus-cité, la rencontre des voyelles dans le cadre d‘un syntagme subit des
+altérations phoniques aboutissant à la chute de l‘une des voyelles « aphérèse ». Ce dernier est
+définit par Berkai (2014 : 64) comme :
+« Phénomène de réduction phonique (une ou plusieurs syllabes) qui se produit à
+l‘initial des mots par commodité articulatoire le plus souvent, mais aussi parfois
+par confusion d‘éléments phoniques aux frontières des mots. On parle de syncope
+si ce phénomène se produit à l‘intérieur d‘un mot et d‘apocope s‘il concerne la
+fin. »
+Ce phénomène d‘aphérèse est attesté dans les parlers berbères en général : le Kabyle
+Guerrab (2014), les Aurès Boudjellal (2015) et le Rifain Lafkioui (2007). Il est trés répandu
+dans les parlers de la région de l‘est de Béjaia, objet de notre étude. Voici les contextes
+l‘attestant :
+1. Réduction de l‘une des deux voyelles
+- Schème aspectuel + particule préverbale : l‘association de la voyelle finale d‘un verbe
+opérateur, généralement nebɣa, et la voyelle préfixée à la particule préverbale ad
+aboutissant généralement à la chute de la première voyelle : ma nebɣa a h-d-nekkes
+akken, …> [ma nǝbɣ a h-d-nǝkkǝs akkǝn,…] « si nous voulons l‘enlevons en l‘état,…
+» (cf annexe 2, texte 1.17, phrase 25), attesté dans le parler d‘Ait Amrous et celui de
+Tagouba ; [ma nǝbɣ‘ a tǝnt-nǝssǝmlaqa, a nǝddǝwwir iẓḍé-nni] « Si nous voulons les
+assembler, on fait tourner cette quenouille-là » (cf annexe 2, texte 1.19, phrase 16),
+attesté dans le parler d‘Ait Bimoun.
+- Schème aspectuel + expansion directe : le phénomène d‘aphérèse ici est le résultat
+d‘enchaînement de la voyelle finale (marque d‘aspect) et celle du schème nominale ; il
+est attesté dans tous les parlers de la région de l‘est de Béjaia et en général partout
+ailleurs en Kabylie : ad nesɛu aḥram>[a nǝsɛ‘ aḥram] « nous aurons la couverture »
+(cf annexe 2, texte 1.18, phrase 30), attesté dans le parler de Tagouba et celui d‘Ait
+Amrous; di nesɛu aḥram>[di nǝsɛ‘ aḥram], attesté dans les parlers : Aokas, Tizi n
+175
+---PAGE 175---
+Chapitre 1 : Les variables phonétiques
+Berber, S.El.Tennine, Leâlam, Tamrijt, Ighzer Ouftis, Ait Mbarek, Taregragt,
+Ijermunen, Ait Merâi et Bouyman.
+- Particule préverbale di ou da + pronom affixe, régime direct ou indirect : La voyelle,
+cette fois-ci, suffixée à la particule préverbale di ou da s‘associe avec celle du pronom
+affixe, régime direct (at-/att-/aɣen-/aɣent-/awen-/awent-/(a)in-/(a)int-), ou avec celle
+du pronom régime indirect (as-/aɣen-/aɣent-/asent-) qui la suit. Tout cela aboutissant
+généralement au phénomène d‘aphérèse attesté au centre et à l‘Est de la région de l‘est
+de Béjaia (d‘Aokas et de Tizi n Berber - au centre -jusqu‘à Ijermounen - à l‘Est -).
+C‘est le cas des exemples suivants : mi d-at-iqqes leqṭeɛ « quand le tranchant le
+piquera », attesté dans le parler d‘Aokas. Dans cet exemple, Berkai (2014 : 64) parle
+d‘intercalation de l‘apico-dentale fricative sonore [ḏ] entre la voyelle finale de
+l‘adverbe mi et la voyelle initiale du pronom affixe at-.Il s‘agit réellement de l‘élision
+de la 1ère voyelle de la particule préverbale di : mi di at-iqqes leqṭeɛ >[mi d‘at-iqqes
+leqṭeɛ]« quand le tranchant le piquera ». Da at-tefser i tafukt (aqerdac) >[ḏ‘ aṯ-fsǝr i
+ṯafuḵṯ]« elle l‘exposera au soleil ».[bac aḥa ḏ‘ att-issaɣ lqaɛ]« pour qu‘elle ne touche
+pas le sol», attesté dans le parler d‘Ait Segoual. Di an-tawi ɣur uɣeṭṭas (ulman) > [ḏ‘
+an-tawi ɣuṛ uɣǝṭṭas] « elle les prend chez le teinturier » (fil de trame) (cf annexe 2,
+texte 1.10, phrase 44), attesté dans le parler de Tamrijt et celui de Laâlam.
+- L‘adverbe mi « quand » ou asmi « le jour où » + la particule de l‘aoriste ara /ala : Là
+aussi, l‘association des deux voyelles aboutit à l‘élision de l‘une d‘elles. Elle est
+attestée aux deux extrémités de la région de l‘est de Béjaia : A l‘Est, le parler d‘Ait
+Bourman, à l‘Ouest les parlers d‘Ait Bimoun, de Tagouba et d‘Ighil Wis. Voici des
+exemples: mi ara h-d- nejmeɛ, ad tt-nefsi >[m‘ara h-d-nǝjmǝɛ, a tt-nǝfsi] « quand nous
+la ramasserons, nous la démêlerons » ou « une fois ramassée, on la démêle » (cf
+annexe 2, texte 1.1, phrase 4), attesté dans le parler d‘Ait Bourman ; mi ala kkawen, a
+hen-nexdem d tikeftin>[mala kkawǝn a hǝn-nǝxḏǝm ttiḵǝfṯin]« une fois séchés au soleil,
+on les fille en boules » (cf annexe 2, texte 1.16, phrase 16), attesté dans le parler
+d‘Ighil Wis.[m‘ara yǝffǝɣ uḥǝyyan i ţţǝllsǝn ulli] «une fois qu‘aḥǝyyan14 terminé, nous
+tondons les brebis » (cf annexe 2, texte 1.19, phrase 1), attesté dans le parler d‘Ait
+Bimoun; [asm‘ ala nfakk iẓmé n taḍut-nni, a ţţ-nger ḏaxel wwaman] «quand on aura
+14 Période du 14 au 20 avril selon le calendrier agraire kabyle.
+176
+---PAGE 176---
+Chapitre 1 : Les variables phonétiques
+essoré la laine en question, on la trempe dans l‘eau » (cf annexe 2, texte 1.18, phrase
+18), attesté dans le parler de Tagouba.
+- Particule d‘affirmation anka/akka« comme ça » + relateur (relatif) i/ ay l‘aphérèse ici
+se produit entre la voyelle finale de la particule et celle du relateur, il est attesté dans
+tous les parlers de la région de l‘est de Béjaia. C‘est le cas de :[akk‘ i d-nǝssufuɣ ulman
+iwǝjḏǝn i wẓǝṭṭa] « c‘est comme ça que nous formons les fils de trame prêts au tissage
+» (cf annexe 2, texte 1.19, phrase 20), attesté dans le parler d‘Ait Bimoun; [ank‘ay
+nxeddem taḍuṭ]« c‘est ainsi que nous préparons la laîne », attesté dans les parlers d‘Ait
+Merâi, Ijermounen, Aokas et celui de Tizi n Berber.
+2. Réduction d‘une ou plusieurs syllabes
+Le contact entre les voyelles est parfois plus accentué, l‘élision ne touche pas
+seulement l‘une des deux voyelles, mais aussi une ou plusieurs syllabes :C‘est ce que nous
+entendons par l‘aphérèse. Les réductions les plus répandues dans les parlers de la région
+Est de Bejaia sont :
+- l‘élision du segment phonique (y)i-, marque d‘état d‘annexion d‘un substantif à radical
+long ou court, devant les prépositions(de)g « dans » et seg « de » : ad texdem tilmi-nni
+deg yifassen-is>[a tǝxḏǝm ṯilmi-nni g fassn-is]«elle façonnera la laine filée dans ses
+mains » (cf annexe 2, texte 1.3, phrase 22) et ur tettbajiḥ ani deg yimi uzeṭṭa > [ur
+ttbajiḥ ani g mi uzeṭṭa] «elle prenne forme sur le métier tisser,elle ne s‘ouvre pas » (cf
+annexe 2, texte 1.3, phrase 23), attesté dans le parler de Qelaoun; ad ṭṭfǝn seg yiṭarren
+n zzat> [aḏ ṭṭfǝn g ṭarrǝn n zzat] « ils attraperons les pieds de l‘avant » (cf annexe 2,
+texte 1.18, phrase 6), attesté dans le parler de Tagouba et celui d‘Ait Amrous.
+- l‘élision de la voyelle u-, marque d‘état d‘annexion : cet aphérèse est provoqué par les
+prépositions (de)g « dans » ou seg « de », car le même substantif devant la préposition
+s « avec » n‘aboutit pas à cette élision ; la marque d‘état est maintenue, elle est attesté
+dans la plupart des parlers de la région de l‘est de Béjaia, c‘est le cas de :
+iẓḍi-nni ad t-nɛell deg uqǝdduḥ>[iẓḍé-nni a ṯ-nɛǝll g qǝdduḥ] « nous mettons dans un
+récipient la quenouille en question » (cf annexe 2, texte 1.1, phrase 15), attesté dans le
+parler d‘Ait Bourman; ḏi(a) i(a)n-texdem d tifastin deg ufus-nnéṭǝn >[ḏ‘ a/in-tǝxḏǝm
+177
+---PAGE 177---
+Chapitre 1 : Les variables phonétiques
+ttifasṯin g fus-nnéṭǝn] « elle les mettra en brassées dans l‘autre main » (cf annexe 2,
+texte 1.9, phrase 41), attesté dans le parler de Tamrijt, Leâlam, S.El.Tennine, Aokas et
+Tizi n berber ; alma tewwa deg uqǝrḏac > [alma ṯǝggwa g qǝrḏac]« jusqu‘à
+mûrissement dans la carde» (cf annexe 2, texte 1.4, phrase 1O) et tesrusay deg ukarṭun
+neɣ daxel n teckart>[ṯǝsrusay g karṭon nǝɣ ḏaxǝl n tǝcḵaṛṯ]« elle empile dans un
+carton ou dans un sac», attesté dans le parler de Qelaoun, Ijermounen, Ait Merâi.
+- Le segment préfixé au radical verbal, marque d‘indice de personne, qu‘il soit intégral
+(forme préfixée), 3ème personne du singulier : masculin (i-) ou féminin (te-) ; qu‘il soit
+le premier segment de l‘indice de personne (forme infixée ou discontinue), 2ème
+personne : singulier (t---ḍ/ṭ/t) et pluriel (t---m pour le masculin, t---mt pour le féminin).
+Ce phénomène intervient seulement quand le radical verbal est précédé par la particule
+préverbale d‘aoriste « di » « i » ou « da », c‘est ce que nous avons abordé dans la phonétique
+articulatoire (traitement de la dentale) et que nous allons détailler dans la partie des variables
+morphologiques (indice de personne). Voici des exemples attestant cette élision :
+di(a) truḥet i teqqlet iɣur baba-m>[di(a) ṛuḥǝt i qqlǝt iɣuṛ baba-m]« tu retourneras chez
+ton père » ; [di tfǝssi timeqquni(a)n, di tessemlaqa ixfawen di beṛṛen tizḍiṯ>[ḏi fǝssi
+ṯimǝqqunin, ḏi ssǝmlaq‘ ixfawǝn ḏi bǝṛṛǝn ṯizḍiṯ] « elle démêlera les mottes, elle les met
+bout à bout, elle fait tourner la quenouille» (cf annexe 2, texte 1.9, phrase 38), attestés
+dans les parlers du centre de la région de l‘est de Béjaia : Tizi n Berber, Aokas,
+S.El.Tennine, Melbou, Ait Segoual, Laâlam, Tamrijt, Ighzer Ouftis, Ait Mbarek,
+Taregragt, Ait Merâi, Ijermounen et Bouyman.
+Ce phénomène d‘aphérèse engendre ainsi la confusion entre les deux formes de la 3ème
+personne du singulier : masculin (i-) et féminin (te-) ; l‘acquisition du sens n‘est que
+contextuel, c‘est ce qui est attesté dans l‘exemple suivant : mi di tejwej i d-tesɛu dderya di ires
+wul-iw > [mi di jwǝj i t-tǝsɛu ddǝrya di rǝs wul-iw ]« ce n‘est qu‘une fois mariée, et qu‘elle
+aura des enfants que je serai tranquille», attesté dans les parlers Aokas, Tizi n Berber,
+Ijermouen et Ait Marâi ;
+178
+---PAGE 178---
+Chapitre 1 : Les variables phonétiques
+- Le subordonnant Acu« quoi » + indice de personne ou pronom affixe (direct ou
+indirect) : L‘indice de personne concerné ici est celui de la 3ème personne masculin,
+singulier « i- », où les pronoms affixes sont : (at-/att-/aɣen-/aɣent-/awen-/awent-
+/(a)in-/(a)int-), pour le régime direct, et (as-/aɣen-/aɣent-/asent-),pour le régime
+indirect. C‘est le cas de : acu ibɣa mi d-iɣra > [ac‘ibɣa mi d-iɣra] « que voulait-il en
+m‘appelant ?» attesté dans le parler de S.El.Tennine ; Ul ɛlimen acu i as-xedmen >[ul
+ɛlimen ac‘as-xedmen] « Ils ne savent pas quoi lui faire » ; attesté dans le parler
+d‘Aokas ; acu i at-iwwin iɣur baba-s >[ac‘at-iwwin iɣur baba-s] « qu‘est qui lui a
+pris d‘aller chez son père », attesté dans le parler d‘Ijermounen.
+Dans les deux derniers exemples, l‘élision ne concerne pas seulement une voyelle mais
+deux : la voyelle finale du subordonnant acu et celle formant le relatif « i ».
+- La particule préverbale s‘éfface quand elle est suivie par un pronom affixe régime
+indirect, cet aphérèse est attesté dans les deux extrémités de la région de l‘est de
+Béjaia : à l‘Est dans le parler d‘Ait Bourman et celui de Qelaoun,et à l‘Ouest dans le
+parler d‘Ait Bimoun, Tagouba, Ait Amrous et enfin Ighil Wis. C‘est ce que montrent
+l‘exemple suivant : Ad as-nekkes taweddaɛt > [a s-nǝkkǝs tawǝddaɛt] « nous allons la
+débarasser des bourrelets» (cf annexe 2, texte 1.18, phrase 13), attesté dans le parler de
+Ait Amrous et celui de Tagouba; ad awen-irfed Rebbi cedda isres-d rreḥma> [awn-
+irfǝd Rǝbbi cǝdda isǝrs-ǝdd rrǝḥma] « Que Dieu vous ôte l‘épreuve, et vous donne la
+paix », attesté dans tous les parlers de la région étudiée.
+- Adverbe de quantité kra «quelque» + «de»+ yi-, marque d‘état d‘annexion :
+l‘association des éléments de ce syntagme aboutit aussi au phénomène d‘aphérèse
+(élision de la préposition et de la marque d‘état d‘annexion) surtout si l‘adverbe se
+termine par une voyelle, ainsi, celle du substantif est transformée en semi-voyelle.
+C‘est le cas dans l‘exemple suivant : kra n yikeččawen> kra ikeččawen >[kra
+ykeččawen] « quelques verres », attesté dans tous les parlers de la région de l‘est de
+Béjaia.
+179
+---PAGE 179---
+Chapitre 1 : Les variables phonétiques
+2.2.3. Transformation de la 2ème voyelle en semi- voyelle
+Cette altéraction est la transformation de la 2èmevoyelle en semi- voyelle intervenant
+génralement entre :
+- La conjonction de subordination ou le schème aspectuel et la particule de négation
+ul—ula : l‘association de la voyelle de la conjonction de subordination ma « si », avec
+le premier segment de la particule de négation ul « ne », aboutit à la transformation de
+ul en wl, ainsi /ma/+ /ul/> [ma wl]. C‘est le même procédé que subit l‘association de
+la voyelle finale du verbe, marque d‘aspect, et le 2ème segment de la particule de
+négation ula « pas », ceci donne /a/ + /ula/ > [a wla]. Ce résultat est attesté dans les
+parlers de la région de l‘est de Béjaia qui ont la particule de négation ul-ula ; ils sont
+au nombre de 13 parlers situés au centre et à l‘extrême Est de la région étudiée, il
+s‘agit de Bouyman, Qelaoun, Ait Merâi pour l‘extrême Est, Taregragt, Ait Mbarek,
+Ighzer Ouftis, Laâlam, Tamrijt, Ait Segoual, Melbou, S.El.Tennine, Aokas et Tizi n
+Berber. Voici un exemple illustratif : ma ul iwfa ula axxam, di zdeɣ ɣur-i > [ma wl
+iwfa wla axxam di zdeɣ ɣur-i] « s‘il n‘a pas trouvé de maison, il va habiter chez moi » ;
+ma ul izla ula, di ɛeyyed ddid-neɣ > [ma wl izla wla, di ɛeyyed ddid-neɣ]« s‘il n‘a pas
+sacrifié (égorgé un mouton), il va passer l‘Aid avec nous », attestés dans le parler
+d‘Aokas et celui de Tizi n Berber ;
+- La préposition i « pour » + u « marque d‘état d‘annexion » : Là aussi, l‘association de
+la préposition i avec u, marque d‘état d‘annexion d‘un nom ayant la forme (vcv),
+aboutit à la transformation de la 2ème voyelle /u/ en semi- voyelle [w]. c‘est le cas
+dans les exemples suivants : tesheli uqlaɛ>[ṯǝshǝl i wǝqlaɛ](nom d‘action verbal) «
+elle est facile à arracher » (cf annexe 2, texte 1.13, phrase 14), et tin n lɛali i uzeṭṭa>
+[ṯin llɛali i wzǝṭṭa] « la meilleure pour le tissage » (cf annexe 2, texte 1.11, phrase 18),
+attestés dans tous les parlers de la région de l‘est de Béjaia ; ini-as i ufuḥan-iw ma di
+d-iwelli >[in‘-as i wfuḥan-iw ma di d-iwelli] «dis à mon méchant de rentrer /
+qu‘attend mon méchant de renter», attesté dans le parler d‘Aokas ; ad t-nkebbel i
+ufeggag > [a t-nkǝbbǝl i wfǝggag]« nous le roulons à l‘ensouple inférieure » (cf
+annexe 2, texte 1.18, phrase 29), attesté dans le parler de Tagouba et celui d‘Ait
+Amrous.
+180
+---PAGE 180---
+Chapitre 1 : Les variables phonétiques
+2.3. Apophonie ou alternance vocalique
+La comparaison entre les parlers kabyles fait resurgir un phénomène d‘apophonie qui
+est une modification vocalique dans un lexème en passant d‘un parler à un autre. Le
+changement peut concerner une ou plusieurs voyelles. Cela peut toucher une voyelle initiale,
+une voyelle finale ou une voyelle interne Guerrab (2014 : 73).
+Le phénomène d‘apophonie est très répandu dans la région de l‘est de Bejaia. C‘est ce
+qui distingue d‘ailleurs cette région des autres parlers kabyles. Il touche toutes les catégories
+monématiques : verbes, noms et fonctionnels. Les parlers de cette région présentent aussi une
+variabilité, c‘est ce que montrent les exemples suivants :
+1. Les verbes : les voyelles touchées par la variation sont celles du radical verbal ou
+celles qui forment l‘aspect (schème aspectuel) :
+- /i/ > /u/ : qiṭṭer « s‘égoutter » et ssiɣ « toucher, atteindre » (tous les deux thèmes
+d‘aoriste), attestés dans les parlers : Aokas, Tizi n berber, d‘Ighil Wis, Ait Amrous, Ait
+Melloul (Tagouba), Ait Bimoun, Ait Bourman, Bouyman, Qelaoun, Ait Merâi,
+Ijermounen, Taregragt, Ait Mbarek et Ighzer Ouftis, qui correspondent à qaṭṭer et ssaɣ,
+attestés dans les parlers de Tamrijt, Laâlam, Ait Segoual et Melbou.
+- /u/> /i / : Mlul « blanchir », attesté dans les parlers de Taregragt, Ait Mbarek, Ighzer
+Ouftis, Ijermounen, Ait Merâi, Qelaoun, Bouyman et Ait Bourman, aboutissant à mlil,
+attesté dans les parlers d‘Aokas, Tizi n Berber, S.El.Tennine, Melbou, Ait Segoual,
+Leâlam, Tamrijt, Ait Amrous et Tagouba ; rnu « ajouter », attesté dans presque la
+quasi-totalité des parlers de la région de l‘est de Béjaia correspond à rni dans le parler
+de Qelaoun (cf annexe 2, texte 1.3, phrase 19).
+- /i/> /a/ : smir « verser » thème de l‘aoriste (avec la particule préverbale di), attesté
+dans les parlers Aokas, S.El.Tennine, Tizi n Berber, Ijermounen, Ait Merâi, Taregragt,
+Ait Mbarek et Ighzer Ouftis devient smar dans les parlers de Qelaoun, Bouyman,
+Leâlam, Tamrijt, Ait Segoual, Melbou, Ait Amrous et Tagouba (cf annexe 2, texte 1.3,
+phrase 21).
+181
+---PAGE 181---
+Chapitre 1 : Les variables phonétiques
+- /u/> /a/ : bɣu « vouloir » dont la voyelle finale (-u) désigne la marque d‘aspect, thème
+d‘aoriste à laquelle correspond (-a) pour le prétérit, attesté dans la plupart des parlers
+étudiés, à savoir : Aokas, Tizi n berber, Ighil Wis, Ait Amrous, Ait Melloul (Tagouba)
+et Ait Bimoun, Ait Bourman, Bouyman, Ait Merâi, Ijermounen, Taregragt, Ait
+Mbarek et Ighzer Ouftis. Ces deux thèmes marquant les parlers que nous venons
+d‘évoquer correspondent à une seule forme bɣa (thème d‘Aoriste et thème du prétérit)
+dans les parlers de Qelaoun, Leâlam, Tamrijt, Ait Segoual et Melbou.
+2. Les noms : Là aussi, l‘alternance ou la modification vocalique peut influencer les
+voyelles formant le radical nominal ou la marque du pluriel, c‘est le cas de :
+- /u/> /a / : akeccuṭ « bâton » (cf annexe 2, texte 1.16, phrase 7), attesté dans la plupart
+des parlers de la région située à l‘est de Béjaia ; ils sont au nombre de 16parlers :
+Aokas, Tizi n berber, Ighil Wis, Ait Amrous, Ait Melloul (Tagouba) et Ait Bimoun,
+Ait Bourman, Bouyman, Qelaoun, Ait Merâi, Ijermounen, Taregragt, Ait Mbarek,
+Ighzer Ouftis et Tamrijt, en correspondance au mot akeccaṭ (cf annexe 2, texte 1.10,
+phrase 12), attesté dans les 03 parlers restants, à savoir : Laâlam, Ait Segoual et
+Melbou.
+- /i/ > /a/ : tifastin « brassées » ; tickaṛin « des sacs » ; tisumtiwin « oreillets » et
+timeqqunin « mottes » (cf annexe 2, texte 1.9, phrase 30), attestés dans les 16 parlers
+évoqués ci-dessus en correspondance avec les mots tickaran , tisumtawan et
+timeqqunan(cf annexe 2, texte 1.10, phrase 30), attestés dans les parlers formant une
+partie réduite de la région Est de béjaia (Laâlam, Ait Segoual et Melbou).
+3. Les substituts : L‘alternance vocalique dans cette catégorie est particulière, à quelques
+parlers près, et constitue le centre et l‘Est de la région de l‘est de Béjaia. C‘est ce que
+nous montrons dans les exemples suivants :
+- /i/> /a/ : cette alternance est identifiée dans les pronoms personnels affixes, régime
+direct, 3ème personne du pluriel, masculin ou féminin : telsa-yin/-yint « elle les a mis
+(ses vêtements) », attesté dans les parlers d‘Aokas, de S.El.Tennine, de Tizi n Berber,
+182
+---PAGE 182---
+Chapitre 1 : Les variables phonétiques
+d‘Ighzer Ouftis, d‘Ait Mbarek, de Taregragt, d‘Ijermunen, d‘Ait Merâi, de Qelaoun et
+de Bouyman, en correspondance avec telsa-yan/-yant dans les parlers de Tamrijt,
+Leâlam, Ait Segoual et Melbou. Cette même voyelle /a/s‘alterne et devienne /u/ à
+voisinage de la modalité d‘orientation spatiale dans ces mêmes parlers que nous
+venons d‘évoquer, à savoir Tamrijt, Leâlam, Ait Segoual et Melbou. C‘est ce que nous
+retenons de l‘exemple suivant : telsa-yan/-yant aboutit à telsa-yadd-un/-yadd-unt.
+L‘inverse est aussi attesté. La voyelle préfixée au pronom affixe direct,
+particulièrement la 3ème personne du singulier, masculin et féminin, où /i/> /a/ : c‘est la
+voyelle /a/ qui est majoritaire dans la région de l‘est de Béjaia (13 parlers). Ce
+qu‘explique l‘exemple suivant : neggar-it « nous l‘introduisons », attesté dans le parler
+d‘Ait Bourman, de Qelaoun à l‘extrême Est de cette région, et d‘Ighil Wis, d‘Ait
+Amrous, de Tagouba et d‘Ait Bimoun à l‘Ouest, aboutit à neggar-at dans les parlers
+formants le centre et l‘Est de la région étudiée englobant : Ijermounen, Ait Merâi,
+Taregragt, Ait Mbarek, Ighzer Ouftis, Tamrijt, Leâlam, Ait Segoual, Melbou, S.El.
+Tennine, Aokas et Tizi n Berber.
+- /i/> /a/ : Cette modification intervient aussi dans un contexte particulier qui crée la
+confusion entre le pronom personnel affixe direct et le pronom personnel affixe
+indirect ; il s‘agit particulièrement de la 2ème personne singulier, masculin ou féminin :
+(-ik ; -im) pour le régime direct et (–ak, -am) pour le régime indirect. Voici un exemple
+illustratif :
+Ttḥibbiɣ(beɣɣuɣ)-im/-ik « je t‘aimes (je te préfère) », attesté dans les parlers d‘Aokas,
+S.El.Tennine, Tamrijt, Ait Segoual, Melbou, Laâlam, Ait Mbarek, Taregragt, Qelaoun,
+Ait Bourman pour la partie centre et Est, et, Tizi n Berber, Ighil Wis, Ait Amrous,
+Tagouba et At Bimoun pour la partie Ouest de la région de l‘est de Béjaia. Il lui
+correspond ttḥibbiɣ-am/-ak, dans les parlers Ijermunen, Ighzer Ouftis et celui d‘Ait
+Marâi.
+Ce que nous pouvons retenir de cette alternance vocalique touchant la catégorie des verbes,
+celle des substituts et des substantifs, c‘est que, à part quelques exceptions concernant parler
+de Qelaoun, d‘Ijermounen et d‘Ait Marâi, les parlers les plus affectés par cette modification
+183
+---PAGE 183---
+Chapitre 1 : Les variables phonétiques
+sont ceux formant le centre réduit de la région de l‘est de Béjaia : Tamrijt, Laâlam, Ait
+Segoual et Melbou.
+4. Les fonctionnels : La modification vocalique touche toutes les sous-catégories des
+fonctionnels à savoir les prépositions, les conjonctions et les particules ; elle peut être
+médiane ou finale, ce que montrent les exemples suivants
+- /e/ > /i/ : neɣ « ou », attesté dans la plupart des parlers de la région de l‘est de Béjaia
+(15 parlers), subissant une modification vocalique, devient niɣ dans les 04 parlers
+réstants de cette région, il s‘agit particulièrement de : Aokas, Tizi n Berber, Ait
+Amrous et Tagouba.
+- /a/ > /i/ : alma ; alama ; alamma « jusqu‘à » éparpillés dans les parlers suivants :
+Qelaoun (alma) ; Ait Amrous, Tagouba, Ait Bourman, Taregragt, Bouyman,
+S.El.Tennine, Laâlam et Ait Bimoun (alama) ; et (alamma) à Ighil Wis et Ait Segoual,
+aboutissant à alami dans le parler de Tamrijt (cf annexe 2, texte 1.9, phrase 10) et à
+almi dans les parlers de Tizi n Berber, Ait Mbarek et Aokas (cf annexe 2, texte 1.7,
+phrase 10).
+Notons ici que le phénomène d‘apophonie, étant une modification de la voyelle,
+est parfois plus poussé, il aboutit à l‘élision de la voyelle /u/ > /ϕ/, médiane ou initiale.
+Ce que montrent les exemples suivants :
+- luxen(t) « à ce moment-là » (cf annexe 2, texte 1.2, phrase 34), attesté dans les parlers
+d‘Ait Bimoun, S.El.Tennine, Melbou, Ait Segoual, Laâlam, Tamrijt, Ighzer Ouftis, Ait
+Mbarek et Taregragt, devient lxen(t) dans le parler d‘Aokas et celui de Tizi n Berber ;
+umbeɛd « après » (cf annexe 2, texte 1.3, phrase 4), attesté dans les parlers Ijemounen,
+Ait Marâi, Qelaoun, Ait Mbarek, Laâlam, S.El.Tennine, Ighil Wis et Ait Amrous, perd
+sa voyelle initiale et aboutit à mbeɛd, attesté dans le parler d‘Aokas et celui de Tizi n
+Berber ;
+- ulsen ulli («u- », marque d‘aspect, thème du prétérit) «ils ont tondu des brebis » (cf
+annexe 2, texte 1.3, phrase 2), attestés dans le parler d‘Ait Bourman, Bouyman,
+184
+---PAGE 184---
+Chapitre 1 : Les variables phonétiques
+Qelaoun, Ijernmounen, Ait Merâi, Ait Amrous, Tagouba et Ait Bimoun, il aboutit à
+l‘élision de la voyelle initiale u- et devient ainsi lsen ulli dans les parlers d‘Aokas,
+Tizi n Berber, S.El.Tennine, Tamrijt, Leâlam, Ighzer Ouftis, Ait Mbarek et Taregragt.
+2.4. Chute ou adjonctiond’un phonème non etymologique en position finale
+En ventilant notre corpus, nous avons constaté que la réalisation de certains lexèmes
+diffère d‘un parler à l‘autre, selon la présence ou l‘absence d‘un phonème particulier à la fin
+du lexème, que ce soit entre les parlers de la région de l‘est de Béjaia faisant l‘objet de notre
+étude, et en général, dans les parlers kabyles. Il est à remarquer : ce qui distingue cette région
+Est de Béjaia des autres parlers kabyles, c‘est que, si dans la plupart des cas, il s‘agit de
+l‘ajout d‘un phonème et non pas de sa suppression - Guerrab (2014 : 71), mais, dans la région
+de l‘est de Béjaia, c‘est plutôt la suppression qui prime sur l‘adjonction.
+Mis à part le cas d‘adjonction de la dentale sourde /t/ ou de la dentale sonore /d/ à la fin
+d‘un pronom non personnel (démonstratif), c‘est le phénomène de suppression qui est
+récurrent dans les parlers de la région de l‘est de Béjaia.
+2.4.1. L’adjonction du phonème /t/
+Cette adjonction est facultative, elle est attestée dans un nombre très réduit des 19
+parlers étudiés : elle acompagne la forme étoffée des pronoms personnels autonomes, celle
+des pronoms démonstratifs, de l‘adverbe de temps : lxen ou luxen « à ce moment-là », et celle
+du pronom d‘altérité. Voici quelques cas :
+- Pronoms autonomes : Les formes neutres (sans adjonction) kunwi, kunemti « vous »;
+nuhni, nuhenti « ils, elles »; nekni, nkenti « nous » sont attestées dans les 19 parlers
+étudiés. Elles prennent le « t » final : kunwi / kunwit ; kunemti / kunemtit « vous »,
+nuhenti / nuhentit « elles », nuhni / nuhnit « ils », nekni /neknit et nkenti / nkentit
+« nous », uniquement dans les parlers de Tamrijt et d‘Aokas ainsi les deux extrimités
+de la région étudiée (Ait Bourman et Ait Bimoun) (cf annexe 4.5, tableau 4.5.1) ;
+185
+---PAGE 185---
+Chapitre 1 : Les variables phonétiques
+- Pronoms démonstratifs : ils sont utilisés pour s‘adresser à un(e) inconnu(e) ou à
+quelqu‘un (e), qui est loin du locuteur, ayant du mal à le distinguer. C‘est le cas de : a
+winna « à celui là-bas » ; a tinna « à celle là-bas », attesté dans les parlers de
+Taregragt, Bouyman, Ighzer Ouftis, Tamrijt, Ait Amrous et Tagouba. Ces deux
+pronoms démonstratifs prennent le « t » final en donnant respectivement : a winnat « à
+celui là-bas » et a tinnat « à celle là-bas », attestés dans le parler d‘Ait Mbarek.
+- Adverbes de temps : Le phonème /t/ est parfois suffixé à l‘adverbe, elle est d‘usage
+facultatif : luxen / lxen « à ce moment-là », attestés dans les parlers Bouyman (luqen),
+Ighzer Ouftis, Tamrijt, Aokas (lxen), Ait Amrous et Tagouba (luqen). Ces deux formes
+prennent le « t » final luxent / lxent (cf annexe 2, texte 1.6, phrase 20), attestés dans les
+parlers Taregragt, Ait Mbarek et Tizi n Berber (lxent).
+- Pronom d’altérité : taduṭ-nniṭen >ṯaḍuṭ-nnéṭǝnt (l‘autre laine) (cf annexe 2, texte 1.6,
+phrase 27), attesté dans le parler de Taregragt.
+2.4.2. L’adjonction du phonème /d/
+Cette adjonction concerne les pronoms démonstratifs. Elle est attestée dans le parler
+d‘Aokas et a un usage facultatif, et, surtout marginal. Cette dentale est suffixée à la forme
+étoffée comme nous l‘avons déjà souligné, c‘est le cas des exemples suivants : wa> waha>
+wadaka> wadakad « celui-ci » ; ta> taha> tahadatta> tahadattad « celle-ci » ;
+widakni >widaknid « ceux-ci » ; tidakti>tidaktid « celles-ci ».
+Cette adjonction se manifeste aussi dans la catégorie des déictiques de proximité, elle
+est attestée dans un nombre important de parlers (11/19), et contrairement à la catégorie des
+pronoms démonstratifs, l‘usage de cette adjonction est courant. C‘est ce que illustre l‘exemple
+suivant : Argaz-ad/-adakad « cet homme-ci »; irgazen-id/-idaknid « ces hommes-ci » ;
+tameṭṭut-adattad « cette femme-là » ; lxalat-idaktid « ces femmes-là ».
+2.4.3. Chute du phonème final
+Le phénomène de suppression est attesté dans les cas ci-dessous, et bien sûr, il n‘est pas
+généralisé à tous les parlers de la région de l‘est de Béjaia :
+186
+---PAGE 186---
+Chapitre 1 : Les variables phonétiques
+- Nom propre : l‘élision concerne les noms propres se terminant par le phonème /d/,
+comme dans Farid, Lḥamid, Lmajid, Ssaɛid et Lyazid, attestés dans la plupart des
+parlers de la région de l‘est de Béjaia (16/19), il s‘agit précisément des parlers d‘Ait
+Bourman, Qelaoun, Ijermounen, At Merâi, Bouyman, Taregragt, Ait Mbarek, Ighzer
+Ouftis, Tamrijt, Laâlam , Ait Segoual, Melbou, Ighil Wis, Ait Amrous, Tagouba et Ait
+Bimoun.Ces noms propores aboutissent à Fari, Lḥami, Lmaji, Ssaɛi et Lyazi, attestés
+dans les parlers de S.EL.Tennine, Aokas et Tizi n Berber.
+- Shème aspectuel du thème verbal : La voyelle finale –a (marque du thème prétérit
+de certains verbes) s‘efface dans quelques parlers de la région de l‘est de Béjaia. C‘est
+le cas de : Terga « elle est sortie » , rga thème du prétérit du verbe (a)reg « sortir »,
+attesté dans les parlers Ait Segoual, Melbou, Tamrijt, Laâlam, Ait Merâi, Ijermounen,
+Qelaoun et Ait Bourman pour la partie Est de la région étudiée et Ighil Wis, Ait
+Amrous, Tagouba, Ait Bimoun, pour la partie Ouest, aboutissant à treg, attesté dans les
+parlers constituant le centre de la région étudiée : Aokas, Tizi n Berber et
+S.EL.Tennine, et attesté plus à l‘Est de ce centre, à savoir Ighzer Ouftis, At Mbarek et
+Taregragt ; ager « faire entrer » tegra (thème du prétérit), attesté dans les parlers de
+Qelaoun, Ijermounen, Ait Merâi, Taregragt, Bouyman, Ait Mbarek, Ighzer Ouftis,
+Tamrijt, Laâlam, Ait Segoual, Melbou, S.El.Tennine, Aokas, Tizi n Berber,Ait Amrous,
+Tagouba et Ait Bimoun. Cette voyelle finale s‘éfface en aboutissant à tger, attesté dans
+les parlers Ighil Wis et Ait Bourman.
+- L‘harmonisation vocalique, évoquée par Guerrab (2014 : 74), qui touche l‘aspect
+d‘aoriste intensif, particulièrement les verbes trilitères à voyelle zéro (ec c ) > (tt
+1 2
+c uc ) > (ttc uc u) est attestée uniquement dans un seul parler de la région étudiée
+1 2 1 2
+(1/19), celui en particulier d‘Ait Bimoun. Ce que montrent les exemples suivants : enz
+« vendre »>ttnuz(u) « vendre habituellement » ; els « s‘habiller » >ttlus(u) « s‘habiller
+habituellement » etţţṛuccu « asperger habituellement » (cf annexe 2, texte 1.19, phrase
+3).
+187
+---PAGE 187---
+Chapitre 1 : Les variables phonétiques
+Par contre, la formation de l‘aoriste intensif des verbes bilitères à voyelle pleine
+(c )c ic (c ), est par l‘adjonction d‘un phonème ou même d‘une syllabe (-ay/iw) ; ce
+1 1 2 2
+qu‘ illustrent les exemples suivants : mmir « verser »>ttmiray « verser
+habituellement » et ṭill « regarder » >ṭilliw « regarder habituellement ».
+- Déictique d’évocation : Ce déictique perd sa voyelle finale –i dans la plupart des
+parlers de la région de l‘est de Béjaia (13 /19) : [argaz-nni] « l‘homme en question » ;
+[ṯaḍoṭ-nni]« laine en question » (cf annexe 2, texte 1.19, phrase 2),attestés dans les
+parlers Ait Bimun, Tagouba, Ait Amrous, Ighil Wis, Qelaoun et Ait Bourman, devient
+[argaz-enn] voir [aryaz-enn] ; ṯaḍuṭ-enn (cf annexe 2, texte 1.13, phrase 32) dans les
+parlers réstants, à savoir : Ijermunen, At Merâi, Taregragt, Bouyman, At Mbarek,
+Ighzer Ouftis, Tamrijt, Laâlam, Ait Segoual, Melbou, S.El.Tennine, Aokas et Tizi n
+Berber.
+- Déictique de proximité : Là aussi, la forme (brève) –agi, -ayi du déictique de
+proximité attestée aux deux extrémités de la région de l‘est de Béjaia, à savoir Ait
+Bimoun (-ayi), pour l‘extrême Ouest, et Ait Bourman(-ayi) pour l‘extrême Est,en
+perdant le segment (yi) devient ainsi –a dans les 17 parlers réstants de la région
+étudiée.Voici quelques exemples :[ṯaḍoṭ-ayi]« cette laine-ci ou cette laine », attestée
+dans le parler d‘Ait Bourman et celui d‘Ait Bimoun, s‘efface pour donner[ṯaḍoṭ-a]
+dans le restant des parlers.
+2.5. La métathèse et l’interversion
+Ce phénomène intéresse la permutation des sons (particulièrement les consonnes),
+intervient au niveau du lexème. [Lorsque la permutation concerne des sons en contact, on
+parle plutôt d‘interversion ; et, lorsqu‘ils sont distants, c‘est-à-dire séparés par d‘autres sons,
+on utilise le terme de métathèse parfois utilisé pour les deux cas.] Berkai (2014 : 66)
+La permutation n‘est pas une spécificité des parlers de la région de l‘est de Béjaia vis-à-
+vis des autres parlers kabyles et berbères en général, mais plutôt un phénomène inter dialectal ;
+il se manifeste en passant d‘un parler à un autre et d‘un dialecte à un autre. D‘ailleurs les
+parlers de la région de l‘est de Béjaia eux-mêmes ne sont pas homogènes, ce qui fait que cette
+188
+---PAGE 188---
+Chapitre 1 : Les variables phonétiques
+permutation est apparente dans les lexèmes suivants. Il est à noter ici que nous avons repris
+les lexèmes « aserfun, imɣi, tigejdit et ayekfi) cités par Berkai (2014 : 66):
+- /ɣ/ + /n/ >/n/ + /ɣ/ : Le pronom personnel affixe, régime direct ou indirect du verbe
+antéposé aɣen « nous, à nous », forme étoffée de aɣ connue dans les autres parlers
+kabyles, subit une permutation des consonnes n et ɣ et devient aneɣ, avec le même
+sens et la même fonction. Mais postposé au verbe, cette métathèse est attestée dans
+tous les parlers de la région de l‘est de Béjaia. C‘est le cas de : Bɣan-aneɣ lxir « ils
+nous veulent du bien » [veulent-ils (prétérit)-à nous du bien] et di aɣen-bɣun lxir « ils
+vont nous vouloir du bien » [non réel à nous-vouloir-ils (aoriste) du bien], attesté dans
+les parlers qui forment le centre réstreit de la région étudiée (S.El.Tennine, Aokas et
+Tizi n Berber).
+- /s/ + /f/ >/f/ + /s/ : ces deux phonèmes s‘alternent mutuellement en donnant
+une métathèse entre le lexème aserfun « ronce ; broussaille », attesté dans le parler
+d‘Aokas, de Tizi n Berber et S.El. Tennine, afersun, attesté dans les parlers Ijermounen,
+Ait Merâi, Qelaoun, Ighzer Ouftis et Tamrijt. Quant aux autres parlers, ils attestent
+d‘autres lexèmes, à savoir afares attesté dans les parlers Taregragt et Ait Mbarek,
+Imijel attesté dans les parlers Ait Amrous, Tagouba et Ait Bimoun, amadaɣ attesté
+dans le parler de Bouyman.
+- /k/ + /f/ >/f/ + /k/ : Là, le processus évolutif de permutation des deux phonèmes est
+plus poussé dans cetains parlers de la région de l‘est de Béjaia, aussi dans ce cas, il
+subit une assimilation au final. C‘est ce que nous avons évoqué au début de ce chapitre
+(assimilation monématique). Cette évolution phonétique apparait dans les deux
+lexèmes suivants : ayekfi >ayefki >ayeffi (akeffi) > aceffa « lait » ; ekf>efk >eff «
+donner » : la forme ekf du verbe est attestée dans les parlers d‘Ijermounen, Ait Merâi,
+Aokas, Tizi n Berber, Ait Mbarek et celle ayant subit la permutation efk est attesté
+dans les parlers : Ait Bourman, Ighil Wis, Ait Amrous, Tagouba et Ait Bimoun,
+aboutissant en fin de processus à eff attesté dans les parlers :Taregragt, Bouyman,
+Ighzer Ouftis, Aokas, Tizi n Berber, S. El. Tennine, Laâlam et Tamrijt. Quant au
+substantif ayekfi « lait » attesté dans les parlers Ait Marâi, Aokas, Tizi n Berber et
+Ijermounen, il subit une permutation entre les phonèmes /k/ et /f/ donnant ayefki attesté
+189
+---PAGE 189---
+Chapitre 1 : Les variables phonétiques
+dans le groupe d‘Ait Amrous, aboutissant ainsi à ayeffi/akeffi dans le groupe de
+Taregragt, et aceffa dans le parler de Qelaoun.
+Cette dernière interversion concerne un verbe récurent dont les deux formes se
+retrouvent par ailleurs dans la langue berbère : en touareg, c‘est la forme du groupe
+d‘Ijermounen qui est attestée ; en chleuh, c‘est celle du groupe d‘Ait Bourman, attestée aussi
+dans le parler d‘Ait Manguellat. C‘est ce qu‘explique Berkai (2014 : 67) disant :
+« Une interversion qu‘on ne peut expliquer par l‘argument d‘accommodation ou
+d‘économie articulatoire qu‘on peut par contre avancer pour expliquer le même
+type d‘interversion dans le nom ayefki/ayekfi : le dos de la langue ne fait qu‘un
+seul mouvement vers le palais en articulant successivement la semi-voyelle
+palatale y et la palatale sourde spirante (dans ce contexte) k dans la forme
+d‘Aokas, alors qu‘il en fait deux entrecoupés par l‘articulation de la labiodentale
+sourde f dans celui d‘At Manguellat. Il est donc fort probable dans ce cas que
+l‘interversion se soit opérée dans le parler d‘Aokas ».
+- /ḥ/ + /k/ >/k/ + /ḥ/ : La permutation de ces deux phonèmes apparait dans les lexèmes
+leḥkul/lekḥul « du cohol » : La forme leḥkul du substantif est attestée dans la partie
+formant le centre et l‘est de la région de l‘est de Béjaia, à savoir le parler de Tizi n
+Berber, Aokas, S.El.Tennine, Melbou, Ait Segoual, Laâlam, Ighzer Ouftis, Ait Mbarek,
+Taregragt, Ait Merâi, Ijermounen, Qelaoun et Bouyman ; quant à la forme lekḥul, elle
+est attestée dans les deux extrémités de cette région : Ait Bourman pour l‘extrême Est,
+et Ighil Wis, Ait Amrous, Tagouba et Ait Bimoun pour l‘extrême Ouest. Exception
+faite pour le parler de Tamrijt, qui est un parler du centre est de la région étudiée mais
+qui atteste la forme lekḥul, connue dans les deux extrémités de la région étudiée.
+- /ɣ/ + /m/ >/m/ + /ɣ/ : iɣmi > imɣi15« germer, pousser » : interversion des consonnes ɣ
+et m, où c‘est la forme ɣmi /iɣmi pour le verbe qui est attestée dans tous les 19 parlers
+étudiés de la région de l‘est de Béjaia. Par contre, la forme imɣi est attestée pour le
+substantif uniquement dans deux parlers de cette région (2/19), il s‘agit des parlers aux
+15J.M.Dallet (1982, P.609) et ISSIN (2010, P.509) quant à la forme iɣmi/iɣma, elle est évoquée par J.M. Dallet
+(1982, P. 614) pour désigner action de teindre.
+190
+---PAGE 190---
+Chapitre 1 : Les variables phonétiques
+deux extrémités de la région étudiée : Ait Bourman à l‘extrême Est et Ait Bimoun à
+l‘extrême Ouest.
+- /g/+ /j/ >/j/ + /g/ : tigejdit > tijegdit « poutre maîtresse, centrale », il y a là
+interversion des consonnes g et j, la première forme est attestée dans les parlers
+formant les deux extrémités, Ait Bourman à l‘extrême Est et Ait Bimoun à l‘extrême
+Ouest, mais aussi dans le parler de Tamrijt, Derguina, Ait Mbarek, Taregragt et
+Bouyman. Quant à la deuxième forme ayant subi l‘interversion, elle est attestée dans
+les parlers Ijermounen, Ait Merai, S.El. Tennine, Aokas, Tizi n Berber, Ait Amrous et
+Tagouba.
+Conclusion
+La variation représentant les différentes évolutions ou altercations phonétiques dans le
+cadre du lexème ou syntagme montre que les ruptures que connaissent les articulations de
+base des parlers de la région de l‘est de Béjaia ne sont pas homogènes. Elles ne sont pas non
+plus systématiques car certains phonèmes évoluent dans des directions différentes, aphérèse
+dans certains parlers et épenthèse dans d‘autres ; assimilation progressive dans certains parlers
+et régressive dans d‘autres. C‘est le cas de ayekfi >ayefki >ayeffi (akeffi) > aceffa « lait » ;
+ekf>efk >eff « donner » ; ffuqermud > fqermud « sur les tuiles »
+Retenons aussi que cette variation ne permet pas d‘établir distinctement les faisceaux
+d‘isoglosse, ou ce que nous pouvons appeler zones de transition (après superposition de
+plusieurs traits linguistiques). Et, dans notre cas, concernant les traits phonétiques, les
+isoglosses, ou les frontières entre les parlers de cette région, changent d‘un trait phonétique à
+un autre, d‘où la difficulté voir même l‘impossibilité de valider la subdivision de la région de
+l‘est de Béjaia en sous-régions plus en moins homogènes, comme nous avons déjà tenté de le
+montrer ci-dessus :
+1. Un groupe de parlers contenant les deux extrémités de la région située à l‘est de Béjaia
+(Ait Bourman et Ait Bimoun) ;
+191
+---PAGE 191---
+Chapitre 1 : Les variables phonétiques
+2. Un groupe de parlers formant le centre de cette région étudiée, réduit (Aokas , Tizi n
+Berber et S. El.Tennine), ou élargi (Aokas , Tizi n Berber, et S. El .Tennine, Tamrijt,
+Leâlam, Ait Segoual, Derguina, Ait Mbarek, Taregragt et Bouyman) ;
+3. Et enfin, un groupe de parlers représentant les deux parties Est et Ouest, Ijermounen,
+Ait Merâi et Qelaoun pour la partie Est ; Ighil Wis, Ait Amrous et Tagouba pour la
+partie Ouest de cette région.
+Les évolutions phonétiques sont en formation, néanmoins, il est à remarquer que
+certains parlers sont plus altérés que d‘autres, comme c‘est le cas du parler d‘Aokas en ce qui
+concerne l‘évolution de la dentale : spirantisation dans les substantifs ; changement de lieu
+d‘articulation et élision dans les substituts.
+Les isoglosses ne se recouvrent pas toujours pour former des faisceaux d‘isoglosses,
+nécessaires pour tracer des limites dialectales : soit elles sont parallèles, soit elles forment des
+vagues, ou encore elles se croisent les unes les autres. Ce qui ne facilite pas la formation des
+faisceaux. Le phénomène de la labiovélarisation et celui de l'évolution de la dentale sont de
+bons exemples de ce problème.
+192
+---PAGE 192---
+Chapitre 1 : Les variables phonétiques
+193
+---PAGE 193---
+Chapitre 1 : Les variables phonétiques
+Chapitre 2 : Les variables morphologiques
+194
+---PAGE 194---

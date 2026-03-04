@@ -1,0 +1,5 @@
+{"incident_type": "accident_vehicular", "requested_examples": 1, "prompt_template": ""}
+{"incident_type": "fire_building", "requested_examples": 1, "prompt_template": ""}
+{"incident_type": "theft_robbery", "requested_examples": 1, "prompt_template": ""}
+{"incident_type": "natural_disaster", "requested_examples": 1, "prompt_template": ""}
+{"incident_type": "medical_emergency", "requested_examples": 1, "prompt_template": ""}

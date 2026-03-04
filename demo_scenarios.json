@@ -1,0 +1,322 @@
+[
+  {
+    "id": "synth_00006",
+    "text": "allo quatorse yella mushkil non non g Tichy wa7ed malaise respire envoyez une non non ambulance venez vite vite",
+    "type_incident": "malaise",
+    "commune": "Tichy",
+    "lieu_precis": "Tichy",
+    "repere": "qbel ssug",
+    "nb_victimes": 1,
+    "etat_victimes": "moyen",
+    "niveau_urgence": "urgent",
+    "langue_dominante": "francais",
+    "metadata": {
+      "template": "malaise_domicile",
+      "generated_at": "2026-01-20T02:40:51.108790"
+    }
+  },
+  {
+    "id": "synth_00007",
+    "text": "oui allo 14 yella mushkil g Edimco Tazmalt wa7ed yeghli issnoufouss nehwaj non non lambulance ruhet-d",
+    "type_incident": "malaise",
+    "commune": "Tazmalt",
+    "lieu_precis": "Edimco",
+    "repere": "qbel tamdint",
+    "nb_victimes": 1,
+    "etat_victimes": "moyen",
+    "niveau_urgence": "urgent",
+    "langue_dominante": "mixed",
+    "metadata": {
+      "template": "malaise_domicile",
+      "generated_at": "2026-01-20T02:40:51.109679"
+    }
+  },
+  {
+    "id": "synth_00008",
+    "text": "oui allo 14 venez vite vite explosion g La Gare Gare Sidi-Aich riha nel gaz non non trois blessé légèrement blessé il faut les pompiers",
+    "type_incident": "explosion",
+    "commune": "Sidi-Aich",
+    "lieu_precis": "La Gare",
+    "repere": "gar lkarfour",
+    "nb_victimes": 3,
+    "etat_victimes": "leger",
+    "niveau_urgence": "critique",
+    "langue_dominante": "francais",
+    "metadata": {
+      "template": "explosion_gaz",
+      "generated_at": "2026-01-20T02:40:51.109679"
+    }
+  },
+  {
+    "id": "synth_00009",
+    "text": "allo quatorse dépêchez-vous explosion g Adekar riha nel gaz non non deux blessé respire il faut les pompiers",
+    "type_incident": "explosion",
+    "commune": "Adekar",
+    "lieu_precis": "Adekar",
+    "repere": "",
+    "nb_victimes": 2,
+    "etat_victimes": "moyen",
+    "niveau_urgence": "critique",
+    "langue_dominante": "francais",
+    "metadata": {
+      "template": "explosion_gaz",
+      "generated_at": "2026-01-20T02:40:51.109679"
+    }
+  },
+  {
+    "id": "synth_00010",
+    "text": "allo tsemam tsemam 3edjled 3edjled yella non non l3afya g RN24 direction Beni Djellil bezaf doukhan nehwaj lpompier 3edjled 3edjled",
+    "type_incident": "incendie",
+    "commune": "Beni Djellil",
+    "lieu_precis": "RN24",
+    "repere": "",
+    "nb_victimes": 0,
+    "etat_victimes": "NON_COMMUNIQUE",
+    "niveau_urgence": "critique",
+    "langue_dominante": "kabyle",
+    "metadata": {
+      "template": "incendie_maison",
+      "generated_at": "2026-01-20T02:40:51.109679"
+    }
+  },
+  {
+    "id": "synth_00011",
+    "text": "allo tsemam arwah-d tura ighlid woukham g Brise de Mer Mer Tazmalt sin n lvictime ijreh issnoufouss chey3emd les pompiers ruhet-d",
+    "type_incident": "effondrement",
+    "commune": "Tazmalt",
+    "lieu_precis": "Brise de Mer",
+    "repere": "gar lmasjid",
+    "nb_victimes": 2,
+    "etat_victimes": "moyen",
+    "niveau_urgence": "critique",
+    "langue_dominante": "kabyle",
+    "metadata": {
+      "template": "effondrement",
+      "generated_at": "2026-01-20T02:40:51.109679"
+    }
+  },
+  {
+    "id": "synth_00012",
+    "text": "oui allo 14 arwah-d tura yella wa7ed ighreq g lebher n Seghir idoukh chey3emd les pompiers ruhet-d",
+    "type_incident": "noyade",
+    "commune": "Akbou",
+    "lieu_precis": "Edimco",
+    "repere": "",
+    "nb_victimes": 2,
+    "etat_victimes": "grave",
+    "niveau_urgence": "critique",
+    "langue_dominante": "kabyle",
+    "metadata": {
+      "template": "noyade_plage",
+      "generated_at": "2026-01-20T02:40:51.109679"
+    }
+  },
+  {
+    "id": "synth_00013",
+    "text": "allo allo quatorse yallah yella euh feu g RN75 direction Adekar bezaf bezaf doukhan un blessé 8rave chey3emd non non les pompiers 3edjled",
+    "type_incident": "incendie",
+    "commune": "Adekar",
+    "lieu_precis": "RN75",
+    "repere": "",
+    "nb_victimes": 1,
+    "etat_victimes": "grave",
+    "niveau_urgence": "critique",
+    "langue_dominante": "mixed",
+    "metadata": {
+      "template": "incendie_maison",
+      "generated_at": "2026-01-20T02:40:51.109679"
+    }
+  },
+  {
+    "id": "synth_00014",
+    "text": "allo tsemam arwah-d tura yella wa7ed itchath lebher g lebher n Les Aiguades yeder chey3emd les pompiers euh atan dayi",
+    "type_incident": "noyade",
+    "commune": "Adekar",
+    "lieu_precis": "Adekar",
+    "repere": "qbel ssug",
+    "nb_victimes": 1,
+    "etat_victimes": "moyen",
+    "niveau_urgence": "urgent",
+    "langue_dominante": "kabyle",
+    "metadata": {
+      "template": "noyade_plage",
+      "generated_at": "2026-01-20T02:40:51.109679"
+    }
+  },
+  {
+    "id": "synth_00015",
+    "text": "allo allo allo quatorse atan dayi issakh oukham g Darguina yiwen n lvictime inter machi kbir nehwaj lpompier ruhet-d",
+    "type_incident": "effondrement",
+    "commune": "Darguina",
+    "lieu_precis": "Darguina",
+    "repere": "qbel lstasyon",
+    "nb_victimes": 1,
+    "etat_victimes": "leger",
+    "niveau_urgence": "critique",
+    "langue_dominante": "kabyle",
+    "metadata": {
+      "template": "effondrement",
+      "generated_at": "2026-01-20T02:40:51.109679"
+    }
+  },
+  {
+    "id": "synth_00016",
+    "text": "azul allo 14 timesst kbir euh g lghaba n Aokas l3afya bezaf 3edjled",
+    "type_incident": "incendie",
+    "commune": "Aokas",
+    "lieu_precis": "Aokas",
+    "repere": "",
+    "nb_victimes": 0,
+    "etat_victimes": "NON_COMMUNIQUE",
+    "niveau_urgence": "critique",
+    "langue_dominante": "mixed",
+    "metadata": {
+      "template": "incendie_foret",
+      "generated_at": "2026-01-20T02:40:51.109679"
+    }
+  },
+  {
+    "id": "synth_00017",
+    "text": "allo allo tsemam vite tebombi g Tazmalt riha nel gaz zouj majrou7 8rave khoussen khoussen les pompiers",
+    "type_incident": "explosion",
+    "commune": "Tazmalt",
+    "lieu_precis": "Tazmalt",
+    "repere": "deffir n lmairie",
+    "nb_victimes": 2,
+    "etat_victimes": "grave",
+    "niveau_urgence": "critique",
+    "langue_dominante": "arabizi",
+    "metadata": {
+      "template": "explosion_gaz",
+      "generated_at": "2026-01-20T02:40:51.109679"
+    }
+  },
+  {
+    "id": "synth_00018",
+    "text": "oui allo 14 incendie kbir g lghaba n Kherrata Kherrata gar lmasjid l3afya bezaf s'il vous plaît plaît",
+    "type_incident": "incendie",
+    "commune": "Kherrata",
+    "lieu_precis": "Kherrata",
+    "repere": "gar lmasjid",
+    "nb_victimes": 0,
+    "etat_victimes": "NON_COMMUNIQUE",
+    "niveau_urgence": "critique",
+    "langue_dominante": "francais",
+    "metadata": {
+      "template": "incendie_foret",
+      "generated_at": "2026-01-20T02:40:51.109679"
+    }
+  },
+  {
+    "id": "synth_00019",
+    "text": "allo tsemam feu kbir g lghaba n Darguina qbel tamdint l3afya bezaf venez vite vite",
+    "type_incident": "incendie",
+    "commune": "Darguina",
+    "lieu_precis": "Darguina",
+    "repere": "qbel tamdint",
+    "nb_victimes": 0,
+    "etat_victimes": "NON_COMMUNIQUE",
+    "niveau_urgence": "critique",
+    "langue_dominante": "francais",
+    "metadata": {
+      "template": "incendie_foret",
+      "generated_at": "2026-01-20T02:40:51.109679"
+    }
+  },
+  {
+    "id": "synth_00020",
+    "text": "oui allo 14 3edjled yella wa7ed itchath itchath lebher g lebher n Sidi Ahmed issnoufouss nehwaj lpompier atan dayi dayi",
+    "type_incident": "noyade",
+    "commune": "Seddouk",
+    "lieu_precis": "Naceria",
+    "repere": "deffir n lhopital",
+    "nb_victimes": 2,
+    "etat_victimes": "moyen",
+    "niveau_urgence": "urgent",
+    "langue_dominante": "kabyle",
+    "metadata": {
+      "template": "noyade_plage",
+      "generated_at": "2026-01-20T02:40:51.109679"
+    }
+  },
+  {
+    "id": "synth_00021",
+    "text": "allo allo quatorse tmesst tmesst kbir g lghaba n Tazmalt gar lmasjid l3afya bezaf ruhet-d",
+    "type_incident": "incendie",
+    "commune": "Tazmalt",
+    "lieu_precis": "Tazmalt",
+    "repere": "gar lmasjid",
+    "nb_victimes": 0,
+    "etat_victimes": "NON_COMMUNIQUE",
+    "niveau_urgence": "critique",
+    "langue_dominante": "kabyle",
+    "metadata": {
+      "template": "incendie_foret",
+      "generated_at": "2026-01-20T02:40:51.109679"
+    }
+  },
+  {
+    "id": "synth_00022",
+    "text": "allo allo allo quatorse yallah yella non non accident g El Kseur zouj zouj interit chwiya nebra nebra l'ambulance 3jel",
+    "type_incident": "accident",
+    "commune": "El Kseur",
+    "lieu_precis": "El Kseur",
+    "repere": "",
+    "nb_victimes": 2,
+    "etat_victimes": "leger",
+    "niveau_urgence": "normal",
+    "langue_dominante": "arabizi",
+    "metadata": {
+      "template": "accident_routier",
+      "generated_at": "2026-01-20T02:40:51.109679"
+    }
+  },
+  {
+    "id": "synth_00023",
+    "text": "allo tsemam yella mushkil g Targa euh Ouzemmour Akbou wa7ed idoukh chwiya chey3emd chey3emd lambulance arwah-d tura",
+    "type_incident": "malaise",
+    "commune": "Akbou",
+    "lieu_precis": "Targa Ouzemmour",
+    "repere": "gar lecole",
+    "nb_victimes": 1,
+    "etat_victimes": "leger",
+    "niveau_urgence": "normal",
+    "langue_dominante": "kabyle",
+    "metadata": {
+      "template": "malaise_domicile",
+      "generated_at": "2026-01-20T02:40:51.109679"
+    }
+  },
+  {
+    "id": "synth_00024",
+    "text": "allo tsemam dépêchez-vous effondrement effondrement g El Kseur trois blessé ne respire pas euh il faut les pompiers dépêchez-vous",
+    "type_incident": "effondrement",
+    "commune": "El Kseur",
+    "lieu_precis": "El Kseur",
+    "repere": "gar lmasjid",
+    "nb_victimes": 3,
+    "etat_victimes": "grave",
+    "niveau_urgence": "critique",
+    "langue_dominante": "francais",
+    "metadata": {
+      "template": "effondrement",
+      "generated_at": "2026-01-20T02:40:51.109679"
+    }
+  },
+  {
+    "id": "synth_00025",
+    "text": "azul euh allo 14 c'est urgent yella collision collision g Seddouk trois blessé conscient conscient envoyez une ambulance c'est urgent",
+    "type_incident": "accident",
+    "commune": "Seddouk",
+    "lieu_precis": "Seddouk",
+    "repere": "",
+    "nb_victimes": 3,
+    "etat_victimes": "moyen",
+    "niveau_urgence": "urgent",
+    "langue_dominante": "francais",
+    "metadata": {
+      "template": "accident_routier",
+      "generated_at": "2026-01-20T02:40:51.109679"
+    }
+  }
+]

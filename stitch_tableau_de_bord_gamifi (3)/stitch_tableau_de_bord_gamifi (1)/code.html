@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html class="light" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Tableau de bord Gamifié</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0077c7", // Bleu Azur
+                        "mustard": "#EAB308", // Jaune Moutarde
+                        "mustard-light": "#FEF08A",
+                        "background-light": "#f5f7f8", // Blanc cassé
+                        "background-dark": "#0f1b23",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem",
+                        "lg": "1.5rem", // Very rounded ~24px
+                        "xl": "2rem",   // Extra rounded ~32px
+                        "full": "9999px"
+                    },
+                    boxShadow: {
+                        "soft": "0 4px 20px -2px rgba(0, 119, 199, 0.1)",
+                        "glow": "0 0 15px rgba(234, 179, 8, 0.4)"
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-white antialiased overflow-x-hidden">
+<!-- Main Container -->
+<div class="relative flex min-h-screen w-full flex-col pb-24">
+<!-- Top App Bar -->
+<header class="flex items-center justify-between p-6 pb-2">
+<div class="flex items-center gap-3">
+<div class="relative group cursor-pointer">
+<div class="bg-center bg-no-repeat bg-cover rounded-full size-12 ring-4 ring-white dark:ring-background-dark shadow-soft" data-alt="User avatar smiling young man" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAKAZVEWBNNsnmjaJljxk3kMAykeMgAhWDpqQlcfe1pq4mACC9ymAwXjNn1RaDlIh50sGG5Y47VZuqyH3O5d79T8vGa7skDMTTtv-5cpfK_IoyYEZbq33RHjEUD1rGvKHqvAC-_ekGM_D9wOyMVNJ_vSYOYDscrxqHNpzuBLe_fV86RLwROzviaNZ7d-DlZ3jbIYUBwZmI0bTsB2S3FmDIrvTqe2IdeFgr68AQeIETloKjGqysr5x7ABlscEoOf2eNWC3UiTs4LcXQ");'>
+</div>
+<div class="absolute -bottom-1 -right-1 bg-mustard text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full border-2 border-white dark:border-background-dark">
+                        Lvl 5
+                    </div>
+</div>
+<div class="flex flex-col">
+<span class="text-slate-400 dark:text-slate-400 text-xs font-semibold uppercase tracking-wider">Bonjour</span>
+<h1 class="text-slate-900 dark:text-white text-xl font-extrabold leading-tight">Azul, Massinissa!</h1>
+</div>
+</div>
+<button class="relative p-2 rounded-full bg-white dark:bg-slate-800 shadow-soft text-slate-600 dark:text-slate-300 hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[24px]">notifications</span>
+<span class="absolute top-2 right-2 flex h-2.5 w-2.5">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-red-500"></span>
+</span>
+</button>
+</header>
+<!-- Points & Level Card -->
+<section class="px-6 py-4">
+<div class="bg-primary rounded-xl p-6 text-white shadow-soft relative overflow-hidden">
+<!-- Abstract Pattern Background -->
+<div class="absolute top-0 right-0 w-32 h-32 bg-white opacity-10 rounded-full translate-x-10 -translate-y-10 blur-xl"></div>
+<div class="absolute bottom-0 left-0 w-24 h-24 bg-black opacity-10 rounded-full -translate-x-5 translate-y-5 blur-lg"></div>
+<div class="flex justify-between items-start relative z-10">
+<div>
+<p class="text-blue-100 text-sm font-medium mb-1">Total XP</p>
+<div class="flex items-baseline gap-1">
+<span class="text-4xl font-extrabold">2,450</span>
+<span class="text-lg font-bold text-blue-200">PTS</span>
+</div>
+</div>
+<div class="bg-white/20 backdrop-blur-sm p-2 rounded-lg">
+<span class="material-symbols-outlined text-white text-[28px]">trophy</span>
+</div>
+</div>
+<div class="mt-6 relative z-10">
+<div class="flex justify-between text-xs font-medium text-blue-100 mb-2">
+<span>Explorateur (Niveau 5)</span>
+<span>250 XP restants</span>
+</div>
+<div class="h-3 w-full bg-black/20 rounded-full overflow-hidden backdrop-blur-sm">
+<div class="h-full bg-mustard shadow-glow rounded-full" style="width: 75%"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Daily Challenges (Défis du Jour) -->
+<section class="flex flex-col gap-4 py-2">
+<div class="flex items-center justify-between px-6">
+<h2 class="text-slate-900 dark:text-white text-[22px] font-bold tracking-tight">Défis du Jour</h2>
+<button class="text-primary text-sm font-bold hover:opacity-80">Tout voir</button>
+</div>
+<!-- Horizontal Carousel -->
+<div class="flex w-full overflow-x-auto px-6 pb-6 gap-4 no-scrollbar snap-x">
+<!-- Card 1 -->
+<div class="min-w-[200px] w-[200px] snap-center flex flex-col gap-3 bg-white dark:bg-slate-800 p-3 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700">
+<div class="relative w-full aspect-[4/3] rounded-lg overflow-hidden group">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10"></div>
+<div class="bg-center bg-no-repeat bg-cover w-full h-full transition-transform duration-500 group-hover:scale-110" data-alt="Colorful abstract geometric shapes representing vocabulary learning" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDlkE4sqfo5YEPo_k8aXxIIk3D6r9m35sJb5P3VAEKHl8Vf7jsYiBq3_Qrlyike0rlpIMMV8gsuqTyQls9jRATtAHzLpBeF0i7tCK7THiQCtK88hoaSzmq8716tumOCdgrlic3xLQWBasznndpq_3V-KHAlRRka4Q9mq21Taeti1eJjD0IFXgcdoxjnbLpb9Q8fs1Q9hURqkj-NOlE6ilro6w_vxJSNiExeEse0lcui-4fMJseG0XaAjQKqbzFqNr8DDVRwP1aeNx8");'>
+</div>
+<span class="absolute top-2 right-2 z-20 bg-white/90 dark:bg-slate-900/90 backdrop-blur text-xs font-bold px-2 py-1 rounded-full text-slate-800 dark:text-white shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-mustard">bolt</span> +50
+                        </span>
+<div class="absolute bottom-2 left-2 z-20 text-white font-bold text-sm leading-tight">Apprendre 5 mots</div>
+</div>
+<button class="w-full py-2 bg-primary/10 text-primary hover:bg-primary hover:text-white transition-colors rounded-full text-sm font-bold flex items-center justify-center gap-1">
+                        Commencer
+                    </button>
+</div>
+<!-- Card 2 -->
+<div class="min-w-[200px] w-[200px] snap-center flex flex-col gap-3 bg-white dark:bg-slate-800 p-3 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700">
+<div class="relative w-full aspect-[4/3] rounded-lg overflow-hidden group">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10"></div>
+<div class="bg-center bg-no-repeat bg-cover w-full h-full transition-transform duration-500 group-hover:scale-110" data-alt="Illustration of a sunrise for morning quiz" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCrEfG6szvApK1Gf96_blL2KX3HnHkjqZdvBZbtifSyj0lenVDD0fsFCpgsBviS-2U6tQLzpv5kmxEu8TAN8tgomG_Q1LlBitk1IlqfSz1jlhgTOh_CAm7Yq3Jl8ripfDxRYrk9GGmpjRyFJkgXT0BFedVbb1bMn-nIATXzy2XU7HqM4a4zO_9SKMtfFi9SaF3ZKiTZUEyLb90SKqT9n3FAEyQnGEkHJ3DDG7VTGP03D9sVZxHUCOnwxH6U5an2meR4PV97JJ4mZfM");'>
+</div>
+<span class="absolute top-2 right-2 z-20 bg-white/90 dark:bg-slate-900/90 backdrop-blur text-xs font-bold px-2 py-1 rounded-full text-slate-800 dark:text-white shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-mustard">bolt</span> +30
+                        </span>
+<div class="absolute bottom-2 left-2 z-20 text-white font-bold text-sm leading-tight">Quiz du Matin</div>
+</div>
+<button class="w-full py-2 bg-slate-100 text-slate-400 cursor-not-allowed rounded-full text-sm font-bold flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-[16px]">check_circle</span> Terminé
+                    </button>
+</div>
+<!-- Card 3 -->
+<div class="min-w-[200px] w-[200px] snap-center flex flex-col gap-3 bg-white dark:bg-slate-800 p-3 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700">
+<div class="relative w-full aspect-[4/3] rounded-lg overflow-hidden group">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10"></div>
+<div class="bg-center bg-no-repeat bg-cover w-full h-full transition-transform duration-500 group-hover:scale-110" data-alt="Golden coin stack representing bonus series" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB6AZ08N6GWdgs8dl39uTZOv2mkysglY_u9E7cHgGAsTHZTpvgt1lEXy0FXtYUrhkI9LlgWRKRJ6ESNq9iQ0j2PZKA-SDbcdILkatmc-YDNKyRx5_gFD6rlieN-s82rLu0_ol12kMAllikXl3zs_YPFcJfz7Dug1-pUeDzTdV9e2Rq31mRpW8VEBElj-ml39luiUrEfVsbRDdw6GEZCc_3tlwV6sLm9oSCuNgcG1NpZT3SmtUeUjvJxXUgKWsEEhNYiWQxHtKAvB0Y");'>
+</div>
+<span class="absolute top-2 right-2 z-20 bg-white/90 dark:bg-slate-900/90 backdrop-blur text-xs font-bold px-2 py-1 rounded-full text-slate-800 dark:text-white shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-mustard">bolt</span> +100
+                        </span>
+<div class="absolute bottom-2 left-2 z-20 text-white font-bold text-sm leading-tight">Bonus de Série</div>
+</div>
+<button class="w-full py-2 bg-primary/10 text-primary hover:bg-primary hover:text-white transition-colors rounded-full text-sm font-bold flex items-center justify-center gap-1">
+                        Réclamer
+                    </button>
+</div>
+</div>
+</section>
+<!-- Badges Grid -->
+<section class="px-6 py-2">
+<h2 class="text-slate-900 dark:text-white text-[22px] font-bold tracking-tight mb-4">Badges Débloqués</h2>
+<div class="grid grid-cols-3 gap-4">
+<!-- Badge 1: Unlocked -->
+<div class="aspect-square bg-mustard/10 dark:bg-mustard/5 rounded-xl flex flex-col items-center justify-center p-2 border-2 border-mustard/30 relative">
+<div class="bg-mustard text-white p-3 rounded-full mb-1 shadow-glow">
+<span class="material-symbols-outlined text-[32px]">local_fire_department</span>
+</div>
+<span class="text-slate-900 dark:text-white text-xs font-bold text-center leading-tight">On Fire</span>
+<span class="text-[10px] text-slate-500 font-medium">Niv. 2</span>
+</div>
+<!-- Badge 2: Unlocked -->
+<div class="aspect-square bg-blue-50 dark:bg-blue-900/20 rounded-xl flex flex-col items-center justify-center p-2 border-2 border-blue-200 dark:border-blue-800">
+<div class="bg-blue-400 text-white p-3 rounded-full mb-1 shadow-sm">
+<span class="material-symbols-outlined text-[32px]">school</span>
+</div>
+<span class="text-slate-900 dark:text-white text-xs font-bold text-center leading-tight">Erudit</span>
+<span class="text-[10px] text-slate-500 font-medium">Niv. 1</span>
+</div>
+<!-- Badge 3: Unlocked -->
+<div class="aspect-square bg-green-50 dark:bg-green-900/20 rounded-xl flex flex-col items-center justify-center p-2 border-2 border-green-200 dark:border-green-800">
+<div class="bg-green-400 text-white p-3 rounded-full mb-1 shadow-sm">
+<span class="material-symbols-outlined text-[32px]">eco</span>
+</div>
+<span class="text-slate-900 dark:text-white text-xs font-bold text-center leading-tight">Nature</span>
+<span class="text-[10px] text-slate-500 font-medium">Niv. 3</span>
+</div>
+<!-- Badge 4: Locked -->
+<div class="aspect-square bg-slate-100 dark:bg-slate-800 rounded-xl flex flex-col items-center justify-center p-2 border border-slate-200 dark:border-slate-700 opacity-60">
+<div class="bg-slate-300 dark:bg-slate-700 text-slate-500 p-3 rounded-full mb-1">
+<span class="material-symbols-outlined text-[32px]">lock</span>
+</div>
+<span class="text-slate-500 dark:text-slate-400 text-xs font-bold text-center leading-tight">???</span>
+</div>
+<!-- Badge 5: Locked -->
+<div class="aspect-square bg-slate-100 dark:bg-slate-800 rounded-xl flex flex-col items-center justify-center p-2 border border-slate-200 dark:border-slate-700 opacity-60">
+<div class="bg-slate-300 dark:bg-slate-700 text-slate-500 p-3 rounded-full mb-1">
+<span class="material-symbols-outlined text-[32px]">lock</span>
+</div>
+<span class="text-slate-500 dark:text-slate-400 text-xs font-bold text-center leading-tight">???</span>
+</div>
+<!-- Badge 6: See all -->
+<button class="aspect-square bg-transparent rounded-xl flex flex-col items-center justify-center p-2 border-2 border-dashed border-slate-300 dark:border-slate-600 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors">
+<span class="material-symbols-outlined text-[32px] text-primary">arrow_forward</span>
+<span class="text-primary text-xs font-bold text-center leading-tight mt-1">Voir tout</span>
+</button>
+</div>
+</section>
+<!-- Floating Bottom Navigation (Capsule Style) -->
+<div class="fixed bottom-6 left-0 right-0 px-6 z-50 flex justify-center">
+<nav class="bg-white dark:bg-slate-800 rounded-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] p-2 flex items-center gap-1 border border-slate-100 dark:border-slate-700">
+<a class="flex flex-col items-center justify-center w-12 h-12 rounded-full bg-primary/10 text-primary" href="#">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">dashboard</span>
+</a>
+<a class="flex flex-col items-center justify-center w-12 h-12 rounded-full text-slate-400 hover:text-primary hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors" href="#">
+<span class="material-symbols-outlined text-[24px]">map</span>
+</a>
+<div class="w-px h-6 bg-slate-200 dark:bg-slate-600 mx-1"></div>
+<button class="flex items-center justify-center w-14 h-14 -mt-6 bg-mustard text-white rounded-full shadow-glow border-4 border-background-light dark:border-background-dark transform hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[32px]">play_arrow</span>
+</button>
+<div class="w-px h-6 bg-slate-200 dark:bg-slate-600 mx-1"></div>
+<a class="flex flex-col items-center justify-center w-12 h-12 rounded-full text-slate-400 hover:text-primary hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors" href="#">
+<span class="material-symbols-outlined text-[24px]">leaderboard</span>
+</a>
+<a class="flex flex-col items-center justify-center w-12 h-12 rounded-full text-slate-400 hover:text-primary hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors" href="#">
+<span class="material-symbols-outlined text-[24px]">person</span>
+</a>
+</nav>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,4502 @@
+[
+  {
+    "rank": 1,
+    "pair": [
+      "a",
+      "</w>"
+    ],
+    "count": 1120,
+    "merged": "a</w>"
+  },
+  {
+    "rank": 2,
+    "pair": [
+      "i",
+      "</w>"
+    ],
+    "count": 596,
+    "merged": "i</w>"
+  },
+  {
+    "rank": 3,
+    "pair": [
+      "n",
+      "</w>"
+    ],
+    "count": 590,
+    "merged": "n</w>"
+  },
+  {
+    "rank": 4,
+    "pair": [
+      "e",
+      "</w>"
+    ],
+    "count": 586,
+    "merged": "e</w>"
+  },
+  {
+    "rank": 5,
+    "pair": [
+      "o",
+      "u"
+    ],
+    "count": 494,
+    "merged": "ou"
+  },
+  {
+    "rank": 6,
+    "pair": [
+      "h",
+      "</w>"
+    ],
+    "count": 486,
+    "merged": "h</w>"
+  },
+  {
+    "rank": 7,
+    "pair": [
+      "d",
+      "</w>"
+    ],
+    "count": 465,
+    "merged": "d</w>"
+  },
+  {
+    "rank": 8,
+    "pair": [
+      "t",
+      "</w>"
+    ],
+    "count": 442,
+    "merged": "t</w>"
+  },
+  {
+    "rank": 9,
+    "pair": [
+      "s",
+      "</w>"
+    ],
+    "count": 421,
+    "merged": "s</w>"
+  },
+  {
+    "rank": 10,
+    "pair": [
+      "a",
+      "l"
+    ],
+    "count": 407,
+    "merged": "al"
+  },
+  {
+    "rank": 11,
+    "pair": [
+      "a",
+      "m"
+    ],
+    "count": 394,
+    "merged": "am"
+  },
+  {
+    "rank": 12,
+    "pair": [
+      "e",
+      "r"
+    ],
+    "count": 381,
+    "merged": "er"
+  },
+  {
+    "rank": 13,
+    "pair": [
+      "a",
+      "n"
+    ],
+    "count": 329,
+    "merged": "an"
+  },
+  {
+    "rank": 14,
+    "pair": [
+      "a",
+      "r"
+    ],
+    "count": 324,
+    "merged": "ar"
+  },
+  {
+    "rank": 15,
+    "pair": [
+      "a",
+      "c"
+    ],
+    "count": 311,
+    "merged": "ac"
+  },
+  {
+    "rank": 16,
+    "pair": [
+      "l",
+      "'"
+    ],
+    "count": 298,
+    "merged": "l'"
+  },
+  {
+    "rank": 17,
+    "pair": [
+      "a",
+      "t"
+    ],
+    "count": 276,
+    "merged": "at"
+  },
+  {
+    "rank": 18,
+    "pair": [
+      "e",
+      "l"
+    ],
+    "count": 264,
+    "merged": "el"
+  },
+  {
+    "rank": 19,
+    "pair": [
+      "a",
+      "y"
+    ],
+    "count": 259,
+    "merged": "ay"
+  },
+  {
+    "rank": 20,
+    "pair": [
+      "e",
+      "n"
+    ],
+    "count": 204,
+    "merged": "en"
+  },
+  {
+    "rank": 21,
+    "pair": [
+      "a",
+      "h"
+    ],
+    "count": 192,
+    "merged": "ah"
+  },
+  {
+    "rank": 22,
+    "pair": [
+      "s",
+      "s"
+    ],
+    "count": 185,
+    "merged": "ss"
+  },
+  {
+    "rank": 23,
+    "pair": [
+      "l",
+      "a</w>"
+    ],
+    "count": 184,
+    "merged": "la</w>"
+  },
+  {
+    "rank": 24,
+    "pair": [
+      "c",
+      "h"
+    ],
+    "count": 184,
+    "merged": "ch"
+  },
+  {
+    "rank": 25,
+    "pair": [
+      "i",
+      "n"
+    ],
+    "count": 181,
+    "merged": "in"
+  },
+  {
+    "rank": 26,
+    "pair": [
+      "o",
+      "r"
+    ],
+    "count": 167,
+    "merged": "or"
+  },
+  {
+    "rank": 27,
+    "pair": [
+      "k",
+      "h"
+    ],
+    "count": 164,
+    "merged": "kh"
+  },
+  {
+    "rank": 28,
+    "pair": [
+      "l",
+      "e"
+    ],
+    "count": 164,
+    "merged": "le"
+  },
+  {
+    "rank": 29,
+    "pair": [
+      "g",
+      "h"
+    ],
+    "count": 158,
+    "merged": "gh"
+  },
+  {
+    "rank": 30,
+    "pair": [
+      "am",
+      "</w>"
+    ],
+    "count": 152,
+    "merged": "am</w>"
+  },
+  {
+    "rank": 31,
+    "pair": [
+      "a",
+      "n</w>"
+    ],
+    "count": 152,
+    "merged": "an</w>"
+  },
+  {
+    "rank": 32,
+    "pair": [
+      "e",
+      "m"
+    ],
+    "count": 151,
+    "merged": "em"
+  },
+  {
+    "rank": 33,
+    "pair": [
+      "d",
+      "'"
+    ],
+    "count": 150,
+    "merged": "d'"
+  },
+  {
+    "rank": 34,
+    "pair": [
+      "k",
+      "</w>"
+    ],
+    "count": 148,
+    "merged": "k</w>"
+  },
+  {
+    "rank": 35,
+    "pair": [
+      "e",
+      "n</w>"
+    ],
+    "count": 147,
+    "merged": "en</w>"
+  },
+  {
+    "rank": 36,
+    "pair": [
+      "a",
+      "d"
+    ],
+    "count": 146,
+    "merged": "ad"
+  },
+  {
+    "rank": 37,
+    "pair": [
+      "ac",
+      "c"
+    ],
+    "count": 132,
+    "merged": "acc"
+  },
+  {
+    "rank": 38,
+    "pair": [
+      "er",
+      "</w>"
+    ],
+    "count": 131,
+    "merged": "er</w>"
+  },
+  {
+    "rank": 39,
+    "pair": [
+      "i",
+      "r"
+    ],
+    "count": 131,
+    "merged": "ir"
+  },
+  {
+    "rank": 40,
+    "pair": [
+      "i",
+      "m"
+    ],
+    "count": 130,
+    "merged": "im"
+  },
+  {
+    "rank": 41,
+    "pair": [
+      "al",
+      "l"
+    ],
+    "count": 129,
+    "merged": "all"
+  },
+  {
+    "rank": 42,
+    "pair": [
+      "o",
+      "</w>"
+    ],
+    "count": 129,
+    "merged": "o</w>"
+  },
+  {
+    "rank": 43,
+    "pair": [
+      "i",
+      "t</w>"
+    ],
+    "count": 126,
+    "merged": "it</w>"
+  },
+  {
+    "rank": 44,
+    "pair": [
+      "a",
+      "3"
+    ],
+    "count": 125,
+    "merged": "a3"
+  },
+  {
+    "rank": 45,
+    "pair": [
+      "el",
+      "</w>"
+    ],
+    "count": 124,
+    "merged": "el</w>"
+  },
+  {
+    "rank": 46,
+    "pair": [
+      "acc",
+      "or"
+    ],
+    "count": 123,
+    "merged": "accor"
+  },
+  {
+    "rank": 47,
+    "pair": [
+      "accor",
+      "d</w>"
+    ],
+    "count": 123,
+    "merged": "accord</w>"
+  },
+  {
+    "rank": 48,
+    "pair": [
+      "d'",
+      "accord</w>"
+    ],
+    "count": 119,
+    "merged": "d'accord</w>"
+  },
+  {
+    "rank": 49,
+    "pair": [
+      "i",
+      "d"
+    ],
+    "count": 118,
+    "merged": "id"
+  },
+  {
+    "rank": 50,
+    "pair": [
+      "e",
+      "d</w>"
+    ],
+    "count": 114,
+    "merged": "ed</w>"
+  },
+  {
+    "rank": 51,
+    "pair": [
+      "i",
+      "d</w>"
+    ],
+    "count": 114,
+    "merged": "id</w>"
+  },
+  {
+    "rank": 52,
+    "pair": [
+      "i",
+      "l"
+    ],
+    "count": 112,
+    "merged": "il"
+  },
+  {
+    "rank": 53,
+    "pair": [
+      "i",
+      "t"
+    ],
+    "count": 112,
+    "merged": "it"
+  },
+  {
+    "rank": 54,
+    "pair": [
+      "t",
+      "e"
+    ],
+    "count": 105,
+    "merged": "te"
+  },
+  {
+    "rank": 55,
+    "pair": [
+      "ar",
+      "</w>"
+    ],
+    "count": 101,
+    "merged": "ar</w>"
+  },
+  {
+    "rank": 56,
+    "pair": [
+      "a",
+      "g"
+    ],
+    "count": 99,
+    "merged": "ag"
+  },
+  {
+    "rank": 57,
+    "pair": [
+      "a",
+      "h</w>"
+    ],
+    "count": 99,
+    "merged": "ah</w>"
+  },
+  {
+    "rank": 58,
+    "pair": [
+      "p",
+      "o"
+    ],
+    "count": 96,
+    "merged": "po"
+  },
+  {
+    "rank": 59,
+    "pair": [
+      "a",
+      "k"
+    ],
+    "count": 96,
+    "merged": "ak"
+  },
+  {
+    "rank": 60,
+    "pair": [
+      "ac",
+      "h"
+    ],
+    "count": 92,
+    "merged": "ach"
+  },
+  {
+    "rank": 61,
+    "pair": [
+      "u",
+      "r"
+    ],
+    "count": 92,
+    "merged": "ur"
+  },
+  {
+    "rank": 62,
+    "pair": [
+      "u",
+      "</w>"
+    ],
+    "count": 91,
+    "merged": "u</w>"
+  },
+  {
+    "rank": 63,
+    "pair": [
+      "s",
+      "ah"
+    ],
+    "count": 91,
+    "merged": "sah"
+  },
+  {
+    "rank": 64,
+    "pair": [
+      "a",
+      "s"
+    ],
+    "count": 83,
+    "merged": "as"
+  },
+  {
+    "rank": 65,
+    "pair": [
+      "n",
+      "i</w>"
+    ],
+    "count": 82,
+    "merged": "ni</w>"
+  },
+  {
+    "rank": 66,
+    "pair": [
+      "le",
+      "s</w>"
+    ],
+    "count": 82,
+    "merged": "les</w>"
+  },
+  {
+    "rank": 67,
+    "pair": [
+      "g",
+      "</w>"
+    ],
+    "count": 81,
+    "merged": "g</w>"
+  },
+  {
+    "rank": 68,
+    "pair": [
+      "i",
+      "h</w>"
+    ],
+    "count": 81,
+    "merged": "ih</w>"
+  },
+  {
+    "rank": 69,
+    "pair": [
+      "a",
+      "ss"
+    ],
+    "count": 76,
+    "merged": "ass"
+  },
+  {
+    "rank": 70,
+    "pair": [
+      "e",
+      "s"
+    ],
+    "count": 75,
+    "merged": "es"
+  },
+  {
+    "rank": 71,
+    "pair": [
+      "i",
+      "n</w>"
+    ],
+    "count": 75,
+    "merged": "in</w>"
+  },
+  {
+    "rank": 72,
+    "pair": [
+      "m",
+      "</w>"
+    ],
+    "count": 74,
+    "merged": "m</w>"
+  },
+  {
+    "rank": 73,
+    "pair": [
+      "e",
+      "h</w>"
+    ],
+    "count": 72,
+    "merged": "eh</w>"
+  },
+  {
+    "rank": 74,
+    "pair": [
+      "t",
+      "h"
+    ],
+    "count": 72,
+    "merged": "th"
+  },
+  {
+    "rank": 75,
+    "pair": [
+      "a",
+      "7"
+    ],
+    "count": 71,
+    "merged": "a7"
+  },
+  {
+    "rank": 76,
+    "pair": [
+      "a",
+      "w"
+    ],
+    "count": 71,
+    "merged": "aw"
+  },
+  {
+    "rank": 77,
+    "pair": [
+      "i",
+      "y"
+    ],
+    "count": 69,
+    "merged": "iy"
+  },
+  {
+    "rank": 78,
+    "pair": [
+      "o",
+      "n</w>"
+    ],
+    "count": 69,
+    "merged": "on</w>"
+  },
+  {
+    "rank": 79,
+    "pair": [
+      "all",
+      "o</w>"
+    ],
+    "count": 68,
+    "merged": "allo</w>"
+  },
+  {
+    "rank": 80,
+    "pair": [
+      "c",
+      "e</w>"
+    ],
+    "count": 68,
+    "merged": "ce</w>"
+  },
+  {
+    "rank": 81,
+    "pair": [
+      "u",
+      "l"
+    ],
+    "count": 67,
+    "merged": "ul"
+  },
+  {
+    "rank": 82,
+    "pair": [
+      "i",
+      "s"
+    ],
+    "count": 66,
+    "merged": "is"
+  },
+  {
+    "rank": 83,
+    "pair": [
+      "d",
+      "a</w>"
+    ],
+    "count": 64,
+    "merged": "da</w>"
+  },
+  {
+    "rank": 84,
+    "pair": [
+      "o",
+      "n"
+    ],
+    "count": 64,
+    "merged": "on"
+  },
+  {
+    "rank": 85,
+    "pair": [
+      "2",
+      "</w>"
+    ],
+    "count": 63,
+    "merged": "2</w>"
+  },
+  {
+    "rank": 86,
+    "pair": [
+      "en",
+      "t</w>"
+    ],
+    "count": 61,
+    "merged": "ent</w>"
+  },
+  {
+    "rank": 87,
+    "pair": [
+      "e",
+      "t</w>"
+    ],
+    "count": 60,
+    "merged": "et</w>"
+  },
+  {
+    "rank": 88,
+    "pair": [
+      "e",
+      "d"
+    ],
+    "count": 60,
+    "merged": "ed"
+  },
+  {
+    "rank": 89,
+    "pair": [
+      "m",
+      "p"
+    ],
+    "count": 59,
+    "merged": "mp"
+  },
+  {
+    "rank": 90,
+    "pair": [
+      "al",
+      "</w>"
+    ],
+    "count": 58,
+    "merged": "al</w>"
+  },
+  {
+    "rank": 91,
+    "pair": [
+      "m",
+      "a</w>"
+    ],
+    "count": 57,
+    "merged": "ma</w>"
+  },
+  {
+    "rank": 92,
+    "pair": [
+      "t",
+      "r"
+    ],
+    "count": 57,
+    "merged": "tr"
+  },
+  {
+    "rank": 93,
+    "pair": [
+      "a",
+      "q"
+    ],
+    "count": 57,
+    "merged": "aq"
+  },
+  {
+    "rank": 94,
+    "pair": [
+      "ou",
+      "</w>"
+    ],
+    "count": 57,
+    "merged": "ou</w>"
+  },
+  {
+    "rank": 95,
+    "pair": [
+      "3",
+      "am</w>"
+    ],
+    "count": 56,
+    "merged": "3am</w>"
+  },
+  {
+    "rank": 96,
+    "pair": [
+      "er",
+      "s</w>"
+    ],
+    "count": 56,
+    "merged": "ers</w>"
+  },
+  {
+    "rank": 97,
+    "pair": [
+      "p",
+      "r"
+    ],
+    "count": 56,
+    "merged": "pr"
+  },
+  {
+    "rank": 98,
+    "pair": [
+      "l",
+      "e</w>"
+    ],
+    "count": 55,
+    "merged": "le</w>"
+  },
+  {
+    "rank": 99,
+    "pair": [
+      "sah",
+      "a</w>"
+    ],
+    "count": 55,
+    "merged": "saha</w>"
+  },
+  {
+    "rank": 100,
+    "pair": [
+      "t",
+      "i"
+    ],
+    "count": 54,
+    "merged": "ti"
+  },
+  {
+    "rank": 101,
+    "pair": [
+      "il",
+      "</w>"
+    ],
+    "count": 54,
+    "merged": "il</w>"
+  },
+  {
+    "rank": 102,
+    "pair": [
+      "po",
+      "mp"
+    ],
+    "count": 53,
+    "merged": "pomp"
+  },
+  {
+    "rank": 103,
+    "pair": [
+      "pomp",
+      "i"
+    ],
+    "count": 53,
+    "merged": "pompi"
+  },
+  {
+    "rank": 104,
+    "pair": [
+      "ay",
+      "i</w>"
+    ],
+    "count": 53,
+    "merged": "ayi</w>"
+  },
+  {
+    "rank": 105,
+    "pair": [
+      "e",
+      "t"
+    ],
+    "count": 52,
+    "merged": "et"
+  },
+  {
+    "rank": 106,
+    "pair": [
+      "1",
+      "</w>"
+    ],
+    "count": 52,
+    "merged": "1</w>"
+  },
+  {
+    "rank": 107,
+    "pair": [
+      "c",
+      "</w>"
+    ],
+    "count": 51,
+    "merged": "c</w>"
+  },
+  {
+    "rank": 108,
+    "pair": [
+      "a",
+      "s</w>"
+    ],
+    "count": 51,
+    "merged": "as</w>"
+  },
+  {
+    "rank": 109,
+    "pair": [
+      "pompi",
+      "ers</w>"
+    ],
+    "count": 51,
+    "merged": "pompiers</w>"
+  },
+  {
+    "rank": 110,
+    "pair": [
+      "s",
+      "al"
+    ],
+    "count": 51,
+    "merged": "sal"
+  },
+  {
+    "rank": 111,
+    "pair": [
+      "ou",
+      "r"
+    ],
+    "count": 51,
+    "merged": "our"
+  },
+  {
+    "rank": 112,
+    "pair": [
+      "i",
+      "w"
+    ],
+    "count": 51,
+    "merged": "iw"
+  },
+  {
+    "rank": 113,
+    "pair": [
+      "an",
+      "3am</w>"
+    ],
+    "count": 50,
+    "merged": "an3am</w>"
+  },
+  {
+    "rank": 114,
+    "pair": [
+      "f",
+      "</w>"
+    ],
+    "count": 50,
+    "merged": "f</w>"
+  },
+  {
+    "rank": 115,
+    "pair": [
+      "t",
+      "e</w>"
+    ],
+    "count": 50,
+    "merged": "te</w>"
+  },
+  {
+    "rank": 116,
+    "pair": [
+      "k",
+      "an</w>"
+    ],
+    "count": 49,
+    "merged": "kan</w>"
+  },
+  {
+    "rank": 117,
+    "pair": [
+      "d",
+      "e"
+    ],
+    "count": 48,
+    "merged": "de"
+  },
+  {
+    "rank": 118,
+    "pair": [
+      "0",
+      "</w>"
+    ],
+    "count": 48,
+    "merged": "0</w>"
+  },
+  {
+    "rank": 119,
+    "pair": [
+      "i",
+      "s</w>"
+    ],
+    "count": 48,
+    "merged": "is</w>"
+  },
+  {
+    "rank": 120,
+    "pair": [
+      "l",
+      "i"
+    ],
+    "count": 47,
+    "merged": "li"
+  },
+  {
+    "rank": 121,
+    "pair": [
+      "n",
+      "e"
+    ],
+    "count": 47,
+    "merged": "ne"
+  },
+  {
+    "rank": 122,
+    "pair": [
+      "k",
+      "ou"
+    ],
+    "count": 46,
+    "merged": "kou"
+  },
+  {
+    "rank": 123,
+    "pair": [
+      "n",
+      "a</w>"
+    ],
+    "count": 46,
+    "merged": "na</w>"
+  },
+  {
+    "rank": 124,
+    "pair": [
+      "a",
+      "b"
+    ],
+    "count": 45,
+    "merged": "ab"
+  },
+  {
+    "rank": 125,
+    "pair": [
+      "at",
+      "h"
+    ],
+    "count": 45,
+    "merged": "ath"
+  },
+  {
+    "rank": 126,
+    "pair": [
+      "u",
+      "m"
+    ],
+    "count": 44,
+    "merged": "um"
+  },
+  {
+    "rank": 127,
+    "pair": [
+      "s",
+      "id"
+    ],
+    "count": 44,
+    "merged": "sid"
+  },
+  {
+    "rank": 128,
+    "pair": [
+      "ay",
+      "a</w>"
+    ],
+    "count": 44,
+    "merged": "aya</w>"
+  },
+  {
+    "rank": 129,
+    "pair": [
+      "in",
+      "a</w>"
+    ],
+    "count": 44,
+    "merged": "ina</w>"
+  },
+  {
+    "rank": 130,
+    "pair": [
+      "4",
+      "</w>"
+    ],
+    "count": 43,
+    "merged": "4</w>"
+  },
+  {
+    "rank": 131,
+    "pair": [
+      "am",
+      "b"
+    ],
+    "count": 43,
+    "merged": "amb"
+  },
+  {
+    "rank": 132,
+    "pair": [
+      "i",
+      "h"
+    ],
+    "count": 43,
+    "merged": "ih"
+  },
+  {
+    "rank": 133,
+    "pair": [
+      "0",
+      "3"
+    ],
+    "count": 42,
+    "merged": "03"
+  },
+  {
+    "rank": 134,
+    "pair": [
+      "amb",
+      "ul"
+    ],
+    "count": 42,
+    "merged": "ambul"
+  },
+  {
+    "rank": 135,
+    "pair": [
+      "ambul",
+      "an"
+    ],
+    "count": 42,
+    "merged": "ambulan"
+  },
+  {
+    "rank": 136,
+    "pair": [
+      "l",
+      "o"
+    ],
+    "count": 41,
+    "merged": "lo"
+  },
+  {
+    "rank": 137,
+    "pair": [
+      "r",
+      "e"
+    ],
+    "count": 41,
+    "merged": "re"
+  },
+  {
+    "rank": 138,
+    "pair": [
+      "e",
+      "y"
+    ],
+    "count": 41,
+    "merged": "ey"
+  },
+  {
+    "rank": 139,
+    "pair": [
+      "s",
+      "a7"
+    ],
+    "count": 41,
+    "merged": "sa7"
+  },
+  {
+    "rank": 140,
+    "pair": [
+      "em",
+      "</w>"
+    ],
+    "count": 41,
+    "merged": "em</w>"
+  },
+  {
+    "rank": 141,
+    "pair": [
+      "a",
+      "t</w>"
+    ],
+    "count": 40,
+    "merged": "at</w>"
+  },
+  {
+    "rank": 142,
+    "pair": [
+      "ambulan",
+      "ce</w>"
+    ],
+    "count": 40,
+    "merged": "ambulance</w>"
+  },
+  {
+    "rank": 143,
+    "pair": [
+      "ur",
+      "</w>"
+    ],
+    "count": 40,
+    "merged": "ur</w>"
+  },
+  {
+    "rank": 144,
+    "pair": [
+      "u",
+      "n"
+    ],
+    "count": 39,
+    "merged": "un"
+  },
+  {
+    "rank": 145,
+    "pair": [
+      "q",
+      "u"
+    ],
+    "count": 39,
+    "merged": "qu"
+  },
+  {
+    "rank": 146,
+    "pair": [
+      "ir",
+      "</w>"
+    ],
+    "count": 39,
+    "merged": "ir</w>"
+  },
+  {
+    "rank": 147,
+    "pair": [
+      "i",
+      "g"
+    ],
+    "count": 39,
+    "merged": "ig"
+  },
+  {
+    "rank": 148,
+    "pair": [
+      "l",
+      "i</w>"
+    ],
+    "count": 39,
+    "merged": "li</w>"
+  },
+  {
+    "rank": 149,
+    "pair": [
+      "er",
+      "r"
+    ],
+    "count": 39,
+    "merged": "err"
+  },
+  {
+    "rank": 150,
+    "pair": [
+      "g",
+      "ay"
+    ],
+    "count": 38,
+    "merged": "gay"
+  },
+  {
+    "rank": 151,
+    "pair": [
+      "r",
+      "id</w>"
+    ],
+    "count": 38,
+    "merged": "rid</w>"
+  },
+  {
+    "rank": 152,
+    "pair": [
+      "sal",
+      "am</w>"
+    ],
+    "count": 38,
+    "merged": "salam</w>"
+  },
+  {
+    "rank": 153,
+    "pair": [
+      "q",
+      "</w>"
+    ],
+    "count": 38,
+    "merged": "q</w>"
+  },
+  {
+    "rank": 154,
+    "pair": [
+      "an",
+      "da</w>"
+    ],
+    "count": 37,
+    "merged": "anda</w>"
+  },
+  {
+    "rank": 155,
+    "pair": [
+      "n",
+      "'"
+    ],
+    "count": 37,
+    "merged": "n'"
+  },
+  {
+    "rank": 156,
+    "pair": [
+      "sid",
+      "i</w>"
+    ],
+    "count": 37,
+    "merged": "sidi</w>"
+  },
+  {
+    "rank": 157,
+    "pair": [
+      "es",
+      "t</w>"
+    ],
+    "count": 36,
+    "merged": "est</w>"
+  },
+  {
+    "rank": 158,
+    "pair": [
+      "t",
+      "er"
+    ],
+    "count": 36,
+    "merged": "ter"
+  },
+  {
+    "rank": 159,
+    "pair": [
+      "b",
+      "ou"
+    ],
+    "count": 36,
+    "merged": "bou"
+  },
+  {
+    "rank": 160,
+    "pair": [
+      "3",
+      "</w>"
+    ],
+    "count": 35,
+    "merged": "3</w>"
+  },
+  {
+    "rank": 161,
+    "pair": [
+      "kou",
+      "m</w>"
+    ],
+    "count": 35,
+    "merged": "koum</w>"
+  },
+  {
+    "rank": 162,
+    "pair": [
+      "b",
+      "</w>"
+    ],
+    "count": 35,
+    "merged": "b</w>"
+  },
+  {
+    "rank": 163,
+    "pair": [
+      "d",
+      "a"
+    ],
+    "count": 34,
+    "merged": "da"
+  },
+  {
+    "rank": 164,
+    "pair": [
+      "a3",
+      "</w>"
+    ],
+    "count": 34,
+    "merged": "a3</w>"
+  },
+  {
+    "rank": 165,
+    "pair": [
+      "n",
+      "um"
+    ],
+    "count": 34,
+    "merged": "num"
+  },
+  {
+    "rank": 166,
+    "pair": [
+      "w",
+      "a</w>"
+    ],
+    "count": 34,
+    "merged": "wa</w>"
+  },
+  {
+    "rank": 167,
+    "pair": [
+      "ar",
+      "a</w>"
+    ],
+    "count": 34,
+    "merged": "ara</w>"
+  },
+  {
+    "rank": 168,
+    "pair": [
+      "e",
+      "k</w>"
+    ],
+    "count": 33,
+    "merged": "ek</w>"
+  },
+  {
+    "rank": 169,
+    "pair": [
+      "03",
+      "4</w>"
+    ],
+    "count": 33,
+    "merged": "034</w>"
+  },
+  {
+    "rank": 170,
+    "pair": [
+      "ac",
+      "h</w>"
+    ],
+    "count": 33,
+    "merged": "ach</w>"
+  },
+  {
+    "rank": 171,
+    "pair": [
+      "b",
+      "gay"
+    ],
+    "count": 32,
+    "merged": "bgay"
+  },
+  {
+    "rank": 172,
+    "pair": [
+      "n",
+      "ni</w>"
+    ],
+    "count": 32,
+    "merged": "nni</w>"
+  },
+  {
+    "rank": 173,
+    "pair": [
+      "a",
+      "z"
+    ],
+    "count": 32,
+    "merged": "az"
+  },
+  {
+    "rank": 174,
+    "pair": [
+      "3",
+      "a</w>"
+    ],
+    "count": 32,
+    "merged": "3a</w>"
+  },
+  {
+    "rank": 175,
+    "pair": [
+      "a",
+      "p"
+    ],
+    "count": 31,
+    "merged": "ap"
+  },
+  {
+    "rank": 176,
+    "pair": [
+      "i",
+      "gh"
+    ],
+    "count": 31,
+    "merged": "igh"
+  },
+  {
+    "rank": 177,
+    "pair": [
+      "iy",
+      "a</w>"
+    ],
+    "count": 31,
+    "merged": "iya</w>"
+  },
+  {
+    "rank": 178,
+    "pair": [
+      "a",
+      "a</w>"
+    ],
+    "count": 31,
+    "merged": "aa</w>"
+  },
+  {
+    "rank": 179,
+    "pair": [
+      "ag",
+      "i</w>"
+    ],
+    "count": 31,
+    "merged": "agi</w>"
+  },
+  {
+    "rank": 180,
+    "pair": [
+      "m",
+      "o"
+    ],
+    "count": 31,
+    "merged": "mo"
+  },
+  {
+    "rank": 181,
+    "pair": [
+      "a",
+      "d</w>"
+    ],
+    "count": 30,
+    "merged": "ad</w>"
+  },
+  {
+    "rank": 182,
+    "pair": [
+      "d",
+      "ina</w>"
+    ],
+    "count": 30,
+    "merged": "dina</w>"
+  },
+  {
+    "rank": 183,
+    "pair": [
+      "i",
+      "v"
+    ],
+    "count": 29,
+    "merged": "iv"
+  },
+  {
+    "rank": 184,
+    "pair": [
+      "d",
+      "ayi</w>"
+    ],
+    "count": 29,
+    "merged": "dayi</w>"
+  },
+  {
+    "rank": 185,
+    "pair": [
+      "ou",
+      "i</w>"
+    ],
+    "count": 29,
+    "merged": "oui</w>"
+  },
+  {
+    "rank": 186,
+    "pair": [
+      "i",
+      "c"
+    ],
+    "count": 29,
+    "merged": "ic"
+  },
+  {
+    "rank": 187,
+    "pair": [
+      "l'",
+      "ambulance</w>"
+    ],
+    "count": 29,
+    "merged": "l'ambulance</w>"
+  },
+  {
+    "rank": 188,
+    "pair": [
+      "en",
+      "t"
+    ],
+    "count": 28,
+    "merged": "ent"
+  },
+  {
+    "rank": 189,
+    "pair": [
+      "b",
+      "lo"
+    ],
+    "count": 28,
+    "merged": "blo"
+  },
+  {
+    "rank": 190,
+    "pair": [
+      "bgay",
+      "et</w>"
+    ],
+    "count": 28,
+    "merged": "bgayet</w>"
+  },
+  {
+    "rank": 191,
+    "pair": [
+      "kh",
+      "at"
+    ],
+    "count": 28,
+    "merged": "khat"
+  },
+  {
+    "rank": 192,
+    "pair": [
+      "y",
+      "a</w>"
+    ],
+    "count": 28,
+    "merged": "ya</w>"
+  },
+  {
+    "rank": 193,
+    "pair": [
+      "t",
+      "h</w>"
+    ],
+    "count": 28,
+    "merged": "th</w>"
+  },
+  {
+    "rank": 194,
+    "pair": [
+      "e",
+      "x"
+    ],
+    "count": 28,
+    "merged": "ex"
+  },
+  {
+    "rank": 195,
+    "pair": [
+      "r",
+      "ou"
+    ],
+    "count": 28,
+    "merged": "rou"
+  },
+  {
+    "rank": 196,
+    "pair": [
+      "g",
+      "h</w>"
+    ],
+    "count": 27,
+    "merged": "gh</w>"
+  },
+  {
+    "rank": 197,
+    "pair": [
+      "ach",
+      "ou</w>"
+    ],
+    "count": 27,
+    "merged": "achou</w>"
+  },
+  {
+    "rank": 198,
+    "pair": [
+      "at",
+      "a</w>"
+    ],
+    "count": 27,
+    "merged": "ata</w>"
+  },
+  {
+    "rank": 199,
+    "pair": [
+      "m",
+      "ad"
+    ],
+    "count": 26,
+    "merged": "mad"
+  },
+  {
+    "rank": 200,
+    "pair": [
+      "c",
+      "'"
+    ],
+    "count": 26,
+    "merged": "c'"
+  },
+  {
+    "rank": 201,
+    "pair": [
+      "e",
+      "s</w>"
+    ],
+    "count": 26,
+    "merged": "es</w>"
+  },
+  {
+    "rank": 202,
+    "pair": [
+      "l'",
+      "c"
+    ],
+    "count": 26,
+    "merged": "l'c"
+  },
+  {
+    "rank": 203,
+    "pair": [
+      "s",
+      "ou"
+    ],
+    "count": 26,
+    "merged": "sou"
+  },
+  {
+    "rank": 204,
+    "pair": [
+      "ch",
+      "w"
+    ],
+    "count": 26,
+    "merged": "chw"
+  },
+  {
+    "rank": 205,
+    "pair": [
+      "d",
+      "e</w>"
+    ],
+    "count": 26,
+    "merged": "de</w>"
+  },
+  {
+    "rank": 206,
+    "pair": [
+      "aq",
+      "l"
+    ],
+    "count": 26,
+    "merged": "aql"
+  },
+  {
+    "rank": 207,
+    "pair": [
+      "d",
+      "j"
+    ],
+    "count": 26,
+    "merged": "dj"
+  },
+  {
+    "rank": 208,
+    "pair": [
+      "y",
+      "e"
+    ],
+    "count": 26,
+    "merged": "ye"
+  },
+  {
+    "rank": 209,
+    "pair": [
+      "c'",
+      "est</w>"
+    ],
+    "count": 25,
+    "merged": "c'est</w>"
+  },
+  {
+    "rank": 210,
+    "pair": [
+      "w",
+      "ah"
+    ],
+    "count": 25,
+    "merged": "wah"
+  },
+  {
+    "rank": 211,
+    "pair": [
+      "a",
+      "k</w>"
+    ],
+    "count": 25,
+    "merged": "ak</w>"
+  },
+  {
+    "rank": 212,
+    "pair": [
+      "l",
+      "</w>"
+    ],
+    "count": 24,
+    "merged": "l</w>"
+  },
+  {
+    "rank": 213,
+    "pair": [
+      "8",
+      "</w>"
+    ],
+    "count": 24,
+    "merged": "8</w>"
+  },
+  {
+    "rank": 214,
+    "pair": [
+      "d",
+      "agi</w>"
+    ],
+    "count": 24,
+    "merged": "dagi</w>"
+  },
+  {
+    "rank": 215,
+    "pair": [
+      "at",
+      "i"
+    ],
+    "count": 24,
+    "merged": "ati"
+  },
+  {
+    "rank": 216,
+    "pair": [
+      "ex",
+      "ac"
+    ],
+    "count": 24,
+    "merged": "exac"
+  },
+  {
+    "rank": 217,
+    "pair": [
+      "5",
+      "</w>"
+    ],
+    "count": 24,
+    "merged": "5</w>"
+  },
+  {
+    "rank": 218,
+    "pair": [
+      "e",
+      "z"
+    ],
+    "count": 24,
+    "merged": "ez"
+  },
+  {
+    "rank": 219,
+    "pair": [
+      "blo",
+      "c</w>"
+    ],
+    "count": 23,
+    "merged": "bloc</w>"
+  },
+  {
+    "rank": 220,
+    "pair": [
+      "at",
+      "t"
+    ],
+    "count": 23,
+    "merged": "att"
+  },
+  {
+    "rank": 221,
+    "pair": [
+      "u",
+      "n</w>"
+    ],
+    "count": 23,
+    "merged": "un</w>"
+  },
+  {
+    "rank": 222,
+    "pair": [
+      "g",
+      "en"
+    ],
+    "count": 23,
+    "merged": "gen"
+  },
+  {
+    "rank": 223,
+    "pair": [
+      "y",
+      "iw"
+    ],
+    "count": 23,
+    "merged": "yiw"
+  },
+  {
+    "rank": 224,
+    "pair": [
+      "pr",
+      "o"
+    ],
+    "count": 23,
+    "merged": "pro"
+  },
+  {
+    "rank": 225,
+    "pair": [
+      "t",
+      "o"
+    ],
+    "count": 23,
+    "merged": "to"
+  },
+  {
+    "rank": 226,
+    "pair": [
+      "our",
+      "</w>"
+    ],
+    "count": 23,
+    "merged": "our</w>"
+  },
+  {
+    "rank": 227,
+    "pair": [
+      "kh",
+      "err"
+    ],
+    "count": 23,
+    "merged": "kherr"
+  },
+  {
+    "rank": 228,
+    "pair": [
+      "kherr",
+      "ata</w>"
+    ],
+    "count": 23,
+    "merged": "kherrata</w>"
+  },
+  {
+    "rank": 229,
+    "pair": [
+      "an",
+      "t</w>"
+    ],
+    "count": 23,
+    "merged": "ant</w>"
+  },
+  {
+    "rank": 230,
+    "pair": [
+      "p",
+      "ar"
+    ],
+    "count": 22,
+    "merged": "par"
+  },
+  {
+    "rank": 231,
+    "pair": [
+      "m",
+      "a"
+    ],
+    "count": 22,
+    "merged": "ma"
+  },
+  {
+    "rank": 232,
+    "pair": [
+      "t",
+      "ou"
+    ],
+    "count": 22,
+    "merged": "tou"
+  },
+  {
+    "rank": 233,
+    "pair": [
+      "al",
+      "i</w>"
+    ],
+    "count": 22,
+    "merged": "ali</w>"
+  },
+  {
+    "rank": 234,
+    "pair": [
+      "ag",
+      "h</w>"
+    ],
+    "count": 22,
+    "merged": "agh</w>"
+  },
+  {
+    "rank": 235,
+    "pair": [
+      "m",
+      "er"
+    ],
+    "count": 22,
+    "merged": "mer"
+  },
+  {
+    "rank": 236,
+    "pair": [
+      "el",
+      "l"
+    ],
+    "count": 22,
+    "merged": "ell"
+  },
+  {
+    "rank": 237,
+    "pair": [
+      "sa7",
+      "it</w>"
+    ],
+    "count": 22,
+    "merged": "sa7it</w>"
+  },
+  {
+    "rank": 238,
+    "pair": [
+      "m",
+      "in"
+    ],
+    "count": 22,
+    "merged": "min"
+  },
+  {
+    "rank": 239,
+    "pair": [
+      "min",
+      "u"
+    ],
+    "count": 22,
+    "merged": "minu"
+  },
+  {
+    "rank": 240,
+    "pair": [
+      "d",
+      "r"
+    ],
+    "count": 22,
+    "merged": "dr"
+  },
+  {
+    "rank": 241,
+    "pair": [
+      "an",
+      "i</w>"
+    ],
+    "count": 22,
+    "merged": "ani</w>"
+  },
+  {
+    "rank": 242,
+    "pair": [
+      "s",
+      "1</w>"
+    ],
+    "count": 22,
+    "merged": "s1</w>"
+  },
+  {
+    "rank": 243,
+    "pair": [
+      "ass",
+      "e</w>"
+    ],
+    "count": 22,
+    "merged": "asse</w>"
+  },
+  {
+    "rank": 244,
+    "pair": [
+      "am",
+      "e</w>"
+    ],
+    "count": 21,
+    "merged": "ame</w>"
+  },
+  {
+    "rank": 245,
+    "pair": [
+      "el",
+      "la</w>"
+    ],
+    "count": 21,
+    "merged": "ella</w>"
+  },
+  {
+    "rank": 246,
+    "pair": [
+      "chw",
+      "iya</w>"
+    ],
+    "count": 21,
+    "merged": "chwiya</w>"
+  },
+  {
+    "rank": 247,
+    "pair": [
+      "s",
+      "u"
+    ],
+    "count": 21,
+    "merged": "su"
+  },
+  {
+    "rank": 248,
+    "pair": [
+      "6",
+      "</w>"
+    ],
+    "count": 21,
+    "merged": "6</w>"
+  },
+  {
+    "rank": 249,
+    "pair": [
+      "ch",
+      "i</w>"
+    ],
+    "count": 21,
+    "merged": "chi</w>"
+  },
+  {
+    "rank": 250,
+    "pair": [
+      "al",
+      "a</w>"
+    ],
+    "count": 21,
+    "merged": "ala</w>"
+  },
+  {
+    "rank": 251,
+    "pair": [
+      "et",
+      "h</w>"
+    ],
+    "count": 21,
+    "merged": "eth</w>"
+  },
+  {
+    "rank": 252,
+    "pair": [
+      "a",
+      "f"
+    ],
+    "count": 21,
+    "merged": "af"
+  },
+  {
+    "rank": 253,
+    "pair": [
+      "9",
+      "2</w>"
+    ],
+    "count": 21,
+    "merged": "92</w>"
+  },
+  {
+    "rank": 254,
+    "pair": [
+      "sah",
+      "it</w>"
+    ],
+    "count": 21,
+    "merged": "sahit</w>"
+  },
+  {
+    "rank": 255,
+    "pair": [
+      "a",
+      "v"
+    ],
+    "count": 21,
+    "merged": "av"
+  },
+  {
+    "rank": 256,
+    "pair": [
+      "or",
+      "</w>"
+    ],
+    "count": 20,
+    "merged": "or</w>"
+  },
+  {
+    "rank": 257,
+    "pair": [
+      "p",
+      "l"
+    ],
+    "count": 20,
+    "merged": "pl"
+  },
+  {
+    "rank": 258,
+    "pair": [
+      "un",
+      "e</w>"
+    ],
+    "count": 20,
+    "merged": "une</w>"
+  },
+  {
+    "rank": 259,
+    "pair": [
+      "i",
+      "e</w>"
+    ],
+    "count": 20,
+    "merged": "ie</w>"
+  },
+  {
+    "rank": 260,
+    "pair": [
+      "k",
+      "i</w>"
+    ],
+    "count": 20,
+    "merged": "ki</w>"
+  },
+  {
+    "rank": 261,
+    "pair": [
+      "num",
+      "r"
+    ],
+    "count": 20,
+    "merged": "numr"
+  },
+  {
+    "rank": 262,
+    "pair": [
+      "i",
+      "k</w>"
+    ],
+    "count": 20,
+    "merged": "ik</w>"
+  },
+  {
+    "rank": 263,
+    "pair": [
+      "ter",
+      "minu"
+    ],
+    "count": 20,
+    "merged": "terminu"
+  },
+  {
+    "rank": 264,
+    "pair": [
+      "k",
+      "ay"
+    ],
+    "count": 20,
+    "merged": "kay"
+  },
+  {
+    "rank": 265,
+    "pair": [
+      "s",
+      "2</w>"
+    ],
+    "count": 20,
+    "merged": "s2</w>"
+  },
+  {
+    "rank": 266,
+    "pair": [
+      "o",
+      "p"
+    ],
+    "count": 19,
+    "merged": "op"
+  },
+  {
+    "rank": 267,
+    "pair": [
+      "mad",
+      "ame</w>"
+    ],
+    "count": 19,
+    "merged": "madame</w>"
+  },
+  {
+    "rank": 268,
+    "pair": [
+      "khat",
+      "i</w>"
+    ],
+    "count": 19,
+    "merged": "khati</w>"
+  },
+  {
+    "rank": 269,
+    "pair": [
+      "qu",
+      "e</w>"
+    ],
+    "count": 19,
+    "merged": "que</w>"
+  },
+  {
+    "rank": 270,
+    "pair": [
+      "ur",
+      "a</w>"
+    ],
+    "count": 19,
+    "merged": "ura</w>"
+  },
+  {
+    "rank": 271,
+    "pair": [
+      "l",
+      "a3"
+    ],
+    "count": 19,
+    "merged": "la3"
+  },
+  {
+    "rank": 272,
+    "pair": [
+      "w",
+      "a7"
+    ],
+    "count": 19,
+    "merged": "wa7"
+  },
+  {
+    "rank": 273,
+    "pair": [
+      "7",
+      "</w>"
+    ],
+    "count": 19,
+    "merged": "7</w>"
+  },
+  {
+    "rank": 274,
+    "pair": [
+      "ed",
+      "d"
+    ],
+    "count": 19,
+    "merged": "edd"
+  },
+  {
+    "rank": 275,
+    "pair": [
+      "ad",
+      "e</w>"
+    ],
+    "count": 19,
+    "merged": "ade</w>"
+  },
+  {
+    "rank": 276,
+    "pair": [
+      "l'",
+      "h"
+    ],
+    "count": 19,
+    "merged": "l'h"
+  },
+  {
+    "rank": 277,
+    "pair": [
+      "ir",
+      "e</w>"
+    ],
+    "count": 19,
+    "merged": "ire</w>"
+  },
+  {
+    "rank": 278,
+    "pair": [
+      "u",
+      "m</w>"
+    ],
+    "count": 19,
+    "merged": "um</w>"
+  },
+  {
+    "rank": 279,
+    "pair": [
+      "i",
+      "la</w>"
+    ],
+    "count": 19,
+    "merged": "ila</w>"
+  },
+  {
+    "rank": 280,
+    "pair": [
+      "ah",
+      "m"
+    ],
+    "count": 19,
+    "merged": "ahm"
+  },
+  {
+    "rank": 281,
+    "pair": [
+      "t",
+      "em"
+    ],
+    "count": 18,
+    "merged": "tem"
+  },
+  {
+    "rank": 282,
+    "pair": [
+      "ach",
+      "u</w>"
+    ],
+    "count": 18,
+    "merged": "achu</w>"
+  },
+  {
+    "rank": 283,
+    "pair": [
+      "e",
+      "ss"
+    ],
+    "count": 18,
+    "merged": "ess"
+  },
+  {
+    "rank": 284,
+    "pair": [
+      "m",
+      "ar"
+    ],
+    "count": 18,
+    "merged": "mar"
+  },
+  {
+    "rank": 285,
+    "pair": [
+      "m",
+      "al"
+    ],
+    "count": 18,
+    "merged": "mal"
+  },
+  {
+    "rank": 286,
+    "pair": [
+      "ti",
+      "on</w>"
+    ],
+    "count": 18,
+    "merged": "tion</w>"
+  },
+  {
+    "rank": 287,
+    "pair": [
+      "te",
+      "d"
+    ],
+    "count": 18,
+    "merged": "ted"
+  },
+  {
+    "rank": 288,
+    "pair": [
+      "sou",
+      "q</w>"
+    ],
+    "count": 18,
+    "merged": "souq</w>"
+  },
+  {
+    "rank": 289,
+    "pair": [
+      "l",
+      "j"
+    ],
+    "count": 18,
+    "merged": "lj"
+  },
+  {
+    "rank": 290,
+    "pair": [
+      "u",
+      "x"
+    ],
+    "count": 18,
+    "merged": "ux"
+  },
+  {
+    "rank": 291,
+    "pair": [
+      "i",
+      "k"
+    ],
+    "count": 18,
+    "merged": "ik"
+  },
+  {
+    "rank": 292,
+    "pair": [
+      "t",
+      "im"
+    ],
+    "count": 18,
+    "merged": "tim"
+  },
+  {
+    "rank": 293,
+    "pair": [
+      "f",
+      "r"
+    ],
+    "count": 18,
+    "merged": "fr"
+  },
+  {
+    "rank": 294,
+    "pair": [
+      "m",
+      "a3"
+    ],
+    "count": 17,
+    "merged": "ma3"
+  },
+  {
+    "rank": 295,
+    "pair": [
+      "t",
+      "ura</w>"
+    ],
+    "count": 17,
+    "merged": "tura</w>"
+  },
+  {
+    "rank": 296,
+    "pair": [
+      "o",
+      "k</w>"
+    ],
+    "count": 17,
+    "merged": "ok</w>"
+  },
+  {
+    "rank": 297,
+    "pair": [
+      "im",
+      "aya</w>"
+    ],
+    "count": 17,
+    "merged": "imaya</w>"
+  },
+  {
+    "rank": 298,
+    "pair": [
+      "e",
+      "ur</w>"
+    ],
+    "count": 17,
+    "merged": "eur</w>"
+  },
+  {
+    "rank": 299,
+    "pair": [
+      "ath",
+      "an</w>"
+    ],
+    "count": 17,
+    "merged": "athan</w>"
+  },
+  {
+    "rank": 300,
+    "pair": [
+      "i",
+      "3"
+    ],
+    "count": 17,
+    "merged": "i3"
+  },
+  {
+    "rank": 301,
+    "pair": [
+      "ag",
+      "e</w>"
+    ],
+    "count": 17,
+    "merged": "age</w>"
+  },
+  {
+    "rank": 302,
+    "pair": [
+      "w",
+      "in</w>"
+    ],
+    "count": 17,
+    "merged": "win</w>"
+  },
+  {
+    "rank": 303,
+    "pair": [
+      "s",
+      "p"
+    ],
+    "count": 17,
+    "merged": "sp"
+  },
+  {
+    "rank": 304,
+    "pair": [
+      "terminu",
+      "s</w>"
+    ],
+    "count": 17,
+    "merged": "terminus</w>"
+  },
+  {
+    "rank": 305,
+    "pair": [
+      "in",
+      "na</w>"
+    ],
+    "count": 17,
+    "merged": "inna</w>"
+  },
+  {
+    "rank": 306,
+    "pair": [
+      "p",
+      "</w>"
+    ],
+    "count": 17,
+    "merged": "p</w>"
+  },
+  {
+    "rank": 307,
+    "pair": [
+      "t",
+      "a3</w>"
+    ],
+    "count": 17,
+    "merged": "ta3</w>"
+  },
+  {
+    "rank": 308,
+    "pair": [
+      "i",
+      "q"
+    ],
+    "count": 17,
+    "merged": "iq"
+  },
+  {
+    "rank": 309,
+    "pair": [
+      "ar",
+      "r"
+    ],
+    "count": 17,
+    "merged": "arr"
+  },
+  {
+    "rank": 310,
+    "pair": [
+      "all",
+      "ah</w>"
+    ],
+    "count": 17,
+    "merged": "allah</w>"
+  },
+  {
+    "rank": 311,
+    "pair": [
+      "il",
+      "le</w>"
+    ],
+    "count": 16,
+    "merged": "ille</w>"
+  },
+  {
+    "rank": 312,
+    "pair": [
+      "ach",
+      "i</w>"
+    ],
+    "count": 16,
+    "merged": "achi</w>"
+  },
+  {
+    "rank": 313,
+    "pair": [
+      "am",
+      "ek</w>"
+    ],
+    "count": 16,
+    "merged": "amek</w>"
+  },
+  {
+    "rank": 314,
+    "pair": [
+      "c",
+      "h</w>"
+    ],
+    "count": 16,
+    "merged": "ch</w>"
+  },
+  {
+    "rank": 315,
+    "pair": [
+      "i",
+      "a</w>"
+    ],
+    "count": 16,
+    "merged": "ia</w>"
+  },
+  {
+    "rank": 316,
+    "pair": [
+      "e",
+      "k"
+    ],
+    "count": 16,
+    "merged": "ek"
+  },
+  {
+    "rank": 317,
+    "pair": [
+      "z",
+      "r"
+    ],
+    "count": 16,
+    "merged": "zr"
+  },
+  {
+    "rank": 318,
+    "pair": [
+      "d",
+      "ar"
+    ],
+    "count": 16,
+    "merged": "dar"
+  },
+  {
+    "rank": 319,
+    "pair": [
+      "im",
+      "</w>"
+    ],
+    "count": 16,
+    "merged": "im</w>"
+  },
+  {
+    "rank": 320,
+    "pair": [
+      "s",
+      "b"
+    ],
+    "count": 16,
+    "merged": "sb"
+  },
+  {
+    "rank": 321,
+    "pair": [
+      "i",
+      "z"
+    ],
+    "count": 16,
+    "merged": "iz"
+  },
+  {
+    "rank": 322,
+    "pair": [
+      "ath",
+      "en</w>"
+    ],
+    "count": 16,
+    "merged": "athen</w>"
+  },
+  {
+    "rank": 323,
+    "pair": [
+      "o",
+      "c"
+    ],
+    "count": 15,
+    "merged": "oc"
+  },
+  {
+    "rank": 324,
+    "pair": [
+      "i",
+      "b"
+    ],
+    "count": 15,
+    "merged": "ib"
+  },
+  {
+    "rank": 325,
+    "pair": [
+      "t",
+      "n"
+    ],
+    "count": 15,
+    "merged": "tn"
+  },
+  {
+    "rank": 326,
+    "pair": [
+      "3",
+      "ass"
+    ],
+    "count": 15,
+    "merged": "3ass"
+  },
+  {
+    "rank": 327,
+    "pair": [
+      "da",
+      "kh"
+    ],
+    "count": 15,
+    "merged": "dakh"
+  },
+  {
+    "rank": 328,
+    "pair": [
+      "sa7",
+      "a</w>"
+    ],
+    "count": 15,
+    "merged": "sa7a</w>"
+  },
+  {
+    "rank": 329,
+    "pair": [
+      "a",
+      "j"
+    ],
+    "count": 15,
+    "merged": "aj"
+  },
+  {
+    "rank": 330,
+    "pair": [
+      "numr",
+      "o</w>"
+    ],
+    "count": 15,
+    "merged": "numro</w>"
+  },
+  {
+    "rank": 331,
+    "pair": [
+      "en",
+      "d</w>"
+    ],
+    "count": 15,
+    "merged": "end</w>"
+  },
+  {
+    "rank": 332,
+    "pair": [
+      "a",
+      "u</w>"
+    ],
+    "count": 15,
+    "merged": "au</w>"
+  },
+  {
+    "rank": 333,
+    "pair": [
+      "l",
+      "l"
+    ],
+    "count": 15,
+    "merged": "ll"
+  },
+  {
+    "rank": 334,
+    "pair": [
+      "m",
+      "e"
+    ],
+    "count": 15,
+    "merged": "me"
+  },
+  {
+    "rank": 335,
+    "pair": [
+      "as",
+      "h"
+    ],
+    "count": 15,
+    "merged": "ash"
+  },
+  {
+    "rank": 336,
+    "pair": [
+      "h",
+      "ad"
+    ],
+    "count": 15,
+    "merged": "had"
+  },
+  {
+    "rank": 337,
+    "pair": [
+      "b",
+      "rid</w>"
+    ],
+    "count": 15,
+    "merged": "brid</w>"
+  },
+  {
+    "rank": 338,
+    "pair": [
+      "it",
+      "ar</w>"
+    ],
+    "count": 15,
+    "merged": "itar</w>"
+  },
+  {
+    "rank": 339,
+    "pair": [
+      "sp",
+      "e"
+    ],
+    "count": 15,
+    "merged": "spe"
+  },
+  {
+    "rank": 340,
+    "pair": [
+      "spe",
+      "ak"
+    ],
+    "count": 15,
+    "merged": "speak"
+  },
+  {
+    "rank": 341,
+    "pair": [
+      "speak",
+      "er</w>"
+    ],
+    "count": 15,
+    "merged": "speaker</w>"
+  },
+  {
+    "rank": 342,
+    "pair": [
+      "at",
+      "or</w>"
+    ],
+    "count": 14,
+    "merged": "ator</w>"
+  },
+  {
+    "rank": 343,
+    "pair": [
+      "ent",
+      "s</w>"
+    ],
+    "count": 14,
+    "merged": "ents</w>"
+  },
+  {
+    "rank": 344,
+    "pair": [
+      "c",
+      "it</w>"
+    ],
+    "count": 14,
+    "merged": "cit</w>"
+  },
+  {
+    "rank": 345,
+    "pair": [
+      "i",
+      "koum</w>"
+    ],
+    "count": 14,
+    "merged": "ikoum</w>"
+  },
+  {
+    "rank": 346,
+    "pair": [
+      "gh",
+      "er</w>"
+    ],
+    "count": 14,
+    "merged": "gher</w>"
+  },
+  {
+    "rank": 347,
+    "pair": [
+      "in",
+      "e</w>"
+    ],
+    "count": 14,
+    "merged": "ine</w>"
+  },
+  {
+    "rank": 348,
+    "pair": [
+      "c",
+      "iv"
+    ],
+    "count": 14,
+    "merged": "civ"
+  },
+  {
+    "rank": 349,
+    "pair": [
+      "a",
+      "gh"
+    ],
+    "count": 14,
+    "merged": "agh"
+  },
+  {
+    "rank": 350,
+    "pair": [
+      "d",
+      "ak"
+    ],
+    "count": 14,
+    "merged": "dak"
+  },
+  {
+    "rank": 351,
+    "pair": [
+      "po",
+      "s"
+    ],
+    "count": 14,
+    "merged": "pos"
+  },
+  {
+    "rank": 352,
+    "pair": [
+      "3",
+      "an"
+    ],
+    "count": 14,
+    "merged": "3an"
+  },
+  {
+    "rank": 353,
+    "pair": [
+      "b",
+      "tim"
+    ],
+    "count": 14,
+    "merged": "btim"
+  },
+  {
+    "rank": 354,
+    "pair": [
+      "a",
+      "kh"
+    ],
+    "count": 14,
+    "merged": "akh"
+  },
+  {
+    "rank": 355,
+    "pair": [
+      "gh",
+      "li</w>"
+    ],
+    "count": 14,
+    "merged": "ghli</w>"
+  },
+  {
+    "rank": 356,
+    "pair": [
+      "sb",
+      "itar</w>"
+    ],
+    "count": 14,
+    "merged": "sbitar</w>"
+  },
+  {
+    "rank": 357,
+    "pair": [
+      "our",
+      "a</w>"
+    ],
+    "count": 14,
+    "merged": "oura</w>"
+  },
+  {
+    "rank": 358,
+    "pair": [
+      "op",
+      "er"
+    ],
+    "count": 13,
+    "merged": "oper"
+  },
+  {
+    "rank": 359,
+    "pair": [
+      "oper",
+      "ator</w>"
+    ],
+    "count": 13,
+    "merged": "operator</w>"
+  },
+  {
+    "rank": 360,
+    "pair": [
+      "tem",
+      "ent</w>"
+    ],
+    "count": 13,
+    "merged": "tement</w>"
+  },
+  {
+    "rank": 361,
+    "pair": [
+      "d",
+      "achu</w>"
+    ],
+    "count": 13,
+    "merged": "dachu</w>"
+  },
+  {
+    "rank": 362,
+    "pair": [
+      "gh",
+      "ar"
+    ],
+    "count": 13,
+    "merged": "ghar"
+  },
+  {
+    "rank": 363,
+    "pair": [
+      "a3",
+      "am</w>"
+    ],
+    "count": 13,
+    "merged": "a3am</w>"
+  },
+  {
+    "rank": 364,
+    "pair": [
+      "g",
+      "u"
+    ],
+    "count": 13,
+    "merged": "gu"
+  },
+  {
+    "rank": 365,
+    "pair": [
+      "s",
+      "'"
+    ],
+    "count": 13,
+    "merged": "s'"
+  },
+  {
+    "rank": 366,
+    "pair": [
+      "mal",
+      "ade</w>"
+    ],
+    "count": 13,
+    "merged": "malade</w>"
+  },
+  {
+    "rank": 367,
+    "pair": [
+      "i",
+      "on</w>"
+    ],
+    "count": 13,
+    "merged": "ion</w>"
+  },
+  {
+    "rank": 368,
+    "pair": [
+      "dakh",
+      "el</w>"
+    ],
+    "count": 13,
+    "merged": "dakhel</w>"
+  },
+  {
+    "rank": 369,
+    "pair": [
+      "ar",
+      "w"
+    ],
+    "count": 13,
+    "merged": "arw"
+  },
+  {
+    "rank": 370,
+    "pair": [
+      "al",
+      "ay"
+    ],
+    "count": 13,
+    "merged": "alay"
+  },
+  {
+    "rank": 371,
+    "pair": [
+      "th",
+      "e"
+    ],
+    "count": 13,
+    "merged": "the"
+  },
+  {
+    "rank": 372,
+    "pair": [
+      "0",
+      "0</w>"
+    ],
+    "count": 13,
+    "merged": "00</w>"
+  },
+  {
+    "rank": 373,
+    "pair": [
+      "f",
+      "e"
+    ],
+    "count": 13,
+    "merged": "fe"
+  },
+  {
+    "rank": 374,
+    "pair": [
+      "b",
+      "i</w>"
+    ],
+    "count": 13,
+    "merged": "bi</w>"
+  },
+  {
+    "rank": 375,
+    "pair": [
+      "at",
+      "h</w>"
+    ],
+    "count": 13,
+    "merged": "ath</w>"
+  },
+  {
+    "rank": 376,
+    "pair": [
+      "ih",
+      "a</w>"
+    ],
+    "count": 13,
+    "merged": "iha</w>"
+  },
+  {
+    "rank": 377,
+    "pair": [
+      "m",
+      "on"
+    ],
+    "count": 13,
+    "merged": "mon"
+  },
+  {
+    "rank": 378,
+    "pair": [
+      "ss",
+      "e</w>"
+    ],
+    "count": 13,
+    "merged": "sse</w>"
+  },
+  {
+    "rank": 379,
+    "pair": [
+      "n",
+      "ou"
+    ],
+    "count": 13,
+    "merged": "nou"
+  },
+  {
+    "rank": 380,
+    "pair": [
+      "q",
+      "r"
+    ],
+    "count": 13,
+    "merged": "qr"
+  },
+  {
+    "rank": 381,
+    "pair": [
+      "ahm",
+      "ed</w>"
+    ],
+    "count": 13,
+    "merged": "ahmed</w>"
+  },
+  {
+    "rank": 382,
+    "pair": [
+      "t",
+      "oura</w>"
+    ],
+    "count": 13,
+    "merged": "toura</w>"
+  },
+  {
+    "rank": 383,
+    "pair": [
+      "c",
+      "all"
+    ],
+    "count": 12,
+    "merged": "call"
+  },
+  {
+    "rank": 384,
+    "pair": [
+      "call",
+      "er</w>"
+    ],
+    "count": 12,
+    "merged": "caller</w>"
+  },
+  {
+    "rank": 385,
+    "pair": [
+      "z",
+      "em"
+    ],
+    "count": 12,
+    "merged": "zem"
+  },
+  {
+    "rank": 386,
+    "pair": [
+      "f",
+      "am"
+    ],
+    "count": 12,
+    "merged": "fam"
+  },
+  {
+    "rank": 387,
+    "pair": [
+      "t",
+      "am"
+    ],
+    "count": 12,
+    "merged": "tam"
+  },
+  {
+    "rank": 388,
+    "pair": [
+      "m",
+      "achi</w>"
+    ],
+    "count": 12,
+    "merged": "machi</w>"
+  },
+  {
+    "rank": 389,
+    "pair": [
+      "it",
+      "e</w>"
+    ],
+    "count": 12,
+    "merged": "ite</w>"
+  },
+  {
+    "rank": 390,
+    "pair": [
+      "4",
+      "0</w>"
+    ],
+    "count": 12,
+    "merged": "40</w>"
+  },
+  {
+    "rank": 391,
+    "pair": [
+      "b",
+      "on</w>"
+    ],
+    "count": 12,
+    "merged": "bon</w>"
+  },
+  {
+    "rank": 392,
+    "pair": [
+      "am",
+      "kan</w>"
+    ],
+    "count": 12,
+    "merged": "amkan</w>"
+  },
+  {
+    "rank": 393,
+    "pair": [
+      "m",
+      "e</w>"
+    ],
+    "count": 12,
+    "merged": "me</w>"
+  },
+  {
+    "rank": 394,
+    "pair": [
+      "b",
+      "i"
+    ],
+    "count": 12,
+    "merged": "bi"
+  },
+  {
+    "rank": 395,
+    "pair": [
+      "s",
+      "all"
+    ],
+    "count": 12,
+    "merged": "sall"
+  },
+  {
+    "rank": 396,
+    "pair": [
+      "ch",
+      "e</w>"
+    ],
+    "count": 12,
+    "merged": "che</w>"
+  },
+  {
+    "rank": 397,
+    "pair": [
+      "f",
+      "k"
+    ],
+    "count": 12,
+    "merged": "fk"
+  },
+  {
+    "rank": 398,
+    "pair": [
+      "c",
+      "tion</w>"
+    ],
+    "count": 12,
+    "merged": "ction</w>"
+  },
+  {
+    "rank": 399,
+    "pair": [
+      "b",
+      "le"
+    ],
+    "count": 12,
+    "merged": "ble"
+  },
+  {
+    "rank": 400,
+    "pair": [
+      "s",
+      "s</w>"
+    ],
+    "count": 12,
+    "merged": "ss</w>"
+  },
+  {
+    "rank": 401,
+    "pair": [
+      "m",
+      "l"
+    ],
+    "count": 12,
+    "merged": "ml"
+  },
+  {
+    "rank": 402,
+    "pair": [
+      "pos",
+      "te</w>"
+    ],
+    "count": 12,
+    "merged": "poste</w>"
+  },
+  {
+    "rank": 403,
+    "pair": [
+      "aw",
+      "en</w>"
+    ],
+    "count": 12,
+    "merged": "awen</w>"
+  },
+  {
+    "rank": 404,
+    "pair": [
+      "ux",
+      "</w>"
+    ],
+    "count": 12,
+    "merged": "ux</w>"
+  },
+  {
+    "rank": 405,
+    "pair": [
+      "r",
+      "e</w>"
+    ],
+    "count": 12,
+    "merged": "re</w>"
+  },
+  {
+    "rank": 406,
+    "pair": [
+      "1",
+      "5</w>"
+    ],
+    "count": 12,
+    "merged": "15</w>"
+  },
+  {
+    "rank": 407,
+    "pair": [
+      "b",
+      "ar"
+    ],
+    "count": 12,
+    "merged": "bar"
+  },
+  {
+    "rank": 408,
+    "pair": [
+      "wah",
+      "id</w>"
+    ],
+    "count": 12,
+    "merged": "wahid</w>"
+  },
+  {
+    "rank": 409,
+    "pair": [
+      "ir",
+      "a</w>"
+    ],
+    "count": 12,
+    "merged": "ira</w>"
+  },
+  {
+    "rank": 410,
+    "pair": [
+      "ic",
+      "h</w>"
+    ],
+    "count": 12,
+    "merged": "ich</w>"
+  },
+  {
+    "rank": 411,
+    "pair": [
+      "c",
+      "o"
+    ],
+    "count": 12,
+    "merged": "co"
+  },
+  {
+    "rank": 412,
+    "pair": [
+      "n",
+      "n"
+    ],
+    "count": 12,
+    "merged": "nn"
+  },
+  {
+    "rank": 413,
+    "pair": [
+      "ac",
+      "e</w>"
+    ],
+    "count": 12,
+    "merged": "ace</w>"
+  },
+  {
+    "rank": 414,
+    "pair": [
+      "o",
+      "k"
+    ],
+    "count": 12,
+    "merged": "ok"
+  },
+  {
+    "rank": 415,
+    "pair": [
+      "g",
+      "'"
+    ],
+    "count": 12,
+    "merged": "g'"
+  },
+  {
+    "rank": 416,
+    "pair": [
+      "l'",
+      "arr"
+    ],
+    "count": 12,
+    "merged": "l'arr"
+  },
+  {
+    "rank": 417,
+    "pair": [
+      "g",
+      "az"
+    ],
+    "count": 12,
+    "merged": "gaz"
+  },
+  {
+    "rank": 418,
+    "pair": [
+      "gaz",
+      "</w>"
+    ],
+    "count": 12,
+    "merged": "gaz</w>"
+  },
+  {
+    "rank": 419,
+    "pair": [
+      "ap",
+      "p"
+    ],
+    "count": 12,
+    "merged": "app"
+  },
+  {
+    "rank": 420,
+    "pair": [
+      "app",
+      "el"
+    ],
+    "count": 12,
+    "merged": "appel"
+  },
+  {
+    "rank": 421,
+    "pair": [
+      "de",
+      "g</w>"
+    ],
+    "count": 11,
+    "merged": "deg</w>"
+  },
+  {
+    "rank": 422,
+    "pair": [
+      "w",
+      "</w>"
+    ],
+    "count": 11,
+    "merged": "w</w>"
+  },
+  {
+    "rank": 423,
+    "pair": [
+      "am",
+      "e"
+    ],
+    "count": 11,
+    "merged": "ame"
+  },
+  {
+    "rank": 424,
+    "pair": [
+      "l",
+      "7"
+    ],
+    "count": 11,
+    "merged": "l7"
+  },
+  {
+    "rank": 425,
+    "pair": [
+      "ma3",
+      "li"
+    ],
+    "count": 11,
+    "merged": "ma3li"
+  },
+  {
+    "rank": 426,
+    "pair": [
+      "n",
+      "w"
+    ],
+    "count": 11,
+    "merged": "nw"
+  },
+  {
+    "rank": 427,
+    "pair": [
+      "ul",
+      "</w>"
+    ],
+    "count": 11,
+    "merged": "ul</w>"
+  },
+  {
+    "rank": 428,
+    "pair": [
+      "ig",
+      "h</w>"
+    ],
+    "count": 11,
+    "merged": "igh</w>"
+  },
+  {
+    "rank": 429,
+    "pair": [
+      "j",
+      "a</w>"
+    ],
+    "count": 11,
+    "merged": "ja</w>"
+  },
+  {
+    "rank": 430,
+    "pair": [
+      "igh",
+      "li</w>"
+    ],
+    "count": 11,
+    "merged": "ighli</w>"
+  },
+  {
+    "rank": 431,
+    "pair": [
+      "l'",
+      "q"
+    ],
+    "count": 11,
+    "merged": "l'q"
+  },
+  {
+    "rank": 432,
+    "pair": [
+      "l'",
+      "t"
+    ],
+    "count": 11,
+    "merged": "l't"
+  },
+  {
+    "rank": 433,
+    "pair": [
+      "d",
+      "h"
+    ],
+    "count": 11,
+    "merged": "dh"
+  },
+  {
+    "rank": 434,
+    "pair": [
+      "im",
+      "a"
+    ],
+    "count": 11,
+    "merged": "ima"
+  },
+  {
+    "rank": 435,
+    "pair": [
+      "ur",
+      "gen"
+    ],
+    "count": 11,
+    "merged": "urgen"
+  },
+  {
+    "rank": 436,
+    "pair": [
+      "sall",
+      "e</w>"
+    ],
+    "count": 11,
+    "merged": "salle</w>"
+  },
+  {
+    "rank": 437,
+    "pair": [
+      "is",
+      "s</w>"
+    ],
+    "count": 11,
+    "merged": "iss</w>"
+  },
+  {
+    "rank": 438,
+    "pair": [
+      "a3",
+      "a</w>"
+    ],
+    "count": 11,
+    "merged": "a3a</w>"
+  },
+  {
+    "rank": 439,
+    "pair": [
+      "v",
+      "ou"
+    ],
+    "count": 11,
+    "merged": "vou"
+  },
+  {
+    "rank": 440,
+    "pair": [
+      "vou",
+      "s</w>"
+    ],
+    "count": 11,
+    "merged": "vous</w>"
+  },
+  {
+    "rank": 441,
+    "pair": [
+      "pro",
+      "te"
+    ],
+    "count": 11,
+    "merged": "prote"
+  },
+  {
+    "rank": 442,
+    "pair": [
+      "prote",
+      "ction</w>"
+    ],
+    "count": 11,
+    "merged": "protection</w>"
+  },
+  {
+    "rank": 443,
+    "pair": [
+      "c",
+      "on"
+    ],
+    "count": 11,
+    "merged": "con"
+  },
+  {
+    "rank": 444,
+    "pair": [
+      "ell",
+      "an</w>"
+    ],
+    "count": 11,
+    "merged": "ellan</w>"
+  },
+  {
+    "rank": 445,
+    "pair": [
+      "ml",
+      "ih</w>"
+    ],
+    "count": 11,
+    "merged": "mlih</w>"
+  },
+  {
+    "rank": 446,
+    "pair": [
+      "b",
+      "er"
+    ],
+    "count": 11,
+    "merged": "ber"
+  },
+  {
+    "rank": 447,
+    "pair": [
+      "n",
+      "e</w>"
+    ],
+    "count": 11,
+    "merged": "ne</w>"
+  },
+  {
+    "rank": 448,
+    "pair": [
+      "d",
+      "inna</w>"
+    ],
+    "count": 11,
+    "merged": "dinna</w>"
+  },
+  {
+    "rank": 449,
+    "pair": [
+      "m",
+      "ou"
+    ],
+    "count": 11,
+    "merged": "mou"
+  },
+  {
+    "rank": 450,
+    "pair": [
+      "n",
+      "a"
+    ],
+    "count": 11,
+    "merged": "na"
+  },
+  {
+    "rank": 451,
+    "pair": [
+      "p",
+      "as</w>"
+    ],
+    "count": 11,
+    "merged": "pas</w>"
+  },
+  {
+    "rank": 452,
+    "pair": [
+      "il",
+      "e</w>"
+    ],
+    "count": 11,
+    "merged": "ile</w>"
+  },
+  {
+    "rank": 453,
+    "pair": [
+      "q",
+      "b"
+    ],
+    "count": 11,
+    "merged": "qb"
+  },
+  {
+    "rank": 454,
+    "pair": [
+      "i",
+      "j"
+    ],
+    "count": 11,
+    "merged": "ij"
+  },
+  {
+    "rank": 455,
+    "pair": [
+      "l",
+      "h"
+    ],
+    "count": 11,
+    "merged": "lh"
+  },
+  {
+    "rank": 456,
+    "pair": [
+      "b",
+      "err"
+    ],
+    "count": 11,
+    "merged": "berr"
+  },
+  {
+    "rank": 457,
+    "pair": [
+      "n",
+      "er</w>"
+    ],
+    "count": 11,
+    "merged": "ner</w>"
+  },
+  {
+    "rank": 458,
+    "pair": [
+      "o",
+      "b"
+    ],
+    "count": 11,
+    "merged": "ob"
+  },
+  {
+    "rank": 459,
+    "pair": [
+      "appel",
+      "ant</w>"
+    ],
+    "count": 11,
+    "merged": "appelant</w>"
+  },
+  {
+    "rank": 460,
+    "pair": [
+      "lo",
+      "g"
+    ],
+    "count": 10,
+    "merged": "log"
+  },
+  {
+    "rank": 461,
+    "pair": [
+      "log",
+      "em"
+    ],
+    "count": 10,
+    "merged": "logem"
+  },
+  {
+    "rank": 462,
+    "pair": [
+      "logem",
+      "ents</w>"
+    ],
+    "count": 10,
+    "merged": "logements</w>"
+  },
+  {
+    "rank": 463,
+    "pair": [
+      "ou",
+      "z"
+    ],
+    "count": 10,
+    "merged": "ouz"
+  },
+  {
+    "rank": 464,
+    "pair": [
+      "f",
+      "f"
+    ],
+    "count": 10,
+    "merged": "ff"
+  },
+  {
+    "rank": 465,
+    "pair": [
+      "gh",
+      "ir</w>"
+    ],
+    "count": 10,
+    "merged": "ghir</w>"
+  },
+  {
+    "rank": 466,
+    "pair": [
+      "ch",
+      "ey"
+    ],
+    "count": 10,
+    "merged": "chey"
+  },
+  {
+    "rank": 467,
+    "pair": [
+      "tou",
+      "t</w>"
+    ],
+    "count": 10,
+    "merged": "tout</w>"
+  },
+  {
+    "rank": 468,
+    "pair": [
+      "u",
+      "t</w>"
+    ],
+    "count": 10,
+    "merged": "ut</w>"
+  },
+  {
+    "rank": 469,
+    "pair": [
+      "s",
+      "edd"
+    ],
+    "count": 10,
+    "merged": "sedd"
+  },
+  {
+    "rank": 470,
+    "pair": [
+      "sedd",
+      "ou"
+    ],
+    "count": 10,
+    "merged": "seddou"
+  },
+  {
+    "rank": 471,
+    "pair": [
+      "n",
+      "es"
+    ],
+    "count": 10,
+    "merged": "nes"
+  },
+  {
+    "rank": 472,
+    "pair": [
+      "a",
+      "i</w>"
+    ],
+    "count": 10,
+    "merged": "ai</w>"
+  },
+  {
+    "rank": 473,
+    "pair": [
+      "aql",
+      "agh</w>"
+    ],
+    "count": 10,
+    "merged": "aqlagh</w>"
+  },
+  {
+    "rank": 474,
+    "pair": [
+      "ay",
+      "</w>"
+    ],
+    "count": 10,
+    "merged": "ay</w>"
+  },
+  {
+    "rank": 475,
+    "pair": [
+      "id",
+      "ent</w>"
+    ],
+    "count": 10,
+    "merged": "ident</w>"
+  },
+  {
+    "rank": 476,
+    "pair": [
+      "to",
+      "mo"
+    ],
+    "count": 10,
+    "merged": "tomo"
+  },
+  {
+    "rank": 477,
+    "pair": [
+      "i",
+      "ch"
+    ],
+    "count": 10,
+    "merged": "ich"
+  },
+  {
+    "rank": 478,
+    "pair": [
+      "exac",
+      "t</w>"
+    ],
+    "count": 10,
+    "merged": "exact</w>"
+  },
+  {
+    "rank": 479,
+    "pair": [
+      "gen",
+      "dar"
+    ],
+    "count": 10,
+    "merged": "gendar"
+  },
+  {
+    "rank": 480,
+    "pair": [
+      "z",
+      "ath</w>"
+    ],
+    "count": 10,
+    "merged": "zath</w>"
+  },
+  {
+    "rank": 481,
+    "pair": [
+      "par",
+      "ce</w>"
+    ],
+    "count": 10,
+    "merged": "parce</w>"
+  },
+  {
+    "rank": 482,
+    "pair": [
+      "te",
+      "zr"
+    ],
+    "count": 10,
+    "merged": "tezr"
+  },
+  {
+    "rank": 483,
+    "pair": [
+      "t",
+      "o</w>"
+    ],
+    "count": 10,
+    "merged": "to</w>"
+  },
+  {
+    "rank": 484,
+    "pair": [
+      "3",
+      "l"
+    ],
+    "count": 10,
+    "merged": "3l"
+  },
+  {
+    "rank": 485,
+    "pair": [
+      "1",
+      "8</w>"
+    ],
+    "count": 10,
+    "merged": "18</w>"
+  },
+  {
+    "rank": 486,
+    "pair": [
+      "bi",
+      "en</w>"
+    ],
+    "count": 10,
+    "merged": "bien</w>"
+  },
+  {
+    "rank": 487,
+    "pair": [
+      "r",
+      "u"
+    ],
+    "count": 10,
+    "merged": "ru"
+  },
+  {
+    "rank": 488,
+    "pair": [
+      "l'",
+      "g"
+    ],
+    "count": 10,
+    "merged": "l'g"
+  },
+  {
+    "rank": 489,
+    "pair": [
+      "pr",
+      "ima"
+    ],
+    "count": 10,
+    "merged": "prima"
+  },
+  {
+    "rank": 490,
+    "pair": [
+      "prima",
+      "ire</w>"
+    ],
+    "count": 10,
+    "merged": "primaire</w>"
+  },
+  {
+    "rank": 491,
+    "pair": [
+      "aq",
+      "</w>"
+    ],
+    "count": 10,
+    "merged": "aq</w>"
+  },
+  {
+    "rank": 492,
+    "pair": [
+      "s",
+      "t"
+    ],
+    "count": 10,
+    "merged": "st"
+  },
+  {
+    "rank": 493,
+    "pair": [
+      "l'arr",
+      "t</w>"
+    ],
+    "count": 10,
+    "merged": "l'arrt</w>"
+  },
+  {
+    "rank": 494,
+    "pair": [
+      "berr",
+      "a</w>"
+    ],
+    "count": 10,
+    "merged": "berra</w>"
+  },
+  {
+    "rank": 495,
+    "pair": [
+      "ok",
+      "as</w>"
+    ],
+    "count": 10,
+    "merged": "okas</w>"
+  },
+  {
+    "rank": 496,
+    "pair": [
+      "el",
+      "le</w>"
+    ],
+    "count": 10,
+    "merged": "elle</w>"
+  },
+  {
+    "rank": 497,
+    "pair": [
+      "re",
+      "bi</w>"
+    ],
+    "count": 10,
+    "merged": "rebi</w>"
+  },
+  {
+    "rank": 498,
+    "pair": [
+      "fam",
+      "ille</w>"
+    ],
+    "count": 9,
+    "merged": "famille</w>"
+  },
+  {
+    "rank": 499,
+    "pair": [
+      "ma",
+      "is</w>"
+    ],
+    "count": 9,
+    "merged": "mais</w>"
+  },
+  {
+    "rank": 500,
+    "pair": [
+      "chey",
+      "3"
+    ],
+    "count": 9,
+    "merged": "chey3"
+  }
+]

@@ -1,0 +1,1430 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vérification Transcription — DGPC</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0f0f14;
+            --bg-secondary: #16161e;
+            --bg-card: #1c1c28;
+            --bg-hover: #24243a;
+            --bg-input: #12121a;
+            --border: #2a2a3e;
+            --border-focus: #6366f1;
+            --text-primary: #e8e8f0;
+            --text-secondary: #8888a0;
+            --text-muted: #5a5a72;
+            --accent: #6366f1;
+            --accent-glow: rgba(99, 102, 241, .25);
+            --green: #22c55e;
+            --green-bg: rgba(34, 197, 94, .12);
+            --yellow: #f59e0b;
+            --yellow-bg: rgba(245, 158, 11, .12);
+            --blue: #3b82f6;
+            --blue-bg: rgba(59, 130, 246, .12);
+            --red: #ef4444;
+            --red-bg: rgba(239, 68, 68, .12);
+            --orange: #f97316;
+            --radius: 12px;
+            --radius-sm: 8px;
+            --shadow: 0 4px 24px rgba(0, 0, 0, .4);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .app {
+            display: flex;
+            height: 100vh;
+        }
+
+        /* ── Sidebar ── */
+        .sidebar {
+            width: 340px;
+            min-width: 340px;
+            background: var(--bg-secondary);
+            border-right: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar-header {
+            padding: 20px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .sidebar-header h1 {
+            font-size: 16px;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent), #a855f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .sidebar-header .subtitle {
+            font-size: 11px;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        .progress-section {
+            padding: 16px 20px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .progress-bar-container {
+            height: 8px;
+            background: var(--bg-input);
+            border-radius: 99px;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+
+        .progress-bar {
+            height: 100%;
+            border-radius: 99px;
+            background: linear-gradient(90deg, var(--accent), #a855f7);
+            transition: width .5s ease;
+            position: relative;
+        }
+
+        .progress-bar::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 20px;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .3));
+            border-radius: 99px;
+        }
+
+        .stats-row {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+
+        .stat-badge {
+            font-size: 11px;
+            font-weight: 600;
+            padding: 3px 8px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .stat-badge.verified {
+            background: var(--green-bg);
+            color: var(--green);
+        }
+
+        .stat-badge.corrected {
+            background: var(--yellow-bg);
+            color: var(--yellow);
+        }
+
+        .stat-badge.skipped {
+            background: var(--blue-bg);
+            color: var(--blue);
+        }
+
+        .stat-badge.pending {
+            background: var(--red-bg);
+            color: var(--red);
+        }
+
+        .filter-bar {
+            padding: 12px 20px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            gap: 6px;
+        }
+
+        .filter-btn {
+            font-size: 11px;
+            font-weight: 500;
+            padding: 5px 10px;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+            background: transparent;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all .2s;
+            font-family: inherit;
+        }
+
+        .filter-btn:hover {
+            border-color: var(--accent);
+            color: var(--text-primary);
+        }
+
+        .filter-btn.active {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: white;
+        }
+
+        .search-bar {
+            padding: 12px 20px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 8px 12px;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border);
+            background: var(--bg-input);
+            color: var(--text-primary);
+            font-size: 12px;
+            font-family: inherit;
+            outline: none;
+            transition: border-color .2s;
+        }
+
+        .search-input:focus {
+            border-color: var(--accent);
+        }
+
+        .search-input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .call-list {
+            flex: 1;
+            overflow-y: auto;
+            padding: 8px;
+        }
+
+        .call-list::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .call-list::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .call-list::-webkit-scrollbar-thumb {
+            background: var(--border);
+            border-radius: 99px;
+        }
+
+        .call-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 12px;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+            transition: all .15s;
+            border: 1px solid transparent;
+        }
+
+        .call-item:hover {
+            background: var(--bg-hover);
+        }
+
+        .call-item.active {
+            background: var(--accent-glow);
+            border-color: var(--accent);
+        }
+
+        .call-item .status-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .call-item .status-dot.pending {
+            background: var(--text-muted);
+        }
+
+        .call-item .status-dot.verified {
+            background: var(--green);
+            box-shadow: 0 0 6px var(--green);
+        }
+
+        .call-item .status-dot.corrected {
+            background: var(--yellow);
+            box-shadow: 0 0 6px var(--yellow);
+        }
+
+        .call-item .status-dot.skipped {
+            background: var(--blue);
+        }
+
+        .call-item .call-info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .call-item .call-name {
+            font-size: 12px;
+            font-weight: 600;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .call-item .call-type {
+            font-size: 10px;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        .call-item .no-audio {
+            font-size: 9px;
+            color: var(--red);
+            padding: 1px 5px;
+            border-radius: 4px;
+            background: var(--red-bg);
+            flex-shrink: 0;
+        }
+
+        /* ── Main Content ── */
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .top-bar {
+            padding: 16px 28px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: var(--bg-secondary);
+        }
+
+        .call-title {
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: -.3px;
+        }
+
+        .call-meta {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .meta-tag {
+            font-size: 11px;
+            font-weight: 500;
+            padding: 4px 10px;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+        }
+
+        .meta-tag.type {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        .content-scroll {
+            flex: 1;
+            overflow-y: auto;
+            padding: 28px;
+        }
+
+        .content-scroll::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .content-scroll::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .content-scroll::-webkit-scrollbar-thumb {
+            background: var(--border);
+            border-radius: 99px;
+        }
+
+        /* Sections */
+        .section {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+
+        .section h3 {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: .5px;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .transcription-text {
+            font-size: 14px;
+            line-height: 1.8;
+            color: var(--text-primary);
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
+        .transcription-text .operator {
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        .transcription-text .caller {
+            color: var(--orange);
+            font-weight: 600;
+        }
+
+        .audio-player-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .audio-player-wrapper audio {
+            flex: 1;
+            height: 40px;
+        }
+
+        .speed-controls {
+            display: flex;
+            gap: 4px;
+        }
+
+        .speed-btn {
+            font-size: 11px;
+            font-weight: 600;
+            padding: 5px 8px;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+            background: transparent;
+            color: var(--text-secondary);
+            cursor: pointer;
+            font-family: inherit;
+            transition: all .2s;
+        }
+
+        .speed-btn:hover {
+            border-color: var(--accent);
+            color: var(--text-primary);
+        }
+
+        .speed-btn.active {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: white;
+        }
+
+        .no-audio-msg {
+            padding: 16px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 13px;
+            border: 2px dashed var(--border);
+            border-radius: var(--radius-sm);
+        }
+
+        .edit-section {
+            display: none;
+        }
+
+        .edit-section.visible {
+            display: block;
+        }
+
+        .edit-section h3 {
+            color: var(--yellow);
+        }
+
+        .edit-textarea {
+            width: 100%;
+            min-height: 180px;
+            padding: 14px;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border);
+            background: var(--bg-input);
+            color: var(--text-primary);
+            font-size: 14px;
+            line-height: 1.7;
+            font-family: inherit;
+            resize: vertical;
+            outline: none;
+            transition: border-color .2s;
+        }
+
+        .edit-textarea:focus {
+            border-color: var(--yellow);
+        }
+
+        /* ── Editable Metadata Grid ── */
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+        }
+
+        .meta-grid.row2 {
+            grid-template-columns: repeat(5, 1fr);
+        }
+
+        .meta-grid.row3 {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .meta-grid.row4 {
+            grid-template-columns: 1fr;
+        }
+
+        .meta-grid.row5 {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .field-group {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .field-group label {
+            font-size: 10px;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: .4px;
+        }
+
+        .field-group select,
+        .field-group input,
+        .field-group textarea {
+            padding: 8px 10px;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border);
+            background: var(--bg-input);
+            color: var(--text-primary);
+            font-size: 12px;
+            font-family: inherit;
+            outline: none;
+            transition: border-color .2s;
+        }
+
+        .field-group select:focus,
+        .field-group input:focus,
+        .field-group textarea:focus {
+            border-color: var(--accent);
+        }
+
+        .field-group select {
+            cursor: pointer;
+            appearance: auto;
+        }
+
+        .field-group textarea {
+            resize: vertical;
+            min-height: 60px;
+        }
+
+        .meta-separator {
+            border: none;
+            border-top: 1px solid var(--border);
+            margin: 16px 0;
+        }
+
+        /* Notes section */
+        .notes-section p {
+            font-size: 13px;
+            line-height: 1.6;
+            color: var(--text-secondary);
+        }
+
+        /* ── Bottom Action Bar ── */
+        .action-bar {
+            padding: 16px 28px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .action-nav {
+            display: flex;
+            gap: 8px;
+        }
+
+        .nav-btn {
+            padding: 8px 16px;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border);
+            background: transparent;
+            color: var(--text-secondary);
+            font-size: 12px;
+            font-weight: 500;
+            cursor: pointer;
+            font-family: inherit;
+            transition: all .2s;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .nav-btn:hover {
+            border-color: var(--accent);
+            color: var(--text-primary);
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .action-btn {
+            padding: 10px 20px;
+            border-radius: var(--radius-sm);
+            border: none;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            font-family: inherit;
+            transition: all .2s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .action-btn:active {
+            transform: scale(.97);
+        }
+
+        .action-btn.verify {
+            background: var(--green);
+            color: #000;
+        }
+
+        .action-btn.verify:hover {
+            background: #16a34a;
+            box-shadow: 0 0 20px rgba(34, 197, 94, .3);
+        }
+
+        .action-btn.correct {
+            background: var(--yellow);
+            color: #000;
+        }
+
+        .action-btn.correct:hover {
+            background: #d97706;
+            box-shadow: 0 0 20px rgba(245, 158, 11, .3);
+        }
+
+        .action-btn.skip {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+        }
+
+        .action-btn.skip:hover {
+            border-color: var(--blue);
+            color: var(--blue);
+        }
+
+        .action-btn .kbd {
+            font-size: 10px;
+            padding: 1px 4px;
+            border-radius: 3px;
+            background: rgba(0, 0, 0, .2);
+            font-weight: 700;
+        }
+
+        .export-btn {
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--accent);
+            background: transparent;
+            color: var(--accent);
+            font-size: 11px;
+            font-weight: 600;
+            cursor: pointer;
+            font-family: inherit;
+            transition: all .2s;
+            width: 100%;
+        }
+
+        .export-btn:hover {
+            background: var(--accent);
+            color: white;
+        }
+
+        .empty-state {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: var(--text-muted);
+            gap: 12px;
+        }
+
+        .empty-state .icon {
+            font-size: 48px;
+            opacity: .5;
+        }
+
+        .empty-state .title {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .empty-state .desc {
+            font-size: 13px;
+            text-align: center;
+            max-width: 300px;
+        }
+
+        .toast {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            padding: 12px 20px;
+            border-radius: var(--radius-sm);
+            font-size: 13px;
+            font-weight: 500;
+            color: white;
+            z-index: 1000;
+            transform: translateY(100px);
+            opacity: 0;
+            transition: all .3s ease;
+            box-shadow: var(--shadow);
+        }
+
+        .toast.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        .toast.success {
+            background: var(--green);
+        }
+
+        .toast.warning {
+            background: var(--yellow);
+            color: #000;
+        }
+
+        .toast.info {
+            background: var(--blue);
+        }
+
+        /* ── Git Reminder Modal ── */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, .7);
+            backdrop-filter: blur(6px);
+            z-index: 2000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-overlay.hidden {
+            display: none;
+        }
+
+        .modal-box {
+            background: var(--bg-card);
+            border: 1px solid var(--accent);
+            border-radius: var(--radius);
+            padding: 32px;
+            max-width: 480px;
+            width: 90%;
+            box-shadow: 0 0 40px var(--accent-glow);
+            text-align: center;
+        }
+
+        .modal-box .modal-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+
+        .modal-box h2 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+        }
+
+        .modal-box p {
+            font-size: 13px;
+            line-height: 1.7;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+        }
+
+        .modal-box code {
+            display: inline-block;
+            background: var(--bg-input);
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            color: var(--accent);
+            font-family: monospace;
+        }
+
+        .modal-box .modal-warning {
+            margin: 16px 0;
+            padding: 12px;
+            border-radius: var(--radius-sm);
+            background: var(--yellow-bg);
+            border: 1px solid rgba(245, 158, 11, .3);
+            font-size: 12px;
+            color: var(--yellow);
+            font-weight: 500;
+        }
+
+        .modal-box .modal-btn {
+            margin-top: 16px;
+            padding: 12px 32px;
+            border-radius: var(--radius-sm);
+            border: none;
+            background: var(--accent);
+            color: white;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            font-family: inherit;
+            transition: all .2s;
+        }
+
+        .modal-box .modal-btn:hover {
+            background: #4f46e5;
+            box-shadow: 0 0 20px var(--accent-glow);
+        }
+
+        /* ── Reload Button ── */
+        .reload-btn {
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            border: 1px solid #22d3ee;
+            background: transparent;
+            color: #22d3ee;
+            font-size: 11px;
+            font-weight: 600;
+            cursor: pointer;
+            font-family: inherit;
+            transition: all .2s;
+            width: 100%;
+        }
+
+        .reload-btn:hover {
+            background: rgba(34, 211, 238, .1);
+            box-shadow: 0 0 12px rgba(34, 211, 238, .2);
+        }
+
+        .reload-btn.loading {
+            opacity: .6;
+            cursor: not-allowed;
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: .6;
+            }
+
+            50% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Git Pull Reminder Modal -->
+    <div class="modal-overlay" id="gitModal">
+        <div class="modal-box">
+            <div class="modal-icon">🔄</div>
+            <h2>Avant de commencer !</h2>
+            <p>Assurez-vous d'avoir récupéré les dernières modifications :</p>
+            <p><code>git pull</code></p>
+            <div class="modal-warning">
+                ⚠️ Si quelqu'un d'autre a travaillé avant vous, ses modifications seront perdues si vous ne faites pas
+                <code>git pull</code> d'abord !
+            </div>
+            <p style="font-size:11px; color:var(--text-muted)">Pensez aussi à <code>git push</code> quand vous terminez
+                votre session.</p>
+            <button class="modal-btn" onclick="dismissGitModal()">✅ C'est fait, je commence !</button>
+        </div>
+    </div>
+
+    <div class="app">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h1>🎧 Vérification Transcription</h1>
+                <div class="subtitle" id="sourceSubtitle">🤝 Mode Collaboratif — DGPC Béjaïa</div>
+            </div>
+            <div class="progress-section">
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="progressBar" style="width:0%"></div>
+                </div>
+                <div class="stats-row" id="statsRow">
+                    <span class="stat-badge verified">✅ <span id="statVerified">0</span></span>
+                    <span class="stat-badge corrected">✏️ <span id="statCorrected">0</span></span>
+                    <span class="stat-badge skipped">⏭️ <span id="statSkipped">0</span></span>
+                    <span class="stat-badge pending">⏳ <span id="statPending">0</span></span>
+                </div>
+            </div>
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all" onclick="setFilter('all')">Tous</button>
+                <button class="filter-btn" data-filter="pending" onclick="setFilter('pending')">À vérifier</button>
+                <button class="filter-btn" data-filter="verified" onclick="setFilter('verified')">✅</button>
+                <button class="filter-btn" data-filter="corrected" onclick="setFilter('corrected')">✏️</button>
+                <button class="filter-btn" data-filter="skipped" onclick="setFilter('skipped')">⏭️</button>
+            </div>
+            <div class="search-bar">
+                <input type="text" class="search-input" id="searchInput" placeholder="🔍 Rechercher un appel..."
+                    oninput="renderCallList()">
+            </div>
+            <div class="call-list" id="callList"></div>
+            <div
+                style="padding:12px 20px; border-top:1px solid var(--border); display:flex; flex-direction:column; gap:8px">
+                <button class="export-btn" onclick="exportCSV()">📥 Exporter CSV vérifié</button>
+                <button class="reload-btn" id="reloadBtn" onclick="reloadData()"
+                    title="À utiliser après git pull pour voir les nouvelles annotations de ta binôme">
+                    🔄 Recharger (après git pull)
+                </button>
+                <div id="reloadStatus" style="font-size:10px; color:var(--text-muted); text-align:center; display:none">
+                </div>
+            </div>
+        </div>
+
+        <!-- Main -->
+        <div class="main-content">
+            <div class="top-bar">
+                <div>
+                    <div class="call-title" id="callTitle">Sélectionner un appel</div>
+                </div>
+                <div class="call-meta" id="callMeta"></div>
+            </div>
+
+            <div class="content-scroll" id="contentScroll">
+                <div class="empty-state" id="emptyState">
+                    <div class="icon">📋</div>
+                    <div class="title">Aucun appel sélectionné</div>
+                    <div class="desc">Cliquez sur un appel dans la liste ou appuyez <b>→</b> pour commencer.</div>
+                </div>
+
+                <div id="callContent" style="display:none">
+                    <!-- Audio -->
+                    <div class="section">
+                        <h3>🎧 Audio</h3>
+                        <div id="audioContainer"></div>
+                    </div>
+
+                    <!-- Transcription -->
+                    <div class="section">
+                        <h3><span>📝 Transcription originale</span><span id="transcriptionCount"
+                                style="font-size:11px;color:var(--text-muted)"></span></h3>
+                        <div class="transcription-text" id="transcriptionText"></div>
+                    </div>
+
+                    <!-- Edit transcription -->
+                    <div class="section edit-section" id="editSection">
+                        <h3>✏️ Transcription corrigée</h3>
+                        <textarea class="edit-textarea" id="editTextarea"
+                            placeholder="Collez ou modifiez la transcription ici..."></textarea>
+                    </div>
+
+                    <!-- Editable Metadata -->
+                    <div class="section">
+                        <h3>📊 Paramètres & Attributs (modifiables)</h3>
+
+                        <!-- Row 1: Type d'incident + Intent + Urgence + Gravité -->
+                        <div class="meta-grid" id="metaRow1">
+                            <div class="field-group">
+                                <label>Type d'incident</label>
+                                <select id="meta_incident_type"></select>
+                            </div>
+                            <div class="field-group">
+                                <label>Intention appel</label>
+                                <select id="meta_intent"></select>
+                            </div>
+                            <div class="field-group">
+                                <label>Urgence (humain)</label>
+                                <select id="meta_urgency_human"></select>
+                            </div>
+                            <div class="field-group">
+                                <label>Gravité blessures</label>
+                                <select id="meta_injury_severity"></select>
+                            </div>
+                        </div>
+
+                        <hr class="meta-separator">
+
+                        <!-- Row 2: TriState flags + Victimes -->
+                        <div class="meta-grid row2">
+                            <div class="field-group">
+                                <label>🔥 Feu ?</label>
+                                <select id="meta_fire_present"></select>
+                            </div>
+                            <div class="field-group">
+                                <label>🚧 Coincés ?</label>
+                                <select id="meta_trapped_persons"></select>
+                            </div>
+                            <div class="field-group">
+                                <label>🔫 Armes ?</label>
+                                <select id="meta_weapons_involved"></select>
+                            </div>
+                            <div class="field-group">
+                                <label>☣️ Hazmat ?</label>
+                                <select id="meta_hazmat_involved"></select>
+                            </div>
+                            <div class="field-group">
+                                <label>Nb victimes</label>
+                                <input type="number" id="meta_victims_count" min="0" value="0">
+                            </div>
+                        </div>
+
+                        <hr class="meta-separator">
+
+                        <!-- Row 3: Localisation -->
+                        <div class="meta-grid row3">
+                            <div class="field-group">
+                                <label>Daïra</label>
+                                <select id="meta_daira"></select>
+                            </div>
+                            <div class="field-group">
+                                <label>Commune</label>
+                                <input type="text" id="meta_commune" placeholder="Commune...">
+                            </div>
+                            <div class="field-group">
+                                <label>Village / Localité</label>
+                                <input type="text" id="meta_lieu" placeholder="Lieu...">
+                            </div>
+                        </div>
+
+                        <hr class="meta-separator">
+
+                        <!-- Row 4: Description localisation -->
+                        <div class="meta-grid row4">
+                            <div class="field-group">
+                                <label>📍 Repères / Description itinéraire</label>
+                                <textarea id="meta_location_description"
+                                    placeholder="Repères verbatim de l'appelant..."></textarea>
+                            </div>
+                        </div>
+
+                        <hr class="meta-separator">
+
+                        <!-- Row 5: Summary + Notes -->
+                        <div class="meta-grid row5">
+                            <div class="field-group">
+                                <label>📝 Résumé (français)</label>
+                                <textarea id="meta_summary" placeholder="Résumé court de l'appel..."></textarea>
+                            </div>
+                            <div class="field-group">
+                                <label>🧠 Raisonnement (Chain-of-Thought)</label>
+                                <textarea id="meta_notes_cot" placeholder="Notes et raisonnement..."></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Bar -->
+            <div class="action-bar">
+                <div class="action-nav">
+                    <button class="nav-btn" onclick="navPrev()">← Précédent</button>
+                    <button class="nav-btn" onclick="navNext()">Suivant →</button>
+                    <button class="nav-btn" onclick="goToNextPending()">⏭ Prochain à vérifier</button>
+                </div>
+                <div class="action-buttons">
+                    <button class="action-btn skip" onclick="doAction('skipped')">⏭️ Passer <span
+                            class="kbd">S</span></button>
+                    <button class="action-btn correct" onclick="toggleEdit()">✏️ Corriger <span
+                            class="kbd">C</span></button>
+                    <button class="action-btn verify" onclick="doAction('verified')">✅ Vérifier <span
+                            class="kbd">V</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <script>
+        // ── State ──
+        let allCalls = [];
+        let ontology = {};
+        let currentFilter = 'all';
+        let currentCallId = null;
+        let currentCall = null;
+        let editMode = false;
+
+        // ── Init ──
+        async function init() {
+            await loadOntology();
+            await loadCalls();
+            await loadStats();
+            renderCallList();
+            const firstPending = allCalls.find(c => c.status === 'pending');
+            if (firstPending) selectCall(firstPending.id);
+        }
+
+        async function loadOntology() {
+            const res = await fetch('/api/ontology');
+            ontology = await res.json();
+            // Populate dropdowns once
+            populateSelect('meta_incident_type', ontology.incident_type);
+            populateSelect('meta_injury_severity', ontology.severity);
+            populateSelect('meta_urgency_human', ontology.urgency);
+            populateSelect('meta_intent', ontology.intent);
+            populateSelect('meta_fire_present', ontology.tristate);
+            populateSelect('meta_trapped_persons', ontology.tristate);
+            populateSelect('meta_weapons_involved', ontology.tristate);
+            populateSelect('meta_hazmat_involved', ontology.tristate);
+            // Dairas
+            const dairaSelect = document.getElementById('meta_daira');
+            dairaSelect.innerHTML = ontology.dairas.map(d =>
+                `<option value="${d}">${d}</option>`
+            ).join('');
+        }
+
+        function populateSelect(id, optionsMap) {
+            const el = document.getElementById(id);
+            el.innerHTML = Object.entries(optionsMap).map(([label, value]) =>
+                `<option value="${value}">${label}</option>`
+            ).join('');
+        }
+
+        function setSelectByValue(id, value) {
+            const el = document.getElementById(id);
+            if (!el) return;
+            for (let i = 0; i < el.options.length; i++) {
+                if (el.options[i].value === value) { el.selectedIndex = i; return; }
+            }
+            el.selectedIndex = 0;
+        }
+
+        async function loadCalls() {
+            const res = await fetch('/api/calls');
+            allCalls = await res.json();
+        }
+
+        async function loadStats() {
+            const res = await fetch('/api/stats');
+            const s = await res.json();
+            document.getElementById('statVerified').textContent = s.verified;
+            document.getElementById('statCorrected').textContent = s.corrected;
+            document.getElementById('statSkipped').textContent = s.skipped;
+            document.getElementById('statPending').textContent = s.pending;
+            const done = s.verified + s.corrected + s.skipped;
+            const pct = s.total > 0 ? (done / s.total * 100) : 0;
+            document.getElementById('progressBar').style.width = pct.toFixed(1) + '%';
+        }
+
+        // ── Render Call List ──
+        function renderCallList() {
+            const search = document.getElementById('searchInput').value.toLowerCase();
+            const list = document.getElementById('callList');
+            let filtered = allCalls;
+            if (currentFilter !== 'all') filtered = filtered.filter(c => c.status === currentFilter);
+            if (search) filtered = filtered.filter(c =>
+                c.file.toLowerCase().includes(search) || c.incident_type.toLowerCase().includes(search) || c.id.toLowerCase().includes(search)
+            );
+            list.innerHTML = filtered.map(c => `
+    <div class="call-item ${c.id === currentCallId ? 'active' : ''}" onclick="selectCall('${c.id}')" data-id="${c.id}">
+      <div class="status-dot ${c.status}"></div>
+      <div class="call-info">
+        <div class="call-name">${c.file}</div>
+        <div class="call-type">${c.incident_type || 'N/A'}</div>
+      </div>
+      ${!c.audio_exists ? '<span class="no-audio">no audio</span>' : ''}
+    </div>
+  `).join('');
+        }
+
+        function setFilter(f) {
+            currentFilter = f;
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('active', b.dataset.filter === f));
+            renderCallList();
+        }
+
+        // ── Select Call ──
+        async function selectCall(id) {
+            currentCallId = id;
+            editMode = false;
+            document.getElementById('editSection').classList.remove('visible');
+
+            const res = await fetch(`/api/call/${encodeURIComponent(id)}`);
+            currentCall = await res.json();
+
+            document.querySelectorAll('.call-item').forEach(el => el.classList.toggle('active', el.dataset.id === id));
+            const activeItem = document.querySelector('.call-item.active');
+            if (activeItem) activeItem.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+
+            document.getElementById('emptyState').style.display = 'none';
+            document.getElementById('callContent').style.display = 'block';
+            document.getElementById('callTitle').textContent = currentCall.file;
+
+            // Meta tags
+            const meta = document.getElementById('callMeta');
+            const statusLabel = { verified: '✅ Vérifié', corrected: '✏️ Corrigé', skipped: '⏭️ Passé', pending: '⏳ En attente' };
+            meta.innerHTML = `<span class="meta-tag type">${currentCall.incident_type || 'N/A'}</span>` +
+                `<span class="meta-tag">${statusLabel[currentCall.status] || currentCall.status}</span>`;
+
+            // Audio
+            const audioContainer = document.getElementById('audioContainer');
+            if (currentCall.audio_exists) {
+                audioContainer.innerHTML = `<div class="audio-player-wrapper">
+      <audio id="audioPlayer" controls preload="auto" src="/audio/${encodeURIComponent(currentCall.file)}"></audio>
+      <div class="speed-controls">
+        <button class="speed-btn" onclick="setSpeed(0.5)">0.5×</button>
+        <button class="speed-btn active" onclick="setSpeed(1)">1×</button>
+        <button class="speed-btn" onclick="setSpeed(1.5)">1.5×</button>
+        <button class="speed-btn" onclick="setSpeed(2)">2×</button>
+      </div></div>`;
+            } else {
+                audioContainer.innerHTML = `<div class="no-audio-msg">🔇 Audio non trouvé : <b>${currentCall.file}</b><br><small>Déposez dans <code>verification_tool/audio/</code></small></div>`;
+            }
+
+            // Transcription
+            const trans = currentCall.transcription || '';
+            document.getElementById('transcriptionCount').textContent = `${trans.length} caractères`;
+            document.getElementById('transcriptionText').innerHTML = highlightSpeakers(trans);
+            document.getElementById('editTextarea').value = currentCall.corrected_transcription || trans;
+
+            // Populate metadata fields from call data (or saved overrides)
+            setSelectByValue('meta_incident_type', currentCall.incident_type || 'unknown');
+            setSelectByValue('meta_intent', currentCall.intent || 'report_incident');
+            setSelectByValue('meta_urgency_human', currentCall.urgency_human || 'unknown');
+            setSelectByValue('meta_injury_severity', currentCall.injury_severity || 'unknown');
+            setSelectByValue('meta_fire_present', currentCall.fire_present || 'unknown');
+            setSelectByValue('meta_trapped_persons', currentCall.trapped_persons || 'unknown');
+            setSelectByValue('meta_weapons_involved', currentCall.weapons_involved || 'unknown');
+            setSelectByValue('meta_hazmat_involved', currentCall.hazmat_involved || 'unknown');
+            document.getElementById('meta_victims_count').value = currentCall.victims_count || 0;
+            document.getElementById('meta_daira').value = currentCall.daira || 'Inconnu';
+            document.getElementById('meta_commune').value = currentCall.commune || '';
+            document.getElementById('meta_lieu').value = currentCall.lieu || '';
+            document.getElementById('meta_location_description').value = currentCall.location_description || '';
+            document.getElementById('meta_summary').value = currentCall.summary || '';
+            document.getElementById('meta_notes_cot').value = currentCall.notes_cot || '';
+
+            if (currentCall.status === 'corrected') {
+                editMode = true;
+                document.getElementById('editSection').classList.add('visible');
+            }
+            document.getElementById('contentScroll').scrollTop = 0;
+        }
+
+        function highlightSpeakers(text) {
+            return text.replace(/Operator\s*:/g, '<span class="operator">Operator:</span>')
+                .replace(/Caller\s*:/g, '<span class="caller">Caller:</span>')
+                .replace(/\n/g, '<br>');
+        }
+
+        function setSpeed(speed) {
+            const audio = document.getElementById('audioPlayer');
+            if (audio) audio.playbackRate = speed;
+            document.querySelectorAll('.speed-btn').forEach(b => b.classList.toggle('active', b.textContent.trim() === speed + '×'));
+        }
+
+        // ── Collect current metadata from form ──
+        function collectMetadata() {
+            return {
+                incident_type: document.getElementById('meta_incident_type').value,
+                intent: document.getElementById('meta_intent').value,
+                urgency_human: document.getElementById('meta_urgency_human').value,
+                injury_severity: document.getElementById('meta_injury_severity').value,
+                fire_present: document.getElementById('meta_fire_present').value,
+                trapped_persons: document.getElementById('meta_trapped_persons').value,
+                weapons_involved: document.getElementById('meta_weapons_involved').value,
+                hazmat_involved: document.getElementById('meta_hazmat_involved').value,
+                victims_count: document.getElementById('meta_victims_count').value || '',
+                daira: document.getElementById('meta_daira').value,
+                commune: document.getElementById('meta_commune').value,
+                lieu: document.getElementById('meta_lieu').value,
+                location_description: document.getElementById('meta_location_description').value,
+                summary: document.getElementById('meta_summary').value,
+                notes_cot: document.getElementById('meta_notes_cot').value,
+            };
+        }
+
+        // ── Actions ──
+        function toggleEdit() {
+            editMode = !editMode;
+            document.getElementById('editSection').classList.toggle('visible', editMode);
+            if (editMode) document.getElementById('editTextarea').focus();
+        }
+
+        async function doAction(action) {
+            if (!currentCallId) return;
+
+            let corrected = '';
+            const orig = currentCall.transcription || '';
+            const edited = document.getElementById('editTextarea').value;
+            if (editMode && edited !== orig) {
+                action = 'corrected';
+                corrected = edited;
+            }
+
+            const metadata = collectMetadata();
+
+            const res = await fetch(`/api/call/${encodeURIComponent(currentCallId)}/action`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ action, corrected_transcription: corrected, metadata }),
+            });
+
+            const call = allCalls.find(c => c.id === currentCallId);
+            if (call) call.status = action;
+
+            const msgs = { verified: '✅ Vérifié !', corrected: '✏️ Corrigé !', skipped: '⏭️ Passé' };
+            const types = { verified: 'success', corrected: 'warning', skipped: 'info' };
+            showToast(msgs[action], types[action]);
+
+            await loadStats();
+            renderCallList();
+            goToNextPending();
+        }
+
+        function goToNextPending() {
+            if (!currentCallId) { const f = allCalls.find(c => c.status === 'pending'); if (f) selectCall(f.id); return; }
+            const idx = allCalls.findIndex(c => c.id === currentCallId);
+            for (let i = idx + 1; i < allCalls.length; i++) { if (allCalls[i].status === 'pending') { selectCall(allCalls[i].id); return; } }
+            for (let i = 0; i < idx; i++) { if (allCalls[i].status === 'pending') { selectCall(allCalls[i].id); return; } }
+            showToast('🎉 Tout est vérifié !', 'success');
+        }
+
+        function navPrev() { if (!currentCallId) return; const i = allCalls.findIndex(c => c.id === currentCallId); if (i > 0) selectCall(allCalls[i - 1].id); }
+        function navNext() { if (!currentCallId) return; const i = allCalls.findIndex(c => c.id === currentCallId); if (i < allCalls.length - 1) selectCall(allCalls[i + 1].id); }
+
+        function showToast(msg, type = 'info') {
+            const t = document.getElementById('toast'); t.textContent = msg;
+            t.className = `toast ${type} show`;
+            setTimeout(() => t.classList.remove('show'), 2500);
+        }
+
+        function exportCSV() { window.location.href = '/api/export'; showToast('📥 Export en cours...', 'info'); }
+
+        // ── Reload after git pull ──
+        async function reloadData() {
+            const btn = document.getElementById('reloadBtn');
+            const statusDiv = document.getElementById('reloadStatus');
+            btn.classList.add('loading');
+            btn.textContent = '⏳ Rechargement...';
+            btn.disabled = true;
+            statusDiv.style.display = 'none';
+
+            try {
+                const res = await fetch('/api/reload', { method: 'POST' });
+                const data = await res.json();
+
+                // Reload all calls and stats
+                await loadCalls();
+                await loadStats();
+                renderCallList();
+
+                // Update subtitle with source info
+                const srcRes = await fetch('/api/sources');
+                const srcData = await srcRes.json();
+                const activeSources = srcData.csv_sources.filter(s => s.exists).map(s => s.name);
+                document.getElementById('sourceSubtitle').textContent =
+                    `🤝 ${activeSources.join(' + ')} (${data.total} appels)`;
+
+                statusDiv.textContent = `✅ ${data.total} appels chargés`;
+                statusDiv.style.color = 'var(--green)';
+                statusDiv.style.display = 'block';
+                showToast(`🔄 ${data.message}`, 'success');
+            } catch (err) {
+                statusDiv.textContent = '❌ Erreur de rechargement';
+                statusDiv.style.color = 'var(--red)';
+                statusDiv.style.display = 'block';
+                showToast('❌ Erreur lors du rechargement', 'info');
+            } finally {
+                btn.classList.remove('loading');
+                btn.textContent = '🔄 Recharger (après git pull)';
+                btn.disabled = false;
+                setTimeout(() => { statusDiv.style.display = 'none'; }, 4000);
+            }
+        }
+
+        // ── Keyboard shortcuts ──
+        document.addEventListener('keydown', (e) => {
+            if (e.target.tagName === 'TEXTAREA' || e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
+            switch (e.key.toLowerCase()) {
+                case 'v': doAction('verified'); break;
+                case 'c': toggleEdit(); break;
+                case 's': doAction('skipped'); break;
+                case 'arrowleft': navPrev(); break;
+                case 'arrowright': navNext(); break;
+                case ' ':
+                    e.preventDefault();
+                    const a = document.getElementById('audioPlayer');
+                    if (a) a.paused ? a.play() : a.pause();
+                    break;
+            }
+        });
+
+        // ── Git reminder modal ──
+        function dismissGitModal() {
+            document.getElementById('gitModal').classList.add('hidden');
+            sessionStorage.setItem('gitModalDismissed', '1');
+        }
+        // Show modal only once per browser session
+        if (sessionStorage.getItem('gitModalDismissed')) {
+            document.getElementById('gitModal').classList.add('hidden');
+        }
+
+        // ── Git push reminder on leaving ──
+        let actionCount = 0;
+        const origDoAction = doAction;
+        doAction = async function (action) {
+            await origDoAction(action);
+            actionCount++;
+        };
+        window.addEventListener('beforeunload', (e) => {
+            if (actionCount > 0) {
+                const msg = '⚠️ N\'oubliez pas : git add -A && git commit -m "session" && git push';
+                e.returnValue = msg;
+                return msg;
+            }
+        });
+
+        init();
+    </script>
+</body>
+
+</html>

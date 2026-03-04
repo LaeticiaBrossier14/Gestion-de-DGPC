@@ -1,0 +1,20 @@
+      12  Concurrent _251104_180850.txt
+      26  Création d’Emplois_251104_212001.txt
+      26  Data center algérien _251104_203242.txt
+      20  Données de ventes de pharmacies →_251104_193059.txt
+     398  General_251104_205533.txt
+      24  Kantar et Nielsen_251104_192526.txt
+      84  Notes_251104_213229.txt
+       6  Poc_251104_180629.txt
+      60  Positionnement Stratégique  entre Politique Publi_251104_214252.txt
+      18  Présentation de la Startup_251104_180739.txt
+      46  Valorisation_251104_191854.txt
+      20  comment avoir ce étudiant-entrepreneur_251104_180543.txt
+       8  document est la vision stratégique d’une  startup _251104_180716.txt
+      22  données touristiques_251104_192641.txt
+   37847  general.txt
+   33631  grn.txt
+      56  les acteurs internationaux_251104_203211.txt
+      28  l’agriculture intelligente _251104_192734.txt
+   20801  tresimportqntequilibredata.txt
+    7474  useragsentitia.txt

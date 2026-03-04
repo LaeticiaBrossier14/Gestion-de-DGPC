@@ -1,0 +1,260 @@
+# =============================================================
+# Béjaïa Geography — Real locations from 97 emergency calls
+# =============================================================
+# Distribution from real data:
+#   Béjaïa city: 53 calls (55%)
+#   El Kseur:     8 calls (8%)
+#   Sidi Aïch:    6 calls (6%)
+#   Seddouk:      5 calls (5%)
+#   Kherrata:     4 calls
+#   Oued Ghir:    4 calls
+#   Souk El Tenine: 3 calls
+#   Amizour:      3 calls
+#   remaining:    11 calls across 5 other communes
+
+dairas:
+  - name: "Béjaïa"
+    weight: 55
+    communes:
+      - name: "Béjaïa"
+        weight: 50
+        lieux:
+          - "Ighzer Ouzarif"
+          - "Sidi Ali Labhar"
+          - "Ihaddaden"
+          - "Cité Monja"
+          - "Cité Djamaa"
+          - "Cité CNS, Sidi Ahmed"
+          - "Cité Tobbal"
+          - "Aboudaou"
+          - "Quatre Chemins"
+          - "l'qouds"
+          - "Sadda"
+          - "Berqouqi"
+          - "Bordj"
+          - "Boulimat"
+          - "Cité Aadl"
+          - "Tala Merkha"
+          - "Sidi Ahmed"
+          - "Résidence Soummam"
+          - "l'Edimco"
+          - "Cité Tobbal"
+          - "Nacéria"
+        reperes:
+          - "zdat la poste"
+          - "hedha l'mairie"
+          - "souf l'pont"
+          - "la gare routière"
+          - "l'terminus"
+          - "l'université"
+          - "l'hôpital Frantz Fanon"
+          - "la mosquée"
+          - "l'lycée"
+          - "l'CEM"
+          - "l'APC"
+          - "l'école"
+          - "le stade"
+      - name: "Oued Ghir"
+        weight: 5
+        lieux:
+          - "Hlil"
+          - "Akendound"
+          - "Tala Hamza"
+        reperes:
+          - "la salle des fêtes"
+          - "les citernes galvanisées"
+
+  - name: "El Kseur"
+    weight: 8
+    communes:
+      - name: "El Kseur"
+        weight: 8
+        lieux:
+          - "Berqouqi"
+          - "Route Nationale 12"
+          - "Ighil Azzoug"
+        reperes:
+          - "la gendarmerie"
+          - "l'brigade"
+          - "la poste"
+
+  - name: "Sidi Aïch"
+    weight: 6
+    communes:
+      - name: "Sidi Aïch"
+        weight: 6
+        lieux:
+          - "Centre-ville"
+          - "l'Hôpital"
+          - "El 3anasseur"
+        reperes:
+          - "la gare"
+          - "l'APC"
+          - "le marché"
+
+  - name: "Seddouk"
+    weight: 5
+    communes:
+      - name: "Seddouk"
+        weight: 5
+        lieux:
+          - "Centre-ville"
+          - "Cafétéria Hidra"
+          - "Imoula"
+        reperes:
+          - "l'APC"
+
+  - name: "Kherrata"
+    weight: 4
+    communes:
+      - name: "Kherrata"
+        weight: 4
+        lieux:
+          - "Centre-ville"
+          - "Dra3 el Gaid"
+          - "Cascades de Kefrida"
+        reperes:
+          - "la brigade de gendarmerie"
+          - "la mairie"
+
+  - name: "Akbou"
+    weight: 4
+    communes:
+      - name: "Akbou"
+        weight: 3
+        lieux:
+          - "Zone industrielle"
+          - "Centre-ville"
+          - "Ferme Aïssou"
+        reperes:
+          - "l'usine"
+          - "la poste"
+      - name: "Chemini"
+        weight: 1
+        lieux:
+          - "Centre-village"
+
+  - name: "Souk El Tenine"
+    weight: 3
+    communes:
+      - name: "Souk El Tenine"
+        weight: 3
+        lieux:
+          - "Centre-ville"
+          - "l'mir postal"
+        reperes:
+          - "la poste"
+          - "la mairie"
+
+  - name: "Amizour"
+    weight: 3
+    communes:
+      - name: "Amizour"
+        weight: 3
+        lieux:
+          - "Centre-ville"
+          - "Oued Amizour"
+          - "Helouane"
+          - "Boujlil"
+        reperes:
+          - "le barrage"
+          - "l'APC"
+
+  - name: "Tichy"
+    weight: 2
+    communes:
+      - name: "Tichy"
+        weight: 2
+        lieux:
+          - "Chorchour"
+          - "Centre-ville"
+          - "l'plage"
+        reperes:
+          - "la mosquée"
+          - "la corniche"
+
+  - name: "Darguina"
+    weight: 1
+    communes:
+      - name: "Darguina"
+        weight: 1
+        lieux:
+          - "Centre-ville"
+        reperes:
+          - "la daïra"
+
+  - name: "Aokas"
+    weight: 1
+    communes:
+      - name: "Aokas"
+        weight: 1
+        lieux:
+          - "Centre-ville"
+          - "Les grottes féeriques"
+          - "l'plage"
+        reperes:
+          - "la nationale"
+          - "l'entrée du village"
+
+  - name: "Toudja"
+    weight: 1
+    communes:
+      - name: "Toudja"
+        weight: 1
+        lieux:
+          - "Centre-village"
+          - "Les cascades"
+          - "Aïn Mziab"
+        reperes:
+          - "la source"
+
+# ----------------------------------------------------------
+# HOUSING TYPES  (frequently mentioned in calls)
+# ----------------------------------------------------------
+housing_types:
+  - pattern: "{n} logements"
+    examples: ["140 logements", "1000 logements", "2550 logements", "3200 logements", "600 logements"]
+  - pattern: "cité {name}"
+    examples: ["cité Djamaa", "cité Monja", "cité CNS", "cité AADL", "cité Tobbal"]
+  - pattern: "l'social"
+    note: "logement social — very frequentin Béjaïa"
+  - pattern: "l'résidence {name}"
+    examples: ["l'résidence Soummam", "l'résidence Belkour"]
+
+# ----------------------------------------------------------
+# WATER BODIES  (for drowning scenarios)
+# ----------------------------------------------------------
+water_bodies:
+  rivers:
+    - name: "Oued Soummam"
+      kabyle_name: "asif n Soummam"
+      location: "traverse Béjaïa et Akbou"
+    - name: "Oued Amizour"
+      kabyle_name: "asif n Amizour"
+      location: "Amizour"
+    - name: "Oued Ghir"
+      kabyle_name: "asif n Waghir"
+      location: "Oued Ghir"
+  beaches:
+    - name: "Plage Boulimat"
+      kabyle_name: "l'plage n Boulimat"
+    - name: "Plage Tichy"
+      kabyle_name: "l'plage n Tichy"
+    - name: "Plage Aokas"
+      kabyle_name: "l'plage n Aokas"
+    - name: "Plage Saket"
+      kabyle_name: "l'plage n Saket"
+  dams:
+    - name: "Barrage Tichy Haf"
+      location: "Toudja"
+
+# ----------------------------------------------------------
+# PHONE NUMBERS  (real patterns from calls)
+# ----------------------------------------------------------
+phone_patterns:
+  bejaia_prefix: "034"
+  oued_ghir: "030 16 92 92"
+  el_kseur: "034 82 35 65"
+  souk_el_tenine: "034 09 36 13"
+  kherrata: "034 18 51 21"
+  note: "Operators often redirect callers to local unit numbers"

@@ -1,0 +1,3049 @@
+--- PAGE 1 ---
+R´epublique Alg´erienne D´emocratique et Populaire
+Universit´e A. MIRA de B´ejaia
+Facult´e des Sciences Exactes
+D´epartement de Recherche Op´erationnelle
+M´emoire pr´esent´e pour l’obtention du diplˆome de master
+Sp´ecialit´e : Sciences de Donn´ees et Aide `a la D´ecision
+Cr´eation et impl´ementation d’un data-set en Tamazight sur
+une plateforme de reconnaissance vocale
+Pr´esent´e par :
+ADRAR Lisa
+SAADI Narimane
+Sous la direction de : Dr. A.ZAIDI et Dr. L Asli
+D´efendu le 02/07/2024, devant le jury compos´e de :
+Mr.K. ABBAS
+Professeur
+Pr´esident de jury
+UAMB - Bejaia.
+Mr.M.AZZI
+M.C.B
+Examinateur
+UAMB - Bejaia
+Mr.M.M’HAMEDI M.C.A
+Examinateur
+UAMB - Bejaia.
+Ann´ee Universitaire 2023 −2024
+
+--- PAGE 2 ---
+Remerciements
+Louange au bon Dieu le mis´ericordieux
+On tient `a remercier M.ZAIDI.A autant que encadreur pour son acceuil chaleureux au ni-
+veau de Centre de Recherche de la langue et la culture Amazighe, ses conseils et son aide tout
+au long de ce travail.
+On remercie ´egalement M.ASLI.L autant que co-encadreur de ce m´emoire pour son encou-
+ragement et son aide pr´ecieux Malgr´e ses multiples activit´es et missions.
+On remercie infiniment les membres de jury pour leur temps,leur pr´esence et pour leur
+lecture attentive pour notre travail.
+On tient `a adresser nos remerciements pour nos parents, nos fr`eres et nos soeurs pour leurs
+soutiens et encouragements.
+Nos remerciements `a tous nos ami(es) et camarades et toutes personne qui nous a aid´e.
+Nos remerciements `a tous les enseignants durant tout nos parcours du primaire `a l’universit´e.
+
+--- PAGE 3 ---
+D´edicace
+`A mes chers parents,
+Les gardiens de mon cœur, merci pour votre amour inconditionnel et votre soutien constant.
+Vous m’avez inculqu´e des valeurs essentielles et m’avez toujours encourag´e `a poursuivre mes
+rˆeves.
+Sans vous, ce travail n’aurait pas ´et´e possible.
+`A ma soeur chanez
+Pour ta croyance en moi. Ton amour inconditionnel, ton aide pr´ecieuse et ton encouragement
+constant ont ´et´e d’un soutien inestimable tout au long de ce parcours.
+`A toi, qui m’as montr´e l’amour, la force et la douceur.
+`A mon fr´ere hani
+Pour ta pr´esence constante `a mes cˆot´es et ton amour sinc`ere.Merci pour tes encouragements
+et pour croire en moi mˆeme quand j’avais des doutes.
+`A ma ch`ere famille et mes ch`eres cousines,
+Merci pour les moments de joie partag´es, pour votre aide pr´ecieuse et pour ˆetre une source
+constante de motivation et de bonheur.
+`A mes chers binˆomes de stage du Centre de Recherche de Tamazight,
+Ce m´emoire est le fruit de notre travail acharn´e, de notre collaboration et de notre d´evouement.
+Ensemble, nous avons surmont´e les d´efis et c´el´ebr´e les r´eussites.
+`A mes camarde et mes amis
+Je vous remercie pour votre patience et pour m’avoir aid´e `a avancer. Vous ˆetes tous pour moi
+comme une seconde famille.
+Merci d’ˆetre toujours pr`es de moi dans mes joies et mes peines.
+L.ADRAR
+
+--- PAGE 4 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+D´edicace
+Je d´edie cet humble et modeste travail avec grand amour,sinc´erit´e et fiert´e :
+`A mes chers parents, source de tendresse et noblesse, puisse cet ´etape constituer pour vous un
+motif de satisfaction.
+`A mes chers fr´eres et soeurs source de joie, bonheur et motivation.
+`A tout les membres de ma famille.
+`A tout mes amis, tout mes professeurs.
+Et `a vous chers lectures.
+N.SAADI
+
+--- PAGE 5 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+Table des mati`eres
+Remerciements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+I
+D´edicace . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+II
+D´edicace . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+III
+Liste des figures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . VIII
+Liste d’abriviations et notation . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+X
+Introduction g´en´erale
+1
+1
+Concepts sur la Reconnaissance automatique de la parole
+3
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+1.1
+Intelligence artificielle
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+1.1.1
+D´efinition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+1.2
+Machine learning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+1.2.1
+Type de machine learning
+. . . . . . . . . . . . . . . . . . . . . . . .
+4
+1.3
+Deep learning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+1.3.1
+D´efinition et fonctionnement . . . . . . . . . . . . . . . . . . . . . . .
+6
+1.3.2
+Applications du DL . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+1.3.3
+Distinction entre IA,ML et DL . . . . . . . . . . . . . . . . . . . . . .
+7
+1.4
+Traitement automatique du langage naturel
+. . . . . . . . . . . . . . . . . . .
+8
+1.4.1
+C’est quoi le traitement automatique du langage naturel (TALN) . . . .
+8
+1.4.2
+Les cas d’utilisation du TALN . . . . . . . . . . . . . . . . . . . . . .
+9
+1.5
+Reconnaissance automatique de la parole . . . . . . . . . . . . . . . . . . . .
+11
+1.5.1
+Historique . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+1.5.2
+Type de reconnaissance vocale
+. . . . . . . . . . . . . . . . . . . . .
+12
+1.5.3
+Probl`emes li´es `a la reconnaissance vocale . . . . . . . . . . . . . . . .
+13
+1.5.4
+Travaux d´ej`a r´ealis´es . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+1.6
+Syst`eme de la reconnaissance vocale . . . . . . . . . . . . . . . . . . . . . . .
+15
+1.6.1
+Analyse de signal . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+1.6.2
+Mod`ele de langage . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+1.6.3
+Mod`ele de prononciation
+. . . . . . . . . . . . . . . . . . . . . . . .
+18
+1.6.4
+Mod`ele acoustique . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+1.7
+Processus de reconnaissance vocale
+. . . . . . . . . . . . . . . . . . . . . . .
+20
+1.7.1
+Algorithme de D´ecodage . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+1.7.2
+´Evaluation de performance . . . . . . . . . . . . . . . . . . . . . . . .
+21
+1.7.3
+Mesure de confiance . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Conclusion
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+
+--- PAGE 6 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+TABLE DES MATI`ERES
+V
+2
+La langue Amazighe
+23
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+2.1
+Language et parole . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+2.2
+Phon´etique et phonologie . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+2.3
+Tamazight D´efinitions et G´eographie . . . . . . . . . . . . . . . . . . . . . . .
+24
+2.4
+Historique . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+2.5
+Les variantes de langue Amazighe . . . . . . . . . . . . . . . . . . . . . . . .
+26
+2.6
+Kabyle . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+2.7
+Ecriture la langue Kabyle
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+2.7.1
+Syst`eme phonologique . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+2.7.2
+Syst`eme vocalique . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+2.7.3
+Syst`eme consonantique . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+2.8
+ASR appliqu´e dans la langue Amazighe . . . . . . . . . . . . . . . . . . . . .
+29
+2.8.1
+D´efis rencontr´es
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+2.8.2
+Travaux r´ealis´es
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+2.8.3
+Contribution de ASR au d´eveloppement de la langue Amazighe . . . .
+30
+2.9
+Historique et statut
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+2.10 Organigrame dentreprise :
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+33
+Conclusion
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+34
+3
+Collecte et traitement des donn´ees
+35
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+3.1
+´Echantillonnage et Corpus
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+3.1.1
+´Echantillonnage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+3.1.2
+Types de l’´echantillonnage . . . . . . . . . . . . . . . . . . . . . . . .
+35
+3.1.3
+corpus . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+36
+3.1.4
+Types d’un corpus
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+36
+3.1.5
+´El´ements d’un corpus . . . . . . . . . . . . . . . . . . . . . . . . . . .
+36
+3.2
+Processus de collecte des donn´ees
+. . . . . . . . . . . . . . . . . . . . . . . .
+37
+3.2.1
+Pr´eparation des phon`emes et des phrases
+. . . . . . . . . . . . . . . .
+37
+3.2.2
+Les param`etre et r´eglage . . . . . . . . . . . . . . . . . . . . . . . . .
+37
+3.2.3
+Choix des ´equipements et du terrain . . . . . . . . . . . . . . . . . . .
+39
+3.2.4
+Enregistrement vocale avec dictaphone
+. . . . . . . . . . . . . . . . .
+39
+3.2.5
+constitution de base de donn´ees
+. . . . . . . . . . . . . . . . . . . . .
+40
+3.2.6
+Enregistrement sur la base de donn´ees . . . . . . . . . . . . . . . . . .
+41
+3.3
+Pr´etraitement des donn´ees
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+3.3.1
+Pr´etraitement (Segmentation)
+. . . . . . . . . . . . . . . . . . . . . .
+41
+3.3.2
+´Etiquetage et cr´eation d’un fichier csv . . . . . . . . . . . . . . . . . .
+44
+Conclusion
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+45
+4
+R´ealisation d’un syst`eme de reconnaissance de la parole
+46
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+46
+4.1
+Plateformes de reconnaissance vocale
+. . . . . . . . . . . . . . . . . . . . . .
+47
+4.2
+La plateforme kaldi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+4.2.1
+Sphinx
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+4.2.2
+HTK
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+
+--- PAGE 7 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+TABLE DES MATI`ERES
+VI
+4.2.3
+Simon . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+4.2.4
+Matlab
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+48
+4.2.5
+VoxForge . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+48
+4.2.6
+Pourquoi kaldi
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+48
+4.2.7
+Installation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+48
+4.2.8
+Fonctionnement g´en´eral de Kaldi
+. . . . . . . . . . . . . . . . . . . .
+49
+4.2.9
+Utilisations courantes
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+50
+4.2.10 Structure de la plateforme Kaldi . . . . . . . . . . . . . . . . . . . . .
+50
+4.3
+Processus de r´ealisation d’un ASR avec Kaldi . . . . . . . . . . . . . . . . . .
+51
+4.3.1
+Pr´eparation des donn´ees . . . . . . . . . . . . . . . . . . . . . . . . .
+51
+4.3.2
+Extraction des caract´eristiques . . . . . . . . . . . . . . . . . . . . . .
+51
+4.3.3
+Mod`ele acoustique . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+51
+4.3.4
+Mod`ele de langage . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+52
+4.3.5
+D´ecodeur . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+53
+4.3.6
+´Evaluation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+53
+4.4
+Application sur notre base de donn´ees . . . . . . . . . . . . . . . . . . . . . .
+53
+4.4.1
+Nettoyage des donn´ees . . . . . . . . . . . . . . . . . . . . . . . . . .
+53
+4.4.2
+Pr´eparation des donn´ees . . . . . . . . . . . . . . . . . . . . . . . . .
+54
+4.4.3
+Extraction des caract´eristiques . . . . . . . . . . . . . . . . . . . . . .
+56
+4.4.4
+Cr´eation de Mod`ele acoustique . . . . . . . . . . . . . . . . . . . . . .
+57
+4.4.5
+Cr´eation de Mod`ele de language . . . . . . . . . . . . . . . . . . . . .
+61
+4.4.6
+D´ecodage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+61
+4.4.7
+´Evaluation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+61
+Conclusion
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+62
+Conclusion g´en´erale
+63
+Bibliographie
+67
+Annexes
+67
+R´esum´e
+68
+
+--- PAGE 8 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+Table des figures
+1.1
+Types de ML et ses domaines d’utilisations
+. . . . . . . . . . . . . . . . . . .
+5
+1.2
+Distinction entre IA,ML et DL . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+1.3
+Les techniques de traitement automatique du langage naturel utiliser . . . . . .
+9
+1.4
+autres cas d’usage plus ou moins ´elabor´e
+. . . . . . . . . . . . . . . . . . . .
+10
+1.5
+Classification d’un ASR [31]. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+1.6
+Analyse MFCC . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+1.7
+Architecture de CNN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+1.8
+Architecture de RNN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+1.9
+Mod`eles de langage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+2.1
+Langue,Language et Parole . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+2.2
+Carte de la langue Berb`ere . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+2.3
+Syst`eme phonologique
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+2.4
+Triangle vocalique
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+2.5
+Organigrame dentreprise. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+33
+3.1
+statistiques des femmmes et homme dans notre base de donn´ees. . . . . . . . .
+38
+3.2
+statistiques des villes dans notre base de donn´ees. . . . . . . . . . . . . . . . .
+38
+3.3
+statistiques des tranches d’ˆages.
+. . . . . . . . . . . . . . . . . . . . . . . . .
+39
+3.4
+Dictaphone num´erique
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+40
+3.5
+Logiciel Glide . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+3.6
+La base de donn´ees TALN
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+42
+3.7
+Logiciel Audacity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+43
+3.8
+Barre d’outils d’audacity . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+43
+3.9
+Cr´eation d’un fichier CSV
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+45
+4.1
+Les diff´erentes composantes de Kaldi [30]. . . . . . . . . . . . . . . . . . . . .
+49
+4.2
+Nettoyage des donn´ees . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+53
+4.3
+R´esultat apr`es l’impl´ementation
+. . . . . . . . . . . . . . . . . . . . . . . . .
+54
+4.4
+Commande d’affichage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+54
+4.5
+Affichage des wav.scp . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+55
+4.6
+Affichage des text . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+55
+4.7
+Affichage de formats des enregistrements
+. . . . . . . . . . . . . . . . . . . .
+55
+4.8
+Calculer le MFCC . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+56
+4.9
+R´esultats de MFCC . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+57
+4.10 La normalisation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+57
+4.11 Partie des dictionnaires cr´ees . . . . . . . . . . . . . . . . . . . . . . . . . . .
+58
+
+--- PAGE 9 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+TABLE DES FIGURES
+VIII
+4.12 Pr´eparation linguistique partie 1
+. . . . . . . . . . . . . . . . . . . . . . . . .
+59
+4.13 Pr´eparation linguistique partie 2
+. . . . . . . . . . . . . . . . . . . . . . . . .
+59
+4.14 Dictionnaire g´ener´e apr´es la pr´eparation linguistique
+. . . . . . . . . . . . . .
+60
+4.15 Cr´eation des locuteur fictifs . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+60
+
+--- PAGE 10 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+Liste d’abriviations et notations
+ASR :Automatic Speech Recognition.
+IA :Intelligence Artificielle.
+ML :Machine Learning.
+DL :Deep Learning.
+NLP :Natural Language Processing.
+TALN :Traitement Automatique du Langage Nature.
+IVR :Interactive Voice Response.
+DARPA :Defense Advanced Research Projects Agency.
+SGMM :Subspace Gaussian Mixture Mod`els.
+RAP :Reconnaissance Automatique de La Parole.
+MFCC :Mel-Scale Frequency Ceptral Coefficients.
+FFT :Fast Fourier Transform.
+CNN : Convolutional Neural Network.
+RNN :Recurrent Neural Network.
+HMM :Hidden Markov Model.
+GMM :Mod`ele M´elange Gaussien.
+DBN :Deep Belief Network.
+WER :Word Error Rate.
+
+--- PAGE 11 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+Liste d’abriviations et notations
+X
+UNESCO :Organisation des Nations Unies pour l’´education la Science et la Culture.
+AM :Mod`eles Acoustiques.
+LDC : Linguistic Data Consortium
+WFST :weighted finite-state transducers
+
+--- PAGE 12 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+Introduction g´en´erale
+La reconnaissance automatique de la parole est l’une des technologies omnipr´esentes dans
+notre vie quotidienne, elle offre des fonctionnalit´es telles que la dict´ee de texte, les assistants
+vocaux et les syst`emes de transcription automatis´es.
+Depuis son apparition en 1950, la reconnnaissance automatique de la parole a ´et´e constament
+am´elior´ee par des linguistiques, phon´eticiens, math´ematiciens et ing´enieurs en d´efinissant des
+connaissances acoustiques et linguistiques n´ecessaires pour bien comprendre la parole humaine,
+en citant certain travaux r´ealis´es soit sur la langue arabe par BENAMMAR Ryadh[8] dont le
+but ´etait de construit un syst`eme de reconnaissance d’un vocabulaire d’une calculatrice vocale
+en arabe en utilisant l’outil HTK . De mˆeme, des travaux ont ´et´e men´es sur la langue Amazighe
+en Latin par Mustapha Kamal BENRAMDANE[9], l’objectif principal de ce travail est de
+d´evelopper des mod`eles de reconnaissancevocale de la langue kabyle bas´es sur des approches
+d’apprentissage profond . Enfin, des travaux ont ´et´e men´es en tifinagh par Meryam Telmem,
+Youssef Ghanou, [?] dans lesquels ils ont pr´esent´e une approche bas´ee sur les r´eseaux de neu-
+rones convolutifs pour construire un syst`eme de reconnaissance automatique de la parole pour
+la langue amazighe.
+Cependant, les perfermances atteintes ne sont pas parfaites et d´ependent de plusieurs crit`eres.
+Comme il est cit´e dans la th´ese de Sethserey Sam, Malgr´e les recherches et les travaux avanc´es
+dans ce domaine, certaines langues et dialectes demeurent sous-repr´esent´es, ce qui provoque
+des probl`emes d’inclusivit´e et de l’accessibilit´e linguistique.
+La langue Berb`ere ou bien Tamazight est consid´er´ee comme une langue autochone de l’Afrique
+du Nord, elle est connue par sa richesse et sa diversit´e linguistiques et culturelle. En revanche,
+`a cause de cette diversit´e orale et du manque de ressources ´ecrites,ces syst`emes sont encore peu
+d´evelopp´es et la reconnaissance vocale de la langue Amazighe repr´esente un d´efi.
+Sur cette base, notre travail consiste `a r´ealiser un syst`eme de reconnaissance vocale pour la
+langue Amazigh(Kabyle) `a l’aide de la plateforme Kaldi, afin de faciliter l’utilisation de cette
+langue dans divers domaines tels que l’´education et les technologies de communication.
+Ce m´emoire est constitu´e de quatre chapitres.
+Le premier chapitre pr´esente des notions fandametaux et pr´eliminaires sur L’intelligence artifi-
+cielle, machine learning, deep learning et ASR. Tout d’abord on d´efinit IA, ML et DL, on parle
+sur leurs diff´erents domaines d’application et leurs utilit´es. Puis, on s’int´eresse `a l’architecture
+des syst`eme s automatiques de la parole avec la param´etrisation des signaux et les mod`eles as-
+soci´es, en d´etaillant plus sur les mod`eles et les techniques utilis´es dans ce travail.
+Le deuxi`eme chapitre se base sur la langue Amazighe. On commence par d´efinir certaines
+notions linguistiques. Ensuite, on s’int´eresse la langue Amazighe, son histoire et ses dialectes
+
+--- PAGE 13 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+Introduction g´en´erale
+2
+notamment le Kabyle. Apr`es, on explique le syst`eme phonologique de la langue Kabyle en
+citant ses cas exceptionnels. On passe enfin `a la reconnaissance automatique de la langue Ama-
+zighe, ses d´efis et les travaux d´ej`a faits dans ce domaine.
+Le troisi`eme chapitre parle sur le processus de r´ecolte et de traitement des donn´ees. On com-
+mence par expliquer le choix de l’´echantillon et ses param`etres.Puis, on d´etaille ce processus
+de cette collecte o`u on pr´esente les appareils et les outils utilis´es durant l’enregistrement, ainsi
+que les logiciels et les applications utilis´es pour le pr´etraitement et le traitement des vocaux.
+Le quatri`eme chapitre pr´esente les diff´erentes plateformes utilis´ees pour cr´eer des syst`emes
+de reconnaissance automatique de la parole comme sphinx et HTK, en se basant sur la plate-
+forme kaldi. Puis on passe `a l’impl´emetation de notre base de donn´ees sur cette platforme en
+donnant les commandes utilis´ees et en expliquant les ´etapes suivies.
+Ce m´emoire se termine par une conclusion qui synth´etise les r´esultats obtenus, ´evalue les
+d´efis rencontr´es et propose des perspectives pour les travaux futurs.
+
+--- PAGE 14 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+1
+Concepts sur la Reconnaissance automatique
+de la parole
+Introduction
+La reconnaissance vocale est un domaine qui passionne au mˆeme temps le public et les
+chercheurs.
+Le syst`eme de reconnaissance automatique de la parole (ASR) est l’une des technologies les
+plus importantes utilis´ees pour l’interaction homme-machine.
+Le ASR a rendu possible pour les machines de comprendre les langues humaines.
+Sommaire
+Introduction
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+1.1
+Intelligence artificielle . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+1.2
+Machine learning
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+1.3
+Deep learning
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+1.4
+Traitement automatique du langage naturel
+. . . . . . . . . . . . . . . .
+8
+1.5
+Reconnaissance automatique de la parole . . . . . . . . . . . . . . . . . .
+11
+1.6
+Syst`eme de la reconnaissance vocale . . . . . . . . . . . . . . . . . . . . .
+15
+1.7
+Processus de reconnaissance vocale
+. . . . . . . . . . . . . . . . . . . . .
+20
+Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+
+--- PAGE 15 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+1.1 Intelligence artificielle
+4
+1.1
+Intelligence artificielle
+1.1.1
+D´efinition
+L’intelligence artificielle (IA) est un processus d’imitation de l’intelligence humaine qui re-
+pose sur la cr´eation et l’application d’algorithmes ex´ecut´es dans un environnement informatique
+dynamique. Son but est de permettre `a des ordinateurs de penser et prendre des d´ecision comme
+des ˆetres humains [19].
+1.2
+Machine learning
+Machine learning ou apprentissage automatique, est une branche de l’intelligence artifi-
+cielle qui permet aux machines d’apprendre et de s’am´eliorer de mani`ere autonome `a partir de
+donn´ees.
+1.2.1
+Type de machine learning
+L’apprentissage automatique classique est souvent cat´egoris´e par la fac¸on dont un algo-
+rithme apprend `a devenir plus pr´ecis dans ses pr´edictions. Il existe quatre types de base d’ap-
+prentissage automatique :
+Apprentissage supervis´e
+Dans l’apprentissage supervis´e, les donn´ees fournies aux algorithmes d’apprentissage sont
+´etiquet´ees et d´efinissent les variables qu’ils souhaitent que l’algorithme ´evalue pour ´etablir des
+corr´elations.
+L’entr´ee et la sortie de l’algorithme sont sp´ecifi´ees dans l’apprentissage supervis´e. Initialement,
+la plupart des algorithmes d’apprentissage automatique fonctionnaient avec l’apprentissage su-
+pervis´e, mais les approches non supervis´ees sont de plus en plus populaires. Ces algorithmes
+sont utilis´es pour plusieurs tˆaches :
+— Classification binaire : Divise les donn´ees en deux cat´egories
+— Classification multiclasse : Permet de choisir entre plusieurs types de r´eponses.
+— Assemblage : Combine les pr´edictions de plusieurs mod`eles ML pour produire une
+pr´ediction plus pr´ecise.
+— Mod´elisation de R´egression : Pr´edit des valeurs continues.
+Apprentissage non supervis´e
+Dans ce cas, les donn´ees n’ont pas d’´etiquettes. La machine se contente d’explorer les
+donn´ees `a la recherche d’´eventuelles patterns.
+Elle ing`ere de vastes quantit´es de donn´ees, et utilise des algorithmes pour en extraire des ca-
+ract´eristiques pertinentes requises pour ´etiqueter, trier et classifier les donn´ees en temps r´eel
+sans intervention humaine.
+Les algorithmes de l’apprentissage non supervis´e conviennent aux tˆaches suivantes :
+
+--- PAGE 16 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+1.2 Machine learning
+5
+Figure 1.1 – Types de ML et ses domaines d’utilisations
+— Clustering(Regroupement) : S´eparer l’ensemble de donn´ees en groupes sur la base de
+la similarit´e `a l’aide d’algorithmes de clustering.
+— D´etection d’anomalie : Identifier des points de donn´ees inhabituels dans un ensemble
+de donn´ees `a l’aide d’algorithmes de d´etection d’anomalies.
+— R`egles d’associations : D´ecouvrir des ensembles d’´el´ements dans un ensemble de donn´ees
+qui se produisent fr´equemment ensemble `a l’aide de l’exploration des r`egles d’associa-
+tion.
+— R´eduction de la dimensionnalit´e : Diminution du nombre de variables dans un en-
+semble de donn´ees `a l’aide de techniques de r´eduction de la dimensionnalit´e.
+
+--- PAGE 17 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+1.3 Deep learning
+6
+Apprentissage semi-supervis´e
+Il fonctionne en alimentant une petite quantit´e de donn´ees d’apprentissage ´etiquet´ees `a un
+algorithme. `A partir de ces donn´ees l’algorithme apprend les dimensions de l’ensemble de
+donn´ees qu’il peut ensuite appliquer `a de nouvelles donn´ees non ´etiquet´ees.
+Les performances des algorithmes s’am´eliorent g´en´eralement lorsqu’ils s’entraˆınent sur des en-
+sembles de donn´ees ´etiquet´es. Mais l’´etiquetage des donn´ees peut ˆetre long et coˆuteux.
+Ce type d’apprentissage automatique ´etablit un ´equilibre entre les performances sup´erieures de
+l’apprentissage supervis´e et l’efficacit´e de l’apprentissage non surveill´e.
+Il est utilis´e dans pour plusieurs domaines :
+— ´Etiquetages des donn´ees : Les algorithmes entraˆın´es sur de petits ensembles de donn´ees
+apprennent `a appliquer automatiquement des ´etiquettes de donn´ees `a des ensembles plus
+grands.
+— D´etection des fraudes : Identifie les cas de fraude lorsqu’il n’y a que quelques exemples
+positifs.
+— Traduction automatique : Apprend aux algorithmes `a traduire un langage bas´e sur un
+dictionnaire de mots inf´erieur `a un dictionnaire complet.
+Apprentissage par renforcement
+Fonctionne en programmant un algorithme avec un objectif distinct et un ensemble de r`egles
+prescrits pour atteindre cet objectif. Un sp´ecialiste des donn´ees programmera ´egalement l’algo-
+rithme pour rechercher des r´ecompenses positives pour avoir r´ealis´e une action qui est b´en´efique
+pour atteindre son objectif ultime et pour ´eviter les sanctions pour avoir effectu´e une action qui
+l’´eloigne de son objectif. Il est souvent utilis´e dans les domaines suivants :
+— Robotique : Il est utilis´e pour entraˆıner des robots `a effectuer des taches complexes,comme
+la manipulation des objets ou la navigation dans des environnement inconnu.
+— Gameplay video : Des algorithmes ont ´et´e utilis´es pour cr´eer des agents capables d’ap-
+prendre `a jouer `a des jeux notamment des jeux de soci´et´e comme des jeux vid´eo.
+— Gestion des ressources : Il est appliqu´e dans la gestion,o`u les agents peuvent prendre
+des d´ecisions d’investissement pour maximiser le rendement.
+1.3
+Deep learning
+1.3.1
+D´efinition et fonctionnement
+Le Deep Learning est une sous-branche du Machine Learning – qui lui mˆeme est une
+branche de l’intelligence artificielle (AI) – qui utilise des r´eseaux de neurones artificiels
+afin d’apprendre `a partir de donn´ees. Les r´eseaux de neurones artificiels constituent
+l’un des algorithmes d’AI les plus sophistiques. Ils sont inspir´ees du fonctionnement
+du cerveau humain et sont capables d’apprendre `a des mod`eles complexes `a partir de
+grandes quantit´es d’informations.
+Le syst`eme apprendra par exemple `a reconnaˆıtre les lettres avant de s’attaquer aux mots
+dans un texte, ou d´etermine s’il y a un visage sur une photo avant de d´ecouvrir de quelle
+personne il s’agit[?].
+
+--- PAGE 18 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+1.3 Deep learning
+7
+1.3.2
+Applications du DL
+Deep learning s’av`ere utile dans divers secteurs :
+— Traitement d’image : Deep learning est tr`es efficace pour les analyses d’images.
+Il est par exemple employ´e dans l’imagerie m´edicale pour d´etecter des maladies ou
+dans le secteur automobile pour les voitures autonomes. Mais aussi pour le recon-
+naissance faciale, comme sur les smartphones ou sur Facebook.
+— Cr´eation des textes : Le deep learning est ´egalement un atout dans la cr´eation de
+contenu. En effet, d´esormais, un ordinateur peut ˆetre capable de r´ediger de mani`ere
+autonome des textes ou d’effectuer des traductions. La seule condition est l’acc`es `a
+une quantit´e de donn´ees suffisante de formation. Cela fait partie du NLP (Natural
+Language Processing), une branche de l’IA, qui traite automatiquement le langage
+humain.
+— Publicit´e et marketing : Il aide `a personnaliser les recommandations de produits et
+de contenu en fonction des pr´ef´erences de chaque utilisateur. Les entreprises peuvent
+ainsi cibler leurs publicit´es de mani`ere plus pr´ecise et offrir des exp´eriences plus
+pertinentes `a leurs clients.
+— Automobile et transport : Le secteur de l’automobile et du transport b´en´eficie
+´egalement du deep learning. Les v´ehicules autonomes utilisent des r´eseaux neuro-
+naux pour d´etecter et r´eagir aux obstacles. Ils identifient et s’adaptent aux panneaux
+de signalisation et aux pi´etons. Cette technologie joue un rˆole crucial dans la s´ecurit´e
+et la navigation dans les v´ehicules du futur.
+1.3.3
+Distinction entre IA,ML et DL
+Certains probl`emes augmentent de fac¸on exponentielle o`u le temps de traitement
+d´epend de la taille des exemples fournis. Il est possible que le probl`eme ne puisse pas ˆetre
+r´esolu `a temps `a l’´echelle humaine, et c’est pourquoi des techniques de traitement ont
+vu le jour pour vaincre cette difficult´e. Comme ˆetre capable de d´ecomposer un probl`eme
+en sous-probl`emes quantifiables ayant une solution.
+Il y a une confusion fr´equente dans le d´ebat public entre intelligence artificielle , ap-
+prentissage automatique et apprentissage profond. Pourtant, ces notions ne sont pas
+´equivalentes, mais sont imbriqu´ees :
+— l’intelligence artificielle englobe le machine learning, qui lui-mˆeme englobe le deep
+learning.
+
+--- PAGE 19 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+1.4 Traitement automatique du langage naturel
+8
+Figure 1.2 – Distinction entre IA,ML et DL
+1.4
+Traitement automatique du langage naturel
+1.4.1
+C’est quoi le traitement automatique du langage naturel (TALN)
+C’est une branche de l’intelligence artificielle (AI) qui permet aux ordinateurs de
+comprendre, g´en´erer et manipuler le langage humain.
+Le traitement du langage naturel combine la linguistique informatique (mod´elisation
+du langage humain bas´ee sur des r`egles) avec des mod`eles statistiques, d’apprentissage
+automatique et d’apprentissage en profondeur. Ensemble, ces technologies permettent
+aux ordinateurs de traiter le langage humain sous la forme d’un texte ou sous forme de
+donn´ees vocales et d’en ≪comprendre ≫le sens complet, avec l’intention et le ressenti du
+locuteur ou de l’auteur.
+
+--- PAGE 20 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+1.4 Traitement automatique du langage naturel
+9
+Figure 1.3 – Les techniques de traitement automatique du langage naturel utiliser
+1.4.2
+Les cas d’utilisation du TALN
+Reconnaissance vocale
+La reconnaissance vocale est un excellent exemple de la fac¸on dont la TALN (PNL)
+peut ˆetre utilis´ee pour am´eliorer l’exp´erience client. C’est une exigence tr`es courante
+pour les entreprises d’avoir des syst`emes IVR en place afin que les clients puissent in-
+teragir avec leurs produits et services sans avoir `a parler `a une personne en direct. Cela
+leur permet de g´erer plus d’appels, mais contribue ´egalement `a r´eduire les coˆuts.
+La traduction automatique
+C’est l’une des premi`eres applications du NLP. Ces services instantan´es traduisent
+les contenus ´ecrits dans diverses langues. Le plus souvent, les textes sont diff´erents en
+fonction du traducteur utilis´e.
+Il existe quatre types sont La traduction automatique statistique , La traduction automa-
+tique bas´ee sur les r`egles, La traduction automatique hybride, la traduction automatique
+neuronale. Ces logiciels sont Google Translate, DeepL, Microsoft Translator.
+Les chatbots
+Aussi appel´es agents conversationnels ou assistants virtuels, tels que ceux d’Apple
+(Siri ) et d’Amazon (Alexa) de Google (Google Assistant) et de Microsoft (Cortana),
+Ces programmes informatiques simulent une conversation humaine. Ils permettent d’in-
+teragir pour obtenir les r´eponses aux questions pos´ees par un utilisateur. r´epondre cor-
+rectement aux questions simples des individus.
+
+--- PAGE 21 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+1.4 Traitement automatique du langage naturel
+10
+L’analyse des sentiments(Opinion Mining)
+Identifier l’opinion et le ressenti d’un individu. Autrement dit qui vient identifier
+les informations subjectives d’un texte pour extraire l’opinion de l’auteur. Cela permet
+par exemple de mesurer le niveau de satisfaction des clients vis-`a-vis des produits ou
+services fournis par une entreprise ou un organisme.
+Synth`ese de la parole
+Cr´eer de la parole artificielle `a partir d’un texte quelconque. Ces syst`emes ont large-
+ment franchi le seuil de l’intelligibilit´e permettant leur utilisation.
+Figure 1.4 – autres cas d’usage plus ou moins ´elabor´e
+
+--- PAGE 22 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+1.5 Reconnaissance automatique de la parole
+11
+1.5
+Reconnaissance automatique de la parole
+La reconnaissance automatique de la parole(Automatic Speech Recognition) ´etant
+une branche de l’intelligence artificielle, vise principalement `a convertir automatique-
+ment le signal de parole en une s´equence de mots via un algorithme impl´ement´e sous
+forme de module logiciel ou mat´eriel.
+Autrement dit La reconnaissance automatique est la conversion de la voix (parole) en
+fichier num´erique. Elle permet de d´ecoder un signal acoustique de la parole en une suite
+de mots effectivement prononc´es [27].
+1.5.1
+Historique
+La premi´ere apparition de l’ASR ´etait en 1950, lorsque le syst`eme a pu reconnaˆıtre
+9 chiffres prononc´es.
+En 1970, un ´enorme investissement a ´et´e fait par le d´epartement de d´efense am´ericain
+avec Defense Advanced Research Projects Agency (DARPA) dans le but de d´evelopper
+de la technologie militaire ,un syst`eme est developp´e nomm´e HARPY est capable de
+reconnaˆıtre 1000 mots. Au meme temps, un syst`eme capable de reconnaˆıtre plusieurs
+locuteurs a ´et´e developp´e par les laboratoires BELL.
+En 1980, c’est l’apparition des r´eseaux de neurones et les mod`eles de Markov cach´es
+qui ont permis `a la reconnaissance vocale de faire un nouveau bond en avant de pouvoir
+reconnaitre plusieurs milliers de mots.
+En 1990, l’augmentation du nombre de foyers et d’enreprises `a faire l’acquisition
+d’un ordinateur va donner un ´elan aux logiciels de reconnaissance vocale comme le lo-
+giciel Dragon pour la dict´ee.
+En 2000, c’est la commande de recherche vocale d´evelopp´ee par Google est apparue
+et les corpus d’apprentissage augmentent au fur et `a mesure que les requˆetes des utilisa-
+teurs sont collect´ees.
+Actuellement, Les syst`emes de reconnaissance vocale jouent un rˆole important, que
+ce soit dans la vie professionnelle ou quotidienne avec des applications comme Alexa,
+Google Home et Siri. La recherche des syst`emes plus efficaces am`ene les chercheurs
+`a utiliser des techniques diff´erentes telles que les Subspace Gaussian Mixture Models
+(SGMM) et les r´eseaux de neurones. La recherche et le d´eveloppement de ces syst`emes
+continue toujours notamment pour les langues moins parl´ees qui ont le probl`eme de
+manque de ressources [20].
+
+--- PAGE 23 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+1.5 Reconnaissance automatique de la parole
+12
+1.5.2
+Type de reconnaissance vocale
+•Reconnaissance des mots isol´es
+Les reconnaissances de mots isol´es acceptent un seul mot `a la fois. Ces syst`emes
+ont des ´etats de ”´Ecoute/Non-´ecoute”, o`u ils demandent `a l’orateur d’attendre entre les
+´enonc´es. ”´Enonc´e isol´e” pourrait ˆetre un meilleur terme pour cette classe.[16]
+• Reconnaissance des mots connect´es
+Les syst`emes de mots connect´es (ou plus exactement les ”´enonc´es connect´es”) sont
+similaires aux mots isol´es, mais permettent aux ´enonc´es s´epar´es d’ˆetre ”combin´es” avec
+une pause minimale entre eux.
+• Reconnaissance de la parole continue
+traite de la parole o`u les mots sont connect´es plutˆot que s´epar´es par des pauses. En
+cons´equence, les informations de fronti`ere inconnue sur les mots, la coarticulation, la
+production des phon`emes environnants et le d´ebit de la parole affectent les performances
+des syst`emes de reconnaissance de la parole continue. Les reconnaissances avec des
+capacit´es de parole continue sont parmi les plus difficiles `a cr´eer car elles utilisent des
+m´ethodes sp´eciales pour d´eterminer les fronti`eres des ´enonc´es.
+• Reconnaissance de la parole spontan´ee
+La parole spontan´ee a un grand nombre de d´efinitions. `A la base, cela peut ˆetre
+consid´er´e comme un discours qui sonne naturellement et qui n’est pas r´ep´et´e. Le locu-
+teur commence un ´enonc´e et atteint un point o`u il ne peut pas trouver le mot juste ou
+pense mieux `a un mot, et a besoin de temps pour trouver une alternative appropri´ee, ils
+r´ep`etent un mot comme une sorte de ”course” `a la deuxi`eme tentative. Un syst`eme ASR
+avec une capacit´e de parole spontan´ee devrait ˆetre capable de g´erer une vari´et´e de ca-
+ract´eristiques de parole grammaticale non standard telles que des mots courir ensemble,
+”pad’” et ”≪al”, et mˆeme de l´egers b´egaiements. [21]
+
+--- PAGE 24 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+1.5 Reconnaissance automatique de la parole
+13
+Figure 1.5 – Classification d’un ASR [31].
+1.5.3
+Probl`emes li´es `a la reconnaissance vocale
+En raison de la complexit´e du langage naturel et des d´efis qu’il pose `a la compr´ehension
+et `a la traduction par les machines, concevoir un syst`eme de reconnaissance vocale peut
+pr´esenter divers types de difficult´es et d’obstacles.
+— Le bruit de fond et les ´echos Informations non d´esir´ees dans le signal vocal. En
+RAP, nous devons identifier et filtrer ces bruits du signal vocal.
+Ca peut etre le son d’horloge, des voitures , le vent, un autre locuteur humain en arri`ere-
+plan, etc.
+Ya aussi les echos qui sont est le signal vocal rebondi sur un objet environnant et qui
+arrive dans le microphone quelques millisecondes plus tard.
+— Les dialectes les variantes dialectales font que les mots appartenant `a une mˆeme
+langue soient prononc´es diff´eremment d’un locuteur `a un autre.
+— Langage corporel Un humain ne communique pas seulement avec la parole, mais
+aussi avec des parties de son corps Notamment gestes de la main, mouvements des yeux,
+postures, etc.
+—Homophone Le probl`eme des homophones est l’une des difficult´es majeures de la
+reconnaissance de la parole. Ce sont les mots prononc´es de la mˆeme mani`ere, mais ont
+des orthographes et des significations diff´erentes.
+—La variabilit´e des locuteurs Cela peut se r´ev´eler de deux fac¸ons, la premiere cest
+quand la variabilit´e interlocuteur o`u diff´erents locuteurs prononcent un mˆeme mot avec
+des voix diff´erentes ou quand la variabilit´e intra-locuteur o`u un mˆeme locuteur prononce
+un mot avec des variations ´emotionnelles, entraˆınant des changements d’intonation ou
+de vitesse de prononciation.
+Cette variabilit´e rend tr`es difficile la d´efinition d’invariants et complique la tˆache dere-
+connaissance. Ainsi, il faut pouvoir s´eparer ce qui caract´erise les phon`emes, de l’aspect
+
+--- PAGE 25 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+1.5 Reconnaissance automatique de la parole
+14
+particulier `a chaque locuteur [3].
+1.5.4
+Travaux d´ej`a r´ealis´es
+De nombreuses recherches ont ´et´e men´ees r´ecemment dans le domaine du traitement
+du signal vocal. En particulier, la technologie de reconnaissance automatique de la pa-
+role (ASR).
+La reconnaissance vocale de la langue amazigh a ´et´e d´ej`a abord´ee en 2023 par Barkani,
+F., Hamidi, M., Laaidi, N. nom´e Reconnaissance vocale amazighe bas´ee sur la boˆıte
+`a outils Kaldi ASR.
+Dans ce travail, ils ont propos´e une nouvelle approche pour int´egrer la langue amazighe,
+dans un syst`eme de reconnaissance vocale isol´e en exploitant la plateforme open source
+Kaldi, leur syst`eme est capable de reconnaˆıtre les dix premiers chiffres amazighs et les
+dix mots isol´es amazighs indispensables au quotidien [13].
+Reconnaissance vocale bas´ee sur le deep learning appliqu´ee `a la langue kabyle,
+r´ealis´e par Mustapha Kamal BENRAMDANE en 2020, le but de ce travail est de
+d´evelopper des mod`eles de reconnaissance vocale de la langue kabyle bas´es sur des ap-
+proches d’apprentissage profond [9].
+Automatic Speech Recognition est un travail fait par [Li Deng ] et [Dong Yu] en 2013
+qui a ´et´e publi´e sur ”IEEE/ACM Transactions on Audio, Speech, and Language Proces-
+sing”.
+Cet article Propose une ´evaluation approfondie des technologies actuelles de reconnais-
+sance vocale.
+En se concentrant sur les techniques, les mod`eles et les applications de la reconnaissance
+vocale en anglais. Il couvre ´egalement les d´efis et les perspectives futures de ce domaine
+en constante ´evolution.
+En outre, bien que cet article principalement ax´e sur la reconnaissance vocale en an-
+glais, mais il offre connaissances transf´erables qui pourraient ˆetre utiles pour d’autres
+langues, telles que le Uyghur, Kazakhs et les Kirghizes, soulignant ainsi sa valeur dans
+un contexte plus large de recherche en reconnaissance vocale.
+Reconnaissance automatique de la parole pour des langues peu dot´ees est un travail
+sur la langue khmer fait par Viet Bac Le. Ce manuscrit pr´esente leur m´ethodologie qui
+vise `a d´evelopper et adapter rapidement un syst`eme de reconnaissance automatique de
+la parole continue pour une nouvelle langue peu dot´ee [22].
+Automatic speech recognition system with pitch dependent features for Punjabi
+language on KALDI toolkit r´ealiser par par Jyoti Guglani, A.N. Mishra,Dans cet ar-
+ticle, l’efficacit´e du syst`eme ASR de la langue pendjabi a ´et´e rapport´ee sur la boˆıte `a
+outils Kaldi en termes de WER[15].
+Concernant la langue arabe elle y a eu d´ej`a mal de travaux r´ealis´es en comparent au
+kabyle , Souadkia Abdelhak dans son trvaille nomm´e Reconnaissance automatique
+de la parole arabe : Approche ´evolutionniste. Ce travail vise `a r´ealiser un syst`eme de
+reconnaissance automatique de la parole arabe par un algorithme g´en´etique [4].
+
+--- PAGE 26 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+1.6 Syst`eme de la reconnaissance vocale
+15
+1.6
+Syst`eme de la reconnaissance vocale
+Le Syst`eme automatique de la reconnaissance de la parole se compose g´en´eralement
+de deux composantes : La param´etrisation du signal et les mod`eles mis en œuvre dans
+ce syst`eme.
+1.6.1
+Analyse de signal
+L’enregitrement vocal se fait g´en´eralement avec des appareils comme le dictaphone,
+le microphone, pendant cet enregistrement plusieurs param`etres peuvent influencer sur
+la capture de son telle que le type de l’apareil utilis´e, la distance entre la source et
+l’apareil et le bruit environnant.
+Analyse MFCC
+MFCC (Mel-Scale Frequency Ceptral Coefficients) captent les caract´eristiques es-
+sentielles d’un signal vocal, cette analyse implique plusieurs traitements sur le signal
+audio, comme illustre dans la figure 1.6 .
+Le signal acoustique continu est segment´e en trames de N ´echantillons, avec un pas
+d’avancement de M trames (M < N). Les valeurs couramment utilis´ees pour M et N
+sont respectivement 10 et 20. Le calcul de MFCC implique plusieurs ´etapes pr´esent´ees
+ci-dessous :
+— Pr´eaccentuation : Pour la pr´eaccentuation du signal on applique l’´equation de diff´erence
+de premier ordre aux ´echantillons x(n) [8].
+x(n) = x(n) −kx(n −1)
+avec
+0 < n < N −1
+et k coefficient de pr´eaccentuation.
+0 < k < 1
+— Fenˆetrage : On consid`ere w(n) comme une fenˆetre o`u 0 < n < N −1 et N est le
+nombre d’´echantillons dans chacune des trames, donc on aura le signal xa comme
+r´esultat du fenˆetrage [8].
+xa = x(n)w(n)
+avec
+0 < n < N −1
+Plusieurs types de fenˆetrages peuvent ˆetre utilis´es comme le fenˆetrage triangulaire,
+Hann et Hamming. Nous allons d´efinir le plus utilis´e c’est celui de Hamming.
+w(n) =
+( 0.54 −0.46 cos( 2π.n
+N−1)
+0 ≤n ≤N −1
+0
+sinon.
+— Tranforme de Fourrier rapide : Connu sous le nom Fast Fourier Transform (FFT),
+permet de passer de domaine temporelle au domaine fr´equentiel, les valeurs obtenues
+sont appel´ees les spectres [8].
+x[k] = PN−1
+0
+xa[n](exp −2jπ
+N kn)
+0 ≤n ≤N −1
+
+--- PAGE 27 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+1.6 Syst`eme de la reconnaissance vocale
+16
+— Filtrage sur l’´echelle de Mel : Dans l’´echelle de mesure Mel, la correspondance est
+approximativement lin´eaire sur les fr´equences au-dessous de 1kHz et logarithmique
+sur les fr´equences sup´erieures `a celle-ci. Cette relation est donn´ee par la formule
+suivante :
+m = 2595 log10(1 +
+f
+700)
+Le logarithme de l’´energie de chaque filtre est calcul´e selon l’´equation :
+S [m] = ln[P k = 0N−1Xa[k]Hm[k]]
+0 < m ≤M
+— Calcul de Cepstre sur l’´echelle de Mel : Pour obtenir Le cepstre sur l’´echelle de
+fr´equence Mel, on calule la transform´ee cosinus discr`ete du logarithme de la sortie
+des M filtres [8].
+c[n] = S [n] cos πn(m −1/2)/M
+≤n < M
+Le premier coefficient, c[0], repr´esente l’´energie moyenne dans la trame de la parole.
+c[1] refl`ete la balance d’´energie entre les basses et hautes fr´equences.
+Pour i > 1, c[i] repr´esente des d´etails spectraux de plus en plus fins.
+— Calcul de coefficient MFCC : `A travers les d´eriv´ees des coefficient ∆c et les d´eriv´ees
+secondes ∆∆c on peut calculer les changements temporels dans le spectre (c) [8].
+
+ck
+∆ck
+∆∆ck
+
+Dans le traitement vocal, Les MFCC sont les coefficients qui constituent collec-
+tivement le Cepstrum de fr´equence de Mel (MFC), une repr´esentation du spectre de
+puissance `a court terme du son est bas´ee sur la transformation lin´eaire en cosinus d’un
+spectre de puissance logarithmique sur une ´echelle de fr´equence logarithmique Mel non
+lin´eaire.
+Les MFCC sont lin´eairement espac´es sur l’´echelle de fr´equence Mel qui se rapproche
+beaucoup de la r´eponse du syst`eme auditif humain.
+Cette repr´esentation du signal sonore extrait des caract´eristiques discriminantes qui per-
+mettent d’atteindre une classification du son avec une bonne pr´ecision.
+1.6.2
+Mod`ele de langage
+Un mod`ele de langage a donc pour but d’estimer la probabilit´e a priori de toutes
+les s´equences de mots qu’il est possible de construire `a partir du lexique. Pour ce
+faire, il peut s’appuyer sur diff´erentes sources d’informations, comme par exemple des
+r`egles syntaxiques ou s´emantiques, ou encore des statistiques issues de gros volumes de
+donn´ees. Nous nous concentrerons ici sur les mod`eles de langages les plus utilis´es dans
+la reconnaissance vocale [24].
+
+--- PAGE 28 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+1.6 Syst`eme de la reconnaissance vocale
+17
+Figure 1.6 – Analyse MFCC
+Mod`ele de langage statistique n-gramme
+Ce mod`ele a ´et´e propos´e par Jelinek (1976). L’id´ee `a la base des mod`eles de lan-
+gage n-gramme est que la probabilit´e d’apparition d’un mot peut ˆetre estim´ee `a partir
+des (n −1) mots pr´ec´edents.
+P(W) ≈P(Wi|hn
+i )
+avec hn
+i l’historique de taille (n −1) du mot Wi
+P(W) ≈QM
+i−1(Wi|hn
+i )
+.
+Mod`ele des R´eseaux de neurones convolutifs
+Connu sous le nom Convolutional Neural Network, repr´esentent un grand avance-
+ment dans la reconnaissance d’images. Ils sont le plus souvent utilis´es pour analyser les
+images visuelles, ils sont aussi utilis´es dans la reconnaissance vocale. Les CNN ont ´et´e
+cr´e´es `a partir d’un r´eseau de neurones form´e de plusieurs couches. Chaque couche est
+form´ee de neurones qui sont connect´es aux neurones de la couche suivante. En g´en´eral,
+on les divise en trois couches :
+— Couche de convolution : Elle est constitu´e des filtres, chaque filtre repr´esente ta-
+bleaux de valeurs, donc la couche convolutif prend en entr´ee une image et produit
+des features maps en sortie.
+— Couche de pooling : Agit comme une couche de r´eduction, elle rec¸oit des feature
+maps, divise l’images en blocs, r´eduit la dimension en gardant les caract´eristiques
+importantes.
+— Couche fully-connected : C’est la derni`ere couche des r´eseaux convolutifs, elle
+
+--- PAGE 29 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+1.6 Syst`eme de la reconnaissance vocale
+18
+Figure 1.7 – Architecture de CNN
+combine les features pr´ec´edentes pour classifier l’image.
+Mod`ele des R´eseaux de neurones r´ecurrents
+Les RNN ont ´et´e propos´es dans les ann´ees 80 (Rumelhart, et al., 1986; Elman, 1990;
+Werbos,1988) pour mod´eliser les s´eries temporelles. Cette structure est similaire aux
+r´eseaux de neurones traditionnels, mais ces r´eseaux comportent des cycles dans leur
+graphe (Pascanu, et al., 2013). Ces cycles permettant au r´eseau d’entretenir une infor-
+mation en l’envoyant `a lui- mˆeme. Ces r´eseaux sont largement utilis´es pour la traduction
+automatique et la reconnaissance de la parole pour extraire des caract´eristiques acous-
+tiques .
+Les RNN se compose aussi de trois couches :
+— Couche d’entr´ee : Elle rec¸oit l’entr´ee de r´eseau neuronal le traite et le transmet vers
+le couche prochaine.
+— Couche interm´ediaire : Standardise les diff´erentes fonctions d’activation, les poids
+et les biais, de sorte que chaque couche cach´ee poss`ede les mˆemes param`etres.
+— Couche de sortie : Elle est responsable de la pr´ediction et la classification finale.
+Figure 1.8 – Architecture de RNN
+1.6.3
+Mod`ele de prononciation
+Dans un syst`eme de reconnaissance automatique de la parole, on a besoin d’une
+ressource lexicale qui fait le lien entre les unit´es acoustiques et les mots, il s’agit du
+lexique de prononciation. Deux lexiques sont n´ecessaires : un lexique utilis´e lors de la
+
+--- PAGE 30 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+1.6 Syst`eme de la reconnaissance vocale
+19
+phase d’apprentissage du mod`ele acoustique, il contient les prononciations de tous les
+mots qui se trouvent dans la transcription textuelle des donn´ees acoustiques du corpus
+d’apprentissage. Un lexique de reconnaissance qui contient tous les mots qui pourront
+ˆetre reconnus par notre syst`eme.
+Ces mots doivent ˆetre class´es en fonction d’un poids qui d´efinit leur importance pour
+le domaine d’application. Ce poids C(wi) est calcul´e dans le cas de k documents selon
+l’´equation suivante
+C(wi) = P
+k λkCk(wi)
+avec Ck(wi) est la fr´equence du mot wi dans le document ket λk le poids de chaque do-
+cuments.
+Une approche simple consiste `a utiliser la taille du texte comme le poids de chaque do-
+cument dans l’interpolation lin´eaire. Une autre approche consiste `a optimiser ces poids
+`a l’aide d’un corpus de validation.
+Les approches statistiques sont bas´ees sur l’id´ee qu’avec suffisamment d’exemples, on
+peut pr´edire la prononciation d’un nouveau mot. Diverses techniques de mod´elisation
+ont ´et´e adapt´ees pour ce probl`eme, notamment les r´eseaux de neurones[24].
+1.6.4
+Mod`ele acoustique
+Mod`eles g´en´eratifs GMM-HMM
+Aujourd’hui les Mod`eles de Markov cach´e sont les plus utils´es dans le syst`eme de
+reconnaissance vocale, ils ont ´et´e introduits par Jelink et Baker 1975, 1976. Chaque
+unit´e est mod´elis´ee par HMM (Hidden Markov Model), cette unit´e peut ˆetre des mots
+dans le cas des petits lexiques ou bien des phon`emes dans le cas des grands lexiques.
+Dans un mod`ele de Markov cach´e, `a chaque instant t, une transition de l’´etat actuel i
+`a l’un de ses ´etats connect´es j est ex´ecut´ee avec une probabilit´e ai j. Chaque ´etat i peut
+´emettre une observation acoustique ot avec une probabilit´e bi(ot). Math´ematiquement,
+un mod`ele de Markov cach´e se d´ecrit par les param`etres suivants :
+— Le nombre N des ´etats du mod`ele.
+— Les probabilit´es de transition d’´etats ai j. Ces probabilit´es sont repr´esent´ees par une
+matrice A de taille N ∗N
+— La densit´e de probabilit´e d’observation associ´ee `a l’´etat i, c’est-`a-dire l’estimation
+des probabilit´es bi(ot) = P(ot|S i) avec 1iN.
+— La distribution de probabilit´e d’ˆetre `a un ´etat `a l’instant initial, π = (πi)avec1iN
+Pour la mod´elisation caract´eristique de Mod`ele de Markov on utilise le mod`ele M´elange
+Gaussien (GMM) qui est developp´e en 1980, les GMM sont des distribution flexibles,
+sont mieux adapt´es a la mod´elisation de la parole.
+Les mod`eles GMM-HMM ont deux hypoth`eses, la premi`ere consid`ere qu’un ´etat est
+conditionnelement independant de tous les autres ´etats,la deuxi`eme concerne les ´emissions
+acoustiques, qui sont conditionnellement independantes des autres ´emissions [14].
+
+--- PAGE 31 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+1.7 Processus de reconnaissance vocale
+20
+Mod`ele Hybrides DNN-HMM
+Ce mod`ele est apparue en 1980, il est appliqu´e avec le mod`ele GMM en 1999Hermansky
+1999, en 2006 l’un des premiers travaux bas´es sur DNN est propos´e par Hinton 2006
+sous le nom Deep Belief Network (DBN). Ce mod`ele est plus efficace que le mod`ele
+GMM-HMM. Parmi ses avantages est la capacit´e de mod`eliser des repr´esentations plus
+complexes et non flexibles, par contre la complexit´e de la proc´edure d’entrainement reste
+toujours un inconv´enient [14].
+Mod`ele End-to-end
+En cherchant une solution pour la complexit´e du mod`ele DNN-HMM, le mod`ele
+End-to-end est apparu, tout d’abord il permet de se d´ebarrasser de pr´e-alignement les
+donn´ees avec un autre mod`ele. Ensuite avec un mod`ele unique il permet d’unifier le
+processus d’entraˆınement et dans le but de simplicit´e, il agit au niveau de caract`eres pas
+au niveau phon`emes [14].
+Figure 1.9 – Mod`eles de langage
+1.7
+Processus de reconnaissance vocale
+1.7.1
+Algorithme de D´ecodage
+Le d´ecodage consiste `a rechercher le chemin optimal dans le graphe de toutes les
+phrases possibles. La phrase est construite comme un enchaˆınement de mots, eux-mˆemes
+constitu´es de phon`emes chacun mod´elis´es par un petit automate ´etats acoustiques. Le
+processus de reconnaissance automatique de la parole d´etermine la s´equence de mots ˆW
+la plus vraisemblable, soit une s´equence d’observations acoustiques O.
+ˆW = MaxP(W|O) = Max P(O|W)P(W)
+P(O)
+
+--- PAGE 32 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+1.7 Processus de reconnaissance vocale
+21
+P(O|W) est la probabilit´e acoustique et P(W) est la probabilit´e linguistique.
+1.7.2
+´Evaluation de performance
+L’´evaluation de la reconnaissance de la parole est donn´ee par le crit`ere du taux d’er-
+reur de mots WER (Word Error Rate) qui mesure le rapport du nombre d’erreurs de
+reconnaissance sur le nombre total de mots prononc´es. ). Il y a trois types d’erreurs de
+reconnaissance : substitution (S), omission (O) et insertion (I0. La v´erification des er-
+reurs de reconnaissance n´ecessite une transcription de r´ef´erence, qui est g´en´eralement
+cr´e´ee manuellement.
+WER = S +O+I
+Nmots
+1.7.3
+Mesure de confiance
+L’algorithme de d´ecodage est un processus probabiliste qui recherche la meilleure
+ad´equation entre un signal audio et une s´equence de mots.
+Cependant, cette ad´equation risque de contenir des erreurs de reconnaissance mˆeme dans
+les meilleures conditions d’application.
+Ces erreurs de reconnaissance peuvent ˆetre li´ees au mod`ele de langage (le plus souvent
+`a cause des mots hors-vocabulaire), au mod`ele de prononciation (prononciation non-
+d´efinie pour un mot connu) ou au mod`ele acoustique (bruits inconnus, locuteurs trop
+diff´erents).
+L’algorithme de reconnaissance affiche simplement le message d´ecod´e, mais il ne peut
+pas dire de lui-mˆeme (de mani`ere certaine) si le message contient des erreurs, ni o`u se
+trouvent ces erreurs.
+Les trois types de mesures de confiance les plus courantes sont celles fond´ees sur une
+combinaison des param`etres pr´edictifs [Wessel et al. 1999; Zhang et Rudnicky 2001],
+sur le rapport de vraisemblance [Rose et al. 1995] ou sur la probabilit´e a posteriori
+[Rueber 1997; Wessel et al. 2001].
+Les mesures de confiances bas´ees sur le rapport de vraisemblance utilisent deux hy-
+poth`eses :
+H0 si le message et son mod`ele acoustique sont corrects.
+H1 si le message et son mod`ele acoustique ne sont pas bons.
+Les mesures de confiance a posteriori sont calcul´ees par la formule suivante :
+P(w|O) = P(O|w)P(w)
+P(O)
+Pour une bonne mesure de confiance, il faut que le produit entre la probabilit´e du mod`ele
+acoustique P(O|w) et la probabilit´e du mod`ele de langage P(w) soit bien normalis´e par
+la probabilit´e acoustique P(O).
+
+--- PAGE 33 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+1.7 Processus de reconnaissance vocale
+22
+Conclusion
+Dans ce chapitre, on a pu explorer les concepts fondamentaux de IA, ML, DL leur
+application dans l’ASR, on a pu pr´esenter les diff´erentes technologies utilis´ees pour en-
+traˆıner les mod`eles de la reconnaissance automatique dans le but de comprendre et de
+d’interpr´eter le langage humain `a partir des donn´ees vocales.
+Malgr´e les techniques avanc´ees qui permettent d’effectuer des tˆaches plus complexes
+et plus pr´ecises, l’ASR rencontre toujours des difficult´es et des d´efis concernant la
+g´en´eralisation de certaines langues et dialectes comme la langue Amazighe.
+Dans le prochain chapitre on va proc´eder `a la richesse de la langue Amazighe, ses as-
+pects linguistiques, son importance culturelle et historique ainsi que son interaction avec
+les nouvelles technologies.
+
+--- PAGE 34 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+2
+La langue Amazighe
+Introduction
+Tamazight, la langue maternelle de millions de personnes, a ´et´e class´ee parmi les
+langues menac´ees de disparition par l’UNESCO, elle a longtemps ´et´e d´efinie en tant
+que langue orale `a usage quotidien seulement.
+Le Tifinagh, l’´ecriture utilis´ee par les Amazighs pour noter leur langue, a ´et´e conserv´ee
+seulement par les Touaregs du Sahara Alg´erien, Libyen, Malien et Nig´erien.
+N´eanmoins, cet alphabet n’a pas contribu´e `a la pr´eservation de ce patrimoine historique
+et culturel oral si riche. Malgr´e son caract`ere d’oralit´e, cette langue a surv´ecu, `a l’´ecart
+du reste du monde et des autres cultures, cloˆıtr´ee dans diff´erentes aires diss´emin´ees `a
+travers le Maghreb et d’autres contr´ees, mais toujours pr´esente – peut-ˆetre justement
+grˆace `a cette oralit´e.
+Sommaire
+Introduction
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+2.1
+Language et parole
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+2.2
+Phon´etique et phonologie . . . . . . . . . . . . . . . . . . . . . . .
+24
+2.3
+Tamazight D´efinitions et G´eographie . . . . . . . . . . . . . . . . .
+24
+2.4
+Historique
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+2.5
+Les variantes de langue Amazighe . . . . . . . . . . . . . . . . . .
+26
+2.6
+Kabyle
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+2.7
+Ecriture la langue Kabyle
+. . . . . . . . . . . . . . . . . . . . . .
+27
+2.8
+ASR appliqu´e dans la langue Amazighe . . . . . . . . . . . . . . .
+29
+2.9
+Historique et statut
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+2.10 Organigrame dentreprise : . . . . . . . . . . . . . . . . . . . . . .
+33
+Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+34
+
+--- PAGE 35 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+2.1 Language et parole
+24
+2.1
+Language et parole
+Figure 2.1 – Langue,Language et Parole
+2.2
+Phon´etique et phonologie
+— Phon´etique : C’est une branche linguistique qui ´etudie les phon`emes.
+— Phonologie : C’est la science qui ´etudie les phon`emes non en eux-mˆemes mais quant
+`a leur fonction dans la langue.
+— Phon´eme : C’est une unit´e minimale du langage porteuse d’une signification linguistique[12].
+2.3
+Tamazight D´efinitions et G´eographie
+La langue Amazighe ou bien (Tamazight en berb`ere), est consid´er´ee comme une
+langue autochtone de l’Afrique du Nord, elle couvrait `a l’origine l’ensemble de l’Afrique
+du Nord et du Sahara. Elle est devenue minoritaire `a la suite d’un lent processus d’ara-
+bisation linguistique de l’Afrique du Nord cons´ecutif `a la conquˆete arabe et `a l’islami-
+sation, puis `a l’arriv´ee de populations Arabes nomades venues du Moyen-Orient.
+Tamazight est dispers´ee en ˆılots d’importance tr`es variable, de quelques milliers `a plu-
+sieurs millions d’individus sur un territoire immense. Les principaux pays concern´es
+sont le Maroc (40% de la population) et l’Alg´erie (25%). En dehors des Touaregs, dis-
+pers´es sur cinq pays de la zone saharo-sah´elienne (Niger, Mali, Alg´erie, Libye, Burkina-
+Faso), il existe des groupes berb`eres en Libye (10 %), en Tunisie (1%), en ´Egypte (Siwa)
+et en Mauritanie [6].
+
+--- PAGE 36 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+2.3 Tamazight D´efinitions et G´eographie
+25
+Figure 2.2 – Carte de la langue Berb`ere
+
+--- PAGE 37 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+2.4 Historique
+26
+2.4
+Historique
+Longtemps rest´ees dans l’ombre, les origines de la langue Amazighe ont pris une
+nouvelle direction dans les derniers temps. Les revendications politico-ind´ependantistes
+ont laiss´e la place `a des recherches scientifiques approfondies qui ´eclairent l’histoire
+d’un jour nouveau et de fac¸on irr´evocable.
+Les derni`eres recherches sur les Imazighen touchent trois domaines des sciences hu-
+maines : l’anthropologie, la g´en´etique et la linguistique, dans notre cas on se base sur la
+linguistique.
+Selon les recherches linguistiques les origines de la langue Amazigh appartiennent `a la
+famille des langues dites chamito-s´emitiques. Selon les linguistes, l’Afro-asiatique vien-
+drait d’Afrique orientale entre 10 000 et 17 000 ans.
+D’apr`es Salem Chaker, universitaire et professeur de linguistique berb`ere `a l’INALCO,
+Les connaissances linguistiques se sont affin´ees. On sait que l’ancien libyque a un alpha-
+bet et une ´ecriture, les tifinagh (pluriel de tafinek ) qui ont ´et´e conserv´es par les Touareg
+. Les recherches ont encore progress´e sur ce sujet.
+Selon Malika Rached pr´ehistorienne ”On pourrait admettre que les inscriptions as-
+soci´ees aux Pal´eoberb`eres du Tassili sont donc les plus anciens t´emoignages de l’´ecriture
+libyque en Afrique du Nord et qu’elles peuvent se situer vers 1300-1200 ans avant J.-C.
+Or, nous sommes en plein Sahara central, bien loin du domaine ph´enicien et carthagi-
+nois. ”L’ensemble des donn´ees historiques anciennes s’ajoutent aux nouvelles aires des
+sciences humaines et brossent un tableau plus clair et plus scientifiquement pr´ecis des
+Berb`eres d’Afrique du nord.
+L’´epoque du changement est peut-ˆetre d´ej`a l`a. En 1996, la r´eforme de la Constitution
+Alg´erienne fait du Berb`ere l’une des composantes de l’identit´e nationale. En 2011, le
+Royaume du Maroc a promu le berb`ere deuxi`eme langue nationale dans sa nouvelle
+Constitution. Le Tamazight est maintenant enseign´e dans les ´ecoles marocaines `a l’aide
+de l’alphabet tifinagh. Il l’est ´egalement dans certaines wilayas d’Alg´erie o`u il a ´et´e
+introduit.[36]
+2.5
+Les variantes de langue Amazighe
+Tamazight connaˆıt plusieurs variations, comme le kabyle , le chaoui , Tachelhit, le
+Tarifit, Touareg, le Chenoua, Mozabite , et bien d’autres, ne se limitent pas `a ˆetre de
+simples outils de communication. Elle sont ´egalement l’identite de la langue Amazighe.
+— Kabyle : C’est la premi`ere vari´et´e Amazigh en nombre de locuteurs en Alg´erie,
+Situ´ee dans le nord du pays, elle est parl´ee par les kabyles dans les wilayas suivantes :
+Tizi Ouzou, Beja¨ıa, massif du Djurjura, Alger, Bouira, S´etif, Boumerd`es, Jijel, Bordj
+Bou Arreridj . [35]
+— Chaoui : Appel´e aussi l’Aurasien, pratiqu´e par les chaouis du grand Aur`es qui sont
+(Batna, khenchela, Biskra, Oum El Bouaghi, Souk-Ahras, T´ebessa et Ain M’lila).
+— Chenoua : Cette variante est parl´ee dans la r´egion de Ch´enaoua, en Alg´erie.
+— Mozabite : pratiqu´e par les Mozabites dans le nord du Sahara alg´erien (Gharda¨ıa
+etles autres villes ibadhites).
+— Touareg : Dans plusieurs pays d’Afrique du Nord, notamment au Mali, au Niger, en
+
+--- PAGE 38 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+2.6 Kabyle
+27
+Alg´erie, au Burkina Faso et en Libye. Employ´e au sud d’Alg´erie par les Touar`egues
+qui sont connus sous l’appellation de (les hommes bleus) qui se trouve dans :( Hog-
+gar, Tassili, A¨ır, Adrar des Iforas).
+— Tarifit : C’est la variante de l’Amazighe parl´ee dans la r´egion du Rif, situ´ee dans le
+nord du Maroc.
+2.6
+Kabyle
+Le kabyle est un dialecte du berb`ere parl´e en Kabylie, une r´egion qui se situe au nord
+de l’Alg´erie, plus exactement au nord-est d’Alger. Il partage actuellement le terrain lin-
+guistique avec une variante du franc¸ais maghr´ebin parl´e en Kabylie et avec l’arabe sous
+ses deux formes. L’influence de ces langues les unes sur les autres est constat´ee dans
+plusieurs ´etudes linguistiques (Boucherit, 1987; Cheriguen,Merzouk, 2014; Lahrouchi,
+2018). Le kabyle englobe plusieurs parlers qu’on classe en groupes relativement ho-
+mog`enes. Selon Nait-Zerrad K. (2001) [26], On peut envisager, quatre (04) groupes
+linguistiques, que l’on peut encore subdiviser.
+— Extrˆeme occidental : par les vari´et´es de Boghni, Draa-El-Mizan, Tizi-Ghennif, ...
+— Occidental : parl´e dans les r´egions d’Ait Aissi, Ath-Yenni, Ath-Yirathen, Ath-Mangellat.
+— Oriental : parl´e dans les r´egions d’Ath Abbas et Mlikech (oriental ouest), Ath-Aidel
+et Ath-Khiar (oriental centre), Ath-Slimane (Oriental est).
+— Extrˆeme oriental : parl´e dans les r´egions suivante d’Aokas, Ath-Smail et Melbou
+[17].
+2.7
+Ecriture la langue Kabyle
+Il y a trois fac¸ons d’´ecrire une langue, quelle que soit sa complexit´e phon´etique et sa
+syntaxe :
+— L’´ecriture phon´etique : C’est l’outil qui permet d’´ecrire toutes les occurrences
+d’une expression orale d’une langue donn´ee [32].
+En Amazighe le mot tawwurt qui signifie porte s’´ecrit comme suivant :
+/tawwurt/, /taggurt/, /tabburt/, /tappurt/...
+— L’´ecriture phonologique : le syst`eme phonologique d’une langue, Lorsqu’on sup-
+prime toutes les diff´erences phon´etiques non pertinentes dans cette langue.
+Dans lexemple precedent tawwurt, phonologiquement on ´eliminera les diff´erences
+non pertinentes, on ecrit :
+/tawwurt/
+— L’´ecriture orthographique : L’´ecriture orthographique suppose un choix immuable
+de transcription d’une langue. Un mot s’´ecrira toujours de la mˆeme mani`ere.
+Dans le mot tawwurt on va d´efinir une seule et unique ´ecriture qui est
+/tawwurt/
+[32].
+L’alphabet kabyle utilise l’alphabet latin adapt´e pour la variation phonologique de la
+langue. Les premi`eres transcriptions ´etaient plus phon´etiques que phonologiques, `a titre
+d’exemple, Mouloud Mammeri a construit 46 lettres pour le berb`ere.
+
+--- PAGE 39 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+2.7 Ecriture la langue Kabyle
+28
+Depuis des d´ecennies, les linguistes, au fil des ´etudes, ont all´eg´e cet alphabet afin de ne
+prendre que les variations phonologiques.[2]
+2.7.1
+Syst`eme phonologique
+Les Amazighologues ont d´efini le syst`eme phonologique suivant :
+Figure 2.3 – Syst`eme phonologique
+2.7.2
+Syst`eme vocalique
+Le vocalisme Berb`ere(Kabyle) se r´esume dans le triangle vocalique suivant :
+Figure 2.4 – Triangle vocalique
+On distingue trois voyelles de base /a/, /u/ et /i/
+Deux semi voyelles /y/ et /w/.
+Voyelle neutre /e/.
+
+--- PAGE 40 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+2.8 ASR appliqu´e dans la langue Amazighe
+29
+2.7.3
+Syst`eme consonantique
+Le syst`eme consonantique repose sur la tension, l’emphase et la labiov´elarisation.
+Spirante et Occlusives
+Entre /akal/ avec un /k/ spirant et /akal/ avec un /kk/ occlusive, il y a une variation
+phon´etique mais pas de diff´erence de sens. Cette diff´erence n’est pas introduite dans la
+transcription phonologique, on ´ecrit un seul /akal/ [32].
+Les empathiques
+Les phon`emes diff´erenci´es par l’emphase introduisent une variation de sens, par
+exemple :
+/adar/ (rang) avec (d spirant ou occlusive) et /ad. ar/ (pied) avec d (empathique), il y
+aune diff´erence de sens.
+La diff´erence d’emphase implique la diff´erence de sens, donc lors de la transcription
+phonologique on fait attention de marquer l’emphase [32].
+Labio-v´elaire
+Les labio-v´elaires sont ignor´es car elles sont des r´ealisations r´egionals /gw/ /kw/
+[10].
+Exemple :
+— porte : tabburt/taggurt/tawwurt/ tappurt (/pp/ variante propre f´eminin)
+on ´ecrit tawwurt
+— cuir : eww/ebbo /eggo
+on ´ecrit eww
+2.8
+ASR appliqu´e dans la langue Amazighe
+2.8.1
+D´efis rencontr´es
+Variabilit´e linguistique
+La langue Amazighe est connue par ses dialectes vari´es ce qui explique la difficult´e
+de cr´eation des mod`eles adapt´es `a toutes ces variations [25].
+Manque de ressources linguistiques
+le manque de transcription et de corpus annot´es pour entrainer les mod`eles de recon-
+naissance automatique de la parole [25].
+Mod´elisation acoustique
+La phonologie unique de la langue Amazighe rend la mod´elisation des ses phon`emes
+et accents plus complexe [25].
+
+--- PAGE 41 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+2.8 ASR appliqu´e dans la langue Amazighe
+30
+Sensibilte aux contexte culturelle
+Pour r´ealiser un syst`eme de reconnaissance pr´ecis il faut bien comprendre le contexte
+culturel et les particularit´es de cette langue [25].
+2.8.2
+Travaux r´ealis´es
+Malgr´e toutes ces d´efis rencontr´es, plusieurs recherches ont ´et´e faites sur la recon-
+naissance automatique de la langue Amazighe en utilisant diff´erentes techniques comme
+l’apprentissage automatique et les r´eseaux de neurones dans le but de la pr´eservation
+culturelle et l’accessibilit´e num´erique. On cite quelques-uns :
+—
+≪The convolutional neural networks for Amazigh Speech Recognition System≫
+r´ealis´e par [Meryam Telmem, Youssef Ghanou, Moulay Ismail, University Meknes,
+Morocco], ils ont pr´esent´e une approche bas´ee sur les r´eseaux neuronaux convolu-
+tionnels pour construire un syst`eme de reconnaissance automatique de la parole pour
+la langue amazighe. Ce syst`eme est construit avec TensorFlow et utilise le mel fre-
+quency cepstral. Ce syst`eme est construit avec TensorFlow et utilise le coefficient
+(MFCC) pour extraire des caract´eristiques. Afin de tester l’effet du sexe et de l’ˆage
+du sur la pr´ecision du mod`ele, le syst`eme a ´et´e entraˆın´e et test´e sur plusieurs en-
+sembles de donn´ees.
+—
+≪Comparative study of Amazigh Speech Recognition Systems based on different
+toolkits and approaches≫, r´ealis´e par [Safˆaa EL OUAHABI,Sara EL OUAHABI
+et Mohamed ATOUNTI, University Oujda, Morocco], L’objectif de cette ´etude est
+d’´evaluer et de contraster les performances de diff´erentes approches ASR appliqu´ees
+`a la langue Amazighe. Les techniques de mod´elisation markovienne, y compris les
+mod`eles de Markov de Markov cach´es avec une distribution de m´elange gaussien,
+les r´eseaux neuronaux convolutifs, la taille du vocabulaire, et enfin le choix de l’al-
+gorithme.
+—
+≪Investigation Amazigh speech recognition using CMU tools≫, r´ealis´e par [Has-
+san Satori Fatima ElHaouss, International Journal of SpeechTechnology], L’objec-
+tif de cet article est de d´ecrire le d´eveloppement d’un syst`eme automatique continu
+ind´ependant du locuteur. Le syst`eme conc¸u est bas´e sur les outils Sphinx de l’Uni-
+versit´e Carnegie Mellon.
+2.8.3
+Contribution de ASR au d´eveloppement de la langue Amazi-
+ghe
+L’ASR joue un rˆole important dans la revitalisation et le developpement de la langue
+Amazighe, on cite ci-dessous quelques utilit´es de ASR :
+— ´Education et apprentissage : Faciliter l’apprentissage de la langues et l’int´ercation
+avec les syst`emes ´educatifs qui reconnaissent la langue.
+— Reconnaissance internationale : La pr´esence de la langue Amzighe dans le do-
+maine num´erique lui permet d’ˆetre reconnue au niveau international.
+
+--- PAGE 42 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+2.8 ASR appliqu´e dans la langue Amazighe
+31
+— Accessibilit´e : Avec la communication par la voix, la langue Amazighe sera plus
+accessible pour les personnes handicap´ees visuellement.
+— Promotion culturelle : Avec des application de poesie et de narration on peut pro-
+mouvoir la langue Amazighe.
+— Revitalisation de la langue : ASR est ´el´ement essentiel pour la pr´eservation de la
+langue Amazighe.
+
+--- PAGE 43 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+2.9 Historique et statut
+32
+Pr´esentation de centre
+Le CRLCA (Le centre de recherche en langue et culture amazighes) de B´eja¨ıa, est un
+´etablissement publique `a caract`ere scientifique et technologique `a vocation sectorielle a
+´et´e cr´ee par le d´ecret ex´ecutif n° 17-95 du 26 f´evrier 2017 . Son organisation interne
+a ´et´e faite par l’arrˆet´e interminist´eriel du 12 juin 2019 portant organisation interne du
+centre de recherche en langue et culture amazighes.
+Le centre a pour mission la r´ealisation des programmes de recherche scientifique dans
+les diff´erents domaines de la langue et culture Amazighes.
+En r´esum´e, le Centre de Recherche en Langue et Culture Amazighes de B´eja¨ıa joue un
+rˆole central dans la promotion et le d´eveloppement de l’amazighit´e `a travers ses activit´es
+de recherche, de formation et de d´ebat public sur ces questions.
+2.9
+Historique et statut
+— Le CRLCA a ´et´e cr´e´e en 1991 au sein de l’Universit´e de B´eja¨ıa, d’abord en tant que
+d´epartement, puis promu en institut en 1996 avant de redevenir un d´epartement en
+1999.
+— Depuis la mise en place du syst`eme LMD, le d´epartement propose une licence, trois
+masters (g´eographie linguistique, civilisation et didactique) et deux doctorats
+mission de CRLCA
+Le centre a pour mission la r´ealisation des programmes de recherche scientifique
+dans les diff´erents domaines de la langue et culture Amazighes.
+A ce titre, le centre est charg´e :
+En mati`ere de langue Amazighe
+— De mettre en œuvre des projets de recherche dans les domaines des sciences et tech-
+niques du langue appliqu´es `a la langue Amazighe dans toutes ses vari´et´es;
+— De r´ealiser des travaux de recensement, de rationalisation, d’adaptation et de pro-
+duction de la terminologie scientifique et technique;
+— De participer `a la prospection, `a la s´election, `a l’acquisition et `a la diffusion des blogs
+lexique et la documentation `a caract`ere p´edagogique, scientifique et technique;
+— De d´evelopper des m´ethodes et techniques de traduction en vue de r´epondre aux
+besoins du syst`eme ´educatif, de formation et de recherche;
+— D’ex´ecuter des recherche th´eoriques et appliqu´ees sur le d´eveloppement de la langue
+et de la linguistique Amazighes, en liaison avec les institutions et ´etablissements
+concern´es.
+En mati`ere de culture Amazighe
+— De recenser les as et coutumes et les pratiques culturelles et culturelles;
+
+--- PAGE 44 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+2.10 Organigrame dentreprise :
+33
+— De transcrire et de valoriser les expression de la culture Amazighe;
+— De reconstituer le patrimoine immat´eriel;
+— D’´etudier la pratique et l’interpretation des cultures orales et leur transmission `a
+travers les ´etapes historique;
+— De r´ealiser des recherches sur l’´evolution de la culture Amazighe dans toutes les
+´etapes.
+2.10
+Organigrame dentreprise :
+Figure 2.5 – Organigrame dentreprise.
+
+--- PAGE 45 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+2.10 Organigrame dentreprise :
+34
+Conclusion
+Dans ce chapitres on a pu pr´esenter la langue Amazighe comme un moyen de com-
+munication, un gardien de traditions mill´enaires et v´ehicule de l’histoire berb`ere.
+Comme on a pu parler des ses aspets linguistiques et des dialectes vari´es et notamment
+le kabyle. Puis on a cit´e certains travaux r´ealis´es dans le reconnaissance automatique de
+parole pour la langue Amazighe dans le but de pr´eserver et promouvoir cette langue .
+Dans le prochain chapitre, on va pr´esenter l’une des ´etapes les plus importantes dans
+ASR qui est la r´ecolte et le Pr´etraitement des donn´ees.
+
+--- PAGE 46 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+3
+Collecte et traitement des donn´ees
+Introduction
+La collecte des donn´ees est une ´etape cruciale dans la recherche et l’analyse de
+donn´ees, elle permet d’obtenir les informations n´ecessaires et pertinentes qui seront
+analys´ees et trait´ees pour r´epondre `a une hypoth`ese ou bien une probl´ematique pos´ee.
+Sommaire
+Introduction
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+3.1
+´Echantillonnage et Corpus
+. . . . . . . . . . . . . . . . . . . . . .
+35
+3.2
+Processus de collecte des donn´ees . . . . . . . . . . . . . . . . . . .
+37
+3.3
+Pr´etraitement des donn´ees
+. . . . . . . . . . . . . . . . . . . . . .
+41
+Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+45
+3.1
+´Echantillonnage et Corpus
+3.1.1
+´Echantillonnage
+Un ´echantillonnage est la phase qui consiste `a s´electionner les individus que l’on
+souhaite interroger au sein de la population de base.
+3.1.2
+Types de l’´echantillonnage
+Al´eatoires ou Repr´esentative
+— Al´eatoire : Elle repose sur le principe de s´election au hasard ou al´eatoire `a partir
+d’une population cibl´ee.
+
+--- PAGE 47 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+3.1 ´Echantillonnage et Corpus
+36
+— Repr´esentative : Elle repose sur un choix arbitraire des unit´es, c’est l’enquˆeteur qui
+choisit les unit´es et non le hasard.
+Pour une diversit´e linguistique des locuteurs on a utilis´e le type al´eatoire o`u le choix
+des participant est au hasard.
+Quantitatives ou Qualitatives
+— Quantitative : Elle permet de prouver des faits. L’´echantillon doit ˆetre le plus repr´esentatif
+possible. Plusieurs m´ethodes sont utilis´ees pour r´ealiser cette ´etude comme le son-
+dage et le questionnaire.
+— Qualitative : Lors d’une ´etude qualitative l’objectif n’est pas de v´erifier sur le terrain
+des hypoth`eses mais de comprendre des ph´enom`enes en profondeur. Pour r´ealiser
+cette ´etude on peut utiliser la recherche documentaire ,observation et l’analyse des
+discours.
+Comme notre travail se base sur l’analyse et et le traitement de grandes quantit´e des
+vocaux, donc on a utilis´e la m´ethode quantitative. Cette derni`ere permet d’am´eliorer la
+pr´ecision et l’efficacit´e de la reconnaissance vocale.
+3.1.3
+corpus
+Un corpus est un ensemble de donn´ees langagi`eres qui sont s´electionn´ees d’apr`es
+des crit`eres explicites pour servir d’´echantillon de langage.
+3.1.4
+Types d’un corpus
+— Corpus arbor´e : est un ensemble de donn´ees linguistiques dans lequel chaque
+phrase est annot´ee et analys´ee selon sa structure syntaxique.
+Ces corpus sont souvent utilis´es pour comprendre la structure grammaticales des
+langues.
+— Corpus parall`ele : est compos´ee de textes dans deux langues ou plus, ces corpus
+sont souvent utilis´es pour la traduction automatique.
+— Corpus phonologique (vocal) : est un ensemble d’enregistrement vocaux ou audio,
+ces corpus sont utilis´es pour la reconnaissance vocale et l’analyse de la parole.
+3.1.5
+´El´ements d’un corpus
+— Support de production des donn´ees : Cela fait r´ef´erences au dispositifs et aux
+outils utilis´es, c¸a peut ˆetre des enregistrements `a l’aide d’un dictaphone ou bien des
+transcriptions manuscrites...
+— Nature des documents constitutifs : C¸ a peut ˆetre des articles,transcription des dis-
+cours ou autres documents.
+— Forme et nature des annotations : La nature des annotation d´epends des objectifs
+de corpus.
+— Repr´esentativit´e : Un corpus repr´esentatif inclut une diversit´e de textes ou d’enre-
+gistrement vocaux qui captures diff´erentes variations linguistiques.
+
+--- PAGE 48 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+3.2 Processus de collecte des donn´ees
+37
+3.2
+Processus de collecte des donn´ees
+3.2.1
+Pr´eparation des phon`emes et des phrases
+La premi`ere ´etape `a effectuer consiste `a identifier les lettres et les phon`emes de la
+langue Amazighe (Kabyle),, qui s’efforce de pr´eserver et de documenter cette langue.
+Ce travail est fait par le centre de recherche la langue et la culture Amazighe. Ils ont
+associ´e pour chaque phon`eme un exemple de Noms (15) et de verbes (15) contenant ce
+phon`eme dans diff´erentes positions (d´ebut,milieu,fin).
+Des exemples de phrases ont ensuite ´et´e cr´e´es ,our chaque nom et verbe s´electionn´e afin
+de montrer comment les utiliser dans leur contexte.
+Ces phrases aideront `a comprendre comment les phon`emes sont utilis´es dans un discours
+complet et vari´e.
+Ceci est essentiel pour l’analyse du langage et la reconnaissance vocale.
+En tout, ce corpus se compose de 37 phon`emes. Avec 30 phrases par phon`eme, cela
+donne un total de 1 110 phrases.
+Chaque liste de phrases (associ´ee `a un phon`eme) est r´ep´et´ee cinq fois pour am´eliorer la
+robustesse de l’analyse et garantir des r´esultats fiables.
+Ces r´ep´etitions permettent de v´erifier la constance et la pr´ecision des mod`eles de recon-
+naissance vocale d´evelopp´es.
+Le corpus final contenant toutes ces it´erations constituera une ressource pr´ecieuse pour
+les chercheurs travaillant sur la langue kabyle, fournissant une base solide pour d´evelopper
+des techniques de reconnaissance vocale pr´ecises et efficaces.
+3.2.2
+Les param`etre et r´eglage
+Il nous faut un corpus bien sp´ecifique, c’est pour cette raison on a pris en consid´eration
+4 param`etre essentiels
+ˆAge : Pour la rubrique ˆage, nous avons essay´e de toucher toute les tranches d’ˆage
+possibles pour avoir des r´esultats plus vastes, la parole varie ´egalement avec l’ˆage, pour
+des raisons `a la fois g´en´erationnelles et physiologiques.
+R´egion : En ce qui concerne les r´egions on a opt´e pour 3 villes essentielle qui sont
+Bejaia (997enregistrement), Tizi Ouzou (36enregistrement) et Bouira(72enregistrement),
+et on a vis´e toute les r´egions de B´ejaia de l’est au west (Tazmalt , Akbou , Sidi aich, Ami-
+zour, B´ejaia ville , Tichy, Aokas, Soukltenin, Aithsmail , Kherrata ).
+Sexe : Les femmes et les hommes ont des diff´erentes voix, c’est pour c¸a on a pris les
+deux sexe.
+Statut sociale : Nous avons inclus plusieurs statuts sociales (´etudiants, enseignants,
+agents, etc.),pour capturer une diversit´e de styles de parole.
+Le choix de ces param`etres vise `a garantir que le corpus soit repr´esentatif et inclusif,
+ce qui refl`ete les variations linguistiques et sociales de la langue Kabyle.
+
+--- PAGE 49 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+3.2 Processus de collecte des donn´ees
+38
+Figure 3.1 – statistiques des femmmes et homme dans notre base de donn´ees.
+Figure 3.2 – statistiques des villes dans notre base de donn´ees.
+
+--- PAGE 50 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+3.2 Processus de collecte des donn´ees
+39
+Figure 3.3 – statistiques des tranches d’ˆages.
+3.2.3
+Choix des ´equipements et du terrain
+Pour nous assurer que notre collecte est effectu´ee avec pr´ecision et efficacit´e, nous
+avons choisi des zones repr´esentatives de la diversit´e linguistique et sociale de la popu-
+lation kabyle. Cela est essentiel pour capturer pleinement les nuances de cette culture
+linguistique riche et vari´ee.
+— Formation des ´equipes : Formation de quatre ´equipes de deux personnes o`u chaque
+binˆome travaille dans une zone pr´ecise.
+— R´egion : On a choisi diff´erentes zones de la ville, en commenc¸ant par le milieu
+universitaire qui rassemble diff´erentes tranches d’ˆage et r´egions kabyles, que ce soit
+de la mˆeme ville ou venant d’autre villes, puis passant au centre-ville o`u il y a une
+diversit´e d’ˆage et de statut social.
+3.2.4
+Enregistrement vocale avec dictaphone
+Pour l’enregistrement des voix, on a utilis´e un dictaphone num´erique fourni par le
+centre de recherche de la langue et la culture Amazighe.
+Un dictaphone num´erique Il s’agit d’un appareil multim´edia qui permet d’enregis-
+trer des sons et les stocker directement sur une carte SD Mini SD. Parmi ses avantages,
+on trouve la tr`es bonne qualit´e de captation sonore et la facilit´e de le transporter.
+
+--- PAGE 51 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+3.2 Processus de collecte des donn´ees
+40
+Figure 3.4 – Dictaphone num´erique
+Ce qui en fait un choix parfait pour enregistrer sur le terrain
+3.2.5
+constitution de base de donn´ees
+GLIDE est une plateforme sophistiqu´ee, sans n´ecessiter de connaissances en co-
+dage, qui permet de cr´eer une application puissante et riche en fonctionnalit´es qui n’a
+pas d’exp´erience en mati`ere de codage.
+Elle utilise une interface visuelle pour ajouter des ´el´ements, des images, des boutons
+et personnaliser l’apparence de l’application. Glide se connecte `a des bases de donn´ees
+telles que Google Sheets et Airtable pour r´ecup´erer les donn´ees et les utiliser pour cr´eer
+des applications.
+En r´esum´e, Glide est un outil puissant et facile `a utiliser pour cr´eer des applications mo-
+biles et Web sans codage.
+Id´eal pour les entreprises, les entrepreneurs et les enseignants qui souhaitent cr´eer des
+applications rapidement et efficacement.
+
+--- PAGE 52 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+3.3 Pr´etraitement des donn´ees
+41
+Figure 3.5 – Logiciel Glide
+3.2.6
+Enregistrement sur la base de donn´ees
+L’application TALN Avec l’application TALN-RV-DATA cr´e´ee par le centre de
+recherche de la culture Amazighe, on a pu enregistrer les donn´ees de chaque participant
+( ˆAge,sexe,r´egion et statut sociale).
+3.3
+Pr´etraitement des donn´ees
+Le Pr´etraitement des donn´ees ou bien en anglais Data Preprocessing est une ´etape
+essentielle qui consiste `a nettoyer, trier et regrouper des donn´ees pour qu’elle soit prˆete
+`a traiter correctement.
+3.3.1
+Pr´etraitement (Segmentation)
+La phase de segmentation joue un rˆole tr`es important dans les syst`emes de recon-
+naissance vocale et n´ecessite un int´erˆet particulier, de notre part on a trait´e les enregis-
+trements manuellement en utilisant le logiciel Audacity et c¸a en supprimant les bruits
+, parasites et en ´eliminant les enregistrements vocaux de mauvaise qualit´e. Cela avait
+pour but d’am´eliorer la clart´e des enregistrements, ce qui est essentiel pour une analyse
+pr´ecise.
+Ensuit Nous les avons segment´es en plusieurs parties : le phon`eme, le mot et la phrase
+qui correspond.
+Apr`es chaque segmentation, nous effectuons des tests par ´ecoute afin de s’assurer que la
+segmentation a ´et´e bien faite et pour v´erifier la pr´ecision de la segmentation, corrigeant
+ainsi les ´eventuelles erreurs.
+Pour bien organiser la base de donn´ees, on a attribu´e chaque enregistrement vocale a un
+identifiant unique qui est associ´e a des crit`eres d’ˆage, sexe, r´egion et statut sociale.
+L’attribution d’identifiants uniques facilite le suivi et l’analyse des enregistrements, ce
+qui permet une gestion plus efficace des donn´ees.
+
+--- PAGE 53 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+3.3 Pr´etraitement des donn´ees
+42
+Figure 3.6 – La base de donn´ees TALN
+Audacity :
+Audacity est le logiciel gratuit et open source d’enregistrement et d’´edition audio le
+plus populaire au monde, cr´ee par Roger [ B. Dannenberg (d)] et [ Dominic Mazzoni
+(d)]. Ce logiciel polyvalent permet l’enregistrement de sons num´eriques et l’´edition de
+sources audio-num´eriques sous diff´erents formats, le rendant id´eal pour les chercheurs
+et tous ceux qui souhaitent faire preuve de cr´eativit´e avec le son.
+Grˆace `a ses nombreuses fonctionnalit´es et `a son interface conviviale, Audacity est un
+outil pr´ecieux pour travailler avec des donn´ees audio.
+Ses fonctionnalit´es
+— Enregitrement et ´edition audio : Avec Audacity on peut enregitrer et ´editer des
+pistes audio, enregistrer des voix et des podcasts.
+— Formats des fichiers : Importer et exporter des fichiers audio sous diff´erents for-
+mats.
+— Analyse audio : Pour visualiser des fr´equences audio on utilise des spectogrammes.
+
+--- PAGE 54 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+3.3 Pr´etraitement des donn´ees
+43
+— Multi-pistes : On peut faire des projets multi-pistes avec audacity.
+Figure 3.7 – Logiciel Audacity
+Figure 3.8 – Barre d’outils d’audacity
+
+--- PAGE 55 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+3.3 Pr´etraitement des donn´ees
+44
+3.3.2
+´Etiquetage et cr´eation d’un fichier csv
+L’´etiquetage ou bien Data lebelling en anglais, c’est connecter des informations `a des
+divers points des donn´ees pour que les algorithmes puissent comprendre la signification.
+Type d’´etiquetage
+— Vision par ordinateur : Pour cat´egoriser des images et identifier des objets dans
+des images, les algorithmes de machines learning ont toujours besoin des ´etiquetes
+des ces donn´ees.
+— Traitement de langage naturel : Les ´etiquetes NLP sont utilis´ees par des applica-
+tions textuels afin d’identifier des mots, des phrases.
+— Traitement audio : ´Etiqueter les sons du contenu audio permet au algorithmes d’ap-
+prentissage automatique de reconnaitre les sons.
+Avantage d’´etiquetage
+— Pr´ecision des donn´ees : La m´ethode utilis´ee pour ´etiqueter a un impact sur la
+pr´ecision des r´esultats obtenus.
+— Qualite : ´Etiqutage est souvent utilis´e pour am´eliorer la qualit´e des applications
+d’apprentissage automatique.
+— Decouverte des opportunites commercials : ´Etiqutage pr´ecis avec des analyses
+permet au entreprises de d´efinir des opportunites g´en´eratrices.
+Pour organiser et structurer nos donn´ees de mani`ere lisible et accessible, nous avons
+cr´e´e un fichier de type CSV sur LibreOffice, avec trois colonnes : la premi`ere contient
+le code vocal, la deuxi`eme contient sa transcription et la troisi`eme contient le chemin ce
+dernier.
+Notre base de donn´ees contient au total 9513 vocaux.
+Dans notre cas, on a bien utilis´e le typ3 d’´etiquetage de traitement audio, ce qui signifie
+que chaque enregistrement a sa propre transcription.
+
+--- PAGE 56 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+3.3 Pr´etraitement des donn´ees
+45
+Figure 3.9 – Cr´eation d’un fichier CSV
+Conclusion
+Dans ce chapitre, on a abord´e les ´etapes essentielles de la collecte et du traitement
+des donn´ees n´ecessaires `a la r´ealisation de notre ´etude. La qualit´e et la repr´esentativit´e
+des donn´ees sont cruciales pour garantir la fiabilit´e des r´esultats obtenus. Donc, on a
+commenc´e par d´etailler les m´ethodes d’´echantillonnage et les types de corpus utilis´es.
+Ensuite, on a expliqu´e les processus de collecte commenc¸ant par la pr´eparation des
+phon`emes, le choix de param´etrage puis l’enregistrement, le choix des ´equipes et des
+r´egions.
+Par la fin, nous sommes pass´es au pr´etraitement des donn´ees et aux logiciels utilis´es.
+Ces ´etapes sont fondamentales pour pr´eparer une base de donn´ees robuste, indis-
+pensable pour les analyses ult´erieures et le d´eveloppement d’applications telles que la
+reconnaissance vocale.
+Dans le prochain chapitre, nous aborderons les diff´erentes ´etapes de l’impl´ementation
+de cette base de donn´ees ainsi que le plateforme utilis´ee.
+
+--- PAGE 57 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+4
+R´ealisation d’un syst`eme de
+reconnaissance de la parole
+Introduction
+Pour construire des syst`emes de reconnaissance vocale, plusieurs plateformes sont
+disponibles telles que Sphinx, Common Voice et Kaldi.
+Kaldi est une plateforme de reconnaissance vocale qui g`ere la reconnaissance dans
+plusieurs langues en utilisant des mod`eles acoustiques sp´ecifiques `a chaque langue.
+Dans notre chapitre, nous explorons les caract´eristiques g´en´erales des plateformes de
+reconnaissance vocale.
+Ensuite, nous nous concentrerons sp´ecifiquement sur la plateforme Kaldi. Nous
+donnerons un aperc¸u d´etaill´e sur son architecture, ses fonctionnalit´es et la mani`ere dont
+notre jeu de donn´ees a ´et´e int´egr´e et utilis´e pour l’entraˆınement, et l’´evaluation des
+mod`eles de reconnaissance vocale.
+Chaque composant du syst`eme de reconnaissance vocale pris en charge par cette boˆıte
+`a outils sera ´egalement illustr´e, comme l’extraction des caract´eristiques, la
+mod´elisation acoustique et le d´ecodage.
+Sommaire
+Introduction
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+46
+4.1
+Plateformes de reconnaissance vocale . . . . . . . . . . . . . . . .
+47
+4.2
+La plateforme kaldi . . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+4.3
+Processus de r´ealisation d’un ASR avec Kaldi
+. . . . . . . . . . .
+51
+4.4
+Application sur notre base de donn´ees . . . . . . . . . . . . . . . .
+53
+Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+62
+
+--- PAGE 58 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+4.1 Plateformes de reconnaissance vocale
+47
+4.1
+Plateformes de reconnaissance vocale
+Il existe plusieurs librairies pour le domaine de RAP, parmi ces librairies : HTK,
+Sphinx, Kaldi, ASR de Matlab, Java Speech, ISIP.
+4.2
+La plateforme kaldi
+Kaldi est une boˆıte `a outils de reconnaissance vocale compos´ee d’une biblioth`eque,
+de programmes en ligne de commande et de scripts pour la mod´elisation acoustique.
+Kaldi est un outil open-source de reconnaissance vocale ´ecrit en C++. L’objectif de
+Kaldi est de fournir du code flexible et ”facile” `a comprendre. Il est alors possible de
+modifier le code source pour r´epondre `a des besoins sp´ecifiques et rajouter des fonction-
+nalit´es.
+Kaldi d´eploie plusieurs d´ecodeurs pour ´evaluer les mod`eles acoustiques (AM) de Kaldi.
+Il existe naturellement d’autres alternatives open-source telles que Sphinx ou HTK,
+toutes inf´erieures `a Kaldi en terme de performance et de support.
+C’est pour les raisons cit´ees ci-dessus, que Kaldi a ´et´e retenu pour le d´eveloppement du
+syst`eme de reconnaissance vocale [17].
+4.2.1
+Sphinx
+Sphinx est une librairie de reconnaissance vocale gratuitement t´el´echargeable, avec
+la possibilit´e de modifier le code source, il a la capacit´e d’impl´ementer des syst`emes
+avec un large vocabulaire, ind´ependants du locuteur [17].
+4.2.2
+HTK
+Hidden Markov Model Toolbox (HTK) est une boˆıte `a outils d´edi´ee aux Mod`eles de
+Markov Cach´es est principalement utilis´ee pour la reconnaissance de la parole. Elle se
+compose d’un ensemble de modules et d’outils disponibles gratuitement et t´el´echargeables
+`a partir du site. HTK est impl´ement´e en langage C et il s’ex´ecute en ligne de commande.
+Il est capable de mettre en oeuvre un grand vocabulaire, ind´ependamment du locuteur
+et est applicable sur n’importe quelle langue. La documentation sur HTK est tr`es riche
+avec des exemples pratiques [5].
+4.2.3
+Simon
+Simon est un logiciel de reconnaissance vocale technologiquement avanc´e et tr`es
+flexible.
+Le logiciel offre une personnalisation de haut niveau pour toutes les applications et peut
+donc ˆetre utilis´e avec tous les syst`emes dans lesquels la reconnaissance vocale est re-
+quise.
+
+--- PAGE 59 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+4.2 La plateforme kaldi
+48
+La technologie derri`ere Simon comprend les biblioth`eques KDE, ainsi que HTK et CMU
+SPHINX. Le logiciel est disponible en open source et gratuitement pour les syst`emes
+d’exploitation Windows et Linux.
+4.2.4
+Matlab
+Matlab inclut une boˆıte `a outil (toolbox) incluant des algorithmes d’apprentissage
+artificiel bas´es sur les mod`eles de Markov cach´es et des algorithmes de d´etection des
+s´equences temporelles hors ligne et en ligne [5].
+4.2.5
+VoxForge
+VoxForge a ´et´e mis en place pour recueillir la parole transcrite pour une utilisation
+dans les moteurs de reconnaissance de la parole Open Source (Speech Recognition En-
+gines “SRE”) tels que ISIP, HTK, Julius et Sphinx[29].
+4.2.6
+Pourquoi kaldi
+Kaldi est une plateforme de pointe en mati`ere de reconnaissance automatique de la
+parole, offrant des performances ´elev´ees et une personnalisation avanc´ee des mod`eles.
+Que ce soit pour la transcription audio, la recherche en traitement du langage naturel,
+ou la cr´eation d’assistants vocaux, Kaldi est un choix puissant pour les projets de recon-
+naissance vocale.
+4.2.7
+Installation
+La platforme Kaldi fonctionne g´en´eralement sur linux.
+Tout d’abord, on doit installer Git. Ouvrez le terminal et tapez la commande sui-
+vante,l’installation peut prendre plusieurs heures.
+git clone https ://github.com/kaldi-asr/kaldi.git kaldi –origin upstream cd kaldi
+Pour une mise `a jour de kaldi on utilise la commande suivante.
+mira@mira-Inspiron-3521 : /Desktop/kaldi sudo apt upgrade
+Apr´es la mise `a jour g´en´erale on doit installer les libraies suivantes tools, extras et
+src en suivant les ´etapes et les commandes suivantes :
+
+--- PAGE 60 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+4.2 La plateforme kaldi
+49
+tools
+mira@mira-Inspiron-3521 :/Desktop/kaldi cd tools/
+acc´eder `a tools
+mira@mira-Inspiron-3521 :/Desktop/kaldi/tools extras/check dependencies.sh
+verifier les installation dependantes
+mira@mira-Inspiron-3521 :/nproc
+v´erifier le nombre de processeurs
+mira@mira-Inspiron-3521 :/Desktop/kaldi/tools make
+pour la compilation
+mira@mira-Inspiron-3521 :/Desktop/kaldi/tools make -j 12
+extras
+mira@mira-Inspiron-3521 :/Desktop/kaldi/tools extras/install irstlm.sh
+Apr´es l’installation de tous les packages dans tools et extras on passe au src.
+src
+mira@mira-Inspiron-3521 :/Desktop/kaldi/tools cd ../src/
+acc´eder a src.
+mira@mira-Inspiron-3521 :/Desktop/kaldi/src ./configure
+pour la configuration
+mira@mira-Inspiron-3521 :/Desktop/kaldi/src make depend
+mira@mira-Inspiron-3521 :/Desktop/kaldi/src make
+pour la compilation
+4.2.8
+Fonctionnement g´en´eral de Kaldi
+Les composants de la plateforme Kaldi sont essentiels pour son fonctionnement
+dans la reconnaissance automatique de la parole (RAP). Voici une vue simplifi´ee des
+diff´erents composants de Kaldi :
+Figure 4.1 – Les diff´erentes composantes de Kaldi [30].
+Kaldi Library : Les biblioth`eques externes sont utilis´ees dans le code C++ de Kaldi
+
+--- PAGE 61 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+4.2 La plateforme kaldi
+50
+pour impl´ementer les diverses briques technologiques.
+Kaldi Executables : Ces briques, une fois assembl´ees `a partir des biblioth`eques ex-
+ternes, donnent lieu `a des fonctionnalit´es op´erationnelles pour la reconnaissance vocale.
+Scripts Shell : Les fonctionnalit´es g´en´er´ees par les Kaldi Executables permettent de
+composer le syst`eme de reconnaissance vocale, facilitant ainsi l’utilisation de la plate-
+forme dans des applications pratiques.
+External Libraries :Le finite-state framework de OpenFst, une biblioth`eque essentielle
+pour Kaldi . “Basic Linear Algebra Subroutines” (BLAS) et “Linear Algebra PACKage”
+(LAPACK) pour le calcul alg´ebrique [11].
+En r´esum´e, les Kaldi Libraries sont utilis´ees pour impl´ementer les algorithmes de recon-
+naissance vocale, offrir une flexibilit´e et une personnalisation dans le d´eveloppement de
+syst`emes, et b´en´eficier d’une mise `a jour constante et du support de la communaut´e pour
+les tˆaches de reconnaissance vocale automatique.
+4.2.9
+Utilisations courantes
+Kaldi est utilis´e dans un large ´eventail d’applications, notamment :
+Transcription audio : Il est capable de transcrire de l’audio en texte, ce qui est utile
+pour les services de transcription automatis´ee.
+Assistants vocaux : Kaldi peut ˆetre int´egr´e dans des assistants vocaux pour permettre
+des interactions vocales avec des syst`emes informatiques.
+Recherche en Traitement du Langage Naturel : Il est utilis´e dans la recherche acad´emique
+pour d´evelopper de nouveaux mod`eles de reconnaissance vocale et d’autres applications
+en traitement du langage naturel.
+Syst`emes de commande vocale : Kaldi peut ˆetre utilis´e pour d´evelopper des syst`emes
+de commande vocale pour des applications telles que la domotique.
+4.2.10
+Structure de la plateforme Kaldi
+Apr`es l’installation de la boˆıte `a outils Kaldi, on trouve que son r´epertoire contient
+l’arborescence suivante :
+kaldi-trunk/
+cmake/
+docker/
+egs/
+misc/
+scripts/
+src/
+tools/
+windows/
+README.md
+egs : Contient plein d’exemples des scripts qui vous permet de construire rapidement
+des syst`emes ASR depuis plus de 30 corpus vocaux populaires. On note que la majorit´e
+des corpus appartiennent `a : Linguistic Data Consortium ≪LDC ≫et qui ne sont pas
+
+--- PAGE 62 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+4.3 Processus de r´ealisation d’un ASR avec Kaldi
+51
+gratuits .
+src : Contient le code source de Kaldi (Kaldi Libraries et Kaldi Executables).
+Misc : Contient des outils suppl´ementaires, il est optionnel pour le fonctionnement cor-
+rect Kaldi.
+outils : Contient des composants utiles et des outils externes .
+windows : Contient des outils pour ex´ecuter Kaldi sous Windows.
+4.3
+Processus de r´ealisation d’un ASR avec Kaldi
+4.3.1
+Pr´eparation des donn´ees
+Pour commencer avec la plateforme Kaldi on doit fournir ces fichiers :
+fichier wav : Ce fichier contient les audio enregitr´es.
+fichier texte : Ce dernier contient la transcription de chaque audio.
+dictionnaire : Ce dictionnaire contient les phon`emes et les sons.
+4.3.2
+Extraction des caract´eristiques
+Apr`es la constitution de la base de donn´ees, kaldi utilise la m´ethode Mel-Frequency-
+Cepstral (MFCC) pour extraire les caract´eristiques n´ecessaires et convertir le signal au-
+dio de l’analogique au num´erique.
+Les param`etres de MFCC sont choisis selon les donn´ees qu’on poss`ede.
+La normalisation des donn´ees vient apr`es l’extraction des donn´ees, c’est une ´etape
+qui permet d’am´eliorer les r´esultats en ´eliminant les redondances .
+Dans cette ´etape, Kaldi utilise Cepstral Mean and Variance Normalization (CMVN).
+4.3.3
+Mod`ele acoustique
+Avant de passer `a l’entraˆınement du mod`ele acoustique on doit passer par l’aligne-
+ment et l’entraˆınement des monophones et des triphones.
+Le mod`ele monophone est un mod`ele acoustique qui ne contient pas d’informations
+contextuelles sur les phon`emes pr´ec´edents ou suivants, il passe par les deux ´etapes sui-
+vantes :
+— Entraˆınement des mod`eles associ´es `a chaque phon`eme grˆace `a l’algorithme Expec-
+tation Maximization. On obtient ensuite la transcription phon´etique du signal audio
+utilis´e.
+— Alignement de la transcription avec le signal audio. Cette ´etape permet d’associer
+un phon`eme `a un son.
+Le mod`ele Triphone est introduit pour prendre en compte la variabilit´e de la pronon-
+ciation des phon`emes dans leur contexte et ainsi am´eliorer grandement les performances
+de reconnaissance.
+
+--- PAGE 63 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+4.3 Processus de r´ealisation d’un ASR avec Kaldi
+52
+L’entraˆınement du mod`ele triphone suit les mˆemes ´etapes que le mod`ele monophone.
+Le mod`ele HMM-DNN
+Les r´eseaux de neurones profonds (DNN) sont le dernier sujet en mati`ere de re-
+connaissance vocale. Depuis 2010 environ, de nombreux articles ont ´et´e publi´es dans
+ce domaine, et certaines des plus grandes entreprises comme Google, Microsoft com-
+mencent `a utiliser les DNN dans leurs syst`emes de production.
+Dans kaldi, il y a trois bases de code distinctes pour les r´eseaux neuronaux profonds qui
+sont [1] :
+— nnet1 : Se trouve dans les sous-r´epertoires de code nnet/ et nnetbin/, et est principa-
+lement maintenu par Karel Vesely.
+La configuration de Karel (nnet1) prend en charge la formation sur une seule carte
+GPU, ce qui permet `a la mise en œuvre plus simple et relativement facile `a modifier[1].
+— nnet2 : Est situ´e dans les sous-r´epertoires de code nnet2/ et nnet2bin/, et est princi-
+palement maintenu par Daniel Povey (ce code ´etait `a l’origine bas´e sur une version
+ant´erieure du code de Karel, mais il a ´et´e largement r´e´ecrit).
+La configuration de Dan (nnet2) est plus flexible dans la fac¸on dont vous pouvez
+vous entraˆıner : elle prend en charge l’utilisation de plusieurs GPU[1].
+— nnet3 : Se trouve dans les sous-r´epertoires de code nnet3/ et nnet3bin/.
+La nouvelle configuration, nnet3 (nnet3), est la plus utilis´e dans les travaux r´ecents
+[1].
+Le Mod`ele HMM-GMM
+le mod`ele GMM-HMM est un mod`ele statistique qui combine les mod`eles de Mar-
+kov cach´e (HMM) et de m´elange gaussien (GMM). Dans un mod`ele GMM-HMM,
+chaque ´etat cach´e est mod´elis´e par un m´elange gaussien, ce qui permet de mod´eliser
+des distributions de probabilit´e complexes pour les observations. Les transitions entre
+les ´etats sont mod´elis´ees par des matrices de transition, comme dans les mod`eles HMM
+classiques [34].
+4.3.4
+Mod`ele de langage
+Le mod`ele de langage est g´en´er´e par SRILM - The SRI Language Modeling Toolkit.
+Cet outil permet la cr´eation de mod`eles de langage statistiques. Il suffit de lui fournir du
+texte repr´esentatif de l’application cible (par exemple les transcriptions du train set) ainsi
+que l’ordre du n-gram d´esir´e. Il se charge de calculer les probabilit´es log d’apparition
+de s´equences de k mots avec k ∈[1, n]. Le r´esultat est donn´e sous la forme d’un fichier
+(.arpa), qui sera transform´e par la suite au format (.fst) par l’interm´ediaire d’un script
+Kaldi.
+
+--- PAGE 64 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+4.4 Application sur notre base de donn´ees
+53
+4.3.5
+D´ecodeur
+Pour repr´esenter les divers composants du syst`eme de reconnaissance (HMM, mod`eles
+de d´ependance du contexte, grammaire), Kaldi utilise des weighted finite-state transdu-
+cers (WFST).
+Lors du d´ecodage, le d´ecodeur explore le graphe HCLG pour trouver la meilleure s´equence
+de mots correspondant aux observations acoustiques.
+H(HMM) : contient le mod`ele de markov cach´e. Ses symbols d’entr´ee sont des identi-
+fiants de transition et les symbols de sortie sont des contextes dependent de phon`emes.
+C(Contexte) : Ses symbols de sortie sont des phon`emes et les symbols d’entr´ee sont
+des contextes dependant des phon`emes. On peut dire qu’elle repr´esente la dependance
+contextuelle.
+L(lexique) : Ses symboles d’entr´ee sont des phon`emes et les symboles de sortie sont
+des mots. Elle contient les trasncriptions phon`emiques.
+G(Grammaire) : Repr´esente le mod`ele de langage.Ses symbols d’entr´ee et de sortie
+sont identiques qui sont des mots ou bien des unit´es lexicals.
+Des techniques d’optimisation comme la d´eterminisation et la minimisation du graphe
+WFST permettent de r´eduire la complexit´e du d´ecodage [23].
+4.3.6
+´Evaluation
+L’´evaluation de la reconnaissance de la parole est tr`es importante pour comparer les
+mod`eles, le crit`ere le plus utilis´e est Word Error Rate (WER).
+On calcule le WER des divers mod`eles `a partir des phrases du test set. Il existe trois types
+d’erreurs de reconnaissance : substitution (S), omission (O) et insertion (I), comme il est
+expliqu´e dans le prmier chapitre.
+4.4
+Application sur notre base de donn´ees
+4.4.1
+Nettoyage des donn´ees
+Nettoyage des donn´ees, ou bien data cleaning est une ´etape qui permet de corriger
+les donn´ees alt´er´es et inexacte, dans le but d’avoir un ensemble de donn´ees coh´erent et
+am´eliorer la qualit´e des ces donn´ees 4.2.
+Figure 4.2 – Nettoyage des donn´ees
+
+--- PAGE 65 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+4.4 Application sur notre base de donn´ees
+54
+4.4.2
+Pr´eparation des donn´ees
+Tout d’abord, on a commenc´e par cr´eer un projet dans Kaldi qu’on a nomm´e ’mon
+projet kabyle’.
+Pour impl´ementer notre base de donn´ees csv, nous avons cr´e´e un r´epertoire mon data
+dans kaldi egs et ouvrir deux dossier.
+wav : Contient les fichiers audio
+texte : Contient la transcription de chaque audio.
+Figure 4.3 – R´esultat apr`es l’impl´ementation
+Pour afficher les r´esultats de l’impl´ementation on utilise la commande suivante :
+Figure 4.4 – Commande d’affichage
+
+--- PAGE 66 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+4.4 Application sur notre base de donn´ees
+55
+Figure 4.5 – Affichage des wav.scp
+Figure 4.6 – Affichage des text
+Conversion de la base de donn´ees
+Apr`es la v´erification des formats des enregistrements de notre base de donn´ees avec
+kaldi on a trouv´e des enregistrements st´ereo, mono et multicanals. Alors que kaldi ac-
+cepte seulement le format mono donc on a converti notre base de donn´ees vers le mono
+avec un bash(script) qu’on a cr´ee dans kaldi.
+Figure 4.7 – Affichage de formats des enregistrements
+
+--- PAGE 67 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+4.4 Application sur notre base de donn´ees
+56
+Correction de base de donn´ees
+On a cr´ee un bash pour corriger l’extension (.wav) qui est gen´erer en majuscule et
+en miniscule lors la cr´eation de la base de donn´ees et reconnu comme erreur par kaldi.
+4.4.3
+Extraction des caract´eristiques
+Une fois la base de donn´ees est constitu´ee, on doit extraire des caract´eristiques
+acoustiques du signal de la parole en utilisant MFCC (Mel Frequency Cepstral Coef-
+ficients).
+Param´etres de configuration :
+Tout d’abord on va cr´eer un fichier conf dans notre projet qui contient les param´etres
+de MFCC qui convient notre mod`ele.
+-sample-frequency=44100
+la fr´equence d’´echantillonnage des audio.
+-num-ceps=13 Le nombre de coefficients cepstraux a extraire.
+-snip-edges=false
+si false, eviter de tronquer le fenˆetres.
+-use-energy=false
+si false,l’´energie n’est l’un caract´eristiques.
+-window-type=hamming
+Minimiser le bruit.
+Application MFCC
+Pour calculer le MFCC, on utilise la commande suivante : 4.8
+Les r´esultats sont stock´es dans un fichier matriciel (.ark) cr´e´e automatiquement apr`es la
+fin des calculs.4.9.
+Figure 4.8 – Calculer le MFCC
+
+--- PAGE 68 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+4.4 Application sur notre base de donn´ees
+57
+Figure 4.9 – R´esultats de MFCC
+La normalisation
+Pour appliquer la normalisation, on utilise les commandes suivantes :
+Figure 4.10 – La normalisation
+4.4.4
+Cr´eation de Mod`ele acoustique
+Pr´eparation des donn´ees linguistiques
+Cette ´etape est cruciale avant l’entraˆınement monophone et l’alignement, pour bien
+garantir correctement la correspondance entre la transcription et les donn´ees audio, elle
+consiste `a cr´eer des dictionnaires lexicaux, grammaticaux, surtout phon`etiques.
+Dans notre cas, on a cr´ee dans le fichier ’mon-data’ un dossier dict qui contient les dic-
+tionnaires suivants :
+
+--- PAGE 69 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+4.4 Application sur notre base de donn´ees
+58
+Figure 4.11 – Partie des dictionnaires cr´ees
+— lexicon.txt : Contient les lettres et les phon`emes 4.11.
+— silence-phones.txt : Comme nous n’avons pas de lettres silencieuses, ce fichier est
+vide et contient uniquement ’SIL’.
+— nonsilence-phones.txt : Contient uniquement les phon`emes 4.11.
+— lexiconp.txt : Ce dictionnaire est initialement vide et nous le remplissons avec ’SIL’.
+Apr`es l’ex´ecution, le syst`eme a g´ener´e d’autres dictionnaires automatiquement `a
+partir de ceux qu’on a cr´e´e 4.14.
+
+--- PAGE 70 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+4.4 Application sur notre base de donn´ees
+59
+Figure 4.12 – Pr´eparation linguistique partie 1
+Figure 4.13 – Pr´eparation linguistique partie 2
+
+--- PAGE 71 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+4.4 Application sur notre base de donn´ees
+60
+Figure 4.14 – Dictionnaire g´ener´e apr´es la pr´eparation linguistique
+Cr´eation des locuteurs fictifs(utt2spk)
+La cr´eation de fichiers utt2spk fictifs (Utterance to speaker) consiste `a cr´eer un fichier
+qui ´etablit la correspondance entre les identifiants des enregistrements(utterance) et les
+identifiants des locuteurs (speakers).
+Ce fichier peut ˆetre g´en´er´e manuellement ou bien automatiquement par Kaldi, comme on
+a plus de 9000 vocaux donc on a utilis´e cette commande pour le cr´eer automatiquement
+4.15.
+Figure 4.15 – Cr´eation des locuteur fictifs
+Entraˆınement monophone et Alignement
+Pour appliquer l’entraˆınement et l’alignement monophone on utilise les commandes
+suivantes, malheuresement `a cette ´etape on a eu le probl`eme de reconnaitre le fichier
+MFCC comme fichier vide.
+
+--- PAGE 72 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+4.4 Application sur notre base de donn´ees
+61
+Entraˆınement monophone
+mira@mira-Inspiron-3521 :/kaldi/egs/langue kabyle steps/train mono.sh –cmd
+”run.pl” –nj 4 data/train data/lang exp/mono
+Alignement
+mira@mira-Inspiron-3521 :/kaldi/egs/langue kabyle align si . sh – nj nj −
+−cmd”train cmd ” data / train data / lang expdir/mono
+Entraˆınement Triphone et Alignement
+Pour passer a l’entraˆınement et l’alignement triphone on utilise les commandes sui-
+vantes :
+entraˆınement triphone
+mira@mira-Inspiron-3521 :/kaldi/egs/langue kabyle steps / train deltas . sh – cmd
+” train cmd ” numLeavesTri1 numGaussTri1 data/train data/lang exp dir / mono
+ali exp dir / tri1
+alignement
+steps/ align si . sh – nj nj – cmd ” train cmd ” – use - graphs true data/ train data/
+lang exp dir/ tri1 exp dir/ tri1 ali
+Entraˆınement de Mod`ele DNN
+4.4.5
+Cr´eation de Mod`ele de language
+La commande utilis´ee pour la Cr´eation de Mod`ele de language est la suivante :
+utils/prepare lang.sh data/local/dict ”UNK” data/ local/lang data/lang ngram-
+count-order lm order-write- vocab local/tmp/vocab-full.txt-wbdiscount-text
+data/text .txt-lm local/tmp/lm.arpa arpa2fst–disambig-symbol =0 – read-symbol-
+table=lang /words.txt local/tmp/ lm.arpa lang/G.fst
+4.4.6
+D´ecodage
+Pour appliquer le d´ecodage on utilise la commande suivante :
+steps/nnet3/decode.sh – nj 4 cmd run.pl exp/nnet3/tdnn sp/graph data/test
+exp/nnet3/tdnn sp/decode test
+4.4.7
+´Evaluation
+Pour l’´evaluation de mod`ele on utilise la commande suivante :
+
+--- PAGE 73 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+4.4 Application sur notre base de donn´ees
+62
+steps/score kaldi.sh data/test exp/nnet3/tdnn sp/graph exp/nnet3/tdnn sp/decode
+test
+Conclusion
+Ce chapitre nous a offert une introduction compl`ete aux plateformes de reconnais-
+sance vocale, avec un accent particulier sur Kaldi et son utilisation dans le cadre de ce
+projet.
+
+--- PAGE 74 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+Conclusion g´en´erale
+Dans le cadre de ce travail, on a explor´e la reconnaissance automatique de la parole
+qui est un domaine de recherche nec´essaire pour la communication homme-machine,
+la langue Amazighe (Kabyle) connue par sa richesse et sa diversit´e linguistiques et les
+platformes de reconnaissances vocale principalement Kaldi.
+Notre objectif ´etait de combiner ces trois aspects pour cr´eer un syst`eme de recon-
+naissance vocale pour la langue Kabyle en se basant sur une ´etape cruciale qui ´etait
+la cr´eation d’une base donn´ees qui contient des enregistrements (phon´emes, mots et
+phrases), des transcriptions et des annotations pr´ecises.
+Cela a impliqu´e plusieurs ´etapes importantes, `a commencer par la premi`ere ´etape cru-
+ciale de ce processus, qui est la collecte des donn´ees, qui doit ˆetre effectu´ee avec le plus
+grand soin pour garantir la qualit´e et la repr´esentativit´e des enregistrements.
+la cr´eation du dataset a d´ebut´e par la pr´eparation minutieuse des phon`emes et des
+phrases en kabyle afin de capturer la richesse et la diversit´e linguistique de la langue.
+Cette approche m´ethodologique a assur´e la validit´e des r´esultats et a ouvert la voie `a des
+analyses approfondies.
+Des ´equipes, ´equip´ees de dictaphones num´eriques de haute qualit´e, ont recueilli des
+donn´ees claires et pr´ecises, qui ont ensuite ´et´e trait´ees avec Audacity, nomm´ees et orga-
+nis´ees dans un fichier CSV pour faciliter les analyses ult´erieures.
+Ce projet a ´et´e une initiative complexe et instructive, l’installation et la configuration
+de kaldi ont constitu´e les premiers d´efis majeurs, n´ecessitant l’installation de librai-
+ries sp´ecifiques, une configuration d´etaill´ee, et des mise a jour fr´equentes pour assurer
+la stabilit´e de syst´eme. Ces ´etapes pr´eliminaires ont ´et´e cruciales et ont pris un temps
+consid´erable, mais elles ont ´et´e essentielles pour pr´eparer le terrain pour les phases de
+d´eveloppement ult´erieurs.
+Notre travail a atteint une ´etape critique c’est l’entraˆınement monophone `a cause des
+probl´emes techniques avec les donn´ees MFCC, qui ´etaient correctement g´en´er´ees mais
+identifi´ees comme vide par le syst´eme. Cependant, plusieurs obstacles ont ´et´e surmont´e
+avec succ´es tels que la gestion des caract´eres sp´eciaux de l’alphabet berb´ere (Kabyle),
+la conversion de la base de donn´ees en format mono qui est une format sp´ecifique pour
+kaldi corrections des chemins dans les fichiers CSV et la normalisation des fichiers au-
+dio.
+Ces obstacles, bien que surmont´e, ont soulign´e la complexit´e inh´erente `a la recon-
+naisance de la parole dans une langue moins pr´esent´ee technologiquement, mettant en
+
+--- PAGE 75 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+64
+lumi`ere l’importance de la pers´ev´erance et de l’innovation dans le domaine de la lin-
+guistique computationnelle.
+Enfin,le progr´es et les accomplissements r´ealis´es contribuent de mani´ere significa-
+tive `a la recherche en reconnaissance de la parole pour la langue Kabyle et ouvrent la
+vois a des futures recherches et am´eliorations.
+
+--- PAGE 76 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+Bibliographie
+[1] https ://kaldi-asr.org/doc/dnn.html.
+[2] ADJED, F. Vers une normalisation du kabyle : Alphabet.
+[3] A.HACINE-GHARBI.
+S´election de param`etres acoustiques pertinents pour la
+reconnaissance de la parole. PhD thesis, Universit´e d’Orl´ean ,Universit´e Ferhat
+Abbas-S´etif ., 2012.
+[4] A.SOUADKIA.
+Reconnaissance automatique de la parole arabe : Approch
+´evolutionniste. M´emoire de master, Universit´e de Guelma, 2010.
+[5] BAHI, H., and FARIHIA, H. Etude comparative entre les librairies de reconnais-
+sance vocale. PhD thesis, Universit´e Badji Mokhar (UBMA), Annaba, Alg´erie.,
+2014.
+[6] BAUDE, O. Article : Langues et cit´e.
+[7] BEN, Y. O. Livre : cours de machine learning.
+[8] BENAMMAR, R. Traitement Automatique De La Parole Arabe Par Les HMMs.
+PhD thesis, Universit´e de Tlemcen., 2012.
+[9] BENRAMDANE, M. K. Reconnaissance vocale bas´ee sur le deep learning ap-
+pliqu´ee `a la langue kabyle. M´emoire de master, ´Ecole nationale Sup´erieure d’In-
+formatique., 2020.
+[10] CHAKER, S. Livre sur le berbere de kabylie. Encyclop´edie Berb`ere (2004), 4055–
+4066p.
+[11] COTSAFTIS, C. Mise en oeuvre de techniques d’intelligence artificielle pour la
+reconnaissance vocale. M´emoire de master, Uensta bretagne, 2020.
+[12] DRYGAJLO, D. A. TRAITEMENT DE LA PAROLE. PhD thesis, Institut de Trai-
+tement des Signaux,Lausane, 2003.
+[13] F.BARKANI, M.HAMIDI, N. O. H., and K.SATORI. Article : Amazigh speech
+recognition based on the kaldi asr toolkit. International Journal of Information
+Technology (2023), pages 3533–3540.
+[14] GELIN, L. Reconnaissance automatique de la parole d’enfant apprennat lecture
+en salle de classe. PhD thesis, Universite de Toulouse 03 Paul sebastier, Fevrier
+2022.
+[15] GUGLANI, Jyoti, M. A.
+Automatic speech recognition system with pitch de-
+pendent features for punjabi language on kaldi toolkit.
+Applied Acoustics 167
+(2020), 107386.
+
+--- PAGE 77 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+BIBLIOGRAPHIE
+66
+[16] HAMMADECHE, A. H., and TAKI, M. Reconnaissance automatique de la parole
+arabe continue. PhD thesis, Universit´e Saad Dahleb, Belida 1, 2019.
+[17] HAMZA, F. Approche Hybride pour la Reconnaissance de la Parole. PhD thesis,
+Universit´e Badji Mokhar (UBMA), Annaba, Alg´erie., 2018.
+[18] HEBA, A. Reconnaissance automatique de la parole `a large vocabulaire : des ap-
+proches hybrides aux approches End-to-End. PhD thesis, Universit´e SAAD DAH-
+LAB de BLIDA., 2021.
+[19] IMRANI, N. E., and AHADRI, O. L’impact de L’intelligence artificielle sur le
+monde de travail.
+[20] JUANG, B., and RABINER, L. R. Livre sur Automatic Speech Recognition – A
+Brief History of the Technology Development. 08 2004.
+[21] K.AMAR, and N.HAMMOU. Reconnaissance vocale du genre bas´ee sur l’appren-
+tissage profond. M´emoire de master, UNIVERSITE ABDELHAMID IBN BADIS
+- MOSTAGANEM, 2023.
+[22] LE, V. B. Reconnaissance automatique de la parole pour des langues peu dot´ees.
+PhD thesis, UNIVERSIT´E JOSEPH FOURIER - GRENOBLE 1 ., 2006.
+[23] LIN, S. S. Optimisation du graphe de d´ecodage d’un syst`eme de reconnaissance
+vocale par apprentissage discriminant. Memoire master, 2007.
+[24] MENACER, M. A. Doctorat de l’Universit´e de Lorraine (mention informatique).
+PhD thesis, Universit´e de Lorraine, November 2020.
+[25] MEZAGHANI, K., AMMAR, O., and ALLAH, A. Automatic speech recognition
+for amazigh. Langues et cit´e (2019).
+[26] NAIT-ZERRAD, K. Livre sur Esquisse d’une classification linguistique des par-
+lers berb`eres.
+[27] N.ZERARI.
+INT ´EGRATION D’UN MODULE DE RECONNAISSANCE DE
+LA PAROLE AU NIVEAU D’UN SYST `EME AUDIOVISUEL - APPLICATION
+T ´EL ´EVISEUR. PhD thesis, Universit´e Batna 2 – Mostefa Ben Boula¨ıd., 2021.
+[28] OUAHABI, S. S., and ATOUNT, M. Conference sur comparative study of amazigh
+speech recognition systems based on different toolkits and approaches. In E3S Web
+of Conferences (2023).
+[29] OUALID, D. Reconnaissance automatique de la parole arabe par cmu sphinx 4.
+M´emoire de master, UNIVERSIT´E FERHAT ABBAS – S´ETIF 1.
+[30] POVEY, D., and Ghoshal, A. The kaldi speech recognition toolkit. In Livre sur
+IEEE 2011 workshop on automatic speech recognition and understanding (2011),
+IEEE Signal Processing Society.
+[31] RAMDANI, R. Commande vocale d’une plateforme mobile. M´emoire de master,
+Universit´e SAAD DAHLAB de BLIDA, 2017.
+[32] SAHKI, H. Livre sur LA LANGUE BERBERE, vol. 138p. Decembre 1998.
+[33] SATORI, H., and ELHAOUSSI, F. Article :investigation amazigh speech recogni-
+tion using cmu tools. International Journal of Speech Technology (2014).
+
+--- PAGE 78 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+BIBLIOGRAPHIE
+67
+[34] S.GAGNON. Mod`eles de markov cach´es `a haute pr´ecision dynamique. M´emoire
+de master, UNIVERSIT´E DE SHERBROOKE, 2016.
+[35] SOLTANI, I. L’usage de la langue maternelle dans l’enseignement/apprentissage
+du FLE ”cas des ´el`eves de 2`eme ann´ee moyenne” C.E.M Ghassira Batna. PhD
+thesis, Universit´e Mohamed Khider de Biskra ., 2019.
+[36] SORAND, C.
+Livre sur Berb´erit´e : En quˆete de l’identit´e amazighe de la
+Pr´ehistoire `a la chute de Carthage. Le Lys Bleu ´Editions, 2023.
+
+--- PAGE 79 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+BIBLIOGRAPHIE
+68
+R´esum´e
+Dans le cadre de ce travail, notre objectif ´etait de d´evelopper un syst`eme de recon-
+naisssance de la parole pour la langue kabyle, en utilisant la platforme kaldi et en se
+basant sur une ´etape cruciale qui est la cr´eation d’une base des donn´ees. Cette approche
+m´ethodologique est l’´etape la plus difficile et importante pour assurer la validit´e des
+r´esultats et ouvre la voie `a des analyses approfondies de la richesse linguistique.
+L’installation et la configuration initiales de kaldi ont ´et´e particuli`erement exigantes, im-
+pliquant l’int´egration de librairies sp´ecifiques et des mises a jour continue pour assurer
+la fonctionnalit´e du syst`eme.
+Malgr´e les progr`es significatifs et les techniques utilis´ees pour assurer une represents-
+tivit´e de tout le syst`eme phon´etique berb`ere (kabyle), on a rencontr´e un obstacle ma-
+jeur lors de l’entrainement monophone. Les donn´ees MFCC, bien que correctement
+g´en´er´ees.
+Les d´efis rencontr´es et les solutions apport´ees ont mis en lumi`eres la complexit´e de la
+reconnaissance de la parole pour une langue moins repr´esent´ee ainsi que le manque
+flagrand de data-set, nous soulignons l’importance de cr´eation de data-set et de corpus
+sp´ecialis´es pour la langue Amazighe. Les fondations ´etablies et les connaissances ac-
+quises constituent une base solide pour les recherches futures et l’am´elioration de la
+reconnaissance de la parole.
+Mots cl´es : Intelligence artificielle, Apprentissage automatique, Reconnaissance au-
+tomatique de parole(RAP), Langue Kabyle, Corpus vocale, Apprentissage profond, R´eseaux
+de Neurones R´ecurrents.
+Abstract
+As part of this work, our objective was to develop a speech recognition system for
+the Kabyle language, using the Kaldi platform and based on a crucial step which is the
+creation of a database. This methodological approach is the most difficult and important
+step to ensure the validity of the results and opens the way to in-depth analyzes of lin-
+guistic richness.
+The initial installation and configuration of kaldi was particularly demanding, involving
+the integration of specific libraries and continuous updates to ensure the functionality of
+the system.
+Despite the significant progress and the techniques used to ensure representativeness of
+the entire Berber (Kabyle) phonetic system, we encountered a major obstacle during
+monophone training. MFCC data, although correctly generated.
+The challenges encountered and the solutions provided have highlighted the complexity
+of speech recognition for a less represented language as well as the blatant lack of data
+sets, we underline the importance of creating data sets and specialized corpora for the
+Amazigh language. The foundations established and the knowledge gained provide a
+solid basis for future research and improvement of speech recognition.
+Keywords : Artificial Intelligence, Machine learning, Automatic system recogni-
+tion(ASR), Kabyle language, deep learning, Vocal corpus, Recurrent Neural Networks.
+
+--- PAGE 80 ---
+2023-2024
+U
+A
+M
+B
+Data Sciences master thesis
+BIBLIOGRAPHIE
+69
