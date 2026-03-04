@@ -1,0 +1,451 @@
+ 
+ 
+REPUBLIQUE ALGERIENNE DEMOCRATIQUE ET POPULAIRE  
+MINISTERE DE L ‘ENSEIGNEMENT SUPERIEUR ET DE LA RECHERCHE SCIENTIFIQUE  
+UNIVERSITE MOULOUD MAMMERI DE TIZI-OUZOU  
+FACULTE DE LETTRES ET DE LANGUES  
+DEPARTEMENT DE LANGUE ET CULTURE AMAZIGHES  
+ 
+ 
+ 
+Thèse de doctorat  
+ 
+Spécialité : Langue et Culture Amazighes  
+Option : linguistique  
+ 
+Présentée par  :  Ourida AISSOU  
+ 
+ 
+Thème  
+ 
+ 
+Contribution à l’étude de la géographie linguistique des parlers kabyles de 
+la région de l’est de Béjaia -ville 
+ 
+ 
+Sous la direction de :  
+Professeur   Kamel BOUAMARA  
+ 
+Membre s du  jury :  
+- IMARAZEN Moussa, Professeur , UMMTO,                                                       Président  
+- BOUAMARA Kamal, Professeur , Université de Béjaia,                                    Rapporteur  
+- TIDJET Mustap ha, Professeur , Université de Béjaia,                                      Examinateur      
+-  BERKAI  A/Aziz , MCA, Université de Béjaia,                                             Examinateur  
+       - DJEMAI Salem , MCA,  UMMTO ,                                                              Examinateur  
+ 
+Soutenue le  24/01/ 2021  Introduction générale  
+ 
+2 
+ REPUBLIQUE ALGERIENNE DEMOCRATIQUE ET POPULAIRE  
+MINISTERE DE L ‘ENSEIGNEMENT SUPERIEUR ET DE LA RECHERCHE SCIENTIFIQUE  
+UNIVERSITE MOULOUD MAMMERI DE TIZI-OUZOU  
+FACULTE DE LETTRES ET DE LANGUES  
+DEPARTEMENT DE LANGUE ET CULTURE AMAZIGHES  
+ 
+ 
+ 
+Thèse de doctorat  
+ 
+Spécialité : Langue et Culture Amazighes  
+Option : linguistique  
+ 
+Présentée par  :  Ourida AISSOU  
+ 
+ 
+Thème  
+ 
+ 
+Contribution à l’étude de la géographie linguistique des parlers kabyles de 
+la région de l’est de Béjaia -ville 
+ 
+ 
+Sous la direction de :  
+Professeur   Kamel BOUAMARA  
+ 
+Membre du  jury :  
+- IMARAZEN Moussa, Professeur , UMMTO,                                                       Président  
+- BOUAMARA Kamal, Professeur , Université de Béjaia,                                    Rapporteur  
+- TIDJET Mustap ha, Professeur , Université de Béjaia,                                      Examinateur      
+-  BERKAI  A/Aziz , MCA, Université de Béjaia,                                             Examinateur  
+       - DJEMAI Salem , MCA,   UMMTO ,                                                              Examinateur  
+ 
+Soutenue le  24/01/2021  
+ Introduction générale  
+ 
+3 
+ Remerciements  
+ 
+Cette  thèse n‘aurait pas pu être réalisée sans l‘aide précieuse de certaines personnes. Je  
+souhaite, dans cette page, leur exprimer ma très grande reconnaissance.  
+En premier lieu, je tiens à remercier Kamel BOUAMARA  pour sa patience, sa 
+confiance, sa  science mais aussi sa gentillesse. Il m‘a accompagnée au cours de mes 
+recherches en me  prodiguant tous les conseils et encouragements dont j‘avais besoin. Il s‘est 
+toujours montré  rassurant et disponible, et ce jusqu‘aux derniers moments.  Sans lui, sans ses 
+encour agements, ses conseils, ses orientations et ses rappels au respect des délais impartis, ce 
+travail, ne serait pas arrivé à soutenance aujourd‘hui.  Je suis heureuse de pouvoir le  remercier 
+comme il se doit.  
+Je remercie d‘autre part les membres du jury qui o nt bien voulu accepter de consacrer 
+une partie de leur temps pour lire ce modeste travail, d‘avoir accepté l ‘évaluer et de participer 
+à sa soutenance.  
+Je souhaite adresser mes sincères remerciements à mes parents, à mon époux Salim et  
+mon amie et coll ègue Linda. D urant  toutes ses années, leur s encouragements, leur s 
+disponibilité s et leurs patience s m‘ont toujours beaucoup apporté.  
+Nous remercions également tous les enseignants qui m‘ont encadré durant tout mon 
+parcours d‘études berbères, de la première année universitaire jusqu‘au doctorat.  
+Nous exprimons notre profonde gratitude à Messieurs Abderrahmane AMARA et 
+Nacer MEJDOUBE qui nous ont grandement encouragé et aidé à mener cette recherche à 
+terme.  
+Nous tenons aussi à remercier nos étudiants, particul ièrement  A/Louhab 
+BOUSEKKAR et Amirouche BOUBTACHE qui m‘ont aidé à réaliser les cartes 
+géolinguistiques.  
+Nous  n‘oublier ons pas de remercier tous ceux et toutes celles qui ont voulu m‘aider 
+lors de la collecte des données dans les parlers étudiés ou/et de leur authentification.  
+ Introduction générale  
+ 
+4 
+ Dédicaces  
+ 
+ 
+Ce travail est dédié à  : 
+- mes parents, mes beaux parents et à tous ceux qui pratiquent le  tamazight et le 
+transmettent à leurs enfants  ; 
+- Particulièrement à ma famille nucléaire, mon cher époux et mes deux  enfants, 
+Tilelli et Aksil ;  
+- mes chères sœurs et belles sœurs  ; 
+- Mon cher frère et mes chers beaux frères  ; 
+- Tous mes ami(e)s . 
+ 
+Ce modeste travail est  un hommage à mon frère Koucila, décédé à l‘âge de fleur, et à 
+tous les martyrs de la cause berbère.  Introduction générale  
+ 
+5 
+ Liste des abréviations  
+ 
+ 
+pron. : pronom  ; 
+aff. : affixe  ; 
+dir. : direct  ; 
+indir. : indirect  ; 
+m.o.s  : modalité d‘orientation spatiale  
+E.L : état livre  ; 
+E.A : état d‘annexion  ; 
+pl. : pluriel  ; 
+sing : singulier  ; 
+masc : masculin  ; 
+fém : féminin  ; 
+p. : personne  ; 
+ex. : exemple  ; 
+cf. : confer  ; 
+c-à-d : c'est -à-dire ; 
+cv : consonne voyelle  ;  
+G.K : Grande Kabylie  ; 
+S : Soummam  ; 
+vcv : voyelle consonne voyelle  ; 
+OR : oriental  ; 
+EX.OR  : Extrême oriental  ; 
+ Introduction générale  
+ 
+6 
+ Sommaire   
+ 
+Introduction générale ------------------------------------------------------ -------------------------- 07-15 
+ 
+Partie I  : Les éléments théoriques et méthodologiques  --------- -------------------------- 16-106 
+Introduction à la partie ---------------------------------------- --------------- ----------------------- -----17 
+Chapitre 1  : Éléments théoriques -------------------------------------- ----------------------------- 18-49 
+Chapitre 2  : Éléments de méthodologie générale  et appliquée ------------------------------- 48-105 
+Conclusion (à la partie) -------------------------------------------------- ----------------------------- 106 
+ 
+Partie II  : Étude des parlers kabyles de l’est de Bejaia ---------------------------------- 107-341 
+ 
+Introduction à la partie ------------------------ -------------------- ------- ----------------------------- -108 
+Chapitre 1  : Les variables phonétiques -------------------------------- ------------------------- 109-194 
+Chapitre 2  : Les variables morphologiques ------------------------ --------------------------- -195-291 
+Chapitre 3  : Les variables lexicales ------------------------------------ ------------------------- 292-341 
+Conclusion (à la partie) ------------------------------------------------- ------------------------- 342-344 
+Conclusion générale –--------------------------------------------- --------------------- --------- 345-352                                                                            
+Références bibliographiques ----------------------------------------- -------------------------- 353-365 
+Annexes ------------------------------------- ----------------------------- -------------------------- 366-531 
+Table des matières ------------------------------------------------------------------------------- 532-547 
+Résumé en tamazi ɣt (agzul) -------------------------------------------------------------------- 548-553                                                                 
+ 
+ Introduction générale  
+ 
+7 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+INTRODUCTION GENERALE  
+  Introduction générale  
+ 
+8 
+ Introduction générale  
+Aujourd‘hui, aussi bien en Algérie qu‘au Maroc, on traite beaucoup plus les thèmes 
+qui ont trait à l‘aménagement de la langue amazighe, en général et à sa standardisation, en 
+particulier. La constitualisation récente de cette langue dans ces deux pays et son accès à 
+l‘enseignement -apprentissage a u niveau de l‘école et de l‘Université publiques explique, en 
+grande partie, l‘importance que requièrent les travaux d‘aménagement -standardisation. Là, on 
+cherche à dégager une (ou plusieurs) norme(s) amazighe(s) à utiliser par les apprenants et 
+autres usa gers dans ces institutions, en se basant sur les données linguistiques émanant des 
+dialectes et parlers, réels et existants, qui sont à la fois nombreux et divers.  
+Le présent travail, lui, s‘inscrit dans une toute autre approche. Il s‘agit de la 
+dialectolo gie amazighe -kabyle et, plus précisément, de la géographie linguistique.  Et nous 
+pensons que les travaux de recherche qui s‘inscrivent dans ce champ sont tout autant 
+importants que les études relevant de l‘approche sus mentionnée, notamment pour la 
+connai ssance de cette langue telle qu‘elle est employée aujourd‘hui par ses locuteurs. En 
+même temps, il faut avertir que les études de dialectologie n‘ attisent pas beaucoup d‘intérêt 
+chez les berbérisants actuels, depuis la dernière publication de A. Basset (1 959), on ne peut 
+citer que Quatre travaux importants qui ont touché trois variétés berbères (le kabyle, le 
+chaouia et le rifain). Il s‘agit précisément de  : Khellaf Madoui (1996) avec sa « Contribution 
+à la géographie linguistique de la petite kabylie »,  « L‘Atlas des variétés berbères du Rif » de 
+Mena Lafkioui (2007), Said Guerrab en 2014 dans le cadre de sa thèse de doctorat portant le 
+titre «  Analyse dialectométrique des parlers berbères de Kabylie  »  et enfin Malek Boudjellal 
+en 2015   avec sa thèse  de Doctorat intitulée «  Contribution à la géographie linguistique 
+du  berbère chaouïa  » 
+Chacun sait que le berbère ou le tamazight  (c‘est le terme consacré aujourd‘hui, en 
+Algérie) est à la fois uni et diversifié. On parle alors de son unité au niveau pro fond, et de 
+diversification aux niveaux de la surface. Nous y reviendrons un peu plus longuement.  
+Ce qui est dit ici à propos de la langue, en l‘occurrence, le tamazight, est également 
+valable pour chacun de ses dialectes, dont le kabyle, sur lequel porter a cette recherche.  Avant 
+d‘aller un peu plus loin dans notre exposé, il convient de nous arrêter un instant et d‘expliquer 
+ce que signifient ces concepts de langue , dialecte et parlers . 
+La langue est un instrument de communication partagé par les membres d‘une même 
+communauté  ; c‘est une réalité linguistique parce qu‘elle est souvent diversifiée et se présente Introduction générale  
+ 
+9 
+ sous forme de variétés concrètes. «  La langue berbère,  dit André Basset (1959), réalité 
+purement linguistique, se réalise sous la forme d‘un certain  nombre de dialectes régionaux, 
+qui eux -mêmes s‘éparpillent en une multitude de parlers locaux.  »1 
+Le dialecte est, quant à lui, une variété de la langue ; il est employé, le plus souvent, 
+en référence à des variétés linguistiques comportant une localisati on géographique particulière. 
+« Le dialecte, explique Chaker (1995  : 22), peut représenter des variations linguistiques 
+parfois considérables, notamment lorsqu‘il a une certaine extension géographique ». Mais 
+cette localisation est par ailleurs difficile à  cerner avec précision et exactitude, en ce sens qu‘il 
+n‘est pas aisé de dire où finit tel dialecte et où commence tel autre. Cela est dû à l‘importance 
+de la variation linguistique, variation des formes et des phonèmes, qui en outre ne suivent pas 
+des évo lutions propres et ne se regroupent pas.  
+Le parler  est une sous -variété du dialecte, avec une localisation plus restreinte, d‘où 
+la relative facilitée de dresser ses frontières géolinguistiques nettes. Le parler est, en d‘autres 
+termes, la phase concrète d e la langue. « Le parler, écrit Chaker (1995  : 22-91) à ce propos, 
+présente une homogénéité  linguistique quasi parfaite et est donc susceptible d‘une 
+description/définition interne précise  ». 
+Taifi (1994  : 120), quant à lui, nous explique ce rapport d‘homo généité et 
+d‘hétérogénéité de la langue, en rapport avec les parlers qui la composent, en disant  : « La 
+langue berbère se présente […] sous forme d‘une structure pyramidale dont la base est 
+constituée par les parlers locaux et le sommet par ce que l‘on con vient d‘appeler la langue 
+berbère  dont le nom de plus en plus utilisé est la tamazighte  » (les mos soulignés sont de nous)  
+Unité et diversité du tamazight et du kabyle  
+« On présente la langue berbère, écrit Taifi (1994  : 119), tiraillée par deux forces qui  
+jouent en sens contraire : le particularisme qui pousse à la diversification et le conservatisme 
+qui assure la stabilité ».  
+Qu‘en pensent les linguistes berbérisants  ? Les avis sont départagés.  
+Chaker (1995  : 8) pense qu‘elle est unie, du moins au niveau de la structure. A ce 
+propos, il dit  : « C‘est que, malgré la dispersion géographique, malgré l‘absence de pôle de 
+normalisation et en dépit de la faiblesse des échanges, les données structurales 
+fondamentales restent les mêmes partout : le degré d‘unité ( notamment grammaticale) des 
+                                                 
+1Cf. Basset ; 1959 : repris par Chaker ; 1995:  22 -91. Introduction générale  
+ 
+10 
+ parlers berbères est tout à fait étonnant eu égard aux distances et vicissitudes historiques ». 
+Et plus loin, il ajoute que, ce n‘est qu‘une exception, si un trait linguistique quelconque 
+(phonétique, morphologique ou lexical) n‘apparait pas sous une forme ou sous une autre, dans 
+un dialecte ou dans d‘autres dialectes, ainsi, l‘unité de la langue amazighe est confirmée.  
+C‘est ce que nous pouvons lire dans  :  
+« Ainsi, sur le plan strictement  linguistique, la conception unitaire de la langue 
+berbère est intégralement valable et  solidement fondée. On a vu qu‘il n‘y a jamais 
+à l‘intérieur de l‘ensemble berbère de faisceaux  d‘isoglosses nets qui 
+permettraient de fixer des frontières étanches entre les différentes  variétés et donc 
+de définir, sur des bases proprement linguistiques, des sous -ensembles  homogènes 
+qui pourraient être considérés comme ‗‘des langues à part‘‘ ». (Chaker,  1991 : 
+138).  
+Mais beaucoup d‘autres, comme Olivier, Galand, Vycichl, Basset, Kahlouche, Taifi  
+Nait Zerrad (2001, 2004 et 2006) et Lafkioui soutiennent au contraire qu‘elle est diverse.  
+V oici ce que dit Taifi (1994  : 120) à propos de cette diversité -diversification des parlers 
+berbères.  
+« […] Les parlers recensés sont certes nombreux, mais il serait erroné d‘en 
+exagérer l‘éparpillement jusqu‘à une atomisation extrême. Je pense qu‘André 
+Basset - auquel on ne cesse pas de le lui reprocher, parfois avec véh émence – a 
+raison de parler de fourmillement de variation si, bien sûr, on entend par 
+variation la diversité des faits dialectaux et non celle des parlers.  La variation 
+étant l‘une des caractéristiques fondamentales de tout système linguistique, le 
+berbère  n‘en est pas évidement, de ce fait, dépourvu  ». 
+Une décennie plus tard, Chaker (2005  : 126) semble avoir changé d‘avis à propos de 
+l‘homogénéité des parlers berbères «  […] Le niveau de différentiation interne aux dialectes 
+berbères , dit-il, est souvent au ssi grand, voire plus, que celui qui existe entre les dialectes 
+eux-mêmes […]  ». 
+Pour en rendre compte objectivement, Basset a très tôt compris que le premier devoir 
+des linguistes serait de soumettre à une enquête systématique le plus grand nombre possibl e 
+de ces parlers, en appliquant sur tous les points de l‘aire explorée les mêmes procédés et les 
+mêmes critères.  
+ Introduction générale  
+ 
+11 
+ Unité et variation du dialecte kabyle et des parlers situés à l’est de Bejaia dits 
+« tasaḥlit » 
+Avant d‘aborder le sujet de la variation du di alecte kabyle, il convient d‘abord de 
+retracer succinctement l‘historique du mot « tasaḥlit » (et ses dérivés) et de donner ses 
+significations.    
+Pour rappel, le terme «  Isaḥliyen  » est la dénomination par laquelle les  habitants de 
+toute  la région située  à l‘est de la ville de Béjaia – y compris  ceux qui n‘habitent pas sur la 
+côte littorale – sont désignés par les autres groupes kabyles, notamment ceux de la vallée de la 
+Soummam. Qu‘en pensent les habitants de cette région  ? Les habitants d‘I ɣil Wis, de la tribu 
+d‘Ait Bouissi – tribu limitrophe d‘Aokas – ne se considèrent pas comme des «  Isaḥliyen  », en 
+revanche, ils utilisent cette appellation pour désigner les habitants de deux communes, Tizi n 
+Berber et Aokas . 
+Beaucoup d‘autres habitants de cette régio n, dont une partie se situe le long du 
+littoral et une autre sur les flancs de la montagne, ne partagent pas cette dénomination  
+commune de « Isaḥliyen  ». 
+D‘où viendrait ce terme  tasaḥlit et ses dérivés, comme Isaḥliyen  ? Le radical de ce 
+terme, « ssaḥel/sswa ḥel », existe bel et bien en kabyle et signifie plaine et terres basses  
+(Dallet, 1982  : 765); le kabyle parlé dans la région est de la ville de Béjaia et la femme qui 
+habite dans cette région  (Issin, 2017  : 482).  
+Mais le terme « tasaḥlit/isa ḥliyen », sous sa forme morphologique arabisée 
+« saḥliya », était déjà en usage durant la période coloniale. Dans un document officiel, le 
+Sénatus -consulte (1860 -1870), Sahliya  était le nom donné à la confédération de la commune -
+mixte de Wad Marsa.  Cette confédération contient cinq tribus, à savoir : Ait Mhand, Ait Waret 
+Ouali, Ait Bouyousef, Ait Hassain et Ait Segoual.  
+Mais voici ce que nous pouvons lire dans ce document (1860  : 24 ): « Dans la région, 
+les tribus des Beni Mhemmed, Ben Hassein, Beni Bouyoucef et Beni Segoual formaient une 
+confédération connue sous le nom de Sahlia  » (le mot souligné est de nous)  
+En ce qui concerne la question de l‘homogénéité -hétérogénéité des parlers 
+composant le dialecte kabyle et la nature de l‘intercompréhension q ui les caractérisent, 
+Chaker (2005  : 128)  écrit :  
+« […] Pour prendre un exemple concret, il n‘y pas plus de différences entre le Introduction générale  
+ 
+12 
+ kabyle et n‘importe quel parler du Maroc d‘une part, qu‘entre le parler kabyle de 
+la région d‘Aokas (tasa ḥlit) ou de Kherrata et celui d‘un village de Grande 
+Kabylie »  
+Pour y voir un plus clair, Nait Zerrad (2004) et Guerrab (2014) sont allés jusqu‘à 
+subdiviser le dialecte kabyle en quatre groupes, plus au moins homogènes (cf annexe 06  ; 
+carte 01) . Selon eux, il s‘agirait des :  
+parlers de la zone Extrême occidentale ( EOC ), comme Tizi -Ghennif, Boghni, Draa El 
+Mizan, etc.,  
+parlers de la zone Occidentale ( OC), comme les parlers du Djurdjura : At Menguellat, 
+At Yiraten, At Aïssi, At Yanni, etc.  
+parlers de la zone Orientale ( OR), laque lle est subdivisée à son tour  : + en sous -zone 
+Orientale Ouest ( OR-Ouest ): At Mlikeche, At Abbas, … + en sous -zone Orientale Centre 
+(OR-Centre ) : At Aïdel, At Khiar, … +en sous -zone Orientale est ( OR-Est) : At Sliman...  
+parlers de la zone Extrême orientale  (EOR ) : Aokas, Melbou, At Smail...,  
+Choix du thème et nos motivations  
+Plusieurs raisons ont présidé au choix de ce thème. La première est sans doute le fait 
+que nous soyons native de cette région à l‘étude et que nous y avons toujours vécu. A ces 
+connaiss ances empiriques ou, mieux, épilinguistiques, que nous avons déjà acquises, 
+s‘ajoutent d‘autres types de motivations, dont nos études de linguistiques amazighes, qui ont 
+été sanctionnées par deux diplômes, celui de la licence et celui du magister. Ce derni er (cf. 
+Aissou, 2007) a porté justement sur l‘étude comparée de deux parlers kabyles relevant de 
+deux zones différentes, le premier est celui d‘Aokas (EOR), le second est celui d‘Irjen (OC). 
+Cette recherche nous a permis de nous inscrire dans un champ d‘ét udes linguistiques 
+amazighes particulier et de choisir une spécialisation, à savoir la dialectologie/ géographie 
+linguistique . La profession d‘enseignante chercheur à l‘Université de Bejaia pour laquelle 
+nous avons optée, puis les nombreux mémoires de mast er que nous avons dû diriger au cours 
+de notre parcours – dont certains ont par ailleurs été faits sur la dialectologie intra -dialectale  
+et la géographie linguistique kabyle de la région à l‘étude, nous ont un peu plus confortés 
+dans notre choix de la dia lectologie/ géographie linguistique amazighe, en général et kabyle, 
+en particulier . 
+La dernière raison, mais pas la moindre, qui nous a amenée à opter pour le choix du Introduction générale  
+ 
+13 
+ thème de la présente recherche est sans doute les travaux et les études qui ont abordé l a 
+question à l‘étude. Beaucoup de «  choses  » ont été déjà dites et rapportées sur les parlers 
+kabyles de la région à l‘étude. Le présent travail est donc une pierre de plus à l‘édifice.   
+Objectifs du travail  
+L ‘objectif du présent travail est l‘étude descr iptive et comparée des différents parlers 
+situés dans la zone kabyle (EOR), que certains linguistes, à l‘image de Nait Zerrad (2004) et 
+Guerrab (2014), présentent comme un bloc «  homogène  ». Nous pensons quant à nous, du 
+moins à titre d‘hypothèse de travai l à tester, que l‘homogénéité qui caractériserait ces parlers à 
+l‘étude est très relative . Par conséquent, nous préférerons parler d‘hétérogénéité. Nous y 
+reviendrons plus longuement.  
+Cette aire géographique, sur laquelle portera notre étude et notre enquê te, s‘étale sur une 
+centaine de kilomètres  : cela va d‘Ait Bimoun  jusqu‘Ait Bourman  
+Il s‘agit, en gros, de classifier ces parlers en identifiant, du mieux que nous pouvons, 
+leurs frontières respectives, en nous basant sur des critères phonético -phonologiqu es, lexico -
+sémantiques et morphosyntaxiques. Ainsi que l‘a fait A. Basset pour le lexique, ce genre 
+d‘études de géographie linguistique intra -dialectale peut contribuer à dresser un Atlas 
+linguistique du dialecte kabyle.  
+En même temps, ainsi la comparaison  appelle au préalable la description, cette étude  
+nous permettra de faire disparaître un manque notable quant à la connaissance et aux études 
+des parlers de cette région au demeurant insuffisamment connus, sur le plan  linguistique.  
+Problématique et hypoth èses du travail  
+Pour élaborer notre problématique et émettre quelques hypothèses de travail à éprouver, 
+nous avons dû commencer par établir un état des lieux des travaux qui ont abordé le thème 
+choisi ici. Pour des raisons de lisibilité de notre manuscrit et pour des raisons à la fois de 
+cohérence des idées avancées et de la cohésion des chapitres et parties composant notre thèse, 
+nous avons choisi de mettre cet état des lieux  dans un chapitre qui va suivre ( cf. infra).   
+Au risque de nous répéter ici inutilement, la présente recherche se veut d‘étudier les 
+parlers kabyles situés à l‘est de Bejaia -ville, que d‘autres groupes kabyles désignent, à tort, 
+par le vocable « Isaḥliyen  » et que certains linguistes  berbérisants sit uent dans la zone 
+géographique dite extrême orientale   et  qu‘ils considèrent par ailleurs comme  un bloc Introduction générale  
+ 
+14 
+ kabyle «  homogène  ».   
+Nous disions plus haut que dans cette aire géographique où se pratiquent de nombreux 
+et divers parlers kabyles, l‘«  homogénéité  » est très discutable et qu‘à titre d‘hypothèse à 
+tester, nous préférerions parler plutôt d‘hétérogénéité.  
+Pour définir cette homogénéité , les linguistes recourent essentiellement au concept de 
+l‘intercompréhension  entre les locuteurs issus des différents parlers composant un même 
+dialecte, en l‘occurrence, le kabyle. Il s‘agit, pour Chaker (1995  : 08), de 
+l‘intercompréhension parfaite « Ils [les parlers locaux] sont caractérisés, dit-il, par des 
+particularités phon étiques, lexicales, parfois grammaticales, qui n‘affectent jamais 
+l‘intercompréhension à l‘intérieur de l‘aire dialectale, mais qui permettent une identification 
+géolinguistique immédiate des locuteurs  ». 
+En revanche, pour Nait Zerrad (2005  : 40-67), il s‘ agirait plutôt de l‘intercompréhension 
+aléatoire . « Les sous -variétés contiguës , dit-il, sont linguistiquement très proches alors que 
+celles situées aux extrêmes sont plus proches du dialecte avec lequel elles sont en contact (le 
+Chaoui pour la Kabylie ext rême -orientale) et l‘intercompréhension entre -elles est plus 
+difficile  ». 
+Au-delà de cette intercompréhension qui existe certes entre les locuteurs de ces parlers à 
+l‘étude, se posent d‘autres problèmes plus profonds, dont ceux relatifs à la nature de cett e 
+diversité même. Ainsi, en matière de description et d‘enquêtes de terrain, dans l‘aire 
+géographique choisie, en l‘occurrence, Chaker (2005  :129) attire notre attention sur 
+l‘importance que requièrent les études de variations intra -dialectales.  
+« […] not re connaissance de la variation intra -dialectale , écrit-il, est encore très 
+lacunaire  et qu‘elle est plus importante que l‘on dit généralement. Des travaux de 
+dialectologie systématiques et à grande échelle sont donc encore indispensables » 
+(les mots soulig nés sont de nous)  
+Cette étude répond donc à l‘objectif de décrire, du moins en partie, les parlers à 
+l‘œuvre dans cette aire géographique, de les comparer d‘abord les uns aux autres, puis aux 
+autres parlers kabyles relevant d‘autres blocs, pour mieux conna itre leurs différences et leurs 
+similitudes et, par conséquent, pour mieux connaitre cette variation intra -dialectale kabyle. 
+Cette double comparaison nous permettrait de répondre à certaines questions – qui constituent 
+l‘ossature de ce travail – dont les suivantes  : Quels sont les points de divergence qui 
+distinguent ces parlers  ?  Quelle est la partie la plus sensible de la langue et la plus affectée Introduction générale  
+ 
+15 
+ par ces variations linguistiques  ? 
+Ce travail nous permettra également de nous faire une opinion par nous -mêmes, qu‘il 
+convient par la suite de comparer à celles qui ont été déjà rapportées par nos prédécesseurs. 
+Parmi les idées avancées, certaines sont relatives à la variation intra - et inter -dialectales 
+berbères.  
+Mais d‘autres idées sont liées directement au  sujet dont nous traitons ici, puisque l‘aire 
+géographique à l‘étude est composée de zones littorale et plate, mais également de zones 
+montagneuses. A ce propos, Madoui (1994  : 24) avance l‘hypothèse -explication selon laquelle 
+la différenciation linguistiq ue est plus accusée dans une zone montagneuse que dans les 
+plaines où le cadre géographique n‘oppose aucun obstacle physique  ; il y aurait, par 
+conséquent, une meilleure circulation de groupes de population et, de ce fait, une facilité de 
+contact entre eux .    
+De son côté, Nait Zerrad qui a subdivisé le dialecte kabyle en 4 grands blocs – dont 
+nous avons déjà rendu compte – , avance par ailleurs l‘idée selon laquelle l‘ensemble des 
+parlers de l‘Est de Bejaia (Souahel) représente un pont  liant le dialecte ka byle à celui de 
+l‘Aurès.  
+En ce qui concerne nos hypothèses, nous postulons que  : 
+La variation entre les parlers de la région de l‘Est de Béjaia -ville n‘est pas seulement 
+d‘ordre phonétique, mais elle affecte également les autres niveaux de la structure li nguistique, 
+dont la morphosyntaxe et le lexico -sémantique.  
+Le paradigme le plus affecté par cette variation est celui des déictiques (proximité, 
+éloignement et évocation) ainsi que celui des substituts, en général.  
+Plan de rédaction  
+Pour tenter de répondre  à nos questions et éprouver les hypothèses que nous avons 
+émises, nous avons opté pour un plan binaire, à deux grandes parties, où chaque partie est 
+subdivisée en chapitres.  
+La première partie portera sur les éléments théoriques et méthodologiques. Dans l e 
+premier chapitre, nous exposerons quelques éléments théoriques relatifs à la dialectologie et 
+la géographie linguistique générale – cadre théorique dans lequel s‘inscrit notre travail de 
+recherche. Dans le second chapitre, il sera d‘abord question de mét hodologie générale , en fait 

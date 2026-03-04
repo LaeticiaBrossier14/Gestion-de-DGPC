@@ -1,0 +1,34 @@
+﻿=================================================================
+DEMO DU CORRECTEUR KABYLE
+=================================================================
+
+GEMINI (avant correction):
+  Allo, awi-d l'ambulance! Yella n argaz i-╔úli deg uxxam, la tension te╔øla, ur yezmir. Machi i-teddu gher ß╣úbitar.
+
+CORRIGE (apres correction):
+  Allo, awi-d l'ambulance! Yella n urgaz i-ghli deg uxxam, l'tension te3la, ur yezmir. Machi i-teddu gher sbitar.
+
+BILAN: 5 auto-fix, 2 suggestions
+
+DETAILS DES CORRECTIONS:
+  Ô£à [ROMANIZE] '╔ú' -> 'gh'
+     Explication: Romanisation acad├®mique '╔ú' ÔåÆ arabizi 'gh' (corpus: 212 occurrences)
+
+  Ô£à [ROMANIZE] '╔ø' -> '3'
+     Explication: Romanisation acad├®mique '╔ø' ÔåÆ arabizi '3' (corpus: 386 occurrences)
+
+  Ô£à [ROMANIZE] 'ß╣ú' -> 's'
+     Explication: Romanisation acad├®mique 'ß╣ú' ÔåÆ arabizi 's' (corpus: ~40 occurrences)
+
+  Ô£à [ARTICLE] 'la tension' -> 'l'tension'
+     Explication: Article kabylis├®: 'la tension' ÔåÆ 'l'tension'
+
+  Ô£à [CONSTRUCT] 'n argaz' -> 'n urgaz'
+     Explication: ├ëtat construit: 'argaz' ÔåÆ 'urgaz' apr├¿s 'n'
+
+  ­ƒÆí [NEG_ORPHAN] 'ur yezmir. machi i-teddu gher ' -> '(ajouter 'ara' apr├¿s le verbe)'
+     Explication: N├®gation incompl├¿te: 'ur' sans 'ara' ÔÇö r├¿gle R6: ur {verbe} ara
+
+  ­ƒÆí [MACHI_VERB] 'machi i-teddu gher sb' -> '(machi + nom, pas verbe)'
+     Explication: 'machi' s'utilise avec un nom, jamais un verbe conjugu├®
+

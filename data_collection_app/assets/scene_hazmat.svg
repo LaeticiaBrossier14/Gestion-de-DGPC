@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 130">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2e1065"/><stop offset="100%" stop-color="#4c1d95"/></linearGradient>
+  <radialGradient id="toxicGlow" cx="40%" cy="60%"><stop offset="0%" stop-color="#a3e635" stop-opacity="0.2"/><stop offset="100%" stop-color="transparent"/></radialGradient>
+</defs>
+<rect width="400" height="130" fill="url(#sky)"/>
+<rect width="400" height="130" fill="url(#toxicGlow)"/>
+<!-- Ground -->
+<rect x="0" y="100" width="400" height="30" fill="#1c1917"/>
+<!-- Industrial building -->
+<rect x="30" y="35" width="80" height="65" fill="#374151" stroke="#4b5563" stroke-width="0.5"/>
+<rect x="35" y="40" width="15" height="12" rx="1" fill="#1e293b"/>
+<rect x="55" y="40" width="15" height="12" rx="1" fill="#1e293b"/>
+<rect x="75" y="40" width="15" height="12" rx="1" fill="#1e293b"/>
+<!-- Chimney -->
+<rect x="50" y="10" width="12" height="30" fill="#4b5563"/>
+<rect x="45" y="8" width="22" height="5" rx="1" fill="#6b7280"/>
+<!-- Toxic cloud from chimney -->
+<ellipse cx="68" cy="10" rx="18" ry="8" fill="#a3e635" opacity="0.15"/>
+<ellipse cx="80" cy="5" rx="22" ry="10" fill="#a3e635" opacity="0.1"/>
+<!-- Gas tanks -->
+<ellipse cx="170" cy="70" rx="20" ry="30" fill="#6b7280"/>
+<ellipse cx="170" cy="70" rx="18" ry="28" fill="#78716c"/>
+<rect x="165" y="95" width="10" height="8" fill="#4b5563"/>
+<ellipse cx="220" cy="75" rx="16" ry="25" fill="#6b7280"/>
+<ellipse cx="220" cy="75" rx="14" ry="23" fill="#78716c"/>
+<!-- Leak -->
+<path d="M185,65 Q195,60 200,65 Q210,70 215,62" fill="none" stroke="#a3e635" stroke-width="2" opacity="0.5"/>
+<path d="M190,72 Q200,68 208,72 Q215,76 222,70" fill="none" stroke="#a3e635" stroke-width="1.5" opacity="0.4"/>
+<ellipse cx="200" cy="80" rx="20" ry="8" fill="#a3e635" opacity="0.08"/>
+<!-- Warning signs -->
+<g transform="translate(140,85)">
+  <polygon points="10,0 20,17 0,17" fill="#f59e0b" stroke="#1c1917" stroke-width="1"/>
+  <text x="10" y="14" text-anchor="middle" font-size="10" fill="#1c1917" font-weight="bold">!</text>
+</g>
+<g transform="translate(240,88)">
+  <polygon points="8,0 16,14 0,14" fill="#f59e0b" stroke="#1c1917" stroke-width="0.8"/>
+  <text x="8" y="11" text-anchor="middle" font-size="8" fill="#1c1917" font-weight="bold">!</text>
+</g>
+<!-- Hazmat suit person -->
+<g transform="translate(280,58)">
+  <circle cx="12" cy="0" r="8" fill="#fef3c7"/>
+  <rect x="6" y="-6" width="12" height="4" rx="2" fill="#fef3c7"/>
+  <rect x="8" y="-4" width="8" height="4" fill="#1e40af" opacity="0.3"/>
+  <rect x="4" y="8" width="16" height="24" rx="3" fill="#fef3c7"/>
+  <rect x="4" y="32" width="6" height="12" rx="2" fill="#fef3c7"/>
+  <rect x="14" y="32" width="6" height="12" rx="2" fill="#fef3c7"/>
+  <!-- air tank -->
+  <ellipse cx="24" cy="18" rx="4" ry="8" fill="#6b7280"/>
+</g>
+<!-- Pipes -->
+<line x1="110" y1="70" x2="150" y2="70" stroke="#6b7280" stroke-width="4"/>
+<line x1="110" y1="80" x2="150" y2="80" stroke="#6b7280" stroke-width="3"/>
+<!-- Fence -->
+<g opacity="0.4">
+  <line x1="320" y1="70" x2="320" y2="100" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="340" y1="70" x2="340" y2="100" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="360" y1="70" x2="360" y2="100" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="380" y1="70" x2="380" y2="100" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="315" y1="78" x2="385" y2="78" stroke="#6b7280" stroke-width="1"/>
+  <line x1="315" y1="90" x2="385" y2="90" stroke="#6b7280" stroke-width="1"/>
+</g>
+</svg>

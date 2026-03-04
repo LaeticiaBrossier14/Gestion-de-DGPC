@@ -1,0 +1,62 @@
+﻿============================================================
+CORRECTOR UNIT TESTS
+============================================================
+
+[Test 1]
+  IN:  Azul fell-ak a ß╣¡ß╣¡bib, ╔úer yiwen n l-mreß©ì...
+  OUT: Azul fell-ak a ttbib, gher yiwen n l-mred...
+  3 auto-fix, 0 suggestions
+    Ô£à ROMANIZE: '╔ú' ÔåÆ 'gh' ÔÇö Romanisation acad├®mique '╔ú' ÔåÆ arabizi 'gh' (corpus: 212 occu
+    Ô£à ROMANIZE: 'ß©ì' ÔåÆ 'd' ÔÇö Romanisation acad├®mique 'ß©ì' ÔåÆ arabizi 'd' (corpus: ~50 occur
+    Ô£à ROMANIZE: 'ß╣¡' ÔåÆ 't' ÔÇö Romanisation acad├®mique 'ß╣¡' ÔåÆ arabizi 't' (corpus: ~80 occur
+
+[Test 2]
+  IN:  la ambulance dagi, la tension sighlin...
+  OUT: l'ambulance dagi, l'tension sighlin...
+  2 auto-fix, 1 suggestions
+    Ô£à ARTICLE: 'la ambulance' ÔåÆ 'l'ambulance' ÔÇö Article kabylis├®: 'la ambulance' ÔåÆ 'l'ambulance'
+    Ô£à ARTICLE: 'la tension' ÔåÆ 'l'tension' ÔÇö Article kabylis├®: 'la tension' ÔåÆ 'l'tension'
+    ­ƒÆí NO_GREETING: '(pas de salutation)' ÔåÆ 'Allo/Salam alaykoum' ÔÇö Salutation absente ÔÇö corpus: Allo(59%), Salam(39%)
+
+[Test 3]
+  IN:  n argaz yella deg axxam...
+  OUT: n urgaz yella deg axxam...
+  1 auto-fix, 1 suggestions
+    Ô£à CONSTRUCT: 'n argaz' ÔåÆ 'n urgaz' ÔÇö ├ëtat construit: 'argaz' ÔåÆ 'urgaz' apr├¿s 'n'
+    ­ƒÆí NO_GREETING: '(pas de salutation)' ÔåÆ 'Allo/Salam alaykoum' ÔÇö Salutation absente ÔÇö corpus: Allo(59%), Salam(39%)
+
+[Test 4]
+  IN:  A: Allo?
+O: An3am?
+A: Yella l'accident...
+  OUT: ÔÇö Allo?
+ÔÇö An3am?
+ÔÇö Yella l'accident...
+  1 auto-fix, 0 suggestions
+    Ô£à DIALOGUE_FMT: 'A:/O: labels' ÔåÆ 'ÔÇö dashes' ÔÇö Format dialogue: labels A:/O: ÔåÆ tirets (31% du corpus)
+
+[Test 5]
+  IN:  ur yezmir chwiya, bessah ma3lich...
+  OUT: ur yezmir chwiya, bessah ma3lich...
+  0 auto-fix, 2 suggestions
+    ­ƒÆí NEG_ORPHAN: 'ur yezmir chwiya, bessah ma3li' ÔåÆ '(ajouter 'ara' apr├¿s le verbe)' ÔÇö N├®gation incompl├¿te: 'ur' sans 'ara' ÔÇö r├¿gle R6: ur {verbe} 
+    ­ƒÆí NO_GREETING: '(pas de salutation)' ÔåÆ 'Allo/Salam alaykoum' ÔÇö Salutation absente ÔÇö corpus: Allo(59%), Salam(39%)
+
+[Test 6]
+  IN:  machi i-teddu gher sbitar...
+  OUT: machi i-teddu gher sbitar...
+  0 auto-fix, 2 suggestions
+    ­ƒÆí MACHI_VERB: 'machi i-teddu gher sb' ÔåÆ '(machi + nom, pas verbe)' ÔÇö 'machi' s'utilise avec un nom, jamais un verbe conjugu├®
+    ­ƒÆí NO_GREETING: '(pas de salutation)' ÔåÆ 'Allo/Salam alaykoum' ÔÇö Salutation absente ÔÇö corpus: Allo(59%), Salam(39%)
+
+[Test 7]
+  IN:  il est dans la maison, il est pas bien, elle est malade...
+  OUT: il est dans la maison, il est pas bien, elle est malade...
+  0 auto-fix, 2 suggestions
+    ­ƒÆí FRENCH_HEAVY: '75% mots fr' ÔåÆ '(corpus avg: 5.2%, max 24%)' ÔÇö Ratio fran├ºais 75% ÔÇö au-dessus du seuil (20%). Corpus avg: 5
+    ­ƒÆí NO_GREETING: '(pas de salutation)' ÔåÆ 'Allo/Salam alaykoum' ÔÇö Salutation absente ÔÇö corpus: Allo(59%), Salam(39%)
+
+[Test 8]
+  IN:  Allo? salam alaykoum l'Himayai, d-aqla-gh dagi gher la DGS...
+  OUT: Allo? salam alaykoum l'Himayai, d-aqla-gh dagi gher la DGS...
+  0 auto-fix, 0 suggestions

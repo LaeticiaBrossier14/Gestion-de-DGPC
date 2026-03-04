@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 130">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1f2937"/><stop offset="100%" stop-color="#374151"/></linearGradient>
+</defs>
+<rect width="400" height="130" fill="url(#bg)"/>
+<!-- Phone icon -->
+<g transform="translate(150,20)">
+  <rect x="0" y="0" width="50" height="85" rx="8" fill="#4b5563" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="4" y="8" width="42" height="60" rx="3" fill="#1f2937"/>
+  <!-- Question mark on screen -->
+  <text x="25" y="52" text-anchor="middle" font-size="36" fill="#6b7280" font-weight="bold" opacity="0.5">?</text>
+  <!-- Home button -->
+  <circle cx="25" cy="78" r="4" fill="none" stroke="#6b7280" stroke-width="1"/>
+</g>
+<!-- Confusion marks -->
+<text x="120" y="35" font-size="20" fill="#9ca3af" opacity="0.3" font-weight="bold">?</text>
+<text x="220" y="28" font-size="16" fill="#9ca3af" opacity="0.25" font-weight="bold">?</text>
+<text x="100" y="65" font-size="14" fill="#9ca3af" opacity="0.2" font-weight="bold">?</text>
+<text x="240" y="55" font-size="18" fill="#9ca3af" opacity="0.2" font-weight="bold">?</text>
+<!-- X marks (false alarm) -->
+<g transform="translate(60,75)" opacity="0.3">
+  <line x1="0" y1="0" x2="16" y2="16" stroke="#ef4444" stroke-width="3" stroke-linecap="round"/>
+  <line x1="16" y1="0" x2="0" y2="16" stroke="#ef4444" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g transform="translate(310,70)" opacity="0.25">
+  <line x1="0" y1="0" x2="14" y2="14" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="14" y1="0" x2="0" y2="14" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+<!-- Checkmark (resolved) -->
+<g transform="translate(280,90)" opacity="0.3">
+  <polyline points="0,8 6,14 18,0" fill="none" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<!-- Sound waves from phone -->
+<path d="M210,40 Q220,35 210,30" fill="none" stroke="#6b7280" stroke-width="1" opacity="0.3"/>
+<path d="M215,42 Q228,35 215,28" fill="none" stroke="#6b7280" stroke-width="0.8" opacity="0.2"/>
+</svg>

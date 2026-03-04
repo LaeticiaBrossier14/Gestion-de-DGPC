@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html class="light" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Kabyle Challenge - Accueil</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Theme Configuration -->
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0d96f2", // Kabyle Blue-ish
+                        "kabyle-yellow": "#fbbf24",
+                        "kabyle-green": "#10b981",
+                        "kabyle-red": "#ef4444",
+                        "background-light": "#f5f7f8",
+                        "background-dark": "#101b22",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem", 
+                        "lg": "1.5rem", 
+                        "xl": "2rem", 
+                        "2xl": "2.5rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        @layer utilities {
+            .no-scrollbar::-webkit-scrollbar {
+                display: none;
+            }
+            .no-scrollbar {
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+            }
+            /* Custom glassmorphism for badges */
+            .glass {
+                background: rgba(255, 255, 255, 0.2);
+                backdrop-filter: blur(8px);
+                -webkit-backdrop-filter: blur(8px);
+                border: 1px solid rgba(255, 255, 255, 0.3);
+            }
+        }
+        
+        body {
+            font-family: 'Lexend', sans-serif;
+        }
+        
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 1,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-gray-100 dark:bg-gray-900 flex justify-center h-screen overflow-hidden">
+<!-- Mobile Container -->
+<div class="relative flex w-full max-w-md h-full flex-col bg-background-light dark:bg-background-dark shadow-2xl overflow-hidden group/design-root">
+<!-- Status Bar / Header -->
+<header class="flex items-center justify-between px-6 pt-12 pb-4 z-20">
+<div>
+<h1 class="text-slate-800 dark:text-white text-xl font-extrabold tracking-tight leading-tight">
+                    Kabyle Challenge
+                </h1>
+<p class="text-slate-500 dark:text-slate-400 text-xs font-medium">Azul fell-awen ! 👋</p>
+</div>
+<div class="flex items-center gap-1 bg-white dark:bg-slate-800 py-1.5 px-3 rounded-full shadow-sm border border-slate-100 dark:border-slate-700">
+<span class="text-base leading-none">💎</span>
+<span class="text-primary dark:text-sky-400 text-sm font-bold leading-none pt-0.5">120 XP</span>
+</div>
+</header>
+<!-- Main Scrollable Content -->
+<main class="flex-1 overflow-y-auto no-scrollbar px-5 pb-24 space-y-4">
+<!-- Hero Grid for Big Cards -->
+<div class="flex flex-col gap-4 h-full min-h-[500px]">
+<!-- Card 1: Je Parle (Speaking) -->
+<!-- Taking roughly 45% of space, Blue Theme -->
+<div class="relative flex-1 group cursor-pointer overflow-hidden rounded-xl bg-primary shadow-lg shadow-blue-500/20 transition-all active:scale-[0.98]">
+<!-- Abstract Background Pattern -->
+<div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-white via-transparent to-transparent"></div>
+<!-- Giant Decorative Icon -->
+<span class="material-symbols-outlined absolute -right-6 -bottom-8 text-[160px] text-white opacity-10 rotate-12 select-none pointer-events-none">
+                        mic
+                    </span>
+<div class="relative h-full flex flex-col justify-between p-6">
+<!-- Icon Badge -->
+<div class="glass w-14 h-14 rounded-full flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-white text-3xl">mic</span>
+</div>
+<!-- Content -->
+<div>
+<h2 class="text-white text-3xl font-black mb-1 tracking-tight">Je Parle</h2>
+<div class="flex items-center gap-2">
+<span class="bg-white/20 px-2 py-0.5 rounded-md text-white/90 text-xs font-medium">Oral</span>
+<p class="text-blue-50 font-medium text-lg">Donne ta voix</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Card 2: J'écris (Writing) -->
+<!-- Taking roughly 45% of space, Violet Theme -->
+<div class="relative flex-1 group cursor-pointer overflow-hidden rounded-xl bg-violet-400 dark:bg-violet-600 shadow-lg shadow-violet-500/20 transition-all active:scale-[0.98]">
+<!-- Abstract Background Pattern -->
+<div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-white via-transparent to-transparent"></div>
+<!-- Giant Decorative Icon -->
+<span class="material-symbols-outlined absolute -right-6 -bottom-6 text-[150px] text-white opacity-10 rotate-[-12deg] select-none pointer-events-none">
+                        edit_note
+                    </span>
+<div class="relative h-full flex flex-col justify-between p-6">
+<!-- Icon Badge -->
+<div class="glass w-14 h-14 rounded-full flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-white text-3xl">edit</span>
+</div>
+<!-- Content -->
+<div>
+<h2 class="text-white text-3xl font-black mb-1 tracking-tight">J'écris</h2>
+<div class="flex items-center gap-2">
+<span class="bg-white/20 px-2 py-0.5 rounded-md text-white/90 text-xs font-medium">Écrit</span>
+<p class="text-violet-50 font-medium text-lg">Transcris des audios</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer Banner: Défi du jour -->
+<div class="mt-2 relative overflow-hidden rounded-xl bg-white dark:bg-slate-800 p-1 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] dark:shadow-none border border-slate-100 dark:border-slate-700">
+<div class="flex items-center gap-4 p-3 pr-2">
+<!-- Left Icon Image Area -->
+<div class="relative h-14 w-14 rounded-full bg-kabyle-yellow/10 flex items-center justify-center shrink-0 overflow-hidden">
+<!-- Using a data-alt for image requirement compliance, though using icon here for UI consistency -->
+<div class="absolute inset-0 bg-gradient-to-br from-yellow-100 to-orange-100 dark:from-yellow-900/40 dark:to-orange-900/40" data-alt="Abstract yellow gradient background for daily challenge icon"></div>
+<span class="material-symbols-outlined text-orange-500 relative z-10 text-2xl">local_fire_department</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<h3 class="text-slate-800 dark:text-white text-base font-bold leading-tight truncate">Défi du jour</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-medium truncate">Gagne +50 XP ce soir !</p>
+</div>
+<button class="shrink-0 bg-slate-900 dark:bg-primary text-white text-sm font-bold py-2.5 px-6 rounded-full shadow-lg shadow-slate-900/10 active:scale-95 transition-transform">
+                            Jouer
+                        </button>
+</div>
+</div>
+</div>
+</main>
+<!-- Bottom Navigation Bar -->
+<nav class="absolute bottom-0 w-full bg-white/90 dark:bg-slate-800/90 backdrop-blur-lg border-t border-slate-100 dark:border-slate-700 px-6 pb-6 pt-3 z-30">
+<div class="flex justify-between items-end">
+<a class="flex flex-col items-center gap-1 min-w-[64px] group" href="#">
+<span class="material-symbols-outlined text-primary text-2xl group-hover:scale-110 transition-transform">home</span>
+<span class="text-[10px] font-bold text-primary">Accueil</span>
+</a>
+<a class="flex flex-col items-center gap-1 min-w-[64px] group" href="#">
+<span class="material-symbols-outlined text-slate-400 dark:text-slate-500 text-2xl group-hover:text-primary transition-colors">emoji_events</span>
+<span class="text-[10px] font-medium text-slate-400 dark:text-slate-500 group-hover:text-primary">Classement</span>
+</a>
+<a class="flex flex-col items-center gap-1 min-w-[64px] group" href="#">
+<span class="material-symbols-outlined text-slate-400 dark:text-slate-500 text-2xl group-hover:text-primary transition-colors">storefront</span>
+<span class="text-[10px] font-medium text-slate-400 dark:text-slate-500 group-hover:text-primary">Boutique</span>
+</a>
+<a class="flex flex-col items-center gap-1 min-w-[64px] group" href="#">
+<span class="material-symbols-outlined text-slate-400 dark:text-slate-500 text-2xl group-hover:text-primary transition-colors">person</span>
+<span class="text-[10px] font-medium text-slate-400 dark:text-slate-500 group-hover:text-primary">Profil</span>
+</a>
+</div>
+</nav>
+</div>
+</body></html>

@@ -1,0 +1,150 @@
+﻿Loaded 100 annotated transcriptions
+
+============================================================
+ANALYSIS 1: Romanization Patterns
+============================================================
+Arabizi usage (expected in correct transcriptions):
+  3_ayn: 386
+  ch_shin: 323
+  gh_ghayn: 212
+  7_ha: 173
+  th_tha: 156
+  9_qaf: 4
+
+Academic chars (should be ZERO in correct transcriptions):
+  '╔ú': 11
+  'ß©ì': 4
+  'ß╣ú': 3
+  'ß╣¡': 2
+  TOTAL academic chars: 20
+
+============================================================
+ANALYSIS 2: Negation Patterns
+============================================================
+  machi: 14
+  khati/xati: 14
+  ulach/wlach: 2
+  la la: 2
+  ur...ara (correct): 2
+    ex: "ur teqlaq ara, il 7adi di3as dhinna?. - "
+    ex: "ur s-u-f-f-el-dara i-z-i-n-barra. - port"
+  ur WITHOUT ara (orphan): 2
+
+============================================================
+ANALYSIS 3: Dialogue Format
+============================================================
+  continuous flow: 66 (66%)
+  dashes (ÔÇö): 31 (31%)
+  labels (Operator:/Caller:): 3 (3%)
+
+============================================================
+ANALYSIS 4: Greeting Patterns
+============================================================
+  Allo: 59 (59%)
+  Salam (alaykoum): 39 (39%)
+  Msa lkhir: 4 (4%)
+  Azul: 3 (3%)
+  Sba7 lkhir: 1 (1%)
+
+============================================================
+ANALYSIS 5: Construct State Patterns
+============================================================
+Top construct state patterns (n + annexed noun):
+  n tnine: 3
+  n toghza: 3
+  n t: 2
+  n twala: 1
+
+============================================================
+ANALYSIS 6: Emergency Verb Usage
+============================================================
+  ghli (fall): 8 calls
+  che3l (burn): 2 calls
+  doukh (faint): 1 calls
+  yugh (hurt): 1 calls
+  nuffes (breathe): 3 calls
+  teddu (go): 2 calls
+  arwa7 (come): 2 calls
+  ttawi (take): 2 calls
+  hlek (be bad): 1 calls
+  che3el (light): 0 calls
+
+============================================================
+ANALYSIS 7: French Word Ratio
+============================================================
+  Average French word ratio: 5.2%
+  Min: 0.0%, Max: 24.1%
+    < 5%: 57 calls
+    5-10%: 25 calls
+    10-15%: 9 calls
+    15-20%: 5 calls
+    20-30%: 1 calls
+    >30%: 0 calls
+
+============================================================
+ANALYSIS 8: Kabyle Markers Density
+============================================================
+Most frequent Kabyle markers across all transcriptions:
+  d'accord: 97 occurrences in 57 calls
+  ih: 96 occurrences in 39 calls
+  saha: 51 occurrences in 33 calls
+  an3am: 36 occurrences in 21 calls
+  chwiya: 28 occurrences in 16 calls
+  anda: 25 occurrences in 14 calls
+  dayi: 25 occurrences in 25 calls
+  tura: 23 occurrences in 15 calls
+  achu: 21 occurrences in 13 calls
+  dagi: 21 occurrences in 9 calls
+  sahit: 19 occurrences in 13 calls
+  khati: 16 occurrences in 12 calls
+  machi: 15 occurrences in 8 calls
+  amek: 13 occurrences in 10 calls
+  dachu: 13 occurrences in 6 calls
+  ma3lich: 13 occurrences in 9 calls
+  anwa: 12 occurrences in 9 calls
+  yella: 9 occurrences in 5 calls
+  dinna: 9 occurrences in 5 calls
+  agma: 8 occurrences in 7 calls
+
+============================================================
+ANALYSIS 9: Specific Gemini Error Patterns (from JSON comparison)
+============================================================
+
+OBSERVED GEMINI ERRORS (from manual JSON inspection):
+1. ROMANIZATION: Uses ╔ú (gamma) instead of gh
+   - Gemini: "╔úer yiwen" ÔåÆ Human: "gher yiwen"
+   - Gemini: "ß╣¡ß╣¡bib" ÔåÆ Human: "tbib" or "thbib"
+   - Gemini: "╔øassen" ÔåÆ Human: "3assen"
+
+2. OVER-STANDARDIZATION: Gemini uses literary Kabyle forms
+   - Gemini: "A: ... O: ..." labels ÔåÆ Human: continuous flow
+   - Gemini: "fell-ak" (careful) ÔåÆ Human: "fell-ak" (same, but context)
+
+3. VOCABULARY INVENTION: Gemini translates French ÔåÆ invented Kabyle
+   - Gemini: "n d-yefles" ÔåÆ Human: actual Kabyle word used by speaker
+
+4. CONSTRUCT STATE: Gemini sometimes misses construct state
+   - Pattern: "n argaz" should be "n urgaz"
+
+5. NEGATION: Gemini may drop the discontinuous "ara"
+   - Missing: "ur t-zmir" should be "ur t-zmir ara"
+
+
+============================================================
+SUMMARY: Key areas for corrector + prompt improvement
+============================================================
+
+PROMPT PRIORITIES (prevent errors at source):
+  P1. Explicit arabizi romanization table (3/7/9/gh/th/ch)
+  P2. List of emergency verbs with correct conjugations
+  P3. Negation rules: ur...ara circumfixe obligatoire
+  P4. Code-switching rules: NEVER translate medical/tech FR terms
+  P5. Dialogue format: match what human annotators use
+
+CORRECTOR PRIORITIES (catch remaining errors):
+  C1. Romanization: replace academic chars ÔåÆ arabizi
+  C2. Negation: fix orphan "ur" by adding "ara"
+  C3. Construct state: after prepositions n/g
+  C4. French article normalization: "la ambulance" ÔåÆ "l'ambulance"
+  C5. machi + verb detection (flag only)
+

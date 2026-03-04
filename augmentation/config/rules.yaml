@@ -1,0 +1,324 @@
+# =============================================================
+# Kabyle Grammar Rules — Béjaïa Dialect (Tasahlit / EOR)
+# =============================================================
+# Sources:
+#   - PROFIL_LINGUISTIQUE_BEJAIA.md (97 real calls)
+#   - Thèse ASSOU (553 pages, 19 parlers eastern Béjaïa)
+#   - Chaker - Prosodie du Kabyle (melodic accent)
+#   - Naït-Zerrad - Dialectologie 2001 (4 groups)
+# =============================================================
+
+# ----------------------------------------------------------
+# 1. WORD ORDER  (flexible VSO / SVO, emergency speech patterns)
+# ----------------------------------------------------------
+word_order:
+  # Emergency speech favors these structures
+  declarative_vso: "VERB + SUBJECT + COMPLEMENT"
+  # Examples from real data:
+  #   "ighli yiwen g lebher"  (fell someone at the sea)
+  #   "theghli thaqchichth g saha" (fainted a girl in the yard)
+
+  existential: "EXISTENCE_VERB + SUBJECT + LOCATIVE"
+  # Examples: "yella yiwen l'malade dayi" (there is a patient here)
+
+  possession: "POSS_VERB + OBJECT"
+  # Examples: "nes3a un accident" (we have an accident)
+
+  imperative: "VERB_IMP_ROOT + CLITIC"
+  # Examples: "arwa7-d!" (come!), "awi-d l'ambulance!" (bring the ambulance!)
+
+  # SVO is also common, especially with code-switching
+  declarative_svo: "SUBJECT + VERB + COMPLEMENT"
+  # Examples: "l'ambulance t-le7qed" (the ambulance is arriving)
+
+# ----------------------------------------------------------
+# 2. NEGATION  (CRITICAL — Béjaïa-specific)
+# ----------------------------------------------------------
+negation:
+  # PRIMARY form for Béjaïa/Tasahlit (from Thèse ASSOU, isoglosse R12)
+  verbal_bejaia:
+    pattern: "ul + VERB + ula"
+    examples:
+      - "ul yezmir ula"           # he can't
+      - "ul t-nuffes ula mlih"    # she doesn't breathe well
+      - "ul d-yusi ula"           # he didn't come
+    note: "Eastern Béjaïa uses ul...ula, NOT ur...ara"
+
+  # ALSO ACCEPTED — standard Kabyle (appears 2x in real corpus)
+  verbal_standard:
+    pattern: "ur + VERB + ara"
+    examples:
+      - "ur teqlaq ara"           # don't worry
+      - "ay-zmer ara ad-yeddu"    # he can't walk
+    note: "Standard form also valid — some speakers use both"
+
+  # HYBRID negation (real corpus: "it-respirerara")
+  verbal_hybrid:
+    pattern: "FRENCH_VERB + ara"
+    examples:
+      - "it-respirerara"          # he doesn't breathe (FR verb + KAB neg)
+      - "it-bougerara"            # he doesn't move
+    note: "Code-switching negation — very authentic to Béjaïa"
+
+  # Nominal negation — "there is not"
+  nominal:
+    pattern: "ulach / wlach"
+    variants: ["ulach", "wlach", "ulac", "wlachitt"]
+    examples:
+      - "ulach l'ambulance"       # there's no ambulance
+      - "wlachitt"                # there isn't any (fem)
+      - "ulach win i d-yusan"     # there's nobody who came
+
+  # Identity negation — "it's not"
+  identity:
+    pattern: "machi + NOUN/ADJ"
+    examples:
+      - "machi enceinte"          # not pregnant
+      - "machi tin n Souq el-Tnayn" # not the one from Souq el-Tnayn
+    rule: "NEVER followed by a conjugated verb"
+
+  # Simple refusal
+  refusal:
+    forms: ["khati", "xati"]
+    rule: "Direct response to yes/no questions"
+
+# ----------------------------------------------------------
+# 3. VERB CONJUGATION
+# ----------------------------------------------------------
+verb_conjugation:
+  # Person markers
+  person_markers:
+    "1sg":
+      prefix: ""
+      suffix: "-gh"
+      examples: ["steqsi-gh", "zri-gh", "3yed-egh"]
+    "2sg_masc":
+      prefix: "t-"
+      suffix: "-d"
+      examples: ["t-eddud", "t-ezred"]
+    "2sg_fem":
+      prefix: "t-"
+      suffix: "-d"
+      examples: ["t-eddud", "t-ezred"]
+    "3sg_masc":
+      prefix: "i-"
+      alt_prefix: "y-"
+      suffix: ""
+      examples: ["i-ghli", "y-eghli", "i-doukh"]
+    "3sg_fem":
+      prefix: "t-"
+      suffix: ""
+      examples: ["t-eghli", "t-nuffes", "t-sa3"]
+    "1pl":
+      prefix: "n-"
+      suffix: ""
+      examples: ["n-teddu", "n-as-d", "n-awi"]
+    "2pl":
+      prefix: "t-"
+      suffix: "-m"
+      examples: ["t-eddudm", "t-walim"]
+    "3pl_masc":
+      prefix: ""
+      suffix: "-n"
+      examples: ["ghli-n", "ewde-n"]
+    "3pl_fem":
+      prefix: ""
+      suffix: "-nt"
+      examples: ["ghli-nt"]
+
+  # Tense-aspect markers
+  tense_markers:
+    future:
+      particles: ["ad-", "at-", "di-", "da-"]
+      bejaia_preferred: ["di-", "da-"]      # Specific to EOR
+      examples:
+        - "ad-teddud"              # you will come
+        - "di-yeteddu"             # he will go (Béjaïa form)
+        - "at-t-as"                # she will come
+    present_progressive:
+      markers: ["aqla-gh", "attan"]
+      examples:
+        - "aqla-gh n-teddu-d"      # we are coming
+        - "attan ttedund"          # they are going
+    now:
+      adverb: "tura"
+      examples:
+        - "tura sensiwlegh"        # I'll call them now
+        - "tura t-le7qed l'ambulance"  # the ambulance is arriving now
+    preterite:
+      marker: null                 # no marker, plain verb stem
+      examples:
+        - "i-ghli"                 # he fell
+        - "t-qleb"                 # she overturned
+
+  # Emergency verb roots (most frequent in corpus)
+  emergency_roots:
+    ghli:
+      meaning: "fall / faint"
+      preterite_3sm: "i-ghli"
+      preterite_3sf: "t-eghli"
+      aorist_3sm: "ad-yeghli"
+      intensive: "i-ghellib"       # it keeps falling
+    che3l:
+      meaning: "burn / catch fire"
+      preterite_3sm: "ich3el"
+      preterite_3sf: "cha3let"
+      aorist_3sm: "ad-yeche3l"
+      imperative: "che3l"
+    doukh:
+      meaning: "feel dizzy / sick"
+      preterite_3sm: "i-doukh"
+      preterite_3sf: "t-doukh"
+      aorist_3sm: "ad-yedoukh"
+    yugh:
+      meaning: "hurt / be painful"
+      preterite_3sm: "i-yugh"
+      preterite_3sf: "t-yugh"
+      intensive: "i-thyugh"        # it keeps hurting
+    nuffes:
+      meaning: "breathe"
+      preterite_3sm: "i-nuffes"
+      preterite_3sf: "t-nuffes"
+      negative_hybrid: "it-respirerara"  # hybrid neg (real corpus!)
+    teddu:
+      meaning: "go / move"
+      preterite_3sm: "i-dda"
+      aorist_3sm: "ad-yeddu"
+      intensive: "i-tteddu"
+      future_1pl: "n-teddu-d"     # we will come
+    ttawi:
+      meaning: "carry / transport"
+      preterite_3sm: "i-wwin"
+      aorist_3sm: "ad-yawi"
+      imperative: "awi-d"         # bring!
+    ghleq:
+      meaning: "drown / suffocate"
+      preterite_3sm: "i-ghleq"
+      preterite_3sf: "t-ghleq"
+      aorist_3sm: "ad-yeghleq"
+    3awed:
+      meaning: "repeat / call again"
+      imperative: "3awed"
+      preterite_1sg: "3awed-egh"
+
+# ----------------------------------------------------------
+# 4. CONSTRUCT STATE  (état d'annexion)
+# ----------------------------------------------------------
+construct_state:
+  # Nouns change form after a verb or preposition
+  rules:
+    - trigger: "after_verb_subject"
+      change: "initial a- → u-"
+      examples:
+        - ["argaz", "urgaz"]       # man
+        - ["adrar", "udrar"]       # mountain
+        - ["axxam", "uxxam"]      # house
+        - ["asif", "wasif"]       # river (adds semivowel)
+    - trigger: "after_preposition"
+      change: "initial ta- → t-"
+      examples:
+        - ["tamurt", "tmurt"]      # country
+        - ["tameṭṭut", "tmeṭṭut"] # woman
+        - ["tamghart", "tmghart"]  # old woman
+    - trigger: "after_n_genitive"
+      change: "initial a- → u-"
+      examples:
+        - ["akal n urgaz", "the man's land"]
+        - ["avrid n uxxam", "the road to the house"]
+
+# ----------------------------------------------------------
+# 5. CODE-SWITCHING RULES
+# ----------------------------------------------------------
+code_switching:
+  # French terms that are ALWAYS kept as-is (never translated)
+  keep_french:
+    - "ambulance"
+    - "accident"
+    - "pompiers"
+    - "protection civile"
+    - "bloc"
+    - "étage"
+    - "logements"
+    - "crise"
+    - "tension"
+    - "oxygène"
+    - "inconscient"
+    - "blessé"
+    - "hémorragie"
+    - "enceinte"
+    - "numéro"
+    - "route"
+    - "nationale"
+    - "d'accord"
+    - "urgent"
+    - "camion"
+    - "moto"
+    - "véhicule"
+
+  # French terms with Kabyle article adaptation
+  kabylise_article:
+    - pattern: "l'{french_term}"
+      examples: ["l'ambulance", "l'accident", "l'bloc", "l'camion"]
+    - pattern: "les {french_term}"
+      examples: ["les pompiers", "les blessés"]
+
+  # Arabic social formulas (always kept)
+  keep_arabic:
+    - "salam alaykoum"
+    - "wa alaykoum assalam"
+    - "inchallah"
+    - "wallah"
+    - "barak allah"
+    - "ya3tik sa7a"
+    - "ma3lich"
+    - "a l'3ar"                   # plea for help
+    - "rebbi i3awn-ik"            # may God help you
+
+  # Hybrid verb formation (French verb + Kabyle conjugation)
+  hybrid_verbs:
+    pattern: "it-{french_verb}{kabyle_suffix}"
+    examples:
+      - "it-respirerara"          # he doesn't breathe  (FR + KAB neg)
+      - "t-deplacer-ed"           # come over            (FR + KAB dir)
+      - "at-transporter-en"       # they will transport   (KAB future + FR)
+
+# ----------------------------------------------------------
+# 6. DEICTIC SYSTEM  (spatial reference)
+# ----------------------------------------------------------
+deictics:
+  here:
+    forms: ["dayi", "dagi", "dinna"]
+    weights: [23, 21, 9]
+    rule: "dayi/dagi = here (speaker location), dinna = there"
+  where:
+    forms: ["anda", "anida"]
+    weights: [22, 8]
+  direction:
+    ventive: "-d"   # toward speaker: "arwa7-d" (come here)
+    allative: ""    # away from speaker: "rwah" (go)
+
+# ----------------------------------------------------------
+# 7. QUALITY THRESHOLDS
+# ----------------------------------------------------------
+quality_thresholds:
+  min_chars: 30
+  min_words: 8
+  min_kabyle_markers_if_long: 5   # if ≥ 50 words
+  must_have_greeting: true
+  medical_must_have_verb: true    # "ghli", "doukh", "yugh", "nuffes"
+  fire_must_have_verb: true       # "che3l", "cha3l"
+  no_100pct_french: true
+  no_100pct_arabic: true
+
+# ----------------------------------------------------------
+# 8. PRONOUNS — Béjaïa Dialect
+# ----------------------------------------------------------
+pronouns:
+  bejaia:
+    "2sg_masc": "cekk"            # NOT "kečč" (standard)
+    "2sg_fem": "cemm"             # NOT "kemm"
+    "3pl_masc": "nuhni"           # NOT "nutni"
+  standard_also_ok:
+    "2sg_masc": "kečč"
+    "2sg_fem": "kemm"
+    "3pl_masc": "nutni"

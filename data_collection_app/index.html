@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>🎙️ Collecte Audio — Appels d'Urgence Béjaïa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-storage-compat.js"></script>
+    <style>
+        :root {
+            --bg: #0c1220;
+            --card: #151f30;
+            --card2: #1b2740;
+            --accent: #3b82f6;
+            --green: #10b981;
+            --red: #ef4444;
+            --orange: #f59e0b;
+            --text: #e8edf5;
+            --muted: #5e7290;
+            --border: rgba(255, 255, 255, 0.06);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            max-width: 480px;
+            margin: 0 auto;
+            overflow-x: hidden;
+        }
+
+        /* ===== HEADER ===== */
+        .header {
+            background: linear-gradient(180deg, #162035 0%, var(--bg) 100%);
+            padding: 16px 16px 10px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .header h1 {
+            font-size: 1.1em;
+            font-weight: 800;
+        }
+
+        .header h1 span {
+            color: var(--accent);
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 8px;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            background: var(--card);
+            padding: 4px 10px;
+            border-radius: 14px;
+            font-size: 0.72em;
+            font-weight: 600;
+        }
+
+        .stat b {
+            color: var(--accent);
+        }
+
+        .progress-track {
+            height: 3px;
+            background: var(--card);
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent), var(--green));
+            transition: width 0.4s ease;
+        }
+
+        /* ===== SCREENS ===== */
+        .screen {
+            padding: 12px 14px;
+        }
+
+        .screen.hidden {
+            display: none;
+        }
+
+        /* Setup */
+        .setup-card {
+            background: var(--card);
+            padding: 24px;
+            border-radius: 16px;
+            border: 1px solid var(--border);
+        }
+
+        .field {
+            margin-bottom: 16px;
+        }
+
+        .field label {
+            display: block;
+            font-weight: 600;
+            font-size: 0.88em;
+            margin-bottom: 5px;
+        }
+
+        .field input,
+        .field select {
+            width: 100%;
+            padding: 11px 13px;
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: rgba(0, 0, 0, 0.3);
+            color: var(--text);
+            font-size: 1em;
+            font-family: inherit;
+        }
+
+        .field select {
+            appearance: auto;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 13px;
+            border-radius: 12px;
+            border: none;
+            font-size: 1em;
+            font-weight: 700;
+            cursor: pointer;
+            font-family: inherit;
+            transition: transform 0.15s;
+        }
+
+        .btn:active {
+            transform: scale(0.97);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--accent), #2563eb);
+            color: white;
+        }
+
+        .btn-green {
+            background: linear-gradient(135deg, var(--green), #059669);
+            color: white;
+        }
+
+        .btn-ghost {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--muted);
+            border: 1px solid var(--border);
+            font-size: 0.88em;
+            padding: 10px;
+            margin-top: 6px;
+        }
+
+        /* ===== SCENE BANNER ===== */
+        .scene-banner {
+            border-radius: 14px;
+            margin-bottom: 10px;
+            animation: slideDown 0.35s ease;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid var(--border);
+        }
+
+        .scene-illustration {
+            width: 100%;
+            height: 90px;
+            display: block;
+            object-fit: cover;
+        }
+
+        .scene-meta {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 14px;
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(4px);
+        }
+
+        .scene-icon {
+            font-size: 1.6em;
+            filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.3));
+            animation: pulse 2s ease-in-out infinite;
+            flex-shrink: 0;
+        }
+
+        .scene-info {
+            flex: 1;
+        }
+
+        .scene-type {
+            font-weight: 700;
+            font-size: 0.88em;
+        }
+
+        .scene-loc {
+            font-size: 0.72em;
+            opacity: 0.7;
+            margin-top: 1px;
+        }
+
+        .scene-counter {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-size: 0.68em;
+            font-weight: 600;
+        }
+
+        /* ===== CHAT BUBBLE ===== */
+        .chat-row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+            align-items: flex-start;
+            animation: slideUp 0.3s ease;
+        }
+
+        .chat-row.caller {
+            flex-direction: row;
+        }
+
+        .chat-row.operator {
+            flex-direction: row-reverse;
+        }
+
+        .avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            flex-shrink: 0;
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.4);
+            overflow: hidden;
+            border: 2px solid transparent;
+        }
+
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        .avatar.caller-av {
+            border-color: rgba(251, 191, 36, 0.4);
+        }
+
+        .avatar.operator-av {
+            border-color: rgba(59, 130, 246, 0.4);
+        }
+
+        .bubble {
+            background: var(--card);
+            padding: 14px 16px;
+            border-radius: 14px;
+            border: 1px solid var(--border);
+            max-width: 85%;
+            position: relative;
+        }
+
+        .chat-row.caller .bubble {
+            border-bottom-left-radius: 4px;
+            border-left: 3px solid var(--orange);
+        }
+
+        .chat-row.operator .bubble {
+            border-bottom-right-radius: 4px;
+            border-right: 3px solid var(--accent);
+        }
+
+        .bubble-role {
+            font-size: 0.68em;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 4px;
+            letter-spacing: 0.5px;
+        }
+
+        .bubble-role.caller {
+            color: #fbbf24;
+        }
+
+        .bubble-role.operator {
+            color: #60a5fa;
+        }
+
+        .bubble-text {
+            font-size: 1.08em;
+            line-height: 1.55;
+            font-weight: 600;
+            letter-spacing: 0.2px;
+        }
+
+        /* ===== RECORD ZONE ===== */
+        .record-zone {
+            text-align: center;
+            padding: 16px 0 6px;
+        }
+
+        .mic-btn {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 3px solid var(--accent);
+            background: rgba(59, 130, 246, 0.08);
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2em;
+            transition: all 0.2s;
+            position: relative;
+        }
+
+        .mic-btn:active {
+            transform: scale(0.92);
+        }
+
+        .mic-btn.recording {
+            border-color: var(--red);
+            background: rgba(239, 68, 68, 0.12);
+            animation: glow 1.5s ease-in-out infinite;
+        }
+
+        .timer {
+            font-size: 1.4em;
+            font-weight: 700;
+            color: var(--muted);
+            margin-top: 8px;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .timer.active {
+            color: var(--red);
+        }
+
+        .hint {
+            color: var(--muted);
+            font-size: 0.8em;
+            margin-top: 4px;
+        }
+
+        /* ===== UPLOAD PROGRESS ===== */
+        .upload-bar {
+            height: 3px;
+            background: var(--card);
+            border-radius: 2px;
+            margin-top: 8px;
+            overflow: hidden;
+            display: none;
+        }
+
+        .upload-bar.active {
+            display: block;
+        }
+
+        .upload-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--green), #34d399);
+            transition: width 0.3s ease;
+            width: 0%;
+        }
+
+        .upload-status {
+            font-size: 0.72em;
+            color: var(--green);
+            margin-top: 3px;
+            display: none;
+        }
+
+        .upload-status.active {
+            display: block;
+        }
+
+        .btn-share {
+            background: linear-gradient(135deg, #25D366, #128C7E);
+            color: white;
+        }
+
+        .btn-download-all {
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            color: white;
+        }
+
+        /* ===== PREVIEW ===== */
+        .preview-card {
+            background: var(--card);
+            border-radius: 16px;
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            padding: 18px;
+            text-align: center;
+        }
+
+        .preview-card audio {
+            width: 100%;
+            margin: 12px 0;
+            border-radius: 8px;
+        }
+
+        .preview-card h4 {
+            color: var(--green);
+            margin-bottom: 4px;
+        }
+
+        .btn-row {
+            display: flex;
+            gap: 8px;
+            margin-top: 8px;
+        }
+
+        .btn-row .btn {
+            flex: 1;
+        }
+
+        /* ===== DONE ===== */
+        .done-card {
+            text-align: center;
+            padding: 36px 16px;
+        }
+
+        .done-card .emoji {
+            font-size: 3.2em;
+            margin-bottom: 12px;
+        }
+
+        .done-card h2 {
+            font-size: 1.5em;
+            margin-bottom: 6px;
+        }
+
+        .done-card p {
+            color: var(--muted);
+        }
+
+        /* ===== ANIMATIONS ===== */
+        @keyframes glow {
+
+            0%,
+            100% {
+                box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.4);
+            }
+
+            50% {
+                box-shadow: 0 0 0 14px rgba(239, 68, 68, 0);
+            }
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateY(-12px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(10px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.08);
+            }
+        }
+
+        @keyframes breathe {
+
+            0%,
+            100% {
+                opacity: 0.6;
+            }
+
+            50% {
+                opacity: 1;
+            }
+        }
+
+        .listening-indicator {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background: var(--green);
+            border-radius: 50%;
+            margin-right: 6px;
+            animation: breathe 1.5s ease-in-out infinite;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div class="header">
+        <h1>🎙️ <span>Collecte Audio</span> — Béjaïa</h1>
+        <div class="stats">
+            <div class="stat">✅ <b id="doneCount">0</b> audios</div>
+            <div class="stat">📞 <b id="scenIdx">-</b></div>
+            <div class="stat">💬 Tour <b id="turnIdx">-</b></div>
+        </div>
+    </div>
+    <div class="progress-track">
+        <div class="progress-bar" id="pbar" style="width:0%"></div>
+    </div>
+
+    <!-- ===== SETUP ===== -->
+    <div class="screen" id="sSetup">
+        <div class="setup-card">
+            <h2 style="margin-bottom:14px;">👋 Bienvenue !</h2>
+            <p style="color:var(--muted);margin-bottom:18px;font-size:0.88em;">
+                Tu vas lire des scénarios d'appels d'urgence à voix haute.<br>
+                Chaque phrase = 1 enregistrement.
+            </p>
+            <div class="field">
+                <label>👤 Ton prénom</label>
+                <input type="text" id="iName" placeholder="Ex: Amine, Lydia, Karim..." autocomplete="given-name">
+            </div>
+            <div class="field">
+                <label>🎭 Tu joues quel rôle ?</label>
+                <select id="iRole">
+                    <option value="both">📞 Les deux (appelant + opérateur)</option>
+                    <option value="caller">🗣️ Appelant seulement</option>
+                    <option value="operator">📞 Opérateur seulement</option>
+                </select>
+            </div>
+            <button class="btn btn-primary" onclick="start()">🚀 Commencer !</button>
+        </div>
+    </div>
+
+    <!-- ===== RECORDING ===== -->
+    <div class="screen hidden" id="sRecord">
+        <!-- Scene banner -->
+        <div class="scene-banner" id="sceneBanner">
+            <img class="scene-illustration" id="sceneIllust" src="assets/scene_accident.svg" alt="">
+            <div class="scene-meta">
+                <div class="scene-icon" id="sceneIcon">🚗</div>
+                <div class="scene-info">
+                    <div class="scene-type" id="sceneType">Accident</div>
+                    <div class="scene-loc" id="sceneLoc">📍 Amizour</div>
+                </div>
+                <div class="scene-counter" id="sceneCounter">1/117</div>
+            </div>
+        </div>
+
+        <!-- Chat bubble -->
+        <div class="chat-row" id="chatRow">
+            <div class="avatar" id="avatarEl"><img id="avatarImg" src="assets/caller.svg" alt=""></div>
+            <div class="bubble" id="bubbleEl">
+                <div class="bubble-role" id="bubbleRole">🗣️ APPELANT</div>
+                <div class="bubble-text" id="turnText">...</div>
+            </div>
+        </div>
+
+        <div class="record-zone">
+            <button class="mic-btn" id="micBtn" onclick="toggleRec()">🎙️</button>
+            <div class="timer" id="timer">0:00</div>
+            <div class="hint" id="recHint"><span class="listening-indicator"></span>Appuie pour enregistrer</div>
+        </div>
+    </div>
+
+    <!-- ===== PREVIEW ===== -->
+    <div class="screen hidden" id="sPreview">
+        <div class="preview-card">
+            <h4>🎧 Écoute et valide</h4>
+            <p style="color:var(--muted);font-size:0.82em;" id="prevText"></p>
+            <audio id="audioEl" controls></audio>
+            <div class="btn-row">
+                <button class="btn btn-ghost" onclick="redo()">🔄 Refaire</button>
+                <button class="btn btn-green" onclick="accept()">✅ Suivant</button>
+            </div>
+            <button class="btn btn-ghost" onclick="skip()" style="margin-top:5px;">⏭️ Passer</button>
+        </div>
+    </div>
+
+    <!-- ===== DONE ===== -->
+    <div class="screen hidden" id="sDone">
+        <div class="done-card">
+            <div class="emoji">🎉</div>
+            <h2>Tanemmirt !</h2>
+            <p id="doneMsg">Tu as enregistré X audios.</p>
+            <p id="uploadMsg" style="margin-top:10px;color:var(--green);font-size:0.85em;"></p>
+            <div id="uploadBar" class="upload-bar" style="margin:10px 0;">
+                <div id="uploadFill" class="upload-fill"></div>
+            </div>
+            <button class="btn btn-download-all" id="btnDownload" onclick="downloadAllZip()"
+                style="margin-top:14px;display:none;">📦 Télécharger tout (.zip)</button>
+            <button class="btn btn-primary" onclick="location.reload()" style="margin-top:10px;">🔄 Recommencer</button>
+        </div>
+    </div>
+
+    <!-- Load real synthetic scenarios -->
+    <script src="scenarios_data.js"></script>
+    <script>
+        // ===== FIREBASE CONFIG =====
+        // 🔥 REMPLACE CES VALEURS avec ton projet Firebase
+        const FIREBASE_CONFIG = {
+            apiKey: "AIzaSyDxxxxxxxxxxxxxxxxxxxxxxxxx",
+            authDomain: "votre-projet.firebaseapp.com",
+            projectId: "votre-projet",
+            storageBucket: "votre-projet.firebasestorage.app",
+            messagingSenderId: "123456789",
+            appId: "1:123456789:web:abcdef"
+        };
+
+        let firebaseReady = false;
+        let storageRef = null;
+        const savedBlobs = []; // store all recordings for ZIP fallback
+
+        try {
+            firebase.initializeApp(FIREBASE_CONFIG);
+            storageRef = firebase.storage().ref();
+            // Quick test to check if config is valid
+            if (FIREBASE_CONFIG.projectId !== 'votre-projet') {
+                firebaseReady = true;
+                console.log('✅ Firebase connecté:', FIREBASE_CONFIG.projectId);
+            } else {
+                console.warn('⚠️ Firebase non configuré — mode hors-ligne (téléchargement local)');
+            }
+        } catch (e) {
+            console.warn('⚠️ Firebase erreur:', e.message);
+        }
+    </script>
+    <script>
+        // ===== SCENE CONFIG =====
+        const SCENE_MAP = {
+            'accident_pedestrian': { icon: '🚗', cls: 'scene-accident', svg: 'assets/scene_accident.svg' },
+            'road_accident': { icon: '🚗', cls: 'scene-accident', svg: 'assets/scene_accident.svg' },
+            'natural_disaster': { icon: '⛰️', cls: 'scene-disaster', svg: 'assets/scene_disaster.svg' },
+            'fire_vehicle': { icon: '🔥', cls: 'scene-fire', svg: 'assets/scene_fire_vehicle.svg' },
+            'fire_forest': { icon: '🌲', cls: 'scene-forest', svg: 'assets/scene_fire_forest.svg' },
+            'fire_residential': { icon: '🏠', cls: 'scene-fire', svg: 'assets/scene_fire_vehicle.svg' },
+            'structural_collapse': { icon: '🏗️', cls: 'scene-collapse', svg: 'assets/scene_collapse.svg' },
+            'hazmat': { icon: '☣️', cls: 'scene-hazmat', svg: 'assets/scene_hazmat.svg' },
+            'theft_robbery': { icon: '🚨', cls: 'scene-theft', svg: 'assets/scene_theft.svg' },
+            'lost_person': { icon: '🔍', cls: 'scene-lost', svg: 'assets/scene_lost.svg' },
+            'drowning': { icon: '🌊', cls: 'scene-disaster', svg: 'assets/scene_disaster.svg' },
+            'medical_emergency': { icon: '🩺', cls: 'scene-medical', svg: 'assets/scene_disaster.svg' },
+            'unknown': { icon: '❓', cls: 'scene-unknown', svg: 'assets/scene_unknown.svg' },
+        };
+        function getScene(incident) {
+            return SCENE_MAP[incident] || SCENE_MAP['unknown'];
+        }
+
+        // ============ STATE ============
+        let userName = '', userRole = 'both';
+        let si = 0, ti = 0;
+        let filteredTurns = [];
+        let doneCount = 0;
+        let mediaRec = null, chunks = [], blob = null;
+        let timerInt = null, secs = 0;
+        let isRecording = false;
+        let micStream = null;
+
+        // ============ FLOW ============
+        async function start() {
+            userName = document.getElementById('iName').value.trim() || 'anon';
+            userRole = document.getElementById('iRole').value;
+            try {
+                micStream = await navigator.mediaDevices.getUserMedia({
+                    audio: { echoCancellation: true, noiseSuppression: true, sampleRate: 16000 }
+                });
+            } catch (err) {
+                alert('❌ Micro bloqué!\n\nAutorise le microphone.\n\n' + err.message);
+                return;
+            }
+            hide('sSetup');
+            si = 0; ti = 0; doneCount = 0;
+            loadScenario();
+        }
+
+        function loadScenario() {
+            if (si >= SCENARIOS.length) { showDone(); return; }
+            const sc = SCENARIOS[si];
+            filteredTurns = sc.turns.filter(t => {
+                if (userRole === 'both') return true;
+                if (userRole === 'caller') return t.role === 'caller';
+                return t.role === 'operator';
+            });
+            ti = 0;
+            showTurn();
+        }
+
+        function showTurn() {
+            if (ti >= filteredTurns.length) { si++; loadScenario(); return; }
+            const sc = SCENARIOS[si];
+            const turn = filteredTurns[ti];
+            const scene = getScene(sc.incident);
+
+            // Scene banner with SVG illustration
+            const banner = document.getElementById('sceneBanner');
+            banner.className = 'scene-banner';
+            document.getElementById('sceneIllust').src = scene.svg;
+            document.getElementById('sceneIcon').textContent = scene.icon;
+            document.getElementById('sceneType').textContent = sc.type.replace(/^[^\s]+ /, '');
+            document.getElementById('sceneLoc').textContent = '📍 ' + (sc.location || '?');
+            document.getElementById('sceneCounter').textContent = `${si + 1}/${SCENARIOS.length}`;
+
+            // Chat bubble with SVG avatars
+            const row = document.getElementById('chatRow');
+            row.className = 'chat-row ' + turn.role;
+            row.style.animation = 'none';
+            requestAnimationFrame(() => { row.style.animation = 'slideUp 0.3s ease'; });
+
+            const avatar = document.getElementById('avatarEl');
+            avatar.className = 'avatar ' + (turn.role === 'caller' ? 'caller-av' : 'operator-av');
+            document.getElementById('avatarImg').src = turn.role === 'caller' ? 'assets/caller.svg' : 'assets/operator.svg';
+
+            const bRole = document.getElementById('bubbleRole');
+            bRole.className = 'bubble-role ' + turn.role;
+            bRole.textContent = turn.role === 'caller' ? '🗣️ APPELANT' : '📞 OPÉRATEUR';
+
+            document.getElementById('turnText').textContent = turn.text;
+
+            // Stats
+            document.getElementById('scenIdx').textContent = `${si + 1}/${SCENARIOS.length}`;
+            document.getElementById('turnIdx').textContent = `${ti + 1}/${filteredTurns.length}`;
+
+            // Progress
+            let totalT = 0, doneT = 0;
+            for (let i = 0; i < SCENARIOS.length; i++) {
+                const ft = SCENARIOS[i].turns.filter(t => {
+                    if (userRole === 'both') return true;
+                    if (userRole === 'caller') return t.role === 'caller';
+                    return t.role === 'operator';
+                });
+                totalT += ft.length;
+                if (i < si) doneT += ft.length;
+                else if (i === si) doneT += ti;
+            }
+            document.getElementById('pbar').style.width = Math.round(doneT / totalT * 100) + '%';
+
+            resetRec();
+            show('sRecord');
+            hide('sPreview');
+        }
+
+        // ============ RECORDING ============
+        function toggleRec() {
+            if (isRecording) stopRec(); else startRec();
+        }
+
+        function startRec() {
+            if (!micStream) { alert('❌ Micro non initialisé❌ '); return; }
+            chunks = [];
+            const mimeType = MediaRecorder.isTypeSupported('audio/webm;codecs=opus')
+                ? 'audio/webm;codecs=opus' : 'audio/webm';
+            mediaRec = new MediaRecorder(micStream, { mimeType });
+            mediaRec.ondataavailable = e => { if (e.data.size > 0) chunks.push(e.data); };
+            mediaRec.onstop = () => {
+                blob = new Blob(chunks, { type: mimeType });
+                showPreview();
+            };
+            mediaRec.start();
+            isRecording = true;
+            document.getElementById('micBtn').classList.add('recording');
+            document.getElementById('timer').classList.add('active');
+            document.getElementById('recHint').innerHTML = '🔴 Enregistrement... Appuie pour arrêter';
+            secs = 0; updateTimer();
+            timerInt = setInterval(() => { secs++; updateTimer(); }, 1000);
+        }
+
+        function stopRec() {
+            if (mediaRec && mediaRec.state === 'recording') mediaRec.stop();
+            isRecording = false;
+            clearInterval(timerInt); timerInt = null;
+            document.getElementById('micBtn').classList.remove('recording');
+            document.getElementById('timer').classList.remove('active');
+            document.getElementById('recHint').innerHTML = '<span class="listening-indicator"></span>Appuie pour enregistrer';
+        }
+
+        function resetRec() { stopRec(); secs = 0; updateTimer(); blob = null; }
+        function updateTimer() {
+            const m = Math.floor(secs / 60), s = secs % 60;
+            document.getElementById('timer').textContent = `${m}:${s.toString().padStart(2, '0')}`;
+        }
+
+        // ============ PREVIEW ============
+        function showPreview() {
+            hide('sRecord'); show('sPreview');
+            document.getElementById('prevText').textContent = filteredTurns[ti].text;
+            document.getElementById('audioEl').src = URL.createObjectURL(blob);
+        }
+        function redo() { hide('sPreview'); show('sRecord'); resetRec(); }
+        function accept() {
+            if (!blob) return;
+            const sc = SCENARIOS[si], turn = filteredTurns[ti];
+            const fn = `${userName}_${sc.incident}_s${String(si + 1).padStart(3, '0')}_t${String(ti + 1).padStart(2, '0')}_${turn.role}.webm`;
+
+            // Save blob for ZIP fallback
+            savedBlobs.push({ name: fn, blob: blob });
+
+            // Auto-upload to Firebase if configured
+            if (firebaseReady) {
+                const fileRef = storageRef.child(`recordings/${userName}/${fn}`);
+                fileRef.put(blob).then(() => {
+                    console.log('☁️ Uploadé:', fn);
+                }).catch(err => {
+                    console.warn('Upload error:', err);
+                });
+            } else {
+                // Fallback: download locally
+                const a = document.createElement('a');
+                a.href = URL.createObjectURL(blob); a.download = fn; a.click();
+            }
+
+            doneCount++;
+            document.getElementById('doneCount').textContent = doneCount;
+            ti++; blob = null; showTurn();
+        }
+        function skip() { blob = null; ti++; hide('sPreview'); showTurn(); }
+
+        // ============ DONE ============
+        function showDone() {
+            hide('sRecord'); hide('sPreview'); show('sDone');
+            document.getElementById('pbar').style.width = '100%';
+            if (micStream) { micStream.getTracks().forEach(t => t.stop()); micStream = null; }
+
+            if (firebaseReady) {
+                document.getElementById('doneMsg').textContent = `Tu as enregistré ${doneCount} audios. Tanemmirt aṭas!`;
+                document.getElementById('uploadMsg').textContent = `☁️ ${doneCount} fichiers envoyés automatiquement. Merci !`;
+            } else {
+                document.getElementById('doneMsg').textContent = `Tu as enregistré ${doneCount} audios.`;
+                document.getElementById('uploadMsg').textContent = '📥 Fichiers téléchargés sur ton appareil.';
+                document.getElementById('btnDownload').style.display = 'block';
+            }
+        }
+
+        // ============ ZIP DOWNLOAD ============
+        async function downloadAllZip() {
+            // Dynamically load JSZip
+            if (!window.JSZip) {
+                const s = document.createElement('script');
+                s.src = 'https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js';
+                document.head.appendChild(s);
+                await new Promise(r => s.onload = r);
+            }
+            const zip = new JSZip();
+            for (const { name, blob } of savedBlobs) {
+                zip.file(name, blob);
+            }
+            const content = await zip.generateAsync({ type: 'blob' });
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(content);
+            a.download = `collecte_${userName}_${new Date().toISOString().slice(0, 10)}.zip`;
+            a.click();
+        }
+
+        function show(id) { document.getElementById(id).classList.remove('hidden'); }
+        function hide(id) { document.getElementById(id).classList.add('hidden'); }
+    </script>
+</body>
+
+</html>

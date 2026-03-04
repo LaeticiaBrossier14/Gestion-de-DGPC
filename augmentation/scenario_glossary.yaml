@@ -1,0 +1,1089 @@
+# ============================================================================
+# Scenario Glossary — Bilingual concept→Kabyle Arabizi (ENRICHED v2)
+# ============================================================================
+# Architecture: incident_type → concepts (FR/EN) → verified Kabyle forms
+# Each verb includes: infinitif, il/elle forms, pluriel, négatif, intensif
+# Enriched with native speaker knowledge + bilingual dictionary + corpus
+# ============================================================================
+
+_common:
+  greetings: [allo, salam, salam alaykoum, azul, sbah lkhir, msa lkhir, salam 3likoum]
+  closings: [saha, sahit, daccord, merci, bslama, shukran, ya3tik sa7a, barak Allahu fik, tanmirt]
+  discourse:
+    oui: [ih, an3am, wah, iyeh]
+    non: [khati, xati, la, ala]
+    svp: [3afak, svp, allah yerham babak, la3nayak, ma3lich, lu3aghawend]
+    vite: [s zerb, zerb, vite, ta3jil, 3edjled, fissa, azlem, azlemd, 3ajlem, activiw]
+    ici: [dayi, dagi, dagi-ni, daghi]
+    maintenant: [tura, doka, dukha]
+    un_peu: [chwiya, cway]
+    comment: [amek, wach, kifach]
+    où: [anda, win, wani, anida]
+    quoi: [dachu, acu, d acu, dachou]
+    beaucoup: [attas, bezaf, bezzaf]
+    il_y_a: [yella, thella, kayen, llan, illa]
+    il_n_y_a_pas: [ulach, wlach, ma kayen-ch, ur yelli ara]
+    aussi: [dagheni, thani, hatta]
+    encore: [mazal, la3ad]
+    déjà: [yagi, dagi]
+    peut_être: [waqila, balak, ahat]
+    daccord: [dakur, dakour, daccord, okay]
+    pauvre: [meskin, meskint]
+  negation:
+    ne_pas: ["ur {verbe} ara", "ul {verbe} ula", "ul {verbe} ani"]
+    # EOR distribution (ASSOU 2021): ul...ula = 13/19 parlers (centre+est), ur...ara = 6/19 (extrémités+ouest)
+    # ul...ani = Ait Bourman, Tagouba (rare variant)
+    ce_n_est_pas: [machi, maci]
+    non: [khati, xati]
+    rien: [walu, ulac, wlac]
+    jamais: [ur zri, 3umr]
+  pronouns_eor:
+    # EOR-specific pronoun forms confirmed by ASSOU 2021 thesis
+    you_masc: [cekk, cekkina, kechch]  # cekk = 14/19 EOR parlers; kechch = 5/19 (extremities+west)
+    you_fem: [cemm, cemmina, kemm, kemmina]  # cemm = 12/19 EOR; kemm = 7/19 (Aokas+extremities)
+    comme_ca: [anken, akken, haken, anka, akka]  # anken = 9/19; akken = 5/19; haken = Melbou/Ait Segoual/Leâlam
+  numbers:
+    one: [yiwen, yiwet]
+    two: [sin, snat]
+    three: [tlata, krad, kradet]
+    four: [reb3a, kuzt]
+    five: [khemsa, semmus]
+
+  # --- Operator standard formulas (from real calls DNA analysis) ---
+  operator_formulas:
+    opening:
+      - "l'7imaya l'madaniya f l'istima3"
+      - "m3akoum l'7imaya l'madaniya"
+      - "l'7imaya l'madaniya an3am"
+      - "les pompiers n Bgayet an3am"
+    questions:
+      - "anda exact?"
+      - "dachu yellan?"
+      - "anwa l'bloc?"
+      - "wach la commune?"
+      - "d-achu illan?"
+      - "est-ce qu'il est conscient?"
+      - "sh7al n l'blessés?"
+      - "amek l'adresse exact?"
+      - "ach7al n l'véhicules?"
+    dispatch:
+      - "d'accord, adencheye3 l'ambulance"
+      - "aqlagh ntteddu-d"
+      - "attassed  l'ambulance"
+      - "tura attawedt l'ambulance"
+    redirect:
+      - "ak-defkegh numéro n {poste}"
+      - "marki ghorek"
+      - "marki 3endek"
+    close:
+      - "d'accord a gma"
+      - "d'accord a madame"
+      - "d'accord a sidi"
+      - "sa7it"
+      - "ya3tik sa7a"
+
+  # --- Panic expressions (from real calls — stress=panic) ---
+  panic_expressions:
+    cries: [rwahemm, ya rebbi, ahhhh, wallah, ya latif]
+    repeated: ["allo allo allo", "azlemd azlemd", "s'il vous plaît s'il vous plaît", "arwa7u arwa7u"]
+    interjections: ["secours!", "urgent!", "mortel!", "grave!"]
+    operator_calm: ["asber a madame", "Madame s'te plaît", "r'houm l'temma", "asber"]
+
+  # --- Darija markers (for ~15% Darija-dominant callers) ---
+  darija_markers:
+    there_is: [kayen, kayna]
+    what: [wesh, washnou]
+    i_am: [rani, rana]
+    brother: [khouya, ya khouya,sahbi]
+    how: [kifach, kifah]
+    where: [win, winou]
+    i_want: [bghit, n7eb,madabiya]
+    we_have: [3endna, ghourneghg]
+    send: [aba3thou, arsal]
+    please: [rebi i7afdek, allah ijazik]
+
+  # --- Redirect posts (real phone numbers from actual calls) ---
+  redirect_posts:
+    oued_ghir: "030 16 92 00"
+    el_kseur: "034 82 35 00"
+    sidi_aich: "034 86 00 80"
+    souk_el_tenine: "034 09 36 00"
+    kherrata: "034 18 51 00"
+    aokas: "034 84 31 00"
+    akbou: "034 18 75 00"
+    amizour: "034 08 00 14"
+    tichy: "034 81 00 58"
+    tazmalt: "034 08 00 86"
+    beni_maouche: "034 00 42 91"
+    seddouk: "034 00 60 87"
+
+  evacuation:
+    besoin_ambulance: [nehwaj l'ambulance,ilqa l'ambulance, chey3emd l'ambulance, netnadi l'ambulance, nebra l'ambulance]
+    besoin_pompiers: [nhewaj pompier, ilaq les pompiers, netnad les pompiers, chey3emd les pompiers, khoussen les pompier]
+    besoin_police: [la3imth i la police, la3id i la police, ssawlemth i la police, ehder i la police, 3eyet i la police, nadith i la police]
+    evacuer: [frem ikel, rewlem, efrem, rouhem, be3dem, wekhrem ssina]
+    sauvetage: [sselkiyi, 3awniyi, zegriyid ighil, fkiyid afuss]
+    bloque: [iwhel, ihssel, ihwaj lem3awna, ikwanssi, ibele3 fellase]
+  etat_psy:
+    panique: [itergigi sel khel3a, ikhele3, ifja3]
+    confusion: [ifehmara, iterouch, ifrith le3qel, amheboul]
+    agressif: [imghoundef, iw3er, ihbel, iraji]
+  localisation:
+    a_domicile: [sakham, gamkan]
+    sur_route: [gebrid, fetriq, zeth abrid, ssedaw webrid]
+    en_montagne: [tazga, lghaba, dewar, tamourth, tadarth]
+    en_mer: [lebher, chet]
+  meteo:
+    pluie: [gira, lehwa, aghebar, agfour]
+    vent: [abehri, atu, adu]
+    neige: [hesslen gedfel, adfel]
+    visibilite: [italayara bien, koulech flou, inqess oussekoud, oulach la visibilité]
+  personnes:
+    une_personne: [l3ebd, bnadem, inssan, wahed]
+    plusieurs_personnes: [l3ibad, lghachi, bezzaf l3ibad, atass l3ibad, hawla]
+  temporel:
+    hier: [idelli]
+    aujourd_hui: [assa, ass-a, lyoum]
+    demain: [azekka, gheda]
+    maintenant: [tura, doka, dukha, dagi]
+    ce_matin: [n toufat, ssba7, ssbah]
+    ce_soir: [n temeddit, l3chiya, tameddith, ta3ecwit]
+    la_nuit: [n yidh, llilet, ghidh]
+    tout_a_l_heure: [qbel, qbel cway, dagi cway]
+    vite: [s zerb, zerb, fissa, 3edjled]
+
+
+# ============================================================================
+# MEDICAL EMERGENCY (43% des appels)
+# ============================================================================
+medical_emergency:
+  verbs:
+    tomber:
+      - ghli          # infinitif
+      - yeghli        # il est tombé
+      - teghli        # elle est tombée
+      - neghli        # nous sommes tombés
+      - ghlin         # ils sont tombés
+      - igghli        # il tombe (intensif)
+      - ur yeghli ara # il n'est pas tombé
+      - ad yeghli     # il va tomber (OC, 6/19 extremities+west)
+      - di yeghli     # il va tomber (EOR/Béjaïa, 13/19 parlers)
+      - da yeghli     # il va tomber (Melbou/Ait Segoual/Leâlam)
+      - yetteghliy    # il tombe (habitude)
+    avoir_mal:
+      - qreh          # infinitif
+      - iqereh         # ça fait mal 
+      - yettwaqreh       # il a mal
+      - tettwaqreh        # elle a mal
+      - qerhen       # ils font mal
+      - ittweqreh mlih    # intensif
+      - ittwaqreh     # il a mal (passif/état)
+      - tettwaqreh    # elle a mal (passif/état)
+      - ur iqreh ara  # ça ne fait pas mal
+      - ad iqreh      # ça va faire mal
+    vertige:
+      - doukh         # infinitif
+      - yeddukh       # il a des vertiges
+      - teddukh       # elle a des vertiges
+      - yetteddukhuy  # il a le vertige (intensif)
+    respirer:
+      - nuffes        # infinitif
+      - yenuffes      # il a respiré
+      - yettnuffus    # il respire (intensif)
+      - ur yettnuffus ara  # il ne respire pas
+      - ur tetnuffus ara   # elle ne respire pas
+      - ad yenuffes        # il va respirer
+    vomir:
+      - red           # infinitif
+      - righed        # j'ai vomi
+      - ttaragh       # je vomis (en cours)
+      - ittara        # il vomit
+      - tettara       # elle vomit
+      - irriran       # les vomissements (nom)
+    saigner:
+      - ttazzalen idamen   # ça coule (le sang)
+      - ttwezi3en idamen   # ça gicle (le sang)
+      - ijreh              # ça a coupé / saigné
+      - llan idamen        # il y a du sang
+    perdre_connaissance:
+      - idoukh        # il s'est évanoui / il a des vertiges
+      - tdoukh        # elle s'est évanouie
+      - doukhen       # ils se sont évanouis
+    mourir:
+      - mmut          # infinitif
+      - yemmut        # il est mort
+      - temmut        # elle est morte
+      - mmuten        # ils sont morts
+      - yettemmet     # il meurt (intensif)
+      - ur yemmut ara # il n'est pas mort
+      - ad yemmet     # il va mourir
+    blesser:
+      - ijreh         # il est blessé / coupé
+      - ichatt        # il est blessé (gravement)
+      - inter         # il est touché / blessé
+      - ittwahkem     # il a été frappé / blessé
+      - ittwafessed   # il a été blessé
+    fièvre:
+      - tawla         # la fièvre
+      - touliyi tawla # la fièvre a monté
+      - ghlas tawla   # la fièvre est forte
+    crier:
+      - itt3eyit      # il crie
+      - tett3eyit     # elle crie
+      - le3yat        # les cris / il hurle
+      - yettru        # il pleure
+      - tettru        # elle pleure
+    ne_bouge_pas:
+      - ur yettharrek ara    # il ne bouge pas
+      - ur yezmir ara        # il ne peut pas
+      - ur tezmir ara        # elle ne peut pas
+      - ur yezmir ad yekker  # il ne peut pas se lever
+    se_lever:
+      - kker          # infinitif
+      - yekker        # il s'est levé
+      - tekker        # elle s'est levée
+      - ur yekker ara # il ne s'est pas levé
+      - ur yezmir ara ad yekker  # il ne peut pas se lever
+    gonfler:
+      - ichouf        # c'est gonflé
+      - tchouf        # c'est gonflé (fém.)
+    trembler:
+      - ittergigi     # il tremble
+      - tettergigi    # elle tremble
+      - ttergigigh    # je tremble
+    survivre:
+      - isslek        # sain et sauf
+      - isslem        # il s'en est sorti
+      - tefghas salamatt  # sorti sans dégâts
+      - ider          # il est en vie
+      - teder         # elle est en vie
+  nouns:
+    vomissements: [irriran]
+    tête: [aqerruy, rrassi, ikhef, qourouy]
+    coeur: [ul, lwul]
+    ventre: [a3ebbudh, lkerch]
+    dos: [a3rur, addur]
+    pied: [adar, idaren]
+    main: [afus, ifassen]
+    jambe: [aghil, ighalyen, atan itaren]
+    os: [ighes, ighsan]
+    poitrine: [idmaren, ssder]
+    oeil: [ti7t7, allen, tit]
+    oreille: [amezzugh, imezgen, imejj]
+    nez: [anze3ren, tinzert, akhenouf, tinzert]
+    front: [anyir, azennur, a7ennur]
+    bouche: [aqemmuch, imi]
+    dent: [tughmest, theghmas]
+    épaule: [tayett, tiyita]
+    genou: [afud, ifadden]
+    cou: [amgergh, iri]
+    sang: [idamen]
+    bébé: [toufan, sbib, lbibiche, tarbat]
+    vieux: [amghar, tamghart, aciban, amqrane, achibane, alhadj, chikh]
+    femme: [tametout, tamettut]
+    homme: [argaz, irgazen]
+    enfant: [aqchich, taqchicht, arrach, itarracen, agroud, aqrour, amechtouh, ilemzi, weld]
+    petit: [amechtouh, abeztu7, amezzyan, mezzi]
+    grand: [ameqqrane, age3mir, imquren]
+    malade: [lehlak, ihlek, yehlek, amoutin]
+    enceinte: [sou3ebout]
+    blessé: [amejru7, imejra7, inter]
+  expressions:
+    - "teddun idamen"    # le sang coule
+    - "teddan idamen"    # le sang coule
+    - "itt3ich"    # il est vivant
+    - "i3fou fellasse"    # il est mort / Dieu l'a rappelé
+    - "imuth"    # il est mort
+    - "issmleli"    # il est inconscient
+    - "idekwaled"    # il est conscient
+    - "isslefghith"    # il l'a écrasé
+    - "itwacrazi"    # il est écrasé
+    - "idegdeg"    # il s'est fracturé
+    - "irveh"    # il s'est cassé / fracture
+    - "irez"    # il s'est cassé / fracture
+    - "itissiq didamen"    # ça gicle du sang
+    - "itazal idamen"    # hémorragie / le sang coule
+    - "ihbess lmoukhiss"    # choc à la tête
+    - "itwath ar qourouy"    # trauma crânien
+    - "indeqach"    # il est tombé
+    - "i3ther"    # il est tombé
+    - "idaqass nefess"    # pouls faible
+    - "itdiq"    # il est oppressé
+    - "itwakhnaq"    # il est étouffé
+    - "ichneq"    # il respire difficilement
+    - "itwassra3"    # crise d'épilepsie
+    - "ihbess wouliss"    # crise cardiaque / le cœur s'est arrêté
+    - "irouhasse nefss"    # il manque d'air
+    - "ichheq"    # il s'étouffe
+    - "idaq"    # il étouffe
+    - "itwa3tab"    # il souffre
+    - "itwaqrah"    # il a mal / douleur
+    - "iqreh-it wul"                # mal au cœur
+    - "iqreh-it aqerruy"            # mal à la tête
+    - "iqreh-it a3ebbudh"           # mal au ventre
+    - "doukh-ith"                   # vertiges
+    - "ur yettnuffus ara"           # ne respire pas
+    - "llan idamen attas"            # beaucoup de sang
+    - "ur d-yefiq ara"              # inconscient
+    - "touliyi tawla"               # la fièvre a monté
+    - "ur yezmir ara ad yekker"     # ne peut pas se lever
+    - "yenfukh ufus-is"             # sa main est gonflée
+    - "iqreh-it s lquwwa"           # il a très mal
+    - "yeghli-d si ssqef"           # tombé du toit
+    - "yeghli deg abrid"            # tombé dans la rue
+    - "itchatt mlih"                # blessé gravement
+    - "inter mlih"                  # blessé gravement
+    - "cv isslek"                   # heureusement sain et sauf
+    - "cv isslem"                   # il s'en est sorti
+    - "cv issetrit rebi"            # Dieu l'a protégé / a survécu
+    - "tefghas salamatt"            # sorti sans dommage/indemne
+  french_loanwords: [tension, ambulance, docteur, hopital, crise, diabète,
+                     cardiaque, respiration, blessure, fracture, piqure,
+                     allergie, malaise, convulsions, enceinte, oxygène,
+                     perfusion, brancard, clinique, pharmacie, analyses,
+                     opération, radio, scanner, urgence, sirop, comprimé]
+
+# ============================================================================
+# ACCIDENT VEHICULAR (14%)
+# ============================================================================
+accident_vehicular:
+  verbs:
+    heurter:
+      - wwet         # infinitif
+      - yewwet       # il a heurté
+      - tewwet       # elle a heurté
+      - wwten        # ils ont heurté
+      - yettewwit    # il heurte (intensif)
+      - yewwet-it    # il l'a heurté
+    renverser:
+      - qleb         # infinitif
+      - yeqleb       # il s'est renversé
+      - teqleb       # elle s'est renversée
+      - qqelben      # ils se sont renversés
+      - yettqellab   # il se renverse (intensif)
+      - yeqleb-it    # il l'a renversé
+    tomber:
+      - ghli
+      - yeghli
+      - teghli
+      - ghlin
+      - ur yeghli ara
+    coincer:
+      - 7sel       # infinitif
+      - ye7sel     # il est coincé
+      - te7sel     # elle est coincée
+      - 7eslen      # ils sont coincés
+      - yettwasehsel  # il a été coincé (passif)
+      - yesse7sel  # il coince (intensif)
+    casser:
+      - rrez         # infinitif
+      - yerrez       # il s'est cassé
+      - terrez       # elle s'est cassée
+      - rrezan       # ils se sont cassés
+      - yetterraz    # il se casse (intensif)
+      - ittwarez     # il a été cassé (passif)
+    écraser:
+      - ddes          # écraser
+      - 3fes          # écraser
+      - t3efssit      # elle l'a écrasé (voiture)
+    brûler:
+      - rghi
+      - irgha        # ça a brûlé
+      - tirgha       # elle a brûlé (fém.)
+      - che3l
+      - yeche3l
+      - teche3l
+    exploser:
+      - nfejer
+      - yenfejer     # il a explosé
+      - tenfejer     # elle a explosé
+      - iterteq      # il éclate
+      - terteq       # elle éclate
+  nouns:
+    voiture: [takherrust, tomobil, ssyara, la voiture, tonobil]
+    camion: [lkamyu, chadirya, le camion, semi]
+    moto: [moto, la moto, aburur]
+    bus: [lbus, lkar, le bus]
+    route: [abrid, la route]
+    virage: [tournant, lviraj, amyiwen]
+    carrefour: [carrefour, amyaggar]
+    blessé: [amejru7, imejra7, yejre7]
+    sang: [idamen]
+    pare_brise: [lvitre, la vitre]
+    roue: [rouda, tarudhit]
+    portière: [tabburt n ssyara]
+  expressions:
+    - "accident tonobil"
+    - "yella accident deg {lieu}"
+    - "ssyara teqleb"
+    - "yewwet takherrust"
+    - "kayen {n} blessés"
+    - "ye7sel deg takherrust"
+    - "ttazzalen idamen attas"
+    - "ssyara tewwet argaz"
+    - "sin n ssyarat ttemwajahent"
+    - "takherrust teqleb deg lviraj"
+    - "itchatt mlih"
+    - "inter mlih"
+    - "cv isslek"
+    - "cv isslem"
+    - "cv issetrit rebi"
+    - "tefghas salamatt"
+  french_loanwords: [accident, collision, route nationale, RN, vitesse,
+                     blessé, victime, pare-brise, pompiers, gendarme,
+                     freins, ceinture, chauffeur, passager, carrefour,
+                     autoroute, virage, tonneau, carambolage]
+
+# ============================================================================
+# ACCIDENT PEDESTRIAN
+# ============================================================================
+accident_pedestrian:
+  verbs:
+    heurter:
+      - yewwet
+      - tewwet
+      - yewwet-it
+      - yettewwit
+    renverser:
+      - yeqleb
+      - yeqleb-it
+      - teqleb-it
+    tomber:
+      - yeghli
+      - teghli
+      - ghli
+    traverser:
+      - zger
+      - yezger
+      - tezger
+      - yezga yezger
+    écraser:
+      - 3fes
+      - t3efssit
+  nouns:
+    piéton: [ameddak, bnadm]
+    enfant: [aqchich, taqchicht, arrach]
+    vieux: [amghar, tamghart]
+    trottoir: [trottoir, abrid]
+    passage: [passage, zebra]
+    sang: [idamen]
+    blessé: [amejru7]
+  expressions:
+    - "ssyara tewwet yiwen n {personne}"
+    - "yeghli deg abrid"
+    - "yezger abrid tewwet-it ssyara"
+    - "aqchich yewwet-it lbus"
+    - "tamghart teghli deg abrid"
+    - "itchatt mlih"
+    - "inter mlih"
+    - "cv isslek"
+    - "cv isslem"
+    - "cv issetrit rebi"
+    - "tefghas salamatt"
+  french_loanwords: [piéton, renversé, passage, victime, ambulance, blessé,
+                     traverser, feu rouge, trottoir]
+
+# ============================================================================
+# FIRE BUILDING
+# ============================================================================
+fire_building:
+  verbs:
+    brûler:
+      - rghi          # infinitif (ergh)
+      - irgha         # ça brûle / ça a brûlé
+      - tirgha        # elle brûle (fém.)
+      - irghayan      # ils brûlent
+      - che3l         # variante (allumer/brûler)
+      - yeche3l       # il a pris feu
+      - teche3l       # elle a pris feu
+      - yettche33il   # il brûle (intensif)
+      - ad yirghi     # ça va brûler
+      - ur irghi ara  # ça ne brûle pas
+    fumer:
+      - yettdouhoun      # ça fume
+      - ddaxan yeffghed  # la fumée sort
+      - yella ddaxan  # il y a de la fumée
+    exploser:
+      - nfejer
+      - yenfejer      # il a explosé
+      - tenfejer      # elle a explosé
+      - nfejren       # ils ont explosé
+      - iterteq       # ça éclate
+      - terteq        # elle éclate
+      - yerteq        # il éclate
+    étouffer:
+      - xneq          # infinitif
+      - yenxeneq      # il s'étouffe
+      - tenxeneq      # elle s'étouffe
+      - yettxenniq     # il s'étouffe (intensif)
+      - ittwaxneq     # il a été étouffé (passif)
+      - ittwakhneq    # variante étouffé (passif)
+    éteindre:
+      - ksi / xsi     # infinitif
+      - yexsi         # il a éteint
+      - texsi         # elle a éteint / ça s'est éteint
+      - attekhssi     # ça va s'éteindre
+      - yessexsi      # il éteint (causatif)
+      - yettext7i     # il s'éteint (intensif)
+    sécher:
+      - ikaw        # c'est sec (n'a pas d'eau)
+      - ur yelli ara waman  # il n'y a pas d'eau
+    refuser:
+      - gouma
+      - yegouma       # il a refusé
+      - tegouma       # elle a refusé / ça refuse
+      - gouman        # ils ont refusé
+      - yettegoumay   # il refuse (intensif)
+    fondre:
+      - fsi           # fondre
+      - iffsi         # il a fondu
+      - tefssi        # elle a fondu
+    fuir_sortir:
+      - ffugh
+      - yeffugh       # il est sorti
+      - teffugh       # elle est sortie
+      - ffughen       # ils sont sortis
+      - rwel
+      - irwel         # il a fui
+      - terwel        # elle a fui
+      - tarewla       # la fuite (nom)
+  nouns:
+    feu: [timesth, tmes, la3fya, nnare, lehwaych, 3afia, 3afif, lehriq, tmesst]
+    fumée: [ddaxan, dukhan, lghebar, doukhan, dekhan]
+    flamme: [allas, lhib, tachamm3at]
+    braise: [irghayan, tijemrin]
+    cendre: [ighd, lremad]
+    étage: [etage, tabaqt, ssqef]
+    appartement: [lappartement, lchenbre, takhamt]
+    immeuble: [limara, bloc, lbenyan, lbatima]
+    maison: [axxam, taddart, lmenzel]
+    gaz: [lgaz, le gaz]
+    bouteille_gaz: [lbotella n lgaz, la bouteille]
+    porte: [tabburt, taggurt]
+    fenêtre: [taqqa, chibak, la fenêtre]
+    toit: [ssqef, lqermed]
+    escalier: [drouj, lescalier]
+    cave: [cave, aserdun]
+    électricité: [trisiti, le courant, lkahba]
+    bois: [lkhechb, aseghar, louh]
+  expressions:
+    - "yeche3l uxxam"
+    - "irgha uxxam"
+    - "tirgha taddart"
+    - "yella ddaxan attas"
+    - "yella tmes deg {lieu}"
+    - "yella nnare deg {lieu}"
+    - "ye77ebs deg etage {n}"
+    - "lbotella n lgaz tenfejer"
+    - "ittwakhneq s ddaxan"
+    - "yenxeneq s ddaxan"
+    - "ddaxan yeddu-d akk"
+    - "tegouma ad texsi"
+    - "ihsel waman, ur nezmir ara an nsexsi"
+    - "tmes tezzi-d gher lajar"
+    - "yeffugh-d si taqqa"
+    - "iterteq lgaz"
+  french_loanwords: [feu, incendie, flamme, étage, bloc, immeuble,
+                     gaz, bouteille, pompiers, évacuation, extincteur,
+                     escalier, ascenseur, cave, toiture, court-circuit,
+                     installation électrique, sortie de secours]
+
+# ============================================================================
+# FIRE FOREST
+# ============================================================================
+fire_forest:
+  verbs:
+    brûler:
+      - rghi
+      - irgha
+      - tirgha
+      - irghayan
+      - che3l
+      - yeche3l
+      - teche3l
+      - yettche33il
+    propager:
+      - yezzi          # il tourne / se propage
+      - tezzi          # elle se propage
+      - teleflef       # ça se propage
+      - yettnernay     # ça grandit
+    fumer:
+      - ddaxan
+      - yettaxan
+      - ddaxan yettali-d  # la fumée monte
+  nouns:
+    forêt: [taghlit, lexla, lgaba, tamazirt]
+    arbre: [aseghar, tacejjert, isugharen, chedjra]
+    montagne: [adrar, idurar]
+    champ: [lexla, lgaba, iger]
+    colline: [aghrab, adrar amectu7]
+    feu: [timesth, tmes, la3fya, nnare]
+    fumée: [ddaxan]
+    vent: [adu, rri7, abehri]
+    village: [taddart, tudrin]
+    route: [abrid, la route]
+  expressions:
+    - "yeche3l lexla deg {lieu}"
+    - "irgha iger"
+    - "nnare tezzi-d gher taddart"
+    - "ddaxan attas yettali-d"
+    - "tmes tessawegh-d si adrar"
+    - "lexla kulesh irgha"
+    - "adu yessawagh-d tmes"
+    - "irghayan deg isugharen"
+  french_loanwords: [feu de forêt, incendie, hectares, pompiers, canadair,
+                     pare-feu, forêt, terrain, broussaille]
+
+# ============================================================================
+# FIRE VEHICLE
+# ============================================================================
+fire_vehicle:
+  verbs:
+    brûler:
+      - rghi
+      - irgha
+      - tirgha
+      - che3l
+      - yeche3l
+      - teche3l
+    exploser:
+      - nfejer
+      - yenfejer
+      - tenfejer
+      - iterteq
+  nouns:
+    voiture: [takherrust, tomobil, ssyara]
+    camion: [lkamyu, chadirya]
+    essence: [lessans, mazut, lgazwal]
+    réservoir: [rézervwar, ddipo]
+    pneu: [rrwidda, lpnew]
+    feu: [timesth, tmes, la3fya, nnare]
+    fumée: [ddaxan]
+    huile: [zzit, lmatura]
+  expressions:
+    - "ssyara teche3l deg {lieu}"
+    - "irgha lkamyu"
+    - "ddaxan yeffugh-d si tomobil"
+    - "lessans yezzazel-d"
+    - "lpnew irghayan"
+    - "tenfejer lbotella n lgaz deg ssyara"
+  french_loanwords: [voiture, feu, pompiers, explosion, essence, moteur,
+                     capot, réservoir, court-circuit]
+
+# ============================================================================
+# DROWNING
+# ============================================================================
+drowning:
+  verbs:
+    noyer:
+      - ghraq         # infinitif
+      - yeghraq       # il s'est noyé
+      - teghraq       # elle s'est noyée
+      - ghreqen       # ils se sont noyés
+      - yetteghriq    # il se noie (intensif)
+      - ad yeghraq    # il va se noyer
+    nager:
+      - 3um
+      - ye3um         # il a nagé
+      - te3um
+      - ur yessin ara ad ye3um  # il ne sait pas nager
+    couler:
+      - ghraq
+      - yeghraq
+      - yettersu      # il coule
+    sauver:
+      - slekk
+      - yeslekk-it    # il l'a sauvé
+      - teslekk-it    # elle l'a sauvé
+      - 3awen
+      - ye3awen-it    # il l'a aidé
+    tomber:
+      - ghli
+      - yeghli
+      - teghli
+      - yeghli deg waman  # tombé dans l'eau
+  nouns:
+    mer: [lebhar, lbhar]
+    eau: [aman, waman]
+    plage: [la plage, chatt, iffer]
+    piscine: [la piscine]
+    oued: [asif, lwa7ed, ighzer]
+    barrage: [ssedd, le barrage]
+    vague: [lmouja, iker lebher]
+    enfant: [aqchich, taqchicht, arrach]
+    profondeur: [ighder]
+  expressions:
+    - "itchath lebher"    # la mer l'a emporté
+    - "yeghraq deg lebhar"
+    - "ghli deg waman"
+    - "aqchich yeghraq deg {lieu}"
+    - "ur yessin ara ad ye3um"
+    - "yekker lbhar, yawi-t"
+    - "yeghli deg asif"
+    - "aman attas, yeghraq"
+  french_loanwords: [noyade, plage, piscine, sauveteur, victime, nageur,
+                     maître-nageur, bouée, profondeur]
+
+# ============================================================================
+# ASSAULT / VIOLENCE
+# ============================================================================
+assault_violence:
+  verbs:
+    frapper:
+      - wwet
+      - yewwet        # il a frappé
+      - tewwet        # elle a frappé
+      - wwten         # ils ont frappé
+      - yettewwit     # il frappe (intensif)
+      - yewwet-it     # il l'a frappé
+      - yewwet-itt    # il l'a frappée
+    poignarder:
+      - yewt-it s lmus     # il l'a poignardé
+      - tewt-it s lmus
+      - yettwewwet s lmus  # passif
+      - ineqrit sel mousse # il l'a poignardé avec un couteau
+    tirer:
+      - yewt-it s tesseggart
+      - yudden fellas      # il a tiré sur lui
+    menacer:
+      - ittmenacer    # il menace
+      - itthedid      # il menace
+      - tettmenacer   # elle menace
+    voler:
+      - aker
+      - yaker         # il a volé
+      - taker         # elle a volé
+      - yekker-as     # il lui a pris
+    crier:
+      - yett3eyit      # il crie
+      - tett3eyit      # elle crie
+      - le3yat         # les cris
+    couper:
+      - yegzem         # il a coupé
+      - tegzem         # elle a coupé
+    réfléchir:
+      - yettkhemim     # il réfléchit
+    rechercher:
+      - yettnadi       # il recherche
+    briser_casser:
+      - rrez          # casser
+      - yerrez        # il a cassé
+    enlever:
+      - yekkes        # il a enlevé
+  nouns:
+    couteau: [lmus, ssekkin, jenwa]
+    arme: [tesseggart, ssla7, lkherzeyen]
+    bâton: [a3ekkaz, lma7cha]
+    blessure: [tajre7t, tajra7, amejru7]
+    sang: [idamen]
+    homme: [argaz, irgazen]
+    femme: [tametout, tamettut]
+    voisin: [ajar, ajiran, ljiran]
+    police: [la police, chchurta, ddarke]
+    dispute: [ttrad, lmechkel, ddabza, imenghi]
+    bagarre: [ttrad, amennugh, ddabza, noughen]
+    voleur: [amakker, le voleur]
+  expressions:
+    - "yewwet-it s {arme}"
+    - "llan idamen attas"
+    - "yettxemmim deg {lieu}"
+    - "yewt-it s lmus"
+    - "yeddem-as l7wayej-is"
+    - "yetheded s lmus"
+    - "ddabza ger sin n irgazen"
+    - "yaker-as telephone-is"
+    - "yewwet-it deg aqerruy"
+    - "teker dayi g {lieu}"      # il y a une bagarre ici à {lieu}
+    - "itchatt mlih"
+    - "inter mlih"
+    - "cv isslek"
+    - "cv isslem"
+    - "cv issetrit rebi"
+    - "tefghas salamatt"
+  french_loanwords: [agression, violence, police, gendarmerie, blessé,
+                     arme blanche, menace, plainte, vol, coups, cambriolage]
+
+# ============================================================================
+# STRUCTURAL COLLAPSE
+# ============================================================================
+structural_collapse:
+  verbs:
+    effondrer:
+      - ighli         # il est tombé
+      - ighlid        # il s'est effondré en bas
+      - ighli sour    # le mur est tombé
+      - ighli lhit    # le mur est tombé
+    tomber:
+      - ghli
+      - yeghli
+      - teghli
+    coincer:
+      - ye77ebs
+      - te77ebs
+      - yettwa7ebs    # il a été coincé (passif)
+      - ihssel        # il est coincé
+    fissurer:
+      - cheq          # fissurer
+      - ichqeq        # il s'est fissuré
+      - acheqeq       # la fissure / fissure
+  nouns:
+    mur: [sour, l7ith, l7yut]
+    toit: [ssqef, lqermed, asqef]
+    maison: [axxam, taddart]
+    immeuble: [limara, bloc, lbenyan, lbatima]
+    brique: [lbrique, ttub, lejur]
+    béton: [lbiton, ssiment]
+    poutre: [la poutre, lkhechba]
+    dalle: [la dalle]
+    escalier: [drouj, lescalier]
+    décombres: [lkherdel, rerdel]
+    pierre: [azru, lebni, iblateb, ibelkan, ablat, ablouk]
+  expressions:
+    - "ighlid woukham"    # la maison s'est effondrée
+    - "axxam yeghli"                    # la maison est tombée
+    - "l7ith yewqa3"                    # le mur est tombé
+    - "yehssel zedaw l7it"              # coincé sous le mur
+    - "yehssel sedaw l7ith"             # coincé sous le mur (variante)
+    - "sseqf yeghlid"                   # le plafond/toit s'est effondré
+    - "ighlid l plafond"                # le plafond s'est effondré
+    - "akham ighli ikl"                 # la maison est tombée entièrement
+    - "akham ihoud oukya oukya"         # la maison s'est effondrée entièrement
+    - "icheqeq l7it"                    # le mur s'est fissuré
+    - "izele3 l7it"                     # le mur s'est fissuré
+    - "tbatima teghlid"                 # l'immeuble s'est effondré
+    - "i7ssel sedaw iblaten"            # coincé sous les pierres
+  french_loanwords: [effondrement, mur, immeuble, bloc, béton, construction,
+                     fissure, fondation, dalle, étage, structure]
+
+# ============================================================================
+# HAZMAT
+# ============================================================================
+hazmat:
+  verbs:
+    fuir_gaz:
+      - ittefwiti lgaz  # le gaz fuit
+      - ittrih lgaz     # le gaz s'échappe
+      - ila lgaz        # il y a une fuite de gaz
+    empoisonner:
+      - semm
+      - yessamm        # il a empoisonné
+      - yettsemm       # il empoisonne (intensif)
+      - ittwasemm      # il a été empoisonné (passif)
+    étouffer:
+      - xneq
+      - yenxeneq       # il s'étouffe
+      - yettxenniq     # il s'étouffe (intensif)
+      - ittwaxneq
+    sentir_odeur:
+      - chem
+      - yechem-d       # on sent (l'odeur)
+      - yella rri7a    # il y a une odeur
+      - yella tirihit  # il y a une odeur
+  nouns:
+    gaz: [lgaz, le gaz]
+    odeur: [tirihit, rri7a, lkhemj,]
+    fuite: [lfwayt, lfita]
+    bouteille: [lbotella, la bouteille]
+    produit: [lproduit, le produit]
+    poison: [ssemm, le poison]
+    chimique: [chimique, le produit chimique]
+  expressions:
+    - "riha nel gaz"
+    - "yella rri7a n lgaz"
+    - "yeffugh-d lgaz si lbotella"
+    - "yenxeneq s lgaz"
+    - "ittwasemm"
+    - "yella rri7a iqebben"
+    - "lbotella n lgaz teffugh"
+  french_loanwords: [gaz, fuite, produit chimique, intoxication, odeur,
+                     empoisonnement, masque, ventilation, évacuation]
+
+# ============================================================================
+# NATURAL DISASTER
+# ============================================================================
+natural_disaster:
+  verbs:
+    inonder:
+      - ihemled       # il a inondé
+      - ihemled wassif # la rivière a débordé
+      - kechmend aman gher wekham # l'eau rentre dans la maison
+      - tahemalt      # inondation (nom)
+    effondrer:
+      - ighlid        # il s'est effondré en bas
+      - ighli sour    # le mur est tombé
+    glisser:
+      - zleq          # glisser
+      - chet          # glisser
+      - ichet         # il a glissé
+      - chtegh        # j'ai glissé
+    pleuvoir:
+      - touta lehwa    # il pleut
+      - tekat lehwa    # il a plu fort
+      - tela lehwa     # il y a de la pluie
+      - lehwa          # la pluie
+    secouer:
+      - nhez
+      - yenhezz       # ça tremble (séisme)
+      - tehzez        # ça tremble
+  nouns:
+    eau: [aman, waman]
+    pluie: [anzar, lmatar, lehwa, gira, agfour, aghebar]
+    boue: [allagh, lwa7el, teblalet, abertit, akal]
+    montagne: [adrar, idurar]
+    route: [abrid, la route]
+    oued: [asif, lwa7ed, ighzer]
+    terre: [akal, lard]
+    séisme: [znezla, le tremblement]
+    vent: [adu, rri7, abehri]
+    neige: [adfel, la neige, hesslen gedfel]
+    grêle: [abruri, la grêle]
+  expressions:
+    - "ikouli aman"    # l'eau est partout / inondation
+    - "aman daxel axxam"                    # l'eau dans la maison
+    - "abrid ibele3"                        # la route est coupée
+    - "abrid ittwagh"                       # la route est coupée
+    - "assif ihemled"                       # la rivière a débordé
+    - "ghlind iblaten"                      # des pierres sont tombées
+    - "ghlind ibelkan"                      # des pierres sont tombées
+    - "tezzelzel lqa3a"                     # la terre a tremblé (séisme)
+    - "abertit ibele3 abrid"                # la boue a bloqué la route
+    - "tekkat lehwa mlih aman koul amkan"   # il pleut fort, eau partout
+    - "adu ihbel"                           # le vent est devenu fou
+  french_loanwords: [inondation, glissement, route coupée, éboulement,
+                     tremblement de terre, séisme, avalanche, tempête]
+
+# ============================================================================
+# THEFT / ROBBERY
+# ============================================================================
+theft_robbery:
+  verbs:
+    voler:
+      - iwker         # il a volé (Ijermounen, Ait Merâi, Ait Amrous)
+      - yuker         # il a volé (Bouyman, Ait Bimoun, Ait Bourman - vocalised)
+      - iker          # il a volé (Aokas, Tizi n Berber - elided)
+      - tewker        # elle a volé
+      - wkeren        # ils ont volé
+      - toukerta      # le vol (nom)
+    entrer_par_effraction:
+      - kcem
+      - yekcem        # il est entré
+      - tekcem
+      - kcemen
+      - yerrez tabburt  # il a cassé la porte
+    prendre:
+      - awi
+      - yawi           # il a pris/emporté
+      - tawi
+      - yeddem         # il a pris
+      - yekkes         # il a arraché
+    fuir:
+      - rwel
+      - irwel         # il a fui
+      - terwel        # elle a fui
+      - tarewla       # la fuite (nom)
+  nouns:
+    voleur: [amakker, le voleur, ssarraq]
+    maison: [axxam, taddart]
+    voiture: [takherrust, ssyara]
+    téléphone: [telephone, portable, lmobile]
+    argent: [idrimen, ssurdi, lflus]
+    bijoux: [la7liy, ddheb, bijoux]
+    porte: [tabburt, taggurt]
+    serrure: [ssarure, lqfel]
+    fenêtre: [taqqa, chibak]
+  expressions:
+    - "yaker-as {objet}"
+    - "yekcem-d s taqqa"
+    - "yerwel amakker"
+    - "yerrez tabburt"
+    - "yeddem-as kulesh"
+    - "ittwaker deg llilet"
+    - "yawi-as ssyara-s"
+  french_loanwords: [vol, cambriolage, effraction, police, gendarmerie,
+                     plainte, voleur, butin, serrure, alarme]
+
+# ============================================================================
+# LOST PERSON
+# ============================================================================
+lost_person:
+  verbs:
+    perdre:
+      - ruh
+      - yeruh          # il s'est perdu
+      - teruh          # elle s'est perdue
+      - iruh           # il est perdu
+    chercher:
+      - nadi
+      - yetnadi        # il cherche
+      - tetnadi        # elle cherche
+      - nnigegh        # je cherche
+      - houf           # cherche
+      - netthouf       # on cherche
+    disparaître:
+      - ffer
+      - yeffer         # il a disparu
+      - teffer         # elle a disparu
+      - ur t-id-nufi ara  # on ne l'a pas trouvé
+    sortir:
+      - ffugh
+      - yeffugh        # il est sorti
+      - teffugh        # elle est sortie
+  nouns:
+    enfant: [aqchich, taqchicht, arrach]
+    vieux: [amghar, tamghart]
+    malade_mental: [amahbul, damoutin, ikhouss]
+    maison: [axxam, taddart]
+    quartier: [la cité, lhara, le quartier]
+    vêtements: [l7wayej, la tenue, sserwel, taqendurt, lqech]
+    photo: [taswirt, la photo]
+  expressions:
+    - "yeruh uqchich"
+    - "tamghart teruh"
+    - "ur t-id-nufi ara"
+    - "yeffugh si taddart ur d-yugghal ara"
+    - "netnadi fellas si {heure}"
+    - "yeffer, ur nessen ara anda yella"
+    - "amghar amehliq yeruh"
+  french_loanwords: [disparition, recherche, signalement, vêtements,
+                     description, photo, avis de recherche, police]
+
+# ============================================================================
+# UNKNOWN / OTHER / FALSE ALARM
+# ============================================================================
+unknown:
+  verbs:
+    demander:
+      - suther
+      - yessuther      # il demande
+      - tessuther      # elle demande
+    renseigner:
+      - steqsa
+      - yessteqsa      # il se renseigne
+      - tessteqsa
+    appeler:
+      - sawel
+      - yessawel       # il appelle
+      - tessawel       # elle appelle
+      - yenadi         # il appelle (à voix haute)
+      - la3id          # il appelle
+      - ittla3i        # il appelle (en cours)
+    tromper:
+      - ghelt
+      - yeghlet        # il s'est trompé
+      - gheltet        # erreur (nom)
+  nouns:
+    renseignement: [lma3na, lkhabar, lma3lumat]
+    problème: [lmechkel, ugur]
+    bruit: [ssut, lhess, le bruit]
+    numéro: [nnumro, le numéro]
+    erreur: [gheltet, lghalat, le3taq]
+    information: [lkhabar, lma3lumat]
+  expressions:
+    - "bghigh ad steqsagh"
+    - "wach kayen lmechkel?"
+    - "gheltet le numéro"
+    - "ssuruf-iyi, gheltegh"
+    - "bghigh lma3na kan"
+    - "d acu i tella l7imaya?"
+  french_loanwords: [renseignement, information, numéro, erreur, problème,
+                     service, question, adresse]

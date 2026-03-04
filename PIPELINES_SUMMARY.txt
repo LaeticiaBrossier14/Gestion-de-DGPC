@@ -1,0 +1,280 @@
+# 📋 SYNTHÈSE - Pipeline Appels 506+ (Créé le 4 Mars 2026)
+
+## ✅ Fichiers Créés
+
+### Scripts Python
+```
+✓ transcribe_from_506.py           (1100 lignes)
+✓ transcribe_qwen3_from_506.py     (320 lignes)
+✓ pipeline_menu.py                 (380 lignes)
+```
+
+### Fichiers Batch
+```
+✓ run_transcription_506.bat        (Script Whisper)
+✓ run_qwen3_transcription_506.bat  (Script Qwen3-ASR)
+✓ Lancer_Annotation_506.bat        (Lancer annotation)
+✓ LancerMenu.bat                   (Menu principal)
+```
+
+### Documentation
+```
+✓ TRANSCRIPTION_GUIDE_506.md       (Guide détaillé)
+✓ PIPELINE_506_README.md           (README complet)
+```
+
+---
+
+## 🎯 Fonctionnalités
+
+### 1. Transcription (2 modèles)
+- **Whisper:** Rapide, générique
+- **Qwen3-ASR:** Optimisé Kabyle
+
+### 2. Dataset Structuré
+- 18 colonnes (ID, File, Transcription, incident_type, urgency, etc.)
+- Safe merge (pas de doublons)
+- Prêt pour annotation IA
+
+### 3. Annotation Intégrée
+- Streamlit + Gemini
+- Correcteur Kabyle automatique
+- Formulaire complet (incident_type, location, severity, etc.)
+
+### 4. Menu Interactif
+- Interface utilisateur simple
+- Choix facile entre options
+- Vérification dataset en temps réel
+- Documentation embarquée
+
+---
+
+## 🚀 3 Façons de Lancer
+
+### 1️⃣ **Menu Interactif (Recommandé)**
+```
+Double-cliquer: LancerMenu.bat
+Choisir:
+  1. Transcription Whisper
+  2. Transcription Qwen3
+  3. Lancer annotation
+  4. Vérifier dataset
+  etc.
+```
+
+### 2️⃣ **Whisper Directe**
+```
+Double-cliquer: run_transcription_506.bat
+→ Transcrit appels 506+
+→ Lance annotation automatiquement
+```
+
+### 3️⃣ **Qwen3 Directe**
+```
+Double-cliquer: run_qwen3_transcription_506.bat
+→ Transcrit avec Qwen3-ASR (meilleur Kabyle)
+```
+
+---
+
+## 📊 Dataset Output
+
+**Fichiers créés:**
+```
+dataset/506_onwards_transcriptions.csv         (Whisper)
+dataset/506_onwards_transcriptions_qwen3.csv   (Qwen3-ASR)
+```
+
+**Colonnes:**
+- ID, File, Transcription
+- incident_type, injury_severity, victims_count
+- fire_present, trapped_persons, weapons_involved, hazmat_involved
+- intent, urgency_human
+- daira, commune, lieu, location_description
+- summary, notes_cot
+- _annotation_status
+
+---
+
+## ⚙️ Dépendances Automatiques
+
+Les scripts installent automatiquement:
+```
+✓ openai-whisper (transcription)
+✓ qwen-asr (alternative)
+✓ google-generativeai (annotation IA)
+✓ streamlit (interface web)
+✓ pandas (traitement données)
+✓ pydub (audio processing)
+✓ python-dotenv (config)
+```
+
+---
+
+## 📁 Structure Finale
+
+```
+dgpc_pipeline_ready/
+├── 🟢 transcribe_from_506.py
+├── 🟢 transcribe_qwen3_from_506.py
+├── 🟢 pipeline_menu.py
+├── 🟡 run_transcription_506.bat
+├── 🟡 run_qwen3_transcription_506.bat
+├── 🟡 Lancer_Annotation_506.bat
+├── 🟡 LancerMenu.bat
+├── 📖 TRANSCRIPTION_GUIDE_506.md
+├── 📖 PIPELINE_506_README.md
+├── 📋 PIPELINES_SUMMARY.txt (ce fichier)
+├── dataset/
+│   ├── 500annotations_local.csv (x 500 existants)
+│   ├── 506_onwards_transcriptions.csv ← NOUVEAU
+│   └── 506_onwards_transcriptions_qwen3.csv ← NOUVEAU
+├── audio_processed/
+│   ├── appelle 506.wav
+│   ├── appelle 507.wav
+│   └── ... (jusqu'à appelle 809.wav)
+└── annotation_app/
+    └── dgpc_annotation_local.py (déjà existant)
+```
+
+---
+
+## 🔄 Workflow Recommandé
+
+```
+[1] Lancer Menu
+    ↓
+[2] Transcrire (Whisper OU Qwen3)
+    ↓
+[3] Attendre transcription (5-30 min selon GPU)
+    ↓
+[4] Vérifier dataset (Option 4 du menu)
+    ↓
+[5] Lancer annotation (Option 3 du menu)
+    ↓
+[6] Remplir les données manuellement + annoter
+    ↓
+[7] Exporter résultats
+```
+
+---
+
+## ✨ Points Forts
+
+✅ **Simple:** 3 clics pour tout
+✅ **Flexible:** 2 modèles au choix
+✅ **Automatisé:** Installation + exécution auto
+✅ **Structuré:** Dataset prêt pour ML
+✅ **Intégré:** Works with existing annotation_app
+✅ **Documenté:** Guides + menu d'aide
+✅ **Safe:** Gère les doublons, safe merge
+
+---
+
+## ⚠️ Points Attention
+
+⚠️ **GPU Recommandé:** Transcription CPU = très lent
+⚠️ **RAM:** Qwen3-ASR nécessite ~8GB
+⚠️ **Internet:** Whisper/Qwen3 téléchargent modèles (2-4 GB)
+⚠️ **Temps:** Premier lancement = long (téléchargement modèles)
+
+---
+
+## 🎓 Exemples d'utilisation
+
+### Ex. 1: Transcrire 5 appels (test rapide)
+```bash
+python transcribe_from_506.py --start 506 --end 510
+```
+→ ~30 secondes
+
+### Ex. 2: Transcrire tout + auto-annotation
+```bash
+python transcribe_from_506.py --start 506 --auto-launch
+```
+→ 2-3h, puis ouvre Annotation
+
+### Ex. 3: Qualité Kabyle optimale (petit batch)
+```bash
+python transcribe_qwen3_from_506.py --start 506 --end 520
+```
+→ ~3 minutes, excellente qualité
+
+---
+
+## 🔗 Architecture
+
+```
+User Input
+    ↓
+[LancerMenu.bat / CLI]
+    ↓
+├─→ transcribe_from_506.py (Whisper)
+│   ├─→ Load audio_processed/appelle NNN.wav
+│   ├─→ Transcribe (Whisper model)
+│   └─→ Save to dataset/ CSV
+│
+├─→ transcribe_qwen3_from_506.py (Qwen3-ASR)
+│   ├─→ Load audio_processed/appelle NNN.wav
+│   ├─→ Transcribe (Qwen3-ASR model)
+│   └─→ Save to dataset/ CSV
+│
+└─→ annotation_app/dgpc_annotation_local.py (Streamlit)
+    ├─→ Read dataset CSV
+    ├─→ Display audio + transcription
+    ├─→ Call Gemini API
+    ├─→ Apply Kabyle Corrector
+    └─→ Export annotated CSV
+
+Output: dataset/506_onwards_transcriptions_FINAL.csv
+```
+
+---
+
+## 📈 Prochaines Évolutions
+
+Possibilités futures:
+- [ ] Fusion automatique Whisper + Qwen3 (consensus)
+- [ ] Batch annotation (traiter 10 à la fois)
+- [ ] Streaming real-time (nouvelle API)
+- [ ] Dashboard Streamlit comparatif
+- [ ] Export Parquet/Arrow
+- [ ] Intégration DB (PostgreSQL)
+- [ ] API REST (FastAPI)
+
+---
+
+## 📞 Quick Support
+
+| Problème | Solution |
+|----------|----------|
+| Pas de GPU | `python transcribe_from_506.py --use-cpu` |
+| Module manquant | `pip install -r requirements.txt` |
+| Fichier .wav pas trouvé | Vérifier `audio_processed/` |
+| Streamlit blanche | `streamlit cache clear` |
+| Slow transcription | Utiliser GPU (installer CUDA) |
+
+---
+
+## 🎉 Résumé
+
+**Vous avez maintenant:**
+
+✅ Pipeline complet transcription 506+ → annotation
+✅ 2 modèles (Whisper + Qwen3-ASR)
+✅ Menu interactif facile
+✅ Dataset structuré & safe merge
+✅ Documentation complète
+✅ Scripts batch pour non-dev
+✅ Support intégré
+
+**Prêt à lancer:**
+```
+Double-cliquer: LancerMenu.bat
+```
+
+---
+
+**Créé:** 4 Mars 2026
+**Version:** 1.0.0
+**Status:** ✅ Production Ready 🚀

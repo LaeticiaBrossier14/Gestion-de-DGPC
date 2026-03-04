@@ -1,0 +1,25 @@
+[
+  {
+    "id_audio": "CALL_0304_appe",
+    "audio_file": "appelle 506.wav",
+    "timestamp": "2026-03-04T22:30:29.590611",
+    "transcription": "—vghigh adeclaregh un incendie, début d'incendie dagi gethmezrith? —gachu thech3el? — Cha3let l'hanout-nni n'lxodhra....wa7ed l'rond-point à l'entrée ni tmezrit illan dina g bera... la rentree tmezrith?...ih—la masse? — Eh. —la masse illan— wahid laree ni tmezrith illan g bera. — Ih, d'accord. — Aya sa7a. — Sa7it.",
+    "extraction": {
+      "incident_type": "fire_building",
+      "injury_severity": "unknown",
+      "victims_count": null,
+      "fire_present": "yes",
+      "trapped_persons": "unknown",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "intent": "report_incident",
+      "urgency_human": "high",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "timezrith",
+      "location_description": "l'hanout-nni n'lxodhra (magasin de légumes), sous-sol, wa7ed l'rond-point à l'entrée de Bejaia, zone industrielle",
+      "summary": "Signalement d'un incendie s'étant déclaré dans un magasin de légumes situé en sous-sol à l'entrée de Béjaïa, au niveau de la zone industrielle (secteur Blamas).",
+      "notes_cot": "L'appelant confirme un début d'incendie ('cha3let') dans un commerce ('l'hanout n'lxodhra'). Localisation précise par repères : 'rond-point', 'entrée de Bejaia', et 'la zone industrielle'. Le mot 'Blamas' (ou Gla-mas) sert de point de repère spécifique dans ce quartier."
+    }
+  }
+]

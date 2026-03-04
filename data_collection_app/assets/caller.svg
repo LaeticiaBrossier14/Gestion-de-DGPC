@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#78350f"/><stop offset="100%" stop-color="#451a03"/></linearGradient>
+  <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#d4a373"/><stop offset="100%" stop-color="#c08b5c"/></linearGradient>
+  <radialGradient id="stress" cx="50%" cy="40%"><stop offset="0%" stop-color="#ef4444" stop-opacity="0.12"/><stop offset="100%" stop-color="transparent"/></radialGradient>
+</defs>
+<circle cx="60" cy="60" r="58" fill="url(#bg)" stroke="#f59e0b" stroke-width="2" stroke-opacity="0.3"/>
+<circle cx="60" cy="60" r="58" fill="url(#stress)"/>
+<!-- Neck -->
+<rect x="52" y="64" width="16" height="12" rx="3" fill="url(#skin)"/>
+<!-- Body / jacket -->
+<path d="M28,110 Q28,82 44,76 L60,70 L76,76 Q92,82 92,110 Z" fill="#374151"/>
+<path d="M44,76 L60,84 L76,76" fill="none" stroke="#4b5563" stroke-width="1"/>
+<!-- T-shirt collar -->
+<path d="M50,76 Q55,80 60,80 Q65,80 70,76" fill="#1f2937"/>
+<!-- Head -->
+<ellipse cx="60" cy="47" rx="19" ry="21" fill="url(#skin)"/>
+<!-- Hair -->
+<path d="M41,40 Q41,24 60,22 Q79,24 79,40 Q77,32 68,30 Q60,27 52,30 Q43,32 41,40Z" fill="#292524"/>
+<path d="M41,40 Q39,44 39,48" fill="none" stroke="#292524" stroke-width="3"/>
+<path d="M79,40 Q81,44 81,48" fill="none" stroke="#292524" stroke-width="3"/>
+<!-- Worried eyebrows (angled up) -->
+<path d="M47,38 Q51,35 55,38" fill="none" stroke="#292524" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M65,38 Q69,35 73,38" fill="none" stroke="#292524" stroke-width="1.5" stroke-linecap="round"/>
+<!-- Eyes wide open (worried) -->
+<ellipse cx="51" cy="44" rx="3.8" ry="4" fill="white"/>
+<ellipse cx="69" cy="44" rx="3.8" ry="4" fill="white"/>
+<circle cx="52" cy="44.5" r="2.2" fill="#422006"/>
+<circle cx="70" cy="44.5" r="2.2" fill="#422006"/>
+<circle cx="52.5" cy="43.8" r="0.7" fill="white"/>
+<circle cx="70.5" cy="43.8" r="0.7" fill="white"/>
+<!-- Sweat drops -->
+<path d="M80,36 Q82,32 81,28" fill="none" stroke="#60a5fa" stroke-width="1" opacity="0.6"/>
+<ellipse cx="81" cy="28" rx="1" ry="1.5" fill="#60a5fa" opacity="0.5"/>
+<path d="M84,42 Q85,40 85,37" fill="none" stroke="#60a5fa" stroke-width="0.8" opacity="0.4"/>
+<ellipse cx="85" cy="37" rx="0.8" ry="1.2" fill="#60a5fa" opacity="0.4"/>
+<!-- Nose -->
+<path d="M60,47 Q58,52 56,53 Q60,54 64,53 Q62,52 60,47" fill="#b8935a" opacity="0.4"/>
+<!-- Open mouth (worried/shouting) -->
+<ellipse cx="60" cy="58" rx="6" ry="4" fill="#1c1c1c"/>
+<path d="M54,57 Q57,55 60,55 Q63,55 66,57" fill="#c08b5c"/>
+<ellipse cx="60" cy="58.5" rx="4" ry="1.5" fill="#991b1b" opacity="0.6"/>
+<!-- Ears -->
+<ellipse cx="40" cy="47" rx="3.5" ry="5" fill="url(#skin)"/>
+<ellipse cx="80" cy="47" rx="3.5" ry="5" fill="url(#skin)"/>
+<!-- Phone in right hand -->
+<rect x="84" y="50" width="12" height="22" rx="2.5" fill="#1f2937" stroke="#374151" stroke-width="0.8" transform="rotate(-15 90 61)"/>
+<rect x="86" y="53" width="8" height="14" rx="1" fill="#0f172a" transform="rotate(-15 90 61)"/>
+<!-- Phone screen glow -->
+<rect x="86.5" y="53.5" width="7" height="13" rx="0.8" fill="#1e40af" opacity="0.2" transform="rotate(-15 90 61)"/>
+<!-- Right arm holding phone -->
+<path d="M76,82 Q86,72 88,56" fill="none" stroke="url(#skin)" stroke-width="8" stroke-linecap="round" opacity="0.9"/>
+<!-- Left hand gesture -->
+<path d="M28,80 Q24,68 34,60" fill="none" stroke="url(#skin)" stroke-width="7" stroke-linecap="round" opacity="0.9"/>
+<!-- Stress lines -->
+<line x1="26" y1="30" x2="22" y2="26" stroke="#fbbf24" stroke-width="1.5" opacity="0.5" stroke-linecap="round"/>
+<line x1="24" y1="36" x2="18" y2="34" stroke="#fbbf24" stroke-width="1.2" opacity="0.4" stroke-linecap="round"/>
+<line x1="28" y1="24" x2="26" y2="18" stroke="#fbbf24" stroke-width="1" opacity="0.3" stroke-linecap="round"/>
+</svg>

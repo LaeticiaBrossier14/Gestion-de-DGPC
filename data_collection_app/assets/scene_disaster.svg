@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 130">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#1e3a5f"/></linearGradient>
+  <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.6"/><stop offset="100%" stop-color="#1e40af" stop-opacity="0.8"/></linearGradient>
+  <linearGradient id="rain" x1="0" y1="0" x2="0.1" y2="1"><stop offset="0%" stop-color="#93c5fd" stop-opacity="0"/><stop offset="100%" stop-color="#93c5fd" stop-opacity="0.4"/></linearGradient>
+</defs>
+<rect width="400" height="130" fill="url(#sky)"/>
+<!-- Storm clouds -->
+<ellipse cx="80" cy="20" rx="60" ry="18" fill="#1e293b" opacity="0.8"/>
+<ellipse cx="170" cy="15" rx="70" ry="22" fill="#1e293b" opacity="0.7"/>
+<ellipse cx="280" cy="18" rx="65" ry="16" fill="#1e293b" opacity="0.75"/>
+<ellipse cx="360" cy="22" rx="50" ry="14" fill="#1e293b" opacity="0.6"/>
+<!-- Lightning -->
+<path d="M150,12 L145,30 L152,28 L146,50" fill="none" stroke="#fef3c7" stroke-width="2" opacity="0.7"/>
+<path d="M148,48 L144,52" fill="none" stroke="#fef3c7" stroke-width="1" opacity="0.5"/>
+<!-- Rain -->
+<g stroke="url(#rain)" stroke-width="0.8" opacity="0.4">
+  <line x1="40" y1="30" x2="35" y2="55"/><line x1="70" y1="25" x2="65" y2="50"/>
+  <line x1="100" y1="28" x2="95" y2="53"/><line x1="130" y1="32" x2="125" y2="57"/>
+  <line x1="200" y1="26" x2="195" y2="51"/><line x1="240" y1="30" x2="235" y2="55"/>
+  <line x1="280" y1="28" x2="275" y2="53"/><line x1="320" y1="25" x2="315" y2="50"/>
+  <line x1="350" y1="32" x2="345" y2="57"/><line x1="55" y1="35" x2="50" y2="60"/>
+  <line x1="160" y1="30" x2="155" y2="55"/><line x1="300" y1="35" x2="295" y2="60"/>
+</g>
+<!-- Buildings partially submerged -->
+<g transform="translate(40,40)">
+  <rect x="0" y="0" width="35" height="55" rx="2" fill="#334155"/>
+  <rect x="4" y="4" width="8" height="6" rx="1" fill="#1e293b"/><rect x="16" y="4" width="8" height="6" rx="1" fill="#fbbf24" opacity="0.3"/>
+  <rect x="4" y="14" width="8" height="6" rx="1" fill="#1e293b"/><rect x="16" y="14" width="8" height="6" rx="1" fill="#1e293b"/>
+  <rect x="4" y="24" width="8" height="6" rx="1" fill="#1e293b"/><rect x="16" y="24" width="8" height="6" rx="1" fill="#fbbf24" opacity="0.2"/>
+</g>
+<g transform="translate(90,48)">
+  <rect x="0" y="0" width="28" height="45" rx="2" fill="#475569"/>
+  <rect x="3" y="3" width="7" height="5" rx="1" fill="#fbbf24" opacity="0.3"/>
+  <rect x="14" y="3" width="7" height="5" rx="1" fill="#1e293b"/>
+  <rect x="3" y="12" width="7" height="5" rx="1" fill="#1e293b"/>
+  <rect x="14" y="12" width="7" height="5" rx="1" fill="#fbbf24" opacity="0.2"/>
+</g>
+<!-- Water level -->
+<rect x="0" y="78" width="400" height="52" fill="url(#water)"/>
+<!-- Water ripples -->
+<ellipse cx="60" cy="82" rx="30" ry="3" fill="none" stroke="#60a5fa" stroke-width="0.5" opacity="0.3"/>
+<ellipse cx="180" cy="85" rx="25" ry="2.5" fill="none" stroke="#60a5fa" stroke-width="0.5" opacity="0.25"/>
+<ellipse cx="300" cy="83" rx="35" ry="3" fill="none" stroke="#60a5fa" stroke-width="0.5" opacity="0.3"/>
+<!-- Submerged car -->
+<g transform="translate(200,72)">
+  <rect x="0" y="0" width="40" height="14" rx="4" fill="#4b5563" opacity="0.5"/>
+  <rect x="6" y="-5" width="26" height="9" rx="3" fill="#4b5563" opacity="0.4"/>
+</g>
+<!-- Rescue boat -->
+<g transform="translate(280,68)">
+  <path d="M0,12 Q5,18 20,18 Q35,18 40,12 L38,6 L2,6 Z" fill="#f59e0b"/>
+  <circle cx="15" cy="2" r="4" fill="#d4a373"/><rect x="12" y="6" width="6" height="8" rx="1" fill="#1e40af"/>
+  <circle cx="28" cy="2" r="4" fill="#d4a373"/><rect x="25" y="6" width="6" height="8" rx="1" fill="#1e40af"/>
+</g>
+<!-- Debris in water -->
+<rect x="150" y="86" width="12" height="3" rx="1" fill="#78350f" opacity="0.4" transform="rotate(15 156 87)"/>
+<rect x="250" y="90" width="8" height="2" rx="0.5" fill="#78350f" opacity="0.3" transform="rotate(-10 254 91)"/>
+</svg>

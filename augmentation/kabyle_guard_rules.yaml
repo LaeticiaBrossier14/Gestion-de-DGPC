@@ -1,0 +1,350 @@
+version: "3.0.0"
+source:
+  profile_doc: "docs/PROFIL_LINGUISTIQUE_BEJAIA.md"
+  csv_path: "dataset/annotations_local.csv"
+  design_note: >
+    V3.0 — Rules redesigned from real 356-call corpus DNA analysis.
+    Focus: training utility for Whisper ASR pipeline, not linguistic perfection.
+    Key changes: supports panic calls (no greeting), Darija callers (~15%),
+    Béjaïa negation (ul...ula), and tolerates Whisper spelling variations.
+
+thresholds:
+  min_chars: 20
+  min_words: 5
+  min_kabyle_markers: 1          # lowered: Darija calls may have only 1 Kabyle marker
+  quality_min_words: 12          # lowered: real calls can be very short (Call #115: 14 words)
+  median_words_target: 45        # lowered: real median shorter than expected
+  pass_score: 0.60               # lowered: allow more variation through
+  borderline_score: 0.45         # lowered: keep more examples for review
+  negation_window_words: 12      # slightly wider window
+
+normalization:
+  lowercase: true
+  trim: true
+  collapse_whitespace: true
+  unicode_to_ascii:
+    "ɣ": "gh"
+    "ɛ": "3"
+    "ḥ": "7"
+    "ʃ": "ch"
+    "č": "ch"
+    "ṭ": "t"
+    "ḍ": "d"
+    "ẓ": "z"
+    "ṣ": "s"
+  variant_replacements:
+    - from: "xati"
+      to: "khati"
+    - from: "ulac"
+      to: "ulach"
+    - from: "hmayai"
+      to: "himaya"
+    - from: "kechch"
+      to: "cekk"
+
+# ============================================================================
+# BLOCKING RULES — hard reject, instant fail (score=0)
+# Only block for things that make data UNUSABLE for training
+# ============================================================================
+blocking_rules:
+  R1:
+    description: "Minimum length: >=20 chars and >=5 words (allows very short panic calls)"
+    enabled: true
+  R2:
+    description: "Must start with recognized opening (greeting OR panic interjection OR operator formula)"
+    enabled: true
+  R3:
+    description: "Must include >=1 Béjaïa regional marker (kabyle OR darija OR arabizi)"
+    enabled: true
+  R4:
+    description: "Reject unsupported scholarly unicode script (mojibake)"
+    enabled: true
+  R5:
+    description: "Not 100% French: at least one emergency call verb (kabyle, darija, or hybrid)"
+    enabled: true
+  R6:
+    description: "Negation consistency: ur must have ara, ul must have ula (Béjaïa forms)"
+    enabled: true
+  R7:
+    description: "Reject if >5 Kabyle-like words not in verified lexicon (raised threshold)"
+    enabled: false    # disabled — too strict for Whisper output variations
+
+# ============================================================================
+# QUALITY RULES — soft penalties, accumulate to lower score
+# Focused on scenario and structure quality, NOT spelling
+# ============================================================================
+quality_rules:
+  Q1:
+    description: "Medical call should include at least one medical-related word"
+    penalty: 0.15
+    enabled: true
+  Q2:
+    description: "Fire call should include fire vocabulary"
+    penalty: 0.15
+    enabled: true
+  Q3:
+    description: "Location should be mentioned in transcription"
+    penalty: 0.10
+    enabled: true
+  Q4:
+    description: "Closure marker expected (soft signal)"
+    penalty: 0.05
+    enabled: true
+  Q5:
+    description: "Length realism: very short fragments penalized"
+    penalty: 0.05
+    enabled: true
+  Q6:
+    description: "Code-switching ratio: not >60% French (raised from 40%)"
+    penalty: 0.08
+    enabled: true
+  Q7:
+    description: "Basic gender consistency (light heuristic)"
+    penalty: 0.05
+    enabled: false    # too noisy for real-world data
+  Q8:
+    description: "Incomplete utterance ending"
+    penalty: 0.10
+    enabled: true
+  Q9:
+    description: "Two-speaker turn structure expected"
+    penalty: 0.15
+    enabled: true
+  Q10:
+    description: "Scenario coherence: must have 2+ of trigger+evidence+location+action (lowered from 3)"
+    penalty: 0.15
+    enabled: true
+  Q11:
+    description: "Location grounding: label location should appear in transcription"
+    penalty: 0.10
+    enabled: true
+
+# ============================================================================
+# LEXICONS — enriched from real 356-call corpus DNA analysis
+# ============================================================================
+lexicons:
+  # --- Greetings: now includes panic interjections and operator formulas ---
+  greetings:
+    - "allo"
+    - "salam"
+    - "salam alaykoum"
+    - "salam 3likoum"
+    - "salam 3alaykum"
+    - "azul"
+    - "sba7 lkhir"
+    - "msa lkhir"
+    # Panic openings (no greeting — direct emergency)
+    - "arwa7"
+    - "azlem"
+    - "secours"
+    - "urgent"
+    - "ya rebbi"
+    - "yaddi"
+    # Operator openings
+    - "l'7imaya"
+    - "l7imaya"
+    - "himaya"
+    - "m3akoum"
+    - "les pompiers"
+    # Darija openings
+    - "khouya"
+    - "ya khouya"
+
+  closure_markers:
+    - "saha"
+    - "sahit"
+    - "d'accord"
+    - "daccord"
+    - "dakur"
+    - "dakour"
+    - "merci"
+    - "barak allah"
+    - "bslama"
+    - "ya3tik sa7a"
+    - "tanmirt"
+
+  # --- Kabyle particles: enriched with Darija markers ---
+  kabyle_particles:
+    # Kabyle
+    - "dayi"
+    - "dagi"
+    - "dinna"
+    - "tura"
+    - "chwiya"
+    - "an3am"
+    - "amek"
+    - "anda"
+    - "anida"
+    - "anwa"
+    - "dachu"
+    - "dachou"
+    - "achu"
+    - "yiwen"
+    - "yiweth"
+    - "thella"
+    - "yella"
+    - "illa"
+    - "ulach"
+    - "wlach"
+    - "khati"
+    - "machi"
+    - "la3nayak"
+    - "ma3lich"
+    - "meskin"
+    # Darija markers (count as regional markers too)
+    - "kayen"
+    - "wesh"
+    - "rani"
+    - "khouya"
+    - "kifach"
+    - "bghit"
+    - "3endna"
+    - "win"
+
+  # --- Kabyle verbs: enriched with Béjaïa forms + hybrid expressions ---
+  kabyle_verbs:
+    # Medical
+    - "ighli"
+    - "ghli"
+    - "eghli"
+    - "theghli"
+    - "doukh"
+    - "idukh"
+    - "yugh"
+    - "ithyughen"
+    - "nuffes"
+    - "respir"
+    - "it-respirer"
+    # Fire
+    - "che3l"
+    - "ich3el"
+    - "thech3el"
+    - "tkard"
+    - "iterteq"
+    - "terteq"
+    # Accident
+    - "t-qleb"
+    - "teqleb"
+    - "iwthit"
+    - "thewthit"
+    - "iblessi"
+    - "irez"
+    # Movement/action
+    - "teddu"
+    - "arwa7"
+    - "arwah"
+    - "azlem"
+    - "3ajlem"
+    - "activiw"
+    # Hybrid/French verbs in Kabyle matrix
+    - "evacuer"
+    - "hospitaliser"
+    - "transporter"
+    # Darija verbs (for ~15% Darija calls)
+    - "drab"
+    - "dharb"
+    - "ta7"
+    - "wqa3"
+
+  medical_verbs:
+    - "ighli"
+    - "ghli"
+    - "theghli"
+    - "doukh"
+    - "idukh"
+    - "yugh"
+    - "ithyughen"
+    - "nuffes"
+    - "respir"
+    - "it-respirer"
+    - "tfit"       # tfit la crise
+    - "crise"
+    - "malaise"
+    - "tension"
+    - "malade"
+    - "marid"
+    - "hallek"
+    - "thehlek"
+
+  fire_terms:
+    - "thmesth"
+    - "tmess"
+    - "tmes"
+    - "che3l"
+    - "ich3el"
+    - "thech3el"
+    - "n-nar"
+    - "nar"
+    - "ddaxan"
+    - "l7riq"
+    - "7riq"
+    - "incendie"
+    - "feu"
+    - "fumee"
+    - "tkard"
+    - "gaz"
+
+  french_markers:
+    - "ambulance"
+    - "accident"
+    - "urgence"
+    - "bloc"
+    - "etage"
+    - "docteur"
+    - "inconscient"
+    - "malaise"
+    - "tension"
+    - "saturation"
+    - "oxygene"
+    - "respire"
+    - "hopital"
+    - "protection"
+    - "civile"
+    - "pompiers"
+    - "blessure"
+    - "victime"
+
+  feminine_nouns:
+    - "fille"
+    - "femme"
+    - "mra"
+    - "teqchicht"
+    - "tamghart"
+    - "tametut"
+
+  masculine_nouns:
+    - "homme"
+    - "garcon"
+    - "argaz"
+    - "amghar"
+    - "aqchich"
+
+  arabizi_markers:
+    - "3"
+    - "7"
+    - "9"
+    - "gh"
+    - "ch"
+    - "th"
+
+regex:
+  forbidden_unicode:
+    - "ɣ"
+    - "ɛ"
+    - "ḥ"
+    - "ʃ"
+    - "θ"
+    - "ṭ"
+    - "ḍ"
+    - "ẓ"
+    - "ṣ"
+  forbidden_sequences:
+    - "\xc3"
+    - "\xe2\x80\x99"
+    - "\xe2\x80\x9c"
+    - "\xe2\x80"
+    - "\xe2\x80\x93"
+    - "\xe2\x80\x94"
+    - "\xef\xbf\xbd"
+  negation_token: "\\b(?:ur|ul)\\b"    # now matches BOTH ur AND ul (Béjaïa)
+  negation_closure: "\\b(?:ara|ula)\\b"  # now matches BOTH ara AND ula (Béjaïa)

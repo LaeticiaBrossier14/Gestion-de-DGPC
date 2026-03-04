@@ -1,0 +1,2705 @@
+Re´publique Alge´rienne De´mocratique et Populaire
+Faculte´ des Sciences Exactes De´partement de Recherche Ope´rationnelle
+
+Me´moire pre´sente´ pour l’obtention du diploˆme de master
+
+
+
+
+
+
+Spe´cialite´ : Sciences de Donne´es et Aide a` la De´cision
+
+
+
+
+Reconnaissance vocale des lettres de la langue Amazighe (Kabyle)
+
+
+
+
+Pre´sente´ par :
+TETAH Ikram BOURNINE Ikram
+
+Sous la direction de : Mr. A Zaidi et Dr. L Asli
+De´fendu le 03/07/2024, devant le jury compose´ de :
+
+
+
+
+
+
+Remerciments
+
+En premier lieu, nous remercions ALLAH, le tout puissant, de nous avoir appris ce que nous ignorons, de nous avoir donne´ la sante´ et tout dont nous avons besoin pour l’accomplissement de ce me´moire.
+
+Nous exprimons notre gratitude envers monsieur Zaidi Ali pour eˆtre a` l’origine de ce the`me de recherche et pour ses conseils pre´cieux, ses encouragements constants et son soutien continu.
+
+Nous remercions Monsieur Asli Larbi pour ses conseils avise´s, sa disponibilite´, ses encou- ragements et son pre´cieux accompagnement tout au long de ce travail.
+
+Ce travail a e´te´ mene´ au sein du centre de recherche en langue et culture amazighes. Nous souhaitons exprimer notre respect et notre gratitude envers tous les membres du personnel du centre.
+
+
+Nous remercions since`rement toutes les personnes qui ont contribue´ donne´es. Leur aide a e´te´ essentielle a` la re´alisation de ce projet.
+a` notre collecte de
+
+
+Nous remercions e´galement tous les enseignants qui ont assure´ notre formation. Leur de´vouement et leurs connaissances ont e´te´ essentiels a` notre parcours. Graˆce a` eux, nous avons pu acque´rir
+les compe´tences ne´cessaires pour mener a` bien ce projet.
+
+On tient a` remercier les membres du jury pour avoir accepte´ d’e´valuer notre travail.
+
+On remercie tout particulie`rement nos parents, ainsi que nos fre`res et sœurs, pour leur sou- tien inconditionnel tout au long de ces longues anne´es d’e´tudes.
+A` toutes les personnes qui ont contribue´ de pre`s ou de loin a` l’e´laboration de ce travail, nous disons, MERCI.
+
+
+
+Table des matie`res
+
+Remerciments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .	I
+
+
+
+TABLE DES MATIE`RES	IV	B
+Re´seaux de neurones re´currents	69
+Fonctionnement d’un RNN	69
+Architectures du RNN	71
+LSTM Bidirectionnel	75
+Conclusion	76
+Imple´mentation & Re´sultats	77
+Introduction	77
+Environnement de de´veloppement	77
+Principes cle´s de l’apprentissage profond	78
+Me´triques d’e´valuation	78
+Pre´paration des donne´es d’entre´e du mode`le	79
+Re´partition des donne´es	80
+Architecture du mode`le	80
+Parame`tres d’apprentissage	83
+Sortie du mode`le	83
+Analyse des re´sultats	84
+Courbes d’entraˆınement et de validation	84
+Matrice de confusion	85
+Courbe ROC	85
+Rapport de classification	87
+Taux de reconnaissance globale	87
+Pre´diction sur les donne´es test	88
+Erreurs de pre´diction	89
+E´valuation du mode`le sur de nouveaux enregistrements	91
+Conclusion	92
+Conclusion ge´ne´rale	93
+Bibliographie	98
+Re´sume´	99
+
+B
+
+
+Table des figures
+
+
+Intelligence Artificielle. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .	4
+Turing Test. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .	4
+Domaines d’application de l’IA.  . . . . . . . . . . . . . . . . . . . . . . . . .	5
+Techniques du machine learning [43]. . . . . . . . . . . . . . . . . . . . . . .	7
+Deep learning [27]. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .	8
+Forme d’un re´seau de neurones.	. . . . . . . . . . . . . . . . . . . . . . . . .	9
+Sche´ma de l’appareil phonatoire [51].	12
+Niveaux d’analyse du signal de parole [51].	13
+Principe de fonctionnement [51].	15
+Re´partition Ge´ographique des dialectes amazighs [56].	21
+Re´partition ge´ographique de la kabylie [65].	23
+Lettres spe´cifiques de la langue kabyle.	24
+Tableau des lettres de la langue amazighe [8].	25
+Tableau illustrant les variations du phe´nome`ne d’assimilation [61].	26
+Centre de Recherche en Langue et Culture Amazighes (CRLCA) [10].	27
+Organigramme CRLCA [10].	29
+Exemple de liste illustrant l’utilisation d’un phone`me.	34
+Lieux de collecte.	35
+Dictaphone.	37
+TALN-RV Corpus.	37
+TALN-RV-DATA	38
+Audacity Logo.	38
+Re´partition des personnes par tranche d’aˆge.	39
+Re´partition des personnes par sexe.	39
+Zones ge´ographiques.	40
+E´limination du bruit.	41
+Fichier de type wav apre´s la re´duction du bruit.	41
+Segmentation des enregistrements vocaux.	42
+Festival.	43
+Ve´rification de l’installation de Festival.	43
+Liste des voix.	44
+La se´lection d’une voix.	44
+Le texte a` lire.	45
+Extraction des donne´es.	46
+TALN.csv	46
+
+TABLE DES FIGURES	VI	B
+Dossier wav	47
+Dataset vocale phone`me.	48
+Avant & Apre´s Re´e´chantillonnage	52
+Avant & Apre´s Normalisation	54
+Avant & Apre´s Re´duction du bruit.	57
+SNR & MSE.	59
+De´composition du signal en trames dans le domaine temporel	60
+Feneˆtre de Hamming	60
+De´composition du signal en trames dans le domaine fre´quentiel	61
+Banc de filtres de Mel.	61
+Comparaison dynamique.	63
+Repre´sentation d’un phone`me.	63
+Approches du SVM [19].	64
+Neurone biologique.	64
+Neurone artificiel.	65
+Re´seau de neurones artificiel.	65
+Sigmoide VS Tanh.	67
+ReLU.	67
+Architecture d’un CNN [34].	69
+RNN.	69
+Cellule re´currente.	70
+Version de´roule´e d’un cellule re´currente	70
+BRNN.	72
+Fonction tanh et sa de´rive´e [7].	73
+Unite´ LSTM [58].	73
+BLSTM.	75
+Dimensions de donne´es.	80
+Ensemble d’entraˆınement, de validation et de test.	80
+Sortie du mode´le.	83
+Courbes d’entraˆınement et de validation.	84
+Matrice de confusion.	85
+Courbe ROC.	86
+Rapport de classification.	87
+Taux de reconnaissance globale.	88
+Pre´diction sur les donne´es test.	88
+Courbe d’erreur de pre´diction.	89
+Visualisation des MFCCs et des spectrogrammes pour les fichiers audio.	90
+Evaluation de la similtitude.	90
+Comparaison des MFCC Triangles.	91
+Re´sultats de la pre´diction.	92
+
+
+
+List of Algorithms
+
+
+Re´e´chantillonnage des fichiers audio	52
+Normalisation des fichiers audio	53
+Re´duction du bruit des fichiers audio	57
+Extraction des MFCC des fichiers audio	62
+
+
+
+Liste des tableaux
+
+
+Domaines d’application du TALN.	11
+Dialectes de la langue amazighe [1].	22
+Tableau repre´sentatif des changements phone´tiques [61].	26
+Configuration des couches LSTM bidirectionnelles.	81
+
+
+
+Liste d’abriviations
+
+API :	Application Programming Interface ASR :	Automatic Speech Recognition AUC :	Area Under the Curve
+BRNN :	Bidirectional Recurrent Neural Network
+CPU :	Central Processing Unit
+CNN :	Convolutional Neural Networks
+db :	De´cibel
+DCT :	Transforme´e en Cosinus Discre`te
+DTW :	Dynamic Time Warping FFT :	Fast Fourier Transform FN :	Faux Ne´gatif
+FP :	Faux Positif
+FSF : Free Software Foundation GPU : Graphics Processing Unit IA :	Intelligence Artificielle
+IDE :   Integrated Development Environment
+JSON :  JavaScript Object Notation
+LSTM :  Long Short-Term Memory
+MFCC :	Mel-Frequency Cepstral Coefficients
+MGM :	Mode`les Gaussiens Mixtes
+ML :	Machine Learning MMC :	Mode`le de Markov cache´ MSE :	Mean Squared Error
+RAP :	Reconnaissance automatique de la parole
+RAM :	Random Access Memory
+RNA :	Re´seau de neurones artificiel ROC :	Receiver Operating Characteristic RNN :	Recurrent Neural Network
+SNR :	Signal-to-Noise Ratio
+TALN :	Traitement automatique du langage naturel TFCT :	Transforme´e de Fourier a` Court Terme TFICT :	Transforme´e de Fourier Inverse a` Court Terme VN :	Vrai Ne´gatif
+VP :	Vrai Positif
+WAV :	Waveform Audio File Format
+
+
+
+Introduction ge´ne´rale
+
+
+i l’homme est capable de comprendre un message vocal provenant de n’importe quel locuteur, meˆme dans des environnements bruyants et avec diverses e´locutions, syn- taxes et vocabulaires. La machine peut-elle accomplir la meˆme taˆche ? Existe-t-il une
+solution capable de surmonter globalement ces de´fis ? La reconnaissance vocale est la solution technologique a` cet enjeu, permettant aux syste`mes informatiques d’interpre´ter le langage parle´ aussi efficacement que les eˆtres humains, quel que soit le contexte.
+
+Notre e´tude s’inte`gre dans le cadre du de´veloppement d’un mode`le de reconnaissance vo- cale des lettres de la langue kabyle avec pour objectif d’interpre´ter et de transcrire de manie`re pre´cise les phone`mes et les caracte`res spe´cifiques a` cette langue. Le kabyle est une variante de la langue amazighe parle´e principalement en Alge´rie, connue pour sa richesse linguistique et ses particularite´s phone´tiques. Cette langue utilise un alphabet berbe`re adapte´ qui inclut des caracte`res spe´cifiques pour repre´senter des sons qui peuvent diffe´rer de ceux des autres langues.
+
+La reconnaissance vocale passe par un processus complexe qui implique plusieurs e´tapes essentielles, telles que la collecte d’enregistrements vocaux repre´sentant des phone`mes, des mots, des verbes et des phrases en kabyle. Ces enregistrements sont re´alise´s par des locuteurs de diffe´rentes re´gions, aˆges, sexes et statut social pour couvrir la varie´te´ linguistique et accen- tuelle de la langue. Une fois collecte´es, les donne´es vocales doivent eˆtre pre´traite´es avant de pouvoir eˆtre efficacement utilise´es pour la reconnaissance vocale.
+
+L’une des e´tapes cle´s de ce pre´traitement est l’extraction des caracte´ristiques acoustiques
+[51] qui permettent de transformer directement les enregistrements bruts en caracte´ristiques plus faciles a` manipuler et a` analyser, en capturant les proprie´te´s spectrales essentielles du si- gnal vocal.
+
+La reconnaissance vocale des lettres a fait l’objet d’e´tudes approfondies ces dernie`res anne´es, avec des chercheurs utilisant diffe´rents algorithmes tels que les machines a` vecteurs de support (SVM), la comparaison dynamique, les mode`les cache´s de Markov (MMC) [55], les re´seaux neuronaux artificiels (RNA) et les re´seaux de neurones convolutionnels. Les re´sultats ont e´te´ varie´s et satisfaisants, mais ces me´thodes partagent certains inconve´nients communs. Elles ne´cessitent ge´ne´ralement un grand nombre de donne´es e´tiquete´es pour un entraˆınement efficace et des re´sultats pre´cis. De plus, toutes ces me´thodes sont sensibles aux conditions d’enregis- trement vocal, telles que le bruit de fond, la qualite´ de l’enregistrement, les variations dans la prononciation, ainsi que la complexite´ du signal vocal.
+
+Introduction ge´ne´rale	2	B
+
+
+Dans ce travail nous centralisons notre objectif a` re´aliser un syste`me de reconnaissance
+vocale des lettres de la langue kabyle en utilisant un mode`le de re´seau de neurones re´currents bidirectionnel LSTM, en raison de sa capacite´ a` mode´liser les se´quences temporelles complexes et a` capturer les variations phone´tiques subtiles propres a` cette langue. Le LSTM seul permet au mode`le de comprendre les de´pendances a` long terme dans les se´quences vocales [64], tandis que la bidirectionnalite´ lui permet d’utiliser a` la fois le contexte pre´ce´dent et suivant pour ame´liorer la pre´cision de la reconnaissance des lettres kabyles [14].
+Ce me´moire commence par une introduction ge´ne´rale. Par la suite, il est re´parti en cinq cha- pitres :
+
+Le premier chapitre : nous pre´sentons brie`vement les concepts de base lie´s a` l’in-
+telligence artificielle, au machine learning, au deep learning, au traitement automa- tique du langage naturel et a` la reconnaissance automatique de la parole. Ce chapitre aborde e´galement le phe´nome`ne de la production de la parole ainsi que les diffe´rentes caracte´ristiques d’un signal vocal.
+Le deuxie`me chapitre : traite de la langue Amazighe en mettant l’accent sur la variante kabyle, y compris sa re´partition ge´ographique, son syste`me d’e´criture en alphabet latin et ses phone`mes spe´cifiques.
+
+Le troisie`me chapitre : de´crit les e´tapes essentielles de la cre´ation d’un corpus vo- cal, allant de la collecte des donne´es a` leur pre´traitement pre´liminaire. Nous aborderons e´galement la cre´ation de´taille´e du dataset vocal, y compris l’organisation des fichiers audio et leurs transcriptions.
+
+Le quatrie`me chapitre : couvre les e´tapes du pre´traitement du signal audio, l’extrac- tion des caracte´ristiques acoustiques, ainsi que les techniques de reconnaissance vocale.
+
+Le cinquie`me chapitre : est de´die´ a` la description et a` l’imple´mentation de notre mode`le de reconnaissance vocale des lettres en kabyle, ainsi qu’a` la pre´sentation des re´sultats obtenus.
+Le me´moire se termine par une conclusion ge´ne´rale et quelques perspectives.
+
+B
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ge´ne´ralite´s sur la reconnaissance automatique de la parole & proble´matique
+
+Introduction
+Le pre´sent chapitre a pour objectif de pre´senter les notions e´le´mentaires lie´es a` l’intelligence artificielle, au machine learning, au deep learning, au traitement automatique du langage et a` la reconnaissance automatique de la parole. Ces concepts sont essentiels pour comprendre le fonctionnement et les applications de la reconnaissance vocale, ainsi que ses implications dans le contexte de la langue kabyle. De plus, nous aborderons e´galement la proble´matique pose´e dans le cadre de notre projet.
+Sommaire	
+Introduction	3
+Concepts de base de l’intelligence artificielle	4
+Machine Learning	6
+Deep Learning	8
+Traitement automatique du langage naturel	9
+Reconnaissance automatique de la parole	12
+Pre´sentation du sujet	17
+Contexte the´orique	17
+Proble´matique	17
+Conclusion	18
+
+
+Concepts de base de l’intelligence artificielle	4	B
+
+
+Concepts de base de l’intelligence artificielle
+De´finition 1. Intelligence Artificielle :
+
+L’intelligence artificielle (IA) est un terme qui a e´te´ invente´ pour la premie`re fois par John McCarthy en 1956, il a de´fini le sujet comme ”La science et l’inge´nierie de la fabrication de machines intelligentes, en particulier des programmes informatiques intelligents”.
+
+L’IA est une science technique qui e´tudie et de´veloppe des the´ories, des me´thodes, des tech- nologies et des applications pour permettre aux machines de fonctionner avec une pense´e sem- blable a` celle des eˆtres humains, rendant ainsi les machines capables de prendre des de´cisions intelligentes et d’interagir de manie`re plus sophistique´e avec leur environnement. Ainsi, l’intel- ligence artificielle repose sur un fondement the´orique solide e´tabli par Alan Turing le pe`re de l’informatique moderne [39].
+
+
+
+Figure 1.1 – Intelligence Artificielle.
+
+De´finition 2. Turing Test :
+
+Pour e´valuer si une machine peut eˆtre conside´re´e comme intelligente ou non, Alan Turing
+
+le ce´le`bre mathe´maticien, a propose´ Imitation Game”.
+une approche empirique connue sous le nom de ”The
+
+Dans le cadre du jeu de l’imitation, un juge (C) interagit par des e´changes de messages e´crits avec deux interlocuteurs anonymes, A et B, sans savoir qui est l’eˆtre humain et qui est la machine. Apre`s plusieurs e´changes, le juge doit de´terminer l’identite´ de chaque interlocuteur.
+
+Si la machine parvient a` tromper le juge en se faisant passer pour un eˆtre humain, elle est conside´re´e comme intelligente selon Turing [28] [60].
+
+
+Figure 1.2 – Turing Test.
+
+Concepts de base de l’intelligence artificielle	5	B
+
+
+Domaines d’application de l’intelligence artificielle
+L’intelligence artificielle re´volutionne diffe´rents aspects de notre vie. Ci-dessous, nous ci- tons quelques domaines ou` son impact est le plus significatif :
+
+Se´curite´.
+Robots intelligents.
+Voitures autonomes.
+Maisons intelligentes.
+Traduction automatique.
+Achat en ligne.
+Casques de re´alite´ virtuelle.
+Syste`me de Positionnement Global.
+
+
+Figure 1.3 – Domaines d’application de l’IA.
+
+Machine Learning	6	B
+
+
+Machine Learning
+De´finition 3. Machine Learning
+
+Machine learning (ML) est un sous domaine de l’intelligence artificielle. Il explore la construc- tion et l’e´tude d’algorithmes capables d’apprendre a` partir de donne´es et de faire des pre´dictions.
+
+Il est e´troitement lie´ au domaine des statistiques [15], c’est-a`-dire ils utilisent des techniques statistiques pour permettre a` un syste`me d’apprendre des mode`les et des relations a` partir de donne´es, qui permettent aux machines d’effectuer des taˆches qui ne seraient autrement pos- sibles que pour les humains, telles que la cate´gorisation d’images, l’analyse de donne´es ou la pre´diction des fluctuations de prix.
+
+Techniques du Machine Learning
+Apprentissage supervise´
+L’apprentissage supervise´ est une me´thode d’apprentissage automatique ou` un algorithme apprend a` partir de donne´es e´tiquete´es, constitue´es de paires d’entre´es et de sorties attendues.
+
+Les taˆches les plus courantes dans ce cadre sont la ”classification”, qui consiste a` se´parer les donne´es en cate´gories distinctes, et la ”re´gression”, qui vise a` ajuster les donne´es a` une courbe ou a` une fonction.
+
+Par exemple, pre´dire l’e´tiquette de classe ou le sentiment associe´ a` un morceau de texte tel qu’un tweet ou une critique de produit repre´sente un cas concret de classification de texte, relevant de l’apprentissage supervise´ [23].
+
+Apprentissage non supervise´
+L’apprentissage non supervise´, aussi appele´ clustering, consiste a` entraˆıner un mode`le sur un ensemble de donne´es non e´tiquete´es. E´tant donne´ que les exemples ne sont pas e´tiquete´s, il n’y a pas de signal d’erreur ou de re´compense pour e´valuer une solution potentielle. Cette me´thode peut eˆtre utilise´e soit comme un objectif en soi, soit comme une e´tape de pre´traitement pour un algorithme supervise´ [15].
+
+Par exemple, dans le cas d’un ensemble d’images de chiffres manuscrits, une me´thode d’ap- prentissage non supervise´ peut identifier 10 groupes de donne´es. Ces groupes peuvent corres- pondre aux 10 chiffres distincts de 0 a` 9. Cependant, e´tant donne´ que les donne´es d’entraˆınement ne sont pas e´tiquete´es, le mode`le re´sultant ne peut pas fournir de signification se´mantique aux groupes identifie´s [31].
+
+Apprentissage semi-supervise´
+L’apprentissage semi-supervise´ exploite a` la fois des donne´es e´tiquete´es et non e´tiquete´es.
+Cette combinaison permet de ge´ne´rer un mode`le adapte´ a` la classification des donne´es [31].
+
+Machine Learning	7	B
+
+
+En ge´ne´ral, les donne´es e´tiquete´es sont rares tandis que les donne´es non e´tiquete´es sont abondantes. L’objectif de la classification semi-supervise´e est de de´velopper un mode`le capable de pre´dire les classes des futures donne´es de test de manie`re plus pre´cise que celui obtenu en utilisant uniquement les donne´es e´tiquete´es [23].
+
+Apprentissage par renforcement
+Reinforcement learning est un type d’algorithme d’apprentissage automatique qui permet aux agents logiciels et aux machines d’e´valuer automatiquement le comportement optimal dans un contexte ou un environnement particulier pour ame´liorer leur efficacite´. Il s’agit d’une
+
+approche axe´e sur l’environnement, ou` pe´nalite´s.
+l’apprentissage est base´
+sur des re´compenses ou des
+
+
+Le but ultime est d’utiliser les informations obtenues de l’interaction avec l’environnement pour prendre des mesures qui maximisent les re´compenses ou minimisent les risques.
+
+C’est un outil puissant pour entraˆıner des mode`les d’IA qui peuvent aider a` accroˆıtre l’au- tomatisation ou a` optimiser l’efficacite´ ope´rationnelle de syste`mes sophistique´s tels que la ro- botique, les taˆches de conduite autonome, la fabrication et la logistique de la chaˆıne d’approvi- sionnement [23].
+
+Figure 1.4 – Techniques du machine learning [43].
+
+Deep Learning	8	B
+
+
+Deep Learning
+De´finition 4. Deep Learning :
+
+Le deep learning, ou apprentissage profond, repre´sente une branche de l’intelligence arti- ficielle qui e´volue a` partir du machine learning (apprentissage automatique). Contrairement a` une programmation classique ou` la machine suit des instructions pre´e´tablies, le deep learning permet a` la machine d’apprendre de manie`re autonome.
+
+Il repose sur l’utilisation de re´seaux de neurones artificiels, inspire´s du fonctionnement du cerveau humain. Ces re´seaux sont structure´s en plusieurs couches de neurones, pouvant aller de quelques dizaines a` plusieurs centaines. Chaque couche rec¸oit et traite les informations pro- venant de la couche pre´ce´dente.
+
+Par exemple, le syste`me peut apprendre a` reconnaˆıtre des lettres avant de comprendre des mots dans un texte, ou a` de´tecter la pre´sence d’un visage sur une photo avant d’identifier la personne repre´sente´e [27].
+
+
+
+Figure 1.5 – Deep learning [27].
+
+
+Re´seaux de neurones
+Un re´seau neuronal est constitue´ de multiples neurones qui sont des unite´s de calcul simples connecte´s les uns aux autres, ces neurones sont organise´s en couches. En associant les neu- rones, le re´seau peut simuler une fonction, c’est-a`-dire approximer une relation entre plusieurs parame`tres, en calculant des valeurs de sortie a` partir de valeurs d’entre´e.
+
+La capacite´ d’un re´seau neuronal a` me´moriser des paires de valeurs d’entre´es et de valeurs de sortie augmente avec le nombre de neurones pre´sents dans le re´seau. Le re´seau peut apprendre cette fonction en lui pre´sentant des exemples, c’est-a`-dire des jeux de donne´es constitue´s de va- leurs d’entre´es et de valeurs de sortie correspondantes. Il peut e´galement continuer a` apprendre en temps re´el de nouveaux exemples, pour autant que ces exemples soient approprie´s.
+
+En agissant de cette manie`re, le re´seau neuronal peut simuler une forme d’intelligence humaine, en re´pondant a` des situations avec des actions approprie´es, a` travers le me´canisme d’action-re´action [27].
+
+Traitement automatique du langage naturel	9	B
+
+
+Figure 1.6 – Forme d’un re´seau de neurones.
+
+Traitement automatique du langage naturel
+Dans l’e´tude du langage, quelques de´finitions cle´s sont importantes a` comprendre :
+De´finition 5. Langue :
+
+La langue, selon Ferdinand de Saussure, est de´finie comme un produit social re´sultant de la faculte´ de langage, ainsi qu’un ensemble de conventions e´tablies par la socie´te´ pour per- mettre l’utilisation de cette faculte´ par les individus. En d’autres termes, la langue repre´sente l’ensemble des signes linguistiques utilise´s par un individu pour communiquer et s’exprimer avec les autres [48] .
+De´finition 6. Phone´tique
+
+
+Plusieurs de´finitions ont
+e´te´
+donne´es a`
+cette branche. Jean Pierre Cuq de´clare que la
+
+phone´tique est : ≪ la discipline qui e´tudie la composante sonore d’une langue dans sa re´alisation concre`te, des points de vue acoustique, physiologique (articulatoire) et perceptif (auditifs) ≫. Alors la phone´tique s’inte´resse a` l’e´tude des sons de la parole [26].
+Les branches de la phone´tique sont :
+
+La phone´tique articulatoire : c’est une activite´ qui s’occupe des actions des cordes vocales de la bouche.
+La phone´tique acoustique : cette phone´tique concerne l’action de transfe´rer un mes- sage sonore pour que l’auditeur le rec¸oive.
+La phone´tique auditive : c’est la branche qui examine comment l’appareil auditif rec¸oit un message.
+De´finition 7. Phone`me
+Le phone`me est la plus petite unite´ distinctive et significative de la parole, capable d’eˆtre identifie´e et isole´e au sein d’une chaˆıne parle´e [26].
+
+Traitement automatique du langage naturel	10	B
+
+
+De´finition 8. Mot :
+Un mot est une unite´ linguistique constitue´e d’une ou plusieurs lettres qui, lorsqu’elle est prononce´e ou e´crite, a une signification ou une fonction grammaticale dans une langue donne´e.
+De´finition 9. Phrase :
+D’un point de vue strictement linguistique, en mettant de coˆte´ toute conside´ration logique ou psychologique, Antoine Meillet de´finit la phrase comme un ensemble d’articulations lie´es entre elles par des rapports grammaticaux et qui, ne de´pendant grammaticalement d’aucun autre ensemble, se suflsent a` elles-meˆmes [38].
+De´finition 10. Traitement automatique du langage naturel :
+
+Le traitement automatique du langage naturel (TALN) est un domaine a` la frontie`re de
+la linguistique et l’informatique, il a pour objectif de de´velopper des logiciels capable de traiter de fac¸on automatique des donne´es linguistiques exprime´es dans une langue naturelle donne´e et pour une application bien de´finie. Cet objectif passe ne´cessairement par l’explici- tation des re`gles de la langue, leur repre´sentation dans un formalisme calculable, puis leur imple´mentation a` l’aide de programmes informatiques [17].
+
+Fonctionnement du traitement automatique du langage naturel
+Les approches du traitement automatique du langage naturel, ont e´volue´ de me´thodes base´es sur des re`gles classiques vers des techniques modernes base´es sur le deep learning. Alors que les approches ante´rieures du TALN utilisaient des algorithmes base´s sur des re`gles pour identifier des mots et des phrases dans le texte, le deep learning repose sur des mode`les complexes qui apprennent a` comprendre le langage naturel a` partir de vastes ensembles de donne´es e´tiquete´es.
+
+Cependant, l’obtention de ces donne´es e´tiquete´es en quantite´ suffisante constitue l’un des principaux de´fis actuels du TALN [36].
+
+Trois outils largement utilise´s dans ce domaine :
+
+NLTK : est un module Python open source qui fournit des ensembles de donne´es et des didacticiels pour le TALN.
+Gensim : est une bibliothe`que Python spe´cialise´e dans la mode´lisation de sujets et l’in- dexation de documents.
+Intel TALN Architect : offre des outils avance´s pour les topologies et les techniques d’apprentissage en profondeur dans le cadre du TALN.
+
+Domaines d’application du TALN
+Le traitement automatique du langage naturel trouve des applications dans divers domaines tels que la sante´, la finance, le commerce et la recherche scientifique pour ame´liorer les per- formances et l’efficacite´ dans divers aspects de la vie quotidienne et des entreprises. Le tableau ci-dessus illustre quelques-unes :
+
+Traitement automatique du langage naturel	11	B
+
+
+
+Table 1.1 – Domaines d’application du TALN.
+
+Reconnaissance automatique de la parole	12	B
+
+
+Reconnaissance automatique de la parole
+Les premiers syste`mes de reconnaissance vocale datent des anne´es 1950, avec l’IBM Shoe- box capable de reconnaˆıtre 16 mots. Dans les anne´es 1970, le syste`me Harpy de l’universite´ Carnegie Mellon comprenait environ 1000 mots. Aujourd’hui, des syste`mes modernes comme Siri, Alexa et Google Assistant utilisent l’apprentissage profond et les re´seaux de neurones pour offrir une reconnaissance vocale tre`s pre´cise et comprendre des commandes complexes.
+
+Me´canisme de production de la parole
+La production de la parole est un processus complexe qui implique une interaction entre les syste`mes neurologiques et physiologiques. Initialement, cela de´marre par une activite´ neurolo- gique, suivie de l’activation des organes phonatoires par le cerveau. Le fonctionnement de ces organes est principalement de nature physiologique [63].
+
+Le fonctionnement de l’appareil phonatoire humain repose sur l’interaction entre trois en- tite´s : les poumons, le larynx et le conduit vocale.
+
+Le processus de production de parole peut eˆtre re´sume´ en trois e´tapes essentielles :
+
+La cre´ation d’un flux d’air qui servira de base a` la production sonore.
+La source sonore est produite soit par la vibration re´gulie`re des cordes vocales, soit par un blocage partiel du conduit vocal, ce qui cre´e un bruit.
+Les cavite´s au-dessus des cordes vocales sont ajuste´es pour produire le son voulu.
+
+
+Figure 1.7 – Sche´ma de l’appareil phonatoire [51].
+
+De´finition 11. La parole :
+
+La parole est un signal continu, d’e´nergie finie, non stationnaire. Sa structure est complexe et variable dans le temps.
+
+Reconnaissance automatique de la parole	13	B
+
+
+L’information porte´e par le signal de parole peut eˆtre analyse´e par plusieurs fac¸ons. On en distingue ge´ne´ralement plusieurs niveaux de description non exclusifs : acoustique, phone´tique, phonologique, morphologique, syntaxique, se´mantique et pragmatique [63].
+Acoustique : elle se concentre sur la description et l’analyse des signaux sonores pro- duits par l’appareil vocal humain lors de la parole.
+
+Phone´tique : comme cite´ pre´ce´demment, la phone´tique e´tudie les sons de la parole hu- maine, leur production, leur transmission et leur perception .
+
+Phonologique : la phonologie e´tudie comment les sons sont utilise´s dans les langues pour distinguer les mots et cre´er du sens.
+
+Morphologique : la morphologie e´tudie la structure des mots et les re`gles de leur for- mation.
+Syntaxique : elle e´tudie la syntaxe d’une langue et ses re`gles grammaticales.
+
+Se´mantique : c’est la branche de la linguistique qui e´tudie le sens des mots, des phrases et des textes.
+
+Pragmatique : la pragmatique e´tudie comment le contexte et l’intention des locuteurs influencent le sens et l’interpre´tation des e´nonce´s.
+
+
+Figure 1.8 – Niveaux d’analyse du signal de parole [51].
+
+Reconnaissance automatique de la parole	14	B
+
+
+Parame`tres acoustiques du signal de parole
+Le signal parole est ge´ne´ralement caracte´rise´ par trois parame`tres [51] :
+
+La fre´quence fondamentale
+Elle repre´sente la fre´quence du cycle d’ouverture/fermeture des cordes vocales. Elle varie :
+
+De 80Hz a` 200Hz pour une voix masculine.
+
+De 150Hz a` 450Hz pour une voix fe´minine.
+
+De 200Hz a` 600Hz pour une voix d’enfant.
+
+L’e´nergie
+L’amplitude du signal de la parole varie au cours du temps selon le type de son, son e´nergie dans une trame est donne´e par :
+N−1
+E =	S 2(n)	(1.1)
+n=0
+Avec :
+
+S : signal de parole.
+
+N : taille de la trame.
+
+n : chaque e´chantillon de signal a` l’inte´rieur de la trame.
+
+E : e´nergie du signal.
+
+Le spectre
+Le spectre repre´sente l’intensite´ de la voix selon la fre´quence, elle est ge´ne´ralement obtenue par une analyse de fourier a` court terme.
+
+La quasi-stationnarite´ du signal vocal signifie que ses caracte´ristiques restent assez constantes sur de courtes pe´riodes, ce qui permet d’utiliser des feneˆtres de temps d’environ 20 a` 30 milli- secondes, appele´es trames, pour analyser et mode´liser le son. Ces feneˆtres se chevauchent pour assurer une analyse temporelle continue.
+
+La transforme´e de Fourier a` court terme (TFCT) d’un signal e´chantillonne´ est par de´finition la transforme´e du signal ponde´re´.
+
+
+
+ˆ	ˆ 
+ k !
+N−1
+
+
+2Jπnk !
+
+
+
+Reconnaissance automatique de la parole	15	B
+
+
+N : la taille du trame.
+Sˆ(k) : spectre complexe.
+
+S (n) : segment analyse´.
+
+W(n) : feneˆtre de temps.
+
+Le spectre de puissance (appele´ aussi densite´ spectrale de puissance de la transforme´e de Fourier ) est donne´ par :
+
+|Sˆ(k)|2,	0 ≤ k ≤ N
+2
+De´finition 12. Reconnaissance automatique de la parole :
+
+(1.3)
+
+
+La reconnaissance automatique de la parole (RAP), ou automatic speech recognition (ASR)
+
+en anglais, est la taˆche de´die´e a` compose´ des signaux acoustiques.
+l’extraction automatique de parame`tres d’un flux de parole
+
+
+Le signal brut e´tant impossible a` traiter, les informations pertinentes sont d’abord e´chantillo- nne´es en trames ou vecteurs afin d’extraire les parame`tres acoustiques.
+
+L’approche principale utilise´e dans ces syste`mes est base´e sur l’approche probabiliste avec des techniques d’apprentissage automatique. Toutefois, les approches neuronales ont de´montre´ des re´sultats inte´ressants ces dernie`res anne´es dans diverses taˆches lie´es a` la RAP [6].
+
+Fonctionnement d’un syste`me de reconnaissance de parole
+La reconnaissance automatique de la parole est une technique informatique qui permet d’analyser la voix humaine capte´e au moyen d’un microphone pour la transcrire sous la forme d’un texte exploitable par la machine [51].
+
+
+
+Figure 1.9 – Principe de fonctionnement [51].
+
+1.5 Reconnaissance automatique de la parole	16	B
+
+
+La suite de mots prononce´s M est convertie en un signal acoustique S par l’appareil phona- toire. Ensuite le signal acoustique est transforme´ en une se´quence de vecteurs ou d’observations O, ces vecteurs repre´sentent les caracte´ristiques acoustiques du signal a` diffe´rents moments dans le temps.
+
+Finalement, le module de de´codage consiste a` associer a` la se´quence d’observations O une se´quence de mots reconnus M’, en adaptant une strate´gie de comparaison bien de´finie, qui peut impliquer l’utilisation de mode`les linguistiques, de mode`les acoustiques et d’algorithmes de reconnaissance de motifs pour trouver la meilleure correspondance entre les observations et les mots possibles.
+
+Composition d’un syste`me de reconnaissance automatique de la pa- role
+Un programme typique de reconnaissance automatique de la parole est compose´ des e´tapes suivantes :
+
+
+Pre´traitement du signal audio qui consiste a` audio et ainsi de suite.
+normaliser, reduire le bruit des signaux
+
+Extraction des parame`tres caracte´ristiques (MFCC, LPC, PLP, . . .)
+Choix d’une me´thode de reconnaissance (CNN, RNN, HMM, . . .) pour la reconnais- sance des caracte´ristiques extraites.
+Evaluation de la reconnaissance.
+
+Mesures de performance d’un syste`me de reconnaissance automa- tique de la parole
+Il existe plusieurs valeurs mesurant les performances d’un syste`me de reconnaissance auto- matique de la parole :
+
+Taux de reconnaissance : le nombre ou le pourcentage de mots parfaitement reconnus.
+
+Taux de substitution : le nombre ou le pourcentage de mots pour lequels le syste`me fait erreur de reconnaissance.
+
+Taux de rejet : le nombre ou le pourcentage de mots que le syse`me n’a pas compris.
+
+Taux d’omission : le pourcentage de mots non de´tecte´s.
+
+Taux d’insertion : le nombre ou le pourcentage de re´ponses inopine´es.
+
+Pre´sentation du sujet	17	B
+
+
+Pre´sentation du sujet
+Notre projet vise a` cre´er un corpus vocal de´die´ a` la langue kabyle que nous utiliserons pour concevoir un syste`me de reconnaissance vocale des lettres dans cette langue qui est souvent ou- blie´e dans le domaine technologique. Notre projet sera le point de de´part vers une transcription comple`te de toute communication vocale en kabyle.
+
+Contexte the´orique
+La cre´ation d’un corpus vocal de´die´ a` la langue kabyle et la conception d’un mode`le de reconnaissance vocale efficace exigent une expertise approfondie en linguistique, traitement du signal, deep learning, et adaptation aux spe´cificite´s phone´tiques et grammaticales du kabyle. Ce processus complexe vise a` garantir que le mode`le final soit robuste et pre´cis pour identifier distinctement les lettres spe´cifiques de cette langue.
+
+Proble´matique
+La reconnaissance automatique des phone`mes en langue kabyle est confronte´e a` plusieurs de´fis majeurs en raison de ses caracte´ristiques intrinse`ques et des particularite´s de la langue.
+La langue n’est pas aussi largement connue ou parle´e que certaines autres langues no- tamment celles avec une diffusion plus mondiale.
+
+le manque de donne´es linguistiques disponibles sur la langue kabyle.
+
+Ambigu¨ıte´ phone´mique : la langue kabyle pre´sente des ambigu¨ıte´s au niveau phone´mi- que, ce qui rend difficile la reconnaissance et l’interpre´tation automatiques des sons.
+
+Ambigu¨ıte´ syntaxique : les structures syntaxiques complexes de la langue kabyle peuvent conduire a` plusieurs interpre´tations possibles d’une meˆme se´quence de phone`mes, ajou- tant ainsi une complexite´ a` la reconnaissance automatique des phone`mes.
+
+Coarticulation : comme dans toute langue, la coarticulation est pre´sente en kabyle, ou` chaque phone`me est influence´ par ceux qui l’entourent, rendant ainsi la reconnaissance pre´cise des phone`mes plus difficile.
+
+Variabilite´ intra-locuteur : la prononciation des phone`mes en kabyle peut varier consid- e´rablement meˆme chez un seul locuteur, en raison de diffe´rents modes d’e´locution tels que la voix chante´e, crie´e, murmure´e, ou affecte´e par des conditions telles qu’un rhume, une irritation de la gorge, le stress ou le be´gaiement.
+
+Variabilite´ inter-locuteurs : En plus de la variabilite´ intra-locuteur, la variabilite´ entre locuteurs, comprenant des diffe´rences de timbres vocaux, de voix masculines, fe´minines et d’enfants [33], ajoute une complexite´ supple´mentaire a` la reconnaissance automatique de la parole en Kabyle.
+
+1.8 Proble´matique	18	B
+
+
+Pour reme´dier a` ces proble`mes, notre objectif est de de´velopper un mode`le de reconnais- sance vocale capable de comprendre tous les dialectes kabyles, en se concentrant spe´cifiquement sur les phone`mes. Pour atteindre une performance optimale, nous incluons des voix provenant de divers aˆges, genres et re´gions. En cre´ant un corpus linguistique varie´, nous assurons une reconnaissance pre´cise et efficace.
+
+Conclusion
+Ce chapitre a explore´ les bases de l’intelligence artificielle, de l’apprentissage automatique, de l’apprentissage profond, du traitement automatique du langage naturel et de la reconnais- sance automatique de la parole.
+
+Il a aborde´ le processus humain de production de la parole, les parame`tres acoustiques de la parole et l’importance de bien comprendre ces e´le´ments pour analyser efficacement les ca-
+racte´ristiques du signal vocal et identifier la source d’excitation. Pour faciliter cette compre´hension, une bre`ve description de l’appareil phonatoire a e´te´ incluse, permettant ainsi de mieux appre´hender les phe´nome`nes lie´s a` la production de la parole et leurs connexions.
+
+Le chapitre suivant sera consacre´ spe´cifiquement a` la langue kabyle, explorant ses particu- larite´s phone´tiques, grammaticales et linguistiques. Cette exploration permettra de mieux com-
+
+prendre les de´fis et les opportunite´s lie´s a` vocale a` cette langue.
+l’application des technologies de reconnaissance
+
+B
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Langue Kabyle
+
+Introduction
+La langue Amazighe, est un riche he´ritage linguistique d’Afrique du Nord. Elle se de´ploie en une mosa¨ıque de dialectes varie´s, parmi lesquels la langue kabyle occupe une place importante.
+Ce chapitre explore la diversite´ linguistique Amazighe, en mettant un accent particulier sur la langue kabyle et ses multiples facettes. Nous examinerons la re´partition ge´ographique des dialectes amazighs et kabyles, en soulignant les re´gions spe´cifiques ou` ces langues sont parle´es. De plus, nous plongerons dans le syste`me d’e´criture du kabyle, notamment l’alphabet latin, et nous de´taillerons les phone`mes particuliers qui caracte´risent cette langue.
+
+Sommaire	
+Introduction	19
+La langue amazighe a` travers le temps	19
+Variante kabyle	22
+Les phone`mes spe´cifiques de la langue amazighe en e´criture latine	26
+Structures de promotion de la langue amazighe	27
+Conclusion	29
+La langue amazighe a` travers le temps
+La langue amazighe, e´galement connue sous le nom de tamazight, est une langue polyno- mique avec de nombreuses variantes parle´es dans diffe´rentes re´gions d’afrique du nord et du sahara. Bien que chaque dialecte ait ses propres caracte´ristiques, ils partagent tous une origine commune.
+
+La langue amazighe a` travers le temps	20	B
+
+
+Historiquement, l’amazighe a e´te´ e´crite dans divers syste`mes d’e´criture, notamment l’alpha- bet libyco-berbe`re et l’alphabet arabe, et aujourd’hui, l’alphabet latin est e´galement utilise´ pour certains dialectes [46].
+
+La colonisation europe´enne a` partir du XIXe sie`cle, en particulier par la France et l’Es-
+pagne, a eu des impacts significatifs sur la langue amazighe et les politiques linguistiques dans la re´gion. Les colonisateurs ont souvent promu les langues europe´ennes au de´triment de l’ama- zighe, entraˆınant un de´clin de son utilisation. Cependant, malgre´ ces tentatives visant a` e´radiquer la langue, elle a persiste´ et meˆme e´te´ revitalise´e graˆce aux mouvements nationalistes et aux ini- tiatives d’associations culturelles.
+
+Des progre`s significatifs ont e´te´ re´alise´s en termes de reconnaissance officielle de la langue
+amazighe. Par exemple, le Maroc lui a accorde´ le statut de langue officielle en 2001, et en
+Alge´rie, elle a e´te´ reconnue comme langue nationale en 2002, devenant officielle en 2016.
+
+Cependant, la diversite´ des dialectes, tels que le tamazight, le tachelhit et le tamahaq, pre´sente des de´fis pour la standardisation et la promotion de cette langue. Le processus de standardisation de l’amazighe est en e´volution, visant a` e´tablir une langue unifie´e pour faciliter son enseigne- ment et son utilisation dans divers secteurs tels que l’e´ducation et les me´dias.
+
+Jusqu’a` ce jour, la langue amazighe n’a pas cesse´ d’e´voluer malgre´ les circonstances. Son de´veloppement continu te´moigne de sa vitalite´ et de sa capacite´ a` s’adapter aux changements socio-politiques et linguistiques. Cette e´volution refle`te e´galement les efforts des locuteurs, des chercheurs et des institutions pour promouvoir et pre´server cette riche tradition linguistique et culturelle [46].
+
+De´finition 13. Langue amazighe
+
+L’Alge´rie est un pays ou` l’on trouve deux principales varie´te´s de langues nationales : les varie´te´s de Tamazight et celles de l’arabe.
+
+Le terme ”berbe`re” trouve son origine dans le grec ”barbaroi”, repris par les romains sous la forme ”barbarus”, puis emprunte´ par les arabes sous ”barbar”. Enfin, les franc¸ais l’ont adopte´ sous la forme ”berbe`re”. A` l’origine, ce terme de´signait principalement les ”gens dont on ne comprend pas la langue”, c’est-a`-dire les e´trangers. Les berbe`res, quant a` eux, se de´signent eux-meˆmes par le terme ”Imazighen” au pluriel, et par ”Amazigh” au singulier.
+
+Le mot ”tamazight” de´signe leur langue (berbe`re), bien que l’on trouve e´galement l’expres- sion ”langue amazighe”. Quant au terme ”Tamazgha”, il fait re´fe´rence au territoire auquel ils appartiennent, c’est-a`-dire la berbe´rie. Enfin, ”Amazigh” signifie ”homme noble” ou ”homme libre”.
+
+La langue berbe`re regroupe une diversite´ d’idiomes re´partis de manie`re discontinue a` tra- vers toute l’afrique du nord, s’e´tendant de l’est de l’e´gypte jusqu’au littoral marocain en pas- sant par la libye, la tunisie, le niger, l’alge´rie, le mali et la mauritanie.
+
+La langue amazighe a` travers le temps	21	B
+
+
+Une caracte´ristique majeure du berbe`re est sa fragmentation en un grand nombre de dia- lectes distincts. Ainsi, le berbe`re ne constitue pas une langue uniforme [1].
+
+La ge´ographie linguistique de la langue amazighe
+
+
+Figure 2.1 – Re´partition Ge´ographique des dialectes amazighs [56].
+La carte illustre la pre´sence de plusieurs variantes dialectales de la langue amazighe en afrique du nord, couvrant des re´gions telles que tamazgha centrale, la kabylie en alge´rie, le Hoggar kel tamachaq (espace touareg), Chenoua, Bilda amazighe, Tlemcen, Aure`s, Mzab, le Grand Atlas, le Rif, l’Anti-Atlas Souss, le Tafilalet, la Mauritanie, la Libye et Siwa.
+Ces re´gions te´moignent de la diversite´ linguistique et culturelle de l’Afrique du Nord, avec diffe´rentes communaute´s berbe`res pre´servant leurs langues et leurs traditions dans ces zones ge´ographiques distinctes.
+
+Variante kabyle	22	B
+
+
+Les dialectes de la langue amazighe
+Il existe plusieurs formes de langues berbe`res, parmi lesquelles on trouve le chaoui, le soussi, le rifain, le kabyle, le chenoui, le mozabite, le tamasheq et le nafoussi, qui sont parmi les varie´te´s les plus importantes de la langue amazighe.
+
+Ces varie´te´s sont parle´es dans diffe´rentes re´gions, telles que l’Alge´rie (avec le kabyle, la chaouia, le mozabite), le Maroc (avec le rifain, l’atlas et le chleuh), et chez les Touaregs en Alge´rie, au Mali, au Niger, en Mauritanie et au Burkina Faso.
+
+La survie de la culture berbe`re est due en partie au fait que chaque re´gion e´tait relativement isole´e, ce qui a permis de pre´server ses dialectes et ses traditions distinctes [1].
+
+
+Table 2.1 – Dialectes de la langue amazighe [1].
+
+
+Variante kabyle
+De´finition 14. Variante kabyle
+
+Le kabyle, commune´ment de´signe´ sous le nom de taqbaylit, se de´marque comme le principal dialecte berbe`re en Alge´rie, repre´sentant probablement les deux tiers des locuteurs berbe´rophones du pays. En compagnie du touareg et du tachelhit, parle´s dans le Sud-Ouest du Maroc, le kabyle
+
+Variante kabyle	23	B
+
+
+figure parmi les variantes re´gionales les plus e´tudie´es et les plus familie`res [57].
+
+Cette variante de la langue amazighe est pratique´e par les kabyles, une population berbe`re principalement localise´e dans la re´gion montagneuse de Kabylie, au nord de l’Alge´rie. L’usage de l’alphabet latin pre´vaut dans sa transcription. Comme c’est souvent le cas dans les langues, le kabyle pre´sente des variations re´gionales et dialectales, avec des nuances linguistiques no- tables entre les diffe´rentes zones de la kabylie.
+
+Figure 2.2 – Re´partition ge´ographique de la kabylie [65].
+
+
+
+Syste`me d’e´criture kabyle
+Pour transcrire kabyle, les berbe`res en ge´ne´ral, les berbe`risants en particulier avaient fait recours a` trois syste`mes d’e´criture [69] :
+
+
+Tifinagh : comme alphabet authentique atteste´ l’antiquite´.
+dans les inscriptions libyques depuis
+
+
+L’alphabet arabe : suite a` l’arrive´e des arabes a` la fin du 7e`me sie`cle.
+
+Le latin : de`s la fin du 18e`me sie`cle.
+
+L’alphabet Tifinagh
+Le Tifinagh, tel que pre´sente´ par M. Haddadou, est un syste`me d’e´criture polyvalent, pou- vant s’e´crire de droite a` gauche, de gauche a` droite, ou du bas vers le haut. Il s’agit d’un syste`me consonantique compose´ de barres, de cercles et de points.
+
+Pour noter la voyelle ”a” en finale, un point appele´ ”taghrit” est utilise´, tandis que les
+voyelles finales ”i”, ”u” et ”o” sont repre´sente´es par les meˆmes signes que ”y” et ”w”.
+
+Variante kabyle	24	B
+
+
+Il n’existe pas de se´paration entre les mots ni de ponctuation. Le Tifinagh n’est pas ho- moge`ne, car de nombreuses variations de caracte`res existent selon les re´gions, bien que ces variantes soient tre`s similaires [69].
+
+L’alphabet Latine
+La plupart des kabyles emploient l’alphabet latin pour lire et e´crire en langue kabyle.
+
+L’agemmay amazigh latin contient 23 lettres latines standards et 11 lettres supple´mentaires.
+Sa forme a e´te´ fixe´e par le linguiste Mouloud Mammeri dans les anne´es 1960 [16].
+
+Les voyelles : traditionnellement, l’alphabet kabyle utilise quatre voyelles qui sont : ≪ a
+≫, ≪ e≫, ≪ i ≫ et ≪ u ≫, elles se lisent diffe´remment selon qu’elles sont place´es ou non a` proximite´ des lettres dites empaˆte´es .
+
+Les consonnes : le kabyle utilise en plus des consonnes latines, d’autres consonnes pour pouvoir re´pondre a` sa diversite´ phone´tique ,ces dernie`res font l’objet de notre e´tude. Les linguistes, jusqu’a` nos jours utilisent 9 lettres non latines ou construites a` base de lettres latines qui sont :
+
+Figure 2.3 – Lettres spe´cifiques de la langue kabyle.
+
+
+Particularite´s phonologiques du kabyle
+La langue kabyle est re´pute´e difficile a` apprendre, en raison de ses sonorite´s tre`s spe´cifiques. Certains sons kabyles n’existent pas en franc¸ais. Vous retrouvez le th anglais, le r roule´, le h as- pire´, le ch allemand, le r espagnol de Juan, le w anglais, des sons plus complexes emphatiques co-articule´s, le g’ prononce´ avec une aspiration du palais entre le g, le h et le y, les affrique´es dentales sourdes [ts, tts], les co-articulation vocalique furtive akw [u/w].
+
+La lettre b se lit soit b ou v. ( v, [β], p[β], b (b)).
+
+La lettre d qui se lit d ou dh ([ð]).
+
+La lettre t qui se lit soit [ts] ou th[θ].
+
+La lettre g qui se lit gu ou g. ( G[g],g¯ [ġ] ).
+
+La lettre k qui se lit k ou k. (K[c¸]).
+
+Variante kabyle	25	B
+
+
+
+
+
+Figure 2.4 – Tableau des lettres de la langue amazighe [8].
+
+Les phone`mes spe´cifiques de la langue amazighe en e´criture latine	26	B
+
+
+Les phone`mes spe´cifiques de la langue amazighe en e´criture latine
+Les changements dans la fac¸on dont nous prononc¸ons les sons peuvent affecter des e´le´ments isole´s ou ceux qui se trouvent a` proximite´ les uns des autres. On peut les diviser en deux types : les changements simples, ou` un son e´volue directement en un autre ( il s’agit du passage d’une consonne ou une voyelle a` une autre), et les changements dus a` des assimilations phone´tiques. Ces derniers se produisent lorsque deux sons se rencontrent et influent l’un sur l’autre, cre´ant ainsi une nouvelle prononciation.
+Voici une repre´sentation des changements phone´tiques mentionne´s : Les variations du phe´nome`ne
+
+Table 2.2 – Tableau repre´sentatif des changements phone´tiques [61].
+d’assimilation peuvent se produire lorsqu’il y a une rencontre entre deux consonnes. Le tableau ci dessous illustre ces changements :
+
+
+Figure 2.5 – Tableau illustrant les variations du phe´nome`ne d’assimilation [61].
+
+Structures de promotion de la langue amazighe	27	B
+
+
+Structures de promotion de la langue amazighe
+Les structures de promotion de la langue amazighe jouent un roˆle crucial dans la pre´servation et la valorisation de cette langue. Parmi ces structures, on cite le Haut Commissariat a` l’Ama- zighite´ (HCA), l’Institut Royal de la Culture Amazighe (IRCAM) et le Centre de Recherche en Langue et Culture Amazighes (CRLCA).
+Le Haut Commissariat a` l’Amazighite´ (HCA) en Alge´rie, cre´e´ par le de´cret 147-95 du 27 mai 1995 et place´ sous la tutelle de la Pre´sidence, est dirige´ par un Haut Commissaire et un Secre´taire Ge´ne´ral.
+
+Ses missions principales sont la re´habilitation et la promotion de l’Amazighite´, ainsi que l’introduction de la langue amazighe dans l’enseignement et la communication. De- puis 1995, le HCA a e´dite´ pre`s de 200 ouvrages, accorde´ 350 subventions a` des asso- ciations culturelles et scientifiques, et organise´ de nombreuses rencontres scientifiques et culturelles [20].
+
+
+L’Institut Royal de la Culture Amazighe (IRCAM), base´
+a` Rabat, est charge´
+de sau-
+
+vegarder la culture amazighe en pre´servant ses traditions, sa langue et ses expressions culturelles.
+
+Il promeut l’amazighe en la valorisant comme une richesse nationale et une source de fierte´ pour tous les Marocains. De plus, il renforce la place de l’amazighe en l’inte´grant dans le syste`me e´ducatif, les me´dias et diverses sphe`res de la vie publique [37].
+En Alge´rie, le Centre de Recherche en Langue et Culture Amazighes (CRLCA), situe´ a` Beja¨ıa, constitue une institution cle´ de´die´e a` l’e´tude et a` la promotion de la langue et de la culture amazighes.
+
+
+Figure 2.6 – Centre de Recherche en Langue et Culture Amazighes (CRLCA) [10].
+
+2.4 Structures de promotion de la langue amazighe	28	B
+
+
+Fonde´ le 26 fe´vrier 2016, le CRLCA est un e´tablissement public a` caracte`re scientifique et technologique, spe´cialise´ dans l’e´tude et la promotion de la langue et de la culture amazighes [10].
+Le CRLCA emploie 20 chercheurs spe´cialise´s, re´partis en quatre divisions distinctes :
+Langue, Me´talangue et Didactique de Tamazight : recherche sur la grammaire, la lexicologie, les varie´te´s linguistiques amazighes, et de´veloppement d’outils pe´dagogiques.
+
+Traitement Automatique des Langues (TAL) : de´veloppement de technologies mo- dernes, incluant la reconnaissance optique de caracte`res (OCR) pour les alphabets ama- zighs Latin et Tifinagh, utilisant l’intelligence artificielle.
+
+Litte´rature, Arts et Patrimoine Amazighes : e´tudes sur la litte´rature amazighe tradi- tionnelle et moderne, ainsi que sur les expressions artistiques amazighes.
+
+Civilisation Amazighe : exploration anthropologique, arche´ologique et historique de la socie´te´ amazighe et de ses pratiques culturelles et patrimoniales.
+
+Le centre a pour objectif principal de mener des programmes de recherche dans les domaines de la langue et de la culture amazighe. Ses missions incluent [10] :
+Recherche applique´e sur diffe´rents aspects linguistiques.
+
+Gestion de la terminologie scientifique et technique.
+
+Promotion de la documentation pe´dagogique, scientifique et technique.
+
+De´veloppement de me´thodes de traduction.
+
+Recensement, valorisation et e´tude des coutumes, pratiques culturelles et expressions de la culture amazighe
+
+Contribution a` la pre´servation du patrimoine immate´riel.
+E´tude de l’e´volution du patrimoine amazighe a` travers l’histoire.
+
+
+Cet organigramme illustre la structure organisationnelle du centre, de´taillant les divisions et les relations hie´rarchiques au sein du CRLCA.
+
+2.4 Structures de promotion de la langue amazighe	29	B
+
+
+
+Figure 2.7 – Organigramme CRLCA [10].
+
+Nous avons effectue´ un stage de cinq mois au Centre de Recherche en Langue et Culture Amazighes (CRLCA). Notre stage s’est de´roule´ au sein de la division Terminologie, Traduction et Traitement Automatique des Langues, inte´gre´e a` l’e´quipe de recherche nume´ro 3.
+Ce stage e´tait spe´cifiquement oriente´ dans le cadre du projet sur les outils de reconnaissance vocale avec traduction des emprunts, pre´side´ par Monsieur Zaidi Ali.
+
+Conclusion
+Ce chapitre nous a permis de de´couvrir la langue amazighe, en mettant l’accent sur la va-
+riante kabyle. Nous avons e´tudie´ ses diffe´rents dialectes, sa re´partition ge´ographique, et son
+syste`me d’e´criture, y compris l’utilisation de l’alphabet latin. Nous avons e´galement examine´ les caracte`res spe´cifiques de la langue kabyle et les structures de promotion de la langue ama- zighe.
+
+Cette exploration vise a` offrir une compre´hension approfondie de la richesse et de la com- plexite´ de la langue kabyle. En pre´paration a` la cre´ation du corpus vocal kabyle, qui sera aborde´e dans le prochain chapitre.
+
+B
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pre´paration de Corpus
+
+Introduction
+Dans ce chapitre, nous de´crirons les e´tapes cle´s de la cre´ation d’un corpus vocal. Nous com- mencerons par expliquer la collecte des donne´es, en de´taillant la manie`re dont celle-ci a e´te´ effectue´e. Ensuite, nous aborderons la pre´paration du corpus, suivie de son analyse selon divers crite`res.
+Par la suite, nous effectuerons un pre´traitement pre´liminaire des enregistrements audio.
+Enfin, nous de´taillerons la cre´ation de notre dataset vocal, en incluant l’organisation des fichiers audio et leurs transcriptions.
+
+Sommaire	
+Introduction	30
+Collecte de donne´es	31
+E´ chantillonage	32
+Pre´paration du corpus	33
+Analyse du corpus	38
+Pre´traitement	40
+Synthe`se vocale	42
+Dataset vocale	45
+Dataset vocale phone`me	47
+Conclusion	47
+
+
+Collecte de donne´es	31	B
+
+
+Collecte de donne´es
+De´finition 15. Collecte de donne´es :
+
+La collecte de donne´es consiste a` rassembler et mesurer des informations sur des variables
+
+d’inte´reˆt de manie`re syste´matique et e´tablie, afin de re´pondre a` spe´cifiques [54].
+des questions de recherche
+
+
+Ces donne´es peuvent eˆtre obtenues a` partir de diverses sources telles que des enqueˆtes,
+des groupes de discussion, des entretiens, des questionnaires, des observations et des bases de donne´es existantes, etc.
+
+Types de donne´es
+Les donne´es peuvent eˆtre cate´gorise´es de diffe´rentes manie`res, notamment en donne´es quan- titatives et qualitatives.
+Donne´es qualitatives : les donne´es qualitatives sont principalement non nume´riques et ge´ne´ralement descriptives ou nominales par nature. Ce type de donne´es est pre´sente´ sous forme de mots ou de phrases [54]. Les donne´es qualitatives re´pondent ge´ne´ralement aux questions ”How and Why”, dans une e´tude de recherche et couvrent principalement des informations relatives aux sentiments, aux perceptions et aux e´motions [22].
+Donne´es quantitatives : les donne´es quantitatives sont de nature nume´rique et peuvent eˆtre calcule´es mathe´matiquement. Elles utilisent diffe´rentes e´chelles, qui peuvent eˆtre classe´es comme e´chelle nominale, e´chelle ordinale, e´chelle intervalle et e´chelle de ra- tio [54]. Les approches quantitatives traitent du ”What” du programme, elles utilisent des me´thodes structure´es de collecte de donne´es et sont base´es sur un e´chantillonnage ale´atoire [22].
+
+Les me´thodes de collecte de donne´es
+En ge´ne´ral, on divise les me´thodes de collecte de donne´es en deux principales cate´gories : les me´thodes de collecte de donne´es primaires ( Primary Data Collection Methods) et les me´thodes de collecte de donne´es secondaires ( Secondary Data Collection Methods) [22].
+
+De´finition 16. Donne´es primaires :
+
+Les donne´es primaires proviennent directement d’une expe´rience de premie`re main et n’ont pas encore e´te´ rendues publiques. Elles sont conside´re´es comme plus fiables, authentiques et objectives, car elles n’ont pas e´te´ alte´re´es par des individus.
+
+Par conse´quent, leur validite´ est ge´ne´ralement juge´e plus e´leve´e que celle des donne´es se- condaires. Dans les enqueˆtes statistiques, il est essentiel d’utiliser des informations provenant de sources primaires pour garantir la qualite´ et la pre´cision des re´sultats [54].
+
+E´chantillonage	32	B
+
+Me´thodes de collecte de donne´es primaires
+La collecte de donne´es primaires implique la collecte directe des donne´es en utilisant a` la fois des me´thodes qualitatives et quantitatives.
+
+Parmi les nombreuses me´thodes de collecte de donne´es primaires, on retrouve notamment les questionnaires, les entretiens, l’observation, la technique d’e´chantillonnage des activite´s, ainsi que des me´thodes statistiques, entre autres [54]. Chaque me´thode offre des avantages et des limitations, et le choix de´pend souvent de la nature de la recherche, des objectifs spe´cifiques et des ressources disponibles.
+
+De´finition 17. Donne´es secondaires :
+
+Les donne´es secondaires proviennent de sources de´ja` publie´es, ce qui signifie qu’elles ont e´te´ rassemble´es par quelqu’un d’autre dans un autre contexte et peuvent eˆtre utilise´es a` d’autres fins dans une recherche.
+
+Elles jouent un roˆle essentiel dans la recherche en fournissant des informations provenant d’e´tudes ante´rieures, qui peuvent servir de base a` la mise en œuvre d’une nouvelle recherche ou de donne´es de re´fe´rence ne´cessaires [22].
+
+
+Me´thodes de collecte de donne´es secondaires
+Les donne´es secondaires de´signent les donne´es extraites de sources de´ja`
+
+publie´es. Elles
+
+sont obtenues a` l’aide de me´thodes de collecte de donne´es secondaires. Ces donne´es peuvent provenir aussi bien de sources qualitatives, telles que les rapports d’entretiens, que de sources quantitatives, comme les donne´es du recensement.
+
+Les me´thodes de collecte de donne´es secondaires peuvent eˆtre ge´ne´ralement cate´gorise´es en sources publie´es imprime´es, livres, journaux/pe´riodiques, revues e´lectroniques, sites Web officiels et de plateformes de datasets [22].
+E´ chantillonage
+De´finition 18. L’e´chantillonage :
+
+L’e´chantillonnage (ou sampling en anglais) est le processus de se´lection d’un groupe d’in-
+
+dividus qui va eˆtre interroge´ re´fe´rence.
+dans le cadre d’une e´tude et qui symbolise une population de
+
+Il permet de mener des enqueˆtes a` grande e´chelle en utilisant un e´chantillon de la population pour remplacer l’ensemble et ainsi mener le sondage de manie`re re´aliste.
+
+Types d’e´chantillonage
+Pour effectuer un e´chantillonage il existe deux options :
+
+Pre´paration du corpus	33	B
+
+
+L’e´chantillonnage ale´atoire : l’e´chantillonnage ale´atoire (ou me´thode d’e´chantillonnage probabiliste) est de´termine´ a` partir d’une proce´dure de tirage ale´atoire statistique. Malgre´ le hasard, la repre´sentativite´ de l’e´chantillon ale´atoire est assure´e par les lois statistiques de la probabilite´. Un e´chantillonage ale´atoire peut se faire a` travers l’utilisation des tech- niques suivantes [18] :
+	E´ chantillonnage ale´atoire simple : consiste a` se´lectionner des e´le´ments de la po- pulation de manie`re ale´atoire, de telle sorte que chaque e´le´ment ait une probabilite´ e´gale d’eˆtre choisi.
+E´ chantillonnage syste´matique : est une me´thode dans laquelle seul le premier e´le´ment est choisi de manie`re ale´atoire, tandis que les e´le´ments suivants sont se´lectionne´s selon une re`gle pre´de´finie par les chercheurs.
+E´ chantillonnage stratifie´ : est une me´thode qui implique la se´lection ale´atoire d’in- dividus a` l’inte´rieur de groupes pre´de´finis appele´s strates.
+E´ chantillonnage en grappe : est une me´thode ou` des groupes d’individus, appele´s grappes, sont se´lectionne´s de manie`re ale´atoire parmi la population. Ensuite, tous les individus au sein des grappes se´lectionne´es sont inclus dans l’e´chantillon.
+L’e´chantillonnage repre´sentatif : un e´chantillon repre´sentatif est souvent utilise´ dans
+une e´tude quantitative (questionnaire ou sondage), il est de´fini comme repre´sentatif
+lorsqu’il a les meˆmes caracte´ristiques que la population e´tudie´e (population me`re). Un e´chantillonage repre´sentatif peut se faire a` travers l’utilisation des techniques suivantes
+[18] :
+
+E´ chantillonnage de commodite´
+: les personnes ou les e´le´ments de l’e´chantillon
+
+sont se´lectionne´s en fonction de leur disponibilite´ et de leur accessibilite´.
+E´ chantillonnage par quotas : vise a` diviser la population en segments spe´cifiques en de´terminant qui doit eˆtre inclus dans l’enqueˆte en fonction de crite`res pre´de´finis.
+E´ chantillonnage raisonne´ : les chercheurs se´lectionnent les participants en fonction de leur expertise, de leur compre´hension de la question de recherche ou de leurs objectifs spe´cifiques.
+E´ chantillonnage re´fe´rence : les participants recrute´s sont encourage´s a` recomman- der d’autres personnes qu’ils connaissent pour rejoindre l’e´chantillon.
+
+Pre´paration du corpus
+De´finition 19. Corpus :
+
+Selon Sinclair et Habert : un corpus est une collection de donne´es langagie`res qui sont se´lectionne´es et organise´es selon des crite`res linguistiques et extra-linguistiques explicites pour servir d’e´chantillon d’emplois de´termine´s d’une langue [17].
+
+Pre´paration du corpus	34	B
+
+
+Varie´te´ des contenus d’un corpus
+Texte : un corpus e´crit se compose principalement de textes et peut inclure une varie´te´ de documents tels que des extraits, des tableaux, etc. Il peut eˆtre pre´sente´ sous diverses formes telles qu’un livre, une page web ou un document.
+Parole : un corpus de parole est un ensemble constitue´ d’enregistrements de donne´es orales.
+Visuel : un corpus visuel consiste en des vide´os ou des images, accompagne´es e´ventuellement de textes pour fournir des comple´ments, des descriptions ou des pre´sentations des objets visuels contenus dans le corpus.
+
+Approche de collecte de donne´es pour la constitution d’un corpus vocal
+Notre projet repose entie`rement sur une approche de collecte de donne´es primaires qui se concentre seulement sur des enregistrements vocaux comme unique source d’informations. Nous avons opte´ pour une approche d’e´chantillonnage de commodite´ car elle permet de collec- ter des donne´es sans ne´cessiter de planification complexe, en interrogeant les personnes dispo- nibles sur place sans avoir a` organiser des rencontres spe´cifiques.
+
+Dans le cadre de cette collecte de donne´es, 36 listes ont e´te´ pre´pare´es en colaboration avec Mme S.Matoub du centre de recherche en langue et culture amazighe, chacune repre´sentant un phone`me spe´cifique. Chaque liste comprend 15 noms et 15 verbes, accompagne´s de leurs phrases associe´es.
+
+Figure 3.1 – Exemple de liste illustrant l’utilisation d’un phone`me.
+
+3.3 Pre´paration du corpus	35	B
+
+
+Nous avons pris grand soin de se´lectionner divers lieux afin de refle´ter les diffe´rents dia- lectes de cette langue.
+
+En explorant des endroits tels que l’universite´ Abderrahmane Mira, la Maison de la Culture et la bibliothe`que Principale de la Lecture Publique, nous avons rencontre´ une varie´te´ de lo- cuteurs, chacun avec sa propre variation phonologique. Paralle`lement, nous avons inclus des re´sidences universitaires et des quartiers repre´sentatifs pour assurer une diversite´ des variables choisies.
+
+Graˆce a` ces interactions enregistre´es, nous avons cre´e´ un corpus vocal , te´moignant de la richesse linguistique de notre re´gion. Chaque locuteur a e´te´ guide´ pour prononcer au moins l’un des 36 phone`mes re´pertorie´s, et utiliser deux mots spe´cifiques ainsi que deux phrases contenant ce phone`me.
+
+De plus, chaque locuteur est invite´ a` fournir des informations supple´mentaires telles que son aˆge, sa re´gion, sa commune, sa daira et son statut social, offrant ainsi une compre´hension plus approfondie du contexte sociolinguistique de chaque enregistrement.
+
+
+
+
+
+Figure 3.2 – Lieux de collecte.
+
+Pre´paration du corpus	36	B
+
+
+Les crite`res de cre´ation du corpus
+La se´lection des participants a` notre corpus vocal, bien que re´alise´e de manie`re ale´atoire, a e´te´ effectue´e avec soin et re´flexion. Nous avons pris en compte une varie´te´ de crite`res tels que l’aˆge, le sexe et la situation sociale et re´gion :
+L’aˆge : la parole e´volue avec l’aˆge. Les enfants, les adolescents, les adultes et les per- sonnes aˆge´es pre´sentent des sche´mas de parole distincts en termes de vocabulaire, de syntaxe, d’intonation et de de´bit. Ainsi, pour garantir que les mode`les de traitement vo- cal soient efficaces et adaptables a` une multitude d’utilisateurs, il est indispensable de les entraˆıner avec des donne´es provenant de diffe´rents groupes d’aˆge.
+Sexe : les hommes et les femmes ont des caracte´ristiques anatomiques distinctes qui se traduisent par des diffe´rences dans la tonalite´ et la qualite´ de la voix.
+Statut Sociale : le statut social peut influencer le choix du vocabulaire, le style de parole, l’accent et d’autres aspects linguistiques. Par exemple, les personnes issues de milieux sociaux diffe´rents peuvent avoir des sche´mas de parole distincts.
+Re´gion : la collecte d’enregistrements vocaux de diverses re´gions ge´ographiques permet de saisir la diversite´ linguistique re´gionale, incluant les dialectes, les accents et les varia- tions linguistiques propres a` chaque re´gion. Cette diversite´ est cruciale pour de´velopper
+
+des mode`les de reconnaissance vocale pre´cis et adapte´s a` linguistiques.
+une varie´te´
+de populations
+
+Une fois la collecte des donne´es termine´e, nous avons rassemble´ un total de 2641 enregistre- ments vocaux. Ces enregistrements seront ensuite soumis a` un processus de pre´traitement afin d’analyser et d’extraire les informations pertinentes.
+
+Outils & Moyens de cre´ation de corpus
+Pour cre´er notre corpus vocal, nous avons utilise´ divers outils offerts par le Centre de Re- cherche en Langue et Culture Amazighe (CRLCA), qui nous ont facilite´ la collecte de donne´es, l’enregistrement et le pre´traitement des informations. Ces outils nous ont permis d’optimiser notre travail et d’assurer une gestion efficace de notre projet.
+
+
+Dictaphone
+Pour effectuer des enregistrements, nous avons utilise´
+
+des dictaphones pour capturer de
+
+manie`re pre´cise et claire les voix des personnes enregistre´es. Ces dictaphones permettent d’en- registrer sur des cartes me´moire, ce qui facilite le stockage et la gestion des enregistrements audio.
+
+Pre´paration du corpus	37	B
+
+
+Figure 3.3 – Dictaphone.
+
+
+TALN-RV Corpus
+L’application mobile TALN-RV Corpus a e´te´ Langue et Culture Amazighe.
+
+de´veloppe´e par le Centre de Recherche en
+
+Elle inte`gre un formulaire comprenant neuf champs : Wilaya, Commune, Re´gion, Aˆ ge, Sexe, PH/API (code phone´mique), Code ENR (code d’enregistrement), Enregistrement et Statut so- cial. TALN-RV Corpus est interconnecte´e a` TALN-RV-DATA.
+
+Figure 3.4 – TALN-RV Corpus.
+
+
+TALN-RV-DATA
+Nous utilisons Airtable pour stocker les donne´es collecte´es, car c’est une plateforme en ligne qui combine les fonctionnalite´s d’une base de donne´es relationnelle et permet aux utilisateurs de cre´er des bases de donne´es personnalise´es.
+
+Notre base de donne´es TALN-RV-DATA comprend 10 champs : ID, code ENR, sexe, aˆge, wilaya, statut social, commune, re´gion, PH/API, et un champ pour inserer les enregistrements.
+
+Analyse du corpus	38	B
+
+
+Cette base de donne´es est lie´e a` l’application TALN-RV Corpus, de sorte que chaque nou- velle donne´e enregistre´e est automatiquement ajoute´e a` la base de donne´es.
+
+
+Figure 3.5 – TALN-RV-DATA.
+
+
+Audacity
+Pour traiter les fichiers vocaux que nous avons, nous utilisons Audacity, un logiciel gratuit et open-source d’e´dition audio.
+
+Il permet aux utilisateurs d’enregistrer, de modifier et de mixer des fichiers audio dans divers formats. Audacity offre de nombreuses fonctionnalite´s, notamment l’application d’effets audio tels que la re´duction du bruit, l’e´galisation et l’ajustement du volume.
+
+Figure 3.6 – Audacity Logo.
+
+
+Analyse du corpus
+Comme mentionne´ pre´ce´demment, notre corpus vocal a e´te´ constitue´ en prenant en compte plusieurs crite`res tels que l’aˆge, le sexe et les zones ge´ographiques qui indiquent l’origine des lo- cuteurs. Une analyse globale des enregistrements par rapport a` ces crite`res se trouve ci-dessous :
+
+Analyse du corpus	39	B
+
+
+Aˆ ge
+D’apre`s les donne´es pre´sente´es dans la figure ci-dessous, les individus aˆge´s de 19 a` 30
+ans sont les plus nombreux dans notre collecte. Leur forte participation s’explique par leur disponibilite´ et leur volonte´ de contribuer activement a` l’e´tude.
+
+Figure 3.7 – Re´partition des personnes par tranche d’aˆge.
+
+
+Sexe
+D’apre`s la figure ci-dessous, on observe une pre´sence plus importante de femmes par rapport aux hommes, car elles participent d’avantage et sont plus nombreuses dans la population cible´e.
+
+
+
+
+Figure 3.8 – Re´partition des personnes par sexe.
+
+Pre´traitement	40	B
+
+
+3.4.3	zones ge´ographiques
+La figure ci-dessous illustre les origines ge´ographiques des locuteurs qui ont participe´ a`
+notre collecte, fournissant ainsi une vue d’ensemble de´taille´e de la diversite´ re´gionale des par- ticipants.
+
+Figure 3.9 – Zones ge´ographiques.
+
+
+Pre´traitement
+De´finition 20. Pre´traitement :
+
+Le pre´traitement de la voix englobe les diffe´rentes e´tapes ne´cessaires pour ame´liorer la qualite´ des enregistrements vocaux.
+Apre`s la collecte des donne´es vocales, ce processus comprend la re´duction du bruit pour e´liminer les sons inde´sirables, la correction de la tonalite´ pour ajuster la hauteur et la fre´quence de la voix, et d’autres techniques comme la normalisation du volume et l’e´galisation pour e´quilibrer les diffe´rentes fre´quences audio.
+
+Les e´tapes du pre´traitement
+Les enregistrements vocaux sont essentiels pour la reconnaissance vocale. Cependant, pour
+les exploiter efficacement, il est souvent indispensable de les soumettre a` un processus de
+pre´traitement afin d’en extraire des donne´es pertinentes et d’assurer leur qualite´.
+
+Re´duction du bruit
+Lors d’un enregistrement vocal dans une pie`ce bruyante, le bruit de fond peut fortement alte´rer la compre´hension de la parole. Pour reme´dier a` cela, on utilise une technique essentielle
+
+Pre´traitement	41	B
+
+
+appele´e re´duction du bruit.
+
+Cette technique vise a` e´liminer les sons inde´sirables tels que les bourdonnements, les siffle- ments, les gre´sillements, et autres interfe´rences qui peuvent eˆtre pre´sents dans l’enregistrement et nuire a` sa qualite´. Pour re´duire le bruit dans un enregistrement, nous avons choisi d’utiliser l’application Audacity, qui offre les outils ne´cessaires pour effectuer cette taˆche.
+
+La premie`re e´tape consiste a` importer le fichier de type wav que nous avons enregistre´.
+
+
+Apre`s avoir importe´
+le fichier dans Audacity, nous avons identifie´
+et se´lectionne´
+une
+
+partie de l’enregistrement contenant uniquement du bruit. Ensuite, nous avons acce´de´ au menu ”Effets” et choisi ”Re´duction de bruit et re´paration”, puis ”Prendre le profil de bruit” afin qu’Audacity puisse analyser et enregistrer la signature sonore du bruit.
+
+
+Apre`s cela, nous avons se´lectionne´
+l’ensemble de la piste audio et applique´
+les pa-
+
+rame`tres optimaux de re´duction et de sensibilite´. Pour finir, nous avons clique´ sur ”Va- lider” pour confirmer les modifications et e´coute´ le re´sultat afin de ve´rifier la qualite´ de la re´duction de bruit.
+
+Figure 3.10 – E´limination du bruit.
+
+
+Figure 3.11 – Fichier de type wav apre´s la re´duction du bruit.
+
+Synthe`se vocale	42	B
+
+
+La segmentation
+La segmentation des enregistrements vocaux consiste a` diviser le flux audio en unite´s lin- guistiques significatives telles que les phone`mes , les mots ou les phrases. Cette e´tape est fonda- mentale car elle permet de de´couper l’enregistrement en parties plus faciles a` ge´rer et a` analyser.
+
+Pour effectuer cette taˆche nous utilisons Audacity en se basant sur les pauses et les variations d’intonation.
+
+Figure 3.12 – Segmentation des enregistrements vocaux.
+
+
+Les de´fis lie´s au pre´traitement
+Lors du pre´traitement , nous avons rencontre´ plusieurs de´fis. Le principal proble`me e´tait le taux e´leve´ de bruit duˆ au vent et les voix environnantes, car la collecte de donne´es vocales a e´te´ re´alise´e dans des lieux publics. Cela a ne´cessite´ une e´tape conse´quente d’e´limination du bruit.
+
+Le deuxie`me de´fi e´tait de devoir segmenter chaque phone`me, mot et phrase individuelle- ment. Cela prenait beaucoup de temps en raison du grand nombre d’enregistrements a` traiter et de la pe´riode limite´e pour le faire. De plus, la plupart des participants n’ont pas laisse´ d’espaces entre les mots lorsqu’ils lisaient les phrases, ce qui compliquait la segmentation.
+
+Cependant, ces de´fis n’ont pas empeˆche´ de mener a` bien cette e´tape et d’obtenir les meilleurs re´sultats possibles.
+
+Synthe`se vocale
+De´finition 21. Synthe`se vocale :
+
+la synthe`se vocale est un terme ge´ne´rique qui de´signe la sortie vocale d’un syste`me infor- matique. Son principal objectif est de produire des sons de parole a` partir d’une repre´sentation phone´tique du message et permet la transmission d’informations sous forme orale soit en l’ab- sence d’e´cran, soit en comple´ment avec celui-ci [35].
+
+Synthe`se vocale	43	B
+
+
+Nous avons choisi d’utiliser Festival pour enrichir notre base de donne´es et obtenir plus de donne´es vocales.
+
+Pre´sentation de Festival
+Festival est un outil complet pour la cre´ation de syste`mes de synthe`se vocale, avec divers modules disponibles. Il offre une conversion texte-parole via plusieurs API : ligne de com- mande, interpre´teur Scheme, bibliothe`que C++, Java et interface Emacs. Multilingue, il sup- porte principalement l’anglais (britannique et ame´ricain) et l’espagnol, avec d’autres langues ajoute´es par diffe´rentes communaute´s. Festival est un logiciel libre, permettant une utilisation commerciale et non commerciale sans restriction [11].
+
+Figure 3.13 – Festival.
+
+
+Mise en place de Festival
+Avant de pouvoir utiliser Festival sous Linux, nous devons d’abord l’installer sur notre
+
+syste`me. Une fois l’installation termine´e, nous devons ve´rifier si Festival a e´te´
+installe´
+cor-
+
+rectement en exe´cutant la commande festival dans le terminal pour afficher sa version ou son statut d’installation. Cette ve´rification est importante pour s’assurer que le logiciel est preˆt a` eˆtre utilise´ conforme´ment a` nos besoins.
+
+Figure 3.14 – Ve´rification de l’installation de Festival.
+
+Synthe`se vocale	44	B
+
+
+Pour afficher la liste des voix disponibles dans Festival et choisir celle qui nous convient, nous devons utiliser la commande (voice.list).
+
+Figure 3.15 – Liste des voix.
+
+Une fois que nous avons obtenu la liste des voix disponibles, nous pouvons choisir celle qui nous convient en utilisant simplement la commande festival (la voix que on veux utiliser). Pour notre cas, nous avons choisi d’utiliser cmu us ksp cg.
+
+Figure 3.16 – La se´lection d’une voix.
+
+Apre`s avoir identifie´ la voix qui nous convient, nous proce´dons a` l’insertion du texte que nous voulons transformer en parole. Pour ce faire, il suffit d’e´crire la commande sayText(le text que on veux lire).
+
+Dataset vocale	45	B
+
+
+Figure 3.17 – Le texte a` lire.
+
+
+Limitations linguistiques de Festival
+Bien que Festival soit un logiciel convivial, meˆme pour les de´butants, il pre´sente des limites en termes de langues prises en charge. En effet, il ne propose que des accents ame´ricain et bri- tannique, ainsi que l’espagnol. Lorsque nous avons essaye´ d’inse´rer du texte en kabyle, Festival n’a pas re´ussi a` lire les caracte`res spe´ciaux et n’a pas pris en charge l’accent kabyle, rendant ainsi les phrases incompre´hensibles.
+
+Cette limitation nous a empeˆche´s d’utiliser Festival pour augmenter notre corpus vocale.
+
+Dataset vocale
+Afin d’assurer une interpre´tation pre´cise du contenu audio lors de la phase de reconnais- sance vocale, nous avons e´labore´ un dataset vocal nomme´ TALN.
+
+Le dataset ( fichier csv) est organise´ en deux colonnes : une colonne contenant les identi- fiants et une autre contenant les transcriptions textuelles correspondantes. Un dossier, nomme´ identiquement au fichier CSV, he´berge les fichiers audio au format wav. Chaque fichier audio est nomme´ d’apre`s son identifiant correspondant dans le dataset, assurant ainsi une correspondance directe entre les enregistrements vocaux et leurs transcriptions.
+E´ tapes de creation d’un dataset vocale
+La cre´ation du dataset s’est de´roule´e en plusieurs e´tapes me´thodiques.
+
+— Apre`s avoir inte´gre´
+les enregistrements de´ja`
+traite´s dans la base de donne´es en ligne
+
+TALN-RV-DATA, nous avons proce´de´ a` une e´coute minutieuse de chaque enregistre-
+
+Dataset vocale	46	B
+
+
+ment. Notre objectif e´tait d’extraire ceux qui e´taient clairs et ne pre´sentaient pas un niveau de bruit excessif.
+
+
+Figure 3.18 – Extraction des donne´es.
+
+
+Apre`s avoir identifie´ les enregistrements a` utiliser ainsi que leur identifiant et le code du phone`me de chaque enregistrement, nous avons fait usage de LibreOffice, une suite bu- reautique libre et gratuite, offrant une gamme varie´e d’outils pour la cre´ation, l’e´dition et la gestion de documents, de feuilles de calcul et de pre´sentations.
+A` l’aide de l’application de feuilles de calcul pre´sente dans LibreOffice, nous avons
+saisi les identifiants et les transcriptions de chaque enregistrement wav se´lectionne´, un par un. Cette approche nous a permis d’organiser efficacement les donne´es et de les associer de manie`re pre´cise, facilitant ainsi leur manipulation ulte´rieure.
+
+
+Figure 3.19 – TALN.csv.
+
+Dataset vocale phone`me	47	B
+
+
+Ensuite, nous avons te´le´charge´ ces fichiers audio et les avons stocke´s dans un dossier spe´cifique nomme´ TALN, garantissant ainsi une organisation claire et structure´e de notre base de donne´es vocale.
+
+Figure 3.20 – Dossier wav.
+
+
+Une fois que les enregistrements au format wav ont e´te´ soigneusement saisis, se´lectionne´s et accompagne´s de leurs transcriptions, notre base de donne´es contient de´sormais 9886 enregis- trements au total, comprenant chacun sa transcription.
+E´tant donne´ que notre e´tude se concentre sur des lettres de la langue kabyle, nous avons choisi d’extraire uniquement les phone`mes correspondants dans un nouveau dataset vocal. Cela nous permet de focaliser notre analyse linguistique sur les aspects pertinents a` notre recherche spe´cifique.
+
+Dataset vocale phone`me
+Une fois que le jeu de donne´es vocales a e´te´ pre´pare´, nous avons extrait tous les enregistre- ments contenant les phone`mes ainsi que leurs transcriptions, en suivant les e´tapes similaires a` celles utilise´es pour cre´er le dataset TALN.
+A` l’issue de ce processus, notre nouveau dataset est nomme´ PH, comprenant 2265 enregis-
+trements avec leurs transcriptions respectives.
+
+Dataset vocale phone`me	48	B
+
+
+
+
+
+Conclusion
+Figure 3.21 – Dataset vocale phone`me.
+
+Ce chapitre a pre´sente´ les e´tapes fondamentales de la cre´ation de notre corpus vocal. Nous
+avons de´taille´ le processus de collecte des donne´es, la pre´paration du corpus, ainsi que le
+pre´traitement des enregistrements vocaux.
+
+Bien que nous ayons explore´ la synthe`se vocale pour illustrer son potentiel dans la ge´ne´ration de voix artificielles, nous avons rencontre´ des limitations lie´es a` l’absence de la langue kabyle.
+
+Enfin, nous avons mis en e´vidence l’importance d’une organisation rigoureuse des fichiers audio et de leurs transcriptions dans la cre´ation de notre dataset vocale.
+
+Dans le chapitre suivant, nous aborderons les e´tapes du pre´traitement des donne´es. Ensuite, nous discuterons des diffe´rentes techniques de reconnaissance vocale permettant de transcrire les enregistrements audio en texte.
+
+B
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Traitement du Signal Vocal & Apprentissage
+Profond
+
+Introduction
+Dans ce chapitre, nous examinerons les e´tapes du pre´traitement du signal audio, qui ame´liorent sa qualite´, ainsi que les me´thodes d’extraction des caracte´ristiques acoustiques, notamment les coefficients MFCC (Mel Frequency Cepstral Coefficients), qui visent a` transformer les donne´es vocales en se´ries de chiffres exploitables par la machine. Enfin, nous e´tudierons les techniques de reconnaissance vocale, telles que les re´seaux de neurones, qui permettent a` la machine de comprendre et de transcrire la parole humaine.
+Sommaire	
+Introduction	49
+Outils de de´veloppement	49
+Pre´traitement des signaux audio	50
+Me´thodes de reconnaissance vocale	62
+Re´seaux de neurones convolutifs	68
+Re´seaux de neurones re´currents	69
+LSTM Bidirectionnel	75
+Conclusion	76
+Outils de de´veloppement
+Cette section est de´die´e a` la pre´sentation des divers outils mis en œuvre dans le de´veloppement de notre mode`le. Ces outils ont joue´ un roˆle crucial a` chaque e´tape du processus, permettant une optimisation et une efficacite´ accrues.
+
+Pre´traitement des signaux audio	50	B
+
+
+Jupyter Notebook :
+C’est un fichier, a` l’extension .ipynb (ipython notebook), qui est un format de
+texte brut base´ sur JSON. Il peut eˆtre converti en divers formats tels que des pre´sentations, des pages web, des documents PDF ou des scripts exe´cutables.
+Gratuit et open-source, il est utilise´ dans l’environnement Jupyter pour la
+
+
+Python :
+
+
+cre´ation, le partage et l’exe´cution de codes Python et d’autres langages.
+
+Python, langage de programmation open-source, est re´pute´ pour sa simpli- cite´ et sa lisibilite´. Avec une vaste bibliothe`que et une portabilite´ e´tendue, il convient a` diffe´rents syste`mes d’exploitation. Son orientation objet et son typage dynamique offrent une flexibilite´ et une rapidite´ de programmation.
+
+
+
+TensorFlow :
+
+TensorFlow, de´veloppe´ par Google, est une plateforme open-source de´die´e
+
+a` l’apprentissage automatique et profond. Elle utilise des tenseurs pour
+repre´senter les donne´es et adopte une architecture base´e sur des graphes de flux de donne´es, ce qui facilite la distribution du calcul sur des clusters de machines. Bien qu’il soit compatible avec plusieurs langages, Python reste largement pre´fe´re´ [12].
+
+Librosa :	Librosa est un package Python pour l’analyse musicale et audio. Elle fournit les outils ne´cessaires pour cre´er des syste`mes de recherche d’informations musicales et pour explorer les caracte´ristiques des signaux audio. Elle per- met aussi de visualiser ces derniers [63].
+
+
+Scikit-learn :
+
+Scikit-learn est une bibliothe`que open-source en Python qui offre des outils simples et efficaces pour l’apprentissage automatique, le pre´traitement des donne´es et l’e´valuation des mode`les.
+
+
+Keras :	Keras est une API de re´seaux neuronaux en Python, conc¸ue pour une expe´rimentation rapide. Elle permet de cre´er facilement des mode`les graˆce a` son interface simple et modulaire. Keras supporte les re´seaux CNN et RNN, ainsi que leurs combinaisons, et peut s’exe´cuter sur CPU et GPU, facilitant ainsi le de´veloppement et le de´ploiement de mode`les de machine learning.
+
+4.2	Pre´traitement des signaux audio
+Le pre´traitement des signaux audio est un domaine vaste qui inte`gre des concepts de phy- sique, de mathe´matique et d’informatique. The´oriquement, il s’agit de la manipulation et de l’analyse des signaux acoustiques enregistre´s pour diverses applications, telles que la recon- naissance vocale et l’analyse de la parole, etc. Voici les principales e´tapes de ce processus :
+
+Pre´traitement des signaux audio	51	B
+
+
+Re´e´chantillonnage
+De´finition 22. Re´e´chantillonnage :
+
+Le re´e´chantillonnage est le processus de modification de la fre´quence d’e´chantillonnage
+d’un signal audio nume´rique [3]. Cela permet d’adapter le signal a` une nouvelle fre´quence
+d’e´chantillonnage, soit en augmentant, soit en diminuant le nombre d’e´chantillons par seconde. Le re´e´chantillonnage est souvent utilise´ pour assurer la compatibilite´ avec diffe´rents dispositifs ou pour optimiser la qualite´ et l’eflcacite´ du traitement audio.
+Il existe plusieurs fre´quences d’e´chantillonnage disponibles, mais on a effectue´ le re´e´chantill- onnage de nos diffe´rents signaux audio a` une fre´quence de 16 kHz pour plusieurs raisons :
+
+D’apre`s le the´ore`me de Nyquist-Shannon, pour bien reproduire un signal a` partir de ses e´chantillons, la fre´quence d’e´chantillonnage doit eˆtre au moins deux fois plus e´leve´e que
+la fre´quence maximale du signal [50]. Ainsi, en choisissant une fre´quence d’e´chantillonnage de 16 kHz, nous nous assurons de capturer tous les de´tails importants de la voix humaine, qui s’e´tend ge´ne´ralement jusqu’a` environ 8 kHz.
+
+Re´e´chantillonner a` 16 kHz au lieu de fre´quences plus e´leve´es permet de re´duire la taille des fichiers audio, ce qui e´conomise de l’espace de stockage ou de la bande passante lors du stockage ou de la transmission des donne´es audio.
+
+Une fre´quence d’e´chantillonnage de 16 kHz rend le traitement audio plus rapide et effi- cace tout en pre´servant une qualite´ audio satisfaisante.
+
+Processus du re´e´chantillonnage
+Le re´e´chantillonnage a` une fre´quence de 16 kHz implique des ope´rations mathe´matiques spe´cifiques pour ajuster la fre´quence d’e´chantillonnage d’un signal audio a` cette valeur :
+
+Interpolation : pour augmenter la fre´quence d’e´chantillonnage d’un signal en dessous de 16 kHz jusqu’a` 16 kHz, on ajoute de nouveaux e´chantillons entre les e´chantillons existants.
+
+De´cimation : si le signal d’origine est e´chantillonne´ a` une fre´quence supe´rieure a` 16 kHz et qu’on souhaite le re´duire jusqu’a` 16 kHz, la me´thode de de´cimation permet de
+
+se´lectionner les e´chantillons approprie´s a` pour reconstruire le signal audio.
+cette nouvelle fre´quence d’e´chantillonnage
+
+
+Algorithme de Re´e´chantillonnage
+Cet algorithme automatise le processus de re´e´chantillonnage des fichiers audio de type wav situe´s dans un dossier spe´cifie´. Pour chaque fichier audio, il charge le signal, le re´e´chantillonne
+a` une fre´quence de 16 kHz via la fonction librosa.resample(), puis e´crit le re´sultat dans un
+nouveau fichier wav dans un dossier de sortie de´signe´.
+
+4.2 Pre´traitement des signaux audio	52	B
+
+
+
+Algorithm 1: Re´e´chantillonnage des fichiers audio
+
+input :
+
+
+
+output:
+↓ input directory : Chemin vers le dossier contenant les fichiers de type wav ;
+↓ Fre´quence d’e´chantillonnage cible ;
+
+↑ Fichiers wav re´e´chantillonne´s ;
+Initialization :
+Obtenir la liste des fichiers dans le dossier input directory;
+foreach fichier dans la liste des fichiers do
+E´ tape 1 : Construire le chemin complet du fichier audio ;
+E´ tape 2 : Charger le fichier audio ;
+Obtenir le signal audio et la fre´quence d’e´chantillonnage originale ;
+E´ tape 3 : Re´e´chantillonner le signal audio a` la fre´quence d’e´chantillonnage cible ; Obtenir le signal re´e´chantillonne´ ;
+E´ tape 4 : Construire le chemin complet du fichier de sortie ;
+E´ tape 5 : Enregistrer le signal re´e´chantillonne´ dans le fichier de sortie ;
+end
+
+La figure ci−dessous repre´sente deux graphiques : le premier montre le signal original et le second montre le signal re´e´chantillonne´.
+
+
+
+
+Figure 4.1 – Avant & Apre´s Re´e´chantillonnage
+
+4.2 Pre´traitement des signaux audio	53	B
+
+
+Normalisation
+De´finition 23. Normalisation
+
+La normalisation des signaux audio, signifie ajuster le volume d’un signal audio pour qu’il ne soit ni trop faible ni trop fort. Cela se fait en trouvant le niveau de volume maximal dans le signal, puis en modifiant le volume de tout le signal pour qu’il atteigne un niveau souhaite´, souvent proche de 1. Cela garantit que le son reste clair et agre´able a` e´couter, quel que soit le syste`me audio utilise´.
+
+Technique de normalisation choisie
+Pour normaliser nos fichiers audio, on a opte´ pour la me´thode de ”normalisation par am- plification”. Cette me´thode consiste a` ajuster l’amplitude du signal audio en le multipliant par un facteur d’amplification calcule´ en divisant chaque e´chantillon par l’amplitude maximale du signal.
+Ce processus garantit que l’amplitude maximale du signal normalise´ soit e´gale a` 1. Cette me´thode est choisie pour diverses raisons :
+
+En amplifiant le signal audio, on peut re´gler les niveaux de volume pour qu’ils restent dans une plage ide´ale, tout en conservant la variation entre les parties silencieuses et les plus bruyantes.
+
+Elle permet d’ajuster les niveaux de volume pour qu’ils soient uniformes a` travers
+diffe´rentes pistes audio, ce qui e´vite les variations de volume de´sagre´ables lors de la lecture.
+
+Algorithme de normalisation
+
+Algorithm 2: Normalisation des fichiers audio
+
+input :
+
+
+
+output:
+↓ input directory : Chemin vers le dossier contenant les fichiers audio a` normaliser ;
+↓ output directory : Chemin vers le dossier ou` les fichiers normalise´s seront enregistre´s ;
+↑ Fichiers audio normalise´s enregistre´s dans le dossier de sortie ;
+
+Fonction normalize audio(signal) :
+begin
+Calculer l’amplitude maximale du signal ;
+Normaliser le signal en divisant par l’amplitude maximale ;
+return Retourner le signal normalise´ ;
+foreach fichier do
+Construire le chemin complet du fichier audio ;
+Charger le fichier audio ; Normaliser le signal audio ;
+Construire le chemin complet du fichier audio normalise´ : Enregistrer le signal audio normalise´ ;
+
+
+4.2 Pre´traitement des signaux audio	54	B
+
+
+Cet algorithme normalise les fichiers audio dans un re´pertoire donne´. Il commence par de´finir une fonction pour normaliser les amplitudes des signaux audio ”normalize audio(signal)” qui prend un signal audio en entre´e et normalise ses amplitudes en divisant chaque e´chantillon par la valeur maximale de son amplitude absolue. Ensuite il parcourt tous les fichiers audio du re´pertoire d’entre´e, charge chaque fichier, normalise son amplitude, puis e´crit le fichier norma- lise´ dans un re´pertoire de sortie.
+
+La figure ci-dessous nous permet de distinguer visuellement la diffe´rence entre le signal ori- ginal et le signal normalise´. Pour ce faire, nous commenc¸ons par calculer les valeurs maximales absolues des deux signaux, original et normalise´. Ensuite, nous ve´rifions si le signal normalise´ a une amplitude maximale proche de 1,0. Cela sugge`re que le signal a e´te´ correctement norma- lise´.
+
+
+
+
+Figure 4.2 – Avant & Apre´s Normalisation
+
+4.2 Pre´traitement des signaux audio	55	B
+
+
+Re´duction du bruit
+De´finition 24. Re´duction du bruit :
+
+Re´duire le bruit dans un fichier audio, c’est enlever les bruits geˆnants, comme les fonds bruyants ou les perturbations, tout en gardant les parties importantes du son. Cela rend l’audio de meilleure qualite´ en supprimant les distractions et en faisant ressortir les parties essentielles du son.
+
+Te´chnique de re´duction du bruit choisie
+On a employe´ la bibliothe`que ”noisereduce” pour atte´nuer les bruits inde´sirables dans les fi- chiers audio en utilisant la fonction ”nr.reduce noise”. Ce choix est justifie´ par plusieurs raisons, notamment :
+La bibliothe`que ”noisereduce” est re´pute´e pour sa capacite´ a` supprimer efficacement le bruit des fichiers audio tout en pre´servant les parties essentielles du son.
+
+La fonction ”nr.reduce noise” de la bibliothe`que ”noisereduce” est conc¸ue pour eˆtre simple a` utiliser, avec une interface claire et des parame`tres ajustables selon les besoins.
+
+La fonction ”nr.reduce noise” est capable de traiter des fichiers audio de diffe´rentes tailles et longueurs tout en maintenant une qualite´ sonore acceptable.
+
+Processus de re´duction de bruit
+La fonction ”nr.noise reduce” de la bibliothe`que ”noise reduce” applique des principes mathe´matiques avance´s de pre´traitement du signal pour re´aliser la re´duction de bruit :
+Transforme´e de Fourier a` Court Terme (TFCT) : la fonction ”nr.noise reduce” com-
+mence par utiliser la transforme´e de fourier a` court terme pour transformer le signal
+audio du domaine temporel au domaine fre´quentiel.
+
+
+Mathe´matiquement [9] :
+N−1
+
+
+ j2π f n !
+
+
+
+
+Ou` :
+X(t, f ) : le spectrogramme, repre´sentant la composante fre´quentielle f a` l’instant t.
+x[n] : le signal d’entre´e.
+w(n − t) : une fonction de feneˆtre centre´e autour de t.
+t : le temps.
+f : la fre´quence.
+exp −  j2π f n : est le noyau de la Transforme´e de Fourier, avec j l’unite´ imaginaire.
+
+4.2 Pre´traitement des signaux audio	56	B
+
+
+Estimation du Spectre de Bruit : une fois le signal transforme´ en domaine fre´quentiel, la fonction estime le spectre de bruit, soit en analysant les segments silencieux du si- gnal, soit en utilisant des me´thodes statistiques pour e´valuer le bruit de fond constant. Le spectre de bruit B(t, f ) est ge´ne´ralement obtenu en calculant la moyenne des sections du spectrogramme ou` il n’y a que du bruit et pas de signal utile. Cela permet d’estimer les composantes de bruit pre´sentes a` chaque fre´quence et a` chaque instant, fournissant ainsi une re´fe´rence pour la re´duction du bruit.
+
+Application du Filtrage Spectral : la re´duction de bruit repose sur la soustraction des composantes bruite´es du spectrogramme. Cela peut eˆtre formule´ par :
+
+Y(t, f ) = H(t, f ) · X(t, f )	(4.2)
+Ou` :
+
+Y(t, f ) : le spectrogramme filtre´.
+H(t, f ) : une fonction de gain qui est de´termine´e en fonction du rapport signal/bruit estime´. Elle est obtenue par :
+
+
+H(t,
+f ) =
+|X(t, f )|2 − |B(t, f )|2
+
+|X(t, f )|2
+(4.3)
+
+
+Ou` :
+|X(t, f )|2 : la puissance spectrale du signal bruite´.
+|B(t, f )|2 : la puissance spectrale du bruit estime´.
+Transforme´e de Fourier Inverse a` Court Terme (TFICT) : le spectrogramme filtre´ est reconverti dans le domaine temporel en utilisant la Transforme´e de Fourier Inverse a` Court Terme (TFICT). Cela permet de reconstituer le signal audio avec le bruit re´duit.
+
+
+
+y(n) =
+
+Ou` :
+M−1 N−1
+
+m=0 k=0
+Y(m, k) · exp
+ j2πkn
+N
+
+· w[n − mR]	(4.4)
+
+
+y[n] : le signal reconstruit dans le domaine temporel.
+Y(m, k) : le spectrogramme filtre´ du signal. Il repre´sente les composantes fre´quentielles du signal apre`s avoir e´te´ filtre´ a` l’instant m et a` la fre´quence k.
+N : la taille de la feneˆtre.
+w[n − mR] : une feneˆtre temporelle applique´e aux e´chantillons du signal. Elle est utilise´e pour lisser et ponde´rer les parties du signal pendant sa reconstruction.
+
+Pre´traitement des signaux audio	57	B
+
+
+Algorithme de re´duction du bruit
+
+Algorithm 3: Re´duction du bruit des fichiers audio
+
+input :
+
+
+
+output:
+↓ input directory : Chemin vers le dossier contenant les fichiers audio bruite´s ;
+↓ output directory : Chemin vers le dossier ou` les fichiers re´duits du bruit seront enregistre´s ;
+↑ Fichiers audio de´bruite´s enregistre´s dans le dossier de sortie ;
+
+foreach fichier dans input directory do
+chargement du fichier audio ainsi que sa fre´quence d’e´chantillonage; re´duire le bruit dans le signal audio original avec la me´thode noisereduce; enregistrement du fichier audio de´buite´ dans output directory ;
+
+La fonction reduce noise de la bibliothe`que noisereduce est utilise´e dans cet algorithme pour re´duire le bruit des fichiers audio. Cette fonction prend en entre´e le signal audio original ainsi que sa fre´quence d’e´chantillonnage, et elle retourne une version du signal avec le bruit re´duit.
+A` l’inte´rieur de la fonction, le bruit est re´duit en utilisant des algorithmes adapte´s de pre´traite-
+ment du signal, qui peuvent inclure des techniques telles que la soustraction spectrale ou la suppression adaptative de bruit. Une fois le pre´traitement termine´, la fonction renvoie le signal audio avec le bruit re´duit.
+
+
+
+
+
+Figure 4.3 – Avant & Apre´s Re´duction du bruit.
+
+Pre´traitement des signaux audio	58	B
+
+
+Mesures de performance de la re´duction du bruit
+
+Rapport signal sur bruit (Signal-to-Noise Ratio , SNR) : il repre´sente la mesure de la puissance du signal par rapport a` celle du bruit qui l’entoure. Le SNR peut eˆtre de´termine´ en utilisant une formule fixe qui compare les deux niveaux et renvoie le rapport, ce qui montre si le niveau de bruit impacte le signal souhaite´. Ce ratio est ge´ne´ralement exprime´ comme une seule valeur nume´rique en de´cibels (dB).
+Le ratio peut eˆtre de ze´ro, un nombre positif ou un nombre ne´gatif. Un rapport signal sur bruit supe´rieur a` 0 dB indique que le signal est plus fort que le bruit. Plus le ratio est e´leve´, plus le signal est fort par rapport au bruit de fond [52].
+l’e´quation du SNR est exprime´e comme suit :
+
+
+
+
+
+Ou` :
+SNR = 10 · log10
+Psignal	(4.5)
+Pbruit
+
+Psignal : repre´sente la puissance du signal de´sire´.
+Pbruit : repre´sente la puissance du bruit de fond.
+Pour calculer la puissance du signal (Psignal), on prend la moyenne des carre´s de chaque e´chantillon de l’audio propre :
+Psignal =  1 X .audio propre[i] 2	(4.6)
+
+Pour calculer la puissance du bruit (Pbruit), on prend la moyenne des carre´s de la diffe´rence entre chaque e´chantillon de l’audio propre et de l’audio de´bruite´ :
+Pbruit =  1 X .audio propre[i] − audio de´bruite´[i] 2	(4.7)
+N : repre´sente le nombre total d’e´chantillons dans l’audio.
+L’erreur quadratique moyenne (Mean Squared Error, MSE) : le MSE est une me- sure de l’erreur entre deux ensembles de valeurs. Pour deux ensembles de donne´es, re´els et estime´s, de longueur N, le MSE est calcule´ en prenant la moyenne des carre´s des diffe´rences entre chaque valeur re´elle et sa valeur estime´e correspondante [29].
+Mathe´matiquement, cela peut eˆtre exprime´ comme suit :
+MSE =  1 X(real[i] − estimate[i])2	(4.8)
+
+4.2 Pre´traitement des signaux audio	59	B
+
+
+Ou` :
+real[i] : repre´sente la valeur re´elle a` la position i, c’est a` dire le signal de´bruite´.
+estimate[i] : repre´sente la valeur estime´e a` la position i, c’est a` dire le signal bruite´.
+N : est le nombre total de valeurs dans les ensembles de donne´es.
+la figure ci−dessous contient les valeurs du SNR et du MSE calcule´es pour 9 fichiers audio.
+
+Figure 4.4 – SNR & MSE.
+
+
+Extraction des caracte´ristiques
+L’extraction des caracte´ristiques distinctives est une phase fondamentale du syste`me de re- connaissance vocale. Elle permet de cre´er des vecteurs caracte´risant les signaux audio seg- mente´s.
+
+Plusieurs algorithmes, d’extraction de caracte´ristiques peuvent eˆtre utilise´es pour effectuer cette taˆche, a` titre d’exemples on peut citer les me´thodes suivantes : Linear Predictive Coeffi- cients (LPC), Linear Predictive Cepstral Coefficients (LPCC), Mel Frequency Cepstral Coeffi- cients (MFCC), Perceptual Linear Predictive (PLP), PLP− Relative Spectra (PLP− RASTA) et Human Factor Cepstral Coefficient (HFCC).
+
+Depuis quelques anne´es, les coefficients cepstraux de fre´quence a` e´chelle de Mel (MFCC) sont les caracte´ristiques acoustiques les plus couramment employe´es dans les syste`mes de re- connaissance automatique de la parole, a` cause de leurs bonnes performances de pre´cision [59] [51].
+
+Pre´traitement des signaux audio	60	B
+
+
+Les coefficients MFCC (Mel Frequency Cepstral Coefficients)
+La parole e´tant un signal constitue´ d’une infinite´ d’informations, il faut en extraire les infor- mations les plus importantes. Le processus d’extraction peut se re´sumer comme suit :
+De´composition du signal en trames : Le signal audio est de´coupe´ en petites portions de taille fixe, souvent avec une partie commune entre chaque portion pour e´viter les discontinuite´s brusques entre les trames.
+
+
+Figure 4.5 – De´composition du signal en trames dans le domaine temporel
+
+Feneˆtrage : pour minimiser les discontinuite´s aux frontie`res des trames, on applique une feneˆtre de Hamming a` chaque trame avant d’effectuer la transformation de Fourier a` court terme (STFT). Cela permet de lisser les bords du signal.
+w(n) = 0.54 − 0.46 · cos  2πn 	(4.9)
+N − 1
+Ou` :
+w(n) : la valeur de la feneˆtre de Hamming a` l’indice n.
+N : la longueur totale de la feneˆtre.
+n : repre´sente l’indice de l’e´chantillon dans la feneˆtre.
+
+Figure 4.6 – Feneˆtre de Hamming
+
+4.2 Pre´traitement des signaux audio	61	B
+
+
+Transformation de Fourier a` court terme (TFCT) : Pour chaque trame du signal, une ope´ration appele´e Transformation de Fourier a` Court Terme (TFCT) est effectue´e, elle permet de convertir le signal audio du domaine temporel au domaine fre´quentiel.
+
+Figure 4.7 – De´composition du signal en trames dans le domaine fre´quentiel
+
+Calcul des coefficients MFCC : les coefficients MFCC sont calcule´s pour chaque partie du signal audio, appele´e trame. Tout d’abord, le spectre de puissance est obtenu a` partir de chaque trame apre`s avoir effectue´ une transformation de Fourier cite´ precedemment. Ensuite, pour rendre compte de la fac¸on dont l’oreille humaine perc¸oit les diffe´rentes fre´quences, le spectre est converti a` une e´chelle spe´ciale appele´e e´chelle de Mel. Pour ce faire, on applique une se´rie de filtres triangulaires qui segmentent le spectre en bandes de fre´quences. Ils sont plus larges dans les basses fre´quences et se resserrent progressi- vement a` mesure que les fre´quences augmentent [51].
+
+
+
+Figure 4.8 – Banc de filtres de Mel.
+
+pour convertir une fre´quence donne´e en Hertz (f) en une valeur sur l’e´chelle de Mel
+(m) On utilise l’e´quation suivante :
+
+m = 2595 · log10
+1 +  f 	(4.10)
+700
+
+4.3 Me´thodes de reconnaissance vocale	62	B
+
+
+Pour finir, nous travaillons avec le spectre de Mel et le convertissons en domaine tem- porel en utilisant la transforme´e en cosinus discre`te (DCT). Cela permet de re´duire le nombre de donne´es caracte´risant le signal. En ge´ne´ral, nous extrayons les 13 premiers coefficients MFCC, ce qui capture les informations essentielles du signal audio [51].
+
+
+Algorithme de MFCC
+L’algorithme de MFCC extrait les coefficients MFCC a`
+
+partir de fichiers audio dans un
+
+re´pertoire spe´cifie´. Il construit le chemin complet de chaque fichier, charge le signal audio et son taux d’e´chantillonnage (sr), puis calcule les MFCCs en utilisant une taille de feneˆtre spe´cifie´e (n fft) et un chevauchement (hop length).
+Le signal est transforme´ en spectre de puissance, converti en e´chelle de Mel avec des filtres triangulaires. Les amplitudes des bandes de fre´quence de Mel sont logarithme´es, et une trans- forme´e en cosinus discre`te (DCT) est applique´e pour obtenir les coefficients MFCC.
+
+
+Algorithm 4: Extraction des MFCC des fichiers audio
+input :
+
+
+output:
+↓ input directory : Chemin vers le dossier contenant les fichiers audio ;
+↑ MFCCs extraits pour chaque fichier audio ;
+
+Fonction extract mfcc (signal, sr, n mfcc, n fft, hop length) :
+begin
+Calculer les MFCC en utilisant la fonction librosa.feature.mfcc;
+Retourner la matrice des MFCCs transpose´e ;
+foreach fichier dans input directory do
+Construire le chemin complet du fichier audio ;
+Charger le fichier audio et obtenir le signal ainsi que son taux d’e´chantillonnage ; Extraire les MFCC;
+Afficher les MFCC pour le fichier ;
+Afficher un message de confirmation du traitement re´ussi pour le fichier ;
+
+
+Me´thodes de reconnaissance vocale
+Les algorithmes de reconnaissance vocale sont essentiels pour transformer la parole hu- maine en texte. Ils s’appuient sur divers concepts issus du traitement du signal, de l’apprentis- sage automatique et de la linguistique informatique. Ces algorithmes peuvent eˆtre classe´s en deux grandes cate´gories : les me´thodes base´es sur l’apprentissage automatique et les me´thodes base´es sur l’apprentissage profond.
+
+Me´thodes base´es sur l’apprentissage automatique
+
+Me´thodes de reconnaissance vocale	63	B
+
+
+Comparaison dynamique (dynamic time warping DTW) [4] :
+Le Dynamic Time Warping (DTW) est une me´thode efficace pour la reconnais- sance de la parole, qui compare dynamiquement un vecteur de re´fe´rence, extrait d’un
+e´chantillon audio connu, avec un vecteur de test, extrait d’un e´chantillon audio a` re-
+connaˆıtre. En alignant tous les points des deux vecteurs et en utilisant la programmation dynamique pour minimiser le couˆt total de cet alignement, DTW permet de trouver la meilleure correspondance. Cette me´thode est simple et ne´cessite peu de donne´es d’ap- prentissage, mais elle est limite´e par la taille du vocabulaire a` reconnaˆıtre.
+
+
+Figure 4.9 – Comparaison dynamique.
+
+Mode`le de Markov cache´ (MMC) [5] [55] [4] :
+Un mode`le de Markov cache´ (MMC) est un outil statistique utilise´ pour mode´liser des se´quences de donne´es, avec des e´tats observables et cache´s, des matrices de transi- tion et d’e´mission, et des distributions initiales. Dans le contexte de la reconnaissance vocale, chaque e´tat repre´sente une partie du signal audio, avec une transition entre les e´tats base´e sur des probabilite´s. Les MMC sont utilise´s pour des petits vocabulaires, mais leur utilisation devient difficile pour des vocabulaires plus vastes.
+La figure ci-dessous repre´sente un phone`me ainsi que les coarticulations avec les phone`mes adjacents :
+
+Figure 4.10 – Repre´sentation d’un phone`me.
+
+Mode`les Gaussiens Mixtes (MGM) [13] :
+Les mode`les gaussiens mixtes (MGM) sont des mode`les statistiques utilise´s pour repre´senter la distribution d’une variable ale´atoire en combinant plusieurs distributions normales. Chaque composante gaussienne est caracte´rise´e par sa moyenne, sa variance et son poids. En reconnaissance vocale, les variations sonores sont de´compose´es en plu- sieurs composantes gaussiennes, et ces mode`les sont entraˆıne´s sur des ensembles de
+
+Me´thodes de reconnaissance vocale	64	B
+
+
+donne´es associant des traits acoustiques a` des transcriptions textuelles pour reconnaˆıtre et de´coder la parole. Cependant, les MGM sont sensibles a` la qualite´ et a` la quantite´ des donne´es d’entraˆınement, ne´cessitant une quantite´ importante de donne´es pour estimer pre´cise´ment les parame`tres de chaque composante gaussienne.
+Machines a` vecteurs de support (SVM)
+Les SVM sont des algorithmes principalement utilise´s pour la classification binaire,
+mais adaptables a` la classification multiclasse via les approches ”Un-contre-Tous” et
+”Un-contre-Un”. Dans la premie`re, un mode`le est construit pour chaque classe par rap- port a` toutes les autres classes. Dans la seconde, des classifieurs binaires sont cre´e´s pour chaque paire de classes possibles.
+
+Les SVM sont appre´cie´s pour leur capacite´
+a` bien ge´ne´raliser et a`
+classifier avec
+
+pre´cision, mais ils peuvent rencontrer des proble`mes avec des donne´es contenant de nombreux termes non significatifs. De plus, ils ne fournissent pas directement des es-
+
+timations de probabilite´
+pour chaque classe, ce qui peut
+eˆtre limitant dans certains
+
+contextes de reconnaissance vocale.
+
+Figure 4.11 – Approches du SVM [19].
+
+
+Me´thodes base´es sur l’apprentissage profond
+Les me´thodes modernes de reconnaissance vocale, en particulier celles base´es sur le deep learning, reposent largement sur l’utilisation de re´seaux de neurones. Ces re´seaux de neurones, inspire´s du fonctionnement du cerveau humain, sont des structures computationnelles capables d’apprendre des mode`les complexes a` partir de donne´es audio brutes.
+De´finition 25. Neurone biologique :
+Un neurone est une cellule vivante du syste`me nerveux, fondamentale pour le traitement de l’information dans le cerveau. Sa structure varie et peut adopter diffe´rentes formes telles que pyramidale, sphe´rique ou e´toile´e [40].
+
+Figure 4.12 – Neurone biologique.
+
+4.3 Me´thodes de reconnaissance vocale	65	B
+
+
+De´finition 26. Neurone formel :
+Selon Mc Culloch et Pitts un neurone formel est un mode`le mathe´matique tre`s simple, de´rive´ de la re´alite´ biologique. Il rec¸oit plusieurs entre´es x1,x2,. . .,xn et les ponde`re avec des coefl-
+
+cients appele´s poids synaptiques. Ensuite, il applique une fonction d’activation a` ponde´re´e des entre´es pour produire une sortie y [21].
+la somme
+
+
+
+
+
+
+Figure 4.13 – Neurone artificiel.
+
+ou´ :
+xi : un ensemble d’entre´es.
+wi : un ensemble de poids.
+S : un seuil ou potentiel d’activation.
+f : une fonction d’activation.
+y : une sortie.
+De´finition 27. Re´seau de neurones artificiel (RNA) :
+Les re´seaux de neurones artificiels sont constitue´s de plusieurs couches de calcul, avec des couches cache´es entre l’entre´e et la sortie. Ces couches sont ainsi nomme´es car les ope´rations qu’elles effectuent ne sont pas directement visibles pour l’utilisateur. Dans ces re´seaux, chaque
+nœud d’une couche est connecte´ a` tous les nœuds de la couche suivante, de´terminant ainsi
+l’architecture du re´seau en fonction du nombre de couches et de nœuds.
+
+
+Figure 4.14 – Re´seau de neurones artificiel.
+
+Me´thodes de reconnaissance vocale	66	B
+
+
+Composants du re´seau de neurones artificiel
+Un re´seau de neurones artificiel est compose´ de plusieurs e´le´ments essentiels :
+
+Fonction d’activation [49] : la fonction d’activation est une ope´ration mathe´matique qui normalise les signaux des neurones et introduit la non-line´arite´ dans le re´seau. Ce qui permet de mode´liser des relations complexes et de re´soudre des proble`mes plus difficiles. Les re´seaux de neurones peuvent utiliser de nombreuses fonctions d’activation diffe´rentes, nous aborderons les fonctions d’activation les plus courantes :
+Fonction d’activation Softmax [67] : la fonction d’activation softmax attribue une
+probabilite´ a` chaque classe possible pour une entre´e donne´e. Elle assure que la
+somme de toutes ces probabilite´s est e´gale a` 1. Ainsi, le neurone avec la plus haute
+probabilite´ repre´sente la classe pre´dite. Cette approche permet une interpre´tation
+probabiliste claire des pre´dictions du re´seau, facilitant ainsi la classification pre´cise des donne´es.
+
+
+
+
+ou` :
+
+Φi =
+
+ezi
+.j ezj
+
+(4.11)
+
+Φi : la sortie du neurone i.
+
+zi : la valeur de sortie brute du neurone i.
+
+j : indices de tous les neurones du groupe (niveau).
+
+z j : les valeurs de sortie brutes de tous les neurones du groupe (niveau).
+
+Fonction d’activation sigmo¨ıde [67] : la fonction sigmo¨ıde, ou fonction logistique, est fre´quemment choisie dans les re´seaux de neurones. Les valeurs positives sont transforme´es vers 1 et les valeurs ne´gatives vers 0. La fonction sigmo¨ıde est souvent
+privile´gie´e dans les mode`les ou` la sortie doit repre´senter une probabilite´, car les
+
+probabilite´s se situent uniquement entre 0 et 1.
+f (x) = 	1	
+1 + e−x
+
+
+(4.12)
+
+Ou` :
+— x : est la somme ponde´re´e des entre´es du neurone.
+Fonction de la tangente hyperbolique (tanh) [67] : la fonction tanh est similaire a` la fonction sigmo¨ıde logistique mais avec des proprie´te´s ame´liore´es. La principale diffe´rence est que tanh transforme les valeurs d’entre´e en une plage allant de -1 a` 1, tandis que la sigmo¨ıde logistique les transforme en une plage allant de 0 a` 1.
+
+
+ex − e−x
+= ex + e−x
+
+(4.13)
+
+Me´thodes de reconnaissance vocale	67	B
+
+
+Figure 4.15 – Sigmoide VS Tanh.
+
+Fonction d’activation ReLU [67] : la fonction ReLU (Rectified Linear Unit) est largement utilise´e aujourd’hui en raison de ses performances supe´rieures lors de l’entraˆınement des re´seaux de neurones. La plupart des re´seaux de neurones utilisent ReLU pour les couches cache´es en raison de sa capacite´ a` acce´le´rer l’apprentissage, tandis que la fonction softmax est souvent utilise´e pour la couche de sortie.
+La fonction ReLU est une fonction line´aire non saturante, c’est-a`-dire qu’elle ne sature pas a` -1, 0 ou 1.
+L’e´quation de la fonction est :
+Φ(x) = max(0, x)	(4.14)
+Φ(x) = 0, lorsque x est infe´rieur a` 0.
+
+Φ(x) = x, lorsque x est supe´rieur ou e´gal a` 0.
+
+
+Figure 4.16 – ReLU.
+
+Re´seaux de neurones convolutifs	68	B
+
+
+Re´seaux de neurones convolutifs
+De´finition 28. Re´seaux de neurones convultifs :
+Un re´seau de neurones convolutif (ou Convolutional Neural Network en anglais, CNN) est
+un type de mode`le d’apprentissage profond spe´cialise´ dans le traitement de donne´es struc-
+ture´es, principalement utilise´ pour des taˆches comme la classification d’images. Ce mode`le a e´te´ de´veloppe´ par Yann LeCun en 1989. Sa conception s’inspire biologiquement du syste`me visuel humain [24].
+
+Couches de CNN
+Un CNN est simplement un empilement de plusieurs couches. Chaque son rec¸u en entre´e va donc eˆtre filtre´, re´duit et corrige´ plusieurs fois, pour finalement former un vecteur.
+
+Couche de convolution : la couche de convolution est centrale dans les re´seaux neu- ronaux convolutifs. Elle utilise des filtres pour transformer un son en feature map qui indique l’emplacement et l’intensite´ des caracte´ristiques acoustiques de´tecte´es.
+
+Couche de pooling : la couche de pooling est ge´ne´ralement place´e entre deux couches
+de convolution. Elle re´duit la dimensionnalite´ des caracte´ristiques extraites apre`s la
+convolution initiale, pre´servant les informations importantes [34].
+
+Flattening : intervient apre`s les phases de convolution et de pooling. Il transforme les ”feature maps” multidimensionnelles en un vecteur unidimensionnel en re´organisant toutes les valeurs sans tenir compte de leur position spatiale. Ce vecteur devient la couche d’entre´e pour les couches entie`rement connecte´es du re´seau.
+
+ReLU : est une fonction d’activation qui prend une valeur en entre´e et si cette valeur est ne´gative, elle la remplace par ze´ro ; si elle est positive ou nulle, elle la laisse telle quelle [34].
+
+Couche fully-connected : est la dernie`re couche d’un re´seau de neurones qui combine les features extraites par les couches pre´ce´dentes pour classifier le son. Elle produit un vecteur de taille N, ou` N repre´sente le nombre de classes dans le proble`me de classifi- cation sonore. Chaque composant de ce vecteur indique la probabilite´ que le son appar- tienne a` une classe spe´cifique. La classe avec la probabilite´ la plus e´leve´e est de´signe´e comme la pre´diction pour le son d’entre´e [34].
+
+Re´seaux de neurones re´currents	69	B
+
+
+
+Figure 4.17 – Architecture d’un CNN [34].
+
+Re´seaux de neurones re´currents
+De´finition 29. Re´seau de neurones re´current :
+Un re´seau de neurones re´current (RNN), de´veloppe´ par Rumelhart et d’autres en 1986
+[25], est une famille de re´seaux neuronaux caracte´rise´e par des boucles internes permettant aux informations de persister et d’eˆtre utilise´es dans les ite´rations suivantes. Contrairement aux re´seaux de neurones traditionnels ou` l’information se propage uniquement de couche en couche, dans un RNN chaque e´tape de traitement des donne´es de´pend non seulement de l’entre´e actuelle mais aussi de la sortie obtenue a` partir de l’e´tape pre´ce´dente. Les RNN sont tre`s utilise´s dans la reconnaissance vocale, ou` la nature se´quentielle des donne´es est dominante [45].
+
+
+
+Figure 4.18 – RNN.
+
+
+Fonctionnement d’un RNN
+Propagation avant : conside´rons une se´quence d’entre´e {xt}t∈{1,T} de dimension d. La cellule neuronale re´currente est de´finie par la se´quence de ses e´tats internes {ht}t∈{1,T} de dimension l. La se´quence des e´tats internes est de´finie par l’e´quation re´currente :
+ht = ϕt(xt, ht−1) = σ(Whht−1 + Wx xt + b)	(4.15)
+
+4.5 Re´seaux de neurones re´currents	70	B
+
+
+ou` :
+σ : la fonction d’activation.
+ht : l’e´tat interne au temps t.
+xt : l’entre´e au temps t.
+ht−1 : l’e´tat interne au temps t − 1.
+Wh : la matrice de poids pour l’e´tat pre´ce´dent.
+Wx : la matrice de poids pour l’entre´e actuelle.
+b : le biais.
+Autrement dit, l’e´tat interne ht au temps t de´pend a` la fois de la valeur de la se´quence a` ce meˆme pas de temps et de son e´tat interne au pas de temps pre´ce´dent. L’e´tat interne permet donc de mode´liser l’historique de la se´quence jusqu’au pas de temps t conside´re´. En ge´ne´ral, la fonction de transfert ϕt permet de combiner l’entre´e actuelle et l’e´tat pre´ce´dent de la cellule pour calculer l’e´tat actuel, elle est identique pour tous les pas de temps.
+
+Figure 4.19 – Cellule re´currente.
+
+La figure ci−dessus montre une version de´roule´e du sche´ma de la cellule re´currente, illustrant les e´tapes du re´seau a` chaque instant de temps.
+
+
+Figure 4.20 – Version de´roule´e d’un cellule re´currente
+
+Propagation Arrie`re : apre`s la propagation avant et la production des sorties, une fonc- tion de perte L(y, yˆ) est calcule´e pour mesurer l’e´cart entre les valeurs pre´dites yˆ et les valeurs re´elles y, c’est-a`-dire l’erreur. Cette fonction est utilise´e sur les donne´es d’en- traˆınement pour minimiser l’erreur en ajustant les poids w du re´seau.
+La fonction de perte la plus courante est :
+L(y, yˆ) = −	yi log(yˆi)	(4.16)
+i
+
+4.5 Re´seaux de neurones re´currents	71	B
+
+
+ou` :
+yi : la valeur re´elle de la classe i.
+yˆi : la probabilite´ pre´dite par le mode`le que l’e´chantillon appartienne a` la classe i.
+Apre`s avoir calcule´ la fonction de perte, on calcule la de´rive´e de cette dernie`re par
+rapport a` chaque sortie pre´dite yˆi pour quantifier l’impact de chaque pre´diction sur la perte globale :
+
+∂L
+∂yˆi
+= − yi
+yˆi
+
+(4.17)
+
+
+L’e´tape suivante consiste a` mettre a` jour les poids, pour un poids w dans une couche donne´e, le gradient est calcule´ en utilisant la re´gle de de´rivation en chaine. Pour chaque couche du re´seau :
+
+Calcul du gradient par rapport a` la sortie de la couche yˆ : ∂L c’est la de´rive´e de
+la fonction de perte par rapport a` la sortie pre´dite yˆ.
+Gradient par rapport a` la somme ponde´re´e des entre´es z : ∂yˆ c’est la de´rive´e de la sortie de la couche par rapport a` la somme ponde´re´e des entre´es z.
+n
+z =	(wi · xi) + b	(4.18)
+i=1
+
+Gradient de la somme ponde´re´e des entre´es par rapport au poids w : ∂z
+c’est la
+
+de´rive´e de la somme ponde´re´e des entre´es z par rapport au poids w.
+Ainsi, pour mettre a` jour les poids w, on utilise la re`gle de de´rivation en chaˆıne :
+
+∂L
+∂w =
+∂L
+
+
+∂yˆ
+∂yˆ
+· ∂z
+∂z
+· ∂w
+
+(4.19)
+
+
+
+Le poids mis a` jour est calcule´ ainsi pour chaque poids du re´seau :
+wnouveau = wactuel − α · ∂L
+∂w
+α : le taux d’apprentissage.
+
+Architectures du RNN
+Re´seaux de neurones re´currents bidirectionnels (BRNN)
+
+
+(4.20)
+
+Dans le contexte de la reconnaissance vocale, comprendre ce qui vient apre`s dans la se´quence est aussi crucial que de comprendre ce qui s’est de´ja` passe´ pour prendre une de´cision pre´cise [42].
+Un RNN bidirectionnel (Schuster et Paliwal, 1997) combine deux RNN inde´pendants. L’un traite l’entre´e du de´but a` la fin, et l’autre de la fin au de´but. Nous concate´nons en- suite les deux repre´sentations calcule´es par les re´seaux en un seul vecteur qui capture les contextes gauche et droit d’une entre´e a` chaque instant [14].
+
+4.5 Re´seaux de neurones re´currents	72	B
+
+
+
+
+Figure 4.21 – BRNN.
+
+E´ quation de l’e´tat cache´ pour la propagation avant :
+→−	−−→
+ht = σ(Wx · xt + Wh · ht−1 + b)	(4.21)
+→− : est l’e´tat cache´ a` l’instant t pour la couche avant.
+E´ quation de l’e´tat cache´ pour la propagation arrie`re :
+←−	←−−
+ht = σ(Wx · xt + Wh · ht+1 + b)	(4.22)
+— ←− : est l’e´tat cache´ a` l’instant t pour la couche arrie`re.
+
+Puis, les deux e´tats re´sultants sont concate´ne´s en un e´tat ht qui est ensuite utilise´ comme entre´e pour une couche de sortie, pour produire la pre´diction finale.
+
+
+Proble`me de la disparition du gradient [7] :
+Bien qu’en the´orie les RNN devraient conserver la me´moire a`
+
+
+travers les e´tapes
+
+temporelles, en pratique, ils ont eu de mauvaises performances. Hochreiter (1991) et Bengio et Al (1994) ont explore´ pourquoi les algorithmes d’apprentissage base´s sur le gradient rencontrent des proble`mes accrus avec la dure´e des de´pendances.
+Un proble`me majeur est la disparition du gradient qui est la de´rive´e de la perte par rapport aux poids. Si le gradient est trop petit, les poids ne peuvent pas eˆtre ajuste´s efficacement, empeˆchant le re´seau d’apprendre.
+Dans un RNN, les couches et les e´tapes temporelles sont relie´es par multiplication. Multiplier un nombre le´ge`rement supe´rieur a` un peut entraˆıner une explosion des va- leurs, et multiplier un nombre le´ge`rement infe´rieur a` un peut les faire disparaˆıtre.
+Par conse´quent, les gradients sont susceptibles de disparaˆıtre ou d’exploser. Bien que nous puissions re´soudre les gradients explosifs en tronquant ou en mettant les valeurs au carre´, les gradients qui disparaissent sont plus difficiles a` re´soudre.
+Ci-dessous se trouve un diagramme des graphes de la fonction tanh et de sa de´rive´e :
+
+4.5 Re´seaux de neurones re´currents	73	B
+
+
+
+Figure 4.22 – Fonction tanh et sa de´rive´e [7].
+
+Me´moire a` long et court terme
+De´finition 30. Me´moire a` long et court terme
+La solution de me´moire a` long et court terme (Long Short Terme Memory ou LSTM) a e´te´ introduit par Schmidhuber et Hochreiter en 1997. C’est un type spe´cial de RNN capable d’apprendre les de´pendences a` long terme [41].
+L’ide´e principale derrie`re les LSTM repose sur la ”cellule me´moire”, qui permet de retenir l’information pertinente pour la taˆche au fil du temps lors du traitement des
+
+e´le´ments de la se´quence. Cette cellule me´moire est maintenue graˆce a` portes [64].
+un syste`me de
+
+
+
+
+Figure 4.23 – Unite´ LSTM [58].
+
+
+Fonctionnement d’un LSTM
+Une unite´ LSTM commune comprend une cellule, une porte d’entre´e (it), une porte de sortie (ot) et une porte d’oubli ( ft). La cellule maintient et met a` jour sa me´moire sur des intervalles de temps arbitraires, tandis que les trois portes controˆlent le flux d’in- formations entrant et sortant de la cellule [47], elles utilisent une fonction d’activation
+
+4.5 Re´seaux de neurones re´currents	74	B
+
+
+segmoid, un re´sultat d’activation de ”0” indique que la porte bloque l’information, tan- dis qu’un re´sultat d’activation de ”1” permet a` l’information de passer et d’eˆtre stocke´e dans la cellule [42].
+
+La porte d’oubli permet d’oublier une information qui e´tait utile au temps t − 1 mais qui ne l’est plus au temps t [47]. Sa formule est comme suit :
+ft = σ(Wf ht−1 + Uf xt + bf )	(4.23)
+La porte d’entre´e permet a` la cellule de stocker une information a` l’instant t [47]. Sa formule est comme suit :
+it = σ(Wiht−1 + Ui xt + bi)	(4.24)
+La porte de sortie de´termine quelle information sera transmise au temps t + 1 en fonction de la me´moire C et d’une fonction d’activation [47]. Sa formule est comme suit :
+ot = σ(Woht−1 + Uo xt + bo)	(4.25)
+La cellule condiadate combine l’information provenant de la sortie pre´ce´dente ht−1 et de l’entre´e actuelle xt pour former une nouvelle proposition d’information at, En- suite, les valeurs sont compresse´es dans l’intervalle [-1, 1] en appliquant la fonction
+tanh [42] :
+at = tanh(Wcht−1 + Uc xt + bc)	(4.26)
+A travers les deux portes pre´ce´dentes ft et it, une me´moire de re´pe´tition est cre´e´e pour LSTM [42] :
+Ct = ft · Ct−1 + it · at	(4.27)
+La sortie ht est de´termine´e en combinant la me´moire a` court terme actualise´e Ct avec la porte de sortie ot [42] :
+ht = ot · tanh(Ct)	(4.28)
+Ou´ :
+ft, it et ot : vecteurs repre´sentent les portes d’oubli, d’entre´e et de sortie respective- ment.
+
+Wf , Uf , Wi, Ui, Wo, Uo, Wc, Uc : sont les matrices de poids a` re´gler durant l’entraˆınement.
+
+bf , bi, bo, bc : sont les vecteurs de biais a` re´gler durant l’entraˆınement.
+
+xt : est le vecteur en entre´e de l’unite´ LSTM au pas t.
+
+ht : est le vecteur de sortie (e´tat cache´) issu du module LSTM au pas t.
+
+4.6 LSTM Bidirectionnel	75	B
+
+
+LSTM Bidirectionnel
+Combiner les BRNN avec les LSTM donne les LSTM bidirectionnels (BLSTM), qui peuvent acce´der au contexte a` long terme dans les deux directions de l’entre´e.
+
+Dans l’e´valuation automatique, ou` l’ensemble de la re´ponse est collecte´ en une seule fois, il n’y a aucune raison de ne pas exploiter a` la fois le contexte futur et le contexte historique. De plus, il n’y a aucune preuve que l’une ou l’autre direction (vers l’avant ou vers l’arrie`re) soit plus approprie´e pour notre taˆche, nous mode´lisons donc la se´quence dans les deux directions.
+
+Re´cemment, les BLSTM introduits par Schuster et Baldi ont e´te´ utilise´s dans de nom- breux proble`mes re´els de traitement de se´quences tels que la classification des phone`mes, la reconnaissance continue de la parole et la synthe`se vocale.
+
+Figure 4.24 – BLSTM.
+
+La figure ci-dessus montre que les re´seaux de type BLSTM consistent a` exe´cuter deux
+LSTM en paralle`le : le premier re´seau lit la se´quence d’entre´e de droite a` gauche et le second re´seau en sens inverse de gauche a` droite.
+Chaque LSTM engendre une repre´sentation cache´e :→− (un vecteur allant de gauche a` droite)
+et ←− (un vecteur allant de droite a` gauche) qui sont ensuite combine´s afin de calculer la se´quence
+de sortie.
+Dans le contexte d’un LSTM bidirectionnel, chaque porte est calcule´e a` partir des e´tats
+cache´s des deux directions de la se´quence (avant et arrie`re) et des entre´es actuelles de chaque direction.
+
+— Porte d’oubli :
+
+
+ft = σ(W( f )h( f ) + U( f ) x( f ) + b( f ) + W(b)h(b)
++ U(b) x(b) + b(b))	(4.29)
+
+f
+
+— Porte d’entre´e :
+t−1	f	t	f
+f	t+1	f	t	f
+
+
+
+it = σ(W( f )h( f ) + U( f ) x( f ) + b( f ) + W(b)h(b)
++ U(b) x(b) + b(b))	(4.30)
+
+i	t−1	i	t	i	i	t+1	i	t	i
+
+4.6 LSTM Bidirectionnel	76	B
+
+
+
+Porte de sortie :
+ot = σ(W( f )h( f ) + U( f ) x( f ) + b( f ) + W(b)h(b)
+
+
++ U(b) x(b) + b(b))	(4.31)
+
+o	t−1	o	t	o	o	t+1	o	t	o
+
+Cellule candidate :
+at = tanh(W( f )h( f ) + U( f ) x( f ) + b( f ) + W(b)h(b)
+
+
++ U(b) x(b) + b(b))	(4.32)
+
+c	t−1	c	t	c	c	t+1	c	t	c
+Mise a` jour de l’e´tat de la me´moire :
+Ct = ft · Ct−1 + it · at	(4.33)
+E´ tat cache´ (sortie) :
+ht = ot · tanh(Ct)	(4.34)
+Dans le cadre de notre projet de fin d’e´tudes, apre`s avoir examine´ diffe´rents mode`les, nous avons conclu que l’imple´mentation d’un mode`le RNN LSTM bidirectionnel est le meilleur choix pour la reconnaissance vocale des lettres de la langue kabyle. Ce choix de mode`le nous permettra de capturer efficacement les relations contextuelles dans les se´quences vocales, ce qui est crucial pour ame´liorer la pre´cision de la reconnaissance des caracte`res dans cette langue.
+
+Conclusion
+Dans ce chapitre, nous avons explore´ les outils de de´veloppement et les diffe´rentes e´tapes du pre´traitement des signaux audio, notamment l’extraction des caracte´ristiques des signaux audio telles que les coefficients cepstraux de fre´quence Mel (MFCC). Nous avons e´galement e´tudie´ diverses me´thodes de reconnaissance vocale qui permettent a` la machine de transcrire et de comprendre le langage parle´. Cette exploration nous a permis de choisir le mode`le approprie´ pour re´aliser un syste`me de reconnaissance vocale des lettres de la langue kabyle, qui sera imple´mente´ dans le chapitre suivant.
+
+B
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Imple´mentation & Re´sultats
+
+Introduction
+Les syste`mes de reconnaissance vocale des lettres de la langue kabyle rencontrent plusieurs de´fis, notamment la variation illimite´e des prononciations humaines.
+L’objectif de ce dernier chapitre est de pre´senter les e´tapes de l’imple´mentation du mode`le propose´ dans le cadre d’un syste`me de reconnaissance vocale des lettres en kabyle. Nous allons imple´menter un mode`le BLSTM et de´tailler les diffe´rentes e´tapes de sa re´alisation, ainsi qu’une discussion sur les re´sultats obtenus.
+Sommaire	
+Introduction	77
+Environnement de de´veloppement	77
+Principes cle´s de l’apprentissage profond	78
+Me´triques d’e´valuation	78
+Pre´paration des donne´es d’entre´e du mode`le	79
+Architecture du mode`le	80
+Analyse des re´sultats	84
+Conclusion	92
+
+
+Environnement de de´veloppement
+Afin de re´aliser et de´velopper notre projet de reconnaissance vocale des lettres de la langue kabyle, nous avons utilise´ un ordinateur avec les caracte´ristiques techniques suivantes :
+Processeur : 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz 2.80GHz.
+
+Principes cle´s de l’apprentissage profond	78	B
+
+
+Me´moire RAM installe´e : 8 Go.
+
+Disque SSD : 512 Go SSD.
+
+Carte Graphique : Intel Iris Xe Graphics.
+
+IDE : Jupyter Notebook.
+
+Langage de programmation : Python 3.12.
+
+Principes cle´s de l’apprentissage profond
+Nombre d’Ite´rations (Epochs) : correspond au nombre de passages complets sur l’en- semble des donne´es d’apprentissage. Il est de´finit comme un crite`re d’arreˆt que ce soit les re´sultats, chaque ite´ration implique une propagation avant a` travers le re´seau neuro- nal, suivie d’une propagation arrie`re pour ajuster les poids [49].
+
+Learning Rate : le taux d’apprentissage de´finit la rapidite´ avec laquelle un re´seau met a` jour ses parame`tres. Un faible taux signifie que les poids sont ajuste´s lentement a` chaque ite´ration, prolongeant ainsi le processus d’apprentissage [34].
+
+Le sur-ajustement (Overfitting) : se produit lorsque le mode`le se concentre trop sur les donne´es d’entraˆınement, il finit par me´moriser meˆme le bruit et les fluctuations ale´atoires, ce qui l’empeˆche de bien fonctionner avec de nouvelles donne´es [34].
+
+Fonction d’optimisation : les optimiseurs sont des techniques ou des algorithmes uti- lise´s pour ajuster les parame`tres d’un re´seau de neurones, tels que les poids et le taux d’apprentissage [41].
+
+Dropout : est un parame`tre additionnel qui consiste a` ignorer des neurones ale´atoirement en les mettant a` 0 pour chaque mise a` jour des poids pendant l’apprentissage ce qui per- met d’e´viter le sur-apprentissage.
+
+Early stopping : technique pour e´viter le surapprentissage en surveillant les perfor- mances du mode`le sur un ensemble de validation. Si les performances sur cet ensemble commencent a` se de´te´riorer alors que celles sur l’ensemble d’entraˆınement continuent de s’ame´liorer, l’entraˆınement est interrompu pour empeˆcher le mode`le de devenir trop spe´cialise´ aux donne´es d’entraˆınement [49].
+
+Me´triques d’e´valuation
+En classification, chaque exemple posse`de une classe re´elle associe´e, et le syste`me fournit une classe pre´dite. Il est donc essentiel de de´finir les parame`tres ne´cessaires, utilise´s pour le calcul des me´triques d’e´valuation [45] :
+
+Pre´paration des donne´es d’entre´e du mode`le	79	B
+
+
+Vrais positifs : classe re´elle = 1, classe pre´dite = 1.
+Faux positifs : classe re´elle = 0, classe pre´dite = 1.
+Faux ne´gatifs : classe re´elle = 1, classe pre´dite = 0.
+Vrais ne´gatifs : classe re´elle = 0, classe pre´dite = 0.
+Les parame`tres ”Vrais positifs” et ”Vrais ne´gatifs” de´signent les exemples correctement pre´dits. Alors que les ”Faux positifs” et ”Faux ne´gatifs” se produisent lorsque la classe re´elle est en contradiction avec la classe pre´dite.
+Pour e´valuer les performances d’un mode`le sur un ensemble de donne´es. On utilise des me´triques telles que :
+
+Pre´cision : mesure la proportion des pre´dictions positives qui sont re´ellement correctes.
+Elle est exprime´e par l’e´quation suivante [34] :
+
+Pre´cision = 	Vrais positifs	
+Vrais positifs + Faux positifs
+
+(5.1)
+
+Rappel : mesure la capacite´ du mode`le a` retrouver tous les e´le´ments re´ellement positifs.
+Elle est exprime´e par l’e´quation suivante :
+
+Rappel = 		Vrais positifs	 Vrais positifs + Faux ne´gatifs
+
+(5.2)
+
+F-mesure : la F-mesure aussi appele´e F1-score obtenue par la moyenne harmonique de la pre´cision et du rappel. Elle est exprime´e par l’e´quation suivante :
+
+F-mesure = 2 × Pre´cision × Rappel
+Pre´cision + Rappel
+
+Pre´paration des donne´es d’entre´e du mode`le
+
+(5.3)
+
+Dans cette section, nous allons de´crire les e´tapes ne´cessaires pour pre´parer les donne´es d’entre´e pour notre mode`le. Elles consistent en des enregistrements audio au format wav et leurs transcriptions correspondantes dans un fichier CSV.
+
+Chaque fichier audio, une fois traite´ est transforme´ en une se´quence de MFCC. Ensuite, la longueur maximale des se´quences MFCC et des transcriptions est de´termine´e, afin de de´finir la longueur maximale pour le padding.
+
+Dans notre cas nous avons de´termine´ que la plus longue se´quence comporte 62 trames, et chaque trame est repre´sente´ par 13 coefficients MFCC. Ainsi, Les se´quences les plus courtes seront comple´te´es avec des vecteurs de ze´ros jusqu’a` atteindre cette dimension (62, 13).
+
+De la part des transcriptions, nous utilisons la tokenization pour diviser les textes en unite´s plus petites. Ensuite, nous adaptons le tokenizer aux donne´es d’entre´e pour comprendre les phone`mes utilise´s et leur fre´quence. Chaque phone`me est encode´ en un nombre selon le vo- cabulaire appris. Enfin, des ze´ros sont ajoute´s a` la fin de chaque se´quence pour que toutes les
+
+Architecture du mode`le	80	B
+
+
+se´quences aient la meˆme longueur, e´gale a` celle des se´quences MFCC.
+
+De plus, pour faciliter le processus d’apprentissage, les se´quences cibles sont converties en repre´sentation canonique, ou` chaque phone`me du vocabulaire est repre´sente´ par un vecteur binaire compose´ de ze´ros (0), sauf la position re´serve´e au phone`me qui est mise a` un (1).
+Par exemple, pour le vocabulaire [”d. ”, ”k”, ”l”, ”n”, ”t.”, ”s.”, ”h. ”, ”s”] de taille e´gale a` 8, la repre´sentation canonique du phone`me ≪h. ≫ est [0, 0, 0 , 0, 0, 0, 1, 0].
+La figure ci-dessous montre comment les donne´es audio et leurs transcriptions phone´miques sont pre´pare´es et transforme´es en un format adapte´ a` l’entraˆınement d’un mode`le de reconnais- sance vocale :
+
+Figure 5.1 – Dimensions de donne´es.
+
+
+Re´partition des donne´es
+Notre jeu de donne´es est divise´ en trois parties de tailles diffe´rentes :
+
+Ensemble d’entraˆınement : repre´sente la plus grande partie des donne´es. Cet ensemble sert a` re´gler les parame`tres du mode`le par optimisation. Il contient 1812 fichiers de type wav, ainsi que leurs transcriptions initialement, mais apre`s avoir re´serve´ 20% pour la validation, il reste 1449 fichiers pour l’entraˆınement effectif.
+
+Ensemble de test : permet de mesurer les performances du mode`le apre`s l’entraˆınement.
+Il contient 453 fichiers de type wav, ainsi que leurs transcriptions.
+
+Ensemble de validation : est compose´ de donne´es provenant de l’ensemble d’entraˆınement mais qui sont re´serve´es spe´cifiquement pour l’e´valuation pendant le processus d’en- traˆınement. Il contient 363 fichiers de type wav, ainsi que leurs transcriptions.
+
+Figure 5.2 – Ensemble d’entraˆınement, de validation et de test.
+
+
+Architecture du mode`le
+Nous avons opte´ pour un mode`le de reconnaissance vocale qui repose sur l’utilisation d’un re´seau neuronal re´current (RNN) bidirectionnel inte´grant des me´moires a` long terme et a` court
+
+5.5 Architecture du mode`le	81	B
+
+
+terme (BLSTM). L’architecture du mode`le comporte au total 10 couches diffe´rentes :
+
+Couche de masquage (Masking) : est utilise´e pour pre´traiter les se´quences d’entre´e apre`s l’application du padding sur les MFCC et les transcriptions. Elle masque les va- leurs spe´cifie´es (les ze´ros) pour que le mode`le ignore ces valeurs pendant l’entraˆınement.
+
+Couches Bidirectional LSTM : dans notre mode`le, nous avons utilise´ trois couches Bidirectional LSTM. Chaque couche est compose´e de deux sous-couches LSTM : l’une parcourt la se´quence de gauche a` droite et l’autre dans l’ordre inverse. Cela permet de me´moriser les informations sur de longues se´quences de donne´es dans les deux direc- tions.
+
+
+Table 5.1 – Configuration des couches LSTM bidirectionnelles.
+
+5.5 Architecture du mode`le	82	B
+
+
+Les couches LSTM bidirectionnelles de notre mode`le ont plusieurs parame`tres im- portants. Voici ce que chaque parame`tre fait :
+
+return sequences = True : ce parame`tre indique que chaque LSTM doit renvoyer une se´quence comple`te de sorties a` chaque e´tape temporelle, plutoˆt que seulement la sortie finale. Cela assure que chaque sous-couche LSTM suivante rec¸oit des informa- tions de´taille´es pour chaque point de la se´quence, pre´servant ainsi les informations temporelles sur toute la se´quence.
+
+recurrent dropout = 0.3 : ce taux de dropout re´current de 30% est applique´ indi- viduellement a` chaque couche LSTM, permettant ainsi de de´sactiver ale´atoirement environ 30% des connexions re´currentes. Lorsque les connexions re´currentes sont de´sactive´es a` une e´tape spe´cifique, cela signifie que les informations transmises par
+ces connexions a` partir de l’e´tat cache´ pre´ce´dent ht−1 ne contribuent pas au calcul de l’e´tat cache´ actuel ht.
+
+dropout = 0.3 : applique´ aux entre´es de chaque couche LSTM. Lorsque ce dro-
+pout est active´ a` 30%, environ un tiers des neurones dans la couche d’entre´e sont de´sactive´s ale´atoirement a` chaque ite´ration d’entraˆınement.
+
+Re´gularisation L2 : ce parame`tre est ajoute´ a` chaque couche LSTM, ce qui signifie que chacune utilise la re´gularisation L2 pour ses poids limitant la capacite´ du mode`le a` s’ajuster trop pre´cise´ment aux donne´es d’entraˆınement. La re´gularisation L2 im- pose une pe´nalite´ proportionnelle a` la somme des carre´s des poids, forc¸ant ainsi les poids a` rester petits. Mathe´matiquement cela peut eˆtre formule´ comme suit :
+
+L2 = λ X W2
+(5.4)
+
+i
+Ou` :
+λ = 0.01 : est le coefficient de re´gularisation L2.
+Wi : repre´sente chaque poids individuel dans la couche LSTM.
+Couches de normalisation : pendant l’entraˆınement d’un re´seau de neurones, les va- leurs de sortie des neurones peuvent varier conside´rablement, ce qui rend l’entraˆınement plus difficile. La couche de normalisation intervient apre`s chaque couche LSTM bidi- rectionnelle pour re´gulariser ces valeurs.
+
+Couche TimeDistributed : est utilise´e dans les mode`les se´quentiels pour appliquer une meˆme couche a` chaque e´le´ment temporel d’une se´quence de manie`re inde´pendante.
+
+Couche Dense : est une couche entie`rement connecte´e qui comporte 128 neurones, cha- cun e´tant connecte´ a` tous les neurones de la couche pre´ce´dente. Chaque neurone utilise la fonction d’activation ReLU, qui transforme les valeurs ne´gatives en ze´ro et laisse pas- ser les valeurs positives.
+
+
+Couche de Dropout : applique´e apre`s une couche Dense avec un taux de 0.4. A`
+chaque
+
+passage d’une se´quence de donne´es a` travers la couche dense, 40% des neurones sont
+
+Architecture du mode`le	83	B
+
+
+temporairement mis a` ze´ro. Cela signifie qu’ils ne contribuent ni au calcul des valeurs de sortie, ni a` la mise a` jour des poids du re´seau pendant cette ite´ration spe´cifique.
+
+— La dernie`re couche du mode`le utilise une couche Dense a` l’inte´rieur de TimeDistribu- ted. Cette couche transforme les sorties des couches LSTM pre´ce´dentes en vecteurs de taille e´gale au nombre de classes possibles. Chaque e´le´ment de ces vecteurs de sortie correspond a` la sortie d’un neurone repre´sentant une classe potentielle. En appliquant l’activation softmax a` la sortie de la couche Dense, ces valeurs sont converties en pro- babilite´s normalise´es. Chaque valeur dans le vecteur de sortie indique la probabilite´ que l’entre´e observe´e a` ce pas de temps appartienne a` chaque classe possible.
+Remarque 1. Les parame`tres utilise´s dans chaque couche du mode`le ont e´te´ se´lectionne´s apre`s de nombreux essais, afin d’obtenir les meilleurs re´sultats possibles.
+
+Parame`tres d’apprentissage
+Optimiseur d’erreur : Adaptive Moment Estimation (Adam)
+Fonction de perte : categorical crossentropy.
+Nombre d’ite´rations : 100.
+Taux d’apprentissage : 0.0001.
+
+Sortie du mode`le
+
+Figure 5.3 – Sortie du mode´le.
+
+Analyse des re´sultats	84	B
+
+
+Analyse des re´sultats
+Le jeu de donne´es comprend 2265 enregistrements et leurs transcriptions. Chaque ite´ration d’entraˆınement dure en moyenne 252 secondes, et l’entraˆınement complet du mode`le a pris environ 7 heures.
+
+Courbes d’entraˆınement et de validation
+Pour e´valuer la performance de notre mode`le sur 100 ite´rations d’entraˆınement, les deux graphiques ci-dessous pre´sentent respectivement l’e´volution de la perte et de la pre´cision pour les ensembles d’entraˆınement et de validation.
+
+
+
+
+
+— A`
+Figure 5.4 – Courbes d’entraˆınement et de validation.
+
+gauche, la courbe de perte montre la diminution progressive de l’erreur (Loss) a` la
+
+fois pour l’ensemble d’entraˆınement (courbe bleue) et l’ensemble de validation (courbe orange), indiquant que le mode`le apprend efficacement a` partir des donne´es fournies.
+
+— A`
+droite, la courbe de pre´cision refle`te l’ame´lioration de la proportion de pre´dictions
+
+correctes, de´montrant une augmentation continue de la performance du mode`le pour les ensembles d’entraˆınement et de validation.
+D’apre`s ces courbes, on remarque qu’il n’y a pas de surapprentissage, car les courbes d’en- traˆınement et de validation restent proches l’une de l’autre, indiquant que le mode`le ge´ne´ralise bien aux nouvelles donne´es. La perte finale atteint une valeur de 0.0295 et la pre´cision de 0.9831.
+
+5.6 Analyse des re´sultats	85	B
+
+
+Matrice de confusion
+Cette matrice nous permet d’identifier plus pre´cise´ment les classes pour lesquelles le mode`le fonctionne bien et celles ou` il peut rencontrer des difficulte´s, en comparant les pre´dictions cor- rectes et incorrectes pour chaque classe.
+
+
+Figure 5.5 – Matrice de confusion.
+
+La diagonale de cette matrice repre´sente le nombre d’exemplaires correctement reconnus pour chaque classe lors de la pre´diction, tandis que les autres valeurs indiquent le nombre d’exemplaires non reconnus pour chaque classe.
+
+Courbe ROC
+La courbe ROC (Receiver Operating Characteristic) est utilise´ pour e´valuer la performance d’un mode`le de classification binaire. Elle trace le taux de vrais positifs contre le taux de faux positifs a` diffe´rents seuils de classification.
+Axe des Y (Ordonne´e) : repre´sente le taux de vrais positifs (TVP), aussi appele´ sensi- bilite´ ou rappel. Il est calcule´ comme suit :
+
+TVP = 	VP	
+VP + FN
+
+(5.5)
+
+5.6 Analyse des re´sultats	86	B
+
+
+Axe des X (Abscisse) : repre´sente le taux de faux positifs (TFV), calcule´ comme suit :
+
+
+
+
+
+Ou` :
+TFP = 	FP	
+FP + VN
+(5.6)
+
+AUC (Area Under the Curve) : la surface sous la courbe ROC est une mesure de la capacite´ du mode`le a` distinguer entre les classes positives et ne´gatives. Une AUC de 1 indique une classification parfaite, tandis qu’une AUC de 0.5 indique une performance similaire a` celle d’un mode`le ale´atoire.
+Cette figure ci-dessous illustre les re´sultats obtenus pour la courbe ROC.
+
+Figure 5.6 – Courbe ROC.
+
+Les re´sultats mettent en e´vidence plusieurs mode`les ayant obtenu des performances remar- quables, avec des valeurs d’AUC supe´rieures ou e´gales a` 0.95. Cela sugge`re que ces mode`les sont tre`s efficaces pour discriminer entre les classes positives et ne´gatives.
+Toutefois, pour certains autres mode`les, il est ne´cessaire d’apporter des ame´liorations si- gnificatives afin d’atteindre des niveaux de performance comparables. Ces mode`les pourraient pre´senter des AUC plus basses, indiquant une capacite´ moindre a` distinguer correctement les exemples positifs et ne´gatifs.
+
+Analyse des re´sultats	87	B
+
+
+Rapport de classification
+Le figure ci-dessous pre´sente les re´sultats du rapport de classification, fournissant une ana- lyse de la pre´cision, du rappel, du F1-score et du support pour chaque classe de caracte`res.
+
+
+Figure 5.7 – Rapport de classification.
+
+
+Taux de reconnaissance globale
+La figure pre´sente´e ci-dessous offre une vue de´taille´e du taux de reconnaissance globale et du taux d’erreur obtenus a` partir de l’analyse du mode`le.
+Le taux de reconnaissance globale est 86,07 % indique la proportion des caracte`res correc- tement identifie´s par rapport a` l’ensemble des caracte`res teste´s. En paralle`le, le taux d’erreur est de 13,93 % repre´sente la proportion de caracte`res mal identifie´s ou incorrectement reconnus par le mode`le.
+
+5.6 Analyse des re´sultats	88	B
+
+
+Figure 5.8 – Taux de reconnaissance globale.
+
+Pour ame´liorer la performance et re´duire le taux d’erreur du mode`le, des ajustements sont essentiels afin d’optimiser sa pre´cision et sa fiabilite´. Cela nous permettra d’atteindre une re- connaissance plus pre´cise des caracte`res de la langue kabyle.
+
+Pre´diction sur les donne´es test
+Apre`s avoir re´alise´ une analyse approfondie du mode`le en utilisant des visualisations telles que les matrices de confusion, la courbes de ROC, etc., nous avons effectue´ une pre´diction sur les donne´es de test. La figure ci-dessous montre les re´sultats obtenus lors de cette pre´diction :
+
+Figure 5.9 – Pre´diction sur les donne´es test.
+
+5.6 Analyse des re´sultats	89	B
+
+
+Lors de la pre´diction sur les donne´es de test, nous avons constate´ quelques erreurs, principa- lement en raison de la similitude de prononciation entre certains phone`mes lorsque le locuteur les a lus. De plus, le fait que notre dataset soit limite´ peut e´galement contribuer a` ces erreurs.
+
+Erreurs de pre´diction
+Le graphique ci-dessous montre les erreurs de pre´diction pour les phone`mes identifie´s par notre mode`le. Chaque barre repre´sente le nombre d’occurrences ou` la pre´diction ne correspond pas au phone`me correct :
+
+Figure 5.10 – Courbe d’erreur de pre´diction.
+
+Pour comprendre les raisons de ces erreurs, nous nous concentrons sur un cas spe´cifique ou` le phone`me r. a e´te´ pre´dit 4 fois comme γ. Dans cette analyse, nous examinons deux enregistre- ments audio des deux phone`mes prononce´s par la meˆme personne :
+
+Visualisation des MFCC
+Les graphiques ci-dessous montrent les coefficients MFCC pour les deux fichiers audio. Les plages de temps sont similaires, indiquant une dure´e e´quivalente, une analyse visuelle montre des similitudes dans les motifs et les intensite´s de couleur, sugge´rant des caracte´ristiques spec- trales communes. Cependant, une e´valuation plus approfondie des MFCC est ne´cessaire pour pre´ciser les similitudes entre les fichiers audio :
+
+— Distance euclidienne : mesure la diffe´rence entre les vecteurs moyens des MFCC des deux fichiers audio. Nous avons obtenu une valeur de 43.54, bien qu’elle ne soit pas
+
+5.6 Analyse des re´sultats	90	B
+
+
+tre`s faible, reste relativement petite. Cela indique des caracte´ristiques sonores similaires malgre´ des diffe´rences potentielles dans l’amplitude des coefficients.
+— Similarite´ cosinus : e´value la ressemblance entre deux vecteurs en calculant le cosinus de l’angle entre eux. Une valeur proche de 1 indique une forte similitude, les vecteurs e´tant aligne´s dans la meˆme direction. Une valeur proche de 0 signifie qu’ils sont per- pendiculaires et donc tre`s diffe´rents. Une valeur de 0.99 entre les vecteurs moyens des coefficients MFCC sugge`re un quasi-alignement dans l’espace multidimensionnel. Cela signifie que les fichiers contiennent des sons ou des paroles tre`s similaires.
+
+
+
+Figure 5.11 – Visualisation des MFCCs et des spectrogrammes pour les fichiers audio.
+
+
+Figure 5.12 – Evaluation de la similtitude.
+
+
+Comparaison des MFCC Triangles
+Chaque graphique parmi les graphiques ci-dessous montre la variation d’un coefficient spe´cifique au fil du temps pour deux phone`mes, avec les lignes bleues repre´sentant le phone`me
+r. et les lignes rouges repre´sentant le phone`me γ.
+On remarque que dans plusieurs graphiques les lignes bleues et rouges se chevauchent ou sont tre`s proches les unes des autres, cela indique une similarite´ entre les prononciations des deux phone`mes, car inde´pendamment ils trouvent des coefficients similaires.
+
+5.6 Analyse des re´sultats	91	B
+
+
+
+
+
+
+
+
+Figure 5.13 – Comparaison des MFCC Triangles.
+
+E´ valuation du mode`le sur de nouveaux enregistrements
+Pour e´valuer plus pre´cise´ment notre mode`le, nous allons le tester sur de nouveaux enregis- trements. Cette me´thode nous permettra d’identifier les phone`mes ne´cessitant des ame´liorations.
+
+La figure ci-dessous montre les re´sultats obtenus :
+
+5.6 Analyse des re´sultats	92	B
+
+
+
+
+
+
+
+
+
+
+
+Figure 5.14 – Re´sultats de la pre´diction.
+
+Bien que le mode`le soit capable de pre´dire certains phone`mes. Mais il rencontre des diffi- culte´s avec d’autres en raison de leurs similitudes phone´tiques, ce qui conduit a` des erreurs de pre´diction.
+
+Conclusion
+Ce chapitre a explore´ le processus de de´veloppement de notre mode`le, couvrant l’environ- nement mate´riel et logiciel, la pre´paration des donne´es, l’architecture du mode`le, et les re´sultats obtenus.
+Nous avons pre´sente´ une approche de reconnaissance vocale des lettres spe´cifiques de la langue kabyle, base´e sur les re´seaux de neurones re´currents (RNN). Cette me´thode a donne´ des re´sultats montrant une pre´cision notable et un taux d’erreur faibles.
+
+B
+
+
+Conclusion ge´ne´rale et perspectives
+
+Ces dernie`res anne´es, graˆce aux progre`s en traitement du signal, en algorithmes, en archi- tectures et en mate´riel, la recherche en reconnaissance automatique de la parole a connu une forte avance´e. Aujourd’hui, les syste`mes de reconnaissance vocale sont utilise´s dans de nom- breuses applications, comme les logiciels de dicte´e, les services de transcription automatique, et les traducteurs vocaux.
+
+Ce me´moire a explore´ comment concevoir et de´velopper un syste`me de reconnaissance vo- cale pour identifier pre´cise´ment les lettres de la langue kabyle. Cet objectif a e´te´ atteint graˆce a` la mise en place d’un syste`me qui a ne´cessite´ la collecte pre´alable de 2641 enregistrements par divers locuteurs de diffe´rentes tranches d’aˆge, genres et re´gions. Ces donne´es ont e´te´ soigneu- sement traite´es pour extraire un total de 9986 enregistrements, re´partis en phone`mes, mots et phrases. Chaque enregistrement a e´te´ analyse´ afin d’identifier et de capturer ces caracte´ristiques acoustiques.
+
+Dans le cadre de notre e´tude sur la reconnaissance vocale des lettres de la langue kabyle, ces enregistrements ont e´te´ filtre´ pour extraire uniquement les enregistrements des phone`mes avec leurs annotations. Ainsi, nous avons formule´ un nouveau dataset comprenant 2256 enregistre- ments et les transcriptions associe´es.
+
+Nous avons applique´ notre mode`le utilisant des re´seaux de neurones re´currents, notamment un LSTM bidirectionnel, sur ces donne´es. Notre choix s’est porte´ sur ce mode`le en raison de sa capacite´ a` capturer efficacement les de´pendances temporelles dans les se´quences audio, ainsi que sa flexibilite´ pour ge´rer des donne´es complexes et varie´es.
+
+Les re´sultats obtenus apre`s l’application de notre mode`le ont e´te´ tre`s encourageants, avec une pre´cision mesure´e a` 98,31 % c’est le meilleur re´sultat que nous pouvons obtenir. Ce qui de´montre l’efficacite´ et la performance du mode`le propose´.
+
+En conclusion, ce projet nous a permis d’acque´rir de nouvelles connaissances. Nous avons pu de´couvrir au cours de ce travail de nouvelles notions telles que la reconnaissance automa- tique de la parole, le traitement d’un signal vocal, les re´seaux de neurone, le RNN, LSTM bidirectionnel. Ce travail nous a permis de mettre en pratique nos connaissances sur les re´seaux de neurones et d’acque´rir des connaissances supple´mentaires.
+Cependant, plusieurs perspectives sont envisage´es pour enrichir et e´tendre cette recherche :
+
+Envisager d’effectuer d’autres collectes de donne´es pour enrichir notre corpus vocal.
+
+94	B
+
+
+Avant d’inte´grer les donne´es re´ellement collecte´es et traite´es, utiliser un corpus vocal de re´fe´rence pour entraˆıner le mode`le de reconnaissance se´lectionne´.
+De´velopper un syste`me de reconnaissance vocale adapte´ aux mots et aux phrases.
+Concevoir un syste`me de transcription complet de´die´ a` la langue kabyle.
+
+B
+
+
+Bibliographie
+
+La peur des maquis. Courrier International, Sainte-Genevie`ve (France), 549 (Mai 2001), 46.
+Tout s’explique : La synthe`se vocale. aireslibres (De´cembre 2013).
+Reconnaissance vocale par pipeline comment traiter et analyser des donnees vocales et audio a l aide de votre pipeline. FasterCapital (february 2024).
+A.Benchenief. Reconnaissance voacle base´e sur les svm. Me´moire de master, Universite´ Mohamed Khider, Biskra, De´cembre 2011.
+A.Guilbaut, and A.Belloti. Chaˆınes de markov cache´es. Me´moire de master, Universite´ de Lille, 2018.
+A.Kocabiyikog˘lu. Constitution d’un corpus de traduction de la parole : augmentation du corpus LibriSpeech. Doctoral thesis, Universite´ Grenoble Alpes, Grenoble, France, 2017.
+A.Mikami. Architectures de re´seaux neuronaux re´currents a` me´moire a` court et long terme pour la ge´ne´ration de musique et de paroles japonaises. Doctoral thesis, Boston College, 2016.
+B.Elbarkani. Le choix de la graphie tifinaghe pour pour enseigner, apprendre L’amazighe au Maroc : conditions, Repre´sentation et Pratiques. Doctoral thesis, Ecole doctorale (484) Lettres, Langues, Linguistique et Arts, 35,rue du Onze-Novembre 42023 Saint Etienne Cedex 2, De´cembre 2010.
+B.Mohammed-Sadok. Transforme´e hilbert huang application a la de´tection des de´fauts du moteur asynchrone. Memoire de master, Universite´ Mohamed Khider Biskra, Juin 2018.
+Centre de recherche en langue et culture amazighes (CRLCA-Alge´rie). https:// crlca.dz/fr/. Consulte´ le 24 juin 2024.
+Centre for Speech Technology Research, University of Edinburgh. The festival speech synthesis system.  https://www.cstr.ed.ac.uk/projects/festival.  Consulte´ le 10 mai 2024.
+Ch.Basumallick. What is tensorflow ? meaning, working, and importance. Technical writer spiceworks (December 2022).
+C.Robert-Granie´, and B.Servin. Mode`le Line´aire mixte gaussien. Doctoral thesis, Institut national de la recherche agronomique, Mars 2012.
+D.Jurafsky, James, and H.Martin. Speech and Language Processing. 2. 2024.
+D.Medved. Deep learning applications for biomedical data and natural language proces- sing. Doctoral thesis (compilation), Department of computer science lund university, Box 118 SE-221 00 Lund Sweden, 2018.
+
+
+F.Adjed. Vers une normalisation du kabyle : Alphabet. halshs-03171259v2.
+F.Oukina, and I.Amar. Elaboration d’un corpus de test pour un syste´me d’e´valuation automatique des re´ponses courtes. Me´moire de master, Universite Saad Dehlb Blida 1, 2019.
+G.Claude. E´chantillonnage : tout ce que vous devez savoir pour vos recherches.
+H-I.Rhys, and J.Nowosad. Machine learning with R, the tidyverse, and mlr. 2. 2020.
+Haut commissariat a` l’amazighite´ (HCA-Alge´rie). https://www.hcamazighite.dz/ fr/. Consulte´ le 24 juin 2024.
+H.Battane, and Z.Benaissa. De´tection et diagnostic de de´fauts d’un onduleur par la tech- nique des re´seaux de neurones. Me´moire de master, Universite´ Ibn-Khaldoun de Tiaret, 2018.
+H.Taherdoost. Data Collection Methods and Tools for Research, a step-by-step Guide to choose data collection technique for academic and business research projects, vol. 10 of 1. International journal of academic research in management (IJARM) hal-03741847f, Augest 2021.
+I-H.Sarker. Machine learning : Algorithms, real-world applications and research direc- tions. SN COMPUT SCI 2 (March 2021), 160.
+I.Bahri, and M.Laib. Combinaison svm et apprentissage profond pour la reconnaissance de carecteres arabe. Me´moire de master, Universite´ Ahmed Dra¨ıa d’Adrar, 2021.
+I.Goodfellow, Y.Bengio, and A.Courville. Deep Learning. 2. MIT Press, 2016.
+I.Khalla, and B.Sedairia. Apport de la lecture dans l’apprentissage de la phone´tique cas des e´le`ves de la 5 e´me anne´e primaire. Me´moire de master, Universite´ 8 mai 1945, Guelma, 2019.
+I.Zara. L’intelligence artificielle principe, outils et objectifs. Me´moire de master, Univer- site Badji Mokhtar, Annaba, 2019.
+J-P.Delahaye. Intelligence artiicielle et le test de turing.
+J.Benesty, J.Chen, Y.Huang, and I.Cohen. Noise reduction in speech processing, vol. 2 of
+2. Springer, Augest 2009.
+J.Brownlee. Deep Learning Models for Natural Language in Python, vol. 1.1. 2017.
+J.Han, M.Kamber, and J.Pie. Data Mining Concepts and Techniques, 3 ed. Morgan Kauf- mann, 225 Wyman Street, Waltham, MA 02451, USA, 2011.
+J.Hu. Explainable deep learning for natural language processing. degree project in in- formation and communication technology, Kth royal institute of technologie school of electrical engineering and computer science, Stockholm, Sweden, October 2018.
+J.Mariani. Reconnaissance automatique de la parole : progre`s et tendances advances and trends in automatic speech recognition. LIMSI-CNRS 7, 5, 239–266.
+K.Amar, and N.Hammou. Reconnaissance vocale du genre base´e sur l’apprentissage pro- fond. Me´moire de master, Universite Abdelhammid Ibn Badis Mostaganem, 2022.
+L.Amiar. Un systeme hybride ag/pmc pour la reconnaissance de la parole arabe. Me´moire de magister, Universite Badji Mokhtar Annaba, 2005.
+
+
+L.Guechtal, R.Ouelbani, and Y.Talbi. Une approche base´e sur le traitement auto- matique du langage naturel (taln) pour la classification taxonomique des se´quences me´tage´nomiques 16s rrna. Me´moire de master, Universite´ fre´res mentouri Constantine 1, 2023.
+L’institut royal de la culture amazighe (IRCAM-Maroc). https://www.ircam.ma/ fr. Consulte´ le 24 juin 2024.
+L.Melis, and P.Desmet. Mode`les linguistiques. No. 79-145. 2000.
+M.Amar. intelligence artificielle. Cours.
+M.Boutouiga, and N.Hor. Comportement d’isolateur capot et tige f160d-146dc artificiel- lement pollue´ sous tension alternative 50hz. Me´moire de master, Universite´ Ibn Khaldoun Tiaret, 2019.
+M.Djaballah. Syste`me de pre´diction de la consommation d’e´nergie base´ deep learning. Me´moire de master, Universite´ de 8 Mai 1945 Guelma, 2021.
+M.Khene, and S.Souid.	De´tection d’activite´ vocale utilisant l’apprentissage profond.
+Me´moire de master, Universite´ de Gharda¨ıa, 2019.
+M.Mohssen, M-B.Khan, and E-M.Bashier. Machine learning algorithms and applica- tions. No. 13. Taylor et Francis Group, Boca Raton, July 2016.
+M.Mokri.	Classification des images avec les re´seaux de neurones convolutionnels. Me´moire de master, Universite´ Abou Bakr Belkaid Tlemcen, 2017.
+N.ZERARI. Inte´gration d’un module de reconnaissance de la parole au niveau d’un syste´me audiovisuel-application te´le´viseur. Doctoral thesis, Universite´ Batna 2 Mostefa Ben Boula¨ıd, AVRIL 2021.
+O.Ould-Braham, and L.Souag. Pour une histoire de la langue berbe`re dans sa diversite´ et sa complexite´. E´tudes et documents berbe`res, 45-46 (Decembre 2022), 5–35.
+P.Hairy. Les re´seaux de neurones re´currents pour les se´ries temporelles.
+R.Belbachir, and M.Azoug. L’impact de la langue maternelle sur l’enseignement- apprentissage du fle, cas des e´le`ves de premie`re anne´e du colle`ge 8 mai 1945, kherrata. Me´moire de master, Universite´ abderrahmane mira, Beja¨ıa, 2020.
+R.Bosri, and I.Harbouche. De´veloppement d’un mode`le pre´dictif de dure´e de vie des polyme`res. Me´moire de master, Universite´ Ibn Khaldoun Tiaret, 2019.
+R.Keim. The nyquist–shannon theorem : understanding sampled systems. TECHNICAL ARTICLE (May 2020).
+R.Ramdani. Commande vocale d’une plateforme mobile. Me´moire de master, Universite´ Saad Dahlab de Blida, 2016.
+R.Sheldon, and J.Burke. signal-to-noise ratio (s/n or snr). Nemertes Research (August 2021).
+S-C.˙Ileri, A.Karabina, and E.Kilic¸. Comparison of different normalization techniques on speakers, gender detection.
+S-M-S.Kabir. Basic guidelines for research : an introductory approach for all disciplines. No. 201-275. Book Zone Publication,Chittagong-4203, Bangladesh, July 2016.
+S.Aouragh. Les chaˆınes de Markov cache´es. Doctoral thesis, Universite´ de Biskra, 2006.
+
+BIBLIOGRAPHIE	98	B
+
+
+S.Arrami.	Dictionnaire amazigh carte des parlers amazighs (berbe`res).	https:// amazigh24.com/qui-sont-les-amazighs. Consulte´ le 25 Avril 2024.
+S.Chaker. Le berbere de kabylie (alge´rie). Inalco-Centre de Recherche Berbe`re, Ency- clope´die berbe`re XXVI (2004), 4055–4066.
+S.Chandar, and A.Parthipan. On challenges in training recurrent neural networks. Doc- toral thesis, Universite´ de Montre´al, November 2019.
+S.Djemil. Evaluation des techniques de reconnaissance des sons des oiseaux. Me´moire de master, Universite´ Badji Mokhtar Annaba, 2019.
+S.Harnard. Can a machine be conscious ? how ? Journal of Consciousness Studies 67-75, 10 (January 2003), 4–5.
+S.Hassani. Variation et mutation phone´tiques en kabyle.
+S.Mcleod. Z-score : definition,calculation and interpretation. SimplyPsychology (May 2019).
+S.Salmi, and T.Chahboub. Vers un syste`me d’identifiation automatique des dialectes alge´riens a` partir des vide´os yuutube. Me´moire de master, Universite Saad Dahlb, Blida, 2021.
+Y.Amirat. Extraction d’entite´s nomme´es par apprentissage profond. Me´moire de master, Universite´ du Que´bec a` Montreal, Juin 2020.
+Y.Montenay. Que-connaissez-vous-de-la-culture-kabyle-de-la-langue-kabyle. https:// fr.quora.com. Consulte´ le 25 Avril 2024.
+Z.Benblal, and F.Belouafi. Inte´gration d’un lemmatiseur arabe dans le cadre d’un syste`me de recherche d’information. Me´moire de fin d’e´tude, Universite´ ahmed draia- adrar de´partement des mathe´matiques et informatique, 2014-2015.
+Z.Bennanni, and K.Khour.	Classification des e´ve´nements audio environnementaux a`
+
+l’aide de re´seaux de neurones convultifs. Me´moire de master, Universite´ Blida, 2019.
+Saad Dahlb
+
+Z.Bobbit. Z-score normalization definition et examples. Statology (August 2021).
+Z.Gaci.	Quel syste`me d’e´criture pour la langue berbe`re(le kabyle).	Me´moire de fin d’e´tude, Universite´ Mouloud Mammeri De Tizi Ouzou, 2011.
+
+B
+
+
+Re´sume´
+
+
+
+Re´sume´
+Ce travail vise a` de´velopper un syste`me de reconnaissance vocale des lettres en langue ka- byle, en suivant plusieurs e´tapes essentielles. Tout d’abord, des donne´es ont e´te´ collecte´es sur le terrain, puis pre´traite´es en deux phases : avec Audacity pour re´duire le bruit et segmenter les signaux audio, et avec Python pour re´e´chantillonner les signaux, les normaliser et re´duire davan- tage le bruit. Les caracte´ristiques essentielles, telles que les coefficients cepstraux en fre´quences
+mel (MFCC), ont e´te´ extraites pour capturer les aspects distinctifs des signaux vocaux. Ces
+caracte´ristiques ont e´te´ utilise´es comme entre´es pour entraˆıner des mode`les de re´seaux neu-
+ronaux re´currents (RNN), en particulier le mode`le BLSTM (Bidirectional Long Short-Term
+
+Memory), qui a e´te´
+choisi pour sa capacite´
+a` capturer les de´pendances temporelles dans les
+
+donne´es se´quentielles. Le mode`le BLSTM a atteint une pre´cision de 98,31% pour la transcrip- tion des enregistrements vocaux, de´montrant une adaptabilite´ efficace a` diffe´rents locuteurs et conditions d’enregistrement.
+Mots-cle´s : Reconnaissance vocale, lettres, langue kabyle, enregistrements vocaux, collecte de donne´es, pre´traitement des donne´es, MFCC, re´seau de neurones, RNN, BLSTM.
+
+
+Abstract
+This work aims to develop a speech recognition system for letters in the Kabyle language, following several essential steps. Firstly, data was collected in the field and then preprocessed in two phases : with Audacity to reduce noise and segment the audio signals, and with Python to resample the signals, normalize them, and further reduce noise. Key features, such as Mel- Frequency Cepstral Coefficients (MFCC), were extracted to capture the distinctive aspects of the vocal signals. These features were used as inputs to train recurrent neural network models, particularly the BLSTM (Bidirectional Long Short-Term Memory) model, which was chosen for its ability to capture temporal dependencies in sequential data. The BLSTM model achieved an accuracy of 98.31% for transcribing the vocal recordings, demonstrating effective adaptabi- lity to different speakers and recording conditions.
+Keywords : Speech recognition, letters, Kabyle language, voice recordings, data collection, data preprocessing, MFCC, neural network, RNN, BLSTM.
