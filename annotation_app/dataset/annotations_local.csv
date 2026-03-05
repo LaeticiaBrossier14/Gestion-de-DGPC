@@ -15,3 +15,20 @@ CALL_0305_appe,appelle 514.wav,"gizgeli ttla3ighd vous ne reponder pas yaani nes
 — akmidafen gevrid aa  ?
 — Ih, gvrid ii Saha.",medical_emergency,severe,1.0,no,no,no,no,request_help,critical,Béjaïa,Béjaïa,Hôtel Royal,"En face l'Hôtel Royal, dhaf n'gubrida (au bord de la route)","Urgence vitale pour un homme de 73 ans, handicapé (non-voyant et amputé), souffrant d'un malaise cardiaque en pleine rue en face de l'Hôtel Royal à Béjaïa.","L'appelante utilise 'malaise', 'le coeur', et 'médicaments' pour décrire l'urgence médicale. La localisation est facilitée par le repère 'l'Hôtel Royal' (lieu emblématique de Béjaïa). L'usage de 'dhaf n'gubrida' confirme que la victime est sur la voie publique."
 CALL_0305_appe,appelle 515.wav,"— Aha l'electricité... Ay anda kach chwiya. — Anida? — Dayi... l'intersection... Boukhandous. — Boukhandous. — Achou l'commune? Achou la daira? — La commune... Melbou. Melbou. — Melbou... l'intersection Tizi El Oued. — Ah d'accord. Marqui les pompiers n'Souk El Tenine nsfahm-ed... 06... — Ach-hal nimero Souk El Tenine? — 034 09 36 13. — 36 13, d'accord.",fire_building,unknown,1.0,yes,unknown,no,no,request_help,high,Inconnu,Melbou,Boukhandous,"l'intersection Boukhandous, intersection Tizi El Oued",L'appelant signale un départ de feu lié à l'électricité au niveau d'une intersection à Melbou. L'opérateur lui communique le numéro des pompiers de Souk El Tenine.,"L'appelant utilise le terme 'tmess' (feu) et 'l'electricité', suggérant un incendie d'origine électrique. Le mot 'ghel3et' (a éclaté/surgi) renforce l'idée d'un incident soudain. La localisation est confirmée par la commune de Melbou et les repères d'intersections (Tizi El Oued, Boukhandous)."
+CALL_0305_appe,appelle 516.wav,"— thella laccident dayi g saket?
+— Eh.
+— u3limeghara ma th3elmem?
+— Na3lem, na3lem.athan ttedund les secours ngh ardina.
+— Eh, parcq athan gelhala daghn ee.
+— atan ttedund les secours ardina, demared g vgayth?
+— Ah?
+— nighayd demarid les secours ngh lehund  ahat qriv dlehqen ardina
+— Incha'Allah, Incha'Allah. 
+— Akka, yakhi yiweth lavictime kn igellan dakhel? Yiwen.
+— Conscient ig-lan normal?
+— Khati, machi conscient.
+— Amek?
+— Wallah ur d-iheddar ara, ur d-iheddar ara.
+— D'accord, ok. Aqreb ad la7qen, aqreb.
+— Incha'Allah. Sa7a. Sa7a.",accident_vehicular,severe,1.0,no,yes,no,no,report_incident,high,Béjaïa,Béjaïa,Les Quatre Chemins,"N-tseddu n-ichu kurna-rinna (Les Quatre Chemins), l-7uma-rinna, d-dzmaren n-zi-Bgayeth",Un témoin ou intervenant signale un accident de la route au niveau des 'Quatre Chemins' à Béjaïa avec une victime inconsciente et bloquée à l'intérieur du véhicule.,L'appelant utilise 'ichu kurna-rinna' pour désigner le lieu (Les Quatre Chemins). Le terme 'l'victime iglan daxel' suggère une personne coincée. La gravité est confirmée par 'machi conscient' et 'ur d-iheddar ara' (il ne parle pas).
+CALL_0305_appe,appelle 517.wav,"  — Allô... th7re9et  chejra hnaya fetriq... win kayn l'hôtel ta3 Chréa. — Win? — f Bgaya. — Win m3a Chréa? — Ah, l'hôtel ta3 Chréa. — Wach men chejra? wechnu chejra hadik  wech heya — chejr hadik m3a trig ...D'accord a khouya... aa therget mlih aa nar kbira ..d'accord... sa7it, sa7it.",fire_forest,none,1.0,yes,no,no,no,report_incident,medium,Béjaïa,Béjaïa,L'hôtel n Chréa,"Win akken yella l'hôtel n Chréa, guthabburth (à l'entrée/la porte), thchejra thimeqrant (le grand arbre)","L'appelant signale un incendie impliquant un grand arbre situé à l'entrée, près de l'hôtel Chréa à Béjaïa.",L'appelant utilise 'th7re9' (brûle) et 'thchejra' (arbre) pour signaler un feu de végétation. La localisation est précise : Béjaïa ('Bgayet') près de l'hôtel Chréa. Pas de victimes signalées.
