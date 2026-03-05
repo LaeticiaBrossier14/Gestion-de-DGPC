@@ -1,19 +1,38 @@
 """
-Serveur de vérification de transcription.
+Serveur de vérification de transcription — MODE COLLABORATIF.
 Lance: python verification_tool/server.py
 Ouvre: http://localhost:5000
+
+Fonctionnement collaboratif :
+  - Lit automatiquement TOUS les CSV d'annotations disponibles (500annotations + annotation_app)
+  - Cherche les audios dans mehrere dossiers
+  - Après un `git pull`, appelle /api/reload pour recharger sans redémarrer
 """
 import csv
 import json
 import os
 import re
+from datetime import datetime
 from pathlib import Path
 from flask import Flask, jsonify, request, send_from_directory, send_file
 
 BASE_DIR = Path(__file__).parent
 PROJECT_DIR = BASE_DIR.parent
-CSV_PATH = PROJECT_DIR / "dataset" / "500annotations_local.csv"
-AUDIO_DIR = BASE_DIR / "audio"
+
+# ── Sources CSV : tous les fichiers CSV d'annotations à fusionner ──────────
+# Ajoute ici tout nouveau CSV si besoin
+CSV_SOURCES = [
+    PROJECT_DIR / "dataset" / "500annotations_local.csv",           # annotations originales (1-505)
+    PROJECT_DIR / "annotation_app" / "dataset" / "annotations_local.csv",  # nouvelles annotations (506+)
+]
+
+# ── Dossiers audio : cherche dans tous ces dossiers ────────────────────────
+AUDIO_DIRS = [
+    BASE_DIR / "audio",                                        # audios vérification (1-505)
+    PROJECT_DIR / "annotation_app" / "audio_processed",        # audios traités annotation_app
+    PROJECT_DIR / "annotation_app" / "audio_raw",              # audios bruts annotation_app
+]
+
 PROGRESS_FILE = BASE_DIR / "verification_progress.json"
 
 app = Flask(__name__, static_folder=str(BASE_DIR))
@@ -75,17 +94,46 @@ def natural_sort_key(name):
     return [int(t) if t.isdigit() else t.lower() for t in re.split(r'(\d+)', name)]
 
 
+def find_audio(filename):
+    """Cherche un fichier audio dans tous les dossiers audio."""
+    for audio_dir in AUDIO_DIRS:
+        candidate = audio_dir / filename
+        if candidate.exists():
+            return candidate
+    return None
+
+
 def load_csv():
+    """Charge et fusionne tous les CSV sources disponibles."""
     global calls_data
-    with open(CSV_PATH, "r", encoding="utf-8-sig") as f:
-        reader = csv.DictReader(f)
-        calls_data = list(reader)
-    # Sort by natural file name order
+    merged = {}  # clé = nom de fichier audio, valeur = row dict (dédoublonnage)
+    loaded_sources = []
+
+    for csv_path in CSV_SOURCES:
+        if not csv_path.exists():
+            print(f"[SKIP] CSV introuvable : {csv_path}")
+            continue
+        try:
+            with open(csv_path, "r", encoding="utf-8-sig") as f:
+                reader = csv.DictReader(f)
+                rows = list(reader)
+            for row in rows:
+                file_key = row.get("File", "").strip()
+                if file_key and file_key not in merged:
+                    merged[file_key] = row
+                # Si déjà présent, le CSV plus récent (ordre dans CSV_SOURCES) a priorité
+                # → on ne re-écrase pas (premier chargé = priorité)
+            loaded_sources.append(str(csv_path.name))
+            print(f"[OK] Chargé {len(rows)} entrées depuis {csv_path.name}")
+        except Exception as e:
+            print(f"[ERREUR] Impossible de lire {csv_path}: {e}")
+
+    calls_data = list(merged.values())
     calls_data.sort(key=lambda r: natural_sort_key(r.get("File", "")))
-    # Assign sequential order index
     for i, row in enumerate(calls_data):
         row["_index"] = i
-    print(f"Loaded {len(calls_data)} calls from {CSV_PATH.name}")
+
+    print(f"\n[OK] Total fusionne : {len(calls_data)} appels depuis {loaded_sources}\n")
 
 
 def load_progress():
@@ -108,14 +156,50 @@ def index():
     return send_file(str(BASE_DIR / "index.html"))
 
 
+@app.route("/api/reload", methods=["POST"])
+def api_reload():
+    """Recharge tous les CSV et la progression sans redémarrer le serveur.
+    Utile après un `git pull` pour voir les nouvelles annotations de ta binôme.
+    """
+    load_csv()
+    load_progress()
+    return jsonify({
+        "ok": True,
+        "total": len(calls_data),
+        "message": f"{len(calls_data)} appels chargés après rechargement."
+    })
+
+
+@app.route("/api/sources")
+def api_sources():
+    """Retourne les fichiers CSV sources chargés et leur statut."""
+    sources = []
+    for csv_path in CSV_SOURCES:
+        sources.append({
+            "path": str(csv_path),
+            "name": csv_path.name,
+            "exists": csv_path.exists(),
+            "size": csv_path.stat().st_size if csv_path.exists() else 0,
+        })
+    audio_info = []
+    for d in AUDIO_DIRS:
+        audio_info.append({
+            "path": str(d),
+            "exists": d.exists(),
+            "files": len(list(d.glob("*.*"))) if d.exists() else 0,
+        })
+    return jsonify({"csv_sources": sources, "audio_dirs": audio_info})
+
+
 @app.route("/api/calls")
 def api_calls():
     """Return summary list of all calls with status info."""
     result = []
     for row in calls_data:
-        call_id = row.get("ID", "")
-        filename = row.get("File", "")
-        audio_exists = (AUDIO_DIR / filename).exists()
+        filename = row.get("File", "").strip()
+        # Use filename as unique ID (the ID column is often truncated/duplicate)
+        call_id = filename
+        audio_path = find_audio(filename)
         p = progress.get(call_id, {})
         result.append({
             "id": call_id,
@@ -124,19 +208,21 @@ def api_calls():
             "incident_type": row.get("incident_type", ""),
             "summary": row.get("summary", "")[:100],
             "status": p.get("status", "pending"),
-            "audio_exists": audio_exists,
+            "audio_exists": audio_path is not None,
         })
     return jsonify(result)
 
 
-@app.route("/api/call/<call_id>")
+@app.route("/api/call/<path:call_id>")
 def api_call_detail(call_id):
-    """Return full detail of one call."""
-    row = next((r for r in calls_data if r.get("ID") == call_id), None)
+    """Return full detail of one call. call_id = filename (unique key)."""
+    # call_id is the filename used as unique key
+    row = next((r for r in calls_data if r.get("File", "").strip() == call_id), None)
     if not row:
         return jsonify({"error": "not found"}), 404
+    filename = row.get("File", "").strip()
     p = progress.get(call_id, {})
-    filename = row.get("File", "")
+    audio_path = find_audio(filename)
     return jsonify({
         "id": call_id,
         "index": row["_index"],
@@ -159,7 +245,8 @@ def api_call_detail(call_id):
         "summary": row.get("summary", ""),
         "notes_cot": row.get("notes_cot", ""),
         "status": p.get("status", "pending"),
-        "audio_exists": (AUDIO_DIR / filename).exists(),
+        "audio_exists": audio_path is not None,
+        "audio_source": str(audio_path) if audio_path else None,
     })
 
 
@@ -176,9 +263,9 @@ def api_ontology():
     })
 
 
-@app.route("/api/call/<call_id>/action", methods=["POST"])
+@app.route("/api/call/<path:call_id>/action", methods=["POST"])
 def api_call_action(call_id):
-    """Update call status: verified / corrected / skipped. Also saves metadata."""
+    """Update call status: verified / corrected / skipped. call_id = filename."""
     data = request.json
     action = data.get("action")  # verified, corrected, skipped
     corrected = data.get("corrected_transcription", "")
@@ -202,10 +289,11 @@ def api_stats():
     """Return verification statistics."""
     total = len(calls_data)
     statuses = {"verified": 0, "corrected": 0, "skipped": 0, "pending": 0}
-    audio_available = sum(1 for r in calls_data if (AUDIO_DIR / r.get("File", "")).exists())
+    audio_available = sum(1 for r in calls_data if find_audio(r.get("File", "")) is not None)
 
     for row in calls_data:
-        cid = row.get("ID", "")
+        # Use filename as unique key
+        cid = row.get("File", "").strip()
         s = progress.get(cid, {}).get("status", "pending")
         statuses[s] = statuses.get(s, 0) + 1
 
@@ -251,16 +339,32 @@ def api_export():
 
 @app.route("/audio/<path:filename>")
 def serve_audio(filename):
-    """Serve audio files from the audio directory."""
-    return send_from_directory(str(AUDIO_DIR), filename)
+    """Cherche et sert l'audio depuis n'importe quel dossier audio disponible."""
+    audio_path = find_audio(filename)
+    if audio_path is None:
+        return jsonify({"error": f"Audio '{filename}' introuvable dans tous les dossiers."}), 404
+    return send_from_directory(str(audio_path.parent), audio_path.name)
 
 
 # ── Startup ─────────────────────────────────────────────────────────────
 if __name__ == "__main__":
-    AUDIO_DIR.mkdir(exist_ok=True)
+    # Crée le dossier audio principal si besoin
+    AUDIO_DIRS[0].mkdir(exist_ok=True)
     load_csv()
     load_progress()
-    print(f"\n  Audio directory: {AUDIO_DIR}")
-    print(f"  Put your WAV files in: {AUDIO_DIR}")
-    print(f"\n  Open: http://localhost:5000\n")
+    print("\n" + "="*60)
+    print("  [DGPC] Verification Tool -- MODE COLLABORATIF")
+    print("="*60)
+    print("\n  [CSV] Sources CSV :")
+    for csv_path in CSV_SOURCES:
+        status = "[OK]" if csv_path.exists() else "[ABSENT]"
+        print(f"    {status}  {csv_path}")
+    print("\n  [AUDIO] Dossiers audio :")
+    for d in AUDIO_DIRS:
+        status = "[OK]" if d.exists() else "[ABSENT]"
+        print(f"    {status}  {d}")
+    print("\n  [WEB] Ouvre: http://localhost:5000")
+    print("\n  [INFO] Apres un git pull, POST sur /api/reload pour recharger les CSV")
+    print("     sans redemarrer le serveur.")
+    print("="*60 + "\n")
     app.run(host="0.0.0.0", port=5000, debug=True)
