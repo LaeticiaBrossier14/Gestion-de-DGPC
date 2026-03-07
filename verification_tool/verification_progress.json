@@ -1076,5 +1076,159 @@
       "notes_cot": "L'appelant mentionne 'is3a mator' (il a une moto) et 'l'urgence a-t-yawit' (il faut l'emmener d'urgence). L'expression 'i-ru7 ad-ikker' (il essaie de se lever mais retombe) indique une incapacité physique suite au choc. Le lieu 'Djermouna' à 'Kherrata' est clairement identifié. L'opérateur transmet le numéro direct de la caserne de Kherrata ('numiru n-Kherrata l-3ayachin')."
     },
     "timestamp": "2026-03-07T00:27:47.546244"
+  },
+  "Appelle 49.wav": {
+    "status": "corrected",
+    "corrected_transcription": "A cherchour 3edimd ar  acherchour...-ehbes okdesalrara ikel aseyed a 3awed sle3qel  dachou ilan ?   -Acherchour Acherchour  la plage acherchour  - Acherchour, dachou igelan g cherchour ? - wellah yewen urgaz dayi sa3a itnoufous -   g la route nationale aa ? - khati g lebher  La plage ! - anda ? - la plage la plage - zdakel la plage ? yakhi machi daskar igesker wayi ?  - Khati khati khati  - D'accord ih  d'accord   ..Milieu cité Tobbal !",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "report_incident",
+      "urgency_human": "unknown",
+      "injury_severity": "unknown",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "cherchour",
+      "location_description": "Route nationale  ,  la plage ",
+      "summary": "Un citoyen signale que un home est tombé par terre dans la plage a cherchour  et il sait pas ce qu'il a exactement .  ",
+      "notes_cot": "L'appelant signale une 'yewen urgaz dayi sa3a itnoufous'  ce qui confirme un urgence medicale ( medical_emergency) . L'urgence est 'inconnu\". La localisation est précise :'cherchour  la plage'"
+    },
+    "timestamp": "2026-03-07T12:24:19.266657"
+  },
+  "Appelle 50.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Allo salam a3likoum ... wa3likoum salam ...l7imaya lmadania ? ..... an3am ayigma oui ? ....athan dayi umdakliw idoukh dayi  boulimat....dachu thiwghen ?.... welleh ighli ighli  s la moto .... s la moto ? ....eh ...idoukh ner ighli ? ... aweh  idoukh ighli kan idoukh igouma adiker... anwa wamkan g  Boulimat ? .. dayi g boulimat kan atatret ar ljiha ni kan atafet dina ... Matchi taksarth Premier piste , deuxième piste ?...khati khati  premier piste kan tkechmet ar zdakhel  ... ah oui iswa chwiya ? ...nah ? .... iswa?.... Chou dwayi achou  iswa ? ... mayeswa l'alcool ner khati .... Awah awah  l'alcool igeswara ....aya D'accord 3ased l'ambulance ni imala....sa7a ",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "request_help",
+      "urgency_human": "high",
+      "injury_severity": "unknown",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "Boulimat",
+      "location_description": "Boulimat , premier piste",
+      "summary": "Un homme a perdu connaissance alors qu’il était sur sa moto et il est tombé. L’incident s’est produit à Boulimat.",
+      "notes_cot": "L'appelant signale un 'umdakliw idoukh' (mon ami perdu connaissance ) à 'Boulimat'. L'état de la victime est décrit comme 'idoukh' (étourdi/inconscient) et 'ighli ' (il est tombé), ce qui indique une urgence médicale sévère. La précision sur la 'premier piste' aide à la localisation. La mention 'iswa l'alcool' (il a bu de l'alcool) précise le contexte."
+    },
+    "timestamp": "2026-03-07T12:37:55.257354"
+  },
+  "Appelle 51.wav": {
+    "status": "corrected",
+    "corrected_transcription": "an3am ?....Allo? ...Allo oui....Oui, les pompiers?....an3am ?.... gla3nayek nes3a un malade... Anda?....... thessnet thajebant n  tremant ? imsawen .... Anda thajebant n tremant ? ... Eyy  b3id 7ednu as asnefham ....a ?....Ouali Ikhlef, Ikhlef, Ouali Ikhlef. Ikhlef .....dayi g Bgayet a ?.... Aokas, Aokas, Aokas, Aokas.... Khamdeker  l'numero n Aokas... achhel n Aokas chhel n Aokas?.... 034... dqiqa kan dqiqa gl3nayek menhou is3an a portable menhou is3an a portable menhou is3an a portable? 034  ..  84..84... 31 34.... 034 ..84... 84...31 34 ...31 34 ... Saha.... Merci  saha.",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "request_help",
+      "urgency_human": "unknown",
+      "injury_severity": "unknown",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Aokas",
+      "commune": "Aokas",
+      "lieu": "Ouali Ikhlef",
+      "location_description": "thajebant tremant iwsawen (en haut),  Ouali Ikhlef",
+      "summary": "Une femme appelle pour une urgence médicale concernant un malade situé à Aokas, dans le quartier de Ouali Ikhlef. Elle fournit un numéro de téléphone fixe pour être rappelée.",
+      "notes_cot": "L'appelant utilise le mot 'malade' et demande 'l3nayek' (je vous en supplie) pour un secours, ce qui classe l'incident en medical_emergency. Elle précise la localisation à Aokas, mentionnant 'Ouali Ikhlef' et 'thajebant tremant'. L'usage de 'iwsawen' indique que le lieu est situé en hauteur."
+    },
+    "timestamp": "2026-03-07T12:47:30.606608"
+  },
+  "Appelle 52.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Alo oui salam 3likoum . -Salam 3aslama  les pompiers oui ? - les pompiers al'jariw  ?- An3am.- An3am maadalim ar Sidi Ali s3igh amodhin  vava athsober  ar svitar athan inter grave -Sidi Ali ? - sidi ali ih - A9bou a ? -sidi ali a9bou eh -bon fghend  les pompiers ar sid ali o3limrara ner   c'est le meme ner khati ?-izmer ttina parce que tsawled wultma toura  izmer lhal ttina.-lou3anas imala ar dina dousan  - athen aqil toused ar dagi - fkas numero  akdefker numero akdefker numero confirmé est ce que c'est le meme ner khati parce que tousad ar dayi o3limrara ner c'est le meme malade ner  khati - ih ttina parce que tsawled woultma, nanas aqlagh athan  3awdghed neki daren - eh  mala tedound imala  ar dina - d'accord al'jariw -saha-saha .",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "request_help",
+      "urgency_human": "high",
+      "injury_severity": "unknown",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Akbou",
+      "commune": "Akbou",
+      "lieu": "Sidi Ali",
+      "location_description": "Sidi Ali",
+      "summary": "À Akbou, quartier Sidi Ali, un homme demande de l’aide pour son père qu’il emmène à l’hôpital.",
+      "notes_cot": "L'appelant utilise 'athan inter grave' pour souligner l'urgence. Le lieu est précisé par 'a9bou' (Akbou) et 'Sidi Ali' . L'incident semble sérieux  la nature exacte 'medical_emergency' ."
+    },
+    "timestamp": "2026-03-07T13:03:37.698452"
+  },
+  "Appelle 53.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Dayeni Une vieille dame  d'évanouie  dayini g kham , au niveau primaire Boukhalfa. — Anda? — primaire Boukhalfa. — A seyed dayi d les pompiers n Bgayeth, ansi dtessawlet? — Amizour. — Ah Amizour, akdeker numéro n amizour ma3lich? — ih fkiyithid . — Marki: 034- kemel ayigma - 034 -ehi -08 -08-ih 08 77 14. — Sa7it. — Sa7it a seyed .",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "report_incident",
+      "urgency_human": "high",
+      "injury_severity": "unknown",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Amizour",
+      "commune": "Amizour",
+      "lieu": "primaire Boukhalfa",
+      "location_description": "au niveau primaire Boukhalfa",
+      "summary": "Un homme signale qu'une femme âgée s'est évanouie à son domicile situé à lprimaire Boukhalfa.Boukhalfa à Amizour. L'opérateur de Béjaïa lui fournit le numéro direct de la caserne d'Amizour.",
+      "notes_cot": "L'appelant utilise 'd'évanouie' (elle s'est évanouie) indiquant une 'medical_emergency'. La victime est 'yiwet l'vieille dame' (une vieille dame). Le lieu est 'primaire Boukhalfa.e Boukhalfa' à 'Amizour'. L'opérateur identifie que l'appel arrive à la caserne centrale de Béjaïa et réoriente vers le centre local."
+    },
+    "timestamp": "2026-03-07T13:11:13.276662"
+  },
+  "Appelle 54.wav": {
+    "status": "corrected",
+    "corrected_transcription": "la Place Gueydon sur la grand poste c'est les pompiers ?  -eh -centre ville. - Sa7et ifri, Sa7et ifri, la Place Gueydon. - Sa7et ifri negh la Place Gueydon? sfehmaghed a seyed . - La Place Gueydon, ar dali  BoulaGlace. - dali boulaglace? - eh ezlem chwiya - amek ? -  nirakd   Irzu felas chwiya uqchich ayi  évanoui ner  - Ah d'accord, eh. - Sa7it. - Sa7a.",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "report_incident",
+      "urgency_human": "high",
+      "injury_severity": "minor",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "Place Gueydon",
+      "location_description": "Centre ville, dali  BoulaGlace (en dessous  Place Gueydon)",
+      "summary": "Demande de secours pour un jeune homme qui s'est évanoui à la Place Gueydon (centre-ville de Béjaïa), près du glacier BoulaGlace.",
+      "notes_cot": "L'appelant mentionne 'l'pompiers' et 'centre ville'. Le lieu est précisé comme 'Place Gueydon' avec un repère local fort 'BoulaGlace' (célèbre glacier). La nature de l'urgence est médicale : 'irzu ' (du français évanouir) et 'uqchich' (le garçon/jeune homme)."
+    },
+    "timestamp": "2026-03-07T13:19:55.900388"
+  },
+  "Appelle 55.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Allo? ..allo oui ... Salam 3likoum ... Salam ...gla3nayak agma ....toura id3edar atefret  abird tfer abrid n wuqvou fregh dayi g Sidi Aïch . atafet dina anda iges3a  Berra anda tela la sortie n l'autoroute ar maratefret  ar lijouwah akith ila yiwen  apoteau ch3el dhyes tmess mais machi akeni mlih ner mais bon c'est un début.... Ma3lish, athen tedound ar ghoures ...tedound ar ghoures a ? ...oui ...Sa7a... sa7it agma.",
+    "metadata": {
+      "incident_type": "other",
+      "intent": "report_incident",
+      "urgency_human": "low",
+      "injury_severity": "none",
+      "fire_present": "yes",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Sidi-Aïch",
+      "commune": "Sidi Aïch",
+      "lieu": "Sortie de l'autoroute",
+      "location_description": " la sortie n l'autoroute ",
+      "summary": "Signalement d'un poteau électrique en feu à la sortie de l'autoroute de Sidi Aïch.",
+      "notes_cot": "L'appelant utilise 't7araq' (brûle) et 'ch3el' (allumé/en feu) concernant un 'poteau'. Il précise la localisation 'berra n'l'autoroute' (sortie de l'autoroute) à Sidi Aïch. L'incident est classé 'other' car il s'agit d'une infrastructure électrique."
+    },
+    "timestamp": "2026-03-07T13:49:44.350125"
   }
 }
