@@ -1230,5 +1230,27 @@
       "notes_cot": "L'appelant utilise 't7araq' (brûle) et 'ch3el' (allumé/en feu) concernant un 'poteau'. Il précise la localisation 'berra n'l'autoroute' (sortie de l'autoroute) à Sidi Aïch. L'incident est classé 'other' car il s'agit d'une infrastructure électrique."
     },
     "timestamp": "2026-03-07T13:49:44.350125"
+  },
+  "Appelle 56.wav": {
+    "status": "corrected",
+    "corrected_transcription": "azul fellak  a khouya, je suis médecin.-An3am ?- nirak médecin je suis médecin. - 3aslama a tbib oui - azul felak a khouya Je me suis déplacé chez un malade lou3aniyid felas oumbe3 mi ouffir  c'est une insuffisance cardiaque.-eh - La malade elle respire mal, c'est-à-dire ilaq attawi ar  l'hôpital obliger atdéplaci regh l'hopital  L'ambulance doit être oxygénée parce qu'elle désature, elle n'arrive pas à respirer. — Achhal la saturation d'oxygène a tbib? — Amek ? - la saturation d'oxygène anda itelheq thoura ? -La saturation d'oxygène elle va etre d'environ 82. — eh Donc l'adresse exacte? — L'adresse exacte akds3edir miss akdisefhem exact au moin anda awid une ambulance oxygénée, position demi-assis, akd préparir la lettre  et tout, awit  directement ar les urgences médicales dina g Khellil Amrane medical c'est bon — Ma3lich ma3lishe fkiyid l'adresse exact a tbib. — allo - oui oui - C'est à Taghzout  ar terminus — Taghzout Terminus Taghzout — donc À droite, ozrirara ner snet  la salle des fêtes mourad thazrart . — La salle des fêtes? —eh  la Promotion ni mourad tazrarth  - lmouhim zath la salle des fêtes n Taghzout yakhi ? - Mais wetkhdem ara terminus nni ar t7anut - eh -à droite à droite vers Bouhoual. — Vers wachou ? — Vers Bouhoual.-Bouhoual - wahed 300 mètres. Ma3lich mais ketchi tzemret aghd3aset dina ar terminus  n Taghzout - Akd3aser  ih akunid3aser anda tevgham - jiyid kan numero numero ynek  dwayi 0558... ? — D l'numéro inu ih. — donc 3asared dina ar  l'arret de bus n Taghzout terminus.- ar l'arret de bus Taghzout terminus akounid3aser din  -ih - d'accord -3asared dina a seyed d'accord- sa7a",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "request_help",
+      "urgency_human": "high",
+      "injury_severity": "severe",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1.0",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "Taghzout",
+      "location_description": "Taghzout Terminus,zath la salle des fêtes, la Promotion ni mourad tazrarth à droite vers Bouhoual ",
+      "summary": "Un médecin signale une patiente en insuffisance cardiaque sévère avec une saturation à 82% nécessitant une ambulance oxygénée vers l'hôpital Khellil Amrane. Le rendez-vous est fixé au terminus de bus de à Taghzout. ",
+      "notes_cot": "L'appelant s'identifie comme médecin et utilise un vocabulaire clinique ('insuffisance cardiaque', 'désature', 'saturation 82%') ce qui confirme medical_emergency. La saturation basse indique un danger immédiat (urgency high). Les lieux cités (Taghzout, Bouhoual) situent l'incident dans la commune Bejaia."
+    },
+    "timestamp": "2026-03-07T14:40:38.226638"
   }
 }
