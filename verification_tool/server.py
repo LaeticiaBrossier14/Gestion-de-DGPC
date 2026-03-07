@@ -201,12 +201,13 @@ def api_calls():
         call_id = filename
         audio_path = find_audio(filename)
         p = progress.get(call_id, {})
+        meta = p.get("metadata", {})
         result.append({
             "id": call_id,
             "index": row["_index"],
             "file": filename,
-            "incident_type": row.get("incident_type", ""),
-            "summary": row.get("summary", "")[:100],
+            "incident_type": meta.get("incident_type", row.get("incident_type", "")),
+            "summary": meta.get("summary", row.get("summary", ""))[:100],
             "status": p.get("status", "pending"),
             "audio_exists": audio_path is not None,
         })
@@ -222,6 +223,7 @@ def api_call_detail(call_id):
         return jsonify({"error": "not found"}), 404
     filename = row.get("File", "").strip()
     p = progress.get(call_id, {})
+    meta = p.get("metadata", {})
     audio_path = find_audio(filename)
     return jsonify({
         "id": call_id,
@@ -229,21 +231,21 @@ def api_call_detail(call_id):
         "file": filename,
         "transcription": row.get("Transcription", ""),
         "corrected_transcription": p.get("corrected_transcription", ""),
-        "incident_type": row.get("incident_type", ""),
-        "injury_severity": row.get("injury_severity", ""),
-        "victims_count": row.get("victims_count", ""),
-        "fire_present": row.get("fire_present", ""),
-        "trapped_persons": row.get("trapped_persons", ""),
-        "weapons_involved": row.get("weapons_involved", ""),
-        "hazmat_involved": row.get("hazmat_involved", ""),
-        "intent": row.get("intent", ""),
-        "urgency_human": row.get("urgency_human", ""),
-        "daira": row.get("daira", ""),
-        "commune": row.get("commune", ""),
-        "lieu": row.get("lieu", ""),
-        "location_description": row.get("location_description", ""),
-        "summary": row.get("summary", ""),
-        "notes_cot": row.get("notes_cot", ""),
+        "incident_type": meta.get("incident_type", row.get("incident_type", "")),
+        "injury_severity": meta.get("injury_severity", row.get("injury_severity", "")),
+        "victims_count": meta.get("victims_count", row.get("victims_count", "")),
+        "fire_present": meta.get("fire_present", row.get("fire_present", "")),
+        "trapped_persons": meta.get("trapped_persons", row.get("trapped_persons", "")),
+        "weapons_involved": meta.get("weapons_involved", row.get("weapons_involved", "")),
+        "hazmat_involved": meta.get("hazmat_involved", row.get("hazmat_involved", "")),
+        "intent": meta.get("intent", row.get("intent", "")),
+        "urgency_human": meta.get("urgency_human", row.get("urgency_human", "")),
+        "daira": meta.get("daira", row.get("daira", "")),
+        "commune": meta.get("commune", row.get("commune", "")),
+        "lieu": meta.get("lieu", row.get("lieu", "")),
+        "location_description": meta.get("location_description", row.get("location_description", "")),
+        "summary": meta.get("summary", row.get("summary", "")),
+        "notes_cot": meta.get("notes_cot", row.get("notes_cot", "")),
         "status": p.get("status", "pending"),
         "audio_exists": audio_path is not None,
         "audio_source": str(audio_path) if audio_path else None,

@@ -1215,21 +1215,21 @@
     "metadata": {
       "incident_type": "other",
       "intent": "report_incident",
-      "urgency_human": "low",
+      "urgency_human": "medium",
       "injury_severity": "none",
       "fire_present": "yes",
       "trapped_persons": "no",
       "weapons_involved": "no",
       "hazmat_involved": "no",
       "victims_count": "0",
-      "daira": "Sidi-Aïch",
+      "daira": "Béjaïa",
       "commune": "Sidi Aïch",
       "lieu": "Sortie de l'autoroute",
-      "location_description": " la sortie n l'autoroute ",
+      "location_description": "Sortie de l'autoroute",
       "summary": "Signalement d'un poteau électrique en feu à la sortie de l'autoroute de Sidi Aïch.",
       "notes_cot": "L'appelant utilise 't7araq' (brûle) et 'ch3el' (allumé/en feu) concernant un 'poteau'. Il précise la localisation 'berra n'l'autoroute' (sortie de l'autoroute) à Sidi Aïch. L'incident est classé 'other' car il s'agit d'une infrastructure électrique."
     },
-    "timestamp": "2026-03-07T13:49:44.350125"
+    "timestamp": "2026-03-07T14:57:43.766340"
   },
   "Appelle 56.wav": {
     "status": "corrected",
