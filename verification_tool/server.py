@@ -319,7 +319,7 @@ def api_export():
     writer = csv.DictWriter(output, fieldnames=fieldnames, extrasaction="ignore")
     writer.writeheader()
     for row in calls_data:
-        cid = row.get("ID", "")
+        cid = row.get("File", "").strip()
         p = progress.get(cid, {})
         out = {k: v for k, v in row.items() if not k.startswith("_")}
         # Apply metadata overrides from verification
