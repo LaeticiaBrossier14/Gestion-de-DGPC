@@ -347,6 +347,9 @@ def load_data(p):
     return {} if "config" in p else []
 
 def save_all(data_list):
+    # Trier la liste par le nom du fichier audio pour un CSV propre
+    data_list.sort(key=lambda x: str(x.get('audio_file', '')))
+    
     with open(ANNOTATIONS_FILE, 'w', encoding='utf-8') as f: json.dump(data_list, f, ensure_ascii=False, indent=2)
     rows = []
     for a in data_list:

@@ -530,29 +530,6 @@
   },
   {
     "id_audio": "CALL_0306_appe",
-    "audio_file": "appelle 560.wav",
-    "timestamp": "2026-03-07T22:11:12.339832",
-    "transcription": "— L'7imaya l'madania, an3am?\n",
-    "extraction": {
-      "incident_type": "unknown",
-      "injury_severity": "unknown",
-      "victims_count": null,
-      "fire_present": "unknown",
-      "trapped_persons": "unknown",
-      "weapons_involved": "no",
-      "hazmat_involved": "no",
-      "intent": "other",
-      "urgency_human": "high",
-      "daira": "Inconnu",
-      "commune": "inconnu",
-      "lieu": "inconnu",
-      "location_description": "inconnu",
-      "summary": "Un appelant signale un accident de la route survenu à Tala Hamza. L'opérateur lui demande de garder son calme.",
-      "notes_cot": "L'appelant utilise le mot français 'l'accident' intégré au dialecte. La localisation est claire grâce au déictique 'dayi' (ici) et le nom de la commune 'Tala Hamza'. L'opérateur utilise 'chwiya s'l39el' (un peu de calme/raison) pour gérer le stress de l'appelant."
-    }
-  },
-  {
-    "id_audio": "CALL_0306_appe",
     "audio_file": "appelle 529.wav",
     "timestamp": "2026-03-06T15:25:11.689259",
     "transcription": "  —thella yiwth teqcichth dayi wahid ireyahen sob aresouq tharna theghli tteghlay kan uzrighara chu ma thkhememl haja—anda ktheghli g tomobile thelid kechi ....nn attan g vera...nk aqli. partagigh dayi theghli ar grand marche ....donc ljiha la resedence iwssawen  machi ghevrid amqran...xt ljiha la residence ar l ciosque ni ar le coin attn en face le ciosque ni... daccord tura dchey3egh lambulance 3assemd kn dina ha sa7a. — D'accord... aya sa7it.",
@@ -1262,6 +1239,29 @@
       "location_description": "inconnu",
       "summary": "L'appelant signale un départ de feu à l'arrêt de bus de Sidi Ahmed, situé sur l'autoroute à Béjaïa.",
       "notes_cot": "L'appelant utilise le verbe 'techa3l' (brûle/est en feu) avec le nom 'tmess' (feu) pour désigner l'incident. La localisation est précise : 'l'arrêt n- Sidi Ahmed' et 'l'autoroute', ce qui oriente vers un incendie de broussailles/végétation sur le bas-côté (fire_forest)."
+    }
+  },
+  {
+    "id_audio": "CALL_0306_appe",
+    "audio_file": "appelle 560.wav",
+    "timestamp": "2026-03-07T22:11:12.339832",
+    "transcription": "— L'7imaya l'madania, an3am?\n",
+    "extraction": {
+      "incident_type": "unknown",
+      "injury_severity": "unknown",
+      "victims_count": null,
+      "fire_present": "unknown",
+      "trapped_persons": "unknown",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "intent": "other",
+      "urgency_human": "high",
+      "daira": "Inconnu",
+      "commune": "inconnu",
+      "lieu": "inconnu",
+      "location_description": "inconnu",
+      "summary": "Un appelant signale un accident de la route survenu à Tala Hamza. L'opérateur lui demande de garder son calme.",
+      "notes_cot": "L'appelant utilise le mot français 'l'accident' intégré au dialecte. La localisation est claire grâce au déictique 'dayi' (ici) et le nom de la commune 'Tala Hamza'. L'opérateur utilise 'chwiya s'l39el' (un peu de calme/raison) pour gérer le stress de l'appelant."
     }
   },
   {
