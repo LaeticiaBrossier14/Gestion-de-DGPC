@@ -535,7 +535,7 @@ with act_col1:
     st.markdown('</div>', unsafe_allow_html=True)
 
 with act_col2:
-    st.session_state.f_text = st.text_area("Transcription", value=st.session_state.f_text, height=140, label_visibility="collapsed")
+    st.text_area("Transcription", key="f_text", height=140, label_visibility="collapsed")
 
 # --- CORRECTION PANEL ---
 if hasattr(st.session_state, 'f_corrections') and st.session_state.f_corrections:
@@ -617,19 +617,19 @@ _da_val = st.session_state.v_daira
 _da_idx = DAIRAS_BEJAIA.index(_da_val) if _da_val in DAIRAS_BEJAIA else 0
 st.session_state.v_daira = grid_r3_c1.selectbox("Daïra", DAIRAS_BEJAIA, index=_da_idx)
 
-st.session_state.v_commune = grid_r3_c2.text_input("Commune", value=st.session_state.v_commune)
-st.session_state.v_lieu = grid_r3_c3.text_input("Village / Localité", value=st.session_state.v_lieu)
+grid_r3_c2.text_input("Commune", key="v_commune")
+grid_r3_c3.text_input("Village / Localité", key="v_lieu")
 
 # --- Row 4 : Location description (repères) ---
-st.session_state.v_location_description = st.text_area(
+st.text_area(
     "📍 Repères / Description itinéraire (verbatim de l'appelant)",
-    value=st.session_state.v_location_description, height=60
+    key="v_location_description", height=60
 )
 
 # --- Row 5 : Summary + Notes CoT ---
 grid_r5_c1, grid_r5_c2 = st.columns(2)
-st.session_state.v_summary = grid_r5_c1.text_area("📝 Résumé (français)", value=st.session_state.v_summary, height=60)
-st.session_state.v_notes_cot = grid_r5_c2.text_area("🧠 Raisonnement (Chain-of-Thought)", value=st.session_state.v_notes_cot, height=60)
+grid_r5_c1.text_area("📝 Résumé (français)", key="v_summary", height=60)
+grid_r5_c2.text_area("🧠 Raisonnement (Chain-of-Thought)", key="v_notes_cot", height=60)
 
 # 4. GLOBAL ACTIONS
 st.markdown("---")
