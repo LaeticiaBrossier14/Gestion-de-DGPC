@@ -1210,8 +1210,8 @@
         "timestamp": "2026-03-07T13:19:55.900388"
     },
     "Appelle 55.wav": {
-        "status": "verified",
-        "corrected_transcription": "",
+        "status": "corrected",
+        "corrected_transcription": "Allo? ..allo oui ... Salam 3likoum ... Salam ...gla3nayak agma ....toura id3edar atefret  abird tfer abrid n wuqvou fregh dayi g Sidi Aïch . atafet dina anda iges3a  Berra anda tela la sortie n l'autoroute ar maratefret  ar lijouwah akith ila yiwen  apoteau ch3el dhyes tmess mais machi akeni mlih ner mais bon c'est un début.... Ma3lish, athen tedound ar ghoures ...tedound ar ghoures a ? ...oui ...Sa7a... sa7it agma.",
         "metadata": {
             "incident_type": "other",
             "intent": "report_incident",
@@ -1221,19 +1221,19 @@
             "trapped_persons": "no",
             "weapons_involved": "no",
             "hazmat_involved": "no",
-            "victims_count": "1.0",
-            "daira": "",
+            "victims_count": "0",
+            "daira": "Béjaïa",
             "commune": "Sidi Aïch",
             "lieu": "Sortie de l'autoroute",
-            "location_description": "jiha sidi aich ,mekhrej n lautouroute",
+            "location_description": "Sortie de l'autoroute",
             "summary": "Signalement d'un poteau électrique en feu à la sortie de l'autoroute de Sidi Aïch.",
-            "notes_cot": "L'appelant utilise 't7araq' (brûle) et 'ch3el' (allumé/en feu) concernant un 'poteau'. Il précise la localisation 'mkhrej n'l'autoroute' (sortie de l'autoroute) à Sidi Aïch. L'incident est classé 'other' car il s'agit d'une infrastructure électrique."
+            "notes_cot": "L'appelant utilise 't7araq' (brûle) et 'ch3el' (allumé/en feu) concernant un 'poteau'. Il précise la localisation 'berra n'l'autoroute' (sortie de l'autoroute) à Sidi Aïch. L'incident est classé 'other' car il s'agit d'une infrastructure électrique."
         },
-        "timestamp": "2026-03-07T20:50:46.474212"
+        "timestamp": "2026-03-07T14:57:43.766340"
     },
     "Appelle 56.wav": {
-        "status": "skipped",
-        "corrected_transcription": "",
+        "status": "corrected",
+        "corrected_transcription": "azul fellak  a khouya, je suis médecin.-An3am ?- nirak médecin je suis médecin. - 3aslama a tbib oui - azul felak a khouya Je me suis déplacé chez un malade lou3aniyid felas oumbe3 mi ouffir  c'est une insuffisance cardiaque.-eh - La malade elle respire mal, c'est-à-dire ilaq attawi ar  l'hôpital obliger atdéplaci regh l'hopital  L'ambulance doit être oxygénée parce qu'elle désature, elle n'arrive pas à respirer. — Achhal la saturation d'oxygène a tbib? — Amek ? - la saturation d'oxygène anda itelheq thoura ? -La saturation d'oxygène elle va etre d'environ 82. — eh Donc l'adresse exacte? — L'adresse exacte akds3edir miss akdisefhem exact au moin anda awid une ambulance oxygénée, position demi-assis, akd préparir la lettre  et tout, awit  directement ar les urgences médicales dina g Khellil Amrane medical c'est bon — Ma3lich ma3lishe fkiyid l'adresse exact a tbib. — allo - oui oui - C'est à Taghzout  ar terminus — Taghzout Terminus Taghzout — donc À droite, ozrirara ner snet  la salle des fêtes mourad thazrart . — La salle des fêtes? —eh  la Promotion ni mourad tazrarth  - lmouhim zath la salle des fêtes n Taghzout yakhi ? - Mais wetkhdem ara terminus nni ar t7anut - eh -à droite à droite vers Bouhoual. — Vers wachou ? — Vers Bouhoual.-Bouhoual - wahed 300 mètres. Ma3lich mais ketchi tzemret aghd3aset dina ar terminus  n Taghzout - Akd3aser  ih akunid3aser anda tevgham - jiyid kan numero numero ynek  dwayi 0558... ? — D l'numéro inu ih. — donc 3asared dina ar  l'arret de bus n Taghzout terminus.- ar l'arret de bus Taghzout terminus akounid3aser din  -ih - d'accord -3asared dina a seyed d'accord- sa7a",
         "metadata": {
             "incident_type": "medical_emergency",
             "intent": "request_help",
@@ -1244,18 +1244,18 @@
             "weapons_involved": "no",
             "hazmat_involved": "no",
             "victims_count": "1.0",
-            "daira": "Amizour",
-            "commune": "Amizour",
-            "lieu": "Toghza",
-            "location_description": "Terminus Taghzuit, zed l'salle des fêtes, promotion n zed l'salle des fêtes, l-7anut à droite vers Bouhoual, 300 mètres après l'arrêt de bus.",
-            "summary": "Un médecin signale une patiente en insuffisance cardiaque sévère avec une saturation à 82% nécessitant une ambulance oxygénée vers l'hôpital Khellil Amrane. Le rendez-vous est fixé au terminus de bus de Toghza.",
-            "notes_cot": "L'appelant s'identifie comme médecin et utilise un vocabulaire clinique ('insuffisance cardiaque', 'désature', 'saturation 82%') ce qui confirme medical_emergency. La saturation basse indique un danger immédiat (urgency high). Les lieux cités (Taghzut, Bouhoual) situent l'incident dans la commune d'Amizour."
+            "daira": "Béjaïa",
+            "commune": "Béjaïa",
+            "lieu": "Taghzout",
+            "location_description": "Taghzout Terminus,zath la salle des fêtes, la Promotion ni mourad tazrarth à droite vers Bouhoual ",
+            "summary": "Un médecin signale une patiente en insuffisance cardiaque sévère avec une saturation à 82% nécessitant une ambulance oxygénée vers l'hôpital Khellil Amrane. Le rendez-vous est fixé au terminus de bus de à Taghzout. ",
+            "notes_cot": "L'appelant s'identifie comme médecin et utilise un vocabulaire clinique ('insuffisance cardiaque', 'désature', 'saturation 82%') ce qui confirme medical_emergency. La saturation basse indique un danger immédiat (urgency high). Les lieux cités (Taghzout, Bouhoual) situent l'incident dans la commune Bejaia."
         },
-        "timestamp": "2026-03-07T20:51:28.225435"
+        "timestamp": "2026-03-07T14:40:38.226638"
     },
     "Appelle 57.wav": {
-        "status": "skipped",
-        "corrected_transcription": "",
+        "status": "corrected",
+        "corrected_transcription": "Allo, salam wa3likoum, c'est la Protection Civile? - An3am. - s3ir  dayi un  malade grave chwiya. Ugzmirera machi haja izemren anawi s  s tonobil ner parce que  irez ukith. L3ebd  dameqran ouzrighara ma  ila attawimth. - Anda? - nukni dagi g Thinabdher. Thinabdher à la cité Makhlouf Khlifa ar la poste. - Thinabdher achou ttaba3em kunwi ach Chemini  nagh? - Sidi Aich Sidi Aich. - Sidi Aich? ak defker numéro n les pompiers n Sidi Aich sfehmithen exactement anda izedghet . - eh ghas fkiyid  numéro agi bash fkiyid numéro .. - 034... - 034... - eh oumba3ed ekith  86... - 034 86... - 07... -kiyid sin kan inegura achfur parce que itchabah ar wina   - 07 80, 07 80. - 07 80. Sa7it. -Sa7a. -Yer7em yerhem lwaldik.- Sa7it.",
         "metadata": {
             "incident_type": "medical_emergency",
             "intent": "request_help",
@@ -1265,15 +1265,15 @@
             "trapped_persons": "no",
             "weapons_involved": "no",
             "hazmat_involved": "no",
-            "victims_count": "1.0",
-            "daira": "",
+            "victims_count": "1",
+            "daira": "Sidi-Aïch",
             "commune": "Sidi Aïch",
-            "lieu": "Tin Bzar",
-            "location_description": "Tinbdar à la cité Makhlouf Khalifa, l'aposte",
-            "summary": "Un appelant signale une personne âgée dans un état grave à Tinbdar  (Sidi Aïch) et demande une évacuation. L'agent lui transmet le numéro direct de l'unité de Sidi Aïch.",
-            "notes_cot": "L'appelant mentionne 'l'malade i-grava' (le malade est grave) et 'l'3abd ameqran' (une personne âgée). Il précise ne pas pouvoir le transporter dans son véhicule personnel. Localisation précise : 'Tinbdar \n' à 'Sidi Aich' près de 'l'aposte' (la poste) et de la 'cité Makhlouf Khalifa'."
+            "lieu": "Thinabdher",
+            "location_description": "Thinabdher à la cité Makhlouf Khlifa, la poste",
+            "summary": "Un appelant signale une personne âgée dans un état grave à Thinabdher (Sidi Aïch) et demande une évacuation. L'agent lui transmet le numéro direct de l'unité de Sidi Aïch.",
+            "notes_cot": "L'appelant mentionne 'l'malade grave' (le malade est grave) et 'l'3abd ameqran' (une personne âgée). Il précise ne pas pouvoir le transporter dans son véhicule personnel. Localisation précise : 'Thinabdher \n' à 'Sidi Aich' près de 'la poste' (la poste) et de la 'cité Makhlouf Khlifa'."
         },
-        "timestamp": "2026-03-07T20:51:30.502766"
+        "timestamp": "2026-03-07T17:01:54.072908"
     },
     "Appelle 58.wav": {
         "status": "corrected",
