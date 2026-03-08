@@ -3,7 +3,7 @@
 Fix Missing Transcriptions Script
 
 Detects and repairs empty transcriptions in the annotation database.
-Uses Gemini 3.0 with the same system prompt as the annotation app.
+Uses Gemini 3.1 Pro Preview with the same system prompt as the annotation app.
 """
 
 import json
@@ -105,7 +105,7 @@ def transcribe_audio(api_key, audio_path):
         print(f"  📊 Transcribing {Path(audio_path).name}...")
         
         model = genai.GenerativeModel(
-            'gemini-3-flash-preview',
+            'gemini-3.1-pro-preview',
             system_instruction=SYSTEM_PROMPT
         )
         

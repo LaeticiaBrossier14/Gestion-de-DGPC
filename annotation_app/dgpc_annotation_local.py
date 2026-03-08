@@ -156,9 +156,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- PATHS & DATA ---
-DATA_DIR = "dataset"
-AUDIO_RAW_DIR = "audio_raw"
-AUDIO_PROC_DIR = "audio_processed"
+_APP_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(_APP_DIR, "dataset")
+AUDIO_RAW_DIR = os.path.join(_APP_DIR, "audio_raw")
+AUDIO_PROC_DIR = os.path.join(_APP_DIR, "audio_processed")
 ANNOTATIONS_FILE = os.path.join(DATA_DIR, "annotations_local.json")
 ANNOTATIONS_CSV = os.path.join(DATA_DIR, "annotations_local.csv")
 
@@ -471,12 +472,12 @@ with act_col1:
     st.markdown('<div class="btn-ai">', unsafe_allow_html=True)
     if st.button("DÉMARRER ANALYSE IA", use_container_width=True):
         if st.session_state.key and wav:
-            with st.spinner("Analyse par Gemini 3.0..."):
+            with st.spinner("Analyse par Gemini 3.1 Pro Preview..."):
                 try:
                     genai.configure(api_key=st.session_state.key)
                     # Force JSON output mode
                     model = genai.GenerativeModel(
-                        'gemini-3-flash-preview', 
+                        'gemini-3.1-pro-preview',
                         system_instruction=SYSTEM_PROMPT,
                         generation_config={"response_mime_type": "application/json"}
                     )
