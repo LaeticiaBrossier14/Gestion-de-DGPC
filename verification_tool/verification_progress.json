@@ -1529,7 +1529,7 @@
       "trapped_persons": "no",
       "weapons_involved": "no",
       "hazmat_involved": "no",
-      "victims_count": "0",
+      "victims_count": "1",
       "daira": "Béjaïa",
       "commune": "Béjaïa",
       "lieu": "Sidi Ali Labhar",
@@ -1537,7 +1537,7 @@
       "summary": "Un homme signale une urgence médicale grave pour une personne faisant une crise cardiaque ou d'épilepsie aux 140 logements de Sidi Ali Labhar.",
       "notes_cot": "L'appelant mentionne 'crise n'wul' (crise de coeur) et 'l'epileptique'. Le lieu est identifié comme 'Sidi-Ali u-bhar' au niveau des '140 logements'. La gravité est soulignée par 'teffas s't-kuffa' (il mousse par la bouche)."
     },
-    "timestamp": "2026-03-08T21:58:03.466947"
+    "timestamp": "2026-03-09T00:36:14.593395"
   },
   "Appelle 202.wav": {
     "status": "corrected",
