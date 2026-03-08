@@ -2321,5 +2321,51 @@
       "summary": "L'appelant ne répond pas ou reste silencieux. On entend l'opérateur parler, semblant chercher un numéro ou discuter avec un collègue en arrière-plan avant que l'appel ne s'arrête.",
       "notes_cot": "L'appel ne contient aucun signalement d'urgence. L'opérateur utilise le terme 'd-houchker-as l-numéro' (il cherche le numéro), ce qui indique soit une erreur de l'appelant, soit une manipulation technique interne. Absence de mots-clés liés au feu ou au médical."
     }
+  },
+  {
+    "id_audio": "CALL_0308_appe",
+    "audio_file": "appelle 607.wav",
+    "timestamp": "2026-03-08T14:26:14.337603",
+    "transcription": "Nmedkum ta3 ighil ali Balak imedulkm ta3 bourdj oki?.. ruuh...034 ...essber dqiqa rani hassl f Wahed le blassa yalatif m'en bare7 Wana hna Bayet ...ihh...0?...034 ..34...36...36...84...ih...82...hada ta3 sedou9 te3ref sedou9? ...b3ida bezaaf...nmedlek ta3 ighil 3li groba Lik?...medli ta3 ighil 3li Balak ighil 3li i3eytou houma ta3 z3efra...ro7 Balak ighil ikunu ruh ighil 3li roh marque ...0?..034 ...ih ...36..36...84...84...82...82...lla mafrithach Balak  3awdenla nchouflk numero ta3 bourdj nhewesshoulek...saha ...oki saha",
+    "extraction": {
+      "incident_type": "unknown",
+      "injury_severity": "unknown",
+      "victims_count": null,
+      "fire_present": "no",
+      "trapped_persons": "unknown",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "intent": "request_help",
+      "urgency_human": "low",
+      "daira": "Ighil Ali",
+      "commune": "Seddouk",
+      "lieu": "Zaafrane",
+      "location_description": "hwaçel b'wahed l'blassa mel bareh wa na hna bayet",
+      "summary": "Échange de numéros de téléphone des secours (Protection Civile) pour les secteurs de Seddouk et Ighil Ali car une personne est bloquée dans un endroit depuis la veille.",
+      "notes_cot": "L'appelant cherche le bon contact car il est bloqué ('hwaçel') quelque part. Citations de 'Ighil Ali', 'Seddouk' et 'Bordj'. Utilisation du terme 'numiro' et 'marki' (marquer/noter). Pas d'incident spécifique de type feu ou accident de la route mentionné, juste une situation de blocage logistique ou d'isolement."
+    }
+  },
+  {
+    "id_audio": "CALL_0308_appe",
+    "audio_file": "appelle 608.wav",
+    "timestamp": "2026-03-08T14:59:58.914133",
+    "transcription": "O bni bni ...eh wach bih?...aw chkoun hada li m3aya mala rani ghalta khouya...ih daccoor raki ghalta imala kima thhebi saha besslama\n",
+    "extraction": {
+      "incident_type": "unknown",
+      "injury_severity": "unknown",
+      "victims_count": null,
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "intent": "false_alarm",
+      "urgency_human": "low",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "G3",
+      "location_description": "dagi i G3",
+      "summary": "Deux appels : le premier est une erreur de numéro d'une femme âgée. Le second signale une urgence au quartier G3 avant de l'annuler car la personne a été évacuée par un véhicule privé.",
+      "notes_cot": "Le premier segment est une erreur ('raki ghalti'). Le second segment mentionne une 'urgence' à 'G3' (quartier de Béjaïa), mais l'appelant annule l'intervention car la victime a été évacuée ('s-un-ghran' = ils l'ont pris, 'd-t-tomobile' = par voiture)."
+    }
   }
 ]

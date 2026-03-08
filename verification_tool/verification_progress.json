@@ -1494,5 +1494,27 @@
       "notes_cot": "L'appel ne concerne pas une urgence immédiate mais une gestion de 'dispositif'. Mots clés : 'Ighil Azzoug' (lieu), 'l'ambulance welah  mahabsens' (l'ambulance ne s'est pas arrêtée), 'a pied' (déplacement), 'kham t'telecoms' (bâtiment des télécoms comme point de repère)."
     },
     "timestamp": "2026-03-08T14:48:50.345253"
+  },
+  "Appelle 200.wav": {
+    "status": "corrected",
+    "corrected_transcription": "la gendarmerie n oued ghir? ... juste wahi ttsawent ni iiih...Ah  d'accord... attan dina theghli une3lim ara dachu ttiwghen thewid dwa messkint... Aya d'accord, d'accord....Sa7it.",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "request_help",
+      "urgency_human": "unknown",
+      "injury_severity": "unknown",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Béjaïa",
+      "commune": "oued ghir",
+      "lieu": "oued ghir",
+      "location_description": "oued ghir",
+      "summary": "L'appelant contacte la gendarmerie pour vérifier s'il est en ligne avec le poste d'Oued Ghir, mais il est redirigé vers celui de Tichy. Aucun incident n'est signalé.",
+      "notes_cot": "L'appelant demande 'Gendarmerie n'Wadhir' (Oued Ghir). L'opérateur répond '91 n-Tichy'. L'échange se termine sans déclaration d'urgence. Le reste de la conversation est informel ('maskine', 'sahit')."
+    },
+    "timestamp": "2026-03-08T17:22:18.232625"
   }
 }
