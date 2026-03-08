@@ -638,34 +638,39 @@ foot_c1, foot_c2, foot_c3, foot_c4 = st.columns([2, 1, 1, 1])
 with foot_c1:
     st.markdown('<div class="btn-save">', unsafe_allow_html=True)
     if st.button("APPROUVER ET ENREGISTRER LE DOSSIER", use_container_width=True):
-        entry = {
-            "id_audio": st.session_state.f_id,
-            "audio_file": cur_f,
-            "timestamp": datetime.now().isoformat(),
-            "transcription": st.session_state.f_text,
-            "extraction": {
-                "incident_type": st.session_state.v_incident_type,
-                "injury_severity": st.session_state.v_injury_severity,
-                "victims_count": st.session_state.v_victims_count,
-                "fire_present": st.session_state.v_fire_present,
-                "trapped_persons": st.session_state.v_trapped_persons,
-                "weapons_involved": st.session_state.v_weapons_involved,
-                "hazmat_involved": st.session_state.v_hazmat_involved,
-                "intent": st.session_state.v_intent,
-                "urgency_human": st.session_state.v_urgency_human,
-                "daira": st.session_state.v_daira,
-                "commune": st.session_state.v_commune,
-                "lieu": st.session_state.v_lieu,
-                "location_description": st.session_state.v_location_description,
-                "summary": st.session_state.v_summary,
-                "notes_cot": st.session_state.v_notes_cot,
-            },
-        }
-        for i, a in enumerate(annotations):
-            if a.get('audio_file') == cur_f: annotations[i] = entry; break
-        else: annotations.append(entry)
-        save_all(annotations)
-        st.session_state.idx = (st.session_state.idx + 1) % len(raw_files); st.rerun()
+        # Validation: transcription obligatoire
+        if not st.session_state.f_text or st.session_state.f_text.strip() == "":
+            st.error("❌ ERREUR: La transcription est obligatoire. Veuillez compléter le champ 'Transcription' avant d'enregistrer.")
+        else:
+            entry = {
+                "id_audio": st.session_state.f_id,
+                "audio_file": cur_f,
+                "timestamp": datetime.now().isoformat(),
+                "transcription": st.session_state.f_text,
+                "extraction": {
+                    "incident_type": st.session_state.v_incident_type,
+                    "injury_severity": st.session_state.v_injury_severity,
+                    "victims_count": st.session_state.v_victims_count,
+                    "fire_present": st.session_state.v_fire_present,
+                    "trapped_persons": st.session_state.v_trapped_persons,
+                    "weapons_involved": st.session_state.v_weapons_involved,
+                    "hazmat_involved": st.session_state.v_hazmat_involved,
+                    "intent": st.session_state.v_intent,
+                    "urgency_human": st.session_state.v_urgency_human,
+                    "daira": st.session_state.v_daira,
+                    "commune": st.session_state.v_commune,
+                    "lieu": st.session_state.v_lieu,
+                    "location_description": st.session_state.v_location_description,
+                    "summary": st.session_state.v_summary,
+                    "notes_cot": st.session_state.v_notes_cot,
+                },
+            }
+            for i, a in enumerate(annotations):
+                if a.get('audio_file') == cur_f: annotations[i] = entry; break
+            else: annotations.append(entry)
+            save_all(annotations)
+            st.success(f"✅ Dossier {cur_f} enregistré avec succès!")
+            st.session_state.idx = (st.session_state.idx + 1) % len(raw_files); st.rerun()
     st.markdown('</div>', unsafe_allow_html=True)
 
 with foot_c2:
