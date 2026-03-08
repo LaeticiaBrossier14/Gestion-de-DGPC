@@ -140,8 +140,8 @@
   {
     "id_audio": "CALL_0305_appe",
     "audio_file": "appelle 512.wav",
-    "timestamp": "2026-03-05T20:05:54.086897",
-    "transcription": "",
+    "timestamp": "2026-03-08T00:47:17.936600",
+    "transcription": "[TRANSCRIPTION MANQUANTE] Lieu: en face l'école des cadets, g la cafétéria Impériale, l'portail. [À compléter avec l'IA Gemini]",
     "extraction": {
       "incident_type": "medical_emergency",
       "injury_severity": "severe",
@@ -278,8 +278,8 @@
   {
     "id_audio": "CALL_0305_appe",
     "audio_file": "appelle 518.wav",
-    "timestamp": "2026-03-08T00:31:32.522129",
-    "transcription": "",
+    "timestamp": "2026-03-08T00:47:17.936834",
+    "transcription": "[TRANSCRIPTION MANQUANTE] Lieu: 7ay raba7 amkhoukh, cité Mongeat, terminus ta3 la ligne ta3 l'15. [À compléter avec l'IA Gemini]",
     "extraction": {
       "incident_type": "medical_emergency",
       "injury_severity": "minor",
@@ -462,8 +462,8 @@
   {
     "id_audio": "CALL_0305_appe",
     "audio_file": "appelle 526.wav",
-    "timestamp": "2026-03-06T15:24:32.141873",
-    "transcription": "",
+    "timestamp": "2026-03-08T00:47:17.937069",
+    "transcription": "[TRANSCRIPTION MANQUANTE] Lieu: daxel l'djama3 n'sid wali exact. [À compléter avec l'IA Gemini]",
     "extraction": {
       "incident_type": "medical_emergency",
       "injury_severity": "severe",
@@ -646,8 +646,8 @@
   {
     "id_audio": "CALL_0306_appe",
     "audio_file": "appelle 533.wav",
-    "timestamp": "2026-03-06T15:26:07.136711",
-    "transcription": "",
+    "timestamp": "2026-03-08T00:47:17.937306",
+    "transcription": "[TRANSCRIPTION MANQUANTE] Lieu: Souk El Tenine. [À compléter avec l'IA Gemini]",
     "extraction": {
       "incident_type": "medical_emergency",
       "injury_severity": "severe",
@@ -669,8 +669,8 @@
   {
     "id_audio": "CALL_0306_appe",
     "audio_file": "appelle 534.wav",
-    "timestamp": "2026-03-06T15:26:44.871946",
-    "transcription": "",
+    "timestamp": "2026-03-08T00:47:17.937546",
+    "transcription": "[TRANSCRIPTION MANQUANTE] Lieu: el kseur. [À compléter avec l'IA Gemini]",
     "extraction": {
       "incident_type": "other",
       "injury_severity": "none",
@@ -1635,8 +1635,8 @@
   {
     "id_audio": "CALL_0307_appe",
     "audio_file": "appelle 577.wav",
-    "timestamp": "2026-03-07T23:00:52.825826",
-    "transcription": "",
+    "timestamp": "2026-03-08T00:47:17.937799",
+    "transcription": "[TRANSCRIPTION MANQUANTE] Lieu: Inconnu. [À compléter avec l'IA Gemini]",
     "extraction": {
       "incident_type": "unknown",
       "injury_severity": "unknown",
@@ -2044,6 +2044,282 @@
       "location_description": "Inconnu",
       "summary": "L'appelant demande une constatation pour un risque technique ou structurel. L'opérateur l'informe que ce n'est pas de la compétence des pompiers et l'oriente vers le service technique de l'APC.",
       "notes_cot": "L'appelant utilise 'constatation' et 'risk' pour un bâtiment ou une situation technique. L'opérateur utilise 'ilaq at-ru7-ed s'l'APC' (tu dois aller à la mairie) et 'machi d'neknni i-khedmen' (ce n'est pas nous qui faisons cela) pour réorienter l'appel vers les services municipaux compétents."
+    }
+  },
+  {
+    "id_audio": "CALL_0308_appe",
+    "audio_file": "appelle 595.wav",
+    "timestamp": "2026-03-08T00:41:25.056477",
+    "transcription": "Allo?ouii... oui an3am ...wlh gheltagh amon frere samhas ...daccord saha",
+    "extraction": {
+      "incident_type": "fire_vehicle",
+      "injury_severity": "unknown",
+      "victims_count": null,
+      "fire_present": "yes",
+      "trapped_persons": "unknown",
+      "weapons_involved": "no",
+      "hazmat_involved": "unknown",
+      "intent": "report_incident",
+      "urgency_human": "high",
+      "daira": "Inconnu",
+      "commune": "Sidi Aïch",
+      "lieu": "Inconnu",
+      "location_description": "9rib l'pont",
+      "summary": "Signalement d'un incendie de camion à Sidi Aïch, à proximité du pont.",
+      "notes_cot": "L'appelant utilise le mot 'thmesth' (feu/incendie) et précise l'objet 'l'camion' (le camion), d'où fire_vehicle. La localisation mentionne la commune 'Sidi 3ich' et le repère visuel 'l'pont' (le pont)."
+    }
+  },
+  {
+    "id_audio": "CALL_0308_appe",
+    "audio_file": "appelle 596.wav",
+    "timestamp": "2026-03-08T00:42:14.649146",
+    "transcription": "7imaya madaneya alloo?",
+    "extraction": {
+      "incident_type": "unknown",
+      "injury_severity": "unknown",
+      "victims_count": null,
+      "fire_present": "unknown",
+      "trapped_persons": "unknown",
+      "weapons_involved": "unknown",
+      "hazmat_involved": "unknown",
+      "intent": "other",
+      "urgency_human": "unknown",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "L'appelant se contente de dire 'Madame' et 'Allo' sans signaler de situation d'urgence avant la fin de l'enregistrement.",
+      "notes_cot": "L'appel est extrêmement court et ne contient aucun mot-clé lié à une urgence (thmesth, l'accident, crise, etc.). L'intention est classée en 'other' car aucun incident n'est rapporté."
+    }
+  },
+  {
+    "id_audio": "CALL_0308_appe",
+    "audio_file": "appelle 597.wav",
+    "timestamp": "2026-03-08T00:47:25.394164",
+    "transcription": "Aaa zemregh amdefkegh aaa aniwa? Aaahh zemregh amdefkegh les pompiers n sedouk...ih maalich khater les urgences...ih dqiqa andalath?...034 ...034 ...08..08...ih 60...60..96...96 a3tik sa7a ...sa7a besslama ...merci becoup...sa7a sa7a ...tanmirth",
+    "extraction": {
+      "incident_type": "other",
+      "injury_severity": "none",
+      "victims_count": null,
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "intent": "other",
+      "urgency_human": "low",
+      "daira": "Seddouk",
+      "commune": "Seddouk",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "Un citoyen appelle pour remercier les pompiers de Seddouk et confirmer un numéro de téléphone.",
+      "notes_cot": "L'appelant utilise 'chkough' (remercier) pour exprimer sa gratitude envers 'l'pompiers n Seddouk'. Il n'y a pas d'urgence signalée, il s'agit d'un appel administratif ou de remerciement."
+    }
+  },
+  {
+    "id_audio": "CALL_0308_appe",
+    "audio_file": "appelle 598.wav",
+    "timestamp": "2026-03-08T00:48:00.536239",
+    "transcription": "Allo? ",
+    "extraction": {
+      "incident_type": "unknown",
+      "injury_severity": "unknown",
+      "victims_count": null,
+      "fire_present": "unknown",
+      "trapped_persons": "unknown",
+      "weapons_involved": "unknown",
+      "hazmat_involved": "unknown",
+      "intent": "other",
+      "urgency_human": "low",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "L'appelant répète des salutations et des marques d'écoute sans signaler d'incident ou de localisation avant que la communication ne cesse.",
+      "notes_cot": "L'appel est très court (2-3 secondes). On n'entend que des salutations ('Salam alaykoum') et des marqueurs d'affirmation ('Ih', 'Iyeh'). Aucun mot-clé lié à une urgence (thmesth, accident, l'malade) n'est présent."
+    }
+  },
+  {
+    "id_audio": "CALL_0308_appe",
+    "audio_file": "appelle 599.wav",
+    "timestamp": "2026-03-08T00:59:56.565561",
+    "transcription": "Wiwi isem3ek ...ih maalich smehli 3la dérangement bark...machi dérangement madame ttema Ida hebiti Wahed isem3ek lmir premièr responsable f lekseur f la daira houwa li issem3ek hnaya 9tlek kach ma tesshe9i évacuation ka dekhlek lma nkherjouh ya pas de problème khedemtna mais Bach tgouli tessem3ou soti Bach ites itesma3 sotek lazem trohi la daira trohi le lmire haka madame aa?...ihh 3endek lhaq ii...ihh doka ana khedam sbah ghedwa sbah nekhrej masmd3tek ma3endi mandirlek aka ruh 3edn lmir chef daira houwa li yessm3 sotek",
+    "extraction": {
+      "incident_type": "other",
+      "injury_severity": "none",
+      "victims_count": null,
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "intent": "other",
+      "urgency_human": "low",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "Une femme appelle les secours pour exprimer une doléance ou un problème social/administratif. L'opérateur lui explique poliment qu'il ne s'occupe que des évacuations d'urgence et des inondations, et l'oriente vers le Maire ou le Chef de Daïra.",
+      "notes_cot": "L'appelante utilise 'ssouth-iw' (ma voix/mon cri) pour demander à être entendue. L'opérateur définit son champ d'action par 'evacuation' et 'idkhel-ik l-aman' (si l'eau entre chez toi/inondation) mais précise 'm-ara s-sem3egh-ek... ma-3and-i ma n-dir-ak' (si je t'écoute... je n'ai rien à faire pour toi) car le problème est administratif ('l'Maire', 'chef daira')."
+    }
+  },
+  {
+    "id_audio": "CALL_0308_appe",
+    "audio_file": "appelle 600.wav",
+    "timestamp": "2026-03-08T01:00:25.495957",
+    "transcription": "OP: Allo. CL: Azul. OP: Azul, 28-82-35? CL: Ih, 28-82-35. OP: Hamdullah. OP: Numéro Chemini? CL: 07-34-28-82-35. OP: Ah d'accord, l'accident... s-l'ambulance... hospital... OP: D'accord, Azul... we... Chemini.",
+    "extraction": {
+      "incident_type": "accident_vehicular",
+      "injury_severity": "unknown",
+      "victims_count": null,
+      "fire_present": "no",
+      "trapped_persons": "unknown",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "intent": "report_incident",
+      "urgency_human": "high",
+      "daira": "Chemini",
+      "commune": "Chemini",
+      "lieu": "Inconnu",
+      "location_description": "Numéro Chemini",
+      "summary": "Appelant signalant un accident dans la zone de Chemini. L'opérateur confirme les coordonnées téléphoniques et le besoin d'une ambulance pour l'hôpital.",
+      "notes_cot": "L'appelant utilise 'Azul' pour saluer. Le mot 'l'accident' identifie le type d'incident. 'Chemini' est identifié comme la localisation (Daïra). Les termes 'l'ambulance' et 'hospital' indiquent un besoin de secours médical suite au crash."
+    }
+  },
+  {
+    "id_audio": "CALL_0308_appe",
+    "audio_file": "appelle 601.wav",
+    "timestamp": "2026-03-08T01:03:22.671941",
+    "transcription": "Himaya wechrakoum?...labas hamdoulilah...bn je suis un collègue un ancien collègue la3naya rebi vous me donner numéro la direction nwn?...ih bien sûr aydefkegh ii marqué...ih dqiqa baraka lahou FIK agma achhal?...034 ...034 ...12 ...12...98...98...31...31?...31 ngh 32...31 32...034139831 aaa ngh 32 ...akijazi rebu delkhir ..ii sahit...sahit ami",
+    "extraction": {
+      "incident_type": "unknown",
+      "injury_severity": "none",
+      "victims_count": null,
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "intent": "other",
+      "urgency_human": "low",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "Un appelant se présentant comme un collègue demande à l'opérateur le numéro de téléphone administratif de la direction de la Protection Civile. L'opérateur lui fournit les numéros se terminant par 31 et 32.",
+      "notes_cot": "L'appel n'est pas une urgence médicale ou un incendie. L'appelant demande explicitement 'numéro de téléphone la direction n-wen' (votre direction). Utilisation de formules de politesse type 'barak allah fik' et 'bon appétit'. La fin de l'audio montre une bascule vers le standard d'urgence."
+    }
+  },
+  {
+    "id_audio": "CALL_0308_appe",
+    "audio_file": "appelle 602.wav",
+    "timestamp": "2026-03-08T01:04:10.230894",
+    "transcription": "te3yit manich nessma3 fihoum...cv?...3eyet b numero normal",
+    "extraction": {
+      "incident_type": "unknown",
+      "injury_severity": "unknown",
+      "victims_count": null,
+      "fire_present": "unknown",
+      "trapped_persons": "unknown",
+      "weapons_involved": "unknown",
+      "hazmat_involved": "unknown",
+      "intent": "other",
+      "urgency_human": "low",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "L'appel semble être une erreur ou un problème technique ; on entend une personne conseiller à une autre d'appeler avec un numéro normal car l'interlocuteur ne l'entend pas.",
+      "notes_cot": "L'utilisation de la négation 'ur ... ara' dans 'ur isema3-ik-ara' (il ne t'entend pas) et l'instruction 'Ayet s'numéro normal' (appelle avec un numéro normal) indiquent un problème de communication technique plutôt qu'un signalement d'incident. Aucune entité géographique ou type d'urgence n'est mentionné."
+    }
+  },
+  {
+    "id_audio": "CALL_0308_appe",
+    "audio_file": "appelle 603.wav",
+    "timestamp": "2026-03-08T01:06:38.983624",
+    "transcription": "Himaya lmadaniya allo?...aaaa...allo?...alloo menhu ...papa...papaak...papaw...sawalghas ipapaaa paaa....iiiyy machi papak machi papaaak ...aaa?...machi papak",
+    "extraction": {
+      "incident_type": "unknown",
+      "injury_severity": "unknown",
+      "victims_count": null,
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "intent": "request_help",
+      "urgency_human": "unknown",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "inconnu",
+      "location_description": "inconnu",
+      "summary": "Un enfant en détresse appelle la protection civile pour signaler un problème concernant son père ('choufelach papa'). Il donne comme repère la famille Bezout aux 135 logements.",
+      "notes_cot": "L'enfant pleure et répète 'Papa' et 'choufelach papa' (regarde ce qu'il a mon père), ce qui indique une urgence médicale ou un accident domestique. L'opérateur répond 'machi d papak' (ce n'est pas ton père) car l'enfant semble s'adresser à lui comme s'il parlait à son père ou par confusion liée au choc. La localisation '135 appartements' est un repère urbain classique (Cité 135 logements) à Béjaïa."
+    }
+  },
+  {
+    "id_audio": "CALL_0308_appe",
+    "audio_file": "appelle 604.wav",
+    "timestamp": "2026-03-08T01:07:06.261345",
+    "transcription": "himaya lmadaniya allo?...",
+    "extraction": {
+      "incident_type": "unknown",
+      "injury_severity": "unknown",
+      "victims_count": null,
+      "fire_present": "unknown",
+      "trapped_persons": "unknown",
+      "weapons_involved": "unknown",
+      "hazmat_involved": "unknown",
+      "intent": "false_alarm",
+      "urgency_human": "low",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "Un appel sans parole claire, semblant être un appel accidentel ou un enfant jouant avec le téléphone.",
+      "notes_cot": "Aucun signalement n'est effectué. On entend seulement des sons inarticulés et des bruits de fond domestiques, ce qui indique une fausse alerte ou une erreur de manipulation."
+    }
+  },
+  {
+    "id_audio": "CALL_0308_appe",
+    "audio_file": "appelle 605.wav",
+    "timestamp": "2026-03-08T01:09:27.810590",
+    "transcription": "Intervention hna intervention bark fhemtni Ida kayn intervention ikherju Ida makanch intervention hadou les connaissances hadou houma li ydiruhum ...sa7it aa...sa7it khouya saha",
+    "extraction": {
+      "incident_type": "unknown",
+      "injury_severity": "unknown",
+      "victims_count": null,
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "intent": "other",
+      "urgency_human": "low",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "Échange de coordination ou de procédure interne entre agents concernant la distinction entre une sortie pour intervention et une reconnaissance.",
+      "notes_cot": "L'appel ne concerne pas un incident en cours. Utilisation de termes techniques français intégrés (l'intervention, l'reconnaissances). Absence de déictiques de lieu ou de description d'urgence. Le locuteur explique la procédure : 'Ila kan l'intervention i-khurju' (s'il y a intervention ils sortent) vs 'reconnaissances'. L'intention est classée en 'other' car c'est une discussion de service."
+    }
+  },
+  {
+    "id_audio": "CALL_0308_appe",
+    "audio_file": "appelle 606.wav",
+    "timestamp": "2026-03-08T01:11:19.909921",
+    "transcription": "labas hamdoulilah...menhu?...an3am?...amina la3id s numero inm ma thuhwajed kra...ahhhh?...nk athan nighamed ...thuhwajed kra la3id s numero ....",
+    "extraction": {
+      "incident_type": "unknown",
+      "injury_severity": "unknown",
+      "victims_count": null,
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "intent": "false_alarm",
+      "urgency_human": "low",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "L'appelant ne répond pas ou reste silencieux. On entend l'opérateur parler, semblant chercher un numéro ou discuter avec un collègue en arrière-plan avant que l'appel ne s'arrête.",
+      "notes_cot": "L'appel ne contient aucun signalement d'urgence. L'opérateur utilise le terme 'd-houchker-as l-numéro' (il cherche le numéro), ce qui indique soit une erreur de l'appelant, soit une manipulation technique interne. Absence de mots-clés liés au feu ou au médical."
     }
   }
 ]
