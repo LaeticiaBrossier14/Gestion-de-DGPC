@@ -3320,5 +3320,225 @@
       "notes_cot": "L'appelant utilise 'i-coincé' et 'chdhed' (bloqué/attrapé) avec 'wa7ed l'engin', indiquant un accident mécanique. 'Tajbant' (cimetière) couplé à 'La Croix' identifie formellement le lieu à Béjaïa. La mention 'n-siyed amek ath-n-kes' (on a essayé de le sortir) confirme une personne incarcérée sous ou dans l'engin."
     },
     "timestamp": "2026-03-09T21:14:05.347820"
+  },
+  "Appelle 351.wav": {
+    "status": "corrected",
+    "corrected_transcription": "allo l7imaya lmadaneya fel istima3 ...oui s'il vous plaît ila yiwn azrem dayi...an3am?...i9ess i9es tadjart-iw... i9sitt..ganida madam?.... wa7id idurar ni  n Amizour. ....g amizoor,anwa amekan?...Zrit l'école l'esta ni tarnut chweya tternut chweya ...aa daccord daccord......ttafet dina ixammen dinna...iih.. imsawen voila.... mama3lich rapid chwia cest  urgent.... Est-ce qu'elle est consciente ? negh thdukh?... machi chghel amaken cv pas..ttwaqra7?...tt7ussay imanis amaken ttwaqrah mli7 ... aa ttwaqre7 daccord tura dcheg3eh lambulance amadame...daccord iih sa7it",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "request_help",
+      "urgency_human": "high",
+      "injury_severity": "severe",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1.0",
+      "daira": "Amizour",
+      "commune": "Amizour",
+      "lieu": "ecole estein",
+      "location_description": "ecole estein, tanut chuia, taddert-n-ixammen-dinna, imsawen",
+      "summary": "Une femme est tombée d'un arbre à Amizour (quartier Imsawen) et semble gravement blessée. Elle est consciente mais souffre énormément et a des vertiges.",
+      "notes_cot": "L'appelant utilise 'iqs l'tadjart-is' (tombée de son arbre) ce qui définit une urgence médicale. La mention 'twaqre7 mli7' (elle a très mal/est blessée) et 'urgent' justifie la sévérité. Localisation précise via 'l'école l'estaminet' et le lieu-dit 'Imsawen' à Amizour."
+    },
+    "timestamp": "2026-03-09T22:55:28.030172"
+  },
+  "Appelle 352.wav": {
+    "status": "corrected",
+    "corrected_transcription": " l7imaya l'madania fel istima3 ...Allo allo  l7imaya l'madania?...oui...ma maalich adrohem ar dagii Chemini  Yiwen wemghar, thetfith la crise cardiaque Il n'est pas conscient. ...Anda d'exact? ....g Chemini exactement ilmathen. ....Amek aka igheli kan thetfit la crise negh amek?.... Tefit la crise ikhveved igheli l'qa3a.... D'accord tura dchey3egh lambulance... Sa7it.",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "request_help",
+      "urgency_human": "high",
+      "injury_severity": "severe",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Chemini",
+      "commune": "Chemini",
+      "lieu": "ilmathen.",
+      "location_description": "ilmathen.",
+      "summary": "Urgence médicale pour une femme âgée ayant fait une crise cardiaque et ayant perdu connaissance au sol près de l'IFM.",
+      "notes_cot": "L'appelant utilise 'la crise cardiaque' et 'il n'est pas conscient' pour définir l'état de la victime, ce qui mène à medical_emergency. Le lieu 'Chemin de Fer' et le repère 'IFM' sont des localisations précises de la ville de Béjaïa. Le terme 'igheli l'qa3' confirme la chute au sol après le malaise."
+    },
+    "timestamp": "2026-03-09T22:58:14.803093"
+  },
+  "Appelle 353.wav": {
+    "status": "corrected",
+    "corrected_transcription": "l7imaya lmadaniya m3akoum fel istima3 an3am?...aah S'il vous plaît thella yiwth  tametoth je pense elle est enceinte dukh thguma adekwal.... ganida madam?ganida ladresse?.... Wahi l'Edimco zrid l'marché 2000 nni....daccord... D'inna? theghli...la damme ayi Est-ce que teghli ttema dukh? ...Eh dukh ii, ...the3limara chu gderon?? ...Ur na3alim ara just kan na3alem belli elle est enceinte Tebin beli elle est enceinte donc voila ..... elle est eneinte D'accord, tsema c'est un cas urgent.... Eh, urgent  negh ma ma3lich attasem rapide.... D'accord,tura adas l'ambulance a madame rapide.... D'accord, sa7a..",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "report_incident",
+      "urgency_human": "high",
+      "injury_severity": "severe",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "Edimco",
+      "location_description": "zdat l'marché 2000-nni (devant le marché 2000)",
+      "summary": "Une femme enceinte a fait un malaise et est tombée au sol près du Marché 2000 à l'Edimco. Le témoin demande l'envoi rapide d'une ambulance.",
+      "notes_cot": "L'appelant utilise 'tamtoth' (femme) et 'enceinte' pour décrire la victime. Le terme 'tox' (possiblement une altération locale pour malaise/perte de connaissance) associé à 'teghli-d' (elle est tombée) indique une urgence médicale. La localisation est précise : 'Edimco' et 'marché 2000' sont des repères clairs dans la ville de Béjaïa. L'expression 'as-tassem d-la-pide' (venez rapidement) confirme l'urgence."
+    },
+    "timestamp": "2026-03-09T23:03:50.567285"
+  },
+  "Appelle 354.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Allo assalamou 3alaykoum  m3akom l’7imaya l’madania an3am? ...a  msselkhir ya dayi hed  iterteq dayi iterteq lgaz....g Anida Madame?... Deyi wa7ed la brise de mer.... La Brise de Mer apres  esque lan les victimes? ...aa u3limeghara itertaq dayi gaz ni restaurant ins en fasse ...g l’restaurant?....ih restaurant mais je pense ulach uma d7ed zdakhel....daccord ",
+    "metadata": {
+      "incident_type": "fire_building",
+      "intent": "report_incident",
+      "urgency_human": "high",
+      "injury_severity": "none",
+      "fire_present": "yes",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "yes",
+      "victims_count": "0",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "La Brise de Mer",
+      "location_description": "wa7ed la brise de mer, l’restaurant dayi en fasse",
+      "summary": "Signalement d'une explosion de gaz suivie d'un incendie dans un restaurant à la Brise de Mer (Béjaïa). L'appelante indique qu'il n'y aurait personne à l'intérieur.",
+      "notes_cot": "L'appelante utilise 'l7riq' (feu) et 'i-terdeq l’gaz' (le gaz a explosé) ce qui définit l'incident comme fire_building. La localisation 'la brise de mer' est un lieu-dit connu à Béjaïa. 'ulac am-7edd zdaxel' (il n'y a personne dedans) indique l'absence de victimes ou de personnes piégées."
+    },
+    "timestamp": "2026-03-09T23:07:42.649571"
+  },
+  "Appelle 355.wav": {
+    "status": "corrected",
+    "corrected_transcription": "L7imaya lmadaniya f istima3.... Allo l7imaya?esque zemrem adrohem ardayi athan dwetma  trespirer difficilement?...amk ttresperer difficillement?... An3am , an3amii ... Anda? ....Ah dagi gchemmini l'marché n chemmini....Embe3d sava amk trespirerara? anta la partie?... ",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "report_incident",
+      "urgency_human": "high",
+      "injury_severity": "severe",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Chemini",
+      "commune": "Chemini",
+      "lieu": "L'marché n Ichemmini",
+      "location_description": "L'marché n Ichemmini",
+      "summary": "Une personne présente de graves difficultés respiratoires au deuxième étage d'un bâtiment près du marché de Chemini.",
+      "notes_cot": "L'appelant utilise 'yugi ad inefs' (ne peut plus respirer) et l'agent confirme avec 't-respirer difficilement', ce qui oriente vers 'medical_emergency'. Le lieu est clairement identifié par 'Ichemmini' (Chemini) et le repère 'l'marché'. La précision 'l'deuxième étage' complète la localisation."
+    },
+    "timestamp": "2026-03-09T23:09:36.097926"
+  },
+  "Appelle 356.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Allo... l7imaya lmadaneya fel istima3 oui?... allo ma ma3lich adro7em ar dayi Ouqas! la tunnel n Ouqas, dagi yiwwn ikhdem l'accident ....L'accident, amk? ....Tomobil, senath tomobilath..... Eh?.....athan  normalement islellek aka Nchallah islek mais ma ma3lich ad 3ijlem chweya .... Isin isnin yidsen blessésn a?lan les blessees aa?... Eh, sin blessés mais selken,,, D'accord, eh.",
+    "metadata": {
+      "incident_type": "accident_vehicular",
+      "intent": "report_incident",
+      "urgency_human": "high",
+      "injury_severity": "severe",
+      "fire_present": "no",
+      "trapped_persons": "yes",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "2",
+      "daira": "Aokas",
+      "commune": "Aokas",
+      "lieu": "Tunnel n Ouqas",
+      "location_description": " tunnel n Ouqas",
+      "summary": "Signalement d'un accident impliquant trois voitures près du tunnel d'Aokas avec deux personnes blessées et coincées à l'intérieur d'un véhicule.",
+      "notes_cot": "L'appelant mentionne explicitement 'l'accident' et 'Ouqas'. Il précise 'selt tomobilat' (trois voitures). Le mot 'd3jen' (écrasé/coincé) et 'sken' indiquent que les victimes sont bloquées dans l'habitacle, d'où trapped_persons=yes. Les 'sin blessés' confirment le nombre de victimes."
+    },
+    "timestamp": "2026-03-09T23:39:14.616244"
+  },
+  "Appelle 357.wav": {
+    "status": "corrected",
+    "corrected_transcription": "allo...L7imaya lmadaniya fi istima3 oui? ...Allo essalamou 3laykoum ma  ma3licha adassm ardayi ar ighil ali.... Dacu illan? Ad yiwen miss ldjariw vez3end fellass waman i7man atan lrgha ak gfus. ...D'accord eh Tura adnes... D'accord.",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "request_help",
+      "urgency_human": "high",
+      "injury_severity": "unknown",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Chemini",
+      "commune": "Ighil Ali",
+      "lieu": "ighil ali",
+      "location_description": "ighil ali",
+      "summary": "Un appelant signale que le fils de son voisin s'est gravement brûlé la main avec de l'eau bouillante dans le village de Tidnes.",
+      "notes_cot": "L'appelant utilise 'aman i7man' (eau chaude/bouillante) et 'yefsex' (littéralement 's'éplucher', utilisé ici pour la peau qui pèle suite à une brûlure grave). 'miss-l-djari' désigne le fils du voisin. Le lieu 'Tidnes' est un village connu de la commune d'Akfadou."
+    },
+    "timestamp": "2026-03-09T23:40:40.615873"
+  },
+  "Appelle 358.wav": {
+    "status": "corrected",
+    "corrected_transcription": "allo?....L7imaya lmadaniya, oui ?... Allo ma maalich adassem  ar dagi  g Kherrata...achu yellan g kherata ?.... Kherrata achu yiwn athan icoince g l'ascenseur....anda exact?... G l'appartement  Zrid avrid r9n.... Anwa ?...eh La route n 9n.... RNSM ? ...Ehh g Kherrata thella yiwth akni  l'appartement n dina zath l'arrêt exact....Eh ? ...athan iw7el g l'ascenseur.... D'accord, eh.",
+    "metadata": {
+      "incident_type": "other",
+      "intent": "report_incident",
+      "urgency_human": "high",
+      "injury_severity": "unknown",
+      "fire_present": "no",
+      "trapped_persons": "yes",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Kherrata",
+      "commune": "Kherrata",
+      "lieu": "R9N",
+      "location_description": "L'bâtiment l'appartement n dina, i l'arrêt exact, route n R9N",
+      "summary": "Une personne est signalée bloquée dans un ascenseur au niveau d'un bâtiment situé à Kherrata, dans le quartier RNSM, juste à côté de l'arrêt de bus.",
+      "notes_cot": "L'appelant utilise le mot 'we7led' (coincé/bloqué) associé à 'l'ascenseur'. Le type d'incident est classé 'other' car il s'agit d'un secours technique (déblocage d'ascenseur) non spécifié dans les autres catégories. La localisation est précise : Kherrata, résidence RNSM, près de l'arrêt."
+    },
+    "timestamp": "2026-03-09T23:44:30.158685"
+  },
+  "Appelle 359.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Allo? ....Wi, l'7imaya l'madania.... Allo  ma zemrem adassem ardagizrid avrid ittawin ssedouk ar  Akbou... sedouk ar Akbou Eh.... ma maalich adassm dayi yiwth teqchichth ighezatt weqjoun irage waqila ma maalich adro7em atselkem... umba3d tblissara mli7 aa? ....Teblisser nighamd ikerchitt, c'est grave!... Eh, d'accord ee.",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "report_incident",
+      "urgency_human": "high",
+      "injury_severity": "severe",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Akbou",
+      "commune": "Akbou",
+      "lieu": "Ssedouk -ar-uqvou",
+      "location_description": "Ssedouk -ar-uqvou",
+      "summary": "Une jeune fille a fait une chute d'une hauteur importante près du pont d'Akbou et se trouve dans un état grave.",
+      "notes_cot": "L'appelant signale 'teghli-d swaqjjel' (chute de haut) d'une 'tqecict' (fille). La gravité est confirmée par 'c'est grave' et 'i-rachi waqila' (elle est peut-être brisée/très amochée). Le lieu est clairement identifié comme 'ssed-d-uqwa n Akbou' (le pont d'Akbou)."
+    },
+    "timestamp": "2026-03-09T23:46:41.290846"
+  },
+  "Appelle 360.wav": {
+    "status": "corrected",
+    "corrected_transcription": "L7imaya lmadaniya f listima3 oui?...alo Assalam Alaykum ma  ma3lish dasem ar dagi sidi 3iche exactement g Wad Soummam.... Dachu yellan? ... Athan yiweth tewthitt  ttomobil maskint t3ach aka mais athan  thettwaqrah therez 3limeghara ganida  athan gessvah tt3eyid dayii....ihd'accord tura dchey3egh l'ambulance. ... Sa7a.",
+    "metadata": {
+      "incident_type": "accident_pedestrian",
+      "intent": "report_incident",
+      "urgency_human": "high",
+      "injury_severity": "severe",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Sidi-Aïch",
+      "commune": "Sidi Aïch",
+      "lieu": "Wad Soummam",
+      "location_description": "exactement g Wad Soummam",
+      "summary": "Un auto-stoppeur a été percuté par un véhicule à Sidi Aïch (Oued Soummam) et présente des blessures graves.",
+      "notes_cot": "L'appelant utilise le terme 'u-stup' (auto-stoppeur) et explique qu'une voiture l'a percuté ('t-3echeq-it'). Les termes 'l3mer-is' (sa vie/son âme) et 'uqre7 s t-tayib' (gravement blessé) indiquent une urgence vitale. Le lieu est clairement identifié comme Sidi Aïch au niveau de l'Oued Soummam."
+    },
+    "timestamp": "2026-03-09T23:49:44.393014"
   }
 }
