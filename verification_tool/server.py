@@ -139,9 +139,13 @@ def load_csv():
 def load_progress():
     global progress
     if PROGRESS_FILE.exists():
-        with open(PROGRESS_FILE, "r", encoding="utf-8") as f:
-            progress = json.load(f)
-        print(f"Loaded progress: {len(progress)} entries")
+        try:
+            with open(PROGRESS_FILE, "r", encoding="utf-8") as f:
+                progress = json.load(f)
+            print(f"Loaded progress: {len(progress)} entries")
+        except Exception as e:
+            progress = {}
+            print(f"[ERREUR] Impossible de lire {PROGRESS_FILE.name}: {e}")
 
 
 def save_progress():
