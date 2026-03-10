@@ -4882,5 +4882,27 @@
       "notes_cot": "L'appelant utilise le terme 'u-stup' (auto-stoppeur) et explique qu'une voiture l'a percuté ('t-3echeq-it'). Les termes 'l3mer-is' (sa vie/son âme) et 'uqre7 s t-tayib' (gravement blessé) indiquent une urgence vitale. Le lieu est clairement identifié comme Sidi Aïch au niveau de l'Oued Soummam."
     },
     "timestamp": "2026-03-09T23:49:44.393014"
+  },
+  "Appelle 361.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Allo... l7imaya lmadania fel istima3 oui?... Allo ma m3lich adassem ardagi Tazmalt! avrid igttawin Tazmalt! Erwaqvu.... dach l'an?.... athan  snat n tomobilath t'khdment l'accident...... Amba3d lan les blessés?.... Atan waqila yiwen degsen yemuth akya wayednin blessé .....aah chhal ttema sin aa? ...ih g Sin yidsn! Yiwen athan  je pense yemuth ugettherikara ma dwayednin il est blessé....daccord ih",
+    "metadata": {
+      "incident_type": "accident_vehicular",
+      "intent": "report_incident",
+      "urgency_human": "critical",
+      "injury_severity": "fatal",
+      "fire_present": "no",
+      "trapped_persons": "unknown",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "2",
+      "daira": "Tazmalt",
+      "commune": "Tazmalt",
+      "lieu": "tazmalt",
+      "location_description": "Tazmalt, er weqvu (au niveau de l'arrêt)",
+      "summary": "Signalement d'un accident de la route impliquant deux véhicules à Tazmalt au niveau de l'arrêt. On déplore deux victimes, dont une personne probablement décédée.",
+      "notes_cot": "L'appelant cite 'Tazmalt' et 'er-waqf-u' pour le lieu. L'utilisation de 'snat n-tomobile' et 'l'accident' confirme le type accident_vehicular. La mention 'yemuth' (il est mort) et 'ur-y-et-t-hariki ara' (il ne bouge pas) mène à la sévérité fatal et une urgence critical."
+    },
+    "timestamp": "2026-03-10T06:19:25.400423"
   }
 }
