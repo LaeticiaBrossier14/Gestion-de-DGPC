@@ -12,6 +12,7 @@ import csv
 import json
 import os
 import re
+import unicodedata
 from datetime import datetime
 from pathlib import Path
 from flask import Flask, jsonify, request, send_from_directory, send_file
@@ -36,6 +37,7 @@ AUDIO_DIRS = [
 PROGRESS_FILE = BASE_DIR / "verification_progress.json"
 
 app = Flask(__name__, static_folder=str(BASE_DIR))
+app.json.ensure_ascii = False
 
 # ── Ontology (aligned with dgpc_annotation_local.py / enums.py) ──────────
 INCIDENT_TYPE_OPTIONS = {
@@ -88,6 +90,50 @@ DAIRAS_BEJAIA = [
 calls_data = []      # list of dicts from CSV
 progress = {}        # {call_id: {status, corrected_transcription, timestamp}}
 
+MOJIBAKE_MARKERS = ("Ã", "Â", "â", "ð", "�", "├", "┬", "ÔÇ", "┼ô")
+
+
+def repair_mojibake_text(value):
+    """Repair common UTF-8/Windows mojibake without touching normal text."""
+    if not isinstance(value, str):
+        return value
+
+    text = unicodedata.normalize("NFC", value.replace("﻿", ""))
+    if not any(marker in text for marker in MOJIBAKE_MARKERS):
+        return text
+
+    repaired = text
+    for source_encoding in ("cp1252", "latin-1", "cp850"):
+        try:
+            candidate = repaired.encode(source_encoding).decode("utf-8")
+        except (UnicodeEncodeError, UnicodeDecodeError):
+            continue
+        if candidate != repaired:
+            repaired = unicodedata.normalize("NFC", candidate)
+
+    replacements = {
+        "ÔÇö": "—",
+        "┼ô": "œ",
+        "ÔÇ’": "’",
+        "ÔÇœ": "“",
+        "ÔÇ": "”",
+        "ÔÇª": "…",
+    }
+    for bad, good in replacements.items():
+        repaired = repaired.replace(bad, good)
+
+    return repaired
+
+
+def sanitize_text_tree(value):
+    if isinstance(value, dict):
+        return {k: sanitize_text_tree(v) for k, v in value.items()}
+    if isinstance(value, list):
+        return [sanitize_text_tree(v) for v in value]
+    if isinstance(value, str):
+        return repair_mojibake_text(value)
+    return value
+
 
 def natural_sort_key(name):
     """Sort 'Appelle 2.wav' before 'Appelle 10.wav'."""
@@ -116,7 +162,7 @@ def load_csv():
         try:
             with open(csv_path, "r", encoding="utf-8-sig") as f:
                 reader = csv.DictReader(f)
-                rows = list(reader)
+                rows = [sanitize_text_tree(row) for row in reader]
             for row in rows:
                 file_key = row.get("File", "").strip()
                 if file_key and file_key not in merged:
@@ -141,7 +187,10 @@ def load_progress():
     if PROGRESS_FILE.exists():
         try:
             with open(PROGRESS_FILE, "r", encoding="utf-8") as f:
-                progress = json.load(f)
+                raw_progress = json.load(f)
+            progress = sanitize_text_tree(raw_progress)
+            if progress != raw_progress:
+                save_progress()
             print(f"Loaded progress: {len(progress)} entries")
         except Exception as e:
             progress = {}
@@ -150,7 +199,7 @@ def load_progress():
 
 def save_progress():
     with open(PROGRESS_FILE, "w", encoding="utf-8") as f:
-        json.dump(progress, f, ensure_ascii=False, indent=2)
+        json.dump(sanitize_text_tree(progress), f, ensure_ascii=False, indent=2)
 
 
 # ── API Routes ──────────────────────────────────────────────────────────
@@ -274,8 +323,8 @@ def api_call_action(call_id):
     """Update call status: verified / corrected / skipped. call_id = filename."""
     data = request.json
     action = data.get("action")  # verified, corrected, skipped
-    corrected = data.get("corrected_transcription", "")
-    metadata = data.get("metadata", {})
+    corrected = repair_mojibake_text(data.get("corrected_transcription", ""))
+    metadata = sanitize_text_tree(data.get("metadata", {}))
 
     if action not in ("verified", "corrected", "skipped"):
         return jsonify({"error": "invalid action"}), 400
