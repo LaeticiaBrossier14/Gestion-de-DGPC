@@ -15,21 +15,15 @@ def run_cmd(cmd):
 
 
 def load_json_safe(content):
-    if isinstance(content, bytes):
-        for encoding in ("utf-8", "utf-16"):
-            try:
-                return json.loads(content.decode(encoding))
-            except Exception:
-                continue
+    try:
+        if isinstance(content, bytes):
+            return json.loads(content.decode("utf-8"))
+        if isinstance(content, str):
+            return json.loads(content)
+        return None
+    except Exception:
         return None
 
-    try:
-        return json.loads(content)
-    except Exception:
-        try:
-            return json.loads(content.encode("utf-8", errors="ignore").decode("utf-16"))
-        except Exception:
-            return None
 
 
 def parse_timestamp(entry):
