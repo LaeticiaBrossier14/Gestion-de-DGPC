@@ -2201,14 +2201,14 @@
   },
   "Appelle 300.m4a": {
     "status": "corrected",
-    "corrected_transcription": "Assalamou 3likum l'7imaya? ... Wa3alaykum essalam... ouii l'7imaya lmadaniya... ma ma3lich ad ro7em athan dagi yiwn ighli isker... isker? Anda ?...  Exactement g Chemini, I3eyadhen... Iayadhen, anda exacte? ... an3am i Taddart mi seman I3eyadhen ar rond point ni, exactement rond point zdat n l'CEM... D'accord eh sa7a tura dchey3egh lambulance ...ma maalich d3ijlem chweya ma ma3lich...ih d'accord sa7a.",
+    "corrected_transcription": "salam ou3likum l'7imaya? ... Wa3laykum esalam... ouii l'7imaya lmadaniya... ma ma3lich ad ro7em athan dagi yiwen ighli dayi  isker... isker? Anda ?...  Exactement g Chemini, I3eyadhen... I3eyadhen, anda exacte? ... an3am i Taddart mi seman I3eyadhen ar rond point ni, exactement rond point zdat n l'CEM... D'accord eh sa7a tura dchey3egh lambulance ...ma ma3lich d3ijlem chwiya ma ma3lich...ih d'accord sa7a.",
     "metadata": {
       "incident_type": "medical_emergency",
       "intent": "report_incident",
       "urgency_human": "medium",
       "injury_severity": "unknown",
       "fire_present": "no",
-      "trapped_persons": "unknown",
+      "trapped_persons": "no",
       "weapons_involved": "no",
       "hazmat_involved": "no",
       "victims_count": "1",
@@ -2216,10 +2216,10 @@
       "commune": "Chemini",
       "lieu": "I3eyadhen",
       "location_description": "I3eyadhen ar rond point ni, exactement rond point zdat n l'CEM",
-      "summary": "Signalement d'un bus qui s'est renversé au niveau de la commune de Cheminia, plus précisément au village Iayadhen près du rond-point et du CEM.",
-      "notes_cot": "L'appelant utilise 'ighli' (est tombé/renversé) associé à 'l'kar' (le bus), ce qui indique un accident de transport en commun (accident_vehicular). La localisation est très précise : Cheminia (commune), Iayadhen (village) et les points de repère 'rond-point' et 'zdat l'CEM' (devant le collège)."
+      "summary": "Un homme ayant consommé de l’alcool est tombé à Chemini.",
+      "notes_cot": "L'appelant utilise 'ighli' (est tombé/renversé)  ce qui indique (medical_emergency)  La localisation est très précise : Chemini (commune), Iayadhen (village) et les points de repère 'rond-point' et 'zdat l'CEM' (devant le collège)."
     },
-    "timestamp": "2026-03-09T05:51:44.109337"
+    "timestamp": "2026-03-11T17:05:11.775969"
   },
   "Appelle 301.wav": {
     "status": "corrected",
@@ -2245,37 +2245,37 @@
   },
   "Appelle 302.wav": {
     "status": "corrected",
-    "corrected_transcription": "Allo oui?...a salamou 3likoum....Oui l'himaya l'madania....athan ma ma3lich adrohem ar Tichy  athan d yiwn iggherken nekssithid ... thekssithid?... i3ach aka an3am i..ih?..ih... n3awed neksithid nigham athan tura i3ach itnefiss...ih ih...mai isker ma ma3lich ad3ijlem chwi ahath...ih...ahath  adi7yu nchlh....ih D'accord, eh.",
+    "corrected_transcription": "Allo oui?...a salamou 3likoum....Oui l'7imaya l'madania....athan ma ma3lich adrohem ar Tichy  athan d yiwen iggherken nekssithid ... thekssithid?... i3ach aka an3am i..ih?..ih... n3awed neksithid nigham athan tura i3ach itnefiss...ih ih...mais isker ma ma3lich ad3ijlem chwi ahath...ih...ahath  adi7yu nchlh....ih D'accord, eh.",
     "metadata": {
       "incident_type": "drowning",
       "intent": "report_incident",
       "urgency_human": "high",
       "injury_severity": "severe",
       "fire_present": "no",
-      "trapped_persons": "unknown",
+      "trapped_persons": "no",
       "weapons_involved": "no",
-      "hazmat_involved": "unknown",
+      "hazmat_involved": "no",
       "victims_count": "1",
       "daira": "Tichy",
       "commune": "Tichy",
       "lieu": "tichy",
       "location_description": "tichy",
-      "summary": "Signalement d'un incendie grave impliquant un bus (car) à proximité de l'ex-CIFID dans la zone de Tichy.",
-      "notes_cot": "L'appelant signale un 'incendie grave'. L'utilisation de 'it-mess-fid' (ça prend feu) associé à 'l-bus car' indique un incendie de véhicule. Le lieu est précisé par 'l-ex-CIFID'. L'appelante demande d'accélérer ('at-3ejlem') ce qui justifie une urgence haute."
+      "summary": "Une personne s’est noyée à Tichy.",
+      "notes_cot": "L’appelant signale qu’une personne est en train de se noyer à Tichy, ce qui indique une situation d’urgence nécessitant une intervention rapide des secours."
     },
-    "timestamp": "2026-03-09T06:01:19.484773"
+    "timestamp": "2026-03-11T17:07:11.357814"
   },
   "Appelle 303.wav": {
     "status": "corrected",
-    "corrected_transcription": "Oui l7imaya lmadaniya negh ?... - Oui oui l7imaya lmadaniya.... athan ma maalich adrohem ar lekseur exactement Berchiche...aah dachu yellan?...athan d yiwen ivgha ad i suicid,ivgha d suici yiwn ivgha d suicider... Yiwen igvha ad suicider ? ... An3am iih, ma ma3lich ad  3ejlem ahath adimne3 nchlh inchAllah.... Anda exact g'Berchiche ? ... Berchiche 3.... Berchiche 3 ? ... An3am ii...  D'accord ii sa7a... L'quartier  n Berchiche 3... sa7.",
+    "corrected_transcription": "Oui l7imaya lmadaniya negh ?... - Oui oui l7imaya lmadaniya.... athan ma maa3lich adrohem ar le9seur exactement Berchiche...aah dachu yellan?...athan d yiwen ivgha ad i suicid,ivgha d suici yiwn ivgha d suicider... Yiwen igvha ad suicider ? ... An3am iih, ma ma3lich ad  3ejlem ahath adimne3 nchlh inchAllah.... Anda exact g'Berchiche ? ... Berchiche 3.... Berchiche 3 ? ... An3am ii...  D'accord ii sa7a... L'quartier  n Berchiche 3... sa7.",
     "metadata": {
-      "incident_type": "medical_emergency",
-      "intent": "request_help",
-      "urgency_human": "critical",
-      "injury_severity": "severe",
+      "incident_type": "other",
+      "intent": "report_incident",
+      "urgency_human": "low",
+      "injury_severity": "none",
       "fire_present": "no",
       "trapped_persons": "no",
-      "weapons_involved": "unknown",
+      "weapons_involved": "no",
       "hazmat_involved": "no",
       "victims_count": "1",
       "daira": "El Kseur",
@@ -2283,9 +2283,9 @@
       "lieu": "Berchiche 3",
       "location_description": "Exactement Berchiche 3",
       "summary": "Un témoin signale une personne sur le point de se suicider à Berchiche 3 dans la commune d'El Kseur et demande une intervention immédiate.",
-      "notes_cot": "L'appelant utilise 'ibgha ad-i-suicider' (veut se suicider) pour définir l'incident, ce qui classe l'appel en urgence médicale/psychiatrique. La localisation est précisée comme 'Berchiche 3' à 'Lqsar' (El Kseur)."
+      "notes_cot": "L'appelant utilise 'ibgha ad i suicider' (veut se suicider) pour définir l'incident, ce qui classe l'appel en  'other'. La localisation est précisée comme 'Berchiche 3' à 'Le9sar' (El Kseur)."
     },
-    "timestamp": "2026-03-09T06:06:31.291508"
+    "timestamp": "2026-03-11T17:09:05.785572"
   },
   "Appelle 304.wav": {
     "status": "corrected",
@@ -2297,17 +2297,17 @@
       "injury_severity": "severe",
       "fire_present": "no",
       "trapped_persons": "no",
-      "weapons_involved": "unknown",
+      "weapons_involved": "no",
       "hazmat_involved": "no",
       "victims_count": "1",
       "daira": "Béjaïa",
       "commune": "Béjaïa",
       "lieu": "centre ville",
-      "location_description": " Centre ville n Bgayet.",
-      "summary": "Signalement de deux victimes au centre-ville de Béjaïa (secteur El Guelta). Un blessé grave est à déplorer, tandis qu'un second individu a pris la fuite.",
-      "notes_cot": "L'appelant mentionne 'deux victimes' et précise que l'une est 'blessé grave' (urgence médicale/violence). Le verbe 'yerwel' (il s'est enfui) associé à la présence de victimes oriente vers une agression ou un incident avec tiers en fuite (assault_violence). Lieu identifié : El Guelta au centre-ville."
+      "location_description": " Centre ville n BgayetH.",
+      "summary": "Signalement de deux victimes au centre-ville de Béjaïa . Un blessé grave est à déplorer, tandis qu'un second individu a pris la fuite.",
+      "notes_cot": "L'appelant mentionne 'deux victimes' et précise que l'une est 'blessé grave' (urgence médicale/violence). Le verbe 'yerwel' (il s'est enfui) associé à la présence de victimes oriente vers une agression ou un incident avec tiers en fuite (assault_violence). Lieu identifié : centre ville."
     },
-    "timestamp": "2026-03-09T06:11:12.899373"
+    "timestamp": "2026-03-11T17:10:43.302787"
   },
   "Appelle 305.wav": {
     "status": "corrected",
@@ -2323,22 +2323,22 @@
       "hazmat_involved": "no",
       "victims_count": "1",
       "daira": "Chemini",
-      "commune": "Chemini",
+      "commune": "semaoune",
       "lieu": "semaoune",
       "location_description": "exactement g semaoune",
-      "summary": "Une femme de 90 ans a fait une chute à Akawen, se blessant à la tête. Sa famille demande l'intervention d'une ambulance car ils ne peuvent pas la déplacer eux-mêmes.",
-      "notes_cot": "L'appelant utilise 'teghli' (elle est tombée) et '90 sna' (90 ans), indiquant une urgence gériatrique. Le terme 'ik-chem i-ni-r' suggère un choc au front/tête. Le lieu 'Akawen' est un village connu de la commune d'Adekar."
+      "summary": "Une femme de 90 ans a fait une chute  Sa famille demande l'intervention d'une ambulance car ils ne peuvent pas la déplacer eux-mêmes.",
+      "notes_cot": "L'appelant utilise 'teghli' (elle est tombée) et '90 sna' (90 ans), indiquant une urgence gériatrique.  Le lieu 'Semoaoune' est un village connu de la commune de Chemini."
     },
-    "timestamp": "2026-03-09T06:16:01.955027"
+    "timestamp": "2026-03-11T17:12:54.993941"
   },
   "Appelle 306.wav": {
     "status": "corrected",
-    "corrected_transcription": "Aselamu 3laykum.... Wa 3alaykum asselam 7imaya madaniya...a Tres bien ma  m3alich admru7em dagi ar ghil u3ezog  exactament g terminus....Dachou yelan?... Adyiwn tetfit la crise athani yghliyagh dagi....aaa Daqchich damzyan?...ah?...daqchich damezyan ngh amk?....Khati c'est un jeune me9er chwiya.... D'accord iyeh. Sa7...aru7.",
+    "corrected_transcription": "Aselamu 3laykum.... Wa 3alaykum asselam 7imaya madaniya...a Tres bien ma  m3alich admru7em dagi ar ighi ouzzoug  exactament g terminus....Dachou yelan?... Adyiwn tetfit la crise athani yghliyagh dagi....aaa Daqchich damzyan?...ah?...daqchich damezyan ngh amk?....Khati c'est un jeune me9er chwiya.... D'accord iyeh. Sa7...aru7.",
     "metadata": {
       "incident_type": "medical_emergency",
       "intent": "report_incident",
       "urgency_human": "high",
-      "injury_severity": "severe",
+      "injury_severity": "unknown",
       "fire_present": "no",
       "trapped_persons": "no",
       "weapons_involved": "no",
@@ -2346,16 +2346,16 @@
       "victims_count": "1",
       "daira": "Béjaïa",
       "commune": "Béjaïa",
-      "lieu": "ighil u3ezog Terminus",
-      "location_description": "ghil u3ezog  exactament g terminus",
-      "summary": "Un jeune homme a fait un malaise (une crise) et s'est effondré au sol près du terminus de bus à Tribly.",
-      "notes_cot": "L'appelant utilise 'la crise' pour un malaise médical et 'y-ghli' (est tombé). Le lieu 'Tribly' et le repère 'l-terminus' (arrêt de bus final) sont explicites. L'urgence est classée 'high' car la personne est inconsciente ou au sol suite à une crise."
+      "lieu": "ighil ouzzoug",
+      "location_description": "ighil ouzzoug  exactament g terminus",
+      "summary": "Un jeune homme a fait un malaise (une crise) et s'est effondré au sol près du terminus de bus à  ighil ouzzoug.",
+      "notes_cot": "L'appelant utilise 'la crise' pour un malaise médical et 'yeghli' (est tombé). Le lieu 'ighi ouzzoug' et le repère 'l-terminus' (arrêt de bus final) sont explicites. L'urgence est classée 'high' car la personne est inconsciente ou au sol suite à une crise."
     },
-    "timestamp": "2026-03-09T06:19:52.874478"
+    "timestamp": "2026-03-11T17:14:46.056842"
   },
   "Appelle 307.wav": {
     "status": "corrected",
-    "corrected_transcription": "asalamu alaykum... Wa alaykum asalam l'7imaya l'madaniya oui? ....aa ma maalich adrohem ar Chemini... ih dachu yelan?...exactement Souq Ufella... dachu yellan?...Ad yiwth ta9chicht dagi aaa  ikerchit uqejjoun ...Ikherchit uqejoun? Taqchicht?... En3amiii..., grave negh machi grave? ....Grave chwiya ta3mled aa ilqa ad ghiwelem incha'allah atemne3... Anda exact?...g Souq ufella Chemini....D'accord eh... d'accord...tura d chey3egh l'ambulance.",
+    "corrected_transcription": "asalamu alaykum... Wa alaykum asalam l'7imaya l'madaniya oui? ....aa ma maalich adrohem ar Chemini... ih dachu yelan?...exactement Sou9 Ufella... dachu yellan?...Ad yiwth ta9chicht dagi aaa  ikerchit uqejjoun ...Ikherchit uqejoun? Taqchicht?... En3amiii..., grave negh machi grave? ....Grave chwiya ta3mled aa ilqa ad ghiwelem incha'allah atemne3... Anda exact?...g Souq ufella Chemini....D'accord eh... d'accord...tura d chey3egh l'ambulance.",
     "metadata": {
       "incident_type": "medical_emergency",
       "intent": "request_help",
@@ -2371,20 +2371,20 @@
       "lieu": "Souq Ufella",
       "location_description": "Chemini exactement Souq Ufella",
       "summary": "Signalement d'une morsure de chien sur une jeune fille à Souq Ufella (Chemini). L'appelant demande l'envoi rapide d'une ambulance car la blessure semble grave.",
-      "notes_cot": "L'appelant mentionne 'ikher-chit uqejjoun' (mordue par un chien) ce qui classe l'incident en medical_emergency. Le terme 'taqchicht' désigne une fille. L'adjectif 'grave' est utilisé par l'appelant pour qualifier l'état de la victime, et 'ad-ghiwelem' (dépêchez-vous) confirme l'urgence élevée. Localisation claire : Chemini, Souq Ufella."
+      "notes_cot": "L'appelant mentionne 'ikher-chit uqejjoun' (mordue par un chien) ce qui classe l'incident en medical_emergency. Le terme 'taqchicht' désigne une fille. L'adjectif 'grave' est utilisé par l'appelant pour qualifier l'état de la victime, et 'adghiwelem' (dépêchez-vous) confirme l'urgence élevée. Localisation claire : Chemini, Souq Ufella."
     },
-    "timestamp": "2026-03-09T06:24:03.773838"
+    "timestamp": "2026-03-11T17:15:48.325472"
   },
   "Appelle 308.wav": {
     "status": "corrected",
-    "corrected_transcription": "Salam 3laykoum....Alaykoum salam  7imaya madenya....7imaya?ma  Me3lich adro7em ar Seddouk exactement g dachu yellan?... thadarth n mSisna d yiwn yeghlid fellas sour....Amek?... il est con ,yeghlid fellas esour, esour.... Yeghli?... En3am, yeghli fellas sour Il est conscient aka mai thwa9ra7 ilaq dghiwlem chweya....Anda exact  3awediyid ma  me3lich? ...aa Seddouk  la commune n Seddouk thadarth n msisna exactement ...daccord ii...ar rond point ni. D'accord..., d'accord sa7a",
+    "corrected_transcription": "Salam 3laykoum....Alaykoum salam  7imaya madenya....7imaya?ma  Me3lich adro7em ar Seddouk exactement g dachu yellan?... thadarth n mSisna d yiwen yeghlid fellas sour....Amek?... il est con ,yeghlid fellas esour, esour.... Yeghli?... En3am, yeghli fellas sour Il est conscient aka mai thwa9ra7 ilaq dghiwlem chweya....Anda exact  3awediyid ma  me3lich? ...aa Seddouk  la commune n Seddouk thadarth n msisna exactement ...daccord ii...ar rond point ni. D'accord..., d'accord sa7a",
     "metadata": {
       "incident_type": "structural_collapse",
       "intent": "report_incident",
       "urgency_human": "high",
       "injury_severity": "severe",
       "fire_present": "no",
-      "trapped_persons": "unknown",
+      "trapped_persons": "yes",
       "weapons_involved": "no",
       "hazmat_involved": "no",
       "victims_count": "1",
@@ -2393,18 +2393,18 @@
       "lieu": "msisna",
       "location_description": "la commune n Seddouk, thadarth n msisna exactement rond point ni",
       "summary": "Un mur s'est effondré sur une personne dans le village de Sisna (commune de Seddouk). La victime est consciente mais blessée et en état de choc.",
-      "notes_cot": "L'appelant utilise 'yeghli fell-as sour' (un mur est tombé sur lui) ce qui indique un 'structural_collapse'. La mention 'il est conscient' et 'thwaqra7' (il est blessé/souffrant) permet d'évaluer la sévérité. La localisation est précise : Seddouk, village Sisna, lieu-dit Aqemoun."
+      "notes_cot": "L'appelant utilise 'yeghli fellas sour' (un mur est tombé sur lui) ce qui indique un 'structural_collapse'. La mention 'il est conscient' et 'thwaqra7' (il est blessé/souffrant) permet d'évaluer la sévérité. La localisation est précise : Seddouk, village Sisna."
     },
-    "timestamp": "2026-03-09T06:30:05.928002"
+    "timestamp": "2026-03-11T17:18:02.081707"
   },
   "Appelle 309.wav": {
     "status": "corrected",
-    "corrected_transcription": "Asalam 3likum.... 3likum esselam oui  L’7imaya l'madaniyaoui... ma m3alich dassem l’7imaya l'madaniya? Ar Buxyama, exactement laree u virage d yiwen o moto igxdmen l'accident l'wa7is  u camion ...Sh7al lan lesblessés?... Les blessés walagh athan bu la  moto nni il est blessé  yiwen n blessé kan...yiwn blesse? ...An3am  yiwen n'blessé kan igelan bou la moto....D'accord iii tura dchey3egh  l'ambulance ardina....Sa7a.",
+    "corrected_transcription": "Asalam 3likum.... 3likum esselam oui  L’7imaya l'madaniya oui... ma m3alich dassem l’7imaya l'madaniya? Ar Boukhiama, exactement l'arée u virage d yiwen o moto igxdmen l'accident l'wa7is  u camion ...Sh7al lan les blessés?... Les blessés walagh athan bu la  moto nni il est blessé  yiwen n blessé kan...yiwen blesse? ...An3am  yiwen n'blessé kan igelan bou la moto....D'accord iiih tura dchey3egh  l'ambulance ardina....Sa7a.",
     "metadata": {
       "incident_type": "accident_vehicular",
       "intent": "report_incident",
       "urgency_human": "high",
-      "injury_severity": "severe",
+      "injury_severity": "unknown",
       "fire_present": "no",
       "trapped_persons": "no",
       "weapons_involved": "no",
@@ -2412,20 +2412,20 @@
       "victims_count": "1",
       "daira": "Béjaïa",
       "commune": "Béjaïa",
-      "lieu": "Boukhyama",
-      "location_description": "Ar Buxyama, exactement laree u virage",
+      "lieu": "Boukhiama",
+      "location_description": "Ar boukhiama , exactement l'arée virage",
       "summary": "Accident de la route à Boukhiama impliquant une moto et un camion, avec un blessé confirmé (le motocycliste).",
-      "notes_cot": "L'appelant utilise 'moto', 'camion' et 'l'accident' ce qui indique un accident_vehicular. Le lieu 'Buxyama' est identifié comme Boukhiama à Béjaïa. 'Yiwen n'blessé' (un blessé) confirme le nombre de victimes."
+      "notes_cot": "L'appelant utilise 'moto', 'camion' et 'l'accident' ce qui indique un accident_vehicular. Le lieu 'Boukhiama' est identifié comme Boukhiama à Béjaïa. 'Yiwen n'blessé' (un blessé) confirme le nombre de victimes."
     },
-    "timestamp": "2026-03-09T06:34:45.220891"
+    "timestamp": "2026-03-11T17:20:13.895763"
   },
   "Appelle 310.wav": {
     "status": "corrected",
-    "corrected_transcription": "Allo ssalam 3alaykum... 3alaykum Essalam oui l7imaya lmadaneya ....ma m3lich ad ru7em aer degi Béjaia ville exactement wahid la brise....Dacu illan? ....Adyiwn ukham t igtred9en.... akham  itert9en? An3am iii...amk iterte9 uzritara ngh amk?...aaa d la fuite d gaz igellan ch3el tmes .... D'accord eh, d'accord... sa7.",
+    "corrected_transcription": "Allo ssalam 3alaykum... 3alaykum Essalam oui l7imaya lmadaneya ....ma m3lich ad ru7em ar degi Béjaia ville exactement wa7id la brise....Dacu illan? ....Adyiwn ukham t igtred9en.... akham  itert9en? An3am iii...amk iterte9 uzritara negh amk?...aaa d la fuite d gaz igellan ch3el tmes .... D'accord eh, d'accord... sa7a.",
     "metadata": {
-      "incident_type": "hazmat",
+      "incident_type": "fire_building",
       "intent": "report_incident",
-      "urgency_human": "high",
+      "urgency_human": "unknown",
       "injury_severity": "unknown",
       "fire_present": "yes",
       "trapped_persons": "unknown",
@@ -2436,14 +2436,14 @@
       "commune": "Béjaïa",
       "lieu": "La Brise de Mer",
       "location_description": "Béjaia ville exactement la l'brise",
-      "summary": "Signalement d'un accident impliquant un camion qui a explosé ou pris feu au niveau de la Brise de Mer à Béjaïa, avec des fuites de gaz ou d'huile sur l'asphalte.",
-      "notes_cot": "L'appelant signale 'l'accident' d'un 'l'camion' qui 'i-terteq' (a explosé). La mention de 'l'gaz' et 'zzit' (huile/carburant) sur 'l'asphalte' qui a pris 'leclat' (éclat/feu) confirme un incendie de véhicule avec matières dangereuses (hazmat)."
+      "summary": "Signalement d'une maison  qui a explosé ou pris feu au niveau de la Brise de Mer à Béjaïa, avec des fuites de gaz .",
+      "notes_cot": "L'appelant signale 'i-terteq' (a explosé). La mention de 'l'gaz' qui a pris 'leclat' (éclat/feu) confirme un incendie de maison avec matières dangereuses  ce qui implique le type 'fire _building'."
     },
-    "timestamp": "2026-03-09T06:37:43.608096"
+    "timestamp": "2026-03-11T17:23:37.157248"
   },
   "Appelle 311.wav": {
     "status": "corrected",
-    "corrected_transcription": "aaaa Salam alikom m3akum l'7imaya l'madanya.... ouii 3likum salam... aaa s3igh dagi yiwth l'accident gar l'bus wa7id la moto dayi dauiwa7id...ganida?...dayi wa7id aa wa7id aa Ighil aa ighil aa ighil 3li.... Ighil 3li anwa amkan exact?...Wa7id waytnin l'train, nagh thessnet train ni dhina..... En face CEM ni?.... Ih, en face CEM ni..... D'accord chhal les blessees  lgela.?... ila yiwen  wina la moto kan iblessin, waytnin l'bus ithyugh uma  dazou7.... D'accord,tura dencheya3  les pompiers.... Sa7a.",
+    "corrected_transcription": "aaaa Salam alikom m3akum l'7imaya l'madanya.... ouii 3likum salam... aaa s3igh dagi yiweth l'accident gar l'bus wa7id la moto dayi dauiwa7id...ganida?...dayi wa7id aa wa7id aa Ighil aa ighil aa ighil 3li.... Ighil 3li anwa amkan exact?...Wa7id waytnin l'train, nagh thessnet train ni dhina..... En face CEM ni?.... Ih, en face CEM ni..... D'accord chhal les blessees  lgela.?... ila yiwen  wina la moto kan iblessin, waytnin l'bus ithyugh uma  dazou7.... D'accord,tura dencheya3  les pompiers.... Sa7a.",
     "metadata": {
       "incident_type": "accident_vehicular",
       "intent": "report_incident",
@@ -2454,42 +2454,42 @@
       "weapons_involved": "no",
       "hazmat_involved": "no",
       "victims_count": "1",
-      "daira": "Béjaïa",
+      "daira": "Ighil Ali",
       "commune": "Ighil Ali",
       "lieu": "Ighil Ali",
       "location_description": "Wa7id waytnin l'train, nagh thessnet train ni dhina... Ih, en face CEM ni",
       "summary": "Un accident de la route impliquant un bus et une moto s'est produit à Ighil Ali, près de la voie ferrée en face du CEM. Un blessé (le motocycliste) est signalé comme étant en sang.",
       "notes_cot": "L'appelant signale 'l'accident' (type) à 'Ighil 3ali' (lieu). Utilisation de repères spatiaux comme 'l'train' (voie ferrée) et 'CEM'. Le terme 'i-blessin' (blessé) et 'azwa7' (rouge/sang) indiquent la présence d'une victime avec une certaine gravité."
     },
-    "timestamp": "2026-03-09T06:43:37.895051"
+    "timestamp": "2026-03-11T17:24:48.068776"
   },
   "Appelle 312.wav": {
     "status": "corrected",
-    "corrected_transcription": "Salam 3likoum ma3koum l7imaya lmadaniya....  Oui 3likoum salam thella dayi taterteq yiwn ouxxam dayi wa7id lqouds.... ganida exacte... ,gvgayth ,gvgayth  ....anwa amkan fkiyd amkan ma maalich...gvgayth ... gvgayth  dayi ville gvgayth  ville dayi taterteq wa7id lqouds yiwen axxam taterteq....wa7id?... Wa7id l'arret l'qouds thina  n-allée...a ddaccord.... Illa uiwen axxam dinna taterteq.....lan les blessés? ....A3limghara, a3limghara aqli dayi aaa stomobile inou, tsema a3limghara ma taterteq nagh lan les blesses ngh...daccord",
+    "corrected_transcription": "Salam 3likoum ma3koum l7imaya lmadaniya....  Oui 3likoum salam thella dayi taterteq yiwen oukham dayi wa7id l9ouds.... ganida exacte... ,gvgayeth ,gvgayeth  ....anwa amkan fkiyd amkan ma maa3lich...gvgayeth ... gvgayeth  dayi ville gvgayth  ville dayi taterteq wa7id l9ouds yiwen akham taterteq....wa7id?... Wa7id l'arret l'9ouds thina  n allée...a d'accord.... Illa yiwen akham dinna taterteq.....lan les blessés? ....A3limghara, a3limghara a9lin dayi aaa s tomobile inou, tsema a3limghara ma taterteq nagh lan les blésses negh...daccord",
     "metadata": {
       "incident_type": "fire_building",
       "intent": "report_incident",
-      "urgency_human": "high",
+      "urgency_human": "unknown",
       "injury_severity": "unknown",
       "fire_present": "unknown",
       "trapped_persons": "unknown",
       "weapons_involved": "no",
-      "hazmat_involved": "unknown",
+      "hazmat_involved": "no",
       "victims_count": "0",
       "daira": "Béjaïa",
       "commune": "Béjaïa",
       "lieu": "lqouds",
-      "location_description": "wa7id l'arret l'qouds, l'allée (arrêt de bus El Kout aux Allées)",
-      "summary": "Signalement d'une explosion dans une maison située à Bejaia ville, à proximité de l'arrêt El Kout (secteur Les Allées).",
-      "notes_cot": "L'appelant utilise le verbe 'taterteq' (a explosé) pour décrire l'incident dans un 'axxam' (maison). 'Lqout' et 'l'allée' font référence au quartier d'Ouled El Kout et au boulevard des Allées à Bejaia ville. L'urgence est qualifiée de 'high' suite à la mention d'une explosion domestique."
+      "location_description": "wa7id l'arret l'qouds, l'allée (arrêt de bus)",
+      "summary": "Signalement d'une explosion dans une maison située à Bejaia ville, à proximité de l'arrêt El qods.",
+      "notes_cot": "L'appelant utilise le verbe 'taterte9' (a explosé) pour décrire l'incident dans un 'akham' (maison). 'L9ouds' et 'l'allée' font référence au quartier et au boulevard des Allées à Bejaia ville. L'urgence est qualifiée de 'high' suite à la mention d'une explosion domestique."
     },
-    "timestamp": "2026-03-09T06:49:14.363578"
+    "timestamp": "2026-03-11T17:33:36.041357"
   },
   "Appelle 313.wav": {
     "status": "corrected",
-    "corrected_transcription": "Salam 3likum m3akum l 7imaya lmadaniya...Oui l'7imaya l'madaniya?.... An3am eh... achu gedran? ....thella dayi wayetnin chute de moto dayi ighli ighli yiwn s la moto ins... ganida?.... ila itt dayi g autoroute wa7id avrid ni ittawin lautourout ni n  oued ghir... D'accord Il est conscient?.... Xati, il est conscient, ighli kan g l'moto, après iblesser chwiya tarniscdagi amaken, ttazalen chwiya idamen g tarnis. D'accord tura dencheye3 l'ambulance.... D'accord, sa7a.",
+    "corrected_transcription": "Salam 3likum m3akum l 7imaya lmadaniya...Oui l'7imaya l'madaniya?.... An3am eh... achu gedran? ....thella dayi wayetnin chute de moto dayi ighli ighli yiwn s la moto ins... ganida?.... ila itt dayi g autoroute wa7id avrid ni ittawin lautourout ni n  oued ghir... D'accord Il est conscient?.... Khati, il est conscient, ighli kan g l'moto, après iblesser chwiya tarniscdagi amaken, ttazalen chwiya idamen g tarnis. D'accord tura dencheye3 l'ambulance.... D'accord, sa7a.",
     "metadata": {
-      "incident_type": "accident_vehicular",
+      "incident_type": "medical_emergency",
       "intent": "report_incident",
       "urgency_human": "medium",
       "injury_severity": "unknown",
@@ -2503,9 +2503,9 @@
       "lieu": "L'autoroute n'Oued Ghir",
       "location_description": "L'autoroute oued ghir(l'autoroute menant vers le cimetière/pompes funèbres), l'autoroute n'Oued Ghir",
       "summary": "Signalement d'un accident de moto sur l'autoroute d'Oued Ghir. Le conducteur est tombé, il est conscient mais blessé à la jambe avec un léger saignement.",
-      "notes_cot": "L'appelant utilise 'l'accident n'moto' (accident_vehicular). Le lieu est précisé par 'l'autoroute n'Oued Ghir'. L'état de la victime est 'conscient' mais présente un saignement ('dam') à la jambe ('t-arnis'), ce qui indique une gravité 'minor' ou modérée nécessitant une ambulance."
+      "notes_cot": "L'appelant utilise 'l'accident n'moto' (accident_vehicular). Le lieu est précisé par 'l'autoroute n'Oued Ghir'. L'état de la victime est 'conscient' mais présente un saignement ('damen ') à la jambe ('t-arnis'), ce qui indique une gravité 'minor' ou modérée nécessitant une ambulance."
     },
-    "timestamp": "2026-03-09T06:54:53.298246"
+    "timestamp": "2026-03-11T17:41:14.198985"
   },
   "Appelle 314.wav": {
     "status": "corrected",
@@ -2553,7 +2553,7 @@
   },
   "Appelle 316.wav": {
     "status": "corrected",
-    "corrected_transcription": "Salam 3alaikum m3akum l’7imaya l’madania n3em....eh Allo oui thella yiwth l'accident dayi wa7i snath n'tumubilat wa7ed la Wilaya la Wilaya.... ganida exact Wilaya anida?... G la Wilaya g Bgayet vgayth ville.... En face lycée ni Amoroun?... khati  khati wa7ed la Wilaya anda yella l'Maire ni winna  l'Wali anda ixedem l'Wali.... Ah d'accord d'accord esque lan l'blessés? ttwalid lan l'blessés? ....Khati d l'accident kan garasen umbe3d yiwen wa9ila wa9ila yejre7 yejre7 gfousis....Yiwen kan igellan yejran?....ih yiwn kn ... Il est conscient? ....Eh yiwen kan khati il est conscient il est conscient khati... D'accord akka chwiya dawed l'ambulance.",
+    "corrected_transcription": "Salam 3alaikum m3akum l’7imaya l’madania n3em....eh Allo oui thella yiwth l'accident dayi wa7i snath n'tumubilat wa7id la Wilaya la Wilaya.... ganida exact Wilaya anida?... G la Wilaya g Bgayet vgayth ville.... En face lycée ni Amoroun?... khati  khati wa7ed la Wilaya anda yella l'Maire ni winna  l'Wali anda ixedem l'Wali.... Ah d'accord d'accord esque lan l'blessés? ttwalid lan l'blessés? ....Khati d l'accident kan garasen umbe3d yiwen wa9ila wa9ila yejre7 yejre7 gfousis....Yiwen kan igellan yejran?....ih yiwn kn ... Il est conscient? ....Eh yiwen kan khati il est conscient il est conscient khati... D'accord akka chwiya dawed l'ambulance.",
     "metadata": {
       "incident_type": "accident_vehicular",
       "intent": "report_incident",
@@ -2566,12 +2566,12 @@
       "victims_count": "1",
       "daira": "Béjaïa",
       "commune": "Béjaïa",
-      "lieu": "Siège de la Wilaya",
-      "location_description": "wa7ed la Wilaya n-da yella l'Maire, wenna l'Wali, d-agi y-xdem l'Wali",
+      "lieu": " la Wilaya",
+      "location_description": "wa7id la Wilaya n-da yella l'Maire, wenna l'Wali, d-agi y-xdem l'Wali",
       "summary": "Accident de la route entre deux voitures devant le siège de la wilaya de Béjaïa, impliquant un blessé léger à la main, conscient.",
-      "notes_cot": "L'appelant signale 'l'accident' impliquant '7sen n'tumubilat' (entre des voitures). La localisation est précisée comme 'la Wilaya' où travaille 'l'Wali' (le Préfet), ce qui confirme le siège administratif. Un blessé est identifié ('yiwen') avec une blessure à la main ('yejre7 g-fous-is') et l'appelant confirme 'il est conscient', justifiant un niveau de gravité 'minor'."
+      "notes_cot": "L'appelant signale 'l'accident' impliquant '7sen n'tumubilat' (entre des voitures). La localisation est précisée comme 'la Wilaya' où travaille 'l'Wali' (le Préfet), ce qui confirme le siège administratif. Un blessé est identifié ('yiwen') avec une blessure à la main ('yejre7 g fousis') et l'appelant confirme 'il est conscient', justifiant un niveau de gravité 'minor'."
     },
-    "timestamp": "2026-03-09T07:12:02.265864"
+    "timestamp": "2026-03-11T17:42:27.726920"
   },
   "Appelle 317.wav": {
     "status": "corrected",
@@ -7654,5 +7654,929 @@
       "notes_cot": "L'appelant utilise le verbe 'iche3l' (brûler) pour signaler l'incendie. L'opérateur identifie la commune d'Amizour et fournit les coordonnées de l'unité locale et de Sonelgaz."
     },
     "timestamp": "2026-03-11T16:00:02.172873"
+  },
+  "Appelle 237.wav": {
+    "status": "corrected",
+    "corrected_transcription": "— Allo\n— L7imaya an3am\n— Allo... Les pompiers?\n— Bgayeth an3am\n— Allo, aqlin g'Sidi Ali leB7ar tzemrem atasem mé yehlek   ouyezmirara adirespiri wich9a athnawi ar sbitar ?\n— s3id un malade iss3a, problème respiratoire akka a  ma madame?\n— Ih... ih\n— G' wanda zedghet  g Sidi Ali leb7er?\n— Aqliyi wa7id l'centre les handicapés Boulkhedra ni atkechmet a droite.\n— eh chey3ed 7ed  din a madame g centre ni aghdi3as\n— D'accord... D'accord sa7it.",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "request_help",
+      "urgency_human": "high",
+      "injury_severity": "unknown",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "Sidi Ali labhar",
+      "location_description": "wa7id l'centre les handicapés Boulkhedra ni atkechmet a droite.",
+      "summary": "Une femme appelle pour une personne souffrant d'une détresse respiratoire à Sidi Ali el Bahar (Béjaïa) près d'un centre pour handicapés.",
+      "notes_cot": "L'appelante mentionne un 'problème respiratoire' et demande si le patient peut respirer ('izmer ad respirer'). Elle précise sa localisation à Sidi Ali l'leB7ar près du 'centre les handicapés Boulkhedra' (repère visuel précis)."
+    },
+    "timestamp": "2026-03-11T17:56:59.392111"
+  },
+  "Appelle 238.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Operator: Saha... \nCaller: An3am? \nOperator: mais theghzouyth nchey3ed l'ambulance ar dina  \nCaller : Ah d'accord imala, ya3tik sa7a imala, barakellah ufik.\nOpérateur :  gizgeli mati ahath thufamtt...\nCaller: khati mazal,athan dina igen gelqa3a , yiwen ur ye3lim dachu thyughen, winna... la moto i-gari la moto ins..athan gelqa3a yiwn ur ye3lim achu...\nOpérateur terminus teghzuth athan thefegh lambulance ardina,athan wlachitt izmer lancettind imala , aya daccord \nCaller: a3tik saha ki3in rebi bn courage.",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "report_incident",
+      "urgency_human": "high",
+      "injury_severity": "severe",
+      "fire_present": "yes",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1.0",
+      "daira": "Béjaïa",
+      "commune": "bejaia",
+      "lieu": "Taghzouit",
+      "location_description": "terminus (cimetière de Taghzouit)",
+      "summary": "Un homme a été découvert dans un état critique près du cimetière de Taghzouit ; il était en train de pendre (tentative de suicide probable) et sa moto a été incendiée. L'appelant demande l'envoi immédiat d'une ambulance.",
+      "notes_cot": "L'appelant utilise 'it-pendouiller-ed' (il pendouillait/était pendu) et 'la moto i-ch3el-itt' (la moto il l'a brûlée). La localisation est précise : 'thi-muth-as n-theghzuyth' (le cimetière de Taghzouit). L'usage de 'thi-yugh' (il a mal/est blessé) et la demande répétée de 'l'ambulance' confirment une urgence médicale grave suite à un acte désespéré."
+    },
+    "timestamp": "2026-03-11T17:59:19.184609"
+  },
+  "appelle 608.wav": {
+    "status": "verified",
+    "corrected_transcription": "",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "false_alarm",
+      "urgency_human": "unknown",
+      "injury_severity": "unknown",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "inconnu",
+      "summary": "Deux appels : le premier est une erreur de numéro d'une femme âgée. Le second signale une urgence au quartier G3 avant de l'annuler car la personne a été évacuée par un véhicule privé.",
+      "notes_cot": "Le premier segment est une erreur ('raki ghalai'). Le second segment mentionne une 'urgence' à 'G3' (quartier de Béjaïa), mais l'appelant annule l'intervention car la victime a été évacuée ('s-un-ghran' = ils l'ont pris, 'd tomobile' = par voiture)."
+    },
+    "timestamp": "2026-03-11T18:01:00.069693"
+  },
+  "appelle 609.wav": {
+    "status": "corrected",
+    "corrected_transcription": "ayteket Numero l'hôpital ? ... L'hôpital ? ..... L'hôpital  ayteket  numéro?.....Eh...... Aiwa  amkan  Chaddala Bouira. ...an3am?... N'Chaddala Bouira. Bouira, Bouira n'Chaddala. ....Ah ya..... Mabrit amdeker  win Bgayeth  Allahoma barek mi lagesinakinna athir7em rebi .... an3am ? ..... Ya khouya. Salam 3likoum akhi tes3im l'administration , l'numéro les hopitaux ?  .... ons3rara  La3i ar  12  amdeken imala ..... 12? ...An3am eh numéro renseignement...... Les pompiers?.... Eh la3i i  le renseignement..... Le renseignement 12? ....An3am, eh.... Eh 12..... Sa7a sa7a....Sa7a ",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "other",
+      "urgency_human": "low",
+      "injury_severity": "none",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "L'appelant demande le numéro de l'hôpital à Chaddala, Bouira, et ensuite le numéro de renseignement général, qui est confirmé comme étant le 12.",
+      "notes_cot": "L'appelant demande des numéros de téléphone ('numéro l'hôpital', 'numéro renseignement') et non un signalement d'urgence, ce qui indique un 'request_help'. La mention des 'pompiers' est explicitement niée ('La, le renseignement'). Les localisations 'Chaddala Bouira' et 'Bejaia' sont citées comme sujets de la demande, permettant l'identification de la daïra et commune."
+    },
+    "timestamp": "2026-03-11T18:07:59.260721"
+  },
+  "appelle 610.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Allo. Salam alaykoum salam les pompiers nebgayeth an3am ? ..... Allo.....Oui...Allo ....An3am..... les pompiers bejaia ? ... \n eh les pompiers ta3 bejaia  an3am.... Ouzellaguen, s'il vous plaît..... Ouzellaguen? ....eh ..... Nmedelhoum numéro ta3ek drouk ya3awdoulek. 7naya ta3 Bejaia ..... S'il vous plaît S'il vous plaît, c'est urgent..... D'accord, d'accord a Madame. ....Yakhi fi, raki fi Ouzellaguen, yakhi ? .....Ouzellaguen, vers la vieille poste. ...eh drouk ya3aytoulek..... Sa7it, sa7it, sa7it. (Crying and screaming in the background)",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "request_help",
+      "urgency_human": "unknown",
+      "injury_severity": "unknown",
+      "fire_present": "unknown",
+      "trapped_persons": "unknown",
+      "weapons_involved": "unknown",
+      "hazmat_involved": "unknown",
+      "victims_count": "0",
+      "daira": "Ouzellaguen",
+      "commune": "Ouzellaguen",
+      "lieu": "vieille poste",
+      "location_description": "vers la vieille poste",
+      "summary": "Une personne appelle en urgence pour Ouzellaguen, près de la vieille poste, sans préciser la nature de l'incident, mais des cris et pleurs sont audibles en arrière-plan, indiquant une situation critique.",
+      "notes_cot": "Raisonnement: L'appelante demande les pompiers de Béjaïa et précise 'Ouzellaguen, vers la vieille poste'. Elle insiste sur l'urgence ('s'il vous plaît, c'est urgent') et des pleurs/cris intenses sont audibles en fond sonore, indiquant une détresse élevée. Cependant, aucun détail sur la nature spécifique de l'incident (feu, accident, médical) n'est fourni. Pour 'incident_type', 'unknown' est choisi car aucune des 15 catégories n'est clairement identifiée. 'urgency_human' est 'critical' en raison de l'insistance de l'appelante et des bruits de détresse. 'commune' est 'Ouzellaguen' et 'location_description' est 'vers la vieille poste' car ces informations sont explicitement données. L'intention est clairement une 'request_help'. Aucune autre information spécifique n'est mentionnée, donc les autres champs sont 'unknown' ou 'null'."
+    },
+    "timestamp": "2026-03-11T18:13:04.569903"
+  },
+  "appelle 611.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Alo... atrouhet ar  wa7id L'djame3 n Tizi.....Ah? .....Wa7id L'djme3 n Tizi..... djame3 n Tizi? Aywa.... Ah? .....Eh.... djame3 tzalith aa ? .... jame3 tzalith eh a wufit yiwen dina  iTraji is3a  mis  3emis   yejra7 g 9erouyis ... Allahu Akbar..... Sa7it.",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "update_info",
+      "urgency_human": "high",
+      "injury_severity": "severe",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Béjaïa",
+      "commune": "bejaia",
+      "lieu": "djame3 Tizi ",
+      "location_description": "djame3 tzalith",
+      "summary": "Un homme signale une personne blessée à djame3 tzalith, plus précisément au lieu-dit Tizi. La nature de la blessure semble grave.",
+      "notes_cot": "La transcription utilise le système arabizi et respecte les règles de code-switching. L'incident est de type 'medical_emergency' car l'appelant déclare 'yira wa7id' (il y a quelqu'un) et ' yejra7 g 9erouyis' (il est blessé). La sévérité est jugée 'severe' en raison de ' yejra7 g 9erouyis' et de la réaction de l'opérateur 'Allahu Akbar'. 'wa7id' indique un seul blessé. Aucune information sur le feu, personnes piégées, armes ou matières dangereuses n'est mentionnée, donc 'medical_emergency '. L'intention est de rapporter un incident. L'urgence est 'high' pour une personne blessée. 'djame3 tzalith fait référence à Tizi , un village de la commune et daïra de bejaia . 'Tizi ' est une description plus précise du lieu."
+    },
+    "timestamp": "2026-03-11T18:21:20.685169"
+  },
+  "appelle 612.wav": {
+    "status": "corrected",
+    "corrected_transcription": "toura kounwi g la résidence ner gesbitar ? ... Khati a9lar g sbitar  ...Ah.....  D'accord.... d'accord a mon frére  d'accord sa7a .",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "other",
+      "urgency_human": "unknown",
+      "injury_severity": "unknown",
+      "fire_present": "unknown",
+      "trapped_persons": "unknown",
+      "weapons_involved": "unknown",
+      "hazmat_involved": "unknown",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "L'appelant tente de signaler une urgence médicale avec une mention de l'hôpital et potentiellement une chute, mais les détails sont difficiles à comprendre. L'opérateur cherche des clarifications avant que l'appel ne se termine.",
+      "notes_cot": "Les premières phrases de l'appelant sont très difficiles à comprendre en raison de la mauvaise qualité audio. Les mots 'sbitar' (hôpital)   L'opérateur pose des questions ('Ah?'') pour obtenir des précisions, mais l'appel semble se conclure sans plus d'informations claires de la part de l'appelant dans cette séquence. L'incident_type est basé sur la meilleure interprétation des indices verbaux malgré l'incertitude."
+    },
+    "timestamp": "2026-03-11T18:24:37.363441"
+  },
+  "appelle 613.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Operator : salam wara7matou lah  .Caller: la résidence ireya7en . Operator: oui ireya7en  ? Caller: welleh nes3a un malade dayi  Operator: Machi we7dak? s3imara l'amulance ketchi daghen aa ? Caller: weleh en panne ah9rebi  ta9chicht. Operator : Ok . Caller:  sa7it!",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "update_info",
+      "urgency_human": "unknown",
+      "injury_severity": "unknown",
+      "fire_present": "no",
+      "trapped_persons": "unknown",
+      "weapons_involved": "unknown",
+      "hazmat_involved": "unknown",
+      "victims_count": "0",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "ireyahen ",
+      "location_description": "ireyahen ",
+      "summary": "Conversation interne entre opérateurs.",
+      "notes_cot": "transcription: Utilisation de \"Operator:\" et \"Caller:\" pour distinguer les voix, conformément à la règle 6 (le format qui correspond le MIEUX à l'audio). Romanisation arabizi (3, 7, 9, ch, gh). Conservation des mots français\nincident_type: \"unknown\" car aucun détail spécifique sur la nature de l'incident (feu, accident, médical) n'est donné, la conversation se concentre sur la localisation.\ninjury_severity: \"unknown\" car aucune mention d'état de santé ou de blessures.\nvictims_count: \"null\" car la question \"Machi we7dak?\" (N'êtes-vous pas seul/seule ?) n'est pas une affirmation de victimes multiples.\nfire_present: \"no\" car aucune mention de feu ou de fumée.\ntrapped_persons: \"unknown\" car non mentionné.\nweapons_involved: \"unknown\" car non mentionné.\nhazmat_involved: \"unknown\" car non mentionné.\nintent: \"request_help\" car l'appelant fournit des informations de localisation en réponse aux questions de l'opérateur, impliquant un besoin d'assistance pour un événement.\nurgency_human: \"unkown \" daira: \"Inconnu\"  l'appelant corrige l'emplacement spécifique sans confirmer la commune ou la daira générale de l'incident.\ncommune: \"Inconnu\" pour la même raison que la daira.\n"
+    },
+    "timestamp": "2026-03-11T18:38:30.437080"
+  },
+  "appelle 614.wav": {
+    "status": "corrected",
+    "corrected_transcription": " Operator: 7imaya lmadaniya an3am ?. Caller : euh f hopital? .  Operator: An3am?  Caller : Khlil  Amrane . Operator: L'hopital? Caller: Eh. Bach anrou7 ar terga ouzemour  Operator: An3am? Caller: Bach adirou7 ar terga ouzemour . Operator: G l'hopital adirou7 ar terga ouzemour. welleh agma ma delkhedma ner  din G l'hopital  akdefken l'ambulance .Caller : D'accord. ",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "other",
+      "urgency_human": "low",
+      "injury_severity": "none",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "Un homme demande une ambulance pour transporter une personne de l’hôpital vers Terga Ouzemour. L’opérateur lui indique que ce service n’est pas disponible et qu’il doit s’adresser à l’hôpital.",
+      "notes_cot": "L’appelant demande un transport en ambulance entre l’hôpital et Terga Ouzemour. L’opérateur explique que ce type de transport n’est pas assuré par les secours et conseille de contacter l’hôpital."
+    },
+    "timestamp": "2026-03-11T18:46:27.969091"
+  },
+  "appelle 615.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Allo. Allo...... Menhou ihedren didek ?  .......neki  Pompiers! Pompiers! [voix d’enfant]",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "false_alarm",
+      "urgency_human": "low",
+      "injury_severity": "none",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "Faux appel provenant d’un enfant, aucune situation d’urgence signalée.",
+      "notes_cot": "La voix entendue est celle d’un enfant et aucun incident n’est signalé. L’appel ne contient pas d’informations sur une situation d’urgence, il est donc considéré comme un faux appel."
+    },
+    "timestamp": "2026-03-11T20:35:30.357199"
+  },
+  "appelle 616.wav": {
+    "status": "corrected",
+    "corrected_transcription": " Salam alikoum. .....Salam.... Oui les pompiers? .....Les pompiers n Bgayeth , an3am........c'est bon parce que l'accident dayina ... g les 300 dayen  9rib adle79en sa7it agma ....d'accord ",
+    "metadata": {
+      "incident_type": "accident_vehicular",
+      "intent": "update_info",
+      "urgency_human": "unknown",
+      "injury_severity": "unknown",
+      "fire_present": "unknown",
+      "trapped_persons": "unknown",
+      "weapons_involved": "unknown",
+      "hazmat_involved": "unknown",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "300 Logements",
+      "location_description": "300 Logements",
+      "summary": "L’appelant signale un accident, et l’opérateur indique que l’incident est déjà connu et que l’ambulance est en route.",
+      "notes_cot": "L’appelant informe les secours d’un accident, mais l’opérateur confirme que l’incident a déjà été signalé et qu’une ambulance a été envoyée sur place."
+    },
+    "timestamp": "2026-03-11T20:40:48.090297"
+  },
+  "appelle 617.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Anda? .... dayi g le9ser g berchich ... berchiche ? ... berchiche eh ... bon ma3lishe akdefker numéro n les pompiers n le9ser asensfehmet anda exactement ? ....fkiyid ih bien sur ...  034. ...034... 82 ...ehbes kan t9i9a gla3nayak ... arou7 ... 034 82 ... 034 82 ...2 fois 35 .... sle39el kan 034 82 .... 2 fois 35 ... 2 fois 35 35 35 ...Sa7it agma sa7a ...sa7a.",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "other",
+      "urgency_human": "unknown",
+      "injury_severity": "unknown",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "L'appelant fournit un numéro de téléphone et demande à être rappelé. Aucune urgence ni incident n'est signalé.",
+      "notes_cot": "L'appelant ne rapporte aucun incident. Il demande à être rappelé et dicte un numéro de téléphone. Le début de l'appel est difficile à interpréter  mais ne contient aucun mot-clé d'urgence. Le numéro de téléphone est clarifié à plusieurs reprises : il commence par '034 92' et la partie '235' est ensuite expliquée comme 'deux fois 35', ce qui est interprété comme 034 92 35 35. L'intention est une requête de rappel, donc 'other'."
+    },
+    "timestamp": "2026-03-11T20:46:38.844451"
+  },
+  "appelle 618.wav": {
+    "status": "corrected",
+    "corrected_transcription": "allo sba7lkhir .... sba7 nour .... la protection civile ? .... nebgayeth wayi  ..... bgayeth gla3nyak  ouzridhara amek acontactir  thina  nuqvu ? .....ila wamek bien sur ila wamek 034 18 ... sam7iyi 034 18 ... 75  ...75....68...68.  Sa7it ayamdkel ... Sa7a..... Sa7it.",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "other",
+      "urgency_human": "unknown",
+      "injury_severity": "unknown",
+      "fire_present": "unknown",
+      "trapped_persons": "unknown",
+      "weapons_involved": "unknown",
+      "hazmat_involved": "unknown",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "L'appelant et l'opérateur échangent des salutations. L'opérateur demande si c'est la Protection Civile, et la conversation se poursuit avec l'appelant affirmant avoir déjà contacté le service, suivie par un échange de numéros de téléphone pour clarification, sans qu'un incident urgent ne soit rapporté.",
+      "notes_cot": "Aucune urgence n’est décrite ; l’appel concerne seulement un échange de vérification et de clarification."
+    },
+    "timestamp": "2026-03-11T20:52:24.746622"
+  },
+  "appelle 619.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Salam a3likoum les pompiers  n'akfadou  ? ....khati n bgayeth marki numéro n ukfadou 034 ..... 034..... 86....80. ....86. ....86 ....chhal ? 98 09.... 98 09.... Donc 034 86 ....98 09 ....trés bien a3tik sa7a .",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "other",
+      "urgency_human": "unknown",
+      "injury_severity": "unknown",
+      "fire_present": "unknown",
+      "trapped_persons": "unknown",
+      "weapons_involved": "unknown",
+      "hazmat_involved": "unknown",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "L'appelant demande s'il a contacté les pompiers à Akfadou L'opérateur lui indique que non et lui donne un numéro de téléphone.",
+      "notes_cot": "L'appelant demande 'vous êtes pompier akfadou  ?'. L'opérateur répond 'Khati n'Bgayeth' (non à Béjaïa) et lui dit 'Marki n'numero ukfadou ' (compose ce numéro). L'appel est une demande d'information pour obtenir un numéro de téléphone, et non le signalement d'un incident. Par conséquent, 'incident_type' est 'unknown' et 'intent' est 'other' (demande d'information/redirection). 'urgency_human' est 'low' car aucune urgence immédiate n'est signalée. 'Béjaïa' est normalisé à partir de 'Bgayeth'."
+    },
+    "timestamp": "2026-03-11T20:55:40.384478"
+  },
+  "appelle 620.wav": {
+    "status": "corrected",
+    "corrected_transcription": "rou7 nmedlek numéro ta3 tichi  3eyitlhom hna Bejaia ...bejaia ? ... eh.... a3tini trach  numero.... 034 ...arjid ah  d9i9a bark.... eh.... 034...  81.... 81.... 66. ... t9i9a kan 81 66 ...41 .3emwaldik a .. sa7it sa7a .",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "other",
+      "urgency_human": "unknown",
+      "injury_severity": "unknown",
+      "fire_present": "unknown",
+      "trapped_persons": "unknown",
+      "weapons_involved": "unknown",
+      "hazmat_involved": "unknown",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "L'appelant contacte le service d'urgence pour demander un numéro de téléphone (034 81 66 41). L'appel   ne rapporte pas d'incident direct.",
+      "notes_cot": "L'appelant demande explicitement 'a3tini trach numero' (donne-moi ce numéro) et ne signale aucun incident.  et que l'opérateur réponde calmement 'sa7a sa7a' confirme une absence d'urgence critique. 'hna Bejaia' identifie la commune de l'opérateur . "
+    },
+    "timestamp": "2026-03-11T20:59:32.408393"
+  },
+  "appelle 621.wav": {
+    "status": "corrected",
+    "corrected_transcription": "salam ware7ma .... les pompiers n bgayeth Ner?  bgayet ... bgayeth an3am ...7wajer win  Souk el tenine ....034. .... mazemret asentla3it ...034  ...034 t9i9a bark tef numéro 034 ? ...09  ...09... 36 13 ... 36 13 d9i9a  D'accord ya3tik sa7a.... sa7a.",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "other",
+      "urgency_human": "unknown",
+      "injury_severity": "unknown",
+      "fire_present": "unknown",
+      "trapped_persons": "unknown",
+      "weapons_involved": "unknown",
+      "hazmat_involved": "unknown",
+      "victims_count": "0",
+      "daira": "Souk El-Ténine",
+      "commune": "Souk El Tenine",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "L'appelant contacte les services d'urgence pour demander le numéro des pompiers concernant la zone de Souk Ltnine. L'opérateur lui fournit le numéro de téléphone.",
+      "notes_cot": "L’appelant ne signale aucun incident ni situation d’urgence. Il contacte uniquement le service pour obtenir le numéro des pompiers de la zone de Souk El Tenine, et l’opérateur lui fournit cette information."
+    },
+    "timestamp": "2026-03-11T21:05:54.627014"
+  },
+  "appelle 622.wav": {
+    "status": "corrected",
+    "corrected_transcription": " Allo... oui  Sba7lkhir..... Neki ikdilou3an... eh ... brir akdinir noufa la fuite ni c'est pas la peine  at3etbem imanwen sa7it  ... D'accord. ...Welleh noufat  Merci beaucoup Ya3tikoum sa7a.... sa7a ... filamanellah ... filaman ya3tik sa7a.",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "update_info",
+      "urgency_human": "low",
+      "injury_severity": "none",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "Une dame rappelle les pompiers pour signaler qu’une fuite déjà signalée a été localisée et qu’il n’est plus nécessaire d’intervenir.",
+      "notes_cot": "L’appelante indique que la fuite a été trouvée (noufa la fuite) et que l’intervention des pompiers n’est plus nécessaire ' c'est pas la peine  at3etbem imanwen ' .  Aucun nouvel incident n’est signalé."
+    },
+    "timestamp": "2026-03-11T21:14:13.020226"
+  },
+  "appelle 623.wav": {
+    "status": "corrected",
+    "corrected_transcription": "7imaya madania allo ...  Salam ou3likoum... Wa3likoum salam wa ra7matullah....  Alakh  nekii ikdilou3an toura f   3in zaouch iwith yewen  particulier... iwith ? ... iwith yewen eh .... bach outasmara out3itbara ar dayi  ...Aya ya3tik sa7a agma  .... sa7it alakh lkarim aken akhir ..e3tik sa7a sa7it .",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "update_info",
+      "urgency_human": "unknown",
+      "injury_severity": "unknown",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "L’appelant rappelle pour indiquer qu’ils ont trouvé un moyen de transporter leur malade et que l’intervention des secours n’est plus nécessaire.",
+      "notes_cot": "L’appelant précise que la situation est désormais prise en charge par ses propres moyens et informe les secours qu’il n’est plus nécessaire de se déplacer 'ach outasmara out3itbara ar dayi' ."
+    },
+    "timestamp": "2026-03-11T21:21:00.672317"
+  },
+  "appelle 624.wav": {
+    "status": "corrected",
+    "corrected_transcription": "allo .. 7imaya madania .... salam ou3likoum ... mselkhir ....  eh khouya kount 7eb numéro ta3 les pompiers ta3 Tazmalt, ila 3andkom.... eh bien sûr eh  034, marki... 034 ...08...08 ... 42.....42 .....86...86 ;;;. An3am eh  ...86 ..86 a la fin ..  Ok sa7a   khouya Merci.",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "other",
+      "urgency_human": "unknown",
+      "injury_severity": "unknown",
+      "fire_present": "unknown",
+      "trapped_persons": "unknown",
+      "weapons_involved": "unknown",
+      "hazmat_involved": "unknown",
+      "victims_count": "0",
+      "daira": "Tazmalt",
+      "commune": "Tazmalt",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "L'appelant demande le numéro de téléphone des pompiers de Tazmalt. L'opérateur lui fournit le numéro.",
+      "notes_cot": "L'appelant dit clairement 'kount 7eb numéro ta3 les pompiers ta3 Tazmalt '  indiquant une demande d'information et non le signalement d'un incident. La mention de 'Tazmalt' identifie la commune et la daïra. L'incident n'étant pas une urgence directe, l'incident_type est 'other' et l'intent est 'other' (demande d'information). L'urgence humaine est 'uknown ' car aucune situation de danger immédiat n'est rapportée."
+    },
+    "timestamp": "2026-03-11T21:25:48.748750"
+  },
+  "appelle 625.wav": {
+    "status": "corrected",
+    "corrected_transcription": "L7ara zrit atkechmet  polyvalent, anda ila serir les croissant ni ikel atkechmet gezbou9 ni .... eh ... adyaf 7ed bera it3asath a ? .... akd3ase eh  kechmem kan akd3aser.... Ok  machi mochkil...... gla3naya rebi eghseb chwiya athen itrépondara ikel  .... a dachou damghar aa ? ...igouma adiripondi ikel  itrespirer normalement .... d'accord ... trouhase la respiration amaken ...eh d'accord ...sa7a .......sa7a .",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "request_help",
+      "urgency_human": "high",
+      "injury_severity": "unknown",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "polyvalent",
+      "location_description": "polyvalent, anda ila serir les croissant gezbou9 ni",
+      "summary": "L’appelant demande une intervention urgente pour une personne âgée qui respire difficilement. La localisation  est donné a Polyvalent située a béjaia .",
+      "notes_cot": "L’appelant indique qu’une personne âgée respire mal 'trouhase la respiration amaken 'et demande une intervention rapide. Bien que les informations soient limitées, la difficulté respiratoire suggère une possible urgence médicale."
+    },
+    "timestamp": "2026-03-11T21:44:59.404671"
+  },
+  "appelle 626.wav": {
+    "status": "corrected",
+    "corrected_transcription": "allo ... les pompiers ? ... an3am les pompier nebgayeth .... erwa7 akdeker numéro nsen ... an3am ? ...jiha nwen ? ... nirakd akdeker numéro nsen rou7  marki 030.. amek?...",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "other",
+      "urgency_human": "unknown",
+      "injury_severity": "unknown",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "Appel avec propos incompréhensibles ; aucune information claire sur un incident.",
+      "notes_cot": "L’appelant parle mais ses propos ne sont pas compréhensibles pour l’opérateur, qui indique ne pas comprendre la demande. Aucune information exploitable sur une situation d’urgence n’est fournie."
+    },
+    "timestamp": "2026-03-11T21:51:08.388434"
+  },
+  "appelle 627.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Allo. ....Allo l7imaya lmadaniya .... salam 3likoum  ...salam warahmatou lah ..... te9der teji l ighzer ouzarif ? ... akh amdeker numéro n oued ghir achou s3it dina ? ...ih ma3lishe fkiyithid  sa7a ... 030 ...030...16... 13? ... 16  16 setach ....16 ? ... 16 eh ... 92 92 ... 92 92 ... 2  fos 92 .. 034 16 92 92 ... Sa7a barak lahu fik ... Fika baraka sa7a . ",
+    "metadata": {
+      "incident_type": "other",
+      "intent": "other",
+      "urgency_human": "unknown",
+      "injury_severity": "unknown",
+      "fire_present": "unknown",
+      "trapped_persons": "unknown",
+      "weapons_involved": "unknown",
+      "hazmat_involved": "unknown",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "L'appelante semble chercher ou confirmer un numéro de téléphone, elle énonce des chiffres que l'opérateur l'aide à vérifier. Il ne s'agit pas d'une urgence.",
+      "notes_cot": "L'appel est une demande d'information concernant un numéro de téléphone, l'appelante et l'opérateur se relaient pour dicter et confirmer les chiffres. Il n'y a aucune mention d'un incident, de blessures, de feu ou de toute autre urgence. Le dialogue est une clarification de coordonnées téléphoniques. L'intent est 'other' car il s'agit d'une demande d'information plutôt qu'une alarme ou un incident."
+    },
+    "timestamp": "2026-03-11T21:56:56.797615"
+  },
+  "appelle 628.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Allo? ....Allo?.... iwsaned acheg3ed kan menhou aghdi3asen l'ambulance waksar  athen qrib atel7eq   ... d'accord sa7a ... [conversation en arrière-plan]",
+    "metadata": {
+      "incident_type": "other",
+      "intent": "update_info",
+      "urgency_human": "low",
+      "injury_severity": "none",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "inconnu",
+      "summary": "L’opérateur demande à un collègue d’attendre l’arrivée de l’ambulance. Voix entendues en arrière-plan, aucune information sur un incident.",
+      "notes_cot": "La communication correspond à une instruction interne entre opérateurs concernant l’attente de l’ambulance, sans nouvelle information sur un incident."
+    },
+    "timestamp": "2026-03-11T22:01:56.772872"
+  },
+  "appelle 629.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Allo....Allo oui ...Salam 3likoum..... Wa3likoum Salam...... Euh, wayet n tizi n 'Berber. ... non khati n bgayeth  ...Ah?.... N'Bgayeth an3am? .... d timest iche3len da ghourner .... anda tech3el ? .... g ighil  Merzou9  Tizi N'Berber  ... ar lghaba ? ... eh ...  aww ..... te9rev ar ikhamen te9rev ar ikhamen direct ... aya d'accord .",
+    "metadata": {
+      "incident_type": "fire_forest",
+      "intent": "report_incident",
+      "urgency_human": "low",
+      "injury_severity": "none",
+      "fire_present": "yes",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Aokas",
+      "commune": "Tizi N'Berber",
+      "lieu": " ighil  Merzou9",
+      "location_description": " ighil  Merzou9",
+      "summary": "Un homme signale un début d’incendie de forêt à Ighil Merzouq, dans la région de Tizi n’Berber, près des habitations.",
+      "notes_cot": "L’appelant indique qu’un feu a commencé dans une zone forestière proche des habitations et fournit la localisation, ce qui peut représenter un risque pour les maisons ' te9rev ar ikhamen direct'  et nécessite l’intervention des secours."
+    },
+    "timestamp": "2026-03-11T22:11:45.258891"
+  },
+  "appelle 630.wav": {
+    "status": "corrected",
+    "corrected_transcription": "lou3ar directement merci .",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "other",
+      "urgency_human": "unknown",
+      "injury_severity": "unknown",
+      "fire_present": "unknown",
+      "trapped_persons": "unknown",
+      "weapons_involved": "unknown",
+      "hazmat_involved": "unknown",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "Appel avec propos incompréhensibles ; aucune information claire sur un incident.",
+      "notes_cot": "L’appelant parle mais ses propos ne sont pas compréhensibles pour l’opérateur, qui indique ne pas comprendre la demande. Aucune information exploitable sur une situation d’urgence n’est fournie."
+    },
+    "timestamp": "2026-03-11T22:13:11.068088"
+  },
+  "appelle 631.wav": {
+    "status": "corrected",
+    "corrected_transcription": "7imaya Oui ... allo oui ar ljar tchey3em l'ambulance ar ....eh ....laboud a9lar net3asa ... at3aset kan ayamdakul .",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "false_alarm",
+      "urgency_human": "low",
+      "injury_severity": "unknown",
+      "fire_present": "unknown",
+      "trapped_persons": "unknown",
+      "weapons_involved": "unknown",
+      "hazmat_involved": "unknown",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "L’appelant indique que l’ambulance n’est pas encore arrivée.",
+      "notes_cot": "L’appelant ne signale pas un nouvel incident. Il contacte la protection civile pour vérifier l’arrivée de l’ambulance déjà envoyée. L’opérateur confirme que l’ambulance est en route."
+    },
+    "timestamp": "2026-03-11T22:16:24.689141"
+  },
+  "appelle 632.wav": {
+    "status": "corrected",
+    "corrected_transcription": "7imaya lmadania allo ... [conversation en arrière-plan]",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "false_alarm",
+      "urgency_human": "low",
+      "injury_severity": "none",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "Appel sans communication directe, le téléphone reste ouvert.",
+      "notes_cot": "Le téléphone reste ouvert mais aucune personne ne communique avec l’opérateur et aucune information sur un incident n’est fournie."
+    },
+    "timestamp": "2026-03-11T22:17:59.492716"
+  },
+  "appelle 633.wav": {
+    "status": "corrected",
+    "corrected_transcription": "itaba3 ar  oued ghir  ... eh d'accord fkiyid numéro asneker i oued ghir toura akdla3in .... fkasen numéro ayi fkasen numéro ayi .. aya d'accord .  ",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "other",
+      "urgency_human": "unknown",
+      "injury_severity": "unknown",
+      "fire_present": "unknown",
+      "trapped_persons": "unknown",
+      "weapons_involved": "unknown",
+      "hazmat_involved": "unknown",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Oued Ghir",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "L'appelant et l'opérateur confirment que le numéro de téléphone est localisé et fixe à Oued Ghir. Il ne s'agit pas d'un appel d'urgence.",
+      "notes_cot": "La transcription suit les règles du 'gold standard', intégrant le code-switching. La conversation est administrative, centrée sur la localisation ('Wadghir') d'un numéro de téléphone fixe ('Le numéro il se fixe à Wadghir'). Aucun incident n'est signalé, donc 'incident_type' est 'unknown' et 'intent' est 'other' car ce n'est pas une demande d'aide pour une urgence."
+    },
+    "timestamp": "2026-03-11T22:19:41.985686"
+  },
+  "appelle 607.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Nmedkum ta3 ighil ali Balak imedulkm ta3 bourdj oki?.. ruuh...034 ...essber d9i9a rani hasell f Wa7ed le Placa... yalatif.... m'en bare7 Wana hna Bayet ...ihh...0?...034 ..34...36...36...84...ih...82...hada ta3 sedou9 te3ref sedou9? ...b3ida bezaaf...nmedlek ta3 ighil 3li groba Lik?...medli ta3 ighil 3li Balak ighil 3li i3eytou houma ta3 z3efra...ro7 Balak ighil ikunu ru7 ighil 3li roh marKI  ...0?..034 ...ih ...36..36...84...84...82...82...lla mafrithach Balak  3awdenla nchouflk numéro ta3 bourdj nhewesshoulek...sa7a ...oki sa7a",
+    "metadata": {
+      "incident_type": "other",
+      "intent": "request_help",
+      "urgency_human": "low",
+      "injury_severity": "none",
+      "fire_present": "no",
+      "trapped_persons": "yes",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Ighil Ali",
+      "commune": "Seddouk",
+      "lieu": "Zaafrane",
+      "location_description": "inconnu ",
+      "summary": "Échange de numéros de téléphone des secours (Protection Civile) pour les secteurs de Seddouk et Ighil Ali car une personne est bloquée dans un endroit depuis la veille.",
+      "notes_cot": "L'appelant cherche le bon contact car il est bloqué ('hasel') quelque part. Citations de 'Ighil Ali', 'Seddouk' et 'Bordj'. Utilisation du terme 'numéo' et 'marki' (marquer/noter). Pas d'incident spécifique de type feu ou accident de la route mentionné, juste une situation de blocage logistique ou d'isolement."
+    },
+    "timestamp": "2026-03-11T22:23:38.422831"
+  },
+  "appelle 606.wav": {
+    "status": "verified",
+    "corrected_transcription": "",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "false_alarm",
+      "urgency_human": "low",
+      "injury_severity": "none",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "Appel non sérieux, aucune situation d’urgence signalée.",
+      "notes_cot": "L’appelant parle brièvement mais ne signale aucun incident ni localisation."
+    },
+    "timestamp": "2026-03-11T22:24:56.732350"
+  },
+  "appelle 605.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Intervention hna intervention bark fhemtni Ida kayn intervention ikherju Ida makanch intervention hadou les connaissances hadou houma li ydiruhum ...sa7it aa...sa7it khouya sa7a",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "other",
+      "urgency_human": "unknown",
+      "injury_severity": "unknown",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "Échange de coordination ou de procédure interne entre agents concernant la distinction entre une sortie pour intervention et une reconnaissance.",
+      "notes_cot": "L'appel ne concerne pas un incident en cours. Utilisation de termes techniques français intégrés (l'intervention, l'reconnaissances). Absence de déictiques de lieu ou de description d'urgence. Le locuteur explique la procédure : 'Ila kan l'intervention i-khurju' (s'il y a intervention ils sortent) vs 'reconnaissances'. L'intention est classée en 'other' car c'est une discussion de service."
+    },
+    "timestamp": "2026-03-11T22:25:32.105341"
+  },
+  "appelle 604.wav": {
+    "status": "corrected",
+    "corrected_transcription": "himaya lmadaniya allo?...[voix d’enfant]",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "false_alarm",
+      "urgency_human": "low",
+      "injury_severity": "none",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "Faux appel provenant d’un enfant, aucune situation d’urgence signalée.",
+      "notes_cot": "La voix entendue est celle d’un enfant et aucun incident n’est signalé. L’appel ne contient pas d’informations sur une situation d’urgence, il est donc considéré comme un faux appel."
+    },
+    "timestamp": "2026-03-11T22:26:19.159578"
+  },
+  "appelle 603.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Himaya lmadaniya allo?...aaaa...allo?...alloo... menhu ...papa...papaak...papaw...sawalghas ipapaaa paaa....iiiyy machi papak machi papaaak ...aaa?...machi papak [voix d’enfant]",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "false_alarm",
+      "urgency_human": "low",
+      "injury_severity": "none",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "inconnu",
+      "location_description": "inconnu",
+      "summary": "Faux appel provenant d’un enfant, aucune situation d’urgence signalée.",
+      "notes_cot": "La voix entendue est celle d’un enfant et aucun incident n’est signalé. L’appel ne contient pas d’informations sur une situation d’urgence, il est donc considéré comme un faux appel."
+    },
+    "timestamp": "2026-03-11T22:27:16.971813"
+  },
+  "appelle 602.wav": {
+    "status": "corrected",
+    "corrected_transcription": "te3yit manich nesma3 fihoum...cv?...3eyet b numero normal",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "false_alarm",
+      "urgency_human": "low",
+      "injury_severity": "none",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "Appel non sérieux, aucune situation d’urgence signalée.",
+      "notes_cot": "L’appelant parle brièvement mais ne signale aucun incident ni localisation."
+    },
+    "timestamp": "2026-03-11T22:29:25.629063"
+  },
+  "appelle 601.wav": {
+    "status": "corrected",
+    "corrected_transcription": "7imaya wechrakoum?...labas hamdoulilah...bn je suis un collègue un ancien collègue la3naya rebi vous me donner numéro la direction nwzn?...ih bien sûr aydefkegh ii marki...ih d9i9a baraka lahou fik  agma achhal?...034 ...034 ...12 ...12...98...98...31...31?...31 ngh 32...31 32...034139831 aaa ngh 32 ...akijazi rebi delkhir ..ii sa7it...sa7it ami",
+    "metadata": {
+      "incident_type": "other",
+      "intent": "update_info",
+      "urgency_human": "low",
+      "injury_severity": "none",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "Un appelant se présentant comme un collègue demande à l'opérateur le numéro de téléphone administratif de la direction de la Protection Civile. L'opérateur lui fournit les numéros se terminant par 31 et 32.",
+      "notes_cot": "L'appel n'est pas une urgence médicale ou un incendie. L'appelant demande explicitement 'numéro de téléphone la direction nwen' (votre direction). Utilisation de formules de politesse type 'barak allah fik' et 'bon appétit'. La fin de l'audio montre une bascule vers le standard d'urgence."
+    },
+    "timestamp": "2026-03-11T22:32:01.004425"
+  },
+  "appelle 600.wav": {
+    "status": "corrected",
+    "corrected_transcription": "OP: Allo. CL: Azul. OP: Azul, 28-82-35? CL: Ih, 28-82-35. OP: Hamdullah. OP: Numéro Chemini? CL: 07-34-28-82-35. OP: Ah d'accord, l'accident... s-l'ambulance... hospital... OP: D'accord, Azul... we... Chemini. [conversation en arrière-plan] ",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "other",
+      "urgency_human": "low",
+      "injury_severity": "none",
+      "fire_present": "no",
+      "trapped_persons": "unknown",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "inconnu ",
+      "summary": "Voix entendues en arrière-plan, aucune information sur un incident.",
+      "notes_cot": "Les voix entendues ne correspondent pas à une communication directe avec un appelant."
+    },
+    "timestamp": "2026-03-11T22:33:57.910632"
+  },
+  "appelle 599.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Wiwi isem3ek ...ih maalich smehli 3la dérangement bark...machi dérangement madame ttema Ida hebiti Wahed isem3ek lmir premièr responsable f le9seur f la daira houwa li issem3ek hnaya 9tlek kach ma tesshe9i évacuation ka dekhlek lma nkherjouh ya pas de problème khedemtna mais Bach tgouli tessem3ou soti Bach ites itesma3 sotek lazem trohi la daira trohi le lmire haka madame aa?...ihh 3endek lhaq ii...ihh doka ana khedam sbah ghedwa sbah nekhrej masmd3tek ma3endi mandirlek aka ruh 3edn lmir chef daira houwa li yessm3 sotek",
+    "metadata": {
+      "incident_type": "other",
+      "intent": "other",
+      "urgency_human": "low",
+      "injury_severity": "none",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "Une femme appelle les secours pour exprimer une doléance ou un problème social/administratif. L'opérateur lui explique poliment qu'il ne s'occupe que des évacuations d'urgence et des inondations, et l'oriente vers le Maire ou le Chef de Daïra.",
+      "notes_cot": "L'appelante utilise 'southiw' (ma voix/mon cri) pour demander à être entendue. L'opérateur définit son champ d'action par 'evacuation' mais précise 'rani  nesme3lek ' (si je t'écoute... je n'ai rien à faire pour toi) car le problème est administratif ('l'Maire', 'chef daira')."
+    },
+    "timestamp": "2026-03-11T22:35:23.302320"
+  },
+  "appelle 598.wav": {
+    "status": "verified",
+    "corrected_transcription": "",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "other",
+      "urgency_human": "unknown",
+      "injury_severity": "unknown",
+      "fire_present": "unknown",
+      "trapped_persons": "unknown",
+      "weapons_involved": "unknown",
+      "hazmat_involved": "unknown",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "Appel interrompu, aucune information fournie.",
+      "notes_cot": "L’opérateur  dit seulement « allo », puis la communication s’interrompt. Aucune information n’est donnée concernant la localisation, le type d’incident ou les victimes. L’appel est donc considéré comme interrompu sans informations exploitables."
+    },
+    "timestamp": "2026-03-11T22:37:11.456458"
+  },
+  "appelle 596.wav": {
+    "status": "corrected",
+    "corrected_transcription": "7imaya madania allo  ?",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "other",
+      "urgency_human": "unknown",
+      "injury_severity": "unknown",
+      "fire_present": "unknown",
+      "trapped_persons": "unknown",
+      "weapons_involved": "unknown",
+      "hazmat_involved": "unknown",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "Appel interrompu, aucune information fournie.",
+      "notes_cot": "L’appelant dit seulement «7imaya madania allo ?», puis la communication s’interrompt. Aucune information n’est donnée concernant la localisation, le type d’incident ou les victimes. L’appel est donc considéré comme interrompu sans informations exploitables."
+    },
+    "timestamp": "2026-03-11T22:45:42.074448"
+  },
+  "Appelle 270.wav": {
+    "status": "corrected",
+    "corrected_transcription": "A: Salam ou3likoum B: 7imaya?. A: Eh..., aw kayen wa7ed hena  f tizi eh... aw ... mblessi fi rassou  w dem ma7ebche ye7bes. B: ani?. A: Eh... , ani tizi ?... B: Eh, Tizi eh ...., . A: Da9bayli negh da3rab ketchi? B: Da9bayli, Da9bayli, hder s te9baylith. A: Roh imala alid ar Tizi wayi than ifourar    atafet rond-point kn atsovet... avirage ayi  mis 3emis dayi ...rond-point  ar ljamou3ani.. ged ged ljamou3a... kan ombe3d ee.. atafet dayi miss 3emis atkchmet a les cartiers lmouhim... premier quartier dakssar. B: D'accord, akdnaf wa7id el jame3... ,aya sa7a ...., jame3  tizi ..., ih d'accord ..., d'accord a gema   A: Ay sa7a. B: Sa7a .",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "request_help",
+      "urgency_human": "high",
+      "injury_severity": "severe",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "unknown",
+      "hazmat_involved": "no",
+      "victims_count": "1.0",
+      "daira": "Barbacha",
+      "commune": "Barbacha",
+      "lieu": "Tizi n Berbecha",
+      "location_description": "l'édifice près de Tizi n Berbecha, zone du fourrare, près de l'endroit dit l'joumou3a, premier quartier d'akessar (en bas)",
+      "summary": "Un homme appelle pour signaler une hémorragie incontrôlable ('dam ma bghach yehabes') à Tizi n Berbecha et donne des indications précises pour guider l'ambulance vers le quartier du bas.",
+      "notes_cot": "L'appelant mentionne explicitement 'dam' (sang) et 'ma bghach yehabes' (ne s'arrête pas), ce qui caractérise une urgence médicale de type hémorragie. La localisation est Tizi n Berbecha (Barbacha). Les repères 'l'fourrage' (forage) et 'l'joumou3a' (place du marché/mosquée) sont des points de navigation clés."
+    },
+    "timestamp": "2026-03-11T23:06:01.019191"
+  },
+  "Appelle 271.wav": {
+    "status": "corrected",
+    "corrected_transcription": " thedoukh atan  dayi gel9a3...., g el 9a3??? ....,  an3ame ih tedoukh ...., D'accord ihi . Ok. Sa7a",
+    "metadata": {
+      "incident_type": "accident_vehicular",
+      "intent": "report_incident",
+      "urgency_human": "high",
+      "injury_severity": "unknown",
+      "fire_present": "unknown",
+      "trapped_persons": "unknown",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1.0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "L'appelant signale qu'un véhicule s'est renversé (a fait un tonneau).",
+      "notes_cot": "Le terme 'at-tsedur' (ça tourne/fait un tonneau) dans ce contexte d'urgence indique un véhicule qui s'est renversé suite à un accident. Le mot 'yuqa3' confirme qu'un événement est survenu."
+    },
+    "timestamp": "2026-03-11T23:08:38.742576"
+  },
+  "Appelle 272.wav": {
+    "status": "corrected",
+    "corrected_transcription": "woulleh beghigh akomdsinyaligh yiwen u poteau  dayi g boulevard. Hmm. woulleh athane zyes trisiti... yezmer adi3el karitha. ab7al tedou , tedou g el khit ni . Anida? zerit anda iterte9 déja waytnin amek isetla3in les garages ni dina , ih,iterte9 aken dina el gaz negh amek ...,ih , ih ....., voila dina exacte ..., wayi pour L'eclairage public?..., Anam?... l'eclairage public wayi a-poteau ayi??... , voila l'eclairage public ih ...,  . D'accord ih , ok. e.. atafet  l'kiosk, ombe3d coiffeur, omb3ed  premier poteau negh deuxième. Ok. Yerham waldikoum . Saha.",
+    "metadata": {
+      "incident_type": "other",
+      "intent": "report_incident",
+      "urgency_human": "medium",
+      "injury_severity": "none",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "Ihadaden / Boulevard",
+      "location_description": "Ihadaden, amk l-sel3a (zone de marchandises), l'garagewat, as-ttafed l'kiosk, umbe3d coiffeur, premier poteau negh deuxième",
+      "summary": "L'appelant signale un poteau d'éclairage public défectueux avec des fils électriques risquant de provoquer un accident ou un court-circuit au niveau du boulevard d'Ihadaden.",
+      "notes_cot": "L'appelant mentionne 'poto n tricity' (poteau électrique) et 'l'eclairage public'. Il s'inquiète car 'yezmer a d-yekkar l'kherit' (ça risque de causer un sinistre/problème). Le lieu 'Ihadaden' (prononcé ici Itanditen/Ihanditene) est un quartier industriel/commercial connu de Béjaïa. Repères visuels : kiosque, coiffeur, hangars de marchandises."
+    },
+    "timestamp": "2026-03-11T23:19:25.768354"
   }
 }
