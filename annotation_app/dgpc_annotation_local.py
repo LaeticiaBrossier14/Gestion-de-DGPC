@@ -21,7 +21,7 @@ try:
     from dotenv import load_dotenv
     load_dotenv()
 except ImportError:
-    pass  # dotenv optionnel — fallback sidebar
+    pass  # dotenv optionnel - fallback sidebar
 
 # --- CONFIGURATION INITIALE ---
 st.set_page_config(
@@ -177,7 +177,7 @@ DAIRAS_BEJAIA = [
     'Souk El-Ténine', 'Tazmalt', 'Tichy', 'Timezrit'
 ]
 
-# Labels FR (UI) → valeurs EN (machine) — alignés avec enums.py IncidentType
+# Labels FR (UI) -> valeurs EN (machine) alignées avec enums.py IncidentType
 INCIDENT_TYPE_OPTIONS = {
     "❓ Inconnu": "unknown",
     "🚗 Accident véhiculaire": "accident_vehicular",
@@ -188,7 +188,7 @@ INCIDENT_TYPE_OPTIONS = {
     "🏥 Urgence médicale": "medical_emergency",
     "🌊 Noyade": "drowning",
     "👊 Agression / Violence": "assault_violence",
-    "🔓 Vol / Cambriolage": "theft_robbery",
+    "🔒 Vol / Cambriolage": "theft_robbery",
     "🌍 Catastrophe naturelle": "natural_disaster",
     "☣️ Matières dangereuses": "hazmat",
     "🔍 Personne disparue": "lost_person",
@@ -198,7 +198,7 @@ INCIDENT_TYPE_OPTIONS = {
 INCIDENT_LABELS = list(INCIDENT_TYPE_OPTIONS.keys())
 INCIDENT_VALUES = list(INCIDENT_TYPE_OPTIONS.values())
 
-# Urgence humaine (calibration) — alignée avec enums.py UrgencyLevel
+# Urgence humaine (calibration) alignée avec enums.py UrgencyLevel
 URGENCY_OPTIONS = {
     "❓ Inconnu": "unknown",
     "🟢 Faible": "low",
@@ -209,7 +209,7 @@ URGENCY_OPTIONS = {
 URGENCY_LABELS = list(URGENCY_OPTIONS.keys())
 URGENCY_VALUES = list(URGENCY_OPTIONS.values())
 
-# Gravité blessures — alignée avec enums.py InjurySeverity
+# Gravité blessures alignée avec enums.py InjurySeverity
 SEVERITY_OPTIONS = {
     "❓ Inconnu": "unknown",
     "✅ Aucune": "none",
@@ -220,12 +220,12 @@ SEVERITY_OPTIONS = {
 SEVERITY_LABELS = list(SEVERITY_OPTIONS.keys())
 SEVERITY_VALUES = list(SEVERITY_OPTIONS.values())
 
-# TriState — aligné avec enums.py TriState
+# TriState aligné avec enums.py TriState
 TRISTATE_OPTIONS = {"❓ Inconnu": "unknown", "✅ Oui": "yes", "❌ Non": "no"}
 TRISTATE_LABELS = list(TRISTATE_OPTIONS.keys())
 TRISTATE_VALUES = list(TRISTATE_OPTIONS.values())
 
-# Intent — aligné avec enums.py Intent
+# Intent aligné avec enums.py Intent
 INTENT_OPTIONS = {
     "📞 Signalement d'incident": "report_incident",
     "❓ Demande d'aide": "request_help",
@@ -236,7 +236,7 @@ INTENT_OPTIONS = {
 INTENT_LABELS = list(INTENT_OPTIONS.keys())
 INTENT_VALUES = list(INTENT_OPTIONS.values())
 
-# Champs d'extraction — clés machine utilisées dans le JSON/CSV
+# Champs d'extraction -> clés machine utilisées dans le JSON/CSV
 EXTRACTION_KEYS = [
     'incident_type', 'injury_severity', 'victims_count',
     'fire_present', 'trapped_persons', 'weapons_involved', 'hazmat_involved',
@@ -402,7 +402,7 @@ if 'key' not in st.session_state:
     st.session_state.key = env_key
 
 if env_key:
-    st.sidebar.success("🔑 Clé API chargée depuis .env", icon="✅")
+    st.sidebar.success("Clé API chargée depuis .env", icon="✅")
 else:
     st.session_state.key = st.sidebar.text_input("API KEY", value=st.session_state.key, type="password", label_visibility="collapsed")
 
@@ -466,18 +466,18 @@ with audio_container:
         st.audio(audio_bytes, format='audio/wav')
 
 # 2. IA ACTION & TRANSCRIPTION (Middle Section)
-st.markdown('<span class="section-label">01 // CONTRÔLE IA & TRANSCRIPTION VERBATIM</span>', unsafe_allow_html=True)
+st.markdown('<span class="section-label">01 // CONTROLE IA & TRANSCRIPTION VERBATIM</span>', unsafe_allow_html=True)
 act_col1, act_col2 = st.columns([1, 4])
 with act_col1:
     st.markdown('<div class="btn-ai">', unsafe_allow_html=True)
-    if st.button("DÉMARRER ANALYSE IA", use_container_width=True):
+    if st.button("DEMARRER ANALYSE IA", use_container_width=True):
         if st.session_state.key and wav:
-            with st.spinner("Analyse par Gemini 3.1 Pro Preview..."):
+            with st.spinner("Analyse par Gemini 2.5 Flash..."):
                 try:
                     genai.configure(api_key=st.session_state.key)
                     # Force JSON output mode
                     model = genai.GenerativeModel(
-                        'gemini-3.1-pro-preview',
+                        'gemini-2.5-flash',
                         system_instruction=SYSTEM_PROMPT,
                         generation_config={"response_mime_type": "application/json"}
                     )
@@ -551,18 +551,18 @@ if hasattr(st.session_state, 'f_corrections') and st.session_state.f_corrections
             st.markdown("**Auto-corrections appliquées :**")
             for c in corrections:
                 if c['tier'] == 1:
-                    st.markdown(f"✅ **{c['rule']}**: `{c['original']}` → `{c['replacement']}` — {c['explanation']}")
+                    st.markdown(f"✅ **{c['rule']}**: `{c['original']}` -> `{c['replacement']}` - {c['explanation']}")
         if n_suggest > 0:
             st.markdown("**Suggestions à vérifier :**")
             for c in corrections:
                 if c['tier'] == 2:
-                    st.markdown(f"💡 **{c['rule']}**: `{c['original']}` — {c['explanation']}")
+                    st.markdown(f"💡 **{c['rule']}**: `{c['original']}` - {c['explanation']}")
         if hasattr(st.session_state, 'f_raw_text') and st.session_state.f_raw_text:
             with st.expander("📝 Texte original (avant corrections)"):
                 st.text(st.session_state.f_raw_text)
 
 # 3. ATTRIBUTE GRID (Bottom Section)
-st.markdown('<span class="section-label">02 // PARAMÈTRES ET ATTRIBUTS SYSTÈME</span>', unsafe_allow_html=True)
+st.markdown('<span class="section-label">02 // PARAMETRES ET ATTRIBUTS SYSTEME</span>', unsafe_allow_html=True)
 
 # --- Row 1 : Type d'incident + Intent + Urgence humaine + Gravité ---
 grid_r1_c1, grid_r1_c2, grid_r1_c3, grid_r1_c4 = st.columns(4)
@@ -694,3 +694,4 @@ with foot_c4:
                 unsafe_allow_html=True)
 
 st.sidebar.markdown(f'<div style="font-size:0.6rem; color:var(--slate-muted); position:fixed; bottom:10px;">V4.0 // DGPC Annotation Hub</div>', unsafe_allow_html=True)
+

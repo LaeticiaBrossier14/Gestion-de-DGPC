@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 Fix Missing Transcriptions Script
 
@@ -34,35 +34,35 @@ except ImportError:
 GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY', '')
 
 # System prompt (same as annotation app)
-SYSTEM_PROMPT = """Tu es un expert linguiste du dialecte Béjaoui (Taqbaylit n Bgayet), un mélange fluide de Kabyle, Français et Arabe Algérien.
+SYSTEM_PROMPT = """Tu es un expert linguiste du dialecte BÃ©jaoui (Taqbaylit n Bgayet), un mÃ©lange fluide de Kabyle, FranÃ§ais et Arabe AlgÃ©rien.
 
-RÈGLES DE TRANSCRIPTION (GOLD STANDARD):
+RÃˆGLES DE TRANSCRIPTION (GOLD STANDARD):
 
 1. ROMANISATION ARABIZI (OBLIGATOIRE):
-   Utilise UNIQUEMENT le système arabizi, JAMAIS les caractères linguistiques académiques.
+   Utilise UNIQUEMENT le systÃ¨me arabizi, JAMAIS les caractÃ¨res linguistiques acadÃ©miques.
 
 2. CODE-SWITCHING "Bejaia Style":
-   - Garde les mots français intégrés avec l'article "l'" collé: l'ambulance, l'accident, l'bloc, l'camion.
-   - Termes médicaux FR maintenus: crise, tension, saturation, inconscient, blessé.
+   - Garde les mots franÃ§ais intÃ©grÃ©s avec l'article "l'" collÃ©: l'ambulance, l'accident, l'bloc, l'camion.
+   - Termes mÃ©dicaux FR maintenus: crise, tension, saturation, inconscient, blessÃ©.
 
-3. NÉGATION (CIRCUMFIXE OBLIGATOIRE):
+3. NÃ‰GATION (CIRCUMFIXE OBLIGATOIRE):
    - Forme verbale: ur {verbe} ara  (ex: "ur yezmir ara" = il ne peut pas)
    - Nominal: ulach / wlach (il n'y a pas)
 
 4. PARTICULES & MARQUEURS:
    - Affirmation: an3am, ih, iyeh, d'accord
-   - Déictiques: dayi, dagi, dinna, tura
+   - DÃ©ictiques: dayi, dagi, dinna, tura
    - Interrogatifs: anda, amek, dachu, anwa
 
 5. VERBES D'URGENCE (conjugaison corpus):
-   - ghli (tomber/s'évanouir): i-ghli, t-ghli, ye-ghli
-   - che3l (brûler): tche3l, ich3el, cha3let
+   - ghli (tomber/s'Ã©vanouir): i-ghli, t-ghli, ye-ghli
+   - che3l (brÃ»ler): tche3l, ich3el, cha3let
    - nuffes (respirer): t-nuffes, ur t-nuffes ara
 
 6. FORMAT DE DIALOGUE:
-   Utilise le format flux continu (sans marqueur) ou tirets (—)
+   Utilise le format flux continu (sans marqueur) ou tirets (â€”)
 
-CONTEXTE URGENCE BÉJAÏA:
+CONTEXTE URGENCE BÃ‰JAÃA:
 Fournis une transcription VERBATIM exacte de ce qui est dit dans l'audio.
 """
 
@@ -88,7 +88,7 @@ def process_audio(audio_path):
             audio.export(out, format="wav")
         return out
     except Exception as e:
-        print(f"❌ Error processing {audio_path}: {e}")
+        print(f"âŒ Error processing {audio_path}: {e}")
         return None
 
 def transcribe_audio(api_key, audio_path):
@@ -102,10 +102,10 @@ def transcribe_audio(api_key, audio_path):
         
         # Create a temporary file for Gemini (it can't handle bytes directly in this context)
         # So we'll use the file URI approach or upload it
-        print(f"  📊 Transcribing {Path(audio_path).name}...")
+        print(f"  ðŸ“Š Transcribing {Path(audio_path).name}...")
         
         model = genai.GenerativeModel(
-            'gemini-3.1-pro-preview',
+            'gemini-2.5-flash',
             system_instruction=SYSTEM_PROMPT
         )
         
@@ -117,9 +117,9 @@ def transcribe_audio(api_key, audio_path):
         
         # Create message with audio
         message = model.generate_content([
-            "Fournis UNE transcription VERBATIM exacte et complète de cet appel (tout ce qui est dit, sans rien ajouter). " +
-            "Respecte EXACTEMENT les règles Arabizi et le style Béjaoui. " +
-            "La transcription DOIT être complète et JAMAIS vide.",
+            "Fournis UNE transcription VERBATIM exacte et complÃ¨te de cet appel (tout ce qui est dit, sans rien ajouter). " +
+            "Respecte EXACTEMENT les rÃ¨gles Arabizi et le style BÃ©jaoui. " +
+            "La transcription DOIT Ãªtre complÃ¨te et JAMAIS vide.",
             media
         ])
         
@@ -131,7 +131,7 @@ def transcribe_audio(api_key, audio_path):
         return transcription if transcription else None
         
     except Exception as e:
-        print(f"  ❌ Transcription error: {e}")
+        print(f"  âŒ Transcription error: {e}")
         return None
 
 def save_all(data_list):
@@ -161,20 +161,20 @@ def main():
     print("=" * 80)
     
     if not GEMINI_API_KEY:
-        print("\n❌ ERROR: GEMINI_API_KEY not found in environment!")
+        print("\nâŒ ERROR: GEMINI_API_KEY not found in environment!")
         print("Please set it in .env file or as environment variable.")
         sys.exit(1)
     
     # Load annotations
     annotations = load_data(ANNOTATIONS_FILE)
-    print(f"\n📖 Loaded {len(annotations)} annotations")
+    print(f"\nðŸ“– Loaded {len(annotations)} annotations")
     
     # Find missing transcriptions
     missing = [a for a in annotations if not a.get('transcription') or a.get('transcription').strip() == '']
-    print(f"🚨 Found {len(missing)} annotations with empty transcriptions")
+    print(f"ðŸš¨ Found {len(missing)} annotations with empty transcriptions")
     
     if not missing:
-        print("✅ All transcriptions are complete!")
+        print("âœ… All transcriptions are complete!")
         return
     
     # Process each missing transcription
@@ -184,10 +184,10 @@ def main():
         audio_path = os.path.join(AUDIO_RAW_DIR, audio_file)
         
         if not os.path.exists(audio_path):
-            print(f"  ⚠️  Audio file not found: {audio_file}")
+            print(f"  âš ï¸  Audio file not found: {audio_file}")
             continue
         
-        print(f"\n🔧 Processing {audio_file}...")
+        print(f"\nðŸ”§ Processing {audio_file}...")
         
         # Process audio to WAV
         wav_path = process_audio(audio_path)
@@ -201,17 +201,18 @@ def main():
             entry['transcription'] = transcription
             entry['timestamp'] = datetime.now().isoformat()
             repaired += 1
-            print(f"  ✅ Transcription added ({len(transcription)} chars)")
+            print(f"  âœ… Transcription added ({len(transcription)} chars)")
         else:
-            print(f"  ❌ Failed to transcribe")
+            print(f"  âŒ Failed to transcribe")
     
     # Save results
     if repaired > 0:
-        print(f"\n💾 Saving {repaired} repaired records...")
+        print(f"\nðŸ’¾ Saving {repaired} repaired records...")
         save_all(annotations)
-        print(f"✅ Successfully fixed {repaired} transcriptions!")
+        print(f"âœ… Successfully fixed {repaired} transcriptions!")
     else:
-        print("❌ No transcriptions were successfully repaired.")
+        print("âŒ No transcriptions were successfully repaired.")
 
 if __name__ == "__main__":
     main()
+

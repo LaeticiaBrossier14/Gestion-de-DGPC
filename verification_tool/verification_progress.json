@@ -67,7 +67,7 @@
   },
   "Appelle 3.wav": {
     "status": "corrected",
-    "corrected_transcription": " L'Himaya oui?- Allo! - allo L'Himaya oui, oui? - Salam Alaikoum l'himaya dayi gher feu rouge  gher la DGS, gher l festival ni... - Eh? - L festival ni, bon ya une femme dagi enceinte de 3 mois, tes3a un malaise. - oui  wahi la DGS? - Dakhel, s dakhel ni, aqlagh dina s dakhel un malaise d'une femme enceinte de 3 mois, d'accord? - D'accord, sa7a, aqlagh nettraju .",
+    "corrected_transcription": " L'7imaya oui?- Allo! - allo L'Himaya oui, oui? - Salam Alaikoum l'himaya dayi gher feu rouge  gher la DGS, gher l festival ni... - Eh? - L festival ni, bon ya une femme dagi enceinte de 3 mois, tes3a un malaise. - oui  wahi la DGS? - Dakhel, s dakhel ni, aqlagh dina s dakhel un malaise d'une femme enceinte de 3 mois, d'accord? - D'accord, sa7a, aqlagh nettraju .",
     "metadata": {
       "incident_type": "medical_emergency",
       "intent": "report_incident",
@@ -85,7 +85,7 @@
       "summary": "Une femme enceinte de trois mois a fait un malaise à l'intérieur du site du festival, à proximité de la DGS.",
       "notes_cot": "L'appelant utilise 'malaise' et 'femme enceinte de 3 mois' pour signaler une urgence médicale (medical_emergency). Il localise l'incident à 'la DGS' (Direction Générale de la Sûreté) à l'intérieur du 'festival' (s-dakhel). 'L'himaya  est le terme utilisé pour désigner l'agent de la Protection Civile."
     },
-    "timestamp": "2026-03-05T18:20:24.834503"
+    "timestamp": "2026-03-11T16:16:57.532703"
   },
   "Appelle 4.wav": {
     "status": "corrected",
@@ -107,7 +107,7 @@
       "summary": "L'appelant signale une urgence à Helil (Oued Ghir), localisée près de la piste de Swiyan, à proximité de la salle des fêtes et de citernes galvanisées.",
       "notes_cot": "L'appelant utilise le mot 'l'urgence' d'un ton pressé. Le lieu est identifié par 'Helil' et le numéro de téléphone donné appartient à la zone de 'Oued Ghir' (wad-Ghir). L'incident précis n'est pas nommé mais la localisation est détaillée (salle des fêtes, citernes)."
     },
-    "timestamp": "2026-03-05T18:28:02.560447"
+    "timestamp": "2026-03-11T16:17:03.548574"
   },
   "Appelle 5.wav": {
     "status": "corrected",
@@ -133,7 +133,7 @@
   },
   "Appelle 6.wav": {
     "status": "corrected",
-    "corrected_transcription": "Allo l'himaya oui salam - L'pompiers Souq n Letnin? - Khati n  vgayeth. - n vgayeth? Ah nes3a yiwth g Souq n Letnin, athan g lqa3a? - Ak defker numero  n Souq n Letnin akhir.... Rouh marki: 034 09 36 13 .13 à la fin. - D'accord, saha.",
+    "corrected_transcription": "Allo l'7imaya oui salam - L'pompiers Souq n Letnin? - Khati n  vgayeth. - n vgayeth? Ah nes3a yiwth g Souq n Letnin, athan g lqa3a? - Ak defker numero  n Souq n Letnin akhir.... Rouh marki: 034 09 36 13 .13 à la fin. - D'accord, saha.",
     "metadata": {
       "incident_type": "unknown",
       "intent": "report_incident",
@@ -151,7 +151,7 @@
       "summary": "Un appelant cherche à joindre la caserne de Souk El Tenine. L'opérateur lui fournit le numéro de téléphone direct de l'unité locale.",
       "notes_cot": "L'appelant demande 'l'pompiers Souq n Letni' (Souk El Tenine). L'agent se présente comme étant à 'Guayes' et décide de donner le numéro direct ('l'numero') pour une meilleure prise en charge ('akhir'). L'incident n'est pas encore détaillé."
     },
-    "timestamp": "2026-03-05T18:39:43.349603"
+    "timestamp": "2026-03-11T16:17:22.190989"
   },
   "Appelle 7.wav": {
     "status": "corrected",
@@ -177,7 +177,7 @@
   },
   "Appelle 8.wav": {
     "status": "corrected",
-    "corrected_transcription": "S-salam 3likoum.... himaya oui?. ...la protection civil thella une accident, yiwen thewthith tomobil athan dayi gel qa3a.... Athan ttedund Athan ttedund i oued ghir? .....Eh, Athan ttedund g oued ghir il est inconscientt... Athan ttedund  tura tle7qed l'ambulance. Aya d'accord....saha merci.",
+    "corrected_transcription": "S-salam 3likoum.... himaya oui?. ...la protection civil thella une accident, yiwen thewthith tomobil athan dayi gel qa3a.... Athan ttedund Athan ttedund i oued ghir? .....Eh, Athan ttedund g oued ghir il est inconscientt... Athan ttedund  tura tle7qed l'ambulance. Aya d'accord....sa7a merci.",
     "metadata": {
       "incident_type": "accident_vehicular",
       "intent": "report_incident",
@@ -195,7 +195,7 @@
       "summary": "Signalement d'un accident de la circulation à Akendound (Oued Ghir) avec une victime inconsciente. L'opérateur confirme l'envoi d'une ambulance.",
       "notes_cot": "L'appelant utilise 'yiwen l'accident' pour signaler l'incident. La gravité est déterminée par le terme 'il est inconscient'. La localisation est précisée par 'athan ttedund ar oued ghir '."
     },
-    "timestamp": "2026-03-05T21:06:09.537908"
+    "timestamp": "2026-03-11T16:17:43.269255"
   },
   "Appelle 9.wav": {
     "status": "corrected",
@@ -529,7 +529,7 @@
   },
   "Appelle 24.wav": {
     "status": "corrected",
-    "corrected_transcription": "Himaya an3am....Allo?.. An3am ... Msalkhir, msalkhir. - aslama. - thella yiweth tmetoth tt3ich imanis deg lbarj n Diche sawne-d ifirmane, imssawen gel firma  la famille Wannoughène t3ich imaniss alors athan thehlek tlou3ayid thenayid la3iyas i  les pompier s3ighara numéro nsen. - Wachou  la commune? - Han? - Wachou la commune? - Commune Amizour. - Marki  numéro n les pompiers n oued oued Amizour. 034... 034 08... 034-kani? - Khati, 034 08...08 ..77 14 .. 77 14. - Très bien. - D'accord.",
+    "corrected_transcription": "7imaya an3am....Allo?.. An3am ... Msalkhir, msalkhir. - aslama. - thella yiweth tmetoth tt3ich imanis deg lbarj n Diche sawne-d ifirmane, imssawen gel firma  la famille Wannoughène t3ich imaniss alors athan thehlek tlou3ayid thenayid la3iyas i  les pompier s3ighara numéro nsen. - Wachou  la commune? - Han? - Wachou la commune? - Commune Amizour. - Marki  numéro n les pompiers n oued oued Amizour. 034... 034 08... 034-kani? - Khati, 034 08...08 ..77 14 .. 77 14. - Très bien. - D'accord.",
     "metadata": {
       "incident_type": "medical_emergency",
       "intent": "report_incident",
@@ -547,7 +547,7 @@
       "summary": "Une femme résidant seule dans la commune d’Amizour a été victime d’un malaise à son domicile. Son état de santé nécessite une prise en charge médicale urgente. Ne disposant d’aucune assistance sur place, une intervention des services de la Protection Civile est demandée afin d’assurer les premiers secours et son éventuelle évacuation vers une structure hospitalière.\n",
       "notes_cot": "L'appelant mentionne 'tmetoth thezdegh imanis thehlek' (une femme qui habite seule elle est malade), ce qui définit l'incident 'urgence medical'. La localisation est précisée comme 'Commune Amizour' ."
     },
-    "timestamp": "2026-03-05T23:59:23.810627"
+    "timestamp": "2026-03-11T16:16:33.909489"
   },
   "Appelle 25.wav": {
     "status": "corrected",
@@ -7170,5 +7170,489 @@
       "notes_cot": "L'appelant utilise 'tech3al' (a brûlé/en feu) associé à 'l'appartement' pour désigner un feu de bâtiment. La localisation est précise : '4 chemin' et le repère 'daw l'pont' (sous/près du pont).\n\n"
     },
     "timestamp": "2026-03-10T21:32:07.760203"
+  },
+  "Appelle 216.wav": {
+    "status": "corrected",
+    "corrected_transcription": "An3am   les pompiers? .. An3am ... A dagi cabinet Dr  Sahnoun... c'est Dr. Sahnoun qui vous parle. .....Eh wachou  la commune is3it a doctor? ....matchi a9lin dagi gu9bou, en face sbitar, à côté sbitar, Dr. Sahnoun, gastro... Eh Ighliyi umudhin dagi lcabinet, un cas d'hypertension, il est impossible d'évacuer ilaq atruhedh ar les  urgences......Donc Dr. Sahnoun ge9bu yakhi ? ...Dr. Sahnoun, aqlin anda igela dagi touati   zath l'hôpital la clinique d'urgence la cité des 24 logements,   zath sbitar..... Eh, d'accord, parce que nukkni d-pompiers n Bgayeth, donc je ne connais pas... Ah, les pompiers n Bgayeth le  14..... eh... ch7al fkiyid  numéru les pompiers ne9vu asenla3ir?.... Aru7  034 18  .. arju Kan admarkir gla3nyak  .. aru7 ...18 .. 18 .. 75... 75 ...  68 ...68 Yatik saha... merci bien... sa7a... bon journée... sa7a.",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "request_help",
+      "urgency_human": "high",
+      "injury_severity": "severe",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Akbou",
+      "commune": "Akbou",
+      "lieu": " à côté sbitar",
+      "location_description": " Dr. Sahnoun, gastro , touati   zath l'hôpital la clinique d'urgence la cité des 24 logements,   zath sbitar",
+      "summary": "Un médecin d'Akbou appelle pour signaler un patient en état critique (hypertension) qu'il ne peut pas évacuer seul. Le répartiteur de Béjaïa lui fournit le numéro de téléphone direct des pompiers d'Akbou.",
+      "notes_cot": "L'appelant s'identifie comme le 'Dr Sahnoun'. Il mentionne 'umudhin' (patient) et 'hypertension' avec l'impossibilité d'évacuer vers les urgences, ce qui classe l'incident en medical_emergency. La localisation est Akbou (en face de l'hôpital). Le code-switching est typique avec 'l'cabinet', 'l'hôpital', 'l'urgence'."
+    },
+    "timestamp": "2026-03-11T12:21:34.788039"
+  },
+  "Appelle 217.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Salam ...S'il vous  plait zemrem atasemd a  les 1000 nes3a malade tamgharth   outrispirara bien atensali a l'hopital ?  - Les 1000? - Eh, l'bloc B13, zath docteur Benidjer. - Zath wachou? - Zath docteur Benidjer -  anda yella docteur benijer ? ..Wahid la ligne zrit abridH ame9ran   bach atrouhet ar   royal u9bel ma tle79et  gher  Bouttmer ni , les bâtiments ni foubrid, les blocs ni foubrid, l'bloc B13. - Wa7id l'rond point, troisième rond point akemlen  abrid ni  a royal aa ? - eea rond point nni     bach atalit a la3zib , outkmiltara a la3zib atkmlet abrid ni am9ran i tawin a royal  . - Sa7it rond point ni, après ad ternout a la route a  ? - atternout ghezath, 7acha  ma toufit yiweth la plaque docteur Benidjer, bloc ni zathes, bloc B13. - B13, woubrid akhi ? - woubrid ih  . -  aya D'accord, inasse i 7ed aghedi3asse din g  oubridh . Nom de famille amek ? - Amek ? - Nom de famille amek ? - Bouich. - Bouich? - Eh. - eh D'accord, inasse 7ed adi3ase  dina g bera . - Ok d'accord, sa7a ",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "request_help",
+      "urgency_human": "critical",
+      "injury_severity": "severe",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "Les 1000",
+      "location_description": " les 1000 , Bloc B13, zath docteur Benidjer, rond point nni  oubrid   bach atalit a la3zib , outkmiltara a la3zib atkmlet abrid ni am9ran i tawin a royal",
+      "summary": "Appel pour une ambulance concernant un malade grave en détresse respiratoire aux Miles (Béjaïa), localisé au Bloc B13 près de la clinique du Dr Benidjer.",
+      "notes_cot": "L'appelant signale une urgence respiratoire 'outrispirara bien ' (respire pas bien ) nécessitant un transport hospitalier. La localisation est précise : quartier Les Miles, bâtiment B13, à proximité d'un cabinet médical connu ('docteur Benidjer') et donne des repères routiers ('rond point La3zib')."
+    },
+    "timestamp": "2026-03-11T12:30:22.166616"
+  },
+  "Appelle 218.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Allo ? Eh, zeth djame3 tZalith aa ... abrid ni  n tazeboucht  wanisa Boukhiama aa  ? ...Khati, djame3 n Tzeboucht.... djame3 n Tazeboucht, ismis i  l djame3 nni, ismis ? Bnou Raba7 aaa .... An3am ? ... Omar Bnou Khattab  aa ? ...Eh,  voila ya3tik esa7a ih tri9 imsawen ...Dina aaa ? ..Eh... g khamis itech3el ner g berra ?.. Eh,  tech3el normalement g contour ni  n berra ... Contour nni g berra igela ? ... Eh..... D'accord. C'est  Urgent ayigma  attach3al toura iydlou3an ...  ih D'accord agma D'accord ih ... Barakallahufik agma  sa7ite... sa7a ",
+    "metadata": {
+      "incident_type": "fire_building",
+      "intent": "report_incident",
+      "urgency_human": "high",
+      "injury_severity": "unknown",
+      "fire_present": "yes",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "Tazeboucht, Mosquée Ben Rabah",
+      "location_description": "Zeth n tazeboucht ,Bnou Rabah (Omar Bnou Khattab )  triq imsawen",
+      "summary": "L'appelant signale un incendie en cours à la mosquée Ben Rabah (Omar Ben Khattab) située dans le quartier de Tazeboucht, près de la route tazeboucht.",
+      "notes_cot": "L'appelant signale un incendie en cours à la mosquée Ben Rabah (Omar Ben Khattab) située dans le quartier de Tazeboucht, près de la route tazeboucht."
+    },
+    "timestamp": "2026-03-11T12:34:36.531679"
+  },
+  "Appelle 219.wav": {
+    "status": "corrected",
+    "corrected_transcription": "S1: Zdakhel ? S2 :  portaille imsawen S1: Zdakhel ? S2: imsawen  imsawen g portail imsawen  S1: s la moto ? À pied ? S2 :  Khati athen ighli À pied kan, salam a3likoum S1: D'accord S2: Salam A3likoum  S1: Salam oui S2 : Les pompiers ? je suis medecin  gla3nayak athen iwtha a9erouyise gel 9a3a   i3el traumatisme crânien,athen irou7 ikel  . S1: D'accord ih. S2: Sa7a, S1: sa7a",
+    "metadata": {
+      "incident_type": "accident_pedestrian",
+      "intent": "report_incident",
+      "urgency_human": "high",
+      "injury_severity": "severe",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Béjaïa",
+      "commune": "Bejaia",
+      "lieu": "L'entrée de la ville",
+      "location_description": "portaille imsawen",
+      "summary": "Signalement d'un accident de la circulation impliquant une moto près de l'entrée de la ville . La victime présente un traumatisme crânien.",
+      "notes_cot": "L'appelant utilise 'l'accident' et cite 's la moto' comme véhicule. Mention explicite de 'traumatisme cranien' (médical FR) indiquant une urgence grave. La localisation 'Portaille imsawen ' correspond a (Bab El Fouka) à Bejaia, confirmée par le terme 'd akal' (Dakkal)."
+    },
+    "timestamp": "2026-03-11T12:41:52.180426"
+  },
+  "Appelle 220.wav": {
+    "status": "corrected",
+    "corrected_transcription": "ighli g tonobil dayi  deg Oulad Mansour. ......Marki kan l'numéro kherrata sfahmithen wich9a .... Marki tchou  l'numéro kherrata... 034 18... 034 18... 51 21. ..034 18 021... khati, 51 21.... 51 21. Merci bien.... Blamzya.",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "report_incident",
+      "urgency_human": "medium",
+      "injury_severity": "unknown",
+      "fire_present": "no",
+      "trapped_persons": "unknown",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Kherrata",
+      "commune": "Kherrata",
+      "lieu": "Oulad Mansour",
+      "location_description": "dayi deg Oulad Mansour",
+      "summary": "Un appelant signale un accident de la route  à Oulad Mansour. L'opérateur transmet un numéro de téléphone (034 18 51 21) pour les détails supplémentaires.",
+      "notes_cot": "L'expression 'ighli g tonobil ' (il a tombé dans la voiture ) . Emploi de la négation 'khati' pour corriger le numéro.  justifie 'Unknow' come type d'incident . Le lieu 'Oulad Mansour' est cité directement comme point de l'incident."
+    },
+    "timestamp": "2026-03-11T12:45:30.808935"
+  },
+  "Appelle 221.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Dachou ilan dina ? ... tamgharth tes3a, oumbe3 athen tes3eda sebhayi aparament   l'parapet-nni tamma... Anda exact g Ihaddaden wadda? .....tezrit anda izder collégue nwen rachid  Abas...eh singhara  ou3limrara anda izder .....zeth oukham nsen exact zeth oukham n rachid abas  ...... eh fkared repére akayi  aseyed ? .....Djame3 nni iheddaden  n wadda ahid ladodane nni ..waternout atalit atkemlet atalit zeth chwiya ...... ahid la dodane anli g uVrid n'am9ran? ........atkemlet sanssa it3eday   lbus, tallitara gezbou9 nni akayi ...ih ih ...  Ihaddaden wadda, atkemlet  deg vrid tallitara gezbou9 nni... Vrid nam9ran? ...Terminus? .....U9vel Terminus, u9vel. ....Avant  Terminus. ...Anda tella  l'arret gharnase l9ahwa...ih ih D'accord aseyed , 3asared  afred gher berra 3asared dina .. Inshallah ih , sa7it ayigma....D'accord sa7it .",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "request_help",
+      "urgency_human": "medium",
+      "injury_severity": "minor",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "Ihaddaden Wadda",
+      "location_description": "Ihaddaden wadda, u9vel Terminus,  Anda tella  l'arret gharnase l9ahwa",
+      "summary": "Un homme demande l’envoi d’une ambulance pour une vieille dame ayant fait un malaise. La localisation indiquée est Ihaddaden Wadda.",
+      "notes_cot": "L'appelant utilise 'tamgharth tes3a' ( la vieille dame a )  et mentionne des 'pathologies', ce qui confirme 'medical_emergency'. La localisation est précise avec 'Ihaddaden Waddaa' et des repères visuels comme ' wa7id uVrid n'am9ran ' et 'U9vel Terminus'"
+    },
+    "timestamp": "2026-03-11T12:56:31.746218"
+  },
+  "Appelle 222.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Salle l judo  parce que il3eb uqchich judo oumbe3 ighli une3lim irez  une3lim itgami aherek fttikelt - Anda anda? - la salle judo g Aokas, gher sou9. - Ru7 am defker numéro n'Aokas la3iyasen . - Ah d'accord, m machi la protection civile n aokas ? - Khati , n Bgayeth. - Khati brir thin n aokas? - Eh, ru7 ekteb. - Ekteber ? , asber.",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "report_incident",
+      "urgency_human": "medium",
+      "injury_severity": "minor",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Aokas",
+      "commune": "Aokas",
+      "lieu": "La salle judo g Aokas  ",
+      "location_description": "La salle judo g Aokas, gher sou9",
+      "summary": "Une femme signale qu’un garçon est tombé dans une salle de judo. La localisation indiquée est à Aokas.",
+      "notes_cot": "L’appelante signale qu’un garçon est tombé ' uqchich judo ighli' dans une salle de judo à Aokas. La chute peut entraîner une blessure et nécessite une intervention ou une vérification des secours.  La localisation indiquée est à Aokas et avec des repéres 'gher sou9'"
+    },
+    "timestamp": "2026-03-11T13:01:46.432446"
+  },
+  "Appelle 223.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Protection civile oui .... Allo...an3am.... ne3mak l khir  les pompier? ...An3am....Aki3iyech rebi  tzemrem atchey3em l'ambulance en urgence gher la salle Abderrahim.... anda tella la  salle Abderrahim? ...La salle Abderrahim  akihrez rebi  khsev....Dachu igellan? Dachu igellan?.... Je pense il y a une dame, elle est très... wakila chute... wala ma3elmer Aki3iyech rebi chey3emd l'ambulance ..... mais a madame, sfehmiyid , dachu igllan? elle respir, khati? Inconsciente? Consciente? .....Ah wala la perte de connaissance, ou3limrara  ner temouth ner tteder akihrez rebi  chey3emd l'ambulance   .... Anita la  salle Abderrahim? Tinna dayi g ireyahen?....g  ireyahen, tajdidt nni  la nouvelle salle.... D'accord, ah.... khsev akihrez rebi . ..D'accord.",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "request_help",
+      "urgency_human": "critical",
+      "injury_severity": "severe",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "ireyahen, Salle Abderrahmane",
+      "location_description": "la salle Abderrahim g  ireyahen, tajdidt nni  la nouvelle salle",
+      "summary": "Une femme a perdu connaissance dans la nouvelle salle Abderrahmane située au quartier ireyahen  à Béjaïa. L'appelante demande une ambulance en urgence.",
+      "notes_cot": "L'appelante utilise 'perdu connaissance' et 'ou3limrara  ner temouth ' (je sais pas si elle es mort  ), indiquant un état critique. Le type d'incident est 'medical_emergency'. La localisation est précise : quartier ireyahen et  le repère est 'la salle Abderrahmane' (la nouvelle)."
+    },
+    "timestamp": "2026-03-11T13:04:56.514559"
+  },
+  "Appelle 224.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Sallam a3likoum.... Wa a3likoum salam wre7ma  les pompiers nebgayeth .... sakhfik aghtchey3em l'ambulance  gher  Sidi Ahmed. ...Sidi Ahmed achou igelan a madame?... seti elle arrive pas a respirer iwtrase mli7 athen 66 l'oxygene ynes... Ahh Aniwa wamkan g sidi Ahmed a madame ... wellah maslir ? ... aniwa wamkan g sidi ahmed ...tesnet mairie n sidi ahmed ? ... ehhh .. a9lar dina g E26 g sidi ahmed 1er étage .... achhel batima nwen a madame?.... bâtiment E26. ... Batiment E26 aa? ... . Bâtiment E26 la famille Bouchama....La famille Bouchama E26 ..la mairie ni  kan n Sidi Ahmed a9lar  sufellas..... D'accord... sa7it ... Adi3ass 7ed kan dina ... Eh d'accord pas de soucis sa7a.",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "request_help",
+      "urgency_human": "critical",
+      "injury_severity": "severe",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "Sidi Ahmed",
+      "location_description": " bâtiment E26, la mairie n Sidi Ahmed, 1er étage",
+      "summary": "Urgence médicale impliquant une personne souffrant de graves difficultés respiratoires à Sidi Ahmed (Béjaïa). L'appelant signale un manque d'oxygène et demande une ambulance.",
+      "notes_cot": "L'appelant demande une ambulance ('aghtchey3em l'ambulance') pour sa grand mére   qui ne respire pas bien ('ur trespirer ara mli7') et mentionne l'absence d'oxygène ('oxygène ulach'), ce qui indique une urgence médicale sévère. Localisation précise : quartier Sidi Ahmed, bâtiment E26 ('bâtiment E26') près de la mairie ('thama n'la mairie')."
+    },
+    "timestamp": "2026-03-11T13:38:05.729573"
+  },
+  "Appelle 225.wav": {
+    "status": "corrected",
+    "corrected_transcription": "B: Allo? A: An3am ? B: Salam a3likoum, lbniya elmejles el 9adai . A: Wach men placa khouya? B: 9rib lmejless el 9adai f Jijel. A: Wach men placa f bejaia? hna centre ville? B: Jijel, Jijel... f lsbitar el jdid, mejless el 9adai kifech ye3ytoulha  chghel mandhar el djamil. A: F bejaia? B: Non, Jijel. A: Jijel?! Rak 7akem les pompiers ta3 Bejaia khouya. Dok n3ayitlhoum. Donc m3a elmejls el 9adai? B: Heye, mejless el9adai. Teglebt tonobil, fiha les victimes, fiha  les blessés ?.  B: Tgelbet men tahta le terf , ljiha hadi. Tahu zouj ta3 les poteaux. Rahoum ijbdou lghachi. A: Kayan les blessés dakhel tonobil? B: Heye, kayan, eh  kayen. A: Ok khouya. Donc m3a l'houa eldjamil? 07 99  la justice Ih matchi  ghournegh, n Jijel. D'accord khouya, ahid el mejles el 9adai.",
+    "metadata": {
+      "incident_type": "accident_vehicular",
+      "intent": "report_incident",
+      "urgency_human": "critical",
+      "injury_severity": "severe",
+      "fire_present": "no",
+      "trapped_persons": "yes",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "",
+      "daira": "Inconnu",
+      "commune": "Jijel",
+      "lieu": "Majlis El Qadai (Conseil Judiciaire)",
+      "location_description": " lmejles el qadai f Jijel, lsbitar el jdid (mandhar el djamil) m3a l houa eldjamil",
+      "summary": "Un accident de la route impliquant un véhicule renversé s'est produit à Jijel près du tribunal. L'appelant signale des blessés coincés à l'intérieur du véhicule alors qu'il a joint par erreur les pompiers de Béjaïa.",
+      "notes_cot": "L'incident est classé accident_vehicular car l'appelant dit 'te9leb t'tomobil'. Le niveau d'urgence est high car il y a des blessés ('les victimes', 'les blessés') et des personnes à désincarcérer ('ijbdou l'ghachi'). Bien que l'appelant appelle de Jijel, il est en ligne avec Bgayet ('Rak 7akem les pompiers ta3 Bejaia')."
+    },
+    "timestamp": "2026-03-11T13:46:12.318945"
+  },
+  "Appelle 226.wav": {
+    "status": "corrected",
+    "corrected_transcription": "eh l'ambulance atten gher l'atelier  oumbe3 nes3a malde dayi ne7ssel zyes si pour sa lou3ared i dina  ... achou s3am toura dina achou s3am ? .... Allo salam A3likoum .... salam wrahmou lah ... a lakh lkarim  weshrak  Protection civile? ..... Eh, marhba. ..... Wallah nes3a malade n evacuer ar  l'hôpital..... Eh justement nirase  toura wina ihedren didi nirase f  l'ambulance nwen  nirasse oula7edit ekk  toute la journée... eh  oula7edit atten gher l'atelier  t3el l'accident waqila . ... Eh  t3el l'accident. - Parce qu'ils nous ont déclaré. .... Salamat, salamat. Ayya barak Allahu fik. ....achou s3im toura dina ghourwen  ..Nes3a yewen dayi c'est un malade , on va l'évacuer à l'hôpital  athen dayi  zathner zdakhel l'poste. Si ça vous dérange pas, sme7thmar kan ... - Akdyefk  Rabi chfa inchallah. .... On va vous attendre inchallah ? . ..... Bien sûr, eh. .....Ayya d'accord, d'accord, sa7a.",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "update_info",
+      "urgency_human": "medium",
+      "injury_severity": "unknown",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "L'poste",
+      "location_description": "zdakhel l poste",
+      "summary": "L'appelant demande l'évacuation d'une personne malade vers l'hôpital. Les agents de la Protection Civile mentionnent un retard dû à un accident survenu plus tôt.",
+      "notes_cot": "L'appelant utilise 'malade' et 'évacuer l'hôpital' indiquant une urgence médicale et confirme que l'ambulance est dans l'athelier 'otoli' de l'ambulance à cause d'un 'accident'. La localisation est donnée par rapport à 'l'poste' (le poste  ou la poste)."
+    },
+    "timestamp": "2026-03-11T13:52:19.460687"
+  },
+  "Appelle 227.wav": {
+    "status": "corrected",
+    "corrected_transcription": " Jawada... achou igelan dina ? ...... lLjoutha igelan ....  ljoutha ? .... ljoutha an3em ih ...  gachou tella joutha ayi ? ... Ljoutha igelan Ljoutha .....Jawada...  iLa  7ed didek  aa ? ...le9ser ....ketchi ketchi  anda tella ljoutha ayi ?.... elttettt.....  , anda tella ljoutha ayi gachou  ? ...Jawada itsoufourn ..... iLa  7ed didek  aa ketchi ketchi  iLa  7ed didek ?  etef numero ynes asnefk i la gendarmerie, ad rou7en  athdawin g kham  toura adefker  numero ynek ar la gendarmerie. Allo? Allo?",
+    "metadata": {
+      "incident_type": "other",
+      "intent": "report_incident",
+      "urgency_human": "medium",
+      "injury_severity": "fatal",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "El Kseur",
+      "commune": "El Kseur",
+      "lieu": "Jawada",
+      "location_description": "Jawada",
+      "summary": "Un témoin signale la présence d'un cadavre au niveau du virage de Jawada. L'opérateur transfère l'appel à la gendarmerie.",
+      "notes_cot": "L'appelant répète 'l'joutha' (le corps/cadavre) et mentionne 'Jawada'. L'association d'un corps au niveau d'un virage routier."
+    },
+    "timestamp": "2026-03-11T13:56:13.424551"
+  },
+  "Appelle 228.wav": {
+    "status": "corrected",
+    "corrected_transcription": "l7ouma oubazine  tezrit amek arakdsehmer tezrit  Génie Sider, tesnet  Lekhmis la poste ni n lekhmis.... Ahe.... tezrit anda tella  la gendarmerie ? .... la poste n Lekhmis ner la gendarmerie? ...tezrit  La poste n Lekhmis  aaa .. ih ..aternouted ar zath  tuwal  n la gendarmerie.... la poste n Lekhmis adernour ar la gendarmerie ... sa7it tezrit la poste  anda tella la mairie ikel ...Ahe. ...Yakhi thella yiweth l'intersection tsalay akayi tuwal lacifa ta3esast ikel .. Ahe.... ih alimd gesina kan aghtafed net3asakid iwksar  ... achou s3it gukham achou s3it ? ...Tamghart n yemma ighhelken ... ah adyefk rebi chfa .. ttetchat mli7  rapide aa",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "request_help",
+      "urgency_human": "high",
+      "injury_severity": "unknown",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "El Khemis",
+      "location_description": "aternouted ar zath  tuwal  n la gendarmerie.... la poste n l'Khemis thella yiweth l'intersection tssalay akayi tuwal lacifa ta3essast ikel .. Ahe. ih alimd gessina",
+      "summary": "Un homme appelle pour demander une ambulance à  El Khemis  une ambulance pour sa  grand mère âgée qui nécessite une assistance médicale urgente.",
+      "notes_cot": "L'appelant mentionne 'Souk el khmis' et des points de repère comme 'la poste' et 'la gendarmerie'. L'urgence est identifiée par le mot 'tamgharth' (vieille femme/mère) et la confirmation de l'envoi de 'l'ambulance' par l'opérateur."
+    },
+    "timestamp": "2026-03-11T14:53:18.658436"
+  },
+  "Appelle 229.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Ay chifri numéro. wla.. i chifri... Bien sûr i chifri... Atiferej rebi sel lkhir gla3nayak rapide chwiya ... Matchi neki  Matchi neki  i nnan d les types d'interventions itcmwandin  toura waken  adtidekser zdakhel  l'accident antichege3 ar dina  c'est pas possible  ...  ta9chicht nni daren  unter mli7  ... Tfehmdiyit ayargaz l3ali... fehmerk  Ayargaz l 9ima... Akdyefk rebi  lkhir... Incha'Allah gla3nayak ...  mastkhemem tawil  atawith sinon  parce que aternou  atrajou chwiya  ,  portant 3edant Sa3a rapide  ah9reb teghli mli7 .. aa thoura lukan  g mitlou3ad g khamiw lir s vehicule inou  personnelle   aktidawir   mais aka lah ghaleb... . Akibarek  rebi Sa7it l... Sa7it... Sa7it  rebi i3awnek.",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "request_help",
+      "urgency_human": "high",
+      "injury_severity": "severe",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "L’appelant demande une ambulance pour une fille gravement malade.",
+      "notes_cot": "L’appelant indique que la victime est gravement malade 'unter mli7' et demande l’intervention d’une ambulance, ce qui suggère une urgence médicale."
+    },
+    "timestamp": "2026-03-11T15:00:02.590404"
+  },
+  "Appelle 230.wav": {
+    "status": "corrected",
+    "corrected_transcription": " Marki... Marki ... D9i9a kan a mo9el rou7.... 034... 034 .. 15.. 15... 17 .. 17... 31. ...41? ..31, wa7ed w tlathin. 31, 31. gachou tech3el? Tapilunt tella dges  la charge n  les câbles mli7 athen tendergez  . D'accord... 034 15 17 31. Aya c'est réglé mon frère... sa7it ...  Sa7a mon frère, sa7a.",
+    "metadata": {
+      "incident_type": "fire_building",
+      "intent": "report_incident",
+      "urgency_human": "medium",
+      "injury_severity": "none",
+      "fire_present": "yes",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "L'appelant signale un début d'incendie ou un court circuit causé par les câbles  et confirme ses coordonnées téléphoniques.",
+      "notes_cot": "L'utilisation du verbe 'ach3el' (brûler/allumer) et du terme 'nbergez' (faire des étincelles/brûler vivement) en parlant de 'câbles' indique un incident d'origine électrique de type incendie domestique (fire_building)."
+    },
+    "timestamp": "2026-03-11T15:03:18.860736"
+  },
+  "Appelle 231.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Oui  Allo ... la protection civile ?...  An3am.... nes3a dayi yeweth ta9chciht teghli g zedma  Cité zedma   ...C'est bon  a mon frère athen tedoud  l'ambulance, ok ? ....ah toulem chwiya  nekhla3 ... Ah mon frère l'ambulance ines3a   machi des avions ner des hélicoptères.... Ah mais abrid ifrer .... Abrid ifrer brid ifrer a  mon frère, l'ambulance athen tedoud  ... Aya d'accord, sa7a.",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "update_info",
+      "urgency_human": "high",
+      "injury_severity": "unknown",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "Cité zedma",
+      "location_description": "Cité zedma",
+      "summary": "Appel de suivi concernant l’arrivée de l’ambulance.",
+      "notes_cot": "L'appelant demande 'yiweth n l'ambulance' ce qui indique une urgence médicale. Le mot 'nekhla3' (paniqués) et l'insistance sur 'thoura' (maintenant) justifient une urgence élevée. Le lieu est identifié par 'Cité zedma '  et l'appelant précise que la route est libre ('abrid i frer') pour faciliter l'accès."
+    },
+    "timestamp": "2026-03-11T15:08:36.643324"
+  },
+  "Appelle 232.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Anda exact .... A9lagh g tala merkha,  G zath  la clinique n Terga, tina n  la maternité-ni. ... D'accord ...A la boulangerie n Azzi, athan   s9arter , athan abrid  ulach sansa ad3edin l3ibad  akh ,  la boulangerie ni teghre9 zrem amek astkhemem athen terte9 uk l7ala .... Aman ughebar aa n  lehwa?... Ih, lahwa, li les regards-nni 7achak  frend merra... les regards ... ih terte9 ikel lhala .... ih ih d'accord Sa7a.",
+    "metadata": {
+      "incident_type": "natural_disaster",
+      "intent": "report_incident",
+      "urgency_human": "low",
+      "injury_severity": "none",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "Targa Ouzemmour",
+      "location_description": "la clinique n Terga (maternité), la boulangerie n Azzi",
+      "summary": "Signalement d'une inondation  forte pluie importante à Targua Ouzemmour. Les regards d'égouts débordent suite aux pluies, inondant la boulangerie Azzi et la chaussée.",
+      "notes_cot": "L'appelant utilise 'lehwa ' (la pluie/météo) et 'aman' (l'eau) pour décrire une inondation. Le verbe 'teghre9' (elle est noyée/submergée) appliqué à la boulangerie confirme le sinistre. L'évocation des 'regards' qui 'terte9' (éclatent/débordent sous pression) indique un problème d'évacuation des eaux pluviales. Localisation précise via 'clinique n Terga' et 'boulangerie Azzi'."
+    },
+    "timestamp": "2026-03-11T15:12:16.956738"
+  },
+  "Appelle 233.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Allo anna li déclarilkum 3la les potaux  cha3let fihoum nar hkadaya....ih ... F  boulvard les potaux  rahum kaynin plusieures potaux  mdakhnin, fihum dekhan, cha3let fihoum nar.... ih d'accord ih .... Tsema kayen 3 potaux , dork ana tala3 m3a la route hadi f boulvard hnaya,  3 potaux  cha3let fihum nar hekadaya.... ih d'accord ..aya d'accord salam a3likoum",
+    "metadata": {
+      "incident_type": "other",
+      "intent": "report_incident",
+      "urgency_human": "low",
+      "injury_severity": "none",
+      "fire_present": "yes",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "Boulevard",
+      "location_description": "la route hadi f boulvard",
+      "summary": "Signalement d'un départ de feu sur trois poteaux électriques dégageant de la fumée le long d'un boulevard.",
+      "notes_cot": "L'appelant utilise 'potaux' (poteaux) et 'cha3let fihum nar' (le feu a pris dedans) ainsi que 'dekhan' (fumée). L'incident est classé en 'other' car il s'agit d'une infrastructure électrique sur la voie publique (Boulevard) sans précision de bâtiment ou de forêt."
+    },
+    "timestamp": "2026-03-11T15:17:52.734234"
+  },
+  "Appelle 234.wav": {
+    "status": "corrected",
+    "corrected_transcription": "3emi 3emi dame9ran ... Heh...tzemrem atrouhem toura ? ... amek tezrit les fonctions vitales toufit  oretrespirara ? ...  An3am ih... Tvérifiyit ? ....An3am, ih.... Dachou tkhedmet ketchi? ner ..  Khati,neki  wayi d 3emi wayi ...ganiwa wamkan ? ...Bouledjloul  ... Aniwa amkan g Bouledjloul ?...  Wina la superette  ar  Bou3leme bouchamar ... la superette l quartier n djama3, ya?... Khati, win n zeneyes....Wina n  zeneyes.... An3am eh  aytafet dina akt3aser  .. ih D'accord arou7 d'accord .",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "request_help",
+      "urgency_human": "high",
+      "injury_severity": "severe",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "Bouledjloul",
+      "location_description": "Wina la superette n Bou3leme bouchamar",
+      "summary": "Appel concernant une personne en détresse vitale. Le régulateur demande la vérification de la respiration et des fonctions vitales. Localisation précise à Bouledjloull près de la supérette Niyach.",
+      "notes_cot": "L'usage des termes 'fonctions vitales' et 'respiration' oriente immédiatement vers une urgence médicale (medical_emergency). La localisation est confirmée par répétition du quartier 'Bouledjloul' et le point d'intérêt 'superette n Bou3leme bouchamar '."
+    },
+    "timestamp": "2026-03-11T15:32:43.848096"
+  },
+  "Appelle 235.wav": {
+    "status": "corrected",
+    "corrected_transcription": "7imaya An3am ... . tech3el tmest  toura g  l'éclairage ... Gachou ? G l'éclairage.... yek Les potaux n  l'éclairage? ...Ah, l'éclairage athen itba lekhyout negh del haja... Luta, Souq El Tenine? ...Luta, Souq El Tenine, Ari7an.... Ari7an. ...Ah... D'accord ih . Sa7it. Sa7it.",
+    "metadata": {
+      "incident_type": "other",
+      "intent": "report_incident",
+      "urgency_human": "low",
+      "injury_severity": "none",
+      "fire_present": "yes",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Souk El-Ténine",
+      "commune": "Souk El Tenine",
+      "lieu": "Arihan (Luta)",
+      "location_description": "Luta, Souq El Tnin, Arihan",
+      "summary": "Signalement d'un poteau d'éclairage public défectueux avec un risque potentiel lié aux fils électriques à Arihan (Souk El Tenine).",
+      "notes_cot": "L'appelant signale un 'l'poto l'éclairage' (poteau d'éclairage) avec un problème possible de 'l'khyout' (fils électriques). L'incident est localisé à 'Arihan' dans la commune de 'Souq El Tnin'. Catégorie 'other' car il s'agit d'une infrastructure dangereuse mais pas d'un accident ou incendie déclaré."
+    },
+    "timestamp": "2026-03-11T15:35:33.279135"
+  },
+  "Appelle 236.wav": {
+    "status": "corrected",
+    "corrected_transcription": "aniwa wamkan? ... teghli g taghzouyth wa7id l primaire  50 mètres  la route nationale... terminus ... À  khati tawetara ar terminus, u9bel terminus, u9bel, a9lin gar  l'primaire nni  aaa teslit aa ...ih  ...    Anda thella la boulangerie nni, attafet yiweth  la boulangerie  50 mètres a9lin  dina...  C'est quelle nom ? ... le nom  Hammoudi. Hammoudi...... Ah d'accord, akidnaf dinna?  ih .. OK... an3am ? ...  akidnaf dina, 3ased kan dina....  eh Ad 3asagh, ih ad 3asagh. Sa7it ...sa7it ayigma sahit .",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "report_incident",
+      "urgency_human": "unknown",
+      "injury_severity": "unknown",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "taghzouyth",
+      "location_description": "taghzouyth , l primaire  50 mètres  la route nationale,    la boulangerie  50 mètres",
+      "summary": "L’appelant signale qu’une fille est tombée et fournit la localisation avec des repères près de Taghzouyth, à environ 50 mètres de la route nationale, près d’une école primaire et d’une boulangerie.",
+      "notes_cot": "L’appelant indique qu’une fille est tombée (teghli ) et fournit plusieurs repères '50 mètres  la route nationale' et ' la boulangerie  50 mètres'  pour localiser l’incident, mais ne donne aucune information sur l’état de la victime."
+    },
+    "timestamp": "2026-03-11T15:46:24.923243"
+  },
+  "Appelle 243.wav": {
+    "status": "corrected",
+    "corrected_transcription": "thasawent  danger i9im aken ich3el , wachu la commune aseyed ? - wachou la commune - la commune Semaoun iwzelaguen — Semaoun amizour eh — akh akdekegh  l'numéro n'les pompiers n oued amizour sfehmithen exactement aniwa amkan    wadla3in i sonelgaz ner . —akh marki  fkid kan numéro ni  — 034 - arjid aa kan thoura amarkir - 034 - 034 - 08 -08  -77  - 77 14. — 14. Ya3tik sa7a l 'familya. — Sa7a -  sa7a.",
+    "metadata": {
+      "incident_type": "unknown",
+      "intent": "report_incident",
+      "urgency_human": "unknown",
+      "injury_severity": "unknown",
+      "fire_present": "yes",
+      "trapped_persons": "unknown",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "",
+      "daira": "Amizour",
+      "commune": "Semaoun",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "Un homme appelle pour signaler un incendie à Amizour. L'opérateur lui communique le numéro direct des pompiers de la localité (034 08 77 14) ainsi que celui de Sonelgaz pour une intervention sur place.",
+      "notes_cot": "L'appelant utilise le verbe 'iche3l' (brûler) pour signaler l'incendie. L'opérateur identifie la commune d'Amizour et fournit les coordonnées de l'unité locale et de Sonelgaz."
+    },
+    "timestamp": "2026-03-11T16:00:02.172873"
   }
 }
