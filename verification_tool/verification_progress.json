@@ -7655,20 +7655,13 @@
     },
     "timestamp": "2026-03-11T16:00:02.172873"
   },
-<<<<<<< HEAD
   "Appelle 237.wav": {
     "status": "corrected",
     "corrected_transcription": "— Allo\n— L7imaya an3am\n— Allo... Les pompiers?\n— Bgayeth an3am\n— Allo, aqlin g'Sidi Ali leB7ar tzemrem atasem mé yehlek   ouyezmirara adirespiri wich9a athnawi ar sbitar ?\n— s3id un malade iss3a, problème respiratoire akka a  ma madame?\n— Ih... ih\n— G' wanda zedghet  g Sidi Ali leb7er?\n— Aqliyi wa7id l'centre les handicapés Boulkhedra ni atkechmet a droite.\n— eh chey3ed 7ed  din a madame g centre ni aghdi3as\n— D'accord... D'accord sa7it.",
-=======
-  "Appelle 150.wav": {
-    "status": "corrected",
-    "corrected_transcription": "Allo? ...Allo salam aleikum.... Wa aleikum salam..... Rebi i7afdek a khuya rani f Souq l'Tenine,... 3endi wa7ed ta7na duka...oui..., f ddar 5ème étage l'impossible bach neqdrou nhabtouh, rah de5el.... Ma3lich, ne3tik l'numéro ta3 Souq l'Tenine rak bjaia ...Ah a3tini ta3 Souq l'Tenine, mzeiya....marque  3endek: 034..034... 09..09 36..09 36... 13...13 09 36 13.... . Sme7li a khuya ...smah smah...baraka laho fik. ",
->>>>>>> 432bfda (Mise à jour de la progression de vérification)
     "metadata": {
       "incident_type": "medical_emergency",
       "intent": "request_help",
       "urgency_human": "high",
-<<<<<<< HEAD
       "injury_severity": "unknown",
       "fire_present": "no",
       "trapped_persons": "no",
@@ -7779,15 +7772,12 @@
       "incident_type": "medical_emergency",
       "intent": "update_info",
       "urgency_human": "high",
-=======
->>>>>>> 432bfda (Mise à jour de la progression de vérification)
       "injury_severity": "severe",
       "fire_present": "no",
       "trapped_persons": "no",
       "weapons_involved": "no",
       "hazmat_involved": "no",
       "victims_count": "1",
-<<<<<<< HEAD
       "daira": "Béjaïa",
       "commune": "bejaia",
       "lieu": "djame3 Tizi ",
@@ -8528,22 +8518,6 @@
     "corrected_transcription": "A: Salam ou3likoum B: 7imaya?. A: Eh..., aw kayen wa7ed hena  f tizi eh... aw ... mblessi fi rassou  w dem ma7ebche ye7bes. B: ani?. A: Eh... , ani tizi ?... B: Eh, Tizi eh ...., . A: Da9bayli negh da3rab ketchi? B: Da9bayli, Da9bayli, hder s te9baylith. A: Roh imala alid ar Tizi wayi than ifourar    atafet rond-point kn atsovet... avirage ayi  mis 3emis dayi ...rond-point  ar ljamou3ani.. ged ged ljamou3a... kan ombe3d ee.. atafet dayi miss 3emis atkchmet a les cartiers lmouhim... premier quartier dakssar. B: D'accord, akdnaf wa7id el jame3... ,aya sa7a ...., jame3  tizi ..., ih d'accord ..., d'accord a gema   A: Ay sa7a. B: Sa7a .",
     "metadata": {
       "incident_type": "medical_emergency",
-=======
-      "daira": "Souk El-Ténine",
-      "commune": "Souk El Tenine",
-      "lieu": "souq tnin",
-      "location_description": "souq tnin,f ddar 5ème étage",
-      "summary": "Un homme a fait une chute au 5ème étage d'un bâtiment à Souk El Tenine. Il est impossible pour les proches de le descendre, nécessitant l'intervention de la Protection Civile.",
-      "notes_cot": "L'appelant utilise 'wa7ed ta7' (quelqu'un est tombé) ce qui définit 'medical_emergency'. Le lieu 'Souq l'Tenine' est clairement mentionné. La mention '5ème étage' et 'l'impossible bach neqdrou nhabtouh' (impossible de le descendre) justifie une sévérité élevée et une urgence 'high'. L'opérateur oriente l'appelant vers le numéro direct de 'l'protection' locale."
-    },
-    "timestamp": "2026-03-11T16:21:03.431138"
-  },
-  "Appelle 151.wav": {
-    "status": "corrected",
-    "corrected_transcription": "Salam 3likom.... Wa3likom essalam.... L'ambulance khouya.... El 7imaya? N3am, n3am khouya. ...7ah? ...7imaya, 7imaya ta3 Bejaia.... 7imaya ta3 Bejaia khouya arwa7ouli ra7ou srat li 7na dharbou-li baba arwa7ou-li rah7ou fi Bakaro..... Bakaro? Marki andek l'numéro ta3 Tichy Marki andek....034..dqiqa bark...034ihih...81..ihih...67..ihih...58 . Barak Allahou fik khouya. Sa7it, sa7a.",
-    "metadata": {
-      "incident_type": "assault_violence",
->>>>>>> 432bfda (Mise à jour de la progression de vérification)
       "intent": "request_help",
       "urgency_human": "high",
       "injury_severity": "severe",
@@ -8551,7 +8525,6 @@
       "trapped_persons": "no",
       "weapons_involved": "unknown",
       "hazmat_involved": "no",
-<<<<<<< HEAD
       "victims_count": "1.0",
       "daira": "Barbacha",
       "commune": "Barbacha",
@@ -8575,16 +8548,80 @@
       "weapons_involved": "no",
       "hazmat_involved": "no",
       "victims_count": "1.0",
-=======
+      "daira": "Inconnu",
+      "commune": "Inconnu",
+      "lieu": "Inconnu",
+      "location_description": "Inconnu",
+      "summary": "L'appelant signale qu'un véhicule s'est renversé (a fait un tonneau).",
+      "notes_cot": "Le terme 'at-tsedur' (ça tourne/fait un tonneau) dans ce contexte d'urgence indique un véhicule qui s'est renversé suite à un accident. Le mot 'yuqa3' confirme qu'un événement est survenu."
+    },
+    "timestamp": "2026-03-11T23:08:38.742576"
+  },
+  "Appelle 272.wav": {
+    "status": "corrected",
+    "corrected_transcription": "woulleh beghigh akomdsinyaligh yiwen u poteau  dayi g boulevard. Hmm. woulleh athane zyes trisiti... yezmer adi3el karitha. ab7al tedou , tedou g el khit ni . Anida? zerit anda iterte9 déja waytnin amek isetla3in les garages ni dina , ih,iterte9 aken dina el gaz negh amek ...,ih , ih ....., voila dina exacte ..., wayi pour L'eclairage public?..., Anam?... l'eclairage public wayi a-poteau ayi??... , voila l'eclairage public ih ...,  . D'accord ih , ok. e.. atafet  l'kiosk, ombe3d coiffeur, omb3ed  premier poteau negh deuxième. Ok. Yerham waldikoum . Saha.",
+    "metadata": {
+      "incident_type": "other",
+      "intent": "report_incident",
+      "urgency_human": "medium",
+      "injury_severity": "none",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "Ihadaden / Boulevard",
+      "location_description": "Ihadaden, amk l-sel3a (zone de marchandises), l'garagewat, as-ttafed l'kiosk, umbe3d coiffeur, premier poteau negh deuxième",
+      "summary": "L'appelant signale un poteau d'éclairage public défectueux avec des fils électriques risquant de provoquer un accident ou un court-circuit au niveau du boulevard d'Ihadaden.",
+      "notes_cot": "L'appelant mentionne 'poto n tricity' (poteau électrique) et 'l'eclairage public'. Il s'inquiète car 'yezmer a d-yekkar l'kherit' (ça risque de causer un sinistre/problème). Le lieu 'Ihadaden' (prononcé ici Itanditen/Ihanditene) est un quartier industriel/commercial connu de Béjaïa. Repères visuels : kiosque, coiffeur, hangars de marchandises."
+    },
+    "timestamp": "2026-03-11T23:19:25.768354"
+  },
+  "Appelle 150.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Allo? ...Allo salam aleikum.... Wa aleikum salam..... Rebi i7afdek a khuya rani f Souq l'Tenine,... 3endi wa7ed ta7na duka...oui..., f ddar 5ème étage l'impossible bach neqdrou nhabtouh, rah de5el.... Ma3lich, ne3tik l'numéro ta3 Souq l'Tenine rak bjaia ...Ah a3tini ta3 Souq l'Tenine, mzeiya....marque  3endek: 034..034... 09..09 36..09 36... 13...13 09 36 13.... . Sme7li a khuya ...smah smah...baraka laho fik. ",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "request_help",
+      "urgency_human": "high",
+      "injury_severity": "unknown",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
       "victims_count": "1",
       "daira": "Béjaïa",
-      "commune": "Tichy",
-      "lieu": "Bakaro",
-      "location_description": "Bakaro",
-      "summary": "L'appelant demande une ambulance en urgence car son père a été victime d'une agression physique à Bakaro. L'opérateur l'oriente vers la protection civile de Tichy.",
-      "notes_cot": "L'appelant utilise 'l'ambulance' et précise 'dharbou-li baba' (ils ont frappé mon père), ce qui indique une agression physique (assault_violence). Le lieu 'Bakaro' est un quartier/village côtier rattaché à la commune de Tichy, d'où la redirection par l'opérateur vers le numéro local."
+      "commune": "Béjaïa",
+      "lieu": "Sidi Ali labhar",
+      "location_description": "wa7id l'centre les handicapés Boulkhedra ni atkechmet a droite.",
+      "summary": "Une femme appelle pour une personne souffrant d'une détresse respiratoire à Sidi Ali el Bahar (Béjaïa) près d'un centre pour handicapés.",
+      "notes_cot": "L'appelante mentionne un 'problème respiratoire' et demande si le patient peut respirer ('izmer ad respirer'). Elle précise sa localisation à Sidi Ali l'leB7ar près du 'centre les handicapés Boulkhedra' (repère visuel précis)."
     },
-    "timestamp": "2026-03-11T16:24:35.676294"
+    "timestamp": "2026-03-11T17:56:59.392111"
+  },
+  "Appelle 151.wav": {
+    "status": "corrected",
+    "corrected_transcription": "Salam 3likom.... Wa3likom essalam.... L'ambulance khouya.... El 7imaya? N3am, n3am khouya. ...7ah? ...7imaya, 7imaya ta3 Bejaia.... 7imaya ta3 Bejaia khouya arwa7ouli ra7ou srat li 7na dharbou-li baba arwa7ou-li rah7ou fi Bakaro..... Bakaro? Marki andek l'numéro ta3 Tichy Marki andek....034..dqiqa bark...034ihih...81..ihih...67..ihih...58 . Barak Allahou fik khouya. Sa7it, sa7a.",
+    "metadata": {
+      "incident_type": "assault_violence",
+      "intent": "request_help",
+      "urgency_human": "high",
+      "injury_severity": "severe",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "unknown",
+      "hazmat_involved": "no",
+      "victims_count": "1.0",
+      "daira": "Barbacha",
+      "commune": "Barbacha",
+      "lieu": "Tizi n Berbecha",
+      "location_description": "l'édifice près de Tizi n Berbecha, zone du fourrare, près de l'endroit dit l'joumou3a, premier quartier d'akessar (en bas)",
+      "summary": "Un homme appelle pour signaler une hémorragie incontrôlable ('dam ma bghach yehabes') à Tizi n Berbecha et donne des indications précises pour guider l'ambulance vers le quartier du bas.",
+      "notes_cot": "L'appelant mentionne explicitement 'dam' (sang) et 'ma bghach yehabes' (ne s'arrête pas), ce qui caractérise une urgence médicale de type hémorragie. La localisation est Tizi n Berbecha (Barbacha). Les repères 'l'fourrage' (forage) et 'l'joumou3a' (place du marché/mosquée) sont des points de navigation clés."
+    },
+    "timestamp": "2026-03-11T23:06:01.019191"
   },
   "Appelle 152.wav": {
     "status": "corrected",
@@ -8599,25 +8636,14 @@
       "weapons_involved": "unknown",
       "hazmat_involved": "no",
       "victims_count": "1",
->>>>>>> 432bfda (Mise à jour de la progression de vérification)
       "daira": "Inconnu",
       "commune": "Inconnu",
       "lieu": "Inconnu",
       "location_description": "Inconnu",
-<<<<<<< HEAD
       "summary": "L'appelant signale qu'un véhicule s'est renversé (a fait un tonneau).",
       "notes_cot": "Le terme 'at-tsedur' (ça tourne/fait un tonneau) dans ce contexte d'urgence indique un véhicule qui s'est renversé suite à un accident. Le mot 'yuqa3' confirme qu'un événement est survenu."
     },
     "timestamp": "2026-03-11T23:08:38.742576"
-  },
-  "Appelle 272.wav": {
-    "status": "corrected",
-    "corrected_transcription": "woulleh beghigh akomdsinyaligh yiwen u poteau  dayi g boulevard. Hmm. woulleh athane zyes trisiti... yezmer adi3el karitha. ab7al tedou , tedou g el khit ni . Anida? zerit anda iterte9 déja waytnin amek isetla3in les garages ni dina , ih,iterte9 aken dina el gaz negh amek ...,ih , ih ....., voila dina exacte ..., wayi pour L'eclairage public?..., Anam?... l'eclairage public wayi a-poteau ayi??... , voila l'eclairage public ih ...,  . D'accord ih , ok. e.. atafet  l'kiosk, ombe3d coiffeur, omb3ed  premier poteau negh deuxième. Ok. Yerham waldikoum . Saha.",
-=======
-      "summary": "L'appelant signale une agression physique contre son père. Il cite le 'MAK' comme étant responsable de l'agression.",
-      "notes_cot": "L'appelant utilise explicitement le mot 'agression' et précise 'dharbu-li baba' (ils ont frappé mon père), ce qui classifie l'incident en assault_violence. L'indicatif 034 confirme la zone de Béjaïa, mais aucune localisation précise n'est donnée dans cet extrait."
-    },
-    "timestamp": "2026-03-11T17:01:06.612806"
   },
   "Appelle 153.wav": {
     "status": "corrected",
@@ -8688,13 +8714,10 @@
   "Appelle 156.wav": {
     "status": "corrected",
     "corrected_transcription": "An3am?....bakhir ...bakhir l3afia...labas ukyugh wayra?... hamdoulilah...nighak s3igh aa neki mehfod ya7yaoui mustapha amk se9aren s3igh thamgharth yema th7elkiyi...uttcoupi ara agma outtcoupara..ih..allo allo'...sba7 lkhir ...bahkhir...wechrak labas...an3am?...nighak ma labass..labas hamdoulilah...nighas s3igh thamgharth yema thttenagh deljiran th7elkiyi ma yella ma zemrem adassem arime7fuden me7fod ya7yaoui mustapha adassem aa..ime7foden menhu thetava3 menhu thtava3?...bou7emza bou7emza..bou7emza aqvou negh seddouk?... sedouk...beni ma3ouch...ih...akh aydefkegh numéro n bni ma3ouch la3iyasen ...ih...marque ...marque numéro ...achhal?...034 ...ih?...09...09...42..ih?...91.. daccord a3tik sa7a...sa7a",
->>>>>>> 432bfda (Mise à jour de la progression de vérification)
     "metadata": {
       "incident_type": "other",
       "intent": "report_incident",
       "urgency_human": "medium",
-<<<<<<< HEAD
-=======
       "injury_severity": "unknown",
       "fire_present": "no",
       "trapped_persons": "no",
@@ -8776,40 +8799,6 @@
     },
     "timestamp": "2026-03-11T17:51:51.096885"
   },
-  "Appelle 160.wav": {
-    "status": "corrected",
-    "corrected_transcription": "L7imaya n3am...kherata...oui kherata..athan thkevhmed l'ambulance nagh aa..gachu?...tughi thebi transport malade thametoth aaa enceinte...ennnnnn lwa7idaaaa 1034 yak?...ih 1034 ...ismis?...hemdani Amira 32 ans ...achhal 32 ans achu ttyughe enceinte... enceinte iii...achhal thewtem?...dqiqa bark newitt 11 h ...11 fuken aa .. .ih ..chhal wten..'chhal wten ar lieux d'intervention...aa lieu d'intervention 34 ...asen3el 40 aaa ...Khemas akn 40 ii...11:05 kechmen...ih",
-    "metadata": {
-      "incident_type": "medical_emergency",
-      "intent": "report_incident",
-      "urgency_human": "medium",
->>>>>>> 432bfda (Mise à jour de la progression de vérification)
-      "injury_severity": "none",
-      "fire_present": "no",
-      "trapped_persons": "no",
-      "weapons_involved": "no",
-      "hazmat_involved": "no",
-<<<<<<< HEAD
-      "victims_count": "0",
-      "daira": "Béjaïa",
-      "commune": "Béjaïa",
-      "lieu": "Ihadaden / Boulevard",
-      "location_description": "Ihadaden, amk l-sel3a (zone de marchandises), l'garagewat, as-ttafed l'kiosk, umbe3d coiffeur, premier poteau negh deuxième",
-      "summary": "L'appelant signale un poteau d'éclairage public défectueux avec des fils électriques risquant de provoquer un accident ou un court-circuit au niveau du boulevard d'Ihadaden.",
-      "notes_cot": "L'appelant mentionne 'poto n tricity' (poteau électrique) et 'l'eclairage public'. Il s'inquiète car 'yezmer a d-yekkar l'kherit' (ça risque de causer un sinistre/problème). Le lieu 'Ihadaden' (prononcé ici Itanditen/Ihanditene) est un quartier industriel/commercial connu de Béjaïa. Repères visuels : kiosque, coiffeur, hangars de marchandises."
-    },
-    "timestamp": "2026-03-11T23:19:25.768354"
-=======
-      "victims_count": "1",
-      "daira": "Kherrata",
-      "commune": "Kherrata",
-      "lieu": "kherrata",
-      "location_description": "kherrata",
-      "summary": "Signalement d'une intervention de transport médical pour une femme enceinte de 32 ans, nommée Amdani Amira, dans la zone de Kherrata.",
-      "notes_cot": "L'appelant utilise 'transport malade' et 'femme enceinte' pour définir l'incident. Le lieu est clairement identifié comme 'Kherrata'. Les codes '10-34' et les horaires indiquent un rapport de suivi de la Protection Civile."
-    },
-    "timestamp": "2026-03-11T18:10:25.962673"
-  },
   "Appelle 161.wav": {
     "status": "corrected",
     "corrected_transcription": "Aaahh a9lagh g ledimco amk iseman iwmekan ayi? Cite leqla...cite leqla?...athan g véhicule ni iru7 évanoui ih...dakhel véhicule igella?... véhicule daglas iru7 ivanoui...ih zdakhel véhicule iyella?...machi g le véhicule les coussins ar defir ireya7 dina kn thetfith... daccord lwa7i cite leqla igellan exact ? Adkechmen Wa7id lpont ni... lpont ni ar l pont ni Exact illigh.. aya daccord...ih daccoord athan isufughed aaa ... daccord daccord..isufughed idamen ... Ih daccoord",
@@ -8834,7 +8823,7 @@
   },
   "Appelle 162.wav": {
     "status": "corrected",
-    "corrected_transcription": "Salam aleykoum. - Salam. - ness3a dayi yiwth temgharth ihekmitt yiwn s tomobil aqlagh dayi wa7id squad les 600. - squad les 600? - Eh. - Les 600? - Wa7ed anda i thella l'7adiqa ni.- Saḥit, wa7id kiosk eni. - Ayya d'accord. - Rapide aki3eyech rabbi. - D'accord, sa7it.",
+    "corrected_transcription": "Salam aleykoum. - Salam. - ness3a dayi yiwth temgharth ihekmitt yiwn s tomobil aqlagh dayi wa7id squad les 600. - squad les 600? - Eh. - Les 600? - Wa7ed anda i thella l'7adiqa ni.- Saß©Ñit, wa7id kiosk eni. - Ayya d'accord. - Rapide aki3eyech rabbi. - D'accord, sa7it.",
     "metadata": {
       "incident_type": "accident_vehicular",
       "intent": "report_incident",
@@ -9623,6 +9612,5 @@
       "notes_cot": "L'appelant utilise 'i sha3l' (il est allumé/brûle) et 'itregh' (il brûle) pour décrire un incendie sur un 'lampadaire'/'poteau de l'électricité'. Comme il s'agit d'une infrastructure publique et non d'un bâtiment ou d'un véhicule, le type est classé en 'other'. La localisation est précise : 'Boulevard Amirouche' près de 'l'immeuble Sonatrach'."
     },
     "timestamp": "2026-03-11T23:13:10.762926"
->>>>>>> 432bfda (Mise à jour de la progression de vérification)
   }
 }
