@@ -1,0 +1,68 @@
+{
+  "appelle 517.wav": {
+    "status": "corrected",
+    "corrected_transcription": "  — Allô... th7re9et  Chrea hnaya fetri9... win kayen l'hôtel ta3 Chrea. — Win? — f Bejaia. — Win m3a Chrea? — Ah, l'hôtel ta3 Chrea. — Wach men chejra? wech chejra hadik  wech heya — chejra hadik m3a trig ...D'accord a khouya... aa therget mli7 aa nar kbira - d'accord  - sa7it, sa7it.",
+    "metadata": {
+      "incident_type": "fire_forest",
+      "intent": "report_incident",
+      "urgency_human": "medium",
+      "injury_severity": "none",
+      "fire_present": "yes",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "0",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "L'hôtel n Chréa",
+      "location_description": "Win akken yella l'hôtel n Chréa",
+      "summary": "L'appelant signale un incendie impliquant un grand arbre situé à l'entrée, près de l'hôtel Chréa à Béjaïa.",
+      "notes_cot": "L'appelant utilise 'th7re9' (brûle) et 'thchejra' (arbre) pour signaler un feu de végétation. La localisation est précise : Béjaïa ('Bgayeth') près de l'hôtel Chréa. Pas de victimes signalées."
+    },
+    "timestamp": "2026-03-13T00:13:33.968783"
+  },
+  "appelle 518.wav": {
+    "status": "corrected",
+    "corrected_transcription": "salam warahmatou lah ...akh l7imaya ? ...7imaya bejaia oui an3am ? ...akh 3endna un cas hna f dar 3endou dar deux avici lyamat li fatou ... eh .... douka w kouna ra9din a lerd bda i3yet wesmou lazmlou une injection wela bach tcalmih ....malade mentale wela ? ... machi allah oua3lam le cas ta3ou hakdek ... eh psychiatrique ... lala kan mli7 lyamat li fatou dar 3endou deux avici ... eh ... temma  kan mli7 lyoum nad t9i9a bda ... win rak win touskoun a khouya win ? ... 7ey rabe7  cité monja terminus ta3 la ligne ta3 l'15  ... wachou rahou idir rahou agrissif ? wella kifeh ? ... agressif mli7 rahou yedreb eh ... eh eh chouf wach ngolek chouf m3a chorta dir l'arequisition w dih dih l 'Aamriw ... chorta ? ... eh ...an3am eh ... chouf m3a chorta ydiroulek l'arequisition y3eytoulna njiw m3ahoum nediw ... sa7a ... d'accord sa7it sa7a .",
+    "metadata": {
+      "incident_type": "other",
+      "intent": "request_help",
+      "urgency_human": "medium",
+      "injury_severity": "minor",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "Cité Monga",
+      "location_description": "7ay raba7 , cité Monga, terminus ta3 la ligne ta3 l'15",
+      "summary": "Un homme ayant fait deux AVC récemment est devenu soudainement agressif et violent à son domicile. L'opérateur recommande une réquisition policière pour une hospitalisation forcée à l'hôpital Aamriw.",
+      "notes_cot": "L'appelant décrit un cas neurologique/psychiatrique suite à 'deux AVC'. Le terme 'agressif' et 'yedreb ' (il frappe) oriente vers une urgence comportementale. L'opérateur oriente vers 'l'chorta' pour une 'requisition' car il s'agit d'un transfert forcé vers l'hôpital psychiatrique de 'l'Aamriw'."
+    },
+    "timestamp": "2026-03-13T00:25:53.161958"
+  },
+  "appelle 523.wav": {
+    "status": "corrected",
+    "corrected_transcription": " service protection civile ? .... an3am eh ? ...gla3nayak athen nes3a amodin dayini ... anida ? ... da g ... gachou ... batiment ni ... tamzergha? ....an3am ? ... tamzergha ? .... timzergha timzergha ... timzergha sidi aich ner ? .... sidi aich eh ... dayi debgayeth akh marki numéro n sidi aich ... ayouh fkiyid amé 3ziz 034 ... ehe ... 86 .. 86? ... eh ... 07 ..ehbes t9i9a aa 034 ?... 86  07 ... 86 ...07? ... An3em eh ...80 ...80 .. An3em eh ... sa7it ... sa7a . ",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "request_help",
+      "urgency_human": "medium",
+      "injury_severity": "unknown",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1",
+      "daira": "Sidi-Aïch",
+      "commune": "Sidi Aïch",
+      "lieu": "Timzegra",
+      "location_description": "Timzegra",
+      "summary": "L'appelant identifie sa position à Timzegra dans la région de Sidi Aïch et l'opérateur  communique un numéro de téléphone fixe (034...) pour le suivi de l'intervention.",
+      "notes_cot": "L'appelant confirme la localisation 'Timzegra' rattachée à 'Sidi Aich'. Utilisation de 'an3am' et 'ih' pour l'affirmation. Le type d'incident n'est pas explicité dans cet extrait de dialogue focalisé sur la localisation et les coordonnées."
+    },
+    "timestamp": "2026-03-13T00:42:15.749522"
+  }
+}
