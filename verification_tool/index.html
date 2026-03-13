@@ -1410,14 +1410,17 @@
 
         // ── Git push reminder on leaving ──
         let actionCount = 0;
+        let hasPendingChanges = false;
         const origDoAction = doAction;
         doAction = async function (action) {
-            await origDoAction(action);
+            hasPendingChanges = true;
             actionCount++;
+            await origDoAction(action);
+            hasPendingChanges = false;
         };
         window.addEventListener('beforeunload', (e) => {
-            if (actionCount > 0) {
-                const msg = '⚠️ N\'oubliez pas : git add -A && git commit -m "session" && git push';
+            if (hasPendingChanges) {
+                const msg = '⚠️ Modifications non sauvegardées. N\'oubliez pas : git add -A && git commit -m "session" && git push';
                 e.returnValue = msg;
                 return msg;
             }
