@@ -401,6 +401,55 @@
             font-weight: 600;
         }
 
+        /* ── Dual transcription layout ── */
+        .dual-transcription {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        .trans-pane {
+            background: var(--bg-input);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            padding: 14px;
+            min-height: 80px;
+        }
+
+        .trans-pane.original-pane {
+            border-color: rgba(99, 102, 241, 0.3);
+        }
+
+        .trans-pane.corrected-pane {
+            border-color: rgba(245, 158, 11, 0.4);
+            background: rgba(245, 158, 11, 0.04);
+        }
+
+        .trans-pane-label {
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: .5px;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .trans-pane.original-pane .trans-pane-label {
+            color: var(--accent);
+        }
+
+        .trans-pane.corrected-pane .trans-pane-label {
+            color: var(--yellow);
+        }
+
+        .trans-pane .empty-note {
+            color: var(--text-muted);
+            font-style: italic;
+            font-size: 13px;
+        }
+
         .audio-player-wrapper {
             display: flex;
             align-items: center;
@@ -952,16 +1001,26 @@
                         <div id="audioContainer"></div>
                     </div>
 
-                    <!-- Transcription -->
+                    <!-- Transcriptions (originale + corrigée côte à côte) -->
                     <div class="section">
-                        <h3><span>📝 Transcription originale</span><span id="transcriptionCount"
-                                style="font-size:11px;color:var(--text-muted)"></span></h3>
-                        <div class="transcription-text" id="transcriptionText"></div>
+                        <h3><span>📝 Transcriptions</span><span id="transcriptionCount" style="font-size:11px;color:var(--text-muted)"></span></h3>
+                        <div class="dual-transcription">
+                            <!-- Transcription originale (depuis CSV) -->
+                            <div class="trans-pane original-pane">
+                                <div class="trans-pane-label">🤖 Originale (CSV / auto)</div>
+                                <div class="transcription-text" id="transcriptionText"></div>
+                            </div>
+                            <!-- Transcription corrigée (depuis JSON) -->
+                            <div class="trans-pane corrected-pane" id="correctedPane">
+                                <div class="trans-pane-label">✏️ Corrigée (vérification)</div>
+                                <div class="transcription-text" id="correctedTranscriptionText"></div>
+                            </div>
+                        </div>
                     </div>
 
-                    <!-- Edit transcription -->
+                    <!-- Zone d'édition de la transcription -->
                     <div class="section edit-section" id="editSection">
-                        <h3>✏️ Transcription corrigée</h3>
+                        <h3>✏️ Modifier la transcription corrigée</h3>
                         <textarea class="edit-textarea" id="editTextarea"
                             placeholder="Collez ou modifiez la transcription ici..."></textarea>
                     </div>
@@ -1219,11 +1278,27 @@
                 audioContainer.innerHTML = `<div class="no-audio-msg">🔇 Audio non trouvé : <b>${currentCall.file}</b><br><small>Déposez dans <code>verification_tool/audio/</code></small></div>`;
             }
 
-            // Transcription
+            // Transcription originale (CSV)
             const trans = currentCall.transcription || '';
-            document.getElementById('transcriptionCount').textContent = `${trans.length} caractères`;
-            document.getElementById('transcriptionText').innerHTML = highlightSpeakers(trans);
-            document.getElementById('editTextarea').value = currentCall.corrected_transcription || trans;
+            document.getElementById('transcriptionCount').textContent = `${trans.length} car.`;
+            document.getElementById('transcriptionText').innerHTML = trans
+                ? highlightSpeakers(trans)
+                : '<span class="empty-note">— aucune transcription originale —</span>';
+
+            // Transcription corrigée (JSON)
+            const corrected = currentCall.corrected_transcription || '';
+            const correctedEl = document.getElementById('correctedTranscriptionText');
+            const correctedPane = document.getElementById('correctedPane');
+            if (corrected && corrected.trim()) {
+                correctedEl.innerHTML = highlightSpeakers(corrected);
+                correctedPane.style.opacity = '1';
+            } else {
+                correctedEl.innerHTML = '<span class="empty-note">— pas encore corrigée —</span>';
+                correctedPane.style.opacity = '0.5';
+            }
+
+            // Zone d'édition : pré-remplir avec la corrigée si elle existe, sinon l'originale
+            document.getElementById('editTextarea').value = corrected || trans;
 
             // Populate metadata fields from call data (or saved overrides)
             setSelectByValue('meta_incident_type', currentCall.incident_type || 'unknown');
@@ -1305,7 +1380,12 @@
             const res = await fetch(`/api/call/${encodeURIComponent(currentCallId)}/action`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ action, corrected_transcription: corrected, metadata }),
+                body: JSON.stringify({ 
+                    action, 
+                    original_transcription: orig,
+                    corrected_transcription: corrected, 
+                    metadata 
+                }),
             });
 
             const call = allCalls.find(c => c.id === currentCallId);

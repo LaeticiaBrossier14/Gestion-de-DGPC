@@ -1,0 +1,10 @@
+tionne 'poto n tricity' (poteau ├®lectrique) et 'l'eclairage public'. Il s'inqui├¿te car 'yezmer a d-yekkar l'kherit' (├ºa risque de causer un sinistre/probl├¿me). Le lieu 'Ihadaden' (prononc├® ici Itanditen/Ihanditene) est un quartier industriel/commercial connu de B├®ja├»a. Rep├¿res visuels : kiosque, coiffeur, hangars de marchandises."
+    },
+    "timestamp": "2026-03-11T23:19:25.768354"
+      "victims_count": "1",
+      "daira": "Kherrata",
+      "commune": "Kherrata",
+      "lieu": "kherrata",
+      "location_description": "kherrata",
+      "summary": "Signalement d'une intervention de transport m├®dical pour une femme enceinte de 32 ans, nomm├®e Amdani Amira, dans la zone de Kherrata.",
+      "notes_cot": "L'appelant utilise 'transport malade' et 'femme enceinte' pour d├®finir l'inci

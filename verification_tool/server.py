@@ -282,7 +282,7 @@ def api_call_detail(call_id):
         "id": call_id,
         "index": row["_index"],
         "file": filename,
-        "transcription": row.get("Transcription", ""),
+        "transcription": p.get("original_transcription", row.get("Transcription", "")),
         "corrected_transcription": p.get("corrected_transcription", ""),
         "incident_type": meta.get("incident_type", row.get("incident_type", "")),
         "injury_severity": meta.get("injury_severity", row.get("injury_severity", "")),
@@ -331,6 +331,7 @@ def api_call_action(call_id):
 
     progress[call_id] = {
         "status": action,
+        "original_transcription": data.get("original_transcription", progress.get(call_id, {}).get("original_transcription", "")),
         "corrected_transcription": corrected if action == "corrected" else "",
         "metadata": metadata,
         "timestamp": datetime.now().isoformat(),
