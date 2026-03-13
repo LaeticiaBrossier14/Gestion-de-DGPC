@@ -52,6 +52,10 @@ if errorlevel 1 (
     exit /b 1
 )
 
+echo.
+echo Execution du git pull...
+git pull
+
 start "" http://127.0.0.1:5000
 echo.
 echo Application ouverte: http://127.0.0.1:5000
