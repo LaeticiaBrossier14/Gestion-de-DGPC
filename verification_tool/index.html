@@ -1309,7 +1309,9 @@
             setSelectByValue('meta_trapped_persons', currentCall.trapped_persons || 'unknown');
             setSelectByValue('meta_weapons_involved', currentCall.weapons_involved || 'unknown');
             setSelectByValue('meta_hazmat_involved', currentCall.hazmat_involved || 'unknown');
-            document.getElementById('meta_victims_count').value = currentCall.victims_count || 0;
+            // Ne pas utiliser || 0 car "1" est truthy mais "0" aussi - utiliser ternaire explicite
+            const vc = currentCall.victims_count;
+            document.getElementById('meta_victims_count').value = (vc !== null && vc !== undefined && vc !== '') ? vc : 0;
             document.getElementById('meta_daira').value = currentCall.daira || 'Inconnu';
             document.getElementById('meta_commune').value = currentCall.commune || '';
             document.getElementById('meta_lieu').value = currentCall.lieu || '';

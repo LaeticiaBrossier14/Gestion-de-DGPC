@@ -284,21 +284,24 @@ def api_call_detail(call_id):
         "file": filename,
         "transcription": p.get("original_transcription", row.get("Transcription", "")),
         "corrected_transcription": p.get("corrected_transcription", ""),
-        "incident_type": meta.get("incident_type", row.get("incident_type", "")),
-        "injury_severity": meta.get("injury_severity", row.get("injury_severity", "")),
-        "victims_count": meta.get("victims_count", row.get("victims_count", "")),
-        "fire_present": meta.get("fire_present", row.get("fire_present", "")),
-        "trapped_persons": meta.get("trapped_persons", row.get("trapped_persons", "")),
-        "weapons_involved": meta.get("weapons_involved", row.get("weapons_involved", "")),
-        "hazmat_involved": meta.get("hazmat_involved", row.get("hazmat_involved", "")),
-        "intent": meta.get("intent", row.get("intent", "")),
-        "urgency_human": meta.get("urgency_human", row.get("urgency_human", "")),
-        "daira": meta.get("daira", row.get("daira", "")),
-        "commune": meta.get("commune", row.get("commune", "")),
-        "lieu": meta.get("lieu", row.get("lieu", "")),
-        "location_description": meta.get("location_description", row.get("location_description", "")),
-        "summary": meta.get("summary", row.get("summary", "")),
-        "notes_cot": meta.get("notes_cot", row.get("notes_cot", "")),
+        "incident_type": meta.get("incident_type") or row.get("incident_type", ""),
+        "injury_severity": meta.get("injury_severity") or row.get("injury_severity", ""),
+        # victims_count: priorite au meta JSON enregistre, fallback CSV, defaut 0
+        "victims_count": meta.get("victims_count") if meta.get("victims_count") not in (None, "") else (row.get("victims_count") or "0"),
+        "fire_present": meta.get("fire_present") or row.get("fire_present", ""),
+        "trapped_persons": meta.get("trapped_persons") or row.get("trapped_persons", ""),
+        "weapons_involved": meta.get("weapons_involved") or row.get("weapons_involved", ""),
+        "hazmat_involved": meta.get("hazmat_involved") or row.get("hazmat_involved", ""),
+        "intent": meta.get("intent") or row.get("intent", ""),
+        "urgency_human": meta.get("urgency_human") or row.get("urgency_human", ""),
+        "daira": meta.get("daira") or row.get("daira", ""),
+        "commune": meta.get("commune") or row.get("commune", ""),
+        "lieu": meta.get("lieu") or row.get("lieu", ""),
+        # location_description/summary/notes_cot: UNIQUEMENT depuis meta JSON si disponible
+        # (evite les melanges avec des donnees CSV potentiellement erronees d'un autre appel)
+        "location_description": meta.get("location_description", "") if meta else row.get("location_description", ""),
+        "summary": meta.get("summary", "") if meta else row.get("summary", ""),
+        "notes_cot": meta.get("notes_cot", "") if meta else row.get("notes_cot", ""),
         "status": p.get("status", "pending"),
         "audio_exists": audio_path is not None,
         "audio_source": str(audio_path) if audio_path else None,
@@ -329,10 +332,19 @@ def api_call_action(call_id):
     if action not in ("verified", "corrected", "skipped"):
         return jsonify({"error": "invalid action"}), 400
 
+    # Conserver la corrected_transcription existante si on re-verifie sans la modifier
+    existing = progress.get(call_id, {})
+    existing_corrected = existing.get("corrected_transcription", "")
+    if action == "corrected":
+        final_corrected = corrected  # nouvelle version corrigee
+    else:
+        # verified ou skipped : conserver la corrected_transcription precedente si elle existait
+        final_corrected = existing_corrected
+
     progress[call_id] = {
         "status": action,
-        "original_transcription": data.get("original_transcription", progress.get(call_id, {}).get("original_transcription", "")),
-        "corrected_transcription": corrected if action == "corrected" else "",
+        "original_transcription": data.get("original_transcription", existing.get("original_transcription", "")),
+        "corrected_transcription": final_corrected,
         "metadata": metadata,
         "timestamp": datetime.now().isoformat(),
     }
