@@ -14700,5 +14700,28 @@
       "notes_cot": "L'appelant signale une blessure par chute ('iɣli'). Les termes 'igzem-it' (il l'a coupé) et 't-chaq' (s'est fendu/ouvert) appliqués au 'poignet' indiquent une urgence médicale nécessitant une ambulance. Le lieu est identifié par le 'parking' et le 'fast-food' de Gouraya à Béjaïa."
     },
     "timestamp": "2026-03-17T01:12:18.934186"
+  },
+  "Appelle 280.wav": {
+    "status": "corrected",
+    "original_transcription": "As-salamu alaykum. Slama. zemrem attalin arihedanen ufella ness3a un malade dayi gekham? Allo. Allo, n’3am, wi. Sa3igh l-malade dayi... s3igh mi ihelkiyi, Tichy... anda ttawit?svitar. deboited tayettiss une3limaraa amk asettner akith,athan is3a ster amqan.ihedaden ufella ar  Terminus lkiran... l-a-cité n’Mjid n’Mazig. Addad n’fella, cité n’Addad n’fella, Al-Hadi Cisse... Al-Hadi Cisse-n ou-hi? Al-Hadi Cisse-n ou-hi. Avrid n’teqlas? Avrid n’Bou-Cherba, s-ali-t s’awen. Bou-Cherba s-ali-t s’awen. Avrid n’l-kalyptus. L-3abd am-zyan negh am-qran? 20 ans s’is-3a... ig-idhir s-m-ba3d... de-boiter... n-maruf-as... s-ster am-qran. Sahlim? Sahlim. Sahra d-sir u-d-ali. Sahra d-tik-tibi... is3a ster am-qran... ay-n-sken-as n’xdem. M-15 minutes n’la7q-en d-ina. D’accord, saha.",
+    "corrected_transcription": "Salam a3likoum..salam.. tzemrem attalim gh iHedaden oufela nes3a un malade tura dayi gkham ?..allo ! An3am oui ..s3igh un malade dayi..emmi iHelkiyi..emmik ? Anda attawit ? Athawigh gh svitar, dachu thyighen wayi .. thtwboiti thayett-iss un3lim ara amk arasetner akith.. athan is3a ster dam9ran..Anda iHedadhen oufella ? Ah ? iHedadhen oufella ? iHedadhen oufella ih ..anwa amkan g Heddadhen oufalla ? ..g Heddadhen oufella..gh terminus ni l kiran.. terminus l..gh la cité ni l majidh amazigh.. iHedaden oufela Ansa iset3ddayn akn..wa7id les 600 yakhi ? Ih Wa7id les 600 ih..g vridh n te9li3th nagh..avridh ni boucherba w atalit iwssawen. boucherba atalit dassawen, d ouvridh ni l kalitouss..avridh l kalitouss..l3vd damzyan nagh damqran..3echrin n sna igs3a..igen ikred oumb3ad ..snghass amk ithn9lav thayetiss..idéboiti uyzmirarak Tura ...umba3d Bach astner unsinara nougadh asnekhdem kra..athan iqim kn akeni a ster nni.anagh atsalim..an3am ? Atsalim ah ? Adnali ih..mi ghdchek3ett bien sûr adnali ....athan is3a ster wlh ma nzmer akith  ach aznkhdem nigh... wa7ed 15 minutes akn adle7qen gher din.. 3echrin d9i9a ..ih d'accord .., d'accord a gma , sa7it..",
+    "metadata": {
+      "incident_type": "medical_emergency",
+      "intent": "request_help",
+      "urgency_human": "high",
+      "injury_severity": "severe",
+      "fire_present": "no",
+      "trapped_persons": "no",
+      "weapons_involved": "no",
+      "hazmat_involved": "no",
+      "victims_count": "1.0",
+      "daira": "Béjaïa",
+      "commune": "Béjaïa",
+      "lieu": "iheddaden ufella",
+      "location_description": "iheddaden ufella, terminus n’l-kira, la cité n’Mjid n’Mazig (Cité El Hadi Cisse), avrid n’Bou-Cherba, avrid n’l-kalyptus.",
+      "summary": "Un jeune homme de 20 ans souffre d'une douleur intense ('ster am-qran') et a des difficultés à se déplacer ('di-boiter'). L'appelant demande une évacuation vers l'hôpital depuis le quartier Addad n'Fella.",
+      "notes_cot": "L'appelant utilise 'maladi' et 'ster am-qran' (grande douleur) pour signaler une urgence médicale. La localisation est précise : 'Addad n'fella' à Bejaia, avec des repères comme le 'terminus n'l-kira' (bus) et 'l-vrid n'Bou-Cherba'. L'état de la victime (20 ans, boite, douleur vive) justifie un niveau d'urgence élevé."
+    },
+    "timestamp": "2026-03-17T01:31:35.983348"
   }
 }
