@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Review Dataset</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: sans-serif; background: #1a1a2e; color: #eee; min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 30px 16px; }
+h2 { margin-bottom: 24px; font-size: 22px; color: #7ec8e3; }
+
+/* SETUP */
+#setup { display: flex; flex-direction: column; gap: 16px; width: 100%; max-width: 500px; }
+.drop-box { border: 2px dashed #555; border-radius: 12px; padding: 28px; text-align: center; cursor: pointer; background: #16213e; transition: .2s; }
+.drop-box:hover, .drop-box.over { border-color: #7ec8e3; background: #0f3460; }
+.drop-box b { display: block; margin-bottom: 6px; font-size: 16px; }
+.drop-box small { color: #aaa; }
+.step-label { color: #aaa; font-size: 13px; margin-bottom: 4px; }
+#btn-go { background: #7ec8e3; color: #111; border: none; border-radius: 8px; padding: 12px; font-size: 16px; font-weight: bold; cursor: pointer; }
+#btn-go:disabled { opacity: .4; cursor: default; }
+
+/* MAIN */
+#main { display: none; width: 100%; max-width: 680px; }
+.top-bar { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; align-items: center; }
+select { background: #16213e; color: #eee; border: 1px solid #444; border-radius: 6px; padding: 6px 10px; font-size: 13px; }
+#counter { margin-left: auto; font-size: 13px; color: #aaa; }
+
+.card { background: #16213e; border-radius: 14px; padding: 24px; margin-bottom: 14px; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
+.tag { background: #0f3460; border-radius: 20px; padding: 3px 12px; font-size: 12px; color: #7ec8e3; }
+.transcription { font-size: 22px; line-height: 1.7; color: #fff; background: #0f3460; border-radius: 8px; padding: 16px 20px; border-left: 4px solid #7ec8e3; min-height: 60px; }
+audio { width: 100%; margin-top: 16px; border-radius: 6px; }
+.no-audio { color: #f44336; font-size: 13px; margin-top: 10px; }
+
+.actions { display: flex; gap: 10px; margin-top: 16px; flex-wrap: wrap; }
+.actions button { flex: 1; padding: 12px; border: none; border-radius: 8px; font-size: 15px; font-weight: bold; cursor: pointer; transition: .15s; }
+#btn-prev { background: #2a2a4a; color: #aaa; }
+#btn-ok   { background: #2e7d32; color: white; }
+#btn-bad  { background: #b71c1c; color: white; }
+#btn-next { background: #2a5298; color: white; }
+.actions button:disabled { opacity: .35; cursor: default; }
+.actions button:hover:not(:disabled) { filter: brightness(1.15); }
+
+.summary { font-size: 13px; color: #aaa; text-align: center; padding: 6px 0; }
+.summary b { color: #fff; }
+.ok-count  { color: #4caf50; font-weight: bold; }
+.bad-count { color: #f44336; font-weight: bold; }
+.status-ok  { background: #2e7d32 !important; }
+.status-bad { background: #b71c1c !important; }
+
+#export-btn { background: #555; color: white; border: none; border-radius: 8px; padding: 8px 18px; font-size: 13px; cursor: pointer; margin-top: 8px; }
+#export-btn:hover { background: #777; }
+</style>
+</head>
+<body>
+
+<h2>Review Dataset Audio</h2>
+
+<div id="setup" style="text-align:center;padding:40px"></div>
+
+<div id="main">
+  <div class="top-bar">
+    <select id="filter-type" onchange="applyFilters()"><option value="">Tous les types</option></select>
+    <select id="filter-speaker" onchange="applyFilters()"><option value="">Tous les speakers</option></select>
+    <select id="filter-status" onchange="applyFilters()">
+      <option value="">Tous</option>
+      <option value="unseen">Non vu</option>
+      <option value="ok">OK</option>
+      <option value="bad">Mauvais</option>
+    </select>
+    <span id="counter"></span>
+  </div>
+
+  <div class="card">
+    <div class="meta" id="meta"></div>
+    <div class="transcription" id="transcription"></div>
+    <audio id="player" controls></audio>
+    <div id="no-audio-msg" class="no-audio" style="display:none">Fichier audio introuvable dans le dossier chargé.</div>
+    <div class="actions">
+      <button id="btn-prev" onclick="go(-1)">&#8592;</button>
+      <button id="btn-ok"   onclick="mark('ok')">✓ OK</button>
+      <button id="btn-bad"  onclick="mark('bad')">✗ Mauvais</button>
+      <button id="btn-next" onclick="go(1)">&#8594;</button>
+    </div>
+  </div>
+
+  <div class="summary" id="summary"></div>
+  <button id="export-btn" onclick="exportReview()">Exporter review.csv</button>
+</div>
+
+<script>
+let allRows = [], filtered = [], cur = 0;
+let audioMap = {};   // basename (lowercase) -> object URL
+const review = {};
+
+// ---- FILE LOADING — via serveur local ----
+
+// Le CSV et les audios sont servis directement par le serveur Python
+// Pas besoin de charger manuellement
+
+async function autoLoad() {
+  document.getElementById('setup').innerHTML = '<p style="color:#7ec8e3;font-size:16px">Chargement...</p>';
+  try {
+    const resp = await fetch('dataset_final/dataset.csv');
+    if (!resp.ok) throw new Error('dataset_final/dataset.csv introuvable');
+    const text = await resp.text();
+    const lines = text.split('\n').filter(l => l.trim());
+    const headers = parseCSVLine(lines[0]);
+    allRows = lines.slice(1).map(l => {
+      const vals = parseCSVLine(l);
+      const obj = {};
+      headers.forEach((h, i) => obj[h.trim()] = (vals[i] || '').trim());
+      if (obj.status && obj.status !== 'unseen') {
+        review[obj.file_name] = obj.status;
+      }
+      return obj;
+    }).filter(r => r.file_name);
+
+    // populate filters
+    const selType = document.getElementById('filter-type');
+    const selSpk  = document.getElementById('filter-speaker');
+    [...new Set(allRows.map(r => r.incident_type))].sort().forEach(t => selType.add(new Option(t, t)));
+    [...new Set(allRows.map(r => r.speaker))].sort().forEach(s => selSpk.add(new Option(s, s)));
+
+    document.getElementById('setup').style.display = 'none';
+    document.getElementById('main').style.display = 'block';
+    applyFilters();
+  } catch(e) {
+    document.getElementById('setup').innerHTML = `<p style="color:#f44336">Erreur: ${e.message}<br>Lance d'abord: python launch_review.py</p>`;
+  }
+}
+
+window.addEventListener('load', autoLoad);
+
+// ---- REVIEW ----
+
+function applyFilters() {
+  const t  = document.getElementById('filter-type').value;
+  const s  = document.getElementById('filter-speaker').value;
+  const st = document.getElementById('filter-status').value;
+  filtered = allRows.filter(r => {
+    if (t  && r.incident_type !== t)         return false;
+    if (s  && r.speaker !== s)               return false;
+    if (st === 'ok'     && review[r.file_name] !== 'ok')  return false;
+    if (st === 'bad'    && review[r.file_name] !== 'bad') return false;
+    if (st === 'unseen' && review[r.file_name])           return false;
+    return true;
+  });
+  cur = 0;
+  show();
+}
+
+function show() {
+  if (!filtered.length) {
+    document.getElementById('transcription').textContent = 'Aucun résultat.';
+    document.getElementById('player').src = '';
+    document.getElementById('counter').textContent = '0 / 0';
+    return;
+  }
+
+  const row = filtered[cur];
+  const st  = review[row.file_name];
+
+  // meta tags
+  document.getElementById('meta').innerHTML =
+    `<span class="tag">${row.incident_type}</span>` +
+    `<span class="tag">${row.speaker}</span>` +
+    `<span class="tag">${row.role}</span>` +
+    `<span class="tag">tour ${row.turn_idx}</span>` +
+    (st === 'ok'  ? '<span class="tag status-ok">✓ OK</span>'      : '') +
+    (st === 'bad' ? '<span class="tag status-bad">✗ Mauvais</span>' : '');
+
+  document.getElementById('transcription').textContent = row.transcription;
+
+  // audio servi directement par le serveur local
+  const audioPath = 'audios/' + row.file_name.replace(/\\/g, '/');
+  const player = document.getElementById('player');
+  const noMsg  = document.getElementById('no-audio-msg');
+  player.src = audioPath;
+  player.load();
+  player.style.display = 'block';
+  noMsg.style.display = 'none';
+  player.onerror = () => { player.style.display = 'none'; noMsg.style.display = 'block'; };
+
+  document.getElementById('counter').textContent = `${cur + 1} / ${filtered.length}`;
+  document.getElementById('btn-prev').disabled = cur === 0;
+  document.getElementById('btn-next').disabled = cur === filtered.length - 1;
+
+  // summary
+  const ok  = Object.values(review).filter(v => v === 'ok').length;
+  const bad = Object.values(review).filter(v => v === 'bad').length;
+  document.getElementById('summary').innerHTML =
+    `Total: <b>${allRows.length}</b> &nbsp;|&nbsp; Vus: <b>${ok + bad}</b> &nbsp;|&nbsp; ` +
+    `<span class="ok-count">OK: ${ok}</span> &nbsp;|&nbsp; <span class="bad-count">Mauvais: ${bad}</span>`;
+}
+
+function go(d) {
+  cur = Math.max(0, Math.min(filtered.length - 1, cur + d));
+  show();
+}
+
+function mark(status) {
+  if (!filtered.length) return;
+  const fileName = filtered[cur].file_name;
+  review[fileName] = status;
+  show();
+  
+  // Auto-save direct dans le CSV via le serveur Python
+  fetch('/save_status', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ file_name: fileName, status: status })
+  }).catch(e => console.error("Erreur de sauvegarde:", e));
+
+  if (cur < filtered.length - 1) go(1);
+}
+
+function exportReview() {
+  const lines = ['file_name,speaker,incident_type,role,turn_idx,transcription,status'];
+  allRows.forEach(r => {
+    const st = review[r.file_name] || 'unseen';
+    const tr = (r.transcription || '').replace(/"/g, '""');
+    lines.push(`"${r.file_name}","${r.speaker}","${r.incident_type}","${r.role}","${r.turn_idx}","${tr}","${st}"`);
+  });
+  const blob = new Blob([lines.join('\n')], { type: 'text/csv;charset=utf-8' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'review.csv'; a.click();
+}
+
+// ---- CSV PARSER ----
+function parseCSVLine(line) {
+  const res = []; let cur = '', inQ = false;
+  for (let i = 0; i < line.length; i++) {
+    const c = line[i];
+    if (c === '"') { inQ = !inQ; continue; }
+    if (c === ',' && !inQ) { res.push(cur); cur = ''; continue; }
+    cur += c;
+  }
+  res.push(cur);
+  return res;
+}
+
+// ---- KEYBOARD ----
+document.addEventListener('keydown', e => {
+  if (e.target.tagName === 'SELECT') return;
+  if (e.key === 'ArrowRight') go(1);
+  if (e.key === 'ArrowLeft')  go(-1);
+  if (e.key === 'o' || e.key === 'O') mark('ok');
+  if (e.key === 'b' || e.key === 'B') mark('bad');
+  if (e.key === ' ') { e.preventDefault(); const p = document.getElementById('player'); p.paused ? p.play() : p.pause(); }
+});
+</script>
+</body>
+</html>
