@@ -1085,7 +1085,7 @@
                             </div>
                             <div class="field-group">
                                 <label>Commune</label>
-                                <input type="text" id="meta_commune" placeholder="Commune...">
+                                <select id="meta_commune"></select>
                             </div>
                             <div class="field-group">
                                 <label>Village / Localité</label>
@@ -1177,6 +1177,11 @@
             const dairaSelect = document.getElementById('meta_daira');
             dairaSelect.innerHTML = ontology.dairas.map(d =>
                 `<option value="${d}">${d}</option>`
+            ).join('');
+            // Communes
+            const communeSelect = document.getElementById('meta_commune');
+            communeSelect.innerHTML = ontology.communes.map(c =>
+                `<option value="${c}">${c}</option>`
             ).join('');
         }
 
@@ -1313,7 +1318,21 @@
             const vc = currentCall.victims_count;
             document.getElementById('meta_victims_count').value = (vc !== null && vc !== undefined && vc !== '') ? vc : 0;
             document.getElementById('meta_daira').value = currentCall.daira || 'Inconnu';
-            document.getElementById('meta_commune').value = currentCall.commune || '';
+            // Commune : sélectionner dans la liste si présente, sinon ajouter temporairement
+            const communeVal = currentCall.commune || '';
+            const communeSel = document.getElementById('meta_commune');
+            const comOpts = Array.from(communeSel.options).map(o => o.value);
+            if (communeVal && comOpts.includes(communeVal)) {
+                communeSel.value = communeVal;
+            } else if (communeVal) {
+                // Valeur inconnue hors liste : insère temporairement juste après "Inconnue"
+                const opt = document.createElement('option');
+                opt.value = communeVal; opt.textContent = communeVal;
+                communeSel.insertBefore(opt, communeSel.options[1]);
+                communeSel.value = communeVal;
+            } else {
+                communeSel.selectedIndex = 0;
+            }
             document.getElementById('meta_lieu').value = currentCall.lieu || '';
             document.getElementById('meta_location_description').value = currentCall.location_description || '';
             document.getElementById('meta_summary').value = currentCall.summary || '';
