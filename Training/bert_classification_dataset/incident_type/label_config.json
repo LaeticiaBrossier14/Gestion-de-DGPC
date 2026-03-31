@@ -1,0 +1,27 @@
+{
+  "label2id": {
+    "accident_pedestrian": 0,
+    "accident_vehicular": 1,
+    "assault_violence": 2,
+    "fire_building": 3,
+    "fire_forest": 4,
+    "fire_vehicle": 5,
+    "hazmat": 6,
+    "medical_emergency": 7,
+    "other": 8,
+    "structural_collapse": 9
+  },
+  "id2label": {
+    "0": "accident_pedestrian",
+    "1": "accident_vehicular",
+    "2": "assault_violence",
+    "3": "fire_building",
+    "4": "fire_forest",
+    "5": "fire_vehicle",
+    "6": "hazmat",
+    "7": "medical_emergency",
+    "8": "other",
+    "9": "structural_collapse"
+  },
+  "num_labels": 10
+}

@@ -35,6 +35,7 @@ AUDIO_DIRS = [
 ]
 
 PROGRESS_FILE = BASE_DIR / "verification_progress.json"
+AUTO_EXPORT_CSV = PROJECT_DIR / "dataset_avec_corrections.csv"
 
 app = Flask(__name__, static_folder=str(BASE_DIR))
 app.json.ensure_ascii = False
@@ -273,6 +274,38 @@ def save_progress():
         json.dump(sanitize_text_tree(progress), f, ensure_ascii=False, indent=2)
 
 
+def auto_export_csv():
+    """Exporte automatiquement toutes les corrections vers dataset_avec_corrections.csv.
+    Appelé après chaque action (corrected / verified / skipped).
+    """
+    if not calls_data:
+        return
+    try:
+        fieldnames = [f for f in calls_data[0].keys() if not f.startswith("_")]
+        for extra in ["corrected_transcription", "verification_status", "verification_timestamp"]:
+            if extra not in fieldnames:
+                fieldnames.append(extra)
+
+        with open(AUTO_EXPORT_CSV, "w", encoding="utf-8-sig", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
+            writer.writeheader()
+            for row in calls_data:
+                cid = row.get("File", "").strip()
+                p = progress.get(cid, {})
+                out = {k: v for k, v in row.items() if not k.startswith("_")}
+                meta = p.get("metadata", {})
+                for mk, mv in meta.items():
+                    if mk in out and mv is not None:
+                        out[mk] = mv
+                out["corrected_transcription"] = p.get("corrected_transcription", "")
+                out["verification_status"] = p.get("status", "pending")
+                out["verification_timestamp"] = p.get("timestamp", "")
+                writer.writerow(out)
+        print(f"[AUTO-EXPORT] CSV mis a jour : {AUTO_EXPORT_CSV.name}")
+    except Exception as e:
+        print(f"[AUTO-EXPORT] Erreur export CSV : {e}")
+
+
 # ── API Routes ──────────────────────────────────────────────────────────
 
 @app.route("/")
@@ -421,6 +454,7 @@ def api_call_action(call_id):
         "timestamp": datetime.now().isoformat(),
     }
     save_progress()
+    auto_export_csv()
     return jsonify({"ok": True, "status": action})
 
 

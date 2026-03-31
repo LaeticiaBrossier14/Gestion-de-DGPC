@@ -1,0 +1,12 @@
+{
+  "medical_emergency": 0.18649789029535865,
+  "other": 0.6696969696969697,
+  "accident_vehicular": 0.7366666666666667,
+  "fire_vehicle": 7.366666666666666,
+  "fire_building": 1.768,
+  "accident_pedestrian": 3.683333333333333,
+  "assault_violence": 3.683333333333333,
+  "fire_forest": 4.42,
+  "hazmat": 4.911111111111111,
+  "structural_collapse": 8.84
+}

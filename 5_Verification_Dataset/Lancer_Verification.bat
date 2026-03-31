@@ -9,7 +9,7 @@ if %errorlevel% neq 0 (
     echo [ERREUR] Python n'est pas installe sur cet ordinateur !
     echo Merci d'installer Python depuis le Microsoft Store ou https://www.python.org/downloads/
     pause
-    exit /b
+    exit 
 )
 
 echo.
