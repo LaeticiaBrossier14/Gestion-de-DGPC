@@ -142,6 +142,7 @@ dataset_avec_corrections.csv
 3_Deploiement/
 Pretraitement new/
 Nouveau dossier/
+TALN/
 
 # Generated local reports and backups
 5_Verification_Dataset/dataset_final/dataset_backup*.csv
