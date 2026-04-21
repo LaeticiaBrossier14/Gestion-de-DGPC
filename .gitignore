@@ -137,3 +137,9 @@ external_repo_audit/
 
 # Verification progress
 !verification_tool/verification_progress.json
+
+# Données réelles confidentielles
+dataset/Donnée_réel.csv
+dataset/annotations_real_calls.csv
+dataset/annotations_real_profile.json
+enregistrement/WhatsApp Audio*
