@@ -3,7 +3,12 @@ import os
 import sys
 import json
 import pandas as pd
-import google.generativeai as genai
+try:
+    import google.generativeai as genai
+    _GENAI_AVAILABLE = True
+except ImportError:
+    genai = None
+    _GENAI_AVAILABLE = False
 from datetime import datetime
 from glob import glob
 from pydub import AudioSegment
@@ -471,7 +476,9 @@ act_col1, act_col2 = st.columns([1, 4])
 with act_col1:
     st.markdown('<div class="btn-ai">', unsafe_allow_html=True)
     if st.button("DEMARRER ANALYSE IA", use_container_width=True):
-        if st.session_state.key and wav:
+        if not _GENAI_AVAILABLE:
+            st.error("❌ Module 'google-generativeai' non installé. L'analyse IA est désactivée. L'annotation manuelle reste disponible.")
+        elif st.session_state.key and wav:
             with st.spinner("Analyse par Gemini 2.5 Flash..."):
                 try:
                     genai.configure(api_key=st.session_state.key)

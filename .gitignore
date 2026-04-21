@@ -1,8 +1,4 @@
-# ═══════════════════════════════════════════════════
-# DGPC Pipeline — .gitignore
-# ═══════════════════════════════════════════════════
-
-# ── Python ──
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -10,29 +6,57 @@ __pycache__/
 .Python
 *.egg-info/
 *.egg
-dist/
 build/
+dist/
 
-# ── Virtual Environment ──
+# Virtual environments
 .venv/
 venv/
 env/
 ENV/
 
-# ── Environment variables ──
+# Environment variables
 .env
 .env.local
 
-# ── Audio files (trop gros pour GitHub) ──
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / cache / temp
+*.log
+gen.log
+.gradio/
+.pytest_cache/
+.ruff_cache/
+temp/
+tmp/
+
+# Local agent tooling
+_bmad/
+_bmad-output/
+.agent/
+.agents/
+_agents/
+_agent/
+.claude/
+.gemini/
+
+# Audio / video / model artifacts
 *.wav
 *.mp3
 *.flac
 *.ogg
 *.m4a
 *.opus
+*.webm
 *.waptt.opus
-
-# ── ML Models (trop gros) ──
 *.h5
 *.hdf5
 *.pkl
@@ -46,125 +70,151 @@ checkpoint-*/
 whisper-*/
 models/
 
-# ── Large archives ──
+# Archives
 *.zip
 *.7z
 *.tar.gz
 *.rar
 
-# ── PDF/Documents (optionnel — décommenter si besoin) ──
-# *.pdf
-# *.docx
-
-# ── Jupyter ──
+# Notebooks
 .ipynb_checkpoints/
-# *.ipynb  # on garde les notebooks
 
-# ── IDE ──
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# ── OS ──
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# ── Logs ──
-*.log
-gen.log
-
-# ── Gradio ──
-.gradio/
-
-# ── Cache ──
-.pytest_cache/
-.ruff_cache/
-
-# ── Fichiers temporaires ──
-temp/
-tmp/
-
-# ── BMAD (agent framework — pas nécessaire pour la collaboration) ──
-_bmad/
-_bmad-output/
-.agent/
-.agents/
-_agents/
-_agent/
-.claude/
-.gemini/
-
-# ── Gros fichiers de données intermédiaires ──
-ml_pipeline/test_audio*.wav
-ml_pipeline/test_audio*.json
-ml_pipeline/locale*
-ml_pipeline/whisper_finetune_data.zip
-ml_pipeline/whisper_finetune_data/
-ml_pipeline/archive/
-ml_pipeline/temp/
-
-# ── External repos (audit) ──
-external_repo_audit/
-
-# ═══════════════════════════════════════════════════
-# GARDER EXPLICITEMENT (override des rules ci-dessus)
-# ═══════════════════════════════════════════════════
-
-# Configs YAML (synthétique)
+# Keep shared YAML config and placeholder dirs
 !augmentation/*.yaml
 !augmentation/config/*.yaml
-
-# .gitkeep pour dossiers vides
 !.gitkeep
 
-# ═══════════════════════════════════════════════════
-# DONNEES REELLES CONFIDENTIELLES — NE JAMAIS POUSSER
-# ═══════════════════════════════════════════════════
+# Secrets and local runtime config
+*.pem
+*.crt
+*.key
+~$*.docx
+dataset/config.json
+annotation_app/dataset/config.json
 
-# Données réelles brutes
+# Local annotations and verification state
 dataset/Donnée_réel.csv
-dataset/annotations_real_calls.csv
-dataset/annotations_real_profile.json
 dataset/400annotations_local.csv
 dataset/500annotations_local.csv
+dataset/500annotations_local.csv.bak
+dataset/annotations_real_calls.csv
+dataset/annotations_real_profile.json
 dataset/annotations_clocal.csv
 dataset/annotations_lcocal.csv
 dataset/annotations_local.csv
 dataset/annotations_local.json
 dataset/annotations_local_profile.json
-dataset/split/
 dataset/cot_lexicon_raw.jsonl
-
-# Annotations réelles (app)
+dataset/split/
 annotation_app/dataset/annotations_local.csv
 annotation_app/dataset/annotations_local.json
-
-# Vérification des appels réels
+annotation_app/dataset/*.bak
+verification_tool/verification_progress*.json
 verification_tool/verified_export.csv
-verification_tool/verification_progress.json
-verification_tool/verification_progress_*.json
+verification_tool/audio/
+verification_tool/*.bak
+verification_tool/*.bak2
 
-# Entraînement dérivé de données réelles
-Training/manifests/
-Training/bert_classification_dataset/incident_type/train.csv
-Training/bert_classification_dataset/incident_type/test.csv
-Training/bert_classification_dataset/incident_type/val.csv
-Training/bert_classification_dataset/urgency_human/train.csv
-Training/bert_classification_dataset/urgency_human/test.csv
-Training/bert_classification_dataset/urgency_human/val.csv
-Training/qwen_extraction_dataset/
+# Verification datasets and audio copies
+5_Verification_Dataset/audios/
+5_Verification_Dataset/dataset_final/*.csv
+App/
 
-# Segments audio réels
-Pretraitement/partage_memoire/segments_asr_ready.jsonl
-Pretraitement/partage_memoire/segments_gold.jsonl
-Pretraitement/partage_memoire/segments_silver.jsonl
-Pretraitement/partage_memoire/segments_reject.jsonl
-
-# Lexique extrait d'appels réels
+# Real / confidential preprocessing data
+Pretraitement/dataset/*.csv
+Pretraitement/dataset/*.xlsx
+Pretraitement/partage_memoire/*.csv
+Pretraitement/partage_memoire/*.jsonl
+Pretraitement/*.json
+Pretraitement/*.jsonl
+Pretraitement/*.html
+Pretraitement/*.ipynb
+Pretraitement/*.txt
+Pretraitement/*.xlsx
+Pretraitement/segments_asr_ready.jsonl
+Pretraitement_DGPC.ipynb
 cot_lexicon_raw.jsonl
+dataset_final_whisper_taln.jsonl
+manifest_complet_corrige.jsonl
+dataset_avec_corrections.csv
 
-# Enregistrements WhatsApp réels
+# Local workspaces and deployment bundles
+3_Deploiement/
+Pretraitement new/
+Nouveau dossier/
+
+# Generated local reports and backups
+5_Verification_Dataset/dataset_final/dataset_backup*.csv
+annotation_app/dataset/annotations_local.csv.bak
+dataset/*transcriptions*.csv
+dataset/*transcriptions*.json
+dataset/*metadata*.json
+dataset/_call_analysis_output.txt
+diagnostic_result.txt
+fichiers_manquants_taln.txt
+fix_result.txt
+fix_result_pass2.txt
+historique_appels.txt
+inspect_result.txt
+output_false_alarms.csv
+output_false_alarms.txt
+PIPELINE_506_STATUS.txt
+temp_alarms.txt
+verification_tool/calls_*.html
+
+# Training artifacts derived from local data
+Training/manifests/
+Training/qwen_extraction_dataset/
+Training/bert_classification_dataset/*/train.csv
+Training/bert_classification_dataset/*/test.csv
+Training/bert_classification_dataset/*/val.csv
+
+# Imported WhatsApp recordings and exports
 enregistrement/WhatsApp Audio*
+
+# Local one-off repair / audit scripts
+Pretraitement/_verif_temp.py
+Pretraitement/build_alignment_viewer.py
+Pretraitement/build_notebook.py
+Pretraitement/build_qwen3_nb.py
+Pretraitement/build_qwen_nb.py
+Pretraitement/dump.py
+Pretraitement/keep_part2_only.py
+Pretraitement/patch_qwen_nb.py
+Pretraitement/realtime_whisper_bejaia.py
+Pretraitement/update_notebook.py
+Pretraitement/verifier_coupure_logique.py
+_check_scenario.py
+_fix_last.py
+_list_scen.py
+analyze_dataset_bug.py
+apply_aissa_fix.py
+check_csv.py
+chercher_15_manquants.py
+correlate.py
+creer_mini_zip.py
+creer_mini_zip_taln.ps1
+diagnose2.py
+diagnose_full.py
+diagnose_tool.py
+fix_aissa_corr.py
+fix_dataset_alignment.py
+fix_encoding.py
+fix_encoding_pass2.py
+fix_inverted_schema.py
+fix_remaining_mismatches.py
+generer_csv_corrections.py
+inspect_chars.py
+map_by_length.py
+match_scenarios.py
+merge_json_conflict.py
+print_5_turns.py
+print_all_5_turns.py
+print_corr.py
+print_order.py
+read_turns.py
+renumber_audios.py
+repair_json.py
+test_correlate.py
+test_fixes.py
+view_scen.py
