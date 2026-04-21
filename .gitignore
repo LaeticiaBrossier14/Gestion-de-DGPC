@@ -113,33 +113,58 @@ external_repo_audit/
 # GARDER EXPLICITEMENT (override des rules ci-dessus)
 # ═══════════════════════════════════════════════════
 
-# Dataset CSV/JSON essentiels
-!dataset/*.csv
-!dataset/*.json
-!dataset/config.json
-!dataset/annotations_local.json
-
-# Configs YAML
+# Configs YAML (synthétique)
 !augmentation/*.yaml
 !augmentation/config/*.yaml
-
-# Generation tasks JSONL
-!ml_pipeline/dataset/synthetic_generation/*.jsonl
-!ml_pipeline/dataset/annotations_*.jsonl
-!ml_pipeline/dataset/enums.py
-
-# Schema files
-!ml_pipeline/dataset/schema*.json
-!ml_pipeline/dataset/config.json
 
 # .gitkeep pour dossiers vides
 !.gitkeep
 
-# Verification progress
-!verification_tool/verification_progress.json
+# ═══════════════════════════════════════════════════
+# DONNEES REELLES CONFIDENTIELLES — NE JAMAIS POUSSER
+# ═══════════════════════════════════════════════════
 
-# Données réelles confidentielles
+# Données réelles brutes
 dataset/Donnée_réel.csv
 dataset/annotations_real_calls.csv
 dataset/annotations_real_profile.json
+dataset/400annotations_local.csv
+dataset/500annotations_local.csv
+dataset/annotations_clocal.csv
+dataset/annotations_lcocal.csv
+dataset/annotations_local.csv
+dataset/annotations_local.json
+dataset/annotations_local_profile.json
+dataset/split/
+dataset/cot_lexicon_raw.jsonl
+
+# Annotations réelles (app)
+annotation_app/dataset/annotations_local.csv
+annotation_app/dataset/annotations_local.json
+
+# Vérification des appels réels
+verification_tool/verified_export.csv
+verification_tool/verification_progress.json
+verification_tool/verification_progress_*.json
+
+# Entraînement dérivé de données réelles
+Training/manifests/
+Training/bert_classification_dataset/incident_type/train.csv
+Training/bert_classification_dataset/incident_type/test.csv
+Training/bert_classification_dataset/incident_type/val.csv
+Training/bert_classification_dataset/urgency_human/train.csv
+Training/bert_classification_dataset/urgency_human/test.csv
+Training/bert_classification_dataset/urgency_human/val.csv
+Training/qwen_extraction_dataset/
+
+# Segments audio réels
+Pretraitement/partage_memoire/segments_asr_ready.jsonl
+Pretraitement/partage_memoire/segments_gold.jsonl
+Pretraitement/partage_memoire/segments_silver.jsonl
+Pretraitement/partage_memoire/segments_reject.jsonl
+
+# Lexique extrait d'appels réels
+cot_lexicon_raw.jsonl
+
+# Enregistrements WhatsApp réels
 enregistrement/WhatsApp Audio*
